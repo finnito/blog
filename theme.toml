@@ -1,9 +1,9 @@
 name = "Spartan"
 license = "MIT"
-licenselink = ""
+licenselink = "https://gitlab.com/Finnito/hugo-spartan/blob/master/LICENSE.md"
 description = "Very small, but pretty, fork of Hugo XMin theme."
 homepage = "https://science.lesueur.nz"
-tags = ["minimal", "blog", "personal", "clean", "simple", "starter", "minimalist". "spartan"]
+tags = ["minimal", "blog", "personal", "clean", "simple", "starter", "minimalist", "spartan"]
 features = ["blog"]
 min_version = "0.18"
 
