@@ -4,4 +4,4 @@ This theme is a fork of [Hugo XMin](https://github.com/yihui/hugo-xmin) which ha
 
 ## Screenshot
 
-![Hugo - Spartan in Action](screenshot.png)
+![Hugo - Spartan in Action](https://gitlab.com/Finnito/hugo-spartan/raw/master/screenshot.PNG)
