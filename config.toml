@@ -1,0 +1,28 @@
+baseurl                 = "https://finn.lesueur.nz"
+contentdir              = "content"
+layoutdir               = "layouts"
+publishdir              = "public"
+title                   = "Finn LeSueur on the internet"
+canonifyurls            = true
+uglyurls                = false
+staticDir               = ["static"]
+
+DefaultContentLanguage  = "en"
+theme                   = "hugo-spartan"
+metaDataFormat          = "yaml"
+pygmentsUseClasses      = true
+pygmentCodeFences       = true
+
+[Params]
+  subtitle      = "Finn LeSueur on the internet."
+  logo          = "logo.png"
+  favicon       = "favicon.ico"
+  dateFormat    = "January 2, 2006"
+  commit        = true
+  rss           = true
+  comments      = false
+
+[Author]
+  name    = "Finn LeSueur"
+  email   = "finn@lesueur.nz"
+  gitlab  = "Finnito"
