@@ -8,7 +8,7 @@ uglyurls                = false
 staticDir               = ["static"]
 
 DefaultContentLanguage  = "en"
-theme                   = "hugo-spartan"
+theme                   = "hugo-finn"
 metaDataFormat          = "yaml"
 pygmentsUseClasses      = true
 pygmentCodeFences       = true
