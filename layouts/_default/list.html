@@ -1,11 +1,14 @@
 {{ partial "header.html" . }}
 
-<div class="article-meta">
-    <h1><span class="title">{{ .Title | markdownify }}</span></h1>
-</div>
-
-<main>
 {{ .Content }}
-</main>
+
+<ul>
+    <!-- Ranges through content/posts/*.md -->
+    {{ range .Pages }}
+        <li>
+            <a href="{{.Permalink}}">{{.Title}} <time>{{.Date.Format "2006-01-02"}}</time></a>
+        </li>
+    {{ end }}
+</ul>
 
 {{ partial "footer.html" . }}
