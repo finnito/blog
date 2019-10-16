@@ -2,15 +2,15 @@
 
 {{ .Content }}
 
-<ul>
+<ul class="divided">
     {{ range first 2 (where .Site.RegularPages "Section" "posts") }}
         <li>
-            <h3>
+            <h1>
                 <a href="{{ .Permalink | relURL }}" title="{{ .Title }}">
                     {{ .Title }}
                 </a>
-            </h3>
-            <time>{{.Date.Format "2006-01-02"}}</time>
+            </h1>
+            <time>{{ .PublishDate.Format "January 2, 2006" }}</time>
             {{ .Content }}
         </li>
     {{ end }}
