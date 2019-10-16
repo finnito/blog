@@ -20,6 +20,7 @@ nav {
 main {
   padding-left: 4rem;
   grid-area: content;
+  overflow: hidden;
 }
 
 footer {
@@ -32,7 +33,13 @@ nav > ul {
   padding-left: 0;
 }
 
-main > ul li {
+blockquote {
+  border-left: 3px solid #bdc3c7;
+  padding-left: 1rem;
+  margin-left: 1rem;
+}
+
+.divided > li:not(:last-child) {
   border-bottom: 1px solid #bdc3c7;
 }
 
@@ -41,7 +48,7 @@ footer {
 }
 
 h1 {
-  margin: 0.5rem auto;
+  margin: 1rem auto -0.75rem 0;
 }
 
 h2 {
@@ -56,6 +63,10 @@ a {
   color: #3498db;
   text-decoration: none;
   border-bottom: 0;
+}
+
+main a {
+  background-color: rgba(52, 152, 219, 0.1);
 }
 
 .menu {
@@ -84,7 +95,15 @@ time {
   color: #bdc3c7;
 }
 
+pre, code {
+  background-color: rgba(236, 240, 241, 0.25);
+  padding: 0.25rem;
+  border-radius: 0.25rem;
+  overflow: scroll;
+}
+
 ul li p:first-of-type,
+h2 + p,
 h3 + p,
 .sub + p {
   margin-top: 0.75rem;
