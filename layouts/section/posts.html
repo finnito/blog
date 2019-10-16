@@ -1,0 +1,16 @@
+{{ partial "header.html" . }}
+
+<div class="content">
+    {{ .Content }}
+
+    <ul>
+        <!-- Ranges through content/posts/*.md -->
+        {{ range .Data.Pages }}
+            <li>
+                <a href="{{.Permalink}}">{{.Title}} <time>{{.Date.Format "2006-01-02"}}</time></a>
+            </li>
+        {{ end }}
+    </ul>
+</div>
+
+{{ partial "footer.html" . }}

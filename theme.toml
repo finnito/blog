@@ -1,12 +1,12 @@
-name = "Spartan"
-license = "MIT"
-licenselink = "https://gitlab.com/Finnito/hugo-spartan/blob/master/LICENSE.md"
-description = "Very small, but pretty, fork of Hugo XMin theme."
-homepage = "https://science.lesueur.nz"
-tags = ["minimal", "blog", "personal", "clean", "simple", "starter", "minimalist", "spartan"]
-features = ["blog"]
-min_version = "0.18"
+name            = "Spartan"
+license         = "MIT"
+licenselink     = "https://gitlab.com/Finnito/hugo-spartan/blob/master/LICENSE.md"
+description     = "Very small, but pretty, fork of Hugo XMin theme."
+homepage        = "https://science.lesueur.nz"
+tags            = ["minimal", "blog", "personal", "clean", "simple", "starter", "minimalist", "spartan"]
+features        = ["blog"]
+min_version     = "0.18"
 
 [author]
-  name = "Finn LeSueur"
-  homepage = "https://science.lesueur.nz"
+  name      = "Finn LeSueur"
+  homepage  = "https://science.lesueur.nz"
