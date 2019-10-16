@@ -1,8 +1,4 @@
 ---
-title: Finn LeSueur
+title: Home
 date: 2019-10-02
 ---
-
-Some content.
-
-{{.Content}}
