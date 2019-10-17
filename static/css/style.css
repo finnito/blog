@@ -12,6 +12,10 @@ body {
     "footer footer";
 }
 
+p {
+  font-size: 1.1rem;
+}
+
 nav {
   grid-area: nav;
 
@@ -92,14 +96,18 @@ ul {
 time {
   font-size: 0.8rem;
   text-transform: uppercase;
-  color: #bdc3c7;
+  color: #7f8c8d;
 }
 
-pre, code {
+pre {
   background-color: rgba(236, 240, 241, 0.25);
   padding: 0.25rem;
   border-radius: 0.25rem;
   overflow: scroll;
+}
+
+code {
+  margin: 0.25rem 0;
 }
 
 ul li p:first-of-type,
