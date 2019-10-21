@@ -16,6 +16,7 @@ deploy:
   - '[[ -f /.dockerenv ]] && echo -e "Host *\n\tStrictHostKeyChecking no\n\n" > ~/.ssh/config'
   script:
     - ssh finn@45.56.84.202 "cd /srv/finn.lesueur.nz/ && git checkout master && git pull origin master --recurse-submodules && exit"
+    - ssh finn@45.56.84.202 "cd /srv/finn.lesueur.nz/ && git submodule update --remote exit"
     - ssh finn@45.56.84.202 "cd /srv/finn.lesueur.nz/ && rm -rf public/"
     - ssh finn@45.56.84.202 "cd /srv/finn.lesueur.nz/ && hugo && exit"
   only:
