@@ -1,6 +1,7 @@
 ---
 title: Building This Website
 date: 2019-10-15
+categories: ["Development"]
 ---
 
 The more I use the internet, the more opinionated I have become with regards to a few things.
