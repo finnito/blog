@@ -28,6 +28,7 @@ main {
 }
 
 footer {
+  margin-top: 1rem;
   grid-area: footer;
 }
 
@@ -45,6 +46,7 @@ blockquote {
 
 .divided > li:not(:last-child) {
   border-bottom: 1px solid #bdc3c7;
+  padding-bottom: 1rem;
 }
 
 footer {
@@ -117,10 +119,16 @@ h3 + p,
   margin-top: 0.75rem;
 }
 
-.sub {
+.sub,
+.commitInfo {
   color: gray;
   margin: -0.5rem 0;
   font-size: 0.9rem;
+}
+
+.commitInfo {
+  display: block;
+  text-align: right;
 }
 
 .emoji {
@@ -143,4 +151,59 @@ h3 + p,
   nav {
     border-bottom: 1px solid #bdc3c7;
   }
+  nav h2 {
+    margin-top: 0.5rem;
+  }
+}
+
+table {
+    /* Remove spacing between table cells (from Normalize.css) */
+    border-collapse: collapse;
+    border-spacing: 0;
+    empty-cells: show;
+    border: 1px solid #cbcbcb;
+}
+
+table caption {
+    color: #000;
+    font: italic 85%/1 arial, sans-serif;
+    padding: 1em 0;
+    text-align: center;
+}
+
+table td,
+table th {
+    /*border-left: 1px solid #cbcbcb;/*  inner column border */*/
+    border-width: 0 0 0 1px;
+    font-size: inherit;
+    margin: 0;
+    overflow: visible; /*to make ths where the title is really long work*/
+    padding: 0.5em 1em; /* cell padding */
+}
+
+table thead {
+    background-color: #e0e0e0;
+    color: #000;
+    text-align: left;
+    vertical-align: bottom;
+}
+
+table td {
+    background-color: transparent;
+}
+table td {
+    background-color: #f2f2f2;
+}
+
+/* nth-child selector for modern browsers */
+table tr:nth-child(2n-1) td {
+    background-color: #f2f2f2;
+}
+
+/* BORDERED TABLES */
+table td {
+    border-bottom: 1px solid #cbcbcb;
+}
+table tbody > tr:last-child > td {
+    border-bottom-width: 0;
 }
