@@ -1,9 +1,12 @@
   </main>
   <footer>
-  	{{ with .Site.Params.footer }}
-  <hr/>
-  	{{ . | markdownify }}
-  	{{ end }}
+    <hr/>
+    <a href="mailto:finn@lesueur.nz">Email Me</a> | <a href="/feeds/">RSS Feeds</a>
+    <span class="commitInfo">{{ with .GitInfo }}
+        Commit:
+        {{ .AbbreviatedHash }} by {{ .AuthorName }} at {{ .AuthorDate }}<br> {{ .Subject }}
+    {{ end }}
+    </span>
   </footer>
   </body>
 </html>
