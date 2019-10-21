@@ -8,7 +8,7 @@
     <style>{{ readFile "/themes/hugo-finn/static/css/min.css" | safeCSS }}</style>
     {{ range .AlternativeOutputFormats -}}
       {{ printf `<link rel="%s" type="%s" href="%s" title="%s" />` .Rel .MediaType.Type .Permalink $.Site.Title | safeHTML }}
-  {{ end -}}
+    {{ end -}}
     <link rel="sitemap" type="application/xml" title="Sitemap" href="/sitemap.xml" />
   </head>
 
