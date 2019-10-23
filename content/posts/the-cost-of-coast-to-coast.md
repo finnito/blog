@@ -51,3 +51,4 @@ Coast to Coast is a 243km multisport race from the West Coast of New Zealand to 
 | Coaching | | |
 | Physio | | |
 | Indoor Bike Trainer | | |
+| Heart rate monitor | | |
