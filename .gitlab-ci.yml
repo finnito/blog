@@ -19,7 +19,6 @@ deploy:
     - ssh finn@104.200.25.232 "cd /srv/finn.lesueur.nz/ && git submodule update --remote && exit"
     - ssh finn@104.200.25.232 "cd /srv/finn.lesueur.nz/ && rm -rf public/ && exit"
     - ssh finn@104.200.25.232 "cd /srv/finn.lesueur.nz/ && hugo && exit"
-    - ssh finn@104.200.25.232 "chown -R www-data /srv/finn.lesueur.nz/ && exit"
   only:
     - master
   artifacts:
