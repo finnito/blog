@@ -15,11 +15,11 @@ deploy:
   - mkdir -p ~/.ssh
   - '[[ -f /.dockerenv ]] && echo -e "Host *\n\tStrictHostKeyChecking no\n\n" > ~/.ssh/config'
   script:
-    - ssh root@104.200.25.232 "cd /srv/finn.lesueur.nz/ && git checkout master && git pull origin master --recurse-submodules && exit"
-    - ssh root@104.200.25.232 "cd /srv/finn.lesueur.nz/ && git submodule update --remote && exit"
-    - ssh root@104.200.25.232 "cd /srv/finn.lesueur.nz/ && rm -rf public/ && exit"
-    - ssh root@104.200.25.232 "cd /srv/finn.lesueur.nz/ && hugo && exit"
-    - ssh root@104.200.25.232 "chown -R www-data /srv/finn.lesueur.nz/ && exit"
+    - ssh -i /root/.ssh/id_rsa root@104.200.25.232 "cd /srv/finn.lesueur.nz/ && git checkout master && git pull origin master --recurse-submodules && exit"
+    - ssh -i /root/.ssh/id_rsa root@104.200.25.232 "cd /srv/finn.lesueur.nz/ && git submodule update --remote && exit"
+    - ssh -i /root/.ssh/id_rsa root@104.200.25.232 "cd /srv/finn.lesueur.nz/ && rm -rf public/ && exit"
+    - ssh -i /root/.ssh/id_rsa root@104.200.25.232 "cd /srv/finn.lesueur.nz/ && hugo && exit"
+    - ssh -i /root/.ssh/id_rsa root@104.200.25.232 "chown -R www-data /srv/finn.lesueur.nz/ && exit"
   only:
     - master
   artifacts:
