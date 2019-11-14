@@ -1,6 +1,6 @@
 ---
 title: Deploying using Gitlab CI and SSH
-date: 2019-11-14
+date: 2019-11-14T19:38:06+13:00
 categories: ["Development"]
 draft: false
 ---
