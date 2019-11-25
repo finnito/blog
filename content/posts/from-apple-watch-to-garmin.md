@@ -1,6 +1,6 @@
 ---
 title: From Apple Watch to Garmin
-date: 2019-11-14
+date: 2019-11-14T23:31:20+13:00
 categories: ["Sport", "Technology"]
 draft: true
 ---
