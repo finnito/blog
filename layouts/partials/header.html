@@ -27,7 +27,7 @@
     <!-- End Matomo Code -->
   </head>
 
-  <body>
+  <body class='{{ if eq .Params.layout "gps" }}gps{{ end }}'>
     <nav>
       <h2>Finn LeSueur</h2>
       <p>I am a Science and Physics teacher from Christchurch, New Zealand who writes code in his spare time, but would really rather be outside doing almost any type of outdoor activity.</p>
@@ -41,4 +41,7 @@
       </ul>
       <p class="emoji">🏔 🏃‍♂️ 🎿 🛶 🚴‍♂️ 🧗 🧘‍♂️</p>
     </nav>
+    {{ if eq .Params.layout "gps" }}
+    <div id="hikeMap"></div>
+    {{ end }}
     <main>
