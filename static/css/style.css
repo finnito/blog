@@ -11,6 +11,8 @@ body {
     "map map"
     "nav content"
     "footer footer";
+  transition: all 300ms;
+  overflow-x: hidden;
 }
 
 body.gps {
@@ -56,6 +58,85 @@ blockquote {
 
 footer {
   flex-grow: 1;
+}
+
+input[type=checkbox].toggle,
+.hamburger {
+    position: absolute;
+    right: 1.5rem;
+    top: calc(( 4rem - 28px + 8px) / 2);
+    margin: 0;
+    width: 28px;
+    height: 28px;
+}
+
+.hamburger {
+    z-index: 99999;
+}
+
+.hamburger span {
+    height: 4px;
+    border-radius: 2px;
+    background-color: white;
+    margin-bottom: 5px;
+    display: block;
+    transition: all 500ms;
+}
+
+.hamburger span:last-child {
+    margin-bottom: 0;
+}
+
+.toggle {
+    z-index: 9999999;
+    opacity: 0;
+}
+
+.toggle:hover {
+    cursor: pointer;
+}
+
+.toggle ~ .nav-wrapper {
+    transform: translateX(150%);
+}
+
+.toggle:checked ~ .nav-wrapper {
+    transform: translateX(0);
+}
+
+.toggle:checked ~ .hamburger span {
+    transition: all 300ms;
+}
+
+.toggle:checked ~ .hamburger span:nth-child(1) {
+    transform: translateY(9px) rotateZ(45deg);
+}
+
+.toggle:checked ~ .hamburger span:nth-child(2) {
+    transform: translateX(50%);
+    opacity: 0;
+}
+
+.toggle:checked ~ .hamburger span:nth-child(3) {
+    transform: translateY(-9px) rotateZ(-45deg)
+}
+
+.nav-wrapper {
+  width: 100vw;
+  position: absolute;
+  left: 0;
+  height: calc(100vh - 4rem);
+  top: 4rem;
+  transition: all 300ms;
+  padding: 1rem;
+  box-sizing: border-box;
+  overflow-y: scroll;
+  text-align: left;
+  background-color: rgb(51, 51, 51);
+}
+
+.nav-wrapper ul {
+  list-style: none;
 }
 
 h1 {
@@ -124,16 +205,10 @@ h3 + p,
   margin-top: 0.75rem;
 }
 
-.sub,
-.commitInfo {
+.sub {
   color: gray;
   margin: -0.5rem 0;
   font-size: 0.9rem;
-}
-
-.commitInfo {
-  display: block;
-  text-align: right;
 }
 
 .emoji {
@@ -159,6 +234,21 @@ h3 + p,
   #hike-map {
     left: calc((100vw - 100%)/-2);
   }
+  .toggle ~ .nav-wrapper {
+    transform: none;
+  }
+
+  .nav-wrapper {
+    position: relative;
+    transform: translateX(0);
+    height: auto;
+    top: 0;
+    width: auto;
+    padding: 0;
+  }
+  .mobile {
+    display: none;
+  }
 }
 
 @media (max-width: 768px) {
@@ -179,6 +269,7 @@ h3 + p,
     border-bottom: 1px solid #bdc3c7;
   }
   nav h2 {
+    margin-bottom: 0.5rem;
     margin-top: 0.5rem;
   }
 }
@@ -238,7 +329,17 @@ table tbody > tr:last-child > td {
 @media (prefers-color-scheme: dark) {
   body {
     background-color: #3d3d3d;
-    color: #f2f2f2;
+    color: white;
+  }
+  a {
+    color: #4bcffa;
+  }
+  time {
+    color: #d2dae2;
+  }
+  pre {
+    background-color: #f5f6fa;
+    color: black;
   }
   table thead {
     background-color: transparent;
@@ -248,5 +349,8 @@ table tbody > tr:last-child > td {
   }
   table tr:nth-child(2n-1) td {
       background-color: transparent;
+  }
+  .nav-wrapper {
+    background-color: #3d3d3d;
   }
 }
