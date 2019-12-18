@@ -1,6 +1,6 @@
 ---
 title: Building This Website
-date: 2019-10-15
+date: 2019-10-15T19:38:06+13:00
 categories: ["Development"]
 ---
 
