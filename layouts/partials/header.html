@@ -20,8 +20,8 @@
       <meta property="twitter:description" content="{{ .Params.metaDescription }}">
     {{ end }}
     {{ if .Params.metaImageURL }}
-      <meta property="og:image" content="{{ .Params.metaImageURL }}">
-      <meta property="twitter:image" content="{{ .Params.metaImageURL }}">
+      <meta property="og:image" content="{{ .Permalink }}{{ .Params.metaImageURL }}">
+      <meta property="twitter:image" content="{{ .Permalink }}{{ .Params.metaImageURL }}">
     {{ end }}
     <meta property="og:type" content="website">
     <meta property="og:url" content="{{ .Permalink }}">
