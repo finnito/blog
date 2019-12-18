@@ -3,6 +3,7 @@ title: "PyroCMS 3: Creating Themes"
 date: 2019-12-18T10:03:51+13:00
 categories: ["Development", "PyroCMS"]
 metaDescription: The start of a journey in learning how to create and work with themes in PyroCMS 3. Using artisan, composer and some PyroCMS multisite tips.
+metaImageURL: "2018-05-26-PyroCMS-Creating-Themes.png"
 ---
 
 The start of my journey with [PryoCMS 3][pyro-3] was learning how to make custom themes. I originally learned how to develop with [PyroCMS 2.2][pyro-2] where I did not need to use the command line to create themes; it was entirely file-based. [PyroCMS 3][pyro-3] was entirely different!
