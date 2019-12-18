@@ -47,16 +47,24 @@
   <body class='{{ if eq .Params.layout "gps" }}gps{{ end }}'>
     <nav>
       <h2>Finn LeSueur</h2>
-      <p>I am a Science and Physics teacher from Christchurch, New Zealand who writes code in his spare time, but would really rather be outside doing almost any type of outdoor activity.</p>
-      <ul class="menu">
-        {{ $currentPage := . }}
-        {{ range .Site.Menus.main }}
-        <li class='{{if or ($currentPage.IsMenuCurrent "main" .) ($currentPage.HasMenuCurrent "main" .) }} active{{end}}'>
-          <a href="{{ .URL | relURL }}">{{ .Name }}</a>
-        </li>
-        {{ end }}
-      </ul>
-      <p class="emoji">🏔 🏃‍♂️ 🎿 🛶 🚴‍♂️ 🧗 🧘‍♂️</p>
+        <input class="toggle mobile" type="checkbox"/>
+        <div class="hamburger mobile">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <div class="nav-wrapper">
+          <p>I am a Science and Physics teacher from Christchurch, New Zealand who writes code in his spare time, but would really rather be outside doing almost any type of outdoor activity.</p>
+          <ul class="menu">
+            {{ $currentPage := . }}
+            {{ range .Site.Menus.main }}
+            <li class='{{if or ($currentPage.IsMenuCurrent "main" .) ($currentPage.HasMenuCurrent "main" .) }} active{{end}}'>
+              <a href="{{ .URL | relURL }}">{{ .Name }}</a>
+            </li>
+            {{ end }}
+          </ul>
+          <p class="emoji">🏔 🏃‍♂️ 🎿 🛶 🚴‍♂️ 🧗 🧘‍♂️</p>
+      </div>
     </nav>
     {{ if eq .Params.layout "gps" }}
     <div id="hikeMap"></div>
