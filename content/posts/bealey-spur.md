@@ -1,6 +1,6 @@
 ---
 title: Bealey Spur
-date: 2019-12-17T21:23:59+13:00
+date: 2019-01-15T21:23:59+13:00
 categories: ["Hiking"]
 type: "post"
 layout: "gps"

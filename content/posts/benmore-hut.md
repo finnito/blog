@@ -1,6 +1,6 @@
 ---
 title: Benmore Hut
-date: 2019-12-17T21:29:55+13:00
+date: 2019-02-17T21:29:55+13:00
 categories: ["Hiking"]
 type: "post"
 layout: "gps"

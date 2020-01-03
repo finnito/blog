@@ -1,6 +1,6 @@
 ---
 title: "Fixing Unexpected character & in the PyroCMS 3 Markdown Field"
-date: 2019-12-18T14:03:56+13:00
+date: 2018-08-30T14:03:56+13:00
 categories: ["Development", "PyroCMS"]
 metaDescription: "Getting Unexpected character '&' when parsing Twig in the PyroCMS 3 Markdown Field? Make sure you use single quotes instead of double quotes in the plugin! "
 metaImageURL: "PyroCMS-Addons.png"
@@ -34,7 +34,6 @@ I discovered this after trying numerous things including escaping, raw output, H
 
 // Don’t Do This
 {{ guide_image("your-image.jpg")|raw }}
-
 ```
 
 This fixed it for me and I have not had any problems since!

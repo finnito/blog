@@ -1,6 +1,6 @@
 ---
 title: "PyroCMS 3: Twig Template Variables"
-date: 2019-12-18T13:54:59+13:00
+date: 2018-08-23T13:54:59+13:00
 categories: ["Development", "PyroCMS"]
 metaDescription: "Learn the basics about how to use Twig template variables with PyroCMS 3 and supercharge your theme-creation powers!"
 metaImageURL: "Twig-Variables.png"
