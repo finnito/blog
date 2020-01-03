@@ -3,7 +3,7 @@
 {{ .Content }}
 
 <ul class="divided">
-    {{ range first 2 (where .Site.RegularPages "Section" "posts") }}
+    {{ range first 1 (where .Site.RegularPages "Section" "posts") }}
         <li>
             <h1>
                 <a href="{{ .Permalink | relURL }}" title="{{ .Title }}">
