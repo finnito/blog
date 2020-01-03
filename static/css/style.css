@@ -82,7 +82,7 @@ input[type=checkbox].toggle,
 .hamburger span {
     height: 4px;
     border-radius: 2px;
-    background-color: white;
+    background-color: rgb(51, 51, 51);
     margin-bottom: 5px;
     display: block;
     transition: all 500ms;
@@ -131,13 +131,13 @@ input[type=checkbox].toggle,
   position: absolute;
   left: 0;
   height: calc(100vh - 4rem);
-  top: 4rem;
+  top: 4.5rem;
   transition: all 300ms;
   padding: 1rem;
   box-sizing: border-box;
   overflow-y: scroll;
   text-align: left;
-  background-color: rgb(51, 51, 51);
+  background-color: white;
 }
 
 .nav-wrapper ul {
@@ -162,9 +162,9 @@ a {
   border-bottom: 0;
 }
 
-main a {
+/*main a {
   background-color: rgba(52, 152, 219, 0.1);
-}
+}*/
 
 .menu {
   padding: 0;
@@ -193,10 +193,13 @@ time {
 }
 
 pre {
-  background-color: rgba(236, 240, 241, 0.25);
+  background: #4CA1AF;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(-135deg, #C4E0E5, #4CA1AF);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(-135deg, #C4E0E5, #4CA1AF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   padding: 0.25rem;
   border-radius: 0.25rem;
   overflow: scroll;
+  color: white;
 }
 
 code {
@@ -233,50 +236,6 @@ h3 + p,
 
 .hike-stats p {
   font-size: 0.8rem;
-}
-
-@media (min-width: 768px) {
-  #hike-map {
-    left: calc((100vw - 100%)/-2);
-  }
-  .toggle ~ .nav-wrapper {
-    transform: none;
-  }
-
-  .nav-wrapper {
-    position: relative;
-    transform: translateX(0);
-    height: auto;
-    top: 0;
-    width: auto;
-    padding: 0;
-  }
-  .mobile {
-    display: none;
-  }
-}
-
-@media (max-width: 768px) {
-  body {
-    grid-template-areas:
-      "nav"
-      "map"
-      "content"
-      "footer";
-      grid-template-columns: 1fr;
-  }
-
-  main {
-    padding-left: 0;
-  }
-
-  nav {
-    border-bottom: 1px solid #bdc3c7;
-  }
-  nav h2 {
-    margin-bottom: 0.5rem;
-    margin-top: 0.5rem;
-  }
 }
 
 table {
@@ -344,7 +303,7 @@ table tbody > tr:last-child > td {
   }
   pre {
     background-color: #f5f6fa;
-    color: black;
+    /*color: black;*/
   }
   table thead {
     background-color: transparent;
@@ -357,5 +316,53 @@ table tbody > tr:last-child > td {
   }
   .nav-wrapper {
     background-color: #3d3d3d;
+  }
+
+  .hamburger span {
+    background-color: white;
+  }
+}
+
+@media (min-width: 768px) {
+  #hike-map {
+    left: calc((100vw - 100%)/-2);
+  }
+  .toggle ~ .nav-wrapper {
+    transform: none;
+  }
+
+  .nav-wrapper {
+    position: relative;
+    transform: translateX(0);
+    height: auto;
+    top: 0;
+    width: auto;
+    padding: 0;
+  }
+  .mobile {
+    display: none;
+  }
+}
+
+@media (max-width: 768px) {
+  body {
+    grid-template-areas:
+      "nav"
+      "map"
+      "content"
+      "footer";
+      grid-template-columns: 1fr;
+  }
+
+  main {
+    padding-left: 0;
+  }
+
+  nav {
+    border-bottom: 1px solid #bdc3c7;
+  }
+  nav h2 {
+    margin-bottom: 0.5rem;
+    margin-top: 0.5rem;
   }
 }
