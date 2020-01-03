@@ -1,6 +1,6 @@
 ---
 title: Double Hut
-date: 2019-12-05T09:08:12+13:00
+date: 2019-03-03T09:08:12+13:00
 categories: ["Hiking"]
 type: "post"
 layout: "gps"

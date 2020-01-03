@@ -1,6 +1,6 @@
 ---
 title: Mt Herbert from Kaituna Valley
-date: 2019-12-17T21:28:00+13:00
+date: 2019-02-08T21:28:00+13:00
 categories: ["Hiking"]
 type: "post"
 layout: "gps"
