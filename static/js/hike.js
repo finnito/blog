@@ -146,6 +146,7 @@ function parseGPXElevationData() {
  **/
 function initScatterPlot() {
     var ctx = document.getElementById("elevationProfile");
+    ctx.height = 500;
     ElevationChart = new Chart(ctx, {
         type: 'scatter',
         data: {
