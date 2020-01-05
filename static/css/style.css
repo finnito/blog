@@ -11,13 +11,20 @@ body {
   max-width: 1024px;
   margin: auto;
   padding: 0.5em;
-  display: grid;
+  display: block;
   grid-template-columns: minmax(auto, 250px) 1fr;
   grid-template-areas:
     "map map"
     "nav content"
     "footer footer";
   transition: all 300ms;
+}
+
+main img {
+  border-radius: 0.25rem;
+  max-width: 100%;
+  overflow: hidden;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
 }
 
 body.gps {
@@ -131,13 +138,14 @@ input[type=checkbox].toggle,
   position: absolute;
   left: 0;
   height: calc(100vh - 4rem);
-  top: 4.5rem;
+  top: 3.7rem;
   transition: all 300ms;
   padding: 1rem;
   box-sizing: border-box;
   overflow-y: scroll;
   text-align: left;
   background-color: white;
+  z-index: 999999;
 }
 
 .nav-wrapper ul {
@@ -235,7 +243,7 @@ h3 + p,
   height: 50vh;
   grid-area: map;
   width: 100vw;
-  left: calc((100vw - 100% + 1rem)/-2);
+  left: calc((100vw - 100%)/-2);
 }
 
 .chart-container {
@@ -321,46 +329,16 @@ li.hiking::before {
   content: "🏔";
 }
 
-@media (prefers-color-scheme: dark) {
-  body {
-    background-color: #3d3d3d;
-    color: white;
-  }
-  a {
-    color: #4bcffa;
-  }
-  a.home {
-    color: white;
-  }
-  time {
-    color: #d2dae2;
-  }
-  pre {
-    background-color: #f5f6fa;
-    /*color: black;*/
-  }
-  table thead {
-    background-color: transparent;
-  }
-  table td {
-      background-color: transparent;
-  }
-  table tr:nth-child(2n-1) td {
-      background-color: transparent;
-  }
-  .nav-wrapper {
-    background-color: #3d3d3d;
-  }
-
-  .hamburger span {
-    background-color: white;
-  }
-}
-
 @media (min-width: 768px) {
-  #hike-map {
-    left: calc((100vw - 100%)/-2);
+  html, body {
+    overflow-x: visible;
   }
+  body {
+    display: grid;
+  }
+  /*#hikeMap {
+    left: calc((100vw - 100%)/-2);
+  }*/
   .toggle ~ .nav-wrapper {
     transform: none;
   }
@@ -398,5 +376,41 @@ li.hiking::before {
   nav h2 {
     margin-bottom: 0.5rem;
     margin-top: 0.5rem;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: #3d3d3d;
+    color: white;
+  }
+  a {
+    color: #4bcffa;
+  }
+  a.home {
+    color: white;
+  }
+  time {
+    color: #d2dae2;
+  }
+  pre {
+    background-color: #f5f6fa;
+    /*color: black;*/
+  }
+  table thead {
+    background-color: transparent;
+  }
+  table td {
+      background-color: transparent;
+  }
+  table tr:nth-child(2n-1) td {
+      background-color: transparent;
+  }
+  .nav-wrapper {
+    background-color: #3d3d3d;
+  }
+
+  .hamburger span {
+    background-color: white;
   }
 }
