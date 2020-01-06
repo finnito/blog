@@ -1,5 +1,6 @@
 ---
 title: Craigieburn Forest Park
+slug = "craigieburn-forest-park"
 date: 2020-01-04T13:53:53+13:00
 categories: ["Hiking"]
 type: "post"
@@ -21,7 +22,7 @@ The posted DOC time for this 2.1km (~345m gain) uphill track is 45 minutes, but 
 
 The posted DOC time for this 0.5km (~115m gain) is 15min, and due to its steepness, this is actually pretty accurate! A first for DOC, perhaps.
 
-![Jen at Helicopter Hill](helicopter-hill.jpg)
+![Jen at Helicopter Hill](2020-01-01-helicopter-hill.jpg)
 
 ## 3: Lyndon Saddle to Broken River Road (Luge Track)
 
