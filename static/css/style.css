@@ -314,7 +314,10 @@ table tbody > tr:last-child > td {
   list-style: none;
 }
 
-li.sport::before, li.development::before, li.hiking::before {
+li.sport::before,
+li.development::before,
+li.hiking::before,
+li.writing::before {
   margin-right: 0.5rem;
 }
 
@@ -327,6 +330,10 @@ li.development::before {
 
 li.hiking::before {
   content: "🏔";
+}
+
+li.writing::before {
+  content: "📚";
 }
 
 @media (min-width: 768px) {
