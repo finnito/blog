@@ -2,11 +2,11 @@
 
 title: 2019 in Review
 slug: 2019-in-review
-date: 2020-01-04T13:53:53+13:00
+date: 2020-01-07T18:14:40+13:00
 categories: ["Writing"]
 type: "post"
 metaDescription: "2019 has been a big year - everything from moving out, my first job and 400+ hours of exercise."
-metaImageURL: "/img/"
+metaImageURL: "/posts/2020-01-07-2019-in-review/year-in-sport.jpeg"
 draft: true
 
 ---
@@ -19,7 +19,7 @@ It has been a big year this year. I finished off 2018 by moving out of home, jus
 
 It has been really exciting and rewarding to be finally in the workforce (and to get paid, if I'm honest). I mucked around at University for 6 years in the end, so it was nice to properly join the adult world.
 
-Teaching, as in all jobs, has its ups and down, its period of stress and periods in the duldrums. But, it has consistently challenged me throughout the year, made me aware of some of my foibles and some of my strengths. There have been more than a few me late nights and early mornings trying to get ready for day, trying to finish marking or to write reports.
+Teaching, as in all jobs, has its ups and down, its period of stress and periods in the [doldrums](https://en.wikipedia.org/wiki/Intertropical_Convergence_Zone). But, it has consistently challenged me throughout the year, made me aware of some of my foibles and some of my strengths. There have been more than a few me late nights and early mornings trying to get ready for day, trying to finish marking or to write reports.
 
 It has been hard.
 
@@ -43,7 +43,7 @@ I'm not entirely sure where my want to do Coast to Coast came from. I know that 
 
 I contacted a local legend of a runner and multisporter, Martin Lukes and managed to get him as a coach for the year. Stoked! He helped me plan my training throughout the year - and what a year it has been.
 
-![2019 Year in Sport](/img/2019-01-07-year-in-sport.jpeg)
+![2019 Year in Sport](/posts/2020-01-07-2019-in-review/year-in-sport.jpeg)
 
 My training played a huge role in my 2019 Year Theme: __Choose to be Outside__. I would class it as a great success! I did not aim to look different, lose body fat or get an 8-pack, I just wanted to be outside. Outside is where I am happy and it is where I love to be.
 
