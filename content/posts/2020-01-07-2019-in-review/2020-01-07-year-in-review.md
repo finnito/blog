@@ -7,7 +7,6 @@ categories: ["Writing"]
 type: "post"
 metaDescription: "2019 has been a big year - everything from moving out, my first job and 400+ hours of exercise."
 metaImageURL: "/posts/2020-01-07-2019-in-review/year-in-sport.jpeg"
-draft: true
 
 ---
 
