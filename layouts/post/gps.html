@@ -5,36 +5,12 @@
         <h1><span class="title">{{ .Title | markdownify }}</span></h1>
     </div>
 
-    <div class="chart-container">
-        <canvas id="elevationProfile" height="200" width="1200"></canvas>
-    </div>
-
-    <div class="hike-stats">
-        <p>
-            <strong>Hike Stats</strong><br>
-            <span class="distance">
-                Distance: <span class="dynamic"></span>
-            </span><br>
-            <span class="duration">
-                Duration: <span class="dynamic"></span>
-            </span><br>
-            <span class="speed">
-                Pace: <span class="dynamic"></span>
-            </span><br>
-            <span class="elev">
-                Ascent: <span class="dynamic"></span>
-            </span><br>
-            <span class="climb">
-                Climb & Descent: <span class="dynamic"></span>
-            </span><br>
-        </p>
-    </div>
-
     {{ .Content }}
 </div>
 
 <script>
     var GPXFileURL = "{{ .Params.GPXFileURL }}",
+        GPXFiles = {{ .Params.GPXFiles }},
         StartPinURL = "/img/pin-icon-start.png",
         EndPinURL = "/img/pin-icon-end.png",
         RetinaMarkerIconURL = "/img/marker-icon-2x.png",
