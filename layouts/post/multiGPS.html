@@ -10,7 +10,7 @@
 </div>
 
 <script>
-    var GPXFileURL = "{{ .Params.GPXFileURL }}",
+    var GPXFiles = {{ .Params.GPXFiles }},
         StartPinURL = "/img/pin-icon-start.png",
         EndPinURL = "/img/pin-icon-end.png",
         RetinaMarkerIconURL = "/img/marker-icon-2x.png",
@@ -27,6 +27,6 @@
    crossorigin=""></script>
 <script src="/js/gpx.min.js"></script> 
 <script src="/js/chart.min.js"></script>
-<script src="/js/singleHike.js"></script>
+<script src="/js/multiHike.js"></script>
 
 {{ partial "footer.html" . }}
