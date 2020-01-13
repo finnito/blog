@@ -43,7 +43,7 @@ nav {
 main {
   padding-left: 4rem;
   grid-area: content;
-  overflow: hidden;
+  /*overflow: hidden;*/
 }
 
 footer {
