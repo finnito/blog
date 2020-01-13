@@ -117,7 +117,7 @@ function addHikeStats(Data) {
         </span>
     </p>
     <div class="chart-container">
-        <canvas id="elevationProfile" height="200" width="1200"></canvas>
+        <canvas id="elevationProfile"></canvas>
     </div>`;
 
     // Distance
@@ -212,6 +212,7 @@ function initScatterPlot(Data, elevationData) {
                 ]
             },
             options: {
+                maintainAspectRatio: false,
                 scales: {
                     yAxes: [{
                         scaleLabel: {
@@ -239,7 +240,6 @@ function initScatterPlot(Data, elevationData) {
                         }
                     }]
                 },
-                maintainAspectRatio: false,
                 customLine: {
                     color: '#009432'
                 },
