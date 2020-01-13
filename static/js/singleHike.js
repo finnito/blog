@@ -103,8 +103,8 @@ function addHikeStats() {
     var elevGain = parseFloat(GPXData.get_elevation_gain().toFixed(0));
     var elevLoss = parseFloat(GPXData.get_elevation_loss().toFixed(0));
     // var elevNet = elevGain - elevLoss;
-    document.querySelector(".elev .dynamic").textContent = ascent.toLocaleString() + "m";
-    document.querySelector(".climb .dynamic").textContent = elevGain.toLocaleString() + "m (" + elevLoss.toLocaleString() + "m)";
+    // document.querySelector(".elev .dynamic").textContent = ascent.toLocaleString() + "m";
+    document.querySelector(".climb .dynamic").textContent = "(" + elevGain.toLocaleString() + "m ⬆️ " + elevLoss.toLocaleString() + "m ⬇️)";
 }
 
 /**

@@ -50,7 +50,7 @@
           <p class="emoji">🏔 🏃‍♂️ 🎿 🛶 🚴‍♂️ 🧗 🧘‍♂️</p>
       </div>
     </nav>
-    {{ if eq .Params.layout "gps" }}
+    {{ if in "gps multiGPS" .Params.layout }}
     <div id="hikeMap"></div>
     {{ end }}
     <main>

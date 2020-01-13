@@ -4,8 +4,23 @@
     <div class="article-meta">
         <h1><span class="title">{{ .Title | markdownify }}</span></h1>
     </div>
-    <div id="hikeMap"></div>
-
+    <p class="hike-stats">
+        <span class="distance">
+            <span class="dynamic"></span>
+        </span>
+        <span class="climb">
+            <span class="dynamic"></span>
+        </span> in 
+        <span class="duration">
+            <span class="dynamic"></span>
+        </span> @ 
+        <span class="speed">
+            <span class="dynamic"></span>
+        </span>
+    </p>
+    <div class="chart-container">
+        <canvas id="elevationProfile" height="200" width="1200"></canvas>
+    </div>
     {{ .Content }}
 </div>
 
