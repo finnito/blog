@@ -33,11 +33,15 @@ body.gps {
 
 p {
   font-size: 1.1rem;
+  margin-top: 0;
+}
+
+figure {
+  margin: auto 0 1rem 0;
 }
 
 nav {
   grid-area: nav;
-
 }
 
 main {
@@ -202,7 +206,7 @@ ul {
   margin-top: 0;
 }
 
-time {
+time, figcaption {
   font-size: 0.6rem;
   text-transform: uppercase;
   color: #7f8c8d;
@@ -397,7 +401,7 @@ li.writing::before {
   a.home {
     color: white;
   }
-  time {
+  time, figcaption {
     color: #d2dae2;
   }
   pre {
