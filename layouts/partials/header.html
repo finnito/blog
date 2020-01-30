@@ -28,7 +28,11 @@
     <meta property="twitter:url" content="{{ .Permalink }}">
   </head>
 
-  <body class='{{ if eq .Params.layout "gps" }}gps{{ end }}'>
+{{ if in "gps multiGPS" .Params.layout }}
+  <body class="gps">
+{{ else }}
+  <body>
+{{ end }}
     <nav>
       <h2><a href="/" class="home">Finn LeSueur</a></h2>
         <input class="toggle mobile" type="checkbox"/>
