@@ -4,4 +4,4 @@ This theme is a fork of [Hugo XMin](https://github.com/yihui/hugo-xmin) which ha
 
 ## Screenshot
 
-![Hugo - Finn in Action](https://gitlab.com/Finnito/hugo-finn/raw/master/screenshot.png)
+![Hugo - Finn in Action](https://gitlab.com/Finnito/hugo-finn/blob/master/screenshot.PNG)
