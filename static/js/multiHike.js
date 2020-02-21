@@ -68,6 +68,8 @@ function asyncProcessGPXData(Data) {
  **/
 function addGPXTracks() {
 
+    trackGroup = new L.featureGroup();
+
     for (var i = 0; i < GPXFiles.length; i++) {
         var path = GPXFiles[i];
         GPXTracks = new L.GPX(GPXFiles[i], {
@@ -85,7 +87,8 @@ function addGPXTracks() {
             },
             path: GPXFiles[i]
         }).on('loaded', function(e) {
-            HikeMap.fitBounds(e.target.getBounds());
+            trackGroup.addLayer(e.target);
+            HikeMap.fitBounds(trackGroup.getBounds());
             asyncProcessGPXData(e.target);
         }).addTo(HikeMap);
     }
@@ -196,7 +199,7 @@ function initScatterPlot(Data, elevationData) {
     var container = document.getElementById(name);
     var ctx = container.querySelector("canvas");
     if (typeof ctx !== "undefined") {
-        ctx.height = 300;
+        ctx.height = 150;
         ElevationChart = new Chart(ctx, {
             type: 'scatter',
             data: {
@@ -232,11 +235,7 @@ function initScatterPlot(Data, elevationData) {
                         },
                         ticks: {
                             min: 0,
-                            max: parseFloat(ElevationData[ElevationData.length - 1].x),
-                            callback: function(value, index, values) {
-                                console.log(value, index, values);
-                                return value.toLocaleString() + "km";
-                            }
+                            max: parseFloat(ElevationData[ElevationData.length - 1].x)
                         }
                     }]
                 },
