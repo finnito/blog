@@ -1,7 +1,7 @@
 ---
 title: "The Heaphy"
 slug: "the-heaphy"
-date: 2020-02-05T23:59:27+13:00
+date: 2020-02-21T19:47:58+13:00
 categories: ["Hiking"]
 type: "post"
 layout: "multiGPS"
