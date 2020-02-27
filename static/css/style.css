@@ -75,27 +75,44 @@ footer {
   flex-grow: 1;
 }
 
+input[type=checkbox].toggle {
+  width: 75px;
+  height: 34px;
+}
+
 input[type=checkbox].toggle,
 .hamburger {
     position: absolute;
-    right: 1.5rem;
-    top: calc(( 4rem - 28px + 8px) / 2);
+    right: 0.5rem;
+    top: 1.2rem;
     margin: 0;
-    width: 28px;
-    height: 28px;
+    /*width: 28px;
+    height: 28px;*/
 }
 
 .hamburger {
     z-index: 99999;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.1), 0 3px 6px rgba(0,0,0,0.15);
+    display: flex;
+    align-items: center;
+    padding: 0.5rem;
+    border-radius: 1rem;
+}
+
+.hamburger p {
+  margin: 0 0 0 0.25rem;
+  line-height: 1;
+  font-weight: 500;
 }
 
 .hamburger span {
-    height: 4px;
+    height: 2px;
     border-radius: 2px;
     background-color: rgb(51, 51, 51);
-    margin-bottom: 5px;
+    margin-bottom: 2px;
     display: block;
     transition: all 500ms;
+    width: 10px;
 }
 
 .hamburger span:last-child {
@@ -124,7 +141,7 @@ input[type=checkbox].toggle,
 }
 
 .toggle:checked ~ .hamburger span:nth-child(1) {
-    transform: translateY(9px) rotateZ(45deg);
+    transform: translateY(5px) rotateZ(45deg);
 }
 
 .toggle:checked ~ .hamburger span:nth-child(2) {
@@ -133,7 +150,7 @@ input[type=checkbox].toggle,
 }
 
 .toggle:checked ~ .hamburger span:nth-child(3) {
-    transform: translateY(-9px) rotateZ(-45deg)
+    transform: translateY(-3px) rotateZ(-45deg)
 }
 
 .nav-wrapper {
@@ -426,5 +443,8 @@ li.writing::before {
 
   .hamburger span {
     background-color: white;
+  }
+  .hamburger {
+    box-shadow: none;
   }
 }
