@@ -100,7 +100,7 @@ input[type=checkbox].toggle,
 
 .hamburger {
     z-index: 99999;
-    box-shadow: 0 3px 6px rgba(0,0,0,0.1), 0 3px 6px rgba(0,0,0,0.15);
+    box-shadow: 0 0px 15px rgba(0,0,0,0.15);
     display: flex;
     align-items: center;
     padding: 0.5rem;
@@ -182,6 +182,7 @@ input[type=checkbox].toggle,
 
 h1 {
   margin: 1rem auto -0.75rem 0;
+  line-height: 1.25;
 }
 
 h2 {
