@@ -99,7 +99,7 @@ input[type=checkbox].toggle,
 }
 
 .hamburger {
-    z-index: 99999;
+    z-index: 9999999;
     box-shadow: 0 0px 15px rgba(0,0,0,0.15);
     display: flex;
     align-items: center;
@@ -165,8 +165,8 @@ input[type=checkbox].toggle,
   width: 100vw;
   position: absolute;
   left: 0;
-  height: calc(100vh - 4rem);
-  top: 3.7rem;
+  height: calc(100vh - 4.2rem);
+  top: 4.2rem;
   transition: all 300ms;
   padding: 1rem;
   box-sizing: border-box;
@@ -181,7 +181,7 @@ input[type=checkbox].toggle,
 }
 
 h1 {
-  margin: 1rem auto -0.75rem 0;
+  /*margin: 1rem auto -0.75rem 0;*/
   line-height: 1.25;
 }
 
