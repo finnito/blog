@@ -86,6 +86,7 @@ footer {
 input[type=checkbox].toggle {
   width: 75px;
   height: 34px;
+  z-index: 99999999;
 }
 
 input[type=checkbox].toggle,
