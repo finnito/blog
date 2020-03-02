@@ -171,7 +171,7 @@ input[type=checkbox].toggle,
   transition: all 300ms;
   padding: 1rem;
   box-sizing: border-box;
-  overflow-y: scroll;
+  overflow-y: auto;
   text-align: left;
   background-color: white;
   z-index: 999999;
@@ -184,6 +184,7 @@ input[type=checkbox].toggle,
 h1 {
   /*margin: 1rem auto -0.75rem 0;*/
   line-height: 1.25;
+  margin-bottom: 0;
 }
 
 h2 {
@@ -233,7 +234,6 @@ ul {
 }
 
 time, figcaption {
-  font-size: 0.6rem;
   text-transform: uppercase;
   color: #7f8c8d;
 }
@@ -241,7 +241,7 @@ time, figcaption {
 pre {
   padding: 0.25rem;
   border-radius: 0.25rem;
-  overflow: scroll;
+  overflow: auto;
   color: white;
   white-space: pre-wrap;
   box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
