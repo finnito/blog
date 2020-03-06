@@ -1,19 +1,14 @@
 {{ partial "header.html" . }}
 
 {{ .Content }}
-
-<ul class="divided">
     {{ range first 1 (where .Site.RegularPages "Section" "posts") }}
-        <li>
-            <h1>
-                <a href="{{ .Permalink | relURL }}" title="{{ .Title }}">
-                    {{ .Title }}
-                </a>
-            </h1>
-            <time>{{ .PublishDate.Format "January 2, 2006" }}</time>
-            {{ .Content }}
-        </li>
+        <h1>
+            <a href="{{ .Permalink | relURL }}" title="{{ .Title }}">
+                {{ .Title }}
+            </a>
+        </h1>
+        <time>{{ .PublishDate.Format "January 2, 2006" }}</time>
+        {{ .Content }}
     {{ end }}
-</ul>
 
 {{ partial "footer.html" . }}
