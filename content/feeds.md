@@ -3,7 +3,7 @@ title: RSS Feeds
 date: 15-10-2019
 menu: main
 name: “RSS Feeds”
-weight: 5
+weight: 6
 ---
 
 - [Posts: Master Feed](/posts/index.xml)

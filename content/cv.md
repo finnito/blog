@@ -3,7 +3,7 @@ title: Curriculum Vitae
 date: 15-10-2019
 menu: main
 name: “Curriculum Vitae”
-weight: 3
+weight: 4
 ---
 
 ## SUMMARY
