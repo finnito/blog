@@ -25,6 +25,7 @@ main img {
   max-width: 100%;
   overflow: hidden;
   box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+  max-height: 50vh;
 }
 
 body.gps {
@@ -46,6 +47,7 @@ p > code {
 
 figure {
   margin: auto 0 1rem 0;
+  text-align: center;
 }
 
 nav {
