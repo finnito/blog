@@ -238,6 +238,7 @@ ul {
 time, figcaption {
   text-transform: uppercase;
   color: #7f8c8d;
+  font-size: 0.8rem;
 }
 
 pre {
@@ -414,7 +415,7 @@ li.writing::before {
     padding-left: 0;
   }
 
-  nav {
+  body:not(.gps):not(.multiGPS) nav {
     border-bottom: 1px solid #bdc3c7;
   }
   nav h2 {
