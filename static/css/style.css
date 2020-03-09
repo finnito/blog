@@ -11,14 +11,23 @@ body {
   line-height: 1.75;
   max-width: 1024px;
   margin: auto;
-  padding: 0.5em;
-  display: block;
-  grid-template-columns: minmax(200px, 250px) 1fr;
+  display: grid;
+  grid-template-rows: auto auto 1fr auto;
   grid-template-areas:
-    "map map"
-    "nav content"
-    "footer footer";
+    "nav"
+    "map"
+    "content"
+    "footer";
+  grid-template-columns: 1fr;
   transition: all 300ms;
+}
+
+nav h2 {
+  margin: 0.5rem 0;
+}
+
+nav, main, footer {
+  padding: 0 0.5rem;
 }
 
 main img {
@@ -27,10 +36,6 @@ main img {
   overflow: hidden;
   box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
   max-height: 50vh;
-}
-
-body.gps {
-  padding-top: 0;
 }
 
 p {
@@ -56,7 +61,6 @@ nav {
 }
 
 main {
-  padding-left: 4rem;
   grid-area: content;
 }
 
@@ -96,10 +100,8 @@ input[type=checkbox].toggle,
 .hamburger {
     position: absolute;
     right: 0.5rem;
-    top: 1.2rem;
+    top: 0.8rem;
     margin: 0;
-    /*width: 28px;
-    height: 28px;*/
 }
 
 .hamburger {
@@ -169,10 +171,10 @@ input[type=checkbox].toggle,
   width: 100vw;
   position: absolute;
   left: 0;
-  height: calc(100vh - 4.2rem);
-  top: 4.2rem;
+  height: calc(100vh - 3.6rem);
+  top: 3.6rem;
   transition: all 300ms;
-  padding: 1rem;
+  padding: 0.5rem;
   box-sizing: border-box;
   overflow-y: auto;
   text-align: left;
@@ -185,7 +187,6 @@ input[type=checkbox].toggle,
 }
 
 h1 {
-  /*margin: 1rem auto -0.75rem 0;*/
   line-height: 1.25;
   margin-bottom: 0;
 }
@@ -207,14 +208,6 @@ a {
 a.home {
   color: rgb(51, 51, 51);
 }
-
-/*a:visited {
-  color: #3498db;
-}*/
-
-/*main a {
-  background-color: rgba(52, 152, 219, 0.1);
-}*/
 
 .menu {
   padding: 0;
@@ -252,9 +245,9 @@ pre {
 }
 
 pre {
-  background: #76b852;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(45deg, #8DC26F, #76b852);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(45deg, #8DC26F, #76b852); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: #76b852;
+  background: -webkit-linear-gradient(45deg, #8DC26F, #76b852);
+  background: linear-gradient(45deg, #8DC26F, #76b852);
 }
 
 code {
@@ -281,8 +274,6 @@ h3 + p,
 #hikeMap {
   height: 50vh;
   grid-area: map;
-  width: 100vw;
-  left: calc((100vw - 100%)/-2);
 }
 
 .chart-container {
@@ -291,58 +282,6 @@ h3 + p,
 
 .hike-stats p {
   font-size: 0.8rem;
-}
-
-table {
-    /* Remove spacing between table cells (from Normalize.css) */
-    border-collapse: collapse;
-    border-spacing: 0;
-    empty-cells: show;
-    border: 1px solid #cbcbcb;
-}
-
-table caption {
-    color: #000;
-    font: italic 85%/1 arial, sans-serif;
-    padding: 1em 0;
-    text-align: center;
-}
-
-table td,
-table th {
-    /*border-left: 1px solid #cbcbcb;/*  inner column border */*/
-    border-width: 0 0 0 1px;
-    font-size: inherit;
-    margin: 0;
-    overflow: visible; /*to make ths where the title is really long work*/
-    padding: 0.5em 1em; /* cell padding */
-}
-
-table thead {
-    background-color: #e0e0e0;
-    color: #000;
-    text-align: left;
-    vertical-align: bottom;
-}
-
-table td {
-    background-color: transparent;
-}
-table td {
-    background-color: #f2f2f2;
-}
-
-/* nth-child selector for modern browsers */
-table tr:nth-child(2n-1) td {
-    background-color: #f2f2f2;
-}
-
-/* BORDERED TABLES */
-table td {
-    border-bottom: 1px solid #cbcbcb;
-}
-table tbody > tr:last-child > td {
-    border-bottom-width: 0;
 }
 
 .archive {
@@ -380,11 +319,16 @@ li.writing::before {
     overflow-x: visible;
   }
   body {
-    display: grid;
+    grid-template-columns: minmax(200px, 250px) 1fr;
+    grid-template-areas:
+      "map map"
+      "nav content"
+      "footer footer";
   }
-  /*#hikeMap {
-    left: calc((100vw - 100%)/-2);
-  }*/
+
+  nav hr {display: none;}
+  nav h2 { margin-top: 1rem; }
+  main { padding-left: 4rem; }
   .toggle ~ .nav-wrapper {
     transform: none;
   }
@@ -399,29 +343,6 @@ li.writing::before {
   }
   .mobile {
     display: none;
-  }
-}
-
-@media (max-width: 768px) {
-  body {
-    grid-template-areas:
-      "nav"
-      "map"
-      "content"
-      "footer";
-      grid-template-columns: 1fr;
-  }
-
-  main {
-    padding-left: 0;
-  }
-
-  body:not(.gps):not(.multiGPS) nav {
-    border-bottom: 1px solid #bdc3c7;
-  }
-  nav h2 {
-    margin-bottom: 0.5rem;
-    margin-top: 0.5rem;
   }
 }
 
@@ -441,7 +362,6 @@ li.writing::before {
   }
   pre {
     background-color: #f5f6fa;
-    /*color: black;*/
   }
   table thead {
     background-color: transparent;
