@@ -6,11 +6,10 @@ var ElevationChart;
 var GPXData = {};
 var trackColours = [
     "#ff3838",
-    "#ff9f1a",
+    "#6F1E51",
     "#c56cf0",
     "#17c0eb",
     "#ff3838",
-    "#ff9f1a",
     "#c56cf0",
     "#17c0eb"
 ];
@@ -26,16 +25,15 @@ function initHike() {
     HikeMap = L.map('hikeMap');
 
     // Add OpenStreetMap tile layer
-    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-        attribution: 'Map data &copy; <a href="http://www.osm.org">OpenStreetMap</a>'
-    }).addTo(HikeMap);
+    L.tileLayer('http://tiles-a.data-cdn.linz.govt.nz/services;key=50b8923a67814d28b7a1067e28f03000/tiles/v4/layer=50767/EPSG:3857/{z}/{x}/{y}.png', {attribution: 'NZ Topo Map images sourced from <a href="https://data.linz.govt.nz/layer/50767-nz-topo50-maps/">LINZ</a> - Crown Copyright Reserved'})
+    .addTo(HikeMap);
 
     // Custom Icon URLs
     delete L.Icon.Default.prototype._getIconUrl;
     L.Icon.Default.mergeOptions({
         iconRetinaUrl: RetinaMarkerIconURL,
         iconUrl: MarkerIconURL,
-        shadowUrl: MarkerIconShadowURL,
+        shadowUrl: MarkerIconShadowURL
     });
 
     // Add Elevation Marker
@@ -67,17 +65,18 @@ function asyncProcessGPXData(Data) {
  * the LeafletJS map.
  **/
 function addGPXTracks() {
-
     trackGroup = new L.featureGroup();
 
-    for (var i = 0; i < GPXFiles.length; i++) {
-        var path = GPXFiles[i];
+    var i,
+        path;
+    for (i = 0; i < GPXFiles.length; i += 1) {
+        path = GPXFiles[i];
         GPXTracks = new L.GPX(GPXFiles[i], {
             async: true,
             polyline_options: {
                 color: trackColours[i],
                 opacity: 0.75,
-                weight: 2,
+                weight: 4,
                 lineCap: 'round'
             },
             marker_options: {
@@ -315,7 +314,7 @@ function getFilename (obj) {
     var nameWithExt = splits[splits.length - 1];
     var name = nameWithExt.split(".")[0];
     return name;
-}   
+}
 
 
 /**
@@ -348,21 +347,21 @@ Number.prototype.toRad = function() {
    return this * Math.PI / 180;
 }
 function haversine() {
-    var lat2 = 42.741; 
-    var lon2 = -71.3161; 
-    var lat1 = 42.806911; 
-    var lon1 = -71.290611; 
+    var lat2 = 42.741;
+    var lon2 = -71.3161;
+    var lat1 = 42.806911;
+    var lon1 = -71.290611;
 
     var R = 6371000;
     var x1 = lat2-lat1;
-    var dLat = x1.toRad();  
+    var dLat = x1.toRad();
     var x2 = lon2-lon1;
-    var dLon = x2.toRad();  
-    var a = Math.sin(dLat/2) * Math.sin(dLat/2) + 
-                    Math.cos(lat1.toRad()) * Math.cos(lat2.toRad()) * 
-                    Math.sin(dLon/2) * Math.sin(dLon/2);  
-    var c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1-a)); 
-    var d = R * c; 
+    var dLon = x2.toRad();
+    var a = Math.sin(dLat/2) * Math.sin(dLat/2) +
+        Math.cos(lat1.toRad()) * Math.cos(lat2.toRad()) *
+        Math.sin(dLon/2) * Math.sin(dLon/2);
+    var c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1-a));
+    var d = R * c;
 }
 
 
