@@ -105,7 +105,7 @@ function addHikeStats() {
     // var elevNet = elevGain - elevLoss;
     // document.querySelector(".elev .dynamic").textContent = ascent.toLocaleString() + "m";
     document.querySelector(".climb .dynamic").textContent = "(" + elevGain.toLocaleString() + "m ⬆️ " + elevLoss.toLocaleString() + "m ⬇️)";
-    document.querySelector(".downloadGPX").innerHTML = "<a download='" + GPXData._gpx + "' title='Download GPX file for " + GPXData._info.name + "'> [Download GPX File]</a>";
+    document.querySelector(".downloadGPX").innerHTML = "<a download='" + GPXData._gpx + "' title='Download GPX file for " + GPXData._info.name + "'>Download GPX File</a>";
 }
 
 /**
