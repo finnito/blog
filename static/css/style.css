@@ -348,6 +348,8 @@ li.writing::before {
       "footer footer";
   }
 
+  #hikeMap {left: calc((100vw - 100%) / -2); width: 100vw;}
+
   nav hr {display: none;}
   nav h2 { margin-top: 1rem; }
   main { padding-left: 4rem; }
