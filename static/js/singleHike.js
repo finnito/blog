@@ -18,9 +18,7 @@ function initHike() {
     HikeMap = L.map('hikeMap');
 
     // Add OpenStreetMap tile layer
-    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-        attribution: 'Map data &copy; <a href="http://www.osm.org">OpenStreetMap</a>'
-    }).addTo(HikeMap);
+    L.tileLayer('http://tiles-a.data-cdn.linz.govt.nz/services;key=50b8923a67814d28b7a1067e28f03000/tiles/v4/layer=50767/EPSG:3857/{z}/{x}/{y}.png', {attribution: 'NZ Topo Map images sourced from <a href="https://data.linz.govt.nz/layer/50767-nz-topo50-maps/">LINZ</a> - Crown Copyright Reserved'}).addTo(HikeMap);
 
     // Custom Icon URLs
     delete L.Icon.Default.prototype._getIconUrl;
@@ -62,7 +60,7 @@ function addGPXTracks() {
         polyline_options: {
             color: "#EA2027",
             opacity: 0.75,
-            weight: 2,
+            weight: 4,
             lineCap: 'round'
         },
         marker_options: {
