@@ -117,6 +117,7 @@ function addHikeStats(Data) {
         <span class="speed">
             <span class="dynamic"></span>
         </span>
+        <span class="downloadGPX"></span>
     </p>
     <div class="chart-container">
         <canvas id="elevationProfile"></canvas>
@@ -134,6 +135,10 @@ function addHikeStats(Data) {
     // Speed
     var speed = Data.get_moving_speed();
     container.querySelector(".speed .dynamic").textContent = speed.toFixed(2) + "km/hr";
+
+    // GPX Download
+    // console.log(Data);
+    container.querySelector(".downloadGPX").innerHTML = "<a download='" + Data._gpx + "' title='Download GPX file for " + Data._info.name + "'> [Download GPX File]</a>";
 
     // Elevation
     var maxElev = parseFloat(Data.get_elevation_max().toFixed(0));
