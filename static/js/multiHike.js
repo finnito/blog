@@ -138,7 +138,7 @@ function addHikeStats(Data) {
 
     // GPX Download
     // console.log(Data);
-    container.querySelector(".downloadGPX").innerHTML = "<a download='" + Data._gpx + "' title='Download GPX file for " + Data._info.name + "'> [Download GPX File]</a>";
+    container.querySelector(".downloadGPX").innerHTML = "<a download='" + Data._gpx + "' title='Download GPX file for " + Data._info.name + "'>Download GPX File</a>";
 
     // Elevation
     var maxElev = parseFloat(Data.get_elevation_max().toFixed(0));
