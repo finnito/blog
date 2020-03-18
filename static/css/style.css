@@ -56,6 +56,8 @@ figure {
   text-align: center;
 }
 
+figcaption { text-align: left; }
+
 nav {
   grid-area: nav;
 }
