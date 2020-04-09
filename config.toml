@@ -15,7 +15,7 @@ pygmentCodeFences       = true
 enableGitInfo           = true
 
 [markup.goldmark.renderer]
-  unsafe= true
+  unsafe=true
 
 [Params]
   subtitle      = "Finn LeSueur on the internet."
