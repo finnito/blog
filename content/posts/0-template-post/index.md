@@ -3,7 +3,7 @@ title: ""
 draft: true
 slug: ""
 date: 
-categories: ["Development", "iPad”]
+categories: ["Development", "iPad"]
 metaDescription: ""
 metaImageURL: "/posts/"
 ---
