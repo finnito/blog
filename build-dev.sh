@@ -3,4 +3,4 @@ set -e
 
 git submodule update --remote
 rm -rf public/
-hugo --buildDrafts
+hugo --buildDrafts --config config-dev.toml
