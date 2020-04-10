@@ -25,7 +25,7 @@ Working Copy is a truly excellent git client written by Anders Borum. I bought i
 
 Terminus is another truly great app. I managed to set up SSH to my server with public key authentication which was pretty cool! Now I can SSH into my Linode instances in case I want to do some work in there or kickstart a dead process. 
 
-{{< figure src=“/posts/ipad-part-one/terminus-working-copy.png” title=“Working Copy & Terminus” author=“Finn LeSueur” >}}
+{{< figure src="/posts/ipad-part-one/terminus-working-copy.png" title="Working Copy & Terminus" author="Finn LeSueur" >}}
 
 ## Physics Tutorials with Concepts
 
@@ -33,7 +33,7 @@ As of writing this post, New Zealand is on day 15 of [Level 4 lockdown](5) due t
 
 Enter, [Concepts](6) & iOS Screen Recording! I use the free version of Concepts, simply importing images of the questions that I am working on before using my Apple Pencil and the built in iOS screen recording tool to record my screen and microphone. 
 
-<iframe loading="lazy" width=“560” height=“315” src=“https://www.youtube.com/embed/WejOMmeZhyM” frameborder=“0” allow=“accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture” allowfullscreen></iframe>
+<iframe loading="lazy" width="560" height="315" src="https://www.youtube.com/embed/WejOMmeZhyM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## VPN & Remote Desktop
 
