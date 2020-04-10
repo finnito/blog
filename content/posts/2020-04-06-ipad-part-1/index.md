@@ -2,7 +2,7 @@
 title: "iPad Part One"
 slug: "ipad-part-one"
 date: 2020-04-10T17:02:48+12:00
-categories: ["Development","iPad"]
+categories: ["iPad", "Development"]
 metaDescription: "How I’m being productive on a 2020 iPad Pro 12.9 - Git, SSH, VPN and Remote Desktop."
 metaImageURL: "/posts/ipad-part-one/terminus-working-copy.png"
 ---
