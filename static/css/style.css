@@ -317,21 +317,22 @@ h3 + p,
 li.sport::before,
 li.development::before,
 li.hiking::before,
-li.writing::before {
+li.writing::before,
+li.ipad::before {
   margin-right: 0.5rem;
 }
-
 li.sport::before {
   content: "🏃‍♂️";
+}
+li.ipad::before {
+  content: "📱";
 }
 li.development::before {
   content: "💻";
 }
-
 li.hiking::before {
   content: "🏔";
 }
-
 li.writing::before {
   content: "📚";
 }
