@@ -1,6 +1,7 @@
 ---
 title: "PyroCMS 3: Creating Themes"
 date: 2018-08-19T10:03:51+13:00
+slug: "pyrocms-creating-themes"
 categories: ["Development", "PyroCMS"]
 metaDescription: The start of a journey in learning how to create and work with themes in PyroCMS 3. Using artisan, composer and some PyroCMS multisite tips.
 metaImageURL: "2018-05-26-PyroCMS-Creating-Themes.png"

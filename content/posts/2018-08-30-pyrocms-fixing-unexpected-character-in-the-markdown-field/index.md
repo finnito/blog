@@ -1,6 +1,7 @@
 ---
 title: "Fixing Unexpected character & in the PyroCMS 3 Markdown Field"
 date: 2018-08-30T14:03:56+13:00
+slug: "pyrocms-fixing-unexpected-character-in-the-markdown-field"
 categories: ["Development", "PyroCMS"]
 metaDescription: "Getting Unexpected character '&' when parsing Twig in the PyroCMS 3 Markdown Field? Make sure you use single quotes instead of double quotes in the plugin! "
 metaImageURL: "PyroCMS-Addons.png"
