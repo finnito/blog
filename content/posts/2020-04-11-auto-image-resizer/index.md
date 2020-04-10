@@ -36,7 +36,7 @@ Anyway, let's get back to the problem: resizing and serving images! As I mention
 
 This is an excellent start to serving responsive images, but _I don't want to decide ahead of time and resize all my images_, so how can I avoid this? What if I pass the URL for the full sized image to a service that will resize it on the fly? Sounds like a winner to me. I won't dig into how I did it ([go read the code if you want to see][4]), but the server ends up with a directory that looks like this:
 
-{{< figure src="/posts/auto-image-resizer/auto-image-resizer-screenshot.png" title="AutoImageResizer storage screenshot" author="Finn LeSueur" >}}
+{{< figure src="/posts/auto-image-resizer/auto-image-resizer-storage-screenshot.png" title="AutoImageResizer storage screenshot" author="Finn LeSueur" >}}
 
 It creates and stores the images that it resizes so that it can serve them back to the user at maximum speed next time. Pretty neat. It also stores images in folders by the hostname of the server they are coming from - it does this to try avoid image name conflicts. This is important because it does not use a database to store image references, it simply uses filenames. Obviously this leaves a lot of room for problems, but I wanted something fast, simple and that would work for my use-case. Perhaps I'll do something more robust in the future!
 
