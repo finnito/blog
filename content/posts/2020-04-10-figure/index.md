@@ -1,5 +1,5 @@
 ---
-draft:true
+draft: true
 title: "Figure, Srcset & Lazy Loading"
 slug: "lazy-loading"
 date: 2020-04-10T19:01:47+12:00
