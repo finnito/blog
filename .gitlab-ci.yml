@@ -15,10 +15,8 @@ deploy:
   - mkdir -p ~/.ssh
   - '[[ -f /.dockerenv ]] && echo -e "Host *\n\tStrictHostKeyChecking no\n\n" > ~/.ssh/config'
   script:
-    - ssh finn@172.105.169.195 "cd /srv/finn.lesueur.nz/ && git checkout master && git pull origin master --recurse-submodules && exit"
-    - ssh finn@172.105.169.195 "cd /srv/finn.lesueur.nz/ && git submodule update --remote && exit"
-    - ssh finn@172.105.169.195 "cd /srv/finn.lesueur.nz/ && rm -rf public/ && exit"
-    - ssh finn@172.105.169.195 "cd /srv/finn.lesueur.nz/ && hugo && exit"
+    - ssh finn@172.105.169.195 "cd /srv/finn.lesueur.nz/ && git pull origin master --recurse-submodules && bash build-prod.sh && exit"
+    - ssh finn@172.105.169.195 "cd /srv/dev.finn.lesueur.nz && git pull origin master --recurse-submodules && bash build-dev.sh && exit"
   only:
     - master
   artifacts:
