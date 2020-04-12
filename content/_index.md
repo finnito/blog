@@ -1,6 +1,6 @@
 ---
 title: Home
-date: 2019-10-02
+date: 
 menu: main
 name: “Home”
 weight: 1
