@@ -1,6 +1,6 @@
 ---
 title: Me, Elsewhere
-date: 15-10-2019
+date: 
 menu: main
 name: “Me, Elsewhere”
 weight: 5
