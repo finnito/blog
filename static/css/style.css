@@ -43,12 +43,13 @@ p {
   margin-top: 0;
 }
 
+.center { text-align: center; }
+
 p > code {
-  background-color:
-#ff7979;
+  background-color: #f5f6fa;
   padding: 0.25rem;
   border-radius: 0.25rem;
-  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  color: rgb(51, 51, 51);
 }
 
 figure {
@@ -238,6 +239,8 @@ a.home {
   border-bottom: 1px solid #3498db;
 }
 
+.orange { color: #FF813F; }
+
 hr {
   border: none;
   height: 1px;
@@ -337,6 +340,23 @@ li.writing::before {
   content: "📚";
 }
 
+.bmc-button img {
+  width: 35px !important;
+}
+
+.bmc-button {
+  line-height: 35px !important;
+  height: 51px !important;
+  min-width: 217px !important;
+  display: inline-flex !important;
+  color: #FFFFFF !important;
+  background-color: #FF813F !important;
+  border-radius: 5px !important;
+  padding: 7px 10px 7px 10px !important;
+  box-sizing: border-box !important;
+}
+.bmc-button span { margin-left: 1rem; }
+
 @media (min-width: 768px) {
   html, body {
     overflow-x: visible;
@@ -361,10 +381,14 @@ li.writing::before {
   .nav-wrapper {
     position: relative;
     transform: translateX(0);
-    height: auto;
+    /*height: auto;*/
     top: 0;
     width: auto;
     padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: calc(100vh - 7rem);
   }
   .mobile {
     display: none;
