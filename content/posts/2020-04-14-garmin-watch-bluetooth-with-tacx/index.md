@@ -21,7 +21,7 @@ This update changes this for running - and as we will see - cycling too (althoug
 
 All you need to do is to update your Garmin - start a _Virtual Run_ workout and leave it on the pairing screen. Once on this screen your software should detect your Garmin via Bluetooth - no need for that pesky ANT+ dongle!
 
-{{< figure src=“/posts/garmin-watch-bluetooth-hr-with-tacx-zwift/unsupported-garmin-hr-bluetooth-cycling.png” title=“Unsupported Garmin HR with Tacx & Zwift Over Bluetooth” author=“Finn LeSueur”>}}
+{{< figure src=‘/posts/garmin-watch-bluetooth-hr-with-tacx-zwift/unsupported-garmin-hr-bluetooth-cycling.png’ title=‘Unsupported Garmin HR with Tacx and Zwift Over Bluetooth’ author=‘Finn LeSueur’>}}
 
 One final note is that because this is just a bit hacky, the watch will time out of this screen after about 30min and go to the main watch face. You can stop this by pressing any button (I recommend the backlight button) as this will delay the timeout.
 
