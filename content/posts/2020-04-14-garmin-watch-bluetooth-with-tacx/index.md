@@ -1,10 +1,10 @@
 ---
-title: "How to Use a Garmin Watch with Tacx and Zwift"
-slug: "garmin-watch-bluetooth-with-tacx-zwift"
+title: "Using Garmin’s Virtual Run for Bluetooth HR on Tacx/Zwift"
+slug: "garmin-watch-bluetooth-hr-with-tacx-zwift"
 date: 2020-04-14T20:12:33+12:00
 categories: ["Sport", "iPad"]
-metaDescription: ""
-metaImageURL: "/posts/"
+metaDescription: "Learn to use Garmin’s Virtual Run activity to broadcast your HR over Bluetooth for cycling on Tacx, Zwift and other platforms!"
+metaImageURL: "/posts/garmin-watch-bluetooth-hr-with-tacx-zwift/unsupported-garmin-hr-bluetooth-cycling.png"
 ---
 
 Garmin software version 8.10 for the Fenix 6 was released on March 23rd 2020 and bring with it this very exciting addition!
@@ -21,7 +21,7 @@ This update changes this for running - and as we will see - cycling too (althoug
 
 All you need to do is to update your Garmin - start a _Virtual Run_ workout and leave it on the pairing screen. Once on this screen your software should detect your Garmin via Bluetooth - no need for that pesky ANT+ dongle!
 
-{{< figure src=“/posts/garmin-watch-bluetooth-with-tacx-zwift/unsupported-garmin-hr-bluetooth-cycling.png“ title=“Unsupported Garmin HR with Tacx & Zwift Over Bluetooth” author=“Finn LeSueur” >}}
+{{< figure src=“/posts/garmin-watch-bluetooth-hr-with-tacx-zwift/unsupported-garmin-hr-bluetooth-cycling.png“ title=“Unsupported Garmin HR with Tacx & Zwift Over Bluetooth” author=“Finn LeSueur” >}}
 
 One final note is that because this is just a bit hacky, the watch will time out of this screen after about 30min and go to the main watch face. You can stop this by pressing any button (I recommend the backlight button) as this will delay the timeout.
 
@@ -31,7 +31,7 @@ If it times out and goes to the home screen it will lose the Bluetooth connectio
 
 For me, this is extremely sweet because it means I can use my new iPad Pro 12.9 to connect to my Tacx trainer (power, cadence, speed and control as well as my HR via my Garmin Fenix 6 all using Bluetooth! No ANT+ dongle - just a charging cable, my bike trainer and a whole lot of sweat.
 
-{{< figure src=“/posts/garmin-watch-bluetooth-with-tacx-zwift/tacx-screenshot.png“ title=“Tacx on the iPad Screenshot” author=“Finn LeSueur” >}}
+{{< figure src=“/posts/garmin-watch-bluetooth-hr-with-tacx-zwift/tacx-screenshot-bluetooth-hr.png“ title=“Tacx on the iPad Screenshot” author=“Finn LeSueur” >}}
 
 —- Happy sweating 👋 
 
