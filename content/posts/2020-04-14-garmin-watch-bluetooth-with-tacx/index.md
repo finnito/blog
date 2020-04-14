@@ -1,7 +1,7 @@
 —--
-title: "Using Garmin's Virtual Run for Bluetooth HR on Tacx/Zwift"
+title: "Using Garmin's Virtual Run for Bluetooth HR on Tacx and Zwift"
 slug: "garmin-watch-bluetooth-hr-with-tacx-zwift"
-date: 2020-04-15T00:09:32+12:00
+date: 2020-04-15T00:21:12+12:00
 categories: ["Sport", "iPad"]
 metaDescription: "Learn to use Garmin's Virtual Run activity to broadcast your HR over Bluetooth for cycling on Tacx, Zwift and other platforms!"
 metaImageURL: "/posts/garmin-watch-bluetooth-hr-with-tacx-zwift/unsupported-garmin-hr-bluetooth-cycling.png"
