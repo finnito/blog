@@ -1,5 +1,5 @@
 ---
-title: "Figure, Srcset & Lazy Loading"
+title: "Figure, Srcset and Lazy Loading"
 slug: "lazy-loading"
 date: 2020-04-10T19:01:47+12:00
 categories: ["Development"]

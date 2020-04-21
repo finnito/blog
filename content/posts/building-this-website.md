@@ -1,6 +1,7 @@
 ---
-title: Building This Website
-date: 2019-10-15T19:38:06+13:00
+title: "Building This Website"
+date: "2019-10-15T19:38:06+13:00"
+slug: "building-this-website"
 categories: ["Development"]
 ---
 
