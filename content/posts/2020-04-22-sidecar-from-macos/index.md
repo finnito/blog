@@ -35,7 +35,7 @@ You can call AppleScript on the commandline with `osascript yourScriptName.scpt`
 
 Then, from your iPad end, create a Shortcut that runs a SSH command on your Mac and add it to your homescreen widget - [download it here][shortcut]! Easy!
 
-{{< figure src="/posts/initiate-sidecar-from-macos/shortcut-to-initiate-sidecar-from-ios.png" title="Shortcut to initiate Sidecar from iOS" author="Finn LeSueur">}}
+{{< figure src="/posts/initiate-sidecar-from-ios/shortcut-to-initiate-sidecar-from-ios.png" title="Shortcut to initiate Sidecar from iOS" author="Finn LeSueur">}}
 
 This has already been a huge improvement for me. Enjoy!
 
