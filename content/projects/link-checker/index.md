@@ -10,7 +10,7 @@ __[Source Code: Gitlab][gitlab]__
 
 ## What was the Problem?
 
-I first encountered the idea of avoiding link rot while reading an answer on [StackOverflow][stackoverflow] - someone was asked to provide code directly in their answer instead of just linking to an external website. The reason given for this was that if the external website was to go down then their answer would become less useful (or even useless).
+I first encountered the idea of avoiding link rot while reading an answer on [StackOverflow][linkrot] - someone was asked to provide code directly in their answer instead of just linking to an external website. The reason given for this was that if the external website was to go down then their answer would become less useful (or even useless).
 
 I think about this a lot when I work on my website - if I am going to provide a link to an external resource, I want to be sure that it is accessible.
 
