@@ -31,10 +31,8 @@ Onwards. Upwards! 👨‍🔬👨‍🏫
 ## Coast to Coast
 
 > The One Day race is the World Multisport Championship event and is also referred to as the "Longest Day".
-
-> The One Day race is only open to individuals and as the name suggests sees competitors complete the full 243km course in one day.
-
-> https://www.coasttocoast.co.nz/the-race
+The One Day race is only open to individuals and as the name suggests sees competitors complete the full 243km course in one day.
+https://www.coasttocoast.co.nz/
 
 I'm not entirely sure where my want to do Coast to Coast came from. I know that big endurance events have been of interest to me for a long time, despite never having run further than 21.3km in 2hrs 8min. Nonetheless, in March 2019 I signed up for the race. It cost over $1,000 and I was from there on, committed.
 
