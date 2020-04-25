@@ -19,7 +19,7 @@ __Hikers:__ Finn & Jen on 09/01/2020
 
 <div id="Wharfedale_Day_1_Wharfedale_Track"></div>
 
-Overall, this day is super cruisy. The track is very well-formed, the incline gentle, and the distance not too far. It starts out up a 4WD track and after 1.7km (20min, 34m ⬆️) you will meet the Link Track and the Ryde Falls Track junctions. These routes are for if you are doing the [Mt Oxford Loop](mto).
+Overall, this day is super cruisy. The track is very well-formed, the incline gentle, and the distance not too far. It starts out up a 4WD track and after 1.7km (20min, 34m ⬆️) you will meet the Link Track and the Ryde Falls Track junctions. These routes are for if you are doing the [Mt Oxford Loop][mto].
 
 Continue on for another 7.6km (1hr 45min, 152m ⬆️) to reach the Wharfedale Saddle. Somewhere around halfway along this section, you will encounter a nice little clearing by a stream in the bottom of a small hillside valley. This is a perfect place for lunch.
 
