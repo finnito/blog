@@ -1,6 +1,6 @@
 ---
 title: "LinkChecker - Detect Link Rot on Your Website"
-date: 2020-03-02T23:14:41.716005+13:00
+date: 2020-04-24T15:01:25+12:00
 categories: ["Development"]
 metaDescription: "My little Python script to detect link rot on websites through checking of HTTP status codes. Lightweight and useful!"
 metaImageURL: "/projects/link-checker/link-checker-project-og-image.png"
