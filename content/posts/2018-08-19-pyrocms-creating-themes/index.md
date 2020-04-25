@@ -22,7 +22,7 @@ If you have a single-site installation of [PryoCMS 3][pyro-3] then you can use t
 ```bash
 php artisan make:addon {vendor}.theme.{slug}
 ```
-and if you are using the [Sites Module][sites-module] and want to create a theme for a particular site, the command looks like this:
+and if you are using the Sites Module and want to create a theme for a particular site, the command looks like this:
 
 ```bash
 php artisan make:addon {vendor}.theme.{slug} --app={reference}
@@ -32,7 +32,7 @@ Now, let's break down the placeholders I have left in these commands.
 
 * `{vendor}`: Typically your Github username. E.g. `finnito` for me.
 * `{slug}`: Slug representing the theme name. E.g. `test`.
-* `{reference}`: Slug of the site in the [Sites Module][sites-module]. E.g. `finnito`.
+* `{reference}`: Slug of the site in the Sites Module. E.g. `finnito`.
 
 If you need to find your site slug, navigate to `/admin/sites` and each entry should have a unique reference. You **do not** need to encase any of the variables in quote marks.
 
@@ -66,7 +66,6 @@ It was quite a journey for me to learn how to make a theme in [PryoCMS 3][pyro-3
 [pyro-3]: https://pyrocms.com/
 [pyro-2]: https://github.com/pyrocms/pyrocms/tree/2.2/master
 [artisan]: https://pyrocms.com/help/developer-tools/cheatsheets/artisan-commands
-[sites-module]: http://store.pyrocms.com/sites-module.html
 [composer]: https://getcomposer.org/doc/01-basic-usage.md
 
 ## References
@@ -74,4 +73,3 @@ It was quite a journey for me to learn how to make a theme in [PryoCMS 3][pyro-3
 - PyroCMS 2: <https://github.com/pyrocms/pyrocms/tree/2.2/master>
 - Artisan: <https://pyrocms.com/help/developer-tools/cheatsheets/artisan-commands>
 - Composer: <https://getcomposer.org/doc/01-basic-usage.md>
-- PyroCMS 3 Sites Module: <http://store.pyrocms.com/sites-module.html>

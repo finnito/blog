@@ -12,7 +12,7 @@ metaImageURL: "helicopter-hill.jpg"
 
 __Hikers:__ Finn & Jen on 01/02/2020
 
-Craigieburn Forest Park has a wide range of walks; everything from a 45-minute walk through the forest, to a multi-hour traverse to [Castle Hill Village](chv). You can find a lot of information [here on the DOC website](doc), but there is a lot more tracks on the sign at Mistletoe Flat!
+Craigieburn Forest Park has a wide range of walks; everything from a 45-minute walk through the forest, to a multi-hour traverse to [Castle Hill Village][chv]. You can find a lot of information [here on the DOC website][doc], but there is a lot more tracks on the sign at Mistletoe Flat!
 
 ## 1: Mistletoe Flat to Lyndon Saddle (Mistletoe Track)
 
@@ -36,8 +36,8 @@ Next time: __mountain bikes__!
 
 ### Reference
 
-- Castle Hill Village: http://www.castlehill.net.nz/village/castlehill_village.php
-- Craigieburn Forest Park: https://www.doc.govt.nz/parks-and-recreation/places-to-go/canterbury/places/craigieburn-forest-park/things-to-do/tracks/craigieburn-forest-park-walking-tracks/
+- [Castle Hill Village][chv]
+- [Craigieburn Forest Park][doc]
 
-[chv]:http://www.castlehill.net.nz/village/castlehill_village.php
-[doc]:https://www.doc.govt.nz/parks-and-recreation/places-to-go/canterbury/places/craigieburn-forest-park/things-to-do/tracks/craigieburn-forest-park-walking-tracks/
+[chv]: http://www.castlehill.net.nz/village/castlehill_village.php "Castle Hill Village"
+[doc]: https://www.doc.govt.nz/parks-and-recreation/places-to-go/canterbury/places/craigieburn-forest-park/things-to-do/tracks/craigieburn-forest-park-walking-tracks/ "Craigieburn Forest Park Walking Tracks"
