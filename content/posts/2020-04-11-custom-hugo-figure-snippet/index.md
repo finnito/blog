@@ -14,7 +14,9 @@ metaImageURL: "/posts/custom-hugo-figure-snippet/custom-figure-snippet-og-image.
     unsafe=true
 ```
 
-However, if you want to use Hugo's functions inside HTML which is inside your Markdown file, that is not allowed. Enter, Hugo snippets!
+<!--more-->
+
+However, if you want to use Hugo's functions inside HTML which is inside your Markdown file, that is not allowed. Enter, Hugo snippets  !
 In your theme (mine is called `hugo-finn`) create the directory `layouts/shortcodes/` and inside this directory create a snippet file (mine is called `figure.html`).
 
 These snippet files are special because any Hugo functions inside the snippet are parsed, before the snippet itself is parsed into the Markdown file. [Read the full shortcode documentation here][2].
