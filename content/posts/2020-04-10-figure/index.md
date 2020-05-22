@@ -11,6 +11,8 @@ metaImageURL: "/posts/lazy-loading/figure-html-screenshot.png"
 
 There is a new, although [not particularly well supported][1] attribute for `<iframe>` and `<img/>` tags: `loading="lazy/eager/auto"`. This is _huge_ because it allows the browser to determine when an image or iframe should be loaded as the user proceeds through a webpage instead of just loading them all at the start! No more JS to improve data use and performance - just a sweet native progressive enhancement.
 
+<!--more-->
+
 A __progressive enhancement__, for those unaware, is one that only applies to browsers that have it implemented. It also means that older browsers that have not implemented it are not impacted because there is no change to the important parts of the markup. To add lazy loading to images or iframes simple do the following (note how the important parts are unchanged):
 
 ```html
