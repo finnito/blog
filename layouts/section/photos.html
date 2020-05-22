@@ -1,0 +1,46 @@
+{{ partial "header.html" . }}
+
+<div class="content">
+    {{ range first 1 (where .Site.RegularPages "Section" "photos") }}
+        <h1>
+            <a href="{{ .Permalink | relURL }}" title="{{ .Title }}">
+                {{ .Title }}
+            </a>
+        </h1>
+        <time>{{ .PublishDate.Format "January 2, 2006" }}</time>
+        {{ if .Params.image }}
+            {{ $image := .Params.image }}
+            <figure>
+                <a href='' title="{{ .Params.Title }}">
+                    <img 
+                        srcset='
+                            https://img.lesueur.nz/full?u={{.Permalink}}{{$image}} 4096w,
+                            https://img.lesueur.nz/2048?u={{.Permalink}}{{$image}} 2048w,
+                            https://img.lesueur.nz/1024?u={{.Permalink}}{{$image}} 1024w,
+                            https://img.lesueur.nz/512?u={{.Permalink}}{{$image}} 512w,'
+                        src='{{.Permalink}}{{$image}}'
+                        alt="{{ .Params.Title }}"
+                        loading="lazy"/>
+                </a>
+                <figcaption>(📷: {{ .Params.photographer }}) {{ .Params.Title }}</figcaption>
+            </figure>
+        {{ end }}
+        {{ .Content }}
+    {{ end }}
+
+    <h2>Archive</h2>
+    <ul class="archive">
+        {{ range .Data.Pages.GroupByDate "January 2006" "desc" }}
+            {{ .Key }}
+            {{ range .Pages }}
+            <ul>
+                <li class="photo">
+                    <a href="{{.Permalink}}">{{.Title}} <time>{{ .PublishDate.Format "2 Jan 2006" }}</time></a>
+                </li>
+            </ul>
+            {{ end }}
+        {{ end }}
+    </ul>
+</div>
+
+{{ partial "footer.html" . }}
