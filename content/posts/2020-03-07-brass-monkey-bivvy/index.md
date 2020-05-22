@@ -19,6 +19,7 @@ I was a little nervous (but mostly excited) about this trip because it would be 
 
 Thankfully, even though it was "unmarked", it was so well walked that there was essentially a track the whole way!
 
+<!--more-->
 
 ## Day 1: Brass Monkey Bivvy via Lewis Tops
 

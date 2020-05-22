@@ -11,6 +11,8 @@ This post is coming to you from a 2020 iPad Pro 12.9" - a beautiful, huge, iPad.
 
 {{< figure src="/posts/ipad-part-one/sentinel-screenshot.jpg" title="Sentinel 3" author="Finn LeSueur" >}}
 
+<!--more-->
+
 Fast forward a decade and I have finally upgraded! Unlike 16 year old me, I would like to make a good attempt and being productive with it. And also very unlike 16 old me, I am now a Science and Physics teacher at that very high school I sought to avoid work in. So, how can I be productive on this device?
 
 ## This Blog & Teaching Notes

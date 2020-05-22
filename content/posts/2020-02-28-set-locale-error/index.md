@@ -13,8 +13,10 @@ For the longest time I did the dance of setting up Apache, PHP-FPM and managing 
 
 ```php
 Declaration of Symfony\Component\Translation\TranslatorInterface::setLocale($locale) must be compatible with Symfony\Contracts\Translation\LocaleAwareInterface::setLocale(string $locale)
-```
 
+<!--more-->
+
+```
 ## Solution #1: Change Your PHP CLI Version
 
 After some Googling I found this answer: 
