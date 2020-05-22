@@ -13,6 +13,8 @@ This is a small [Scriptable](https://apps.apple.com/us/app/scriptable/id14054591
 
 Simply highlight the text containing the table(s), open the Share Sheet and run the script from Scriptable. You can highlight your whole document and it will find all the tables within it and prettify them all.
 
+<!--more-->
+
 __Before__
 
 ```markdown

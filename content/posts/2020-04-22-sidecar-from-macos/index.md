@@ -9,6 +9,8 @@ metaImageURL: "/posts/initiate-sidecar-from-ios/shortcut-to-initiate-sidecar-fro
 
 Sidecar is wonderful and adds a huge amount of functionality to an already awesome iPad Pro 12.9" - but let's say that I want to connect to a headless Macbook Pro (or Mac Mini) in the future. How can I initiate Sidecar from the iPad end of the equation?
 
+<!--more-->
+
 After much searching I concluded that Sidecar does not have a CLI, or at least not one I can find discussed __at all__.
 
 ## The Solution - AppleScript & SSH

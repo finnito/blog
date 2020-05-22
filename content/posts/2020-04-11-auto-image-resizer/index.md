@@ -9,6 +9,8 @@ metaImageURL: "/posts/auto-image-resizer/auto-image-resizer-og-image.png"
 
 Introducing, [AutoImageResizer][1]! A tiny Lumen application that takes images via an API, resizes them and serves them back to the user for responsive image display!
 
+<!--more-->
+
 ## The Problem
 
 This is a single-evening project that I whipped up to solve a very specific problem: _how can I responsively size and serve images to my users to save both bandwidth and time?_

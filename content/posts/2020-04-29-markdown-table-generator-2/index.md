@@ -24,6 +24,8 @@ __[Install Apple Shortcut][shortcut]__
 | Ellos/Ellas/Ustedes | an   | en   | en   |
 ```
 
+<!--more-->
+
 To deal with this I wrote an Apple Shortcut that can generates a blank Markdown table of dimensions X by Y and conditionally includes a header row. It asks you to input the number of rows and columns you want when it runs and adds the result to your clipboard.
 
 ## Installation

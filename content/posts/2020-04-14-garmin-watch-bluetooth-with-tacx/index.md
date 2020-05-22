@@ -13,6 +13,8 @@ Garmin software version 8.10 for the Fenix 6 was released on March 23rd 2020 and
 
 This update, in essence, broadcasts __over bluetooth__ your heart rate, cadence and pace to a supported piece of software ([Tacx][3] & [Zwift][2])!
 
+<!--more-->
+
 Now, it is a little strange how they introduced support for virtual running - which I only image is a rather niche category - before __virtual cycling__ which is extremely popular with the likes of Tacx and Zwift. Historically Garmin watches have been able to broadcast your heart rate but only via ANT+ which requires an [ANT+ receiver][4] to be plugged into your computer. While not the worst, it certainly is not that smooth of an experience, especially with the more universally supported Bluetooth hanging around.
 
 This update changes this for running - and as we will see - cycling too (although unofficially supported.
