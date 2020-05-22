@@ -22,6 +22,14 @@ body {
   transition: all 300ms;
 }
 
+article:not(:last-child) {
+  border-bottom: 1px solid #bdc3c7;
+}
+
+article span.icon::before {
+  padding-right: 0.5rem;
+}
+
 nav h2 {
   margin: 0.5rem 0;
 }
@@ -35,11 +43,11 @@ main img {
   max-width: 100%;
   overflow: hidden;
   box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
-  max-height: 50vh;
+  width: 100%;
 }
 
 p {
-  font-size: 1.1rem;
+  font-size: 1rem;
   margin-top: 0;
 }
 
@@ -110,6 +118,12 @@ a[download]:hover, a[download]:active {
   background-color: #2ecc71;
   box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
   cursor: pointer;
+}
+
+a[target=_blank]::after {
+  content: "🚀";
+  vertical-align: super;
+  font-size: 0.75rem;
 }
 
 input[type=checkbox].toggle {
@@ -264,9 +278,10 @@ pre {
   border-radius: 0.25rem;
   overflow: auto;
   color: white;
-  white-space: pre-wrap;
+  white-space: pre;
   box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
   word-wrap: normal;
+  font-family: monospace;
 }
 
 pre {
@@ -321,23 +336,33 @@ li.sport::before,
 li.development::before,
 li.hiking::before,
 li.writing::before,
-li.ipad::before {
+li.ipad::before,
+li.photo::before {
   margin-right: 0.5rem;
 }
-li.sport::before {
+li.sport::before,
+article.sport span.icon::before {
   content: "🏃‍♂️";
 }
-li.ipad::before {
+li.ipad::before,
+article.ipad span.icon::before {
   content: "📱";
 }
-li.development::before {
+li.development::before,
+article.development span.icon::before {
   content: "💻";
 }
-li.hiking::before {
+li.hiking::before,
+article.hiking span.icon::before {
   content: "🏔";
 }
-li.writing::before {
+li.writing::before,
+article.writing span.icon::before {
   content: "📚";
+}
+li.photo::before,
+article.photos span.icon::before {
+  content: "📸";
 }
 
 .bmc-button img {
@@ -357,6 +382,12 @@ li.writing::before {
 }
 .bmc-button span { margin-left: 1rem; }
 
+.exif { list-style: none; padding-left: 0;}
+.exif span { padding-left: 1.5rem; text-transform: none;}
+
+.nav-buttons { text-align: center; }
+.nav-buttons a { padding: 0.5rem 1rem; }
+
 @media (min-width: 768px) {
   html, body {
     overflow-x: visible;
@@ -373,7 +404,7 @@ li.writing::before {
 
   nav hr {display: none;}
   nav h2 { margin-top: 1rem; }
-  main { padding-left: 4rem; }
+  main { padding-left: 6rem; }
   .toggle ~ .nav-wrapper {
     transform: none;
   }
@@ -392,6 +423,9 @@ li.writing::before {
   }
   .mobile {
     display: none;
+  }
+  article span.icon::before {
+    margin-left: -2rem;
   }
 }
 
