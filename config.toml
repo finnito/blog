@@ -26,6 +26,7 @@ enableGitInfo           = true
   commit        = true
   rss           = true
   comments      = false
+  mainSections  = ["posts", "photos"]
 
 [Author]
   name    = "Finn LeSueur"
