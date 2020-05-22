@@ -1,6 +1,5 @@
 ---
 title: Me, Elsewhere
-date: 
 menu: main
 name: “Me, Elsewhere”
 weight: 5

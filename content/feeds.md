@@ -1,6 +1,5 @@
 ---
 title: RSS Feeds
-date: 
 menu: main
 name: “RSS Feeds”
 weight: 6
