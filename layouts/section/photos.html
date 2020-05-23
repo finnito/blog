@@ -8,8 +8,7 @@
             </a>
         </h1>
         <time>{{ .PublishDate.Format "January 2, 2006" }}</time>
-        {{ if .Params.image }}
-            {{ $image := .Params.image }}
+            {{ $image := index (.Resources.ByType "image") 0 }}
             <figure>
                 <a href='' title="{{ .Params.Title }}">
                     <img 
@@ -22,9 +21,28 @@
                         alt="{{ .Params.Title }}"
                         loading="lazy"/>
                 </a>
-                <figcaption>(📷: {{ .Params.photographer }}) {{ .Params.Title }}</figcaption>
+                <figcaption>
+                    <ul class="exif">
+                        <li>🙋‍♂️<span>{{ .Params.photographer }}</span></li>
+                        {{ with $image.Exif }}
+                        <li>{{ with .Tags.Model }}📷<span>{{ . }}</span>{{ end }}</li>
+                        <li>🎞
+                            {{ with .Tags.ExposureTime }}<span>{{ . }}s</span>{{ end }}
+                            {{ with .Tags.FNumber }}<span>f/{{ . }}</span>{{ end }}
+                            {{ with .Tags.FocalLength }}<span>{{ . }}mm</span>{{ end }}
+                            {{ with .Tags.ISOSpeedRatings }}<span>ISO {{ . }}</span>{{ end }}
+                        </li>
+                        <li>
+                            🌏<a title="Photo location on TopoMap"
+                                href="http://www.topomap.co.nz/NZTopoMap?v=2&ll={{ .Lat }},{{ .Long }}&z=14&pin=1&lbl={{ .Lat }},{{ .Long }}"
+                                target="_blank">
+                                <span>{{ printf "%.5f" .Lat }}, {{ printf "%.5f" .Long }}</span>
+                            </a>
+                        </li>
+                        {{ end }}
+                    </ul>
+                </figcaption>
             </figure>
-        {{ end }}
         {{ .Content }}
     {{ end }}
 
@@ -35,7 +53,7 @@
             {{ range .Pages }}
             <ul>
                 <li class="photo">
-                    <a href="{{.Permalink}}">{{.Title}} <time>{{ .PublishDate.Format "2 Jan 2006" }}</time></a>
+                    <a href="{{.Permalink}}">{{.Title}} <time>{{ dateFormat "02 Jan, 2006" .Params.photoDate }}</time></a>
                 </li>
             </ul>
             {{ end }}
