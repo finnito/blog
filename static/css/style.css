@@ -23,7 +23,7 @@ body {
 }
 
 article:not(:last-child) {
-  border-bottom: 1px solid #bdc3c7;
+  border-bottom: 1px solid #3498db;
 }
 
 article span.icon::before {
@@ -121,7 +121,7 @@ a[download]:hover, a[download]:active {
 }
 
 a[target=_blank]::after {
-  content: "🚀";
+  content: "↗";
   vertical-align: super;
   font-size: 0.75rem;
 }
@@ -364,6 +364,12 @@ li.photo::before,
 article.photos span.icon::before {
   content: "📸";
 }
+
+article.photo a { color: #EE5A24; }
+article.photo { border-bottom: 1px solid #EE5A24; }
+
+article.sport a { color: #009432;}
+article.sport { border-bottom: 1px solid #009432; }
 
 .bmc-button img {
   width: 35px !important;
