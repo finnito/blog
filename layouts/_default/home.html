@@ -16,7 +16,12 @@
                 </a>
             </h1>
             <time>{{ .PublishDate.Format "January 2, 2006" }}</time>
-            <div><p>{{ .Summary }}</p></div>
+            <div>
+                {{ if eq .Section "photos" }}
+                {{ partial "rss-figure.html" . }}
+                {{ end }}
+                <p>{{ .Summary }}</p>
+            </div>
         </article>
     {{ end }}
     <button>Post Archive</button>
