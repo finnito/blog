@@ -22,7 +22,7 @@ body {
   transition: all 300ms;
 }
 
-article:not(:last-child) {
+article:not(:last-of-type) {
   border-bottom: 1px solid #3498db;
 }
 
@@ -366,10 +366,23 @@ article.photos span.icon::before {
 }
 
 article.photo a { color: #EE5A24; }
-article.photo { border-bottom: 1px solid #EE5A24; }
+article.photo:not(:last-of-type) { border-bottom: 1px solid #EE5A24; }
 
 article.sport a { color: #009432;}
-article.sport { border-bottom: 1px solid #009432; }
+article.sport:not(:last-of-type) { border-bottom: 1px solid #009432; }
+
+button {
+  padding: 0.25rem 0.5rem;
+  margin: 1rem auto;
+  background-color: #3498db;
+  color: white;
+  font-weight: 500;
+  border: none;
+  border-radius: 0.25rem;
+  text-align: center;
+  font-size: 1.5rem;
+  display: block;
+}
 
 .bmc-button img {
   width: 35px !important;
