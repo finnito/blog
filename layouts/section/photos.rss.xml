@@ -13,21 +13,17 @@
     {{ with .OutputFormats.Get "RSS" }}
         {{ printf "<atom:link href=%q rel=\"self\" type=%q />" .Permalink .MediaType | safeHTML }}
     {{ end }}
-    {{ range where .Site.RegularPages "Section" "in" .Site.Params.mainSections }}
+    {{ range .Pages }}
     <item>
       <title>{{ .Title }}</title>
       <link>{{ .Permalink }}</link>
       <pubDate>{{ .Date.Format "Mon, 02 Jan 2006 15:04:05 -0700" | safeHTML }}</pubDate>
       {{ with .Site.Author.email }}<author>{{.}}{{ with $.Site.Author.name }} ({{.}}){{end}}</author>{{end}}
       <guid>{{ .Permalink }}</guid>
-      {{ if ne .Section "posts" }}
       <description>
-        {{- partial "rss-figure.html" . | html -}}
+        {{ partial "rss-figure.html" . }}
         {{- .Content | html -}}
       </description>
-      {{ else }}
-      <description>{{- .Content | html -}}</description>
-      {{ end }}
     </item>
     {{ end }}
   </channel>
