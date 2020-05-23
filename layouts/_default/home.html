@@ -19,8 +19,10 @@
             <div>
                 {{ if eq .Section "photos" }}
                 {{ partial "rss-figure.html" . }}
-                {{ end }}
+                {{ .Content }}
+                {{ else }}
                 <p>{{ .Summary }}</p>
+                {{ end }}
             </div>
         </article>
     {{ end }}
