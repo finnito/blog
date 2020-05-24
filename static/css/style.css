@@ -368,7 +368,7 @@ article.photos span.icon::before {
 article.photo a { color: #EE5A24; }
 article.photo:not(:last-of-type) { border-bottom: 1px solid #EE5A24; }
 
-article.sport a.
+article.sport a,
 article.hiking a { color: #009432;}
 article.sport:not(:last-of-type),
 article.hiking:not(:last-of-type) { border-bottom: 1px solid #009432; }
