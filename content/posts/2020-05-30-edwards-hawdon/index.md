@@ -7,9 +7,9 @@ type: "post"
 draft: true
 layout: "multiGPS"
 GPXFiles: [
-    "/posts/edwards-hawdon/Day_1_Greyneys_Shelter_to_Edwards_Hut.gpx",
-    "/posts/edwards-hawdon/Day_2_Edwards_Hut_to_Hawdon_Hut.gpx",
-    "/posts/edwards-hawdon/Day_3_Hawdon_Hut_to_Hawdon_Shelter.gpx"
+    "Edwards_Hawdon_Day_1_Edwards_Hut.gpx",
+    "Edwards_Hawdon_Day_2_Hawdon_Hut.gpx",
+    "Edwards_Hawdon_Day_3_Out.gpx"
 ]
 metaDescription: ""
 metaImageURL: "posts/edwards-hawdon/"
@@ -19,7 +19,7 @@ __Hikers:__ Finn, Jen & Tom (May 30th, 2020)
 
 ## Day 1: Greyneys Shelter to Edwards Hut
 
-<div id="Day_1_Greyneys_Shelter_to_Edwards_Hut"></div>
+<div id="Edwards_Hawdon_Day_1_Edwards_Hut"></div>
 
 Start the hike by sneaking across State Highway 73 and through the pedestrian tunnel under the train tracks. From here follow the gravel track westward until the road starts to bend away. Here you can cross the Bealey River and follow the trail heading up The Mingha River in the short grass for a short while.
 
@@ -39,7 +39,7 @@ Edwards Hut is a well fitted out 16-bunk hut with fire, two tables and some trip
 
 ## Day 2: Edwards Hut to Hawdon Hut
 
-<div id="Day_2_Edwards_Hut_to_Hawdon_Hut"></div>
+<div id="Edwards_Hawdon_Day_2_Hawdon_Hut"></div>
 
 ### To Taruahuna Pass
 
@@ -81,7 +81,7 @@ Thankfully the track flattens out in the last 10 minutes and is extremely beauti
 
 ## Day 3: Hawdon Hut to Hawdon Shelter
 
-<div id="Day_3_Hawdon_Hut_to_Hawdon_Shelter"></div>
+<div id="Edwards_Hawdon_Day_3_Out"></div>
 
 
 
