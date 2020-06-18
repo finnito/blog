@@ -2,7 +2,7 @@
 
 <div class="content">
     <h1>{{ .Title }}</h1>
-    <time>{{ .PublishDate.Format "January 2, 2006" }}</time>
+    <time>{{ .Params.photoDate.Format "January 2, 2006" }}</time>
         {{ $image := index (.Resources.ByType "image") 0 }}
         <figure>
             <a href='' title="{{ .Params.Title }}">
