@@ -74,7 +74,6 @@ nav {
 main {
   grid-area: content;
   position: relative;
-  overflow-x: hidden;
   word-wrap: break-word;
 }
 
@@ -449,6 +448,7 @@ button {
     flex-direction: column;
     justify-content: space-between;
     height: calc(100vh - 7rem);
+    overflow-y: visible;
   }
   .mobile {
     display: none;
