@@ -48,7 +48,7 @@
 
     <h2>Archive</h2>
     <ul class="archive">
-        {{ range .Data.Pages.GroupByDate "January 2006" "desc" }}
+        {{ range .Data.Pages.GroupByParamDate "photoDate" "January 2006" }}
             {{ .Key }}
             {{ range .Pages }}
             <ul>
