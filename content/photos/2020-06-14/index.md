@@ -1,7 +1,7 @@
 +++
 title = "Sunset at Lake Hood"
-date = "2020-06-14T20:51:22+12:00"
-photoDate = "2020-06-14T17:08:13+12:00"
+date = 2020-06-14T20:51:22+12:00
+photoDate = 2020-06-14T17:08:13+12:00
 image = "IMG_0999.jpeg"
 photographer = "Finn LeSueur"
 +++
