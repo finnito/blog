@@ -1,7 +1,7 @@
 +++
 title = "The Lewis Tops"
-date = "2020-06-16T11:40:56+12:00"
-photoDate = "2020-03-07T14:44:07+13:00"
+date = 2020-06-16T11:40:56+12:00
+photoDate = 2020-03-07T14:44:07+13:00
 image = "IMG_0681.jpeg"
 photographer = "Finn LeSueur"
 +++
