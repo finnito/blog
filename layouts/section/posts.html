@@ -7,13 +7,13 @@
         <!-- Ranges through content/posts/*.md -->
         {{ range .Data.Pages.GroupByDate "January 2006" "desc" }}
             {{ .Key }}
-            {{ range .Pages }}
             <ul>
+            {{ range .Pages }}
                 <li class="{{ lower (index .Params.categories 0) }}">
                     <a href="{{.Permalink}}">{{.Title}} <time>{{ .PublishDate.Format "2 Jan 2006" }}</time></a>
                 </li>
-            </ul>
             {{ end }}
+            </ul>
         {{ end }}
     </ul>
 </div>
