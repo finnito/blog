@@ -330,6 +330,7 @@ h3 + p,
 
 .archive ul {
   list-style: none;
+  margin-bottom: 1rem;
 }
 
 li.sport::before,
