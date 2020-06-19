@@ -7,7 +7,11 @@
             {{ $image := index (.Resources.ByType "image") 0 }}
             <a href='{{.Permalink}}' title="{{ .Params.Title }}">
                 <img 
-                    
+                    srcset='
+                            https://img.lesueur.nz/full?u={{.Permalink}}{{$image}} 4096w,
+                            https://img.lesueur.nz/2048?u={{.Permalink}}{{$image}} 2048w,
+                            https://img.lesueur.nz/1024?u={{.Permalink}}{{$image}} 1024w,
+                            https://img.lesueur.nz/512?u={{.Permalink}}{{$image}} 512w,'
                     src='{{.Permalink}}{{$image}}'
                     alt="{{ .Params.Title }}"
                     loading="lazy"/>
