@@ -1,0 +1,64 @@
+{{ partial "header.html" . }}
+
+<div class="content">
+    {{ range first 1 (where .Site.RegularPages "Section" "photos") }}
+        <h1>
+            <a href="{{ .Permalink | relURL }}" title="{{ .Title }}">
+                {{ .Title }}
+            </a>
+        </h1>
+        <time>{{ .Params.photoDate.Format "January 2, 2006" }}</time>
+            {{ $image := index (.Resources.ByType "image") 0 }}
+            <figure>
+                <a href='' title="{{ .Params.Title }}">
+                    <img 
+                        srcset='
+                            https://img.lesueur.nz/full?u={{.Permalink}}{{$image}} 4096w,
+                            https://img.lesueur.nz/2048?u={{.Permalink}}{{$image}} 2048w,
+                            https://img.lesueur.nz/1024?u={{.Permalink}}{{$image}} 1024w,
+                            https://img.lesueur.nz/512?u={{.Permalink}}{{$image}} 512w,'
+                        src='{{.Permalink}}{{$image}}'
+                        alt="{{ .Params.Title }}"
+                        loading="lazy"/>
+                </a>
+                <figcaption>
+                    <ul class="exif">
+                        <li>🙋‍♂️<span>{{ .Params.photographer }}</span></li>
+                        {{ with $image.Exif }}
+                        <li>{{ with .Tags.Model }}📷<span>{{ . }}</span>{{ end }}</li>
+                        <li>🎞
+                            {{ with .Tags.ExposureTime }}<span>{{ . }}s</span>{{ end }}
+                            {{ with .Tags.FNumber }}<span>f/{{ . }}</span>{{ end }}
+                            {{ with .Tags.FocalLength }}<span>{{ . }}mm</span>{{ end }}
+                            {{ with .Tags.ISOSpeedRatings }}<span>ISO {{ . }}</span>{{ end }}
+                        </li>
+                        <li>
+                            🌏<a title="Photo location on TopoMap"
+                                href="http://www.topomap.co.nz/NZTopoMap?v=2&ll={{ .Lat }},{{ .Long }}&z=14&pin=1&lbl={{ .Lat }},{{ .Long }}"
+                                target="_blank">
+                                <span>{{ printf "%.5f" .Lat }}, {{ printf "%.5f" .Long }}</span>
+                            </a>
+                        </li>
+                        {{ end }}
+                    </ul>
+                </figcaption>
+            </figure>
+        {{ .Content }}
+    {{ end }}
+
+    <h2>Archive</h2>
+    <ul class="archive">
+        {{ range .Data.Pages.GroupByParamDate "photoDate" "January 2006" }}
+            {{ .Key }}
+            {{ range .Pages }}
+            <ul>
+                <li class="photo">
+                    <a href="{{.Permalink}}">{{.Title}} <time>{{ dateFormat "02 Jan, 2006" .Params.photoDate }}</time></a>
+                </li>
+            </ul>
+            {{ end }}
+        {{ end }}
+    </ul>
+</div>
+
+{{ partial "footer.html" . }}

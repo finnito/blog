@@ -1,0 +1,14 @@
+<figure>
+    <a href='{{ .Get "src" | absURL }}' title='Full size image: {{ .Get "title" }}'>
+        <img 
+            srcset='
+                https://img.lesueur.nz/full?u={{ .Get "src" | absURL }} 4096w,
+                https://img.lesueur.nz/2048?u={{ .Get "src" | absURL }} 2048w,
+                https://img.lesueur.nz/1024?u={{ .Get "src" | absURL }} 1024w,
+                https://img.lesueur.nz/512?u={{ .Get "src" | absURL }} 512w,'
+            src='{{ .Get "src" | absURL }}'
+            alt='{{ .Get "title" }}'
+            loading="lazy"/>
+    </a>
+    <figcaption>(📷: {{ .Get "author" }}) {{ .Get "title" }}</figcaption>
+</figure>

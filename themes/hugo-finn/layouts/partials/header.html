@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.LanguageCode }}">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="/favicon.png">
+    <style>{{ readFile "/themes/hugo-finn/static/css/style.css" | safeCSS }}</style>
+    {{ range .AlternativeOutputFormats -}}
+      {{ printf `<link rel="%s" type="%s" href="%s" title="%s" />` .Rel .MediaType.Type .Permalink $.Site.Title | safeHTML }}
+    {{ end -}}
+    <link rel="sitemap" type="application/xml" title="Sitemap" href="/sitemap.xml" />
+
+    <title>{{ with .Title }}{{ . }} | {{ end }}{{ .Site.Title }}</title>
+    <meta property="og:title" content="{{ .Title }} | {{ .Site.Title }}">
+    <meta property="twitter:title" content="{{ .Title }} | {{ .Site.Title }}">
+    <meta name="title" content="{{ .Title }} | {{ .Site.Title }}">
+    {{ if .Params.metaDescription }}
+      <meta name="description" content="{{ .Params.metaDescription }}">
+      <meta property="og:description" content="{{ .Params.metaDescription }}">
+      <meta property="twitter:description" content="{{ .Params.metaDescription }}">
+    {{ end }}
+    {{ if .Params.metaImageURL }}
+      <meta property="og:image" content="{{ .Params.metaImageURL | relURL }}">
+      <meta property="twitter:image" content="{{ .Params.metaImageURL | relURL }}">
+    {{ end }}
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="{{ .Permalink }}">
+    <meta property="twitter:url" content="{{ .Permalink }}">
+  </head>
+
+{{ if in "gps multiGPS" .Params.layout }}
+  <body class="gps">
+{{ else }}
+  <body>
+{{ end }}
+    <nav>
+      <h2><a href="/" class="home">Finn LeSueur</a></h2>
+        <input class="toggle mobile" type="checkbox"/>
+        <div class="hamburger mobile">
+            <div>
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+            <p>Menu</p>
+        </div>
+        <div class="nav-wrapper">
+          <div>
+            <p>I am a Science and Physics teacher from Christchurch, New Zealand who writes code in his spare time, but would really rather be outside doing almost any type of sport!</p>
+            <ul class="menu">
+              {{ $currentPage := . }}
+              {{ range .Site.Menus.main }}
+              <li class='{{if or ($currentPage.IsMenuCurrent "main" .) ($currentPage.HasMenuCurrent "main" .) }} active{{end}}'>
+                <a href="{{ .URL | relURL }}">{{ .Name }}</a>
+              </li>
+              {{ end }}
+            </ul>
+            <p class="emoji">🏔 🏃‍♂️ 🎿 🛶 🚴‍♂️ 🧗 🧘‍♂️</p>
+          </div>
+          <div class="center">
+            <p>If any of my writing or projects add value to your world, please consider supporting me through the link below.</p>
+            <a class="bmc-button" target="_blank" href="https://www.buymeacoffee.com/FinnLeSueur">
+              <img src="https://cdn.buymeacoffee.com/buttons/bmc-new-btn-logo.svg" alt="Buy me a Coffee">
+              <span>Buy me a coffee</span>
+            </a>
+          </div>
+      </div>
+      {{ if not (in "gps multiGPS" .Params.layout) }}
+        <hr/>
+      {{ end }}
+    </nav>
+    {{ if in "gps multiGPS" .Params.layout }}
+    <div id="hikeMap"></div>
+    {{ end }}
+    <main>
