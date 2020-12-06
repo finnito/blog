@@ -13,3 +13,4 @@ jobs:
           host: ${{ secrets.HOST }}
           user: ${{ secrets.USER }}
           pass: ${{ secrets.PASSWORD }}
+          args: "-tt -vvv"
