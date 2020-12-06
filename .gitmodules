@@ -1,4 +1,0 @@
-[submodule "themes/hugo-finn"]
-	path = themes/hugo-finn
-	url = https://gitlab.com/Finnito/hugo-finn
-	update = merge
