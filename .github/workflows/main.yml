@@ -6,11 +6,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Deploy to Linode
-        uses: fifsky/ssh-action@master
+        uses: JimCronqvist/action-ssh@master
         with:
           command: |
             cd /srv/finn.lesueur.nz/ && sudo -u finn git pull origin master && sudo -u finn bash build-prod.sh && exit
-          host: ${{ secrets.HOST }}
-          user: ${{ secrets.USER }}
-          pass: ${{ secrets.PASSWORD }}
-          args: "-tt -vvv"
+          hosts: "$USER@$HOST"
+          privateKey: ${{ secrets.PRIVATE_KEY }}
