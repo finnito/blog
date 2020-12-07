@@ -12,4 +12,5 @@ jobs:
           command: "cd /srv/finn.lesueur.nz/ && sudo -u finn git pull origin master && sudo -u finn bash build-prod.sh && exit;"
           host: ${{ secrets.HOST }}
           username: root
-          privateKey: ${{ secrets.PRIVATE_KEY}}
+          password: ${{ secrets.PASSWORD }}
+          privateKey: ${{ secrets.PRIVATE_KEY }}
