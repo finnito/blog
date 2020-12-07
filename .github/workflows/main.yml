@@ -4,12 +4,12 @@ on: push
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - name: Deploy to Linode
-        uses: JimCronqvist/action-ssh@master
+        uses: garygrossgarten/github-action-ssh@release
         with:
-          command: |
-            cd /srv/finn.lesueur.nz/ && sudo -u finn git pull origin master && sudo -u finn bash build-prod.sh && exit
-          hosts: "root@172.105.169.195"
-          privateKey: ${{ secrets.PRIVATE_KEY }}
-          debug: true
+          command: "cd /srv/finn.lesueur.nz/ && sudo -u finn git pull origin master && sudo -u finn bash build-prod.sh && exit;"
+          host: ${{ secrets.HOST }}
+          username: root
+          privateKey: ${{ secrets.PRIVATE_KEY}}
