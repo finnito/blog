@@ -10,5 +10,5 @@ jobs:
         with:
           command: |
             cd /srv/finn.lesueur.nz/ && sudo -u finn git pull origin master && sudo -u finn bash build-prod.sh && exit
-          hosts: "$USER@$HOST"
+          hosts: "root@172.105.169.195"
           privateKey: ${{ secrets.PRIVATE_KEY }}
