@@ -2,7 +2,7 @@
 title: "Markdown Table Generator - An Apple Shortcut to make your Markdown life easier"
 date: 2020-04-29T20:09:12+12:00
 slug: markdown-table-generator
-categories: ["iPad", "Development"]
+categories: ["iPad", "Development", "Project"]
 metaDescription: "A small Apple Shortcut that creates a Markdown table of user specified dimensions that can include (or not) a header row."
 metaImageURL: "/posts/markdown-table-generator/markdown-table-generator-og-image.png"
 ---
