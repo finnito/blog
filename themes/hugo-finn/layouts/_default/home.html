@@ -1,31 +1,30 @@
 {{ partial "header.html" . }}
-
-{{ .Content }}
-    {{ range first 10 (where .Site.RegularPages "Section" "in" .Site.Params.mainSections) }}
-        {{ $category := "" }}
-        {{ if eq .Section "posts" }}
-            {{ $category = lower (index .Params.categories 0) }}
-        {{ else }}
-            {{ $category = "photo" }}
+    {{ range slice "hiking" "development" "photo" }}
+        {{ $project := first 1 (index $.Site.Taxonomies.categories .).Pages }}
+        {{ range $project }}
+            {{ $scratch := newScratch}}
+            {{ if eq .Section "posts" }}
+                {{ $scratch.Set "category" (lower (index .Params.categories 0)) }}
+            {{ else }}
+                {{ $scratch.Set "category" "photo" }}
+            {{ end }}
+            <article class="{{ .Section }} {{ $scratch.Get "category" }} ">
+                <h1>
+                    <span class="icon"></span>
+                    Latest: <a href="{{ .Permalink | relURL }}" title="{{ .Title }}">{{ .Title }}</a>
+                </h1>
+                <time>{{ .PublishDate.Format "January 2, 2006" }}</time>
+                <div>
+                    {{ if eq .Section "photos" }}
+                    {{ partial "rss-figure.html" . }}
+                    {{ .Content }}
+                    {{ else }}
+                    <p>{{ .Summary }}</p>
+                    {{ end }}
+                    <p><a href="{{ .Permalink }}" title="Read More">-- Read More --</a></p>
+                </div>
+            </article>
         {{ end }}
-        <article class="{{ .Section }} {{ $category }} ">
-            <h1>
-                <span class="icon"></span>
-                <a href="{{ .Permalink | relURL }}" title="{{ .Title }}">
-                    {{ .Title }}
-                </a>
-            </h1>
-            <time>{{ .PublishDate.Format "January 2, 2006" }}</time>
-            <div>
-                {{ if eq .Section "photos" }}
-                {{ partial "rss-figure.html" . }}
-                {{ .Content }}
-                {{ else }}
-                <p>{{ .Summary }}</p>
-                {{ end }}
-            </div>
-        </article>
     {{ end }}
-    <a href="/posts" title="Home"><button>Writing Archive</button></a>
 
 {{ partial "footer.html" . }}
