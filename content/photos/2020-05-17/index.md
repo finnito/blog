@@ -1,6 +1,7 @@
 +++
 title = "Lyttelton Harbour"
 date = 2020-05-23T17:49:28+12:00
+categories = ["photo"]
 photoDate = 2020-05-17T17:49:28+12:00
 image = "IMG_0906.jpg"
 photographer = "Finn LeSueur"
