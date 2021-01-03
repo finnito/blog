@@ -32,7 +32,7 @@ It then gently climbs up over Kōhaihai Bluffs (100m ⬆️) and down the other 
   <figcaption>(📷: Finn LeSueur) Sam getting stoked about nature and swing bridges!</figcaption>
 </figure>
 
-__Note:__ the track along the beach front has been modified over the pat couple of years to better survive flooding and king tides, so there is a safe path for _most_ weather conditions to Heaphy Hut. But bear in mind that this is not so from Heaphy to Lewis Hut! If there is flooding you may not be able to make it through.
+__Note!:__ the track along the beach front has been modified over the pat couple of years to better survive flooding and king tides, so there is a safe path for _most_ weather conditions to Heaphy Hut. But bear in mind that this is not so from Heaphy to Lewis Hut! If there is flooding you may not be able to make it through.
 
 ## Day 2: To James Mackay Hut
 
