@@ -12,7 +12,7 @@ body {
   max-width: 900px;
   margin: auto;
   display: grid;
-  grid-template-rows: auto auto minmax(1fr, 600px) auto;
+  /*grid-template-rows: auto auto 600px auto;*/
   grid-template-areas:
     "nav"
     "map"
@@ -76,6 +76,7 @@ main {
   grid-area: content;
   position: relative;
   word-wrap: break-word;
+  min-width:  0;
 }
 
 footer {
@@ -284,7 +285,9 @@ time, figcaption {
   font-size: 0.8rem;
 }
 
-pre {
+pre,
+li > code,
+p > code {
   padding: 0.25rem;
   border-radius: 0.25rem;
   overflow: auto;
@@ -293,14 +296,7 @@ pre {
   box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
   word-wrap: normal;
   font-family: monospace;
-}
-
-pre {
   background: #f5f6fa;
-}
-
-code {
-  margin: 0.25rem 0;
 }
 
 ul li p:first-of-type,
