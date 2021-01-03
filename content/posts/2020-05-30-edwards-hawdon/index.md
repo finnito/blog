@@ -22,6 +22,8 @@ __Hikers:__ Finn, Jen & Tom (May 30th, 2020)
 
 Start the hike by sneaking across State Highway 73 and through the pedestrian tunnel under the train tracks. From here follow the gravel track westward until the road starts to bend away. Here you can cross the Bealey River and follow the trail heading up The Mingha River in the short grass for a short while.
 
+<!--more-->
+
 You should take a right turn, crossing The Mingha River just before the Edwards River joins. There is a trail in the bush on the south side of the Edwards Valley - hopefully, you can spot the large orange triangle across the river!
 
 The Bealey River can be formidable in high flows, but we encountered it after a significant dry period, measuring approximately 60 cubic meters per second (cumecs) at the Waimakariri Bridge. You should not have any trouble crossing at this flow. Nor should you with the Edwards River East Branch crossing further up bother you.
