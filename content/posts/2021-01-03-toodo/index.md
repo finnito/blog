@@ -6,6 +6,7 @@ categories: ["Development", "Python", "MacOS"]
 metaDescription: "Find the FIX/NOTE/TODO tasks in your source files, across multiple directories!"
 metaImageURL: "https://github.com/finnito/tooDo/blob/main/gui-screenshot.png?raw=true"
 git: https://github.com/finnito/tooDo
+prism: "true"
 ---
 
 A simple but effective way to leave comments to your future self, and other programmers is to put stuff like this in code:
@@ -32,7 +33,7 @@ This is a fun weekend project for me, but I am all for learning, so [let me know
 
 1. Clone this repository
 2. Install requirements (`fswatch`, `toml`)
-    - `python3 -m pip install -r requirements.txt`
+    - {{< highlight bash >}} python3 -m pip install -r requirements.txt {{< /highlight >}}
 3. Open `config.toml` and define the directories you want to watch, like this:
 
 ```toml
