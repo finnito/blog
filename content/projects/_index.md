@@ -10,4 +10,4 @@ metaImageURL: ""
 
 # My Projects
 
-In my spare time I write code - nothing groundbreaking, but you can find out about some of my projects here.
+In my spare time I write code - nothing groundbreaking, but you can find out about some of my projects here. Other hacking I do can be found on [my Github](https://github.com/Finnito).
