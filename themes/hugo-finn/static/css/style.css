@@ -6,13 +6,13 @@ body {
 }
 
 body {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-family: Iowan Old Style, Apple Garamond, Baskerville, Times New Roman, Droid Serif, Times, Source Serif Pro, serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
   color: rgb(51, 51, 51);
   line-height: 1.75;
-  max-width: 1024px;
+  max-width: 900px;
   margin: auto;
   display: grid;
-  grid-template-rows: auto auto 1fr auto;
+  grid-template-rows: auto auto minmax(1fr, 600px) auto;
   grid-template-areas:
     "nav"
     "map"
@@ -20,15 +20,16 @@ body {
     "footer";
   grid-template-columns: 1fr;
   transition: all 300ms;
+  align-content: start;
 }
 
 article:not(:last-of-type) {
-  border-bottom: 1px solid #3498db;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
 }
 
-article span.icon::before {
+/*article span.icon::before {
   padding-right: 0.5rem;
-}
+}*/
 
 nav h2 {
   margin: 0.5rem 0;
@@ -111,6 +112,7 @@ a[download] {
   box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
   transition: all 300ms;
   border-radius: 0.25rem;
+  white-space: nowrap;
 }
 
 a[download]:hover, a[download]:active {
@@ -119,11 +121,11 @@ a[download]:hover, a[download]:active {
   cursor: pointer;
 }
 
-a[target=_blank]::after {
+/*a[target=_blank]::after {
   content: "↗";
   vertical-align: super;
   font-size: 0.75rem;
-}
+}*/
 
 input[type=checkbox].toggle {
   width: 75px;
@@ -217,6 +219,10 @@ input[type=checkbox].toggle,
   z-index: 999999;
 }
 
+.nav-wrapper div {
+  max-width:  600px;
+}
+
 .nav-wrapper ul {
   list-style: none;
 }
@@ -224,7 +230,7 @@ input[type=checkbox].toggle,
 h1 {
   line-height: 1.25;
   margin-bottom: 0;
-  margin: 0.5rem 0 0 0;
+  margin: 1rem 0 0 0;
 }
 
 h2 {
@@ -282,7 +288,7 @@ pre {
   padding: 0.25rem;
   border-radius: 0.25rem;
   overflow: auto;
-  color: white;
+  color: black;
   white-space: pre;
   box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
   word-wrap: normal;
@@ -290,9 +296,7 @@ pre {
 }
 
 pre {
-  background: #76b852;
-  background: -webkit-linear-gradient(45deg, #8DC26F, #76b852);
-  background: linear-gradient(45deg, #8DC26F, #76b852);
+  background: #f5f6fa;
 }
 
 code {
@@ -310,10 +314,6 @@ h3 + p,
   color: gray;
   margin: -0.5rem 0;
   font-size: 0.9rem;
-}
-
-.emoji {
-  font-size: 1.75rem;
 }
 
 #hikeMap {
@@ -338,6 +338,11 @@ h3 + p,
 .archive ul {
   list-style: none;
   margin-bottom: 1rem;
+}
+
+.archive li {
+  line-height: 1.25rem;
+  margin-bottom: 0.5rem;
 }
 
 li.sport::before,
@@ -374,12 +379,12 @@ article.photos span.icon::before {
 }
 
 article.photo a { color: #EE5A24; }
-article.photo:not(:last-of-type) { border-bottom: 1px solid #EE5A24; }
+/*article.photo:not(:last-of-type) { border-bottom: 1px solid #EE5A24; }*/
 
 article.sport a,
 article.hiking a { color: #009432;}
 article.sport:not(:last-of-type),
-article.hiking:not(:last-of-type) { border-bottom: 1px solid #009432; }
+/*article.hiking:not(:last-of-type) { border-bottom: 1px solid #009432; }*/
 
 button {
   padding: 0.25rem 0.5rem;
@@ -423,7 +428,10 @@ button {
     overflow-x: visible;
   }
   body {
-    grid-template-columns: minmax(200px, 250px) 1fr;
+    grid-template-columns:  225px 600px;
+    justify-content: space-between;
+    /*grid-template-columns: minmax(200px, 250px) minmax(1fr, 600px);*/
+    /*-webkit-grid-template-columns: minmax(200px, 250px) minmax(1fr, 600px);*/
     grid-template-areas:
       "map map"
       "nav content"
@@ -434,7 +442,7 @@ button {
 
   nav hr {display: none;}
   nav h2 { margin-top: 1rem; }
-  main { padding-left: 6rem; }
+  /*main { padding-left: 6rem; }*/
   .toggle ~ .nav-wrapper {
     transform: none;
   }
