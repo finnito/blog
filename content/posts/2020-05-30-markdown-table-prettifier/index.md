@@ -2,7 +2,7 @@
 title: "Markdown Table Prettifier - A Scriptable action to make your Markdown tables more readable."
 date: 2020-04-30T14:03:47+12:00
 slug: "markdown-table-prettifier"
-categories: ["iPad", "Development"]
+categories: ["iPad", "Development", "Project"]
 metaDescription: "A small Scriptable action that parses text to find Markdown tables and pad the cells to make them more readable."
 metaImageURL: "/posts/markdown-table-prettifier/markdown-table-prettifier-og-image.png"
 ---
