@@ -20,7 +20,7 @@ Head over to your repository on Gitlab and into __Settings -> CI / CD Settings__
 
 This step is so that your server can pull from your Gitlab repository, even if it is private!
 
-`cat` your `~/.ssh/id_rsa.pub` (public key) and paste the contents into the big box at the top of this page over here https://gitlab.com/profile/keys. Don't forget to give it a descriptive title in case you have multiple.
+`cat` your `~/.ssh/id_rsa.pub` (public key) and paste the contents into the big box at the top of this page over here `https://gitlab.com/profile/keys`. Don't forget to give it a descriptive title in case you have multiple.
 
 ## Step 3: Git Remote
 

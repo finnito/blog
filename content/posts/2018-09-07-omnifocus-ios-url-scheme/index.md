@@ -106,7 +106,7 @@ _It is important to note that the 'task-id' string should be URL encoded as demo
 - __Editorial__: <http://omz-software.com/editorial/>
 - __Drafts__: <https://getdrafts.com/>
 - __OmniForum Post__: <https://discourse.omnigroup.com/t/implementation-details-for-omnifocus-2-14-automation/24179>
-- __Ken Case__: <https://mobile.twitter.com/kcase>
+- __Ken Case__: <https://twitter.com/kcase>
 - __OmniFocus Quick View Shortcut__: <https://workflow.is/workflows/f78d4e2303454a7fbbd8346dd41925c5>
 - __OmniFocus Perspective Shortcut__: <https://workflow.is/workflows/329d62f5c5ce41669fecd8e86a3bf0a2>
 - __OmniFocus Search Shortcut__: <https://workflow.is/workflows/90e65b30ddcb43af864c06e312e0a6be>
@@ -119,7 +119,7 @@ _It is important to note that the 'task-id' string should be URL encoded as demo
 [ed]: http://omz-software.com/editorial/
 [dr]: https://getdrafts.com/
 [ofp]: https://discourse.omnigroup.com/t/implementation-details-for-omnifocus-2-14-automation/24179
-[kc]: https://mobile.twitter.com/kcase
+[kc]: https://twitter.com/kcase
 [ofquickview]: https://workflow.is/workflows/f78d4e2303454a7fbbd8346dd41925c5
 [ofsearch]: https://workflow.is/workflows/90e65b30ddcb43af864c06e312e0a6be
 [offolder]: https://workflow.is/workflows/c65cdd98379d49e5bf9261087d4267b4

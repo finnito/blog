@@ -52,8 +52,6 @@ Granted, Hugo uses a mixture of plain text and Markdown which is a slight augmen
 
 In order to live this simpler life, I had to figure out how to initially deploy the website and create a nice continuous integration pipeline so that my updates flow easily.
 
-This website is deployed to my VPS through Gitlab, and while the core repository is private, you can find the theme for this site here: [Hugo - Finn](https://gitlab.com/Finnito/hugo-finn).
-
 When I commit to my repository, a Gitlab pipeline is triggered using this `.gitlab-ci.yml` script.
 
 ```
