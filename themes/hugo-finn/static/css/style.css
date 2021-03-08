@@ -379,9 +379,16 @@ li.development::before,
 li.hiking::before,
 li.writing::before,
 li.ipad::before,
-li.photo::before {
+li.photo::before,
+li::before {
   margin-right: 0.5rem;
 }
+
+li.food::before,
+article.food span.icon::before {
+  content: "🍲";
+}
+
 li.sport::before,
 article.sport span.icon::before {
   content: "🏃‍♂️";
