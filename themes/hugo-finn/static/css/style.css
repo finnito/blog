@@ -144,11 +144,14 @@ input[type=checkbox].toggle,
 
 .hamburger {
     z-index: 9999999;
-    box-shadow: 0 0px 15px rgba(0,0,0,0.15);
+    /*box-shadow: 0 0px 15px rgba(0,0,0,0.15);*/
     display: flex;
     align-items: center;
     padding: 0.5rem;
     border-radius: 1rem;
+    animation-duration: 5s;
+    animation-name: boxShadow;
+    animation-iteration-count: infinite;
 }
 
 .hamburger p {
@@ -209,8 +212,8 @@ input[type=checkbox].toggle,
   width: 100vw;
   position: absolute;
   left: 0;
-  height: calc(100vh - 3.6rem);
-  top: 3.6rem;
+  height: calc(100vh - 3.6rem - 4px);
+  top: calc(3.6rem + 4px);
   transition: all 300ms;
   padding: 0.5rem;
   box-sizing: border-box;
@@ -267,6 +270,36 @@ hr {
   height: 1px;
   background-color: #bdc3c7;
   margin: 0 auto;
+}
+
+nav hr {
+  background: -webkit-linear-gradient(left, #f6e58d, #ffbe76, #ff7979, #badc58, #dff9fb);
+  background: -moz-linear-gradient(left, #f6e58d, #ffbe76, #ff7979, #badc58, #dff9fb);
+  background: -ms-linear-gradient(left, #f6e58d, #ffbe76, #ff7979, #badc58, #dff9fb);
+  background: linear-gradient(left, #f6e58d, #ffbe76, #ff7979, #badc58, #dff9fb);
+  height:  4px;
+}
+
+@keyframes boxShadow {
+  from {
+    box-shadow: 0 1px 5px rgba(246, 229, 141, 0.24), 0 1px 2px rgba(246, 229, 141, 0.48);
+  }
+
+  40% {
+    box-shadow: 0 1px 5px rgba(255, 190, 118,0.24), 0 1px 2px rgba(255, 190, 118,0.48);
+  }
+
+  60% {
+    box-shadow: 0 1px 5px rgba(255, 121, 121,0.24), 0 1px 2px rgba(255, 121, 121,0.48);
+  }
+
+  80% {
+    box-shadow: 0 1px 5px rgba(186, 220, 88,0.24), 0 1px 2px rgba(186, 220, 88,0.48);
+  }
+
+  to {
+    box-shadow: 0 1px 5px rgba(223, 249, 251,0.24), 0 1px 2px rgba(223, 249, 251,0.48);
+  }
 }
 
 ul {
