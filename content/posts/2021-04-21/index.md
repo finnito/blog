@@ -1,6 +1,6 @@
 ---
 
-title: Teaching, Pay and What Matteres 
+title: Teaching, Pay and What Matters
 slug: teaching-pay-and-what-matters
 date: 2021-04-21T22:32:06+12:00
 categories: ["Teaching"]
