@@ -15,7 +15,7 @@ In 2019 the [Post Primary Teachers Association (PPTA) / Te Wehengarua](https://p
 3. Increase Units from $4000 to $5000
 4. Increase Middle Management Units from $1000 to $2000
 5. $1500 lump sum
-6. [And many other things...](https://www.ppta.org.nz/collective-agreements/secondary-teachers-collective-agreement-stca/terms-of-settlement/)
+6. [And many other things..](https://www.ppta.org.nz/collective-agreements/secondary-teachers-collective-agreement-stca/terms-of-settlement/)
 
 This is all well and good - __it is important to get recognised, monetarily, for the work you do__. However, in the two years since this agreement has come into effect, I have had some enlightening conversations with other teachers (both management, and not). The comments revolved around:
 
@@ -25,7 +25,7 @@ This is all well and good - __it is important to get recognised, monetarily, for
 - marking in evenings and weekends,
 - not having time during the day to do anything except tread water.
 
-But the thing that stood out to me most was that <mark>__the increased pay/units does not improve the culture/systems of teaching__</mark>. The pay is nice, of course, but it does __not__:
+But the thing that stood out to me most was that <mark>the increased pay/units does not improve the culture/systems of teaching</mark>. The pay is nice, of course, but it does __not__:
 
 - give you more non-contacts to do better lesson preparation,
 - give you more time to prepare different resources for _extremely_ diverse learners,
