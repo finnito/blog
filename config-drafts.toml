@@ -1,0 +1,39 @@
+baseurl                 = "https://drafts.finn.lesueur.nz"
+contentdir              = "content"
+layoutdir               = "layouts"
+publishdir              = "public"
+title                   = "Finn LeSueur"
+canonifyurls            = true
+uglyurls                = false
+staticDir               = ["static"]
+
+DefaultContentLanguage  = "en"
+LanguageCode            = "en"
+theme                   = "hugo-finn"
+metaDataFormat          = "yaml"
+pygmentsUseClasses      = true
+pygmentCodeFences       = true
+enableGitInfo           = true
+
+[markup.goldmark.renderer]
+  unsafe=true
+
+[Params]
+  subtitle      = "Finn LeSueur on the internet."
+  logo          = "logo.png"
+  favicon       = "favicon.ico"
+  dateFormat    = "January 2, 2006"
+  commit        = true
+  rss           = true
+  comments      = false
+  mainSections  = ["posts", "photos"]
+
+[Author]
+  name    = "Finn LeSueur"
+  email   = "finn@lesueur.nz"
+  gitlab  = "Finnito"
+
+[sitemap]
+  changefreq  = "weekly"
+  filename    = "sitemap.xml"
+  priority    = 0.5
