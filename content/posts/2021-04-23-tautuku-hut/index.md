@@ -2,7 +2,6 @@
 
 title: Tautuku Hut
 date: 2021-04-23T16:33:57+12:00
-draft: true
 categories: ["Trail Running"]
 type: "post"
 layout: "gps"
