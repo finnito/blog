@@ -2,4 +2,4 @@
 set -e
 
 rm -rf public/
-hugo--buildDrafts --buildFuture --buildExpired
+hugo --buildDrafts --buildFuture --buildExpired --config=config-drafts.toml
