@@ -1,0 +1,16 @@
+name: Drafts
+on: push
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Deploy drafts to Linode
+        uses: garygrossgarten/github-action-ssh@release
+        with:
+          command: "cd /srv/drafts.finn.lesueur.nz/ && sudo -u finn git pull origin master && sudo -u finn bash build-drafts.sh && exit;"
+          host: ${{ secrets.HOST }}
+          username: root
+          password: ${{ secrets.PASSWORD }}
+          privateKey: ${{ secrets.PRIVATE_KEY }}
