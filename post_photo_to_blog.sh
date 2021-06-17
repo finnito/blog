@@ -27,8 +27,8 @@ echo ""
 
 file="+++
 title = '$title'
-date = '$formattedDate'
-photoDate = '$formattedDate'
+date = $formattedDate
+photoDate = $formattedDate
 image = '$filename'
 photographer = '$photographer'
 +++
