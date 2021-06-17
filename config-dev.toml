@@ -1,4 +1,4 @@
-baseurl                 = "https://dev.finn.lesueur.nz"
+baseurl                 = "/"
 contentdir              = "content"
 layoutdir               = "layouts"
 publishdir              = "public"
