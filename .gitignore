@@ -1,2 +1,4 @@
 public/
 resources/
+error_log
+stdout_log
