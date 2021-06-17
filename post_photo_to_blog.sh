@@ -7,6 +7,8 @@ echo "Parsing: $1"
 cd "/Users/finnlesueur/Git/blog/"
 git pull origin master
 
+filename=$(exiftool -s -S -filename "$1")
+
 # Date
 dateStr=$(exiftool -time:FileCreateDate -s -S "$1")
 photoDate=$(date -jf "%Y:%m:%d %T" "$dateStr")
@@ -25,9 +27,9 @@ echo ""
 
 file="+++
 title = '$title'
-date = $formattedDate
-photoDate = $formattedDate
-image = $1
+date = '$formattedDate'
+photoDate = '$formattedDate'
+image = '$filename'
 photographer = '$photographer'
 +++
 
