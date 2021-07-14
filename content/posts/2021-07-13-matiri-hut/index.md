@@ -2,7 +2,7 @@
 title: "Matiri Hut and Lake"
 slug: "matiri-hut-and-lake"
 date: 2021-07-14T15:43:18+12:00
-categories: ["Trail Running"]
+categories: ["Trail Running sport"]
 type: "post"
 layout: "gps"
 GPXFileURL: "/posts/matiri-hut-and-lake/Matiri_Hut.gpx"

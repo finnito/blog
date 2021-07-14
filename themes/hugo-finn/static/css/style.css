@@ -388,7 +388,10 @@ li.food::before,
 article.food span.icon::before {
   content: "🍲";
 }
-
+li.teaching::before,
+article.teaching span.icon::before {
+  content: "🧑‍🏫";
+}
 li.sport::before,
 article.sport span.icon::before {
   content: "🏃‍♂️";
