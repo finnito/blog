@@ -9,8 +9,8 @@ GPXFiles: [
     "/posts/lake-angelus-hut/Lake_Angelus_Day_1.gpx",
     "/posts/lake-angelus-hut/Lake_Angelus_Day_2.gpx"
 ]
-metaDescription: ""
-metaImageURL: "posts/"
+metaDescription: "A beautiful two-day snowy tramp on the Travers Range that visits Lake Angelus and Speargrass huts."
+metaImageURL: "/posts/lake-angelus-hut/IMG_6236.jpeg"
 ---
 
 __Hikers:__ Finn & Jen (June 11th, 2021)
