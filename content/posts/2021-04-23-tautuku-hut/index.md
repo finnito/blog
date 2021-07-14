@@ -2,7 +2,7 @@
 
 title: Tautuku Hut
 date: 2021-04-23T16:33:57+12:00
-categories: ["Trail Running"]
+categories: ["Trail Running sport"]
 type: "post"
 layout: "gps"
 GPXFileURL: "TautukuHut.gpx"
