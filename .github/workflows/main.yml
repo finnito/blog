@@ -9,7 +9,7 @@ jobs:
       - name: Deploy to Linode
         uses: garygrossgarten/github-action-ssh@release
         with:
-          command: "cd /srv/finn.lesueur.nz/ && sudo -u finn git pull origin master && sudo -u finn bash build-prod.sh && exit;"
+          command: "cd /srv/finn.lesueur.nz/; su finn; git pull origin master; bash build-prod.sh; exit;"
           host: ${{ secrets.HOST }}
           username: root
           password: ${{ secrets.PASSWORD }}
