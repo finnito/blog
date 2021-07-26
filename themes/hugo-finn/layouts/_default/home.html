@@ -1,30 +1,26 @@
 {{ partial "header.html" . }}
-    {{ range slice "hiking" "development" "photo" }}
-        {{ $project := first 1 (index $.Site.Taxonomies.categories .).Pages }}
-        {{ range $project }}
-            {{ $scratch := newScratch}}
-            {{ if eq .Section "posts" }}
-                {{ $scratch.Set "category" (lower (index .Params.categories 0)) }}
-            {{ else }}
-                {{ $scratch.Set "category" "photo" }}
+
+<div class="content">
+    {{ .Content }}
+
+    <ul class="archive">
+        <!-- Ranges through content/posts/*.md -->
+        {{ $pages := (where .Site.RegularPages "Section" "posts") }}
+        {{ range $pages.GroupByDate "January 2006" "desc" }}
+            {{ .Key }}
+            <ul>
+            {{ range .Pages }}
+                {{ if (isset .Params.categories 0) }}
+                    <li class="{{ lower (index .Params.categories 0) }}">
+                {{ else }}
+                    <li>
+                {{ end }}
+                    <a href="{{.Permalink}}">{{.Title}} <time>{{ .PublishDate.Format "2 Jan 2006" }}</time></a>
+                </li>
             {{ end }}
-            <article class="{{ .Section }} {{ $scratch.Get "category" }} ">
-                <h1>
-                    <span class="icon"></span>
-                    Latest: <a href="{{ .Permalink | relURL }}" title="{{ .Title }}">{{ .Title }}</a>
-                </h1>
-                <time>{{ .PublishDate.Format "January 2, 2006" }}</time>
-                <div>
-                    {{ if eq .Section "photos" }}
-                    {{ partial "rss-figure.html" . }}
-                    {{ .Content }}
-                    {{ else }}
-                    <p>{{ .Summary }}</p>
-                    {{ end }}
-                    <p><a href="{{ .Permalink }}" title="Read More">-- Read More --</a></p>
-                </div>
-            </article>
+            </ul>
         {{ end }}
-    {{ end }}
+    </ul>
+</div>
 
 {{ partial "footer.html" . }}
