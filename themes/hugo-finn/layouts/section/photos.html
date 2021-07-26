@@ -13,9 +13,9 @@
                 <a href='' title="{{ .Params.Title }}">
                     <img 
                         srcset='
-                            https://img.lesueur.nz/512?u={{.Permalink}}{{$image}} 512w,
-                            https://img.lesueur.nz/1024?u={{.Permalink}}{{$image}} 1024w,
-                            https://img.lesueur.nz/1800?u={{.Permalink}}{{$image}} 1800w,'
+                            {{ $.Site.Params.imageHostingURL }}/512?u={{.Permalink}}{{$image}} 512w,
+                            {{ $.Site.Params.imageHostingURL }}/1024?u={{.Permalink}}{{$image}} 1024w,
+                            {{ $.Site.Params.imageHostingURL }}/1800?u={{.Permalink}}{{$image}} 1800w,'
                         src='{{.Permalink}}{{$image}}'
                         sizes="100%"
                         height="{{ $image.Height }}"
