@@ -1,4 +1,4 @@
-baseurl                 = "/"
+baseurl                 = "http://finn.test"
 contentdir              = "content"
 layoutdir               = "layouts"
 publishdir              = "public"
@@ -25,6 +25,7 @@ enableGitInfo           = true
   commit        = true
   rss           = true
   comments      = false
+  imageHostingURL = "http://localhost:8080"
 
 [Author]
   name    = "Finn LeSueur"

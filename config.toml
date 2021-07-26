@@ -27,6 +27,7 @@ enableGitInfo           = true
   rss           = true
   comments      = false
   mainSections  = ["posts", "photos"]
+  imageHostingURL = "https://img.lesueur.nz"
 
 [Author]
   name    = "Finn LeSueur"

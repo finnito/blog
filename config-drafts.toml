@@ -27,6 +27,7 @@ enableGitInfo           = true
   rss           = true
   comments      = false
   mainSections  = ["posts", "photos"]
+  imageHostingURL = "localhost:8080"
 
 [Author]
   name    = "Finn LeSueur"
