@@ -52,12 +52,14 @@
             <p>I am a Science and Physics teacher from Christchurch, New Zealand who writes code in his spare time, but would really rather be outside doing almost any type of sport!</p>
             <ul class="menu">
               {{ $currentPage := . }}
+              <li class='{{ if eq .RelPermalink "/" }} active{{end}}'><a href="/" title="Home">Home</a></li>
               {{ range .Site.Menus.main }}
               <li class='{{if or ($currentPage.IsMenuCurrent "main" .) ($currentPage.HasMenuCurrent "main" .) }} active{{end}}'>
                 <a href="{{ .URL | relURL }}">{{ .Name }}</a>
               </li>
               {{ end }}
                 <li><a href="mailto:finn@lesueur.nz?subject=Finn.LeSueur%20Contact%20Form">Email Me</a></li>
+                <li><a href="/index.xml">RSS Feed</a></li>
             </ul>
             <p class="emoji">🏔 🏃‍♂️ 🎿 🛶 🚴‍♂️ 🧗 🧘‍♂️</p>
           </div>
