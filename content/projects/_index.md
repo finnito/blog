@@ -1,8 +1,8 @@
 ---
 title: My Projects
 date: 2020-03-02
-menu: main
 name: "Projects"
+draft: true
 weight: 3
 metaDescription: "In my spare time I write code - nothing groundbreaking, but you find out about some of my projects here."
 metaImageURL: ""
