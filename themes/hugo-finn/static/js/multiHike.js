@@ -104,21 +104,23 @@ function addHikeStats(Data) {
     var container = document.getElementById(name);
 
     container.innerHTML = `
-    <p class="hike-stats">
-        <span class="distance">
-            <span class="dynamic"></span>
-        </span>
-        <span class="climb">
-            <span class="dynamic"></span>
-        </span> in 
-        <span class="duration">
-            <span class="dynamic"></span>
-        </span> @ 
-        <span class="speed">
-            <span class="dynamic"></span>
-        </span>
-        <span class="downloadGPX"></span>
-    </p>
+    <blockquote>
+        <p class="hike-stats">
+            <span class="distance">
+                <span class="dynamic"></span>
+            </span>
+            <span class="climb">
+                <span class="dynamic"></span>
+            </span> in 
+            <span class="duration">
+                <span class="dynamic"></span>
+            </span> @ 
+            <span class="speed">
+                <span class="dynamic"></span>
+            </span><br>
+            <span class="downloadGPX"></span>
+        </p>
+    </blockquote>
     <div class="chart-container">
         <canvas id="elevationProfile"></canvas>
     </div>`;
@@ -133,7 +135,10 @@ function addHikeStats(Data) {
     container.querySelector(".duration .dynamic").textContent = msToHMS(duration);
 
     // Speed
-    var speed = Data.get_moving_speed();
+    // console.log(Data.get_moving_time()/1000);
+    var speed = (distance) / (Data.get_total_time()/3600);
+    // console.log(speed)
+    // var speed = Data.get_moving_speed();
     container.querySelector(".speed .dynamic").textContent = speed.toFixed(2) + "km/hr";
 
     // GPX Download
