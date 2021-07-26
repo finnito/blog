@@ -1,12 +1,11 @@
 ---
-title: "Brass Monkey Bivvy"
-slug: “”
-date: 
+title: "Caples-Kay-Scott Loop"
+slug: “caples-kay-scott-loop”
+date: 2021-07-25T20:40:41+12:00
 categories: ["Hiking"]
 type: "post"
 draft: true
 layout: "multiGPS"
-GPXFiles: []
 metaDescription: ""
 metaImageURL: "posts/"
 ---
@@ -22,7 +21,7 @@ __Hikers:__ Finn, Jen, Francie, Justin and Neil (July 22nd, 2021)
 
 ## Day 1: In to Upper Caples Hut
 
-<!-- TODO: add div -->
+<div id="Day_1_To_Upper_Caples_Hut"></div>
 
 - If summer, just walk up the centre of the valley to save yourself all the climbing! Commit to the river and wet feet. This is less appetising in winter when the river is up a little and it is freezing cold.
 - Surprising amount of climbing, when the net (340-470) is quite little
@@ -34,7 +33,7 @@ __Hikers:__ Finn, Jen, Francie, Justin and Neil (July 22nd, 2021)
 
 ## Day 2: Kay Creek Hut
 
-<!-- TODO: add div -->
+<div id="Day_2_To_Kay_Creek_Hut"></div>
 
 - Short, nice
 - Feet got wet at the top
@@ -46,7 +45,7 @@ __Hikers:__ Finn, Jen, Francie, Justin and Neil (July 22nd, 2021)
 
 ## Day 3: Out via Scott Basin and Creek
 
-<!-- TODO: add div -->
+<div id="Day_3_Out_via_Scott_Basin_Creek"></div>
 
 - Good travel up creek, if slow when icy. We were moving 1-2km/hr.
 - Keep going right to the end, a nice way up will reveal itself
