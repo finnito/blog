@@ -2,4 +2,4 @@
 set -e
 
 rm -rf public/
-hugo --buildDrafts --config config-dev.toml
+hugo --buildDrafts --config=config-dev.toml
