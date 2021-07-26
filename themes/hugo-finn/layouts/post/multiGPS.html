@@ -8,7 +8,7 @@
 </div>
 
 <script>
-    var GPXFiles = [{{ range .Resources.Match "*.gpx" }} {{ .Permalink }} {{ end }}],
+    var GPXFiles = [{{ range .Resources.Match "*.gpx" }}"{{ .Permalink }}",{{ end }}],
         StartPinURL = "/img/pin-icon-start.png",
         EndPinURL = "/img/pin-icon-end.png",
         RetinaMarkerIconURL = "/img/marker-icon-2x.png",
