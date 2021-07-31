@@ -27,7 +27,7 @@ def main():
     file = event_args[0].split("/")[-1]
     event = {
         "path": event_args[0],
-        "type": event_args[3],
+        "type": event_args[2],
         "file": file,
         "folder": "/".join(event_args[0].split("/")[:-1])
     }
@@ -36,13 +36,13 @@ def main():
         return
 
     # Only watch for specific event types.
-    if event["type"] in ["Updated", "Created"]:
+    if any (word in raw_event for word in ["Updated", "Created"]):
 
         # Here only an _index.md file has been updated
         # and therefore we don't need to build any slides.
         # We can simply pass the -h flag to a Hugo-only
         # build.
-        if event["path"].endswith(("_index.md", ".css", ".html", ".toml", ".txt")):
+        if event["path"].endswith((".md", ".css", ".html", ".toml", ".txt")):
             subprocess.run(
                 [
                     "rm -rf public/ && \
