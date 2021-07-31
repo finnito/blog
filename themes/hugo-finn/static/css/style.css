@@ -31,6 +31,10 @@ article:not(:last-of-type) {
   padding-right: 0.5rem;
 }*/
 
+main nav {
+  padding: 0;
+}
+
 nav h2 {
   margin: 0.5rem 0;
 }
