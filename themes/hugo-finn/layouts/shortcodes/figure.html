@@ -1,12 +1,13 @@
+{{ $src := (index (.Page.Resources.Match (.Get "src")) 0).Permalink }}
 <figure>
-    <a href='{{ .Get "src" | absURL }}' title='Full size image: {{ .Get "title" }}'>
+    <a href='{{ $src }}' title='Full size image: {{ .Get "title" }}'>
         <img 
             srcset='
-                https://img.lesueur.nz/full?u={{ .Get "src" | absURL }} 4096w,
-                https://img.lesueur.nz/2048?u={{ .Get "src" | absURL }} 2048w,
-                https://img.lesueur.nz/1024?u={{ .Get "src" | absURL }} 1024w,
-                https://img.lesueur.nz/512?u={{ .Get "src" | absURL }} 512w,'
-            src='{{ .Get "src" | absURL }}'
+                {{ $.Site.Params.imageHostingURL }}/full?u={{ $src }} 4096w,
+                {{ $.Site.Params.imageHostingURL }}/2048?u={{ $src }} 2048w,
+                {{ $.Site.Params.imageHostingURL }}/1024?u={{ $src }} 1024w,
+                {{ $.Site.Params.imageHostingURL }}/512?u={{ $src }} 512w,'
+            src='{{ $src }}'
             alt='{{ .Get "title" }}'
             loading="lazy"/>
     </a>
