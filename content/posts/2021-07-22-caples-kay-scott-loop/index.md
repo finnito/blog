@@ -17,6 +17,7 @@ __Hikers:__ Finn, Jen, Francie, Justin and Neil (July 22nd, 2021)
     <li><a title="Jump to Day 1: Into Upper Caples Hut" href="#day-1-into-upper-caples-hut">Day 1: Into Upper Caples Hut</a></li>
     <li><a title="Jump to Day 2: Kay Creek Hut" href="#day-2-kay-creek-hut">Day 2: Kay Creek Hut</a></li>
     <li><a title="Jump to Day 3: Out via Scott Basin and Creek" href="#day-3-out-via-scott-basin-and-creek">Day 3: Out via Scott Basin and Creek</a></li>
+    </ul>
 </nav>
 
 ## Day 1: Into Upper Caples Hut
