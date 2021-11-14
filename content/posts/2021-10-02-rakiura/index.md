@@ -1,7 +1,7 @@
 ---
 title: "Rakiura North West Circuit"
 slug: “rakiura-north-west-circuit”
-date: 
+date: 2021-11-06T20:28:26+13:00
 categories: ["Hiking"]
 type: "post"
 layout: "multiGPS"
@@ -10,18 +10,30 @@ metaImageURL: "posts/rakiura-north-west-circuit/"
 draft: true
 ---
 
+<!-- TODO: Complete post -->
+
 __Hikers:__ Finn, Jen, Francie, Justin, Henri and Neil (October 2nd, 2021)
 
 <nav id="TableOfContents">
   <h3>Contents</h3>
   <ul>
+    <a href="#day-0-fly-to-mason-bay"><li>Day 0: Fly to Mason Bay</li></a>
+    <a href="#day-1-to-big-hellfire-hut"><li>Day 1: To Big Hellfire Hut</li></a>
+    <a href="#day-2-to-east-ruggedy-hut"><li>Day 2: To East Ruggedy Hut</li></a>
+    <a href="#day-3-to-long-harry-hut"><li>Day 3: To Long Harry Hut</li></a>
+    <a href="#day-4-to-yankee-river-hut"><li>Day 4: To Yankee River Hut</li></a>
+    <a href="#day-5-to-christmas-village-hut"><li>Day 5: To Christmas Village Hut</li></a>
+    <a href="#day-6-hananui-mt-anglem"><li>Day 6: Hananui (Mt Anglem)</li></a>
+    <a href="#day-7-to-bungaree-hut"><li>Day 7: To Bungaree Hut</li></a>
+    <a href="#day-8-to-lee-bay"><li>Day 8: To Lee Bay</li></a>
   </ul>
 </nav>
 
 ## Day 0: Fly to Mason Bay
 
-> E koekoe te tūī, e ketekete te kākā, e kūkū te kererū
-> _the tūī sqwaks, the kākā chatters, the kererū coos_.
+
+> E koekoe te tūī, e ketekete te kākā, e kūkū te kererū.<br>
+> _The tūī sqwaks, the kākā chatters, the kererū coos._
 
 Our tramping group is made of very different people who look at tramping rather differently and have quite different types of people. It takes all sorts of people to have a good trip; to keep it in balance and find a good middle ground. Some diplomacy will be required but it will be good!
 
@@ -37,7 +49,9 @@ A nighttime walk up to the homestead did not result in any kiwi sightings, but w
 
 ## Day 1: To Big Hellfire Hut
 
-> Kia mate ururoa, kei mate wheke.
+<div id="Rakiura_NWC_1_8_Mason_Bay_to_Big_Hellfire_Hut"></div>
+
+> Kia mate ururoa, kei mate wheke.<br>
 > Fight like a shark, don’t give up like an octopus.
 
 All good to do the high tide track.
@@ -54,7 +68,9 @@ Left at 9.45am after nice breakfast. Reached bluff at 10.45 but still too high t
 
 ## Day 2: To East Ruggedy Hut
 
-> Tama tū, tama ora; tama noho, tama mate.
+<div id="Rakiura_NWC_2_8_To_East_Ruggedy_Hut"></div>
+
+> Tama tū, tama ora; tama noho, tama mate.<br>
 > He who stands, lives; he who does nothing, perishes.
 
 - Nice lunch spot in the sun just before West Ruggedy Beach in the trees. 
@@ -66,7 +82,9 @@ Left at 9.45am after nice breakfast. Reached bluff at 10.45 but still too high t
 
 ## Day 3: To Long Harry Hut
 
-> Tini whetū ki te rangi, he iti te pōkēao ka ngaro.
+<div id="Rakiura_NWC_3_8_To_Long_Harry_Hut"></div>
+
+> Tini whetū ki te rangi, he iti te pōkēao ka ngaro.<br>
 > A small cloud overhead will obscure the stars.
 
 The climbing today was mostly easier and the track condition was much better. There were LOTS of sandflies at the beaches which made stopping there unbearable.
@@ -93,6 +111,9 @@ I saw my first roa in the bush near the hut on the final descent, although it di
 
 ## Day 4: To Yankee River Hut
 
+<div id="Rakiura_NWC_4_8_To_Yankee_River_Hut"></div>
+
+> <br>
 > 
 
 - Great day. Easy start to the day climbing gently through the bush to Smoky Beach.
@@ -109,7 +130,9 @@ I saw my first roa in the bush near the hut on the final descent, although it di
 
 ## Day 5: To Christmas Village Hut
 
-> Ehara! Ko koe te ringa e huti punga!
+<div id="Rakiura_NWC_5_8_To_Christmas_Village_Hut"></div>
+
+> Ehara! Ko koe te ringa e huti punga!<br>
 > Yes! Yours is the arm best suited to pull up the anchor.
 
 - GroundEffect selling ultralight sleeping bag ?fastpacking
@@ -120,9 +143,11 @@ I saw my first roa in the bush near the hut on the final descent, although it di
 - Not many limpets available at high tide. Lost a hook.
 - Nice walk - good track and much less climbing which was very nice.
 
-## Day 6: Hananui / Mt Anglem
+## Day 6: Hananui (Mt Anglem)
 
-> E tū te huru mā, haramai e noho. E tū te huru pango, hanatu e haere.
+<div id="Rakiura_NWC_6_8_Hananui_Mt_Anglem_"></div>
+
+> E tū te huru mā, haramai e noho. E tū te huru pango, hanatu e haere.<br>
 > Let the white hair remain here, let the black hair get up and go.
 
 - Left at 8am to summit Hananui.
@@ -143,7 +168,9 @@ I saw my first roa in the bush near the hut on the final descent, although it di
 
 ## Day 7: To Bungaree Hut
 
-> E kitea ai ngā taonga o te moana, me mākū koe.
+<div id="Rakiura_NWC_7_8_To_Bungaree_Hut"></div>
+
+> E kitea ai ngā taonga o te moana, me mākū koe.<br>
 > If you seek the treasures of the ocean, you better get wet.
 
 - Rain was forecast for the night and morning, so we started a little slow. It was misty and damp but we didn’t get wet really.
@@ -159,12 +186,15 @@ I saw my first roa in the bush near the hut on the final descent, although it di
 - The Sixth Extinction
 - Research wide angle lens again
 
-> Pātai: Can burning plastic block a chimney?
+>{.patai} Pātai: Can burning plastic block a chimney?
 
 > Pātai: What’s the deal with San Marino?
 
-## Day 8: To Oban
+## Day 8: To Lee Bay
 
+<div id="Rakiura_NWC_8_8_To_Lee_Bay"></div>
+
+> <br>
 > 
 
 > Pātai: How do the soap bubbles form? (Organic chemistry)
