@@ -2,3 +2,5 @@ public/
 resources/
 error_log
 stdout_log
+.DS_STORE
+.hugo_build.lock
