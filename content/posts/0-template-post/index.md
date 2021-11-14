@@ -1,11 +1,11 @@
 ---
-title: ""
-draft: true
-slug: ""
+title: "Template Post"
+slug: "template-post"
 date: 
 categories: ["Development", "iPad"]
 metaDescription: ""
-metaImageURL: "/posts/"
+metaImageURL: "/posts/template-post/"
+draft: true
 ---
 
 ## References
