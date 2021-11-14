@@ -98,7 +98,7 @@ nav > ul {
 blockquote {
   border-left: 3px solid #bdc3c7;
   padding-left: 1rem;
-  margin-left: 1rem;
+  margin-left: 0.5rem;
 }
 
 .divided > li:not(:last-child) {
@@ -368,6 +368,16 @@ h3 + p,
   padding-left: 0;
   margin-top: 0.5rem;
   margin-bottom: 0;
+  margin-left: 0;
+}
+
+.archive > ul p {
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+.archive > ul {
+  padding-left: 0;
 }
 
 .archive ul {
@@ -378,9 +388,11 @@ h3 + p,
 .archive li {
   line-height: 1.25rem;
   margin-bottom: 0.5rem;
+  margin-left: 1rem;
 }
 
 li.sport::before,
+li.cycling::before,
 li.development::before,
 li.hiking::before,
 li.writing::before,
@@ -388,6 +400,11 @@ li.ipad::before,
 li.photo::before,
 li::before {
   margin-right: 0.5rem;
+}
+
+li.cycling::before,
+article.cycling span.icon::before {
+  content:  "🚲";
 }
 
 li.food::before,
