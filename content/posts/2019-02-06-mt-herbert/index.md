@@ -1,10 +1,12 @@
 ---
 title: Mt Herbert from Kaituna Valley
+slug: "mt-herbert-from-kaituna-valley"
 date: 2019-02-08T21:28:00+13:00
 categories: ["Hiking"]
 type: "post"
 layout: "gps"
-GPXFileURL: "/gpx/2019-02-06-mt-herbert.gpx"
+metaDescription: "A great day-hike (6hr round trip) that will give you a new perspective on Lyttelton Harbour."
+metaImageURL: "/posts/mt-herbert-from-kaituna-valley/2019-02-06-0226.jpg"
 ---
 
 __Hikers:__ Finn, Seonaid, Phoebe
@@ -17,6 +19,11 @@ We climbed from Kaituna Valley to Packhorse hut in 55 minutes, covering a distan
 
 We made some nice cow friends near the hut - they're very friendly and are used to hikers. There were some nice calves so it pays to be wary of the mothers, but you shouldn't see any bulls or encounter any trouble!
 
+<figure>
+  <img src="/posts/mt-herbert-from-kaituna-valley/2019-02-06-0205.jpg" alt="Seonaid making friends with some local cows!"/>
+  <figcaption>(📷: Finn LeSueur) Seonaid making friends with some local cows!</figcaption>
+</figure>
+
 ## Stage 2: Packhorse Hut to Mt Herbert Shelter
 
 We climbed to Mt Herbert Shelter from Packhorse Hut in one hour 25 minutes, covering a distance of 5km and climbing a further 562m! From here you go east to the south side of Mt Bradley. It takes a bit of a turn for the steep as it zigzags up Mt Bradley. It cuts across the south side of Mt Bradley once you reach the bush line and it becomes a great single track through the bush. There's a good amount of up and down through here but it's an interesting track.
@@ -24,6 +31,11 @@ We climbed to Mt Herbert Shelter from Packhorse Hut in one hour 25 minutes, cove
 As you come out of the bush further east there is a (very) small sign pointing to a track to the summit of Mt Bradley. I would highly recommend doing this small diversion if you have the time. It would take perhaps 30 minutes to pop up to the top then back to the track.
 
 Continuing on you reach a saddle and cross over to the north side where you soon join another 4WD track up to the Mt Herbert Shelter.
+
+<figure>
+  <img src="/posts/mt-herbert-from-kaituna-valley/2019-02-06-0226.jpg" alt="Seonaid and Phoebe traversing to Mt Herbert Shelter."/>
+  <figcaption>(📷: Finn LeSueur) Seonaid and Phoebe traversing to Mt Herbert Shelter.</figcaption>
+</figure>
 
 ## Stage 3: Mt Herbert Shelter to the Summit
 
@@ -36,3 +48,8 @@ People say coming down is the easy part, but with 1,106m of vertical meters to d
 All in all, it was a great walk, albiet a little chilly in the breezy southerly wind.
 
 Waitangi Day well spent!
+
+<figure>
+  <img src="/posts/mt-herbert-from-kaituna-valley/2019-02-06-0246.jpg" alt="The very green southern face of Mt Bradley."/>
+  <figcaption>(📷: Finn LeSueur) The very green southern face of Mt Bradley.</figcaption>
+</figure>
