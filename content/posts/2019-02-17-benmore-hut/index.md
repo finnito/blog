@@ -1,11 +1,15 @@
 ---
 title: Benmore Hut
+slug: benmore-hut
 date: 2019-02-17T21:29:55+13:00
 categories: ["Hiking"]
+metaDescription: "A short and relaxed walk very nearby Christchurch. Easily accessible and with a very cute hut. 3.5hrs return!"
+metaImageURL: "/posts/benmore-hut/2019-02-17-0289.jpg"
 type: "post"
 layout: "gps"
-GPXFileURL: "/gpx/2019-02-17-benmore-hut.gpx"
 ---
+
+<!-- TODO: Add photos, extend and tidy frontmatter -->
 
 __Hikers:__ Finn, Seonaid, Phoebe
 
@@ -14,10 +18,25 @@ The Track
 
 The track starts from [a large carparking area in behind Benmore Station](https://goo.gl/maps/qB9dXKVsQQF2) and follows a 4WD farm track for 3-4 kilometers before diving into Thirteen Mile Bush (a beech forest). There's nothing quite like the smell of beech, you can really smell the honeydew. Mmmm honey!
 
-The track crosses Thireen Mile Bush Stream multiple times during the the farm track section and for the first section of the bush. Make sure to bring some river crossing shoes (if you're that kind of person). The stream is aptly named; it is not very wide nor very full, so you are likely to find a way across with dry feet during summer.
+<figure>
+  <img src="/posts/benmore-hut/2019-02-17-0268.jpg" alt="Seonaid and Phoebe covering the relatively boring start to the walk."/>
+  <figcaption>(📷: Finn LeSueur) Seonaid and Phoebe covering the relatively boring start to the walk.</figcaption>
+</figure>
+
+The track crosses Thirteen Mile Bush Stream multiple times during the the farm track section and for the first section of the bush. Make sure to bring some river crossing shoes (if you're that kind of person). The stream is aptly named; it is not very wide nor very full, so you are likely to find a way across with dry feet during summer.
 
 The track meanders through the bush for a little bit before taking a steep climb up the south face of the valley. It does not climb for too long, so do not fear! The track wanders along the side of the valley going up and down while steadily gaining height.
+
+<figure>
+  <img src="/posts/benmore-hut/2019-02-17-0276.jpg" alt="Seonaid and Phoebe in the beech forest."/>
+  <figcaption>(📷: Finn LeSueur) Seonaid and Phoebe in the beech forest.</figcaption>
+</figure>
 
 You will continue to climb for the remainder of the 6km until you reach Benmore Hut, a cute four person basic hut (although there were only three mattresses when we were there). It is bright orange so you may spot it through the trees as you approach the small saddle that it sits on!
 
 Happy hiking to this hidden and often forgotten gem of the Canterbury foothills!
+
+<figure>
+  <img src="/posts/benmore-hut/2019-02-17-0289.jpg" alt="Cute wee photo with a cute wee hut."/>
+  <figcaption>(📷: Finn LeSueur) Cute wee photo with a cute wee hut.</figcaption>
+</figure>
