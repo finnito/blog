@@ -8,10 +8,18 @@ var trackColours = [
     "#ff3838",
     "#6F1E51",
     "#c56cf0",
+    "#ff793f",
     "#17c0eb",
     "#ff3838",
+    "#6F1E51",
     "#c56cf0",
-    "#17c0eb"
+    "#ff793f",
+    "#17c0eb",
+    "#ff3838",
+    "#6F1E51",
+    "#c56cf0",
+    "#ff793f",
+    "#17c0eb",
 ];
 
 
@@ -104,7 +112,6 @@ function addHikeStats(Data) {
     var container = document.getElementById(name);
 
     container.innerHTML = `
-    <blockquote>
         <p class="hike-stats">
             <span class="distance">
                 <span class="dynamic"></span>
@@ -120,7 +127,6 @@ function addHikeStats(Data) {
             </span><br>
             <span class="downloadGPX"></span>
         </p>
-    </blockquote>
     <div class="chart-container">
         <canvas id="elevationProfile"></canvas>
     </div>`;
@@ -143,7 +149,7 @@ function addHikeStats(Data) {
 
     // GPX Download
     // console.log(Data);
-    container.querySelector(".downloadGPX").innerHTML = "<a download='" + Data._gpx + "' title='Download GPX file for " + Data._info.name + "'>Download GPX File</a>";
+    container.querySelector(".downloadGPX").innerHTML = "<a download='" + Data._gpx + "' title='Download GPX file for " + Data._info.name + "'>Download GPX</a>";
 
     // Elevation
     var maxElev = parseFloat(Data.get_elevation_max().toFixed(0));
