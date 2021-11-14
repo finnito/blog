@@ -7,12 +7,10 @@ metaDescription: "A simple page to keep track of my reading lists."
 
 ## Reading
 
-- 
-
-## Complete
+### Complete
 
 - 
 
-## To-Read
+### To-Read
 
 - 
