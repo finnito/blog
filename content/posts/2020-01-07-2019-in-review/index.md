@@ -5,7 +5,7 @@ date: 2020-01-07T18:14:40+13:00
 categories: ["Writing"]
 type: "post"
 metaDescription: "2019 has been a big year - everything from moving out, my first job and 400+ hours of exercise."
-metaImageURL: "/posts/2020-01-07-2019-in-review/year-in-sport.jpeg"
+metaImageURL: "/posts/2019-in-review/year-in-sport.jpeg"
 ---
 
 __Theme:__ _Choose to be Outside_
@@ -38,7 +38,7 @@ I'm not entirely sure where my want to do Coast to Coast came from. I know that 
 
 I contacted a local legend of a runner and multisporter, Martin Lukes and managed to get him as a coach for the year. Stoked! He helped me plan my training throughout the year - and what a year it has been.
 
-![2019 Year in Sport](/posts/2020-01-07-2019-in-review/year-in-sport.jpeg)
+![2019 Year in Sport](/posts/2019-in-review/year-in-sport.jpeg)
 
 My training played a huge role in my 2019 Year Theme: __Choose to be Outside__. I would class it as a great success! I did not aim to look different, lose body fat or get an 8-pack, I just wanted to be outside. Outside is where I am happy and it is where I love to be.
 

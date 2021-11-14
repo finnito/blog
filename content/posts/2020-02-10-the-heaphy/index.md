@@ -5,12 +5,6 @@ date: 2020-02-21T19:47:58+13:00
 categories: ["Hiking"]
 type: "post"
 layout: "multiGPS"
-GPXFiles: [
-    "/posts/the-heaphy/The_Heaphy_Day_1.gpx",
-    "/posts/the-heaphy/The_Heaphy_Day_2.gpx",
-    "/posts/the-heaphy/The_Heaphy_Day_3.gpx",
-    "/posts/the-heaphy/The_Heaphy_Day_4.gpx"
-]
 metaDescription: "The Heaphy is a wonderful 4-day in Kahurangi National Park best spent in the sunshine with friends."
 metaImageURL: "posts/the-heaphy/IMG_3443.jpg"
 ---
@@ -53,7 +47,7 @@ From Lewis Hut the track climbs gently but steadily for around 13km (~670m ⬆�
 
 The sun was out in full force for us today which was unfortunate because less than half the track was in the cover of forest, but the travelling was beautiful! This section of track undulates up and down as it weaves through the plateau, dodging small hills and climbing around others.
 
-Keep an eye out for [__takahē__][8], a very cute and rare bird as there are a couple that live near Gouland Downs Hut and another between Perry Saddle Hut and Saxon Hut! They're a bit like big, round, blue chickens. Very cute.
+Keep an eye out for [takahē][8], a very cute and rare bird as there are a couple that live near Gouland Downs Hut and another between Perry Saddle Hut and Saxon Hut! They're a bit like big, round, blue chickens. Very cute.
 
 <figure>
   <img src="/posts/the-heaphy/IMG_3473.jpg" alt="Jen & Amy watching the takakē at Perry Saddle Hut"/>

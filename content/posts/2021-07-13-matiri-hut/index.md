@@ -2,10 +2,9 @@
 title: "Matiri Hut and Lake"
 slug: "matiri-hut-and-lake"
 date: 2021-07-14T15:43:18+12:00
-categories: ["Trail Running sport"]
+categories: ["trail-running sport"]
 type: "post"
 layout: "gps"
-GPXFileURL: "/posts/matiri-hut-and-lake/Matiri_Hut.gpx"
 metaDescription: "A quick and well-formed trail in to Matiri Hut and Lake. It passes through a newly built hydroelectric scheme and would make a good jumping-off point for futher exploring."
 metaImageURL: "/posts/matiri-hut-and-lake/20210713_153258.jpg"
 ---
@@ -42,4 +41,3 @@ The view up the valley and over the lake is beautiful and [would be worth a bett
   <img src="/posts/matiri-hut-and-lake/20210713_153258.jpg" alt="Finn looking over Matiri Lake."/>
   <figcaption>(📷: Jen Rouse) Finn looking over Matiri Lake.</figcaption>
 </figure>
-

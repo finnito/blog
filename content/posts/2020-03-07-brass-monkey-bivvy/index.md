@@ -5,12 +5,8 @@ date: 2020-03-26T11:42:04+13:00
 categories: ["Hiking"]
 type: "post"
 layout: "multiGPS"
-GPXFiles: [
-    "/posts/brass-monkey-bivvy/Day_1_Brass_Monkey_Bivvy_via_Lewis_Tops.gpx",
-    "/posts/brass-monkey-bivvy/Day_2_Out_via_Lucretia_Bivvy.gpx"
-]
 metaDescription: "Brass Monkey Bivvy is an adorable 2-bed backcountry hut accessible by some beautiful unmarked tops and valleys. I cannot recommend it highly enough!"
-metaImageURL: "posts/brass-monkey-bivvy/IMG_7936.jpg"
+metaImageURL: "/posts/brass-monkey-bivvy/IMG_7936.jpg"
 ---
 
 __Hikers:__ Finn & Jen (March 7th, 2020)
