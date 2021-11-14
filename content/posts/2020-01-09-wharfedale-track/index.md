@@ -5,10 +5,6 @@ date: 2020-01-13T23:01:04+13:00
 categories: ["Hiking"]
 type: "post"
 layout: "multiGPS"
-GPXFiles: [
-    "/posts/wharfedale-track/Wharfedale_Day_1_Wharfedale_Track.gpx",
-    "/posts/wharfedale-track/Wharfedale_Day_2_Out_via_Mt_Oxford.gpx"
-]
 metaDescription: "2 days, 29km, 9hrs walking and a whole lot of climbing over and around Mt Oxford."
 metaImageURL: "/posts/wharfedale-track/IMG_0412.jpg"
 ---

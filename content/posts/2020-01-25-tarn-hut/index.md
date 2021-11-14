@@ -5,10 +5,6 @@ date: 2020-01-30T21:13:08+13:00
 categories: ["Hiking"]
 type: "post"
 layout: "multiGPS"
-GPXFiles: [
-    "/posts/tarn-hut/Day_1_Tarn_Hut.gpx",
-    "/posts/tarn-hut/Day_2_Out_via_Youngman_s_Stream_Hut.gpx"
-]
 metaDescription: "Tarn Hut Loop is 2 days, 25.9km, 8hrs 8min walking a very pretty tarn in some very epic country nestled behind Ashley Gorge."
 metaImageURL: "/posts/tarn-hut/IMG_0412.jpg"
 ---

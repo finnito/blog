@@ -9,8 +9,6 @@ type: "post"
 layout: "gps"
 ---
 
-<!-- TODO: Add photos, extend and tidy frontmatter -->
-
 __Hikers:__ Finn, Seonaid, Phoebe
 
 [Benmore Hut](https://www.doc.govt.nz/parks-and-recreation/places-to-go/canterbury/places/korowai-torlesse-tussocklands-park/things-to-do/huts/benmore-hut/) is a cute little hut 6km (1hr 45min) from Benmore Station on a farmland and bush track! The track is around 12km return with a total time of 3.25hrs walking. It is nestled in behind Springfield, a mere hour drive from Christchurch. The track is gentle and the scenery beautiful. I'm not sure how I didn't know about this track before as it makes for a wonderful day-walk for any weekend warriors from Christchurch.

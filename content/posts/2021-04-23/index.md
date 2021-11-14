@@ -1,11 +1,9 @@
 ---
-
 title: What Would Make a Difference?
 slug: what-would-make-a-difference
 date: 2021-04-23T15:39:21+12:00
 categories: ["Teaching"]
 metaDescription: "What would make a difference in the teaching profession, if not more money?"
-
 ---
 
 In a previous post I wondered out-loud, what are teachers experiencing and whether we were asking for the right thing, by asking for more money during our collective employment agreement negotiations.
@@ -19,7 +17,7 @@ It is clear what I think - money is nice but what many teachers __really__ want 
 [^1]: https://www.ppta.org.nz/publication-library/document/99https://www.ppta.org.nz/publication-library/document/99
 
 | Year         | Total Hours | Max. Contact Hours | Non-Contacts |
-|--------------|-------------|--------------------|--------------|
+|:-------------|:------------|:-------------------|:-------------|
 | 1st (0.8FTE) | 25          | 15.0               | 10           |
 | 2nd (0.9FTE) | 25          | 17.5               | 7.5          |
 | 3rd (1.0FTE) | 25          | 20.0               | 5            |

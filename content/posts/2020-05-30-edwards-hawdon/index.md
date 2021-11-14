@@ -2,16 +2,11 @@
 title: "Edwards-Hawdon"
 slug: "edwards-hawdon"
 date: 2020-05-30T20:29:18+12:00
+metaDescription: "An excellent 2-night trip in Arthur's Pass near Christchurch. Beautiful terrain, huts and walking makes for a great trip."
+metaImageURL: "/posts/edwards-hawdon/IMG_5421.jpg"
 categories: ["Hiking"]
 type: "post"
 layout: "multiGPS"
-GPXFiles: [
-  "Edwards_Hawdon_Day_1_Edwards_Hut.gpx",
-  "Edwards_Hawdon_Day_2_Hawdon_Hut.gpx",
-  "Edwards_Hawdon_Day_3_Out.gpx"
-]
-metaDescription: ""
-metaImageURL: "posts/edwards-hawdon/"
 ---
 
 __Hikers:__ Finn, Jen & Tom (May 30th, 2020)
