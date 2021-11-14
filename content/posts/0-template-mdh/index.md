@@ -1,17 +1,13 @@
 ---
-title: "Brass Monkey Bivvy"
-slug: “”
+title: "Template Multi-Day Hike"
+slug: "template-multi-day-hike"
 date: 
 categories: ["Hiking"]
 type: "post"
 draft: true
 layout: "multiGPS"
-GPXFiles: [
-    "/posts/brass-monkey-bivvy/Day_1_Brass_Monkey_Bivvy_via_Lewis_Tops.gpx",
-    "/posts/brass-monkey-bivvy/Day_2_Out_via_Lucretia_Bivvy.gpx"
-]
 metaDescription: ""
-metaImageURL: "posts/"
+metaImageURL: "/posts/template-multi-day-hike/"
 ---
 
 __Hikers:__ Finn & Jen (March 7th, 2020)
