@@ -26,7 +26,7 @@
 </div>
 
 <script>
-    var GPXFileURL = "{{ .Params.GPXFileURL }}",
+    var GPXFileURL = "{{ index (.Resources.Match "*.gpx") 0 }}",
         StartPinURL = "/img/pin-icon-start.png",
         EndPinURL = "/img/pin-icon-end.png",
         RetinaMarkerIconURL = "/img/marker-icon-2x.png",
