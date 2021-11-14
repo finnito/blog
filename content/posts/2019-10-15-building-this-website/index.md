@@ -3,6 +3,7 @@ title: "Building This Website"
 date: "2019-10-15T19:38:06+13:00"
 slug: "building-this-website"
 categories: ["Development"]
+metaDescription: "How this website gets built using Hugo, CI and how I keep it running smoothly."
 ---
 
 The more I use the internet, the more opinionated I have become with regards to a few things.
