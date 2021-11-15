@@ -14,7 +14,7 @@ metaDescription: "A simple page to keep track of my reading lists."
  - Neal Stephenson
 	- Snow Crash
  - Philip Plait
-	- Bad Astronomy
+	- [Bad Astronomy](2021-11-10-bad-astronomy.md)
  - Richard Dawkins
 	- The Selfish Gene
  - Trudi Canavan
