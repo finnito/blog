@@ -4,13 +4,501 @@ menu: main
 weight: 3
 metaDescription: "A simple page to keep track of my reading lists."
 ---
+### In Progress
 
-## Reading
+ - Carl Sagan
+	- Cosmos
+	- Contact
+ - Dan Simmons
+	- Hyperion - Hyperion Cantos (1)
+ - Neal Stephenson
+	- Snow Crash
+ - Philip Plait
+	- Bad Astronomy
+ - Richard Dawkins
+	- The Selfish Gene
+ - Trudi Canavan
+	- Priestess of the White - Age of Five (1)
 
-### Complete
+### Read
 
-- 
+ - Alastair Reynolds
+	- Century Rain
+	- House of Suns
+	- Revelation Space - Revelation Space (13)
+ - Atul Gawande
+	- The Checklist Manifesto: How to Get Things Right
+ - Audrey Niffenegger
+	- The Time Traveler's Wife
+ - Bill Bryson
+	- A Really Short History of Nearly Everything (Young Adult)
+ - Brent Weeks
+	- The Way of Shadows - Night Angel (1)
+	- Shadow's Edge - Night Angel (2)
+	- Beyond the Shadows - Night Angel (3)
+ - C. S. Lewis
+	- The Lion, the Witch and the Wardrobe - The Chronicles of Narnia (1)
+ - Christopher Paolini
+	- Eragon - Inheritance (1)
+	- Eldest - Inheritance (2)
+	- Brisingr - Inheritance (3)
+	- Inheritance - Inheritance (4)
+ - Cormac McCarthy
+	- The road
+ - Deborah Blum & Tim Folger
+	- The Best American Science and Nature Writing 2014
+ - Frank Herbert
+	- Dune - Dune (1)
+ - Frank McCourt
+	- Tis: A Memoir
+ - Garth Nix
+	- Sabriel - Abhorsen (1)
+	- Lirael - Abhorsen (2)
+	- Abhorsen - Abhorsen (3)
+	- Mister Monday - The Keys to the Kingdom (1)
+	- Grim Tuesday - The Keys to the Kingdom (2)
+	- Drowned Wednesday - The Keys to the Kingdom (3)
+	- Sir Thursday - The Keys to the Kingdom (4)
+	- Lady Friday - The Keys to the Kingdom (5)
+	- Superior Saturday - The Keys to the Kingdom (6)
+	- Lord Sunday - The Keys to the Kingdom (7)
+ - George Orwell
+	- Nineteen Eighty-Four
+ - George R. R. Martin
+	- A Game of Thrones - A Song of Ice and Fire (1)
+ - H. G. Wells
+	- The Time Machine/The Invisible Man
+ - J. K. Rowling
+	- The Sorcerer's Stone - Harry Potter (1)
+	- The Chamber of Secrets - Harry Potter (2)
+	- The Prisoner of Azkaban - Harry Potter (3)
+	- The Goblet of Fire - Harry Potter (4)
+	- The Order of the Phoenix - Harry Potter (5)
+	- The Halfblood Prince - Harry Potter (6)
+	- The Deathly Hallows - Harry Potter (7)
+ - J. R. R. Tolkien
+	- The Hobbit - Middle-Earth Universe (1)
+	- The Fellowship of the Ring - The Lord of the Rings (1)
+	- The Two Towers - The Lord of the Rings (2)
+	- The Return of the King - The Lord of the Rings (3)
+ - Kevin J. Anderson
+	- Hidden Empire - The Saga of Seven Suns (1)
+	- A Forest of Stars - The Saga of Seven Suns (2)
+	- Horizon Storms - The Saga of Seven Suns (3)
+	- Scattered Suns - The Saga of Seven Suns (4)
+	- Of Fire and Night - The Saga of Seven Suns (5)
+	- Metal Swarm - The Saga of Seven Suns (6)
+	- The Ashes of Worlds - The Saga of Seven Suns (7)
+ - Laura J. Snyder
+	- The Philosophical Breakfast Club: Four Remarkable Friends Who Transformed Science and Changed the World
+ - Neil Gaiman
+	- American Gods
+ - Orson Scott Card
+	- Ender's Game - Ender's Game (1)
+ - Peter F. Hamilton
+	- Pandora's Star - Commonwealth Saga (1)
+	- Judas Unchained - Commonwealth Saga (2)
+	- Salvation - Salvation Sequence (1)
+	- Salvation Lost - Salvation Sequence (2)
+	- Saints of Salvation - Salvation Sequence (3)
+	- The Dreaming Void - Void (1)
+	- The Temporal Void - Void (2)
+	- The Evolutionary Void - Void (3)
+ - Philip Pullman
+	- The Golden Compass - His Dark Materials (1)
+	- The Subtle Knife - His Dark Materials (2)
+	- The Amber Spyglass - His Dark Materials (3)
+ - Ray Bradbury
+	- Fahrenheit 451
+ - Raymond E. Feist
+	- Talon of the Silver Hawk - Conclave of Shadows (1)
+	- King of Foxes - Conclave of Shadows (2)
+	- Exile's Return - Conclave of Shadows (3)
+	- Prince of the Blood - Krondor's Sons (1)
+	- The King's Buccaneer - Krondor's Sons (2)
+	- A Kingdom Besieged - The Chaoswar Saga (1)
+	- A Crown Imperiled - The Chaoswar Saga (2)
+	- Flight of the Nighthawks - The Darkwar Saga (1)
+	- Into a Dark Realm - The Darkwar Saga (2)
+	- Wrath of a Mad God - The Darkwar Saga (3)
+	- Rides a Dread Legion - The Demonwar Saga (1)
+	- At the Gates of Darkness - The Demonwar Saga (2)
+	- Krondor: The Betrayal - The Riftwar Legacy (1)
+	- Krondor: The Assassins - The Riftwar Legacy (2)
+	- Krondor: Tear of the Gods - The Riftwar Legacy (3)
+	- Magician - The Riftwar Saga (1)
+	- Silverthorn - The Riftwar Saga (3)
+	- A Darkness at Sethanon - The Riftwar Saga (4)
+	- Shadow of a Dark Queen - The Serpentwar Saga (1)
+	- Rise of a Merchant Prince - The Serpentwar Saga (2)
+	- Rage of a Demon King - The Serpentwar Saga (3)
+	- Shards of a Broken Crown - The Serpentwar Saga (4)
+	- Daughter of the Empire - The Empire Trilogy (1)
+	- Servant of the Empire - The Empire Trilogy (2)
+	- Mistress of the Empire - The Empire Trilogy (3)
+	- Honoured Enemy - Legends of the Riftwar (1)
+	- Murder in LaMut - Legends of the Riftwar (2)
+	- Jimmy the Hand - Legends of the Riftwar (3)
+ - Robin Hobb
+	- Assassin's Apprentice - Farseer Trilogy (1)
+	- Royal Assassin - Farseer Trilogy (2)
+	- Assassin's Quest - Farseer Trilogy (3)
+ - Scott Westerfeld
+	- Uglies - Uglies (1)
+	- Pretties - Uglies (2)
+	- Specials - Uglies (3)
+	- Extras - Uglies (4)
+ - Steven D. Levitt
+	- Freakonomics
+ - Steven D. Levitt & Stephen J. Dubner
+	- SuperFreakonomics: Global Cooling, Patriotic Prostitutes and Why Suicide Bombers Should Buy Life Insurance
+ - Tamora Pierce
+	- Terrier - Beka Cooper (1)
+	- Bloodhound - Beka Cooper (2)
+	- Mastiff - Beka Cooper (3)
+	- Sandry's Book - Circle of Magic (1)
+  - Tris' Story - Circle of Magic (2)
+	- Daja's Book - Circle of Magic (3)
+	- Briar's Book - Circle of Magic (4)
+	- Trickster's Choice - Daughter of the Lioness (1)
+	- Trickster's Queen - Daughter of the Lioness (2)
+	- First Test - Protector of the Small (1)
+	- Page - Protector of the Small (2)
+	- Squire - Protector of the Small (3)
+	- Lady Knight - Protector of the Small (4)
+	- Alanna: The First Adventure - Song of the Lioness (1)
+	- In the Hand of the Goddess - Song of the Lioness (2)
+	- The Woman Who Rides Like a Man - Song of the Lioness (3)
+	- Lioness Rampant - Song of the Lioness (4)
+	- Magic Steps - The Circle Opens (1)
+	- Street Magic - The Circle Opens (2)
+	- Cold Fire - The Circle Opens (3)
+	- Shatterglass - The Circle Opens (4)
+	- Wild Magic - The Immortals (1)
+	- Wolf-Speaker - The Immortals (2)
+	- Emperor Mage - The Immortals (3)
+	- The Realms of the Gods - The Immortals (4)
+ - Timothy Zahn
+	- Night Train to Rigel - Quadrail (1)
+	- The Third Lynx - Quadrail (2)
+	- Odd Girl Out - Quadrail (3)
+	- The Domino Pattern - Quadrail (4)
+ - Trudi Canavan
+	- The Magicians' Guild - The Black Magician Trilogy (1)
+	- The Novice - The Black Magician Trilogy (2)
+	- The High Lord - The Black Magician Trilogy (3)
+ - William Nicholson
+	- Seeker - Noble Warriors Trilogy (1)
+	- Jango - Noble Warriors Trilogy (2)
+	- Noman - Noble Warriors Trilogy (3)
 
-### To-Read
+### Unread
 
-- 
+ - Aaron E. Carroll & Rachel C. Vreeman
+	- Don't Swallow Your Gum!: Myths, Half-Truths, and Outright Lies About Your Body and Health
+ - Alan Weisman
+	- The World Without Us
+ - Alastair Reynolds
+	- Zima Blue
+	- Thousandth Night
+	- The Six Directions of Space
+	- Pushing Ice
+	- Great Wall of Mars - Revelation Space (1)
+	- Glacial - Revelation Space (2)
+	- Galactic North - Revelation Space (3)
+	- A Spy In Europa - Revelation Space (4)
+	- Prefect - Revelation Space (5)
+	- Elysium Fire - Revelation Space (6)
+	- Diamond Dogs, Turquoise Days - Revelation Space (7)
+	- Monkey Suit - Revelation Space (8)
+	- Dilation Sleep - Revelation Space (9)
+	- Chasm City - Revelation Space (10)
+	- The Last Log of the Lachrimosa - Revelation Space (11)
+	- Grafenwalder's Bestiary - Revelation Space (12)
+	- Nightingale - Revelation Space (14)
+	- Redemption Ark - Revelation Space (15)
+	- Absolution Gap - Revelation Space (16)
+ - Aldous Huxley
+	- Brave New World
+ - Alex Boese
+	- Electrified Sheep: Bizarre Experiments From the Bestselling Author of Elephants on Acid
+ - Anthony Burgess
+	- A Clockwork Orange
+ - Arthur C. Clarke
+	- Childhood's End
+	- 2001: A Space Odyssey - Space Odyssey (1)
+	- 2010: Odyssey Two - Space Odyssey (2)
+	- 2061: Odyssey Three - Space Odyssey (3)
+	- 3001: The Final Odyssey - Space Odyssey (4)
+ - Arthur Conan Doyle
+	- The Complete Sherlock Holmes - Sherlock Holmes (1)
+ - Brent Weeks
+	- The Black Prism - Lightbringer (1)
+	- The Blinding Knife - Lightbringer (2)
+	- The Broken Eye - Lightbringer (3)
+ - Brian Greene
+	- The Elegant Universe
+ - Brian Herbert & Kevin J. Anderson
+	- Hunters of Dune - Dune (7)
+	- Sandworms of Dune - Dune (8)
+	- The Winds of Dune - Heroes of Dune (2)
+ - Brian Herbert; Kevin J. Anderson
+	- House Atreides - Dune - House (1)
+	- House Harkonnen - Dune - House (2)
+	- House Corrino - Dune - House (3)
+	- Paul of Dune - Heroes of Dune (1)
+	- The Butlerian Jihad - Legends of Dune (1)
+	- The Machine Crusade - Legends of Dune (2)
+	- The Battle of Corrin - Legends of Dune (3)
+ - C. S. Lewis
+	- Prince Caspian - The Chronicles of Narnia (2)
+	- The Voyage of the Dawn Treader - The Chronicles of Narnia (3)
+	- The Silver Chair - The Chronicles of Narnia (4)
+	- The Horse and His Boy - The Chronicles of Narnia (5)
+	- The Magician's Nephew - The Chronicles of Narnia (6)
+	- The Last Battle - The Chronicles of Narnia (7)
+ - Caitlin Doughty
+	- Smoke Gets in Your Eyes: And Other Lessons From the Crematory
+ - Carl Sagan
+	- Billions & Billions: Thoughts on Life and Death at the Brink of the Millennium
+	- Broca's Brain: Reflections on the Romance of Science
+	- The Varieties of Scientific Experience: A Personal View of the Search for God
+	- Murmurs of Earth
+	- Dragons of Eden: Speculations on the Evolution of Human Intelligence
+ - Carl Sagan & Ann Druyan
+	- The Demon-Haunted World: Science as a Candle in the Dark
+	- Comet
+	- Pale Blue Dot: A Vision of the Human Future in Space
+	- Shadows of Forgotten Ancestors
+ - Carl Sagan & Jerome Agel
+	- Cosmic Connection
+ - Dan Simmons
+	- The Fall of Hyperion - Hyperion Cantos (2)
+	- Endymion - Hyperion Cantos (3)
+	- Rise of Endymion - Hyperion Cantos (4)
+ - Douglas Adams
+	- The Hitchhiker's Guide to the Galaxy - The Hitchhiker's Guide to the Galaxy (1)
+	- The Restaurant at the End of the Universe - The Hitchhiker's Guide to the Galaxy (2)
+	- Life, the Universe and Everything - The Hitchhiker's Guide to the Galaxy (3)
+	- So Long, and Thanks for All the Fish - The Hitchhiker's Guide to the Galaxy (4)
+	- Mostly Harmless - The Hitchhiker's Guide to the Galaxy (5)
+ - Eoin Colfer
+	- And Another Thing... - The Hitchhiker's Guide to the Galaxy (6)
+ - Francine Jay
+	- The Joy of Less, a Minimalist Living Guide: How to Declutter, Organize, and Simplify Your Life
+ - Frank Herbert
+	- Dune Messiah - Dune (2)
+	- Children of Dune - Dune (3)
+	- Heretics of Dune - Dune (5)
+	- Chapterhouse: Dune - Dune (6)
+ - Frank Herbert; Brian Herbert; Kevin J. Anderson
+	- The Road to Dune
+ - Garth Nix
+	- Clariel - Abhorsen (4)
+ - George Orwell
+	- The Complete Novels Of George Orwell
+ - George R. R. Martin
+	- A Clash of Kings - A Song of Ice and Fire (2)
+	- A Storm of Swords - A Song of Ice and Fire (3)
+	- A Feast for Crows - A Song of Ice and Fire (4)
+	- A Dance With Dragons - A Song of Ice and Fire (5)
+ - H. G. Wells
+	- The War of the Worlds
+ - Harper Lee
+	- To Kill A Mockingbird
+ - Hobb Robin
+	- Assassin’s Fate - Fitz and the Fool Trilogy (2)
+ - Hugh Howey
+	- Sand Omnibus - Sand (1)
+	- Wool Omnibus Edition - Silo (1)
+	- Shift Omnibus Edition - Silo (2)
+	- Dust - Silo (3)
+ - Iain M. Banks
+	- Consider Phlebas - Culture (1)
+	- The Player of Games - Culture (2)
+	- Use of Weapons - Culture (3)
+	- Excession - Culture (5)
+	- Inversions - Culture (6)
+	- Look to Windward - Culture (7)
+	- Matter - Culture (8)
+	- Surface Detail - Culture (9)
+	- The Hydrogen Sonata - Culture (10)
+ - Isaac Asimov
+	- I, Robot
+	- Foundation - Foundation (1)
+	- Foundation and Empire - Foundation (2)
+	- Second Foundation - Foundation (3)
+	- Foundation's Edge - Foundation (4)
+	- Foundation and Earth - Foundation (5)
+	- Prelude to Foundation - Foundation (6)
+	- Forward the Foundation - Foundation (7)
+ - J. K. Rowling
+	- Fantastic Beasts and Where to Find Them
+ - J. R. R. Tolkien
+	- The Silmarillion - Middle-Earth Universe (1)
+ - John Green
+	- Zombicorns
+	- Paper Towns
+	- Looking for Alaska
+	- The Fault in Our Stars
+	- An Abundance of Katherines
+ - John Green & David Levithan
+	- Will Grayson, Will Grayson
+ - Jonathan Franzen
+	- Freedom
+ - Jules Verne
+	- Twenty Thousand Leagues Under the Sea
+	- A Journey to the Center of the Earth
+ - Kim Stanley Robinson
+	- Red Mars - Mars Trilogy (1)
+	- Green Mars - Mars Trilogy (2)
+	- Blue Mars - Mars Trilogy (3)
+ - Kurt Vonnegut
+	- Slaughterhouse-Five
+ - Larry Niven
+	- Ringworld - Ringworld (1)
+	- The Ringworld Engineers - Ringworld (2)
+	- The Ringworld Throne - Ringworld (3)
+	- Ringworld's Children - Ringworld (4)
+ - Larry Niven; Jerry Pournelle
+	- The Mote in God's Eye
+ - Lemony Snicket
+	- The Bad Beginning - A Series of Unfortunate Events (1)
+	- The Reptile Room - A Series of Unfortunate Events (2)
+	- The Wide Window - A Series of Unfortunate Events (3)
+	- The Miserable Mill - A Series of Unfortunate Events (4)
+	- The Austere Academy - A Series of Unfortunate Events (5)
+	- The Ersatz Elevator - A Series of Unfortunate Events (6)
+	- The Vile Village - A Series of Unfortunate Events (7)
+	- The Hostile Hospital - A Series of Unfortunate Events (8)
+	- The Carnivorous Carnival - A Series of Unfortunate Events (9)
+	- The Slippery Slope - A Series of Unfortunate Events (10)
+	- The Grim Grotto - A Series of Unfortunate Events (11)
+	- The Penultimate Peril - A Series of Unfortunate Events (12)
+	- The End - A Series of Unfortunate Events (13)
+ - Lewis Carroll
+	- Alice in Wonderland
+	- Through the Looking-Glass and What Alice Found There
+ - Lionel Shriver
+	- We Need to Talk About Kevin
+ - Luke Burgis
+	- Wanting
+ - Margaret Atwood
+	- Oryx and Crake
+ - Margaret Atwood; Valerie Martin
+	- The Handmaid's Tale
+ - Mark Manson
+	- The Subtle Art of Not Giving a F*ck
+ - Markus Zusak
+	- The Book Thief
+ - Mary Wollstonecraft Shelley
+	- Frankenstein
+ - Mary Wollstonecraft Shelley & Karen Swallow Prior
+	- Frankenstein: A Guide to Reading and Reflecting
+ - Neal Stephenson
+	- Cryptonomicon
+	- Anathem
+ - Neil Gaiman
+	- Stardust
+	- Neverwhere - London Below,  The World of Neverwhere (1)
+ - Neil deGrasse Tyson
+	- Space Chronicles: Facing the Ultimate Frontier
+	- The Pluto Files: The Rise and Fall of America's Favorite Planet
+	- Death by Black Hole: And Other Cosmic Quandaries
+ - Orson Scott Card
+	- Speaker for the Dead - Ender's Game (2)
+	- Xenocide - Ender's Game (3)
+	- Children of the Mind - Ender's Game (4)
+	- A War of Gifts: An Ender Story - Ender's Game (5)
+	- Ender in Exile - Ender's Game (6)
+	- The Shadow of the Hegemon - Ender's Game (7)
+	- Shadow puppets - Ender's Game (8)
+	- Shadow of the Giant - Ender's Game (9)
+	- Shadows in Flight - Ender's Game (10)
+ - Paolo Bacigalupi
+	- The Windup Girl - The Windup Universe (1)
+ - Patrick Rothfuss
+	- The Name of the Wind - The Kingkiller Chronicle (1)
+	- The Wise Man's Fear - The Kingkiller Chronicle (2)
+ - Peter F. Hamilton
+	- A Second Chance at Eden
+	- Fallen Dragon
+	- Softlight Sins
+	- The Suspect Genome
+	- Mindstar Rising - Greg Mandel (1)
+	- A Quantum Murder - Greg Mandel (2)
+	- The Nano Flower - Greg Mandel (3)
+	- The Abyss Beyond Dreams - The Chronicle of the Fallers (1)
+	- The Reality Dysfunction - The Night's Dawn Trilogy (1)
+	- The Neutronium Alchemist - The Night's Dawn Trilogy (2)
+	- The Naked God - The Night's Dawn Trilogy (3)
+ - Peter Watts
+	- The Island
+ - Philip K. Dick
+	- Do Androids Dream of Electric Sheep
+ - Randall Munroe
+	- What If? Serious Scientific Answers to Absurd Hypothetical Questions
+ - Raymond E. Feist
+	- Faerie Tale
+ - Richard Matheson
+	- I Am Legend
+ - Robert A. Heinlein
+	- Starship Troopers
+ - Robert Jordan
+	- New Spring - The Wheel of Time (1)
+	- The Eye of the World - The Wheel of Time (2)
+	- The Great Hunt - The Wheel of Time (3)
+	- The Dragon Reborn - The Wheel of Time (4)
+	- The Shadow Rising - The Wheel of Time (5)
+	- The Fires of Heaven - The Wheel of Time (6)
+	- Lord of Chaos - The Wheel of Time (7)
+	- A Crown of Swords - The Wheel of Time (8)
+	- The Path of Daggers - The Wheel of Time (9)
+	- Winter's Heart - The Wheel of Time (10)
+	- Crossroads of Twilight - The Wheel of Time (11)
+	- Knife of Dreams - The Wheel of Time (12)
+ - Robert Jordan; Brandon Sanderson
+	- The Gathering Storm - The Wheel of Time (13)
+	- Towers of Midnight - The Wheel of Time (14)
+ - Robin Hobb
+	- Fool's Assassin - Fitz and the Fool Trilogy (1)
+	- Fool's Quest - Fitz and the Fool Trilogy (3)
+	- Ship of Magic - Liveship (1)
+	- Mad Ship - Liveship (2)
+	- Ship of Destiny - Liveship (3)
+	- Dragon Keeper - Rain Wilds Chronicles (1)
+	- Dragon Haven - Rain Wilds Chronicles (2)
+	- City of Dragons - Rain Wilds Chronicles (3)
+	- Blood of Dragons - Rain Wilds Chronicles (4)
+	- Fools Errand - Tawny Man (1)
+	- Golden Fool - Tawny Man (2)
+	- Fool's Fate - Tawny Man (3)
+ - Stephen Baxter
+	- Proxima - Proxima (1)
+	- Ultima - Proxima (2)
+	- Raft - Xeelee Sequence (1)
+	- Flux - Xeelee Sequence (3)
+ - Susskind, Leonard & Hrabovsky, George
+	- The Theoretical Minimum: What You Need to Know to Start Doing Physics
+ - Terry Pratchett & Stephen Baxter
+	- The Long Earth - The Long Earth (1)
+	- The Long War - The Long Earth (2)
+	- The Long Mars - The Long Earth (3)
+ - Timothy Zahn
+	- Heir to the Empire - Thrawn Trilogy (1)
+	- Dark Force Rising - Thrawn Trilogy (2)
+	- The Last Command - Thrawn Trilogy (3)
+ - Trudi Canavan
+	- The Last of the Wilds - Age of Five (2)
+	- Voice of the Gods - Age of Five (3)
+	- The Ambassador's Mission - The Traitor Spy Trilogy (1)
+	- The Rogue - The Traitor Spy Trilogy (2)
+	- The Traitor Queen - The Traitor Spy Trilogy (3)
+ - Viktor E. Frankl
+	- Yes to Life
+ - William Gibson
+	- Neuromancer
+ - William Shakespeare
+	- The Complete Works
+ - Yuval Noah Harari
+	- Sapiens: A Brief History of Humankind
