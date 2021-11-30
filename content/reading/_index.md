@@ -91,6 +91,8 @@ metaDescription: "A simple page to keep track of my reading lists."
 	- The Ashes of Worlds - The Saga of Seven Suns (7)
  - Laura J. Snyder
 	- The Philosophical Breakfast Club: Four Remarkable Friends Who Transformed Science and Changed the World
+ - Michael Blencowe
+ 	+ [Gone](2021-10-21-gone/)
  - Neil Gaiman
 	- American Gods
  - Orson Scott Card
@@ -140,9 +142,9 @@ metaDescription: "A simple page to keep track of my reading lists."
 	- Murder in LaMut - Legends of the Riftwar (2)
 	- Jimmy the Hand - Legends of the Riftwar (3)
  - Robin Hobb
-	- Assassin's Apprentice - Farseer Trilogy (1)
-	- Royal Assassin - Farseer Trilogy (2)
-	- Assassin's Quest - Farseer Trilogy (3)
+	- Assassin's Apprentice - [Farseer Trilogy](2021-11-07-farseer-triology/) (1)
+	- Royal Assassin - [Farseer Trilogy](2021-11-07-farseer-triology/) (2)
+	- Assassin's Quest - [Farseer Trilogy](2021-11-07-farseer-triology/) (3)
  - Scott Westerfeld
 	- Uglies - Uglies (1)
 	- Pretties - Uglies (2)
