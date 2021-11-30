@@ -1,7 +1,7 @@
 ---
 title: "Mt Rintoul"
 slug: "mt-rintoul"
-date: 2021-11-07T14:47:16+13:00
+date: 2020-10-24T14:47:16+13:00
 categories: ["Hiking"]
 type: "post"
 draft: true
