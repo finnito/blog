@@ -1,24 +1,27 @@
 /**
  * Global Variables
  **/
+var HikeMap;
 var ElevationData = [];
 var ElevationChart;
+var Tracks;
+var LayersLoaded = 0;
 var GPXData = {};
 var trackColours = [
     "#ff3838",
     "#6F1E51",
     "#c56cf0",
-    "#ff793f",
+    "#33d9b2",
     "#17c0eb",
     "#ff3838",
     "#6F1E51",
     "#c56cf0",
-    "#ff793f",
+    "#33d9b2",
     "#17c0eb",
     "#ff3838",
     "#6F1E51",
     "#c56cf0",
-    "#ff793f",
+    "#33d9b2",
     "#17c0eb",
 ];
 
@@ -31,7 +34,7 @@ var trackColours = [
 function initHike() {
     // Create Map
     HikeMap = L.map('hikeMap');
-
+    Tracks = L.featureGroup().addTo(HikeMap)
     // Add OpenStreetMap tile layer
     L.tileLayer('https://tiles-a.data-cdn.linz.govt.nz/services;key=50b8923a67814d28b7a1067e28f03000/tiles/v4/layer=50767/EPSG:3857/{z}/{x}/{y}.png', {attribution: 'NZ Topo Map images sourced from <a href="https://data.linz.govt.nz/layer/50767-nz-topo50-maps/">LINZ</a> - Crown Copyright Reserved'})
     .addTo(HikeMap);
@@ -57,15 +60,77 @@ function initHike() {
  * the file has been loaded.
  **/
 function asyncProcessGPXData(Data) {
-    // Add Hike Stats
-    addHikeStats(Data);
+    var name = getFilename(Data);
+    var container = document.getElementById(name);
+    if (container !== null) {
+        addHikeStats(Data);
+        var elevationData = parseGPXElevationData(Data);
+        initScatterPlot(Data, elevationData);
+    }
 
-    // Process the Elevation Data
-    var elevationData = parseGPXElevationData(Data);
-
-    // Create the Scatter Plot
-    initScatterPlot(Data, elevationData);
+    if (document.getElementById("gpx-table") !== null) {
+        populateGPXTable(Data);
+    }
 }
+
+
+/**
+ * Populate the GPX table
+ * with data.
+ **/
+function populateGPXTable() {
+    console.log(LayersLoaded, GPXFiles.length);
+    if (LayersLoaded != GPXFiles.length) {
+        return;
+    }
+
+    console.log("All loaded!");
+
+    var totalDist = 0;
+    var totalDur = 0;
+    var totalElevGain = 0;
+    var totalElevLoss = 0;
+
+    for (const [layer, Data] of Object.entries(Tracks._layers)) {
+        var table = document.querySelector("#gpx-table tbody");
+        var date = Data.get_start_time();
+        var distanceKm = (Data.get_distance() / 1000).toFixed(2);
+        var duration = msToHMS(Data.get_total_time());
+        var speed = ((Data.get_total_time()/1000/60) / (distanceKm)).toFixed(2);
+        var elevGain = parseFloat(Data.get_elevation_gain().toFixed(0));
+        var elevLoss = parseFloat(Data.get_elevation_loss().toFixed(0));
+
+        totalDist += Data.get_distance();
+        totalDur += Data.get_total_time();
+        totalElevGain += Data.get_elevation_gain();
+        totalElevLoss += Data.get_elevation_loss();
+
+        var tableRow = "<tr><td onclick='showTrack(" + Data._leaflet_id + ")'>Zoom To</td><td>" + date.getDate() + "/" + (parseInt(date.getMonth()) + 1) + "/" + date.getFullYear() + "</td>"
+            + "<td>" + distanceKm + "km</td>"
+            + "<td>" + duration + "</td>"
+            + "<td>" + speed + "min/km</td>"
+            + "<td>" + elevGain + "m ⬆️, " + elevLoss + "m ⬇️</td>";
+        table.innerHTML += tableRow;
+    }
+
+    table.innerHTML += "<tr><td></td><td>" + (totalDist/1000).toFixed(2) + "km</td><td>"
+        + msToHMS(totalDur) + "</td><td></td><td>"
+        + totalElevGain.toFixed(0) + "m ⬆️, "
+        + totalElevLoss.toFixed(0) + "m ⬇️</td>";
+}
+
+
+function showTrack(id) {
+    for (const [layer, Data] of Object.entries(Tracks._layers)) {
+        if (Data._leaflet_id == id) {
+            Data.setStyle({"opacity": 0.9});
+            HikeMap.fitBounds(Data.getBounds());
+        } else {
+            Data.setStyle({"opacity": 0});
+        }
+    }
+}
+
 
 
 /**
@@ -83,22 +148,65 @@ function addGPXTracks() {
             async: true,
             polyline_options: {
                 color: trackColours[i],
-                opacity: 0.75,
-                weight: 4,
+                opacity: 0.9,
+                weight: 3,
                 lineCap: 'round'
             },
             marker_options: {
                 startIconUrl: "/img/pin-icon-start.png",
                 endIconUrl: "/img/pin-icon-end.png",
-                shadowUrl: null
+                shadowUrl: null,
+                iconAnchor: [12, 35],
+                iconSize: [24, "auto"]
             },
             path: GPXFiles[i]
         }).on('loaded', function(e) {
+            LayersLoaded += 1;
+            var Data = e.target;
             trackGroup.addLayer(e.target);
             HikeMap.fitBounds(trackGroup.getBounds());
             asyncProcessGPXData(e.target);
-        }).addTo(HikeMap);
+            addTooltip(e.target);
+            populateGPXTable();
+        }).on("mouseover", function(e) {
+            // console.log(e.target);
+            for (const [layer, value] of Object.entries(Tracks._layers)) {
+                console.log(layer, value.layers, e.target._leaflet_id);
+                if (parseInt(layer) !== e.target._leaflet_id) {
+                    value.setStyle({"opacity": 0.1});
+                    // e.target.options.polyline_options.opacity = 0.1;
+                }
+                
+            }
+
+            // console.log(e, Tracks);
+        }).on("mouseout", function(e) {
+            for (const [layer, value] of Object.entries(Tracks._layers)) {
+                value.setStyle({"opacity": 0.9});
+            }
+        }).addTo(Tracks);
     }
+}
+
+
+/**
+ * Returns summary text
+ * of a GPX file.
+ **/
+function addTooltip(Data) {
+    var date = Data.get_start_time();
+    var distanceKm = (Data.get_distance() / 1000).toFixed(2);
+    var duration = msToHMS(Data.get_total_time());
+    var speed = ((Data.get_total_time()/1000/60) / (distanceKm)).toFixed(2);
+    var elevGain = parseFloat(Data.get_elevation_gain().toFixed(0));
+    var elevLoss = parseFloat(Data.get_elevation_loss().toFixed(0));
+    var tooltipText = "<strong>" + date.getDate() + "/" + (parseInt(date.getMonth()) + 1) + "/" + date.getFullYear() + "</strong><br/>"
+        + "Distance: " + distanceKm + "km<br/>"
+        + "Duration: " + duration + "<br/>"
+        + "Pace: " + speed + "min/km<br/>"
+        + "Elevation Gain: " + elevGain + "m<br/>"
+        + "Elevation Loss: " + elevLoss + "m<br/>";
+    Data.bindTooltip(tooltipText, {sticky: true}).openTooltip();
 }
 
 
@@ -170,10 +278,11 @@ function parseGPXElevationData(Data) {
     // for (let name in GPXData) {
         var name = getFilename(Data);
         var container = document.getElementById(name);
+
         // Get the data
         var rawElevation = Data.get_elevation_data();
-        // // Iterate each track layer
-        // and concatanate the points.
+        // Iterate each track layer
+        // and concatenate the points.
         var trackPoints = [];
         var firstLayer = Data._layers[Object.keys(Data._layers)[0]];
         for (let [key, value] of Object.entries(firstLayer._layers)) {
