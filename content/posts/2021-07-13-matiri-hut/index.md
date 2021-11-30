@@ -1,7 +1,7 @@
 ---
 title: "Matiri Hut and Lake"
 slug: "matiri-hut-and-lake"
-date: 2021-07-14T15:43:18+12:00
+date: 2021-07-13T15:43:18+12:00
 categories: ["trail-running sport"]
 type: "post"
 layout: "gps"
@@ -9,7 +9,7 @@ metaDescription: "A quick and well-formed trail in to Matiri Hut and Lake. It pa
 metaImageURL: "/posts/matiri-hut-and-lake/20210713_153258.jpg"
 ---
 
-__Runners:__ Finn & Jen (June 13th, 2021)
+__Runners:__ Finn & Jen (July 13th, 2021)
 
 Jen wanted to break up the drive from St Arnaud to Christchurch with something active, and after much searching and agonising over lunch in Murchison, she found [Lake Matiri](https://www.doc.govt.nz/parks-and-recreation/places-to-go/nelson-tasman/places/kahurangi-national-park/things-to-do/huts/lake-matiri-hut/)!
 
