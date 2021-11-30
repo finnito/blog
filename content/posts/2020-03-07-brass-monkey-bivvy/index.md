@@ -1,7 +1,7 @@
 ---
 title: "Brass Monkey Bivvy"
 slug: "brass-monkey-bivvy"
-date: 2020-03-26T11:42:04+13:00
+date: 2020-03-07T11:42:04+13:00
 categories: ["Hiking"]
 type: "post"
 layout: "multiGPS"

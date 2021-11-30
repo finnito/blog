@@ -1,7 +1,7 @@
 ---
 title: "Caples-Kay-Scott Loop"
 slug: “caples-kay-scott-loop”
-date: 2021-07-31T20:15:55+12:00
+date: 2021-07-22T20:15:55+12:00
 categories: ["Hiking"]
 type: "post"
 layout: "multiGPS"

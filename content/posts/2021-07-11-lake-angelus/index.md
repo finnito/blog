@@ -1,7 +1,7 @@
 ---
 title: "Lake Angelus Hut"
 slug: "lake-angelus-hut"
-date: 2021-07-14T12:49:53+12:00
+date: 2021-07-11T12:49:53+12:00
 categories: ["Hiking"]
 type: "post"
 layout: "multiGPS"
@@ -9,7 +9,7 @@ metaDescription: "A beautiful two-day snowy tramp on the Travers Range that visi
 metaImageURL: "/posts/lake-angelus-hut/IMG_6236.jpeg"
 ---
 
-__Hikers:__ Finn & Jen (June 11th, 2021)
+__Hikers:__ Finn & Jen (July 11th, 2021)
 
 ## Day 1: Lake Angelus Hut via Robert Ridge
 
