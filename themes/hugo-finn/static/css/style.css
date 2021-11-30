@@ -485,6 +485,27 @@ button {
 .nav-buttons { text-align: center; }
 .nav-buttons a { padding: 0.5rem 1rem; }
 
+input[type='radio'] {
+  visibility: hidden;
+}
+
+.hidden {
+  display: none;
+}
+
+.filter-button {
+  cursor: pointer;
+}
+
+.filter-button {
+  border-radius: 0.25rem;
+  border: 1px solid lightgrey;
+}
+
+.filter-button > input {
+  display: none;
+}
+
 @media (min-width: 768px) {
   html, body {
     overflow-x: visible;

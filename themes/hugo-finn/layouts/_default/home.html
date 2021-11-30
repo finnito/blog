@@ -3,6 +3,59 @@
 <div class="content">
     {{ .Content }}
 
+    <label class="filter-button" for="sport">
+        <input name="filter" type="radio" id="sport" checked>🏃 Sport 🏔</label>
+    <label class="filter-button" for="other">
+        <input name="filter" type="radio" id="other">💻 Other 🧑‍💻</label>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", doFilter);
+        document.querySelectorAll("input[name='filter']").forEach(function(el) {
+            el.addEventListener("click", doFilter);
+        });
+
+        function doFilter() {
+            var categories = ["sport", "hiking", "cycling", "trail-running"];
+            var filter = document.querySelector("input[name='filter']:checked").id;
+
+            var hasSportCategory = false;
+            document.querySelectorAll("ul.archive > ul").forEach(function(list) {
+
+                visible = 0;
+                list.querySelectorAll("li").forEach(function(post) {
+                    categories.forEach(function(category) {
+                        if (post.classList.contains(category)) {
+                            hasSportCategory = true;
+                        }
+                    });
+
+                    if (filter == "sport") {
+                        if (hasSportCategory) {
+                            post.classList.remove("hidden");
+                            visible += 1;
+                        } else {
+                            post.classList.add("hidden");
+                        }
+                    } else {
+                        if (hasSportCategory) {
+                            post.classList.add("hidden");
+                        } else {
+                            visible += 1;
+                            post.classList.remove("hidden");
+                        }
+                    }
+
+                    hasSportCategory = false;
+                    if (visible == 0) {
+                        list.classList.add("hidden");
+                    } else {
+                        list.classList.remove("hidden");
+                    }
+                });
+            });
+        }
+    </script>
+
     <ul class="archive">
         <!-- Ranges through content/posts/*.md -->
         {{ $pages := (where .Site.RegularPages "Section" "posts") }}
