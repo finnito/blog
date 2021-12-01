@@ -44,7 +44,7 @@ We were pleased to have a nice and short second day, before a bit of an epic 3rd
 
 I had not researched the huts/track very much as we were just tagging along with my parents, but I had real that Kay Creek Hut left a little bit to be desired, but I had also read that the University of Otago Physical Education class had done some work on it in 2016. Still, that left us with a rather draughty, dirt-floored, open-fire, located in the shade, corrugated iron hut.
 
-{{< figure src="IMG_2683.jpg" author="Finn Le Sueur" title="A very cold Kay Creek Hut. At least the first warmed the left side of the roof!" >}}
+{{< figure src="IMG_2683.jpg" author="Finn Le Sueur" title="A very cold Kay Creek Hut. At least the fire warmed the left side of the roof!" >}}
 
 Neil managed to find some good firewood back across the stream and we collected about six backpacks worth before lighting the fire in the early afternoon. Through the efforts of Jen and Neil throughout the night, the fire was burning until the next morning. Unfortunately, it didn't manage to raise the temperature of the hut overly much, barely keeping it above freezing point inside. I suppose that is something though!
 
