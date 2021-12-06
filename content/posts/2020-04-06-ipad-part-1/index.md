@@ -9,7 +9,7 @@ metaImageURL: "/posts/ipad-part-one/terminus-working-copy.png"
 
 This post is coming to you from a 2020 iPad Pro 12.9" - a beautiful, huge, iPad. Back in 2010 I owned a iPad 1 (thanks Dad!) - I ostenstably used it for schoolwork, but I think I mostly played the tower defence game, [Sentinel 3][1], while pretending to do work in my Statistics class.
 
-{{< figure src="/posts/ipad-part-one/sentinel-screenshot.jpg" title="Sentinel 3" author="Finn LeSueur" >}}
+{{< figure name="sentinel-screenshot" title="Sentinel 3" author="Finn Le Sueur" >}}
 
 <!--more-->
 
@@ -27,7 +27,7 @@ Working Copy is a truly excellent git client written by Anders Borum. I bought i
 
 Terminus is another truly great app. I managed to set up SSH to my server with public key authentication which was pretty cool! Now I can SSH into my Linode instances in case I want to do some work in there or kickstart a dead process. 
 
-{{< figure src="/posts/ipad-part-one/terminus-working-copy.png" title="Working Copy & Terminus" author="Finn LeSueur" >}}
+{{< figure name="terminus-working-copy" title="Working Copy & Terminus" author="Finn Le Sueur" >}}
 
 ## Physics Tutorials with [Concepts][6]
 
