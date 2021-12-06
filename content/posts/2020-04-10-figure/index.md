@@ -26,17 +26,25 @@ A __progressive enhancement__, for those unaware, is one that only applies to br
 I like to use the `<figure>` element to display images inside my posts, and have recently (yesterday) converted to using the `srcset` attribute in `<img/>` elements to responsively serve differently sized images depending on the size of the screen. Note the use of `loading="lazy"` in the `<img/>` element:
 
 ```html
+{{ $img := (index (.Page.Resources.Match (print (.Get "name") ".*")) 0) }}
+{{ $img512 := (index (.Page.Resources.Match (print (.Get "name") "-512.webp")) 0) }}
+{{ $img1024 := (index (.Page.Resources.Match (print (.Get "name") "-1024.webp")) 0) }}
+{{ $img2048 := (index (.Page.Resources.Match (print (.Get "name") "-2048.webp")) 0) }}
 <figure>
-    <img 
-        srcset='
-            https://finn.lesueur.nz/my-image-4096.png 4096w,
-            https://finn.lesueur.nz/my-image-2048.png 2048w,
-            https://finn.lesueur.nz/my-image-1024.png 1024w,
-            https://finn.lesueur.nz/my-image-512.png 512w'
-        src='https://finn.lesueur.nz/my-image.png'
-        alt='This is my cool image!'
-        loading="lazy"/>
-    <figcaption>(📷: Finn LeSueur) This is my cool image!</figcaption>
+    <a href='{{ $img.Permalink }}' title='Full size image: {{ .Get "title" }}'>
+        <img 
+            srcset='
+                {{ $img512.Permalink }} {{ $img512.Width }}w,
+                {{ $img1024.Permalink }} {{ $img1024.Width }}w,
+                {{ $img2048.Permalink }} {{ $img2048.Width }}w'
+            sizes="(min-width: 780px) 584px, calc(100vw - 16px)"
+            height="{{ $img.Height }}"
+            width="{{ $img.Width }}"
+            src='{{ $img.Permalink }}'
+            alt='{{ .Get "title" }}'
+            loading="lazy"/>
+    </a>
+    <figcaption>(📷: {{ .Get "author" }}) {{ .Get "title" }}</figcaption>
 </figure>
 ```
 
