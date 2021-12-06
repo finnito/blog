@@ -11,7 +11,7 @@ The TouchBar is a controversial piece of hardware, often thought to add expense 
 
 For a long time I have used BetterSnapTool (now [BetterTouchTool](https://folivora.ai/)) to do some window management (mainly snap areas) on my Mac, but I had never explored the TouchBar customisation features built into BetterTouchTool. That was until a couple of weeks ago when a friend, Max, showed me just how much you can customise the TouchBar; just how much different information you can put in it! And now I __love__ it.
 
-![My TouchBar](/posts/better-touch-tool-macos-touchbar/touchbar-screenshot.png)
+{{< figure name="touchbar-screenshot.png" author="Finn Le Sueur" title="Mt Touchbar" >}}
 
 ## BetterTouchTool
 
@@ -21,7 +21,7 @@ BetterTouchTool offers a wide variety of MacOS system enhancements from gestures
 
 To get to the TouchBar customisation page, click on the menubar icon for BetterTouchTool and then "Configuration". Select Touch Bar from the dropdown and you should enter a screen that looks like an empty version of this:
 
-![BetterTouchTool TouchBar Configuration](/posts/better-touch-tool-macos-touchbar/bettertouchtool-touchbar-configuration.png)
+{{< figure name="ettertouchtool-touchbar-configuration.png" author="Finn Le Sueur" title="BetterTouchTool Touchbar Configuration" >}}
 
 Here you can add groups and top level triggers and assign actions to them, customise their appearance, order and a huge variety of options.
 
