@@ -24,21 +24,27 @@ These snippet files are special because any Hugo functions inside the snippet ar
 Here is how I call my snippet, where `src`, `title`, and `author` are the arguments passed to the `figure.html` snippet.
 
 ```
-{{</* figure src="" title="" author="" */>}}
+{{</* figure name="" title="" author="" */>}}
 ```
 
 And, here is how the snippet works, where the main takeaway is `{{ .Get "src" }}` is how to get an argument input!
 
 ```
+{{ $img := (index (.Page.Resources.Match (print (.Get "name") ".*")) 0) }}
+{{ $img512 := (index (.Page.Resources.Match (print (.Get "name") "-512.webp")) 0) }}
+{{ $img1024 := (index (.Page.Resources.Match (print (.Get "name") "-1024.webp")) 0) }}
+{{ $img2048 := (index (.Page.Resources.Match (print (.Get "name") "-2048.webp")) 0) }}
 <figure>
-    <a href='{{ .Get "src" | absURL }}' title='Full size image: {{ .Get "title" }}'>
+    <a href='{{ $img.Permalink }}' title='Full size image: {{ .Get "title" }}'>
         <img 
             srcset='
-                https://img.lesueur.nz/full?u={{ .Get "src" | absURL }} 4096w,
-                https://img.lesueur.nz/2048?u={{ .Get "src" | absURL }} 2048w,
-                https://img.lesueur.nz/1024?u={{ .Get "src" | absURL }} 1024w,
-                https://img.lesueur.nz/512?u={{ .Get "src" | absURL }} 512w,'
-            src='{{ .Get "src" | absURL }}'
+                {{ $img512.Permalink }} {{ $img512.Width }}w,
+                {{ $img1024.Permalink }} {{ $img1024.Width }}w,
+                {{ $img2048.Permalink }} {{ $img2048.Width }}w'
+            sizes="(min-width: 780px) 584px, calc(100vw - 16px)"
+            height="{{ $img.Height }}"
+            width="{{ $img.Width }}"
+            src='{{ $img.Permalink }}'
             alt='{{ .Get "title" }}'
             loading="lazy"/>
     </a>
