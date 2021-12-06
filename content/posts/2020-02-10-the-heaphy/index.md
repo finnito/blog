@@ -4,7 +4,7 @@ slug: "the-heaphy"
 date: 2020-02-10T19:47:58+13:00
 categories: ["Hiking"]
 type: "post"
-layout: "multiGPS"
+layout: "gps"
 metaDescription: "The Heaphy is a wonderful 4-day in Kahurangi National Park best spent in the sunshine with friends."
 metaImageURL: "posts/the-heaphy/IMG_3443.jpg"
 ---
@@ -15,16 +15,13 @@ __Hikers:__ Finn, Jen, Amy & Sam (February 10th, 2020)
 
 <div id="The_Heaphy_Day_1"></div>
 
-On Sunday we travelled from Christchurch to [Carter's Beach][1] where we stayed at a cute, clean and affordable AirBnB a mere 5 minutes walk from the beach! We drank some rather tasty wine and Jen and I got our feet wet in the very _very_ cold, West Coast ocean.
+On Sunday we travelled from Christchurch to [Carter\'s Beach][1] where we stayed at a cute, clean and affordable AirBnB a mere 5 minutes walk from the beach! We drank some rather tasty wine and Jen and I got our feet wet in the very _very_ cold, West Coast ocean.
 
 The next morning we set off, stopping briefly in Westport for Amy and Sam to buy extra food & to fill up the car. Ready to go, we hit the trail from [Kōhaihai Shelter and Campsite][2]. The trail starts by going through a very low lying valley floor that often floods in king tides & wet weather, so take care and take the flood route if needed - we could have avoided wet feet if we took that track!
 
 It then gently climbs up over Kōhaihai Bluffs (100m ⬆️) and down the other side to Scotts Beach. From here the track gently undulates along the beach front all the way to [Heaphy Hut][3] which is situated at the mouth of the Heaphy River. You can swim here as long as you swim in the inlet and take care to not get pulled into the main flow and out the river mouth. This was to be the first of our four swims!
 
-<figure>
-  <img src="/posts/the-heaphy/IMG_3374.jpg" alt="Sam getting stoked about nature and swing bridges!"/>
-  <figcaption>(📷: Finn LeSueur) Sam getting stoked about nature and swing bridges!</figcaption>
-</figure>
+{{< figure name="IMG_3374" author="Finn Le Sueur" title="Sam get stoked about natura and swing bridges!" >}}
 
 __Note!:__ the track along the beach front has been modified over the pat couple of years to better survive flooding and king tides, so there is a safe path for _most_ weather conditions to Heaphy Hut. But bear in mind that this is not so from Heaphy to Lewis Hut! If there is flooding you may not be able to make it through.
 
@@ -36,10 +33,7 @@ The second day starts off just as relaxed as the end of the first: travelling on
 
 From Lewis Hut the track climbs gently but steadily for around 13km (~670m ⬆️) all the way to [James Mackay Hut][6]. The climb is unrelenting but not challenging - just keep plodding! Take a look behind you down the valley as there is a really nice view down Heaphy River.
 
-<figure>
-  <img src="/posts/the-heaphy/IMG_3412.jpg" alt="Amy after exploring the glow worms cave & avoid the spiders and their egg sacks!"/>
-  <figcaption>(📷: Jennifer Rouse) Amy after exploring the glow worms cave & avoiding the spiders and their egg sacks!</figcaption>
-</figure>
+{{< figure name="IMG_3412" author="Finn Le Sueur" title="Amy after exploring the glow worm caves & avoiding and spiders and their egg sacks!" >}}
 
 ## Day 3: To Perry Saddle Hut
 
@@ -49,17 +43,11 @@ The sun was out in full force for us today which was unfortunate because less th
 
 Keep an eye out for [takahē][8], a very cute and rare bird as there are a couple that live near Gouland Downs Hut and another between Perry Saddle Hut and Saxon Hut! They're a bit like big, round, blue chickens. Very cute.
 
-<figure>
-  <img src="/posts/the-heaphy/IMG_3473.jpg" alt="Jen & Amy watching the takakē at Perry Saddle Hut"/>
-  <figcaption>(📷: Finn LeSueur) Jen & Amy watching the takakē at Perry Saddle Hut</figcaption>
-</figure>
+{{< figure name="IMG_3473" author="Finn Le Sueur" title="Jena & Amy watching the takahē at Perry Saddle Hut." >}}
 
 There is [a great river for swimming just East to Gouland Downs Hut][7] - we didn't swim there but would have loved to! Once you reach Perry Saddle Hut and relaxed a little, there is a small pathway that takes you down to a _mountain spa_. It is very much not a spa, and I'm not sure we had been in colder water before in our lives. I couldn't feel my legs once I got out but I, surprisingly, would highly recommend it!
 
-<figure>
-  <img src="/posts/the-heaphy/IMG_3443.jpg" alt="Jen, Amy & Sam representing Osprey with their new and very comfortable packs"/>
-  <figcaption>(📷: Finn LeSueur) Jen, Amy & Sam representing Osprey with their new and very comfortable packs</figcaption>
-</figure>
+{{< figure name="IMG_3443" author="Finn Le Sueur" title="Jen, Amy and Sam representing Osprey with their new and very comfortable packs." >}}
 
 ## Day 4: To Brown Hut (Road-End)
 
@@ -71,14 +59,11 @@ Knowing the last day was super relaxed and all downhill we had a slow morning, d
 
 We headed to Takaka that evening for a well-earned shower and some delicious food from [Roots Bar][12] on the main street - I think we would all highly recommend it! And with that, The Heaphy gets a big thumbs up from all of us 👍
 
-<figure>
-  <img src="/posts/the-heaphy/IMG_3479.jpg" alt="A little footsore, but happy to have finished & to be heading to the river to get clean!"/>
-  <figcaption>(📷: Finn LeSueur) A little footsore, but happy to have finished & to be heading to the river to get clean!</figcaption>
-</figure>
+{{< figure name="IMG_3479" author="Finn Le Sueur" title="A little footsore, but happy to have a finished and to be heading to the river to get clean!" >}}
 
 ### References
 
-- [Carter's Beach on Google Maps][1]
+- [Carter\'s Beach on Google Maps][1]
 - [Kōhaihai Campsite and Shelter on Google Maps][2]
 - [Heaphy Hut][3]
 - [Lewis Hut][4]
