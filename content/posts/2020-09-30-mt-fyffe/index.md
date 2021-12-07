@@ -4,7 +4,7 @@ slug: "mt-fyffe-loop"
 date: 2020-09-30T19:54:50+13:00
 categories: ["Hiking"]
 type: "post"
-layout: "multiGPS"
+layout: "gps"
 metaDescription: ""
 metaImageURL: "/posts/mt-fyffe-loop/"
 draft: true

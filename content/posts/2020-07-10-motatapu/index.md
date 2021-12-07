@@ -4,7 +4,7 @@ slug: "motatapu-track"
 date: 2020-07-10T19:54:50+13:00
 categories: ["Hiking"]
 type: "post"
-layout: "multiGPS"
+layout: "gps"
 metaDescription: "A multi-day tramp with stunning landscapes. Some of the track feels contrived, but it is well worth the trip!"
 metaImageURL: "/posts/motatapu-track/"
 draft: true

@@ -4,7 +4,7 @@ slug: "camp-creek-hut"
 date: 2020-07-05T19:54:50+13:00
 categories: ["Hiking"]
 type: "post"
-layout: "multiGPS"
+layout: "gps"
 metaDescription: "An excellent overnighter trip that is close to the road-end. The hut is in good condition and has a bath with a fire outside!"
 metaImageURL: "/posts/camp-creek-hut/"
 draft: true
