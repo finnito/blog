@@ -4,12 +4,14 @@ slug: “caples-kay-scott-loop”
 date: 2021-07-22T20:15:55+12:00
 categories: ["Hiking"]
 type: "post"
-layout: "multiGPS"
+layout: "gps"
 metaDescription: "A beautiful 3-day tramp through wide valleys, dense bush and snowy tops. It visits two very memorable (if different) huts and passes through some of the best scenery in New Zealand."
 metaImageURL: "posts/caples-kay-scott-loop/IMG_2683.jpg"
 ---
 
 __Hikers:__ Finn, Jen, Francie, Justin and Neil (July 22nd, 2021)
+
+<table id="gpx-table"></table>
 
 <nav id="TableOfContents">
   <h3>Contents</h3>
@@ -28,11 +30,11 @@ This section of track is very well-formed, well maintained and quite simply foll
 
 The track follows the North-East side of the valley and has you climb a surprising 570m, even though the net gain between start and finish is less than 200m. This is another reason to consider the riverbed if you are experienced and it is warm! Due to the track sticking to the North-East side of the valley we found ourselves in shade until Mid Caples Hut. After that, the track switches to the South-West side and there is some more sunlight.
 
-{{< figure src="IMG_6258.jpg" author="Finn Le Sueur" title="Looking North up a wintry Caples Valley." >}}
+{{< figure name="IMG_6258" author="Finn Le Sueur" title="Looking North up a wintry Caples Valley." >}}
 
 Upper Caples Hut is an ex-DOC hut that was given over to the NZ Deer Stalkers Association after the construction of Mid Caples Hut by DOC. The hut is locked to the public, but when you book online you get told where to obtain a key in Queenstown on your way to the track. The hut is still in excellent condition and the NZDSA have fitted it out with some extras like solar lights, gas for cooking, lots of cooking & eating utensils, as well as a couple of USB ports for charging off the solar panels. Very nice!
 
-{{< figure src="IMG_6335.jpg" author="Finn Le Sueur" title="Finn, Jen, Justin, Francie and Neil outside Upper Caples Hut." >}}
+{{< figure name="IMG_6335" author="Finn Le Sueur" title="Finn, Jen, Justin, Francie and Neil outside Upper Caples Hut." >}}
 
 ## Day 2: Kay Creek Hut
 
@@ -40,17 +42,17 @@ Upper Caples Hut is an ex-DOC hut that was given over to the NZ Deer Stalkers As
 
 We were pleased to have a nice and short second day, before a bit of an epic 3rd day. It clocked in just under three hours, including a nice food break in the sunny riverbed about halfway up. The forest was beautiful, lush and dense and it made for a very nice gander. Again, another few hundred vertical meters of altitude over the shorter route, but it didn't feel too strenuous.
 
-{{< figure src="IMG_6366.jpg" author="Finn Le Sueur" title="Justin and Neil looking up Kay Creek Valley by our lunch spot." >}}
+{{< figure name="IMG_6366" author="Finn Le Sueur" title="Justin and Neil looking up Kay Creek Valley by our lunch spot." >}}
 
 I had not researched the huts/track very much as we were just tagging along with my parents, but I had real that Kay Creek Hut left a little bit to be desired, but I had also read that the University of Otago Physical Education class had done some work on it in 2016. Still, that left us with a rather draughty, dirt-floored, open-fire, located in the shade, corrugated iron hut.
 
-{{< figure src="IMG_2683.jpg" author="Finn Le Sueur" title="A very cold Kay Creek Hut. At least the fire warmed the left side of the roof!" >}}
+{{< figure name="IMG_2683" author="Finn Le Sueur" title="A very cold Kay Creek Hut. At least the first warmed the left side of the roof!" >}}
 
 Neil managed to find some good firewood back across the stream and we collected about six backpacks worth before lighting the fire in the early afternoon. Through the efforts of Jen and Neil throughout the night, the fire was burning until the next morning. Unfortunately, it didn't manage to raise the temperature of the hut overly much, barely keeping it above freezing point inside. I suppose that is something though!
 
 Having visited the hut was nice, but Jen will be happy if she never has to visit it again!
 
-{{< figure src="IMG_2661.jpg" author="Neil Smart" title="Justin, Francie, Finn and Jen cosy inside Kay Creek Hut" >}}
+{{< figure name="IMG_2661" author="Neil Smart" title="Justin, Francie, Finn and Jen cosy inside Kay Creek Hut" >}}
 
 ## Day 3: Out via Scott Basin and Creek
 
@@ -60,13 +62,13 @@ After a poor night sleep, I was not feeling excellent, and due to the sub-zero t
 
 The route is pretty simple, just follow Kay Creek up, although I did read that the ominously named Death Valley can be a good alternative route to Scott Basin. There was a nice sunny face up to the East near the head of the valley, but we found some cairns to the left. They took us up a face tussocky between the bluffs to the left, and nicely into Scott Basin. We had our crampons and ice axes at the ready, but didn't feel we needed them here, or even really at the basin. The slopes were gentle and the terrain mostly forgiving.
 
-{{< figure src="IMG_2698.jpg" author="Finn Le Sueur" title="Jen climbing up to Scott Basin out of Kay Creek." >}}
+{{< figure name="IMG_2698" author="Finn Le Sueur" title="Jen climbing up to Scott Basin out of Kay Creek." >}}
 
 Down the North side, the snowline is a good deal higher than the Kay Creek side and we soon emerged onto tussocks that were clear of snow, if a little boggy. From here it was just a matter of making your way down towards the head of Scott Creek while travelling East to Scott Basin as to avoid the bluffs. There is a tussocky ridge that will take you right down to the treeline and the first orange triangle of Scott Creek Track.
 
-{{< figure src="IMG_6391.jpg" author="Finn Le Sueur" title="Jen enjoy the beautiful and snowy tops!" >}}
+{{< figure name="IMG_6391" author="Finn Le Sueur" title="Jen enjoy the beautiful and snowy tops!" >}}
 
-{{< figure src="IMG_6395.jpg" author="Finn Le Sueur" title="Descending through tussocks to Scott Creek - the end (almost) in sight." >}}
+{{< figure name="IMG_6395" author="Finn Le Sueur" title="Descending through tussocks to Scott Creek - the end (almost) in sight." >}}
 
 Scott Creek Track is a quite well-walked track that is easy to follow, however, I don't think that it sees much maintenance as there were a lot of trees down. There is somewhere in the range of 700m to descend from the first triangle, but it only took us 1hr 45min to reach the carpark. For that we were thankful!
 I always find that my photo-taking peters out at the end of a tramp - I think I just get tired and want to finish, so I don't have many/any photos of this last section. The forest was, however, very nice!
