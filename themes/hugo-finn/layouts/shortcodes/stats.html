@@ -1,0 +1,10 @@
+{{ $stats := index $.Site.Data.gpx (index (split (.Get "track") ".") 0) }}
+{{ $gpx := index ($.Page.Resources.Match (print (.Get "track") ".gpx")) 0 }}
+
+<blockquote><p class="hike-stats">
+    <span class="distance">{{ printf "%.2f" (div $stats.stats.distance 1000) }}km</span>
+    <span class="climb">({{ $stats.stats.uphill }}m 🆙, {{ $stats.stats.downhill }}m🔻)</span> in 
+    <span class="duration">{{ math.Floor (div $stats.stats.duration 3600) }}hr {{ div (mod $stats.stats.duration 3600) 60 }}min</span> @ 
+    <span class="speed">{{ printf "%.2f" $stats.stats.pace }}km/hr</span>.
+    <a class="downloadGPX" download href="{{ $gpx.Permalink }}" title='Download GPX for {{ .Get "track" }}'/>Download GPX</a>
+</p></blockquote>
