@@ -6,6 +6,7 @@ draft: true
 categories: ["Development"]
 metaDescription: "Learn about the new loading='lazy' attribute and how to use <figure> and <img> srcsets!"
 metaImageURL: "/posts/lazy-loading/figure-html-screenshot.png"
+prism: "true"
 ---
 
 ## Lazy Loading

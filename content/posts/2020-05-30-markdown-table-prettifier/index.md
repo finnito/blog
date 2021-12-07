@@ -5,6 +5,7 @@ slug: "markdown-table-prettifier"
 categories: ["iPad", "Development", "Project"]
 metaDescription: "A small Scriptable action that parses text to find Markdown tables and pad the cells to make them more readable."
 metaImageURL: "/posts/markdown-table-prettifier/markdown-table-prettifier-og-image.png"
+prism: "true"
 ---
 
 __Gitlab:__ [Markdown Table Prettifier](https://gitlab.com/Finnito/scriptable-markdown-table-prettifier)
