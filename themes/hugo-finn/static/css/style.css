@@ -510,6 +510,58 @@ input[type='radio'] {
   display: none;
 }
 
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  border: 1px solid rgba(0, 0, 0, 0.05);;
+  empty-cells: show;
+  max-width: 100%;
+  display: inline-block;
+  overflow-x: auto;
+  white-space: nowrap;
+  box-sizing: border-box;
+}
+
+table tbody tr:last-of-type {
+  border-top: 1px solid black;
+}
+
+table td,
+table th {
+  font-size: inherit;
+  margin: 0;
+  overflow: visible;
+  padding: 0.5em 1em;
+  width: 7.5rem;
+}
+
+/*table td:not(:first-of-type),
+table th:not(:first-of-type) {
+  border-left: 1px solid var(--neutral-main);
+}*/
+
+table thead {
+  /*background-color: var(--yellow-light);*/
+  color: #000;
+  text-align: left;
+  vertical-align: bottom;
+}
+
+table td {
+  background-color: transparent;
+}
+table td {
+    background-color: rgba(0, 0, 0, 0.05);
+}
+
+tbody tr:not(first-child) {
+  border-top: 1px solid var(--neutral-main);
+}
+
+table tr:nth-child(2n-1) td {
+    background-color: var(--neutral-light);
+}
+
 @media (min-width: 768px) {
   html, body {
     overflow-x: visible;
