@@ -218,8 +218,8 @@ input[type=checkbox].toggle,
   width: 100vw;
   position: absolute;
   left: 0;
-  height: calc(100vh - 3.6rem - 4px);
-  top: calc(3.6rem + 4px);
+  height: calc(100vh - 3.6rem);
+  top: calc(3.6rem);
   transition: all 300ms;
   padding: 0.5rem;
   box-sizing: border-box;
