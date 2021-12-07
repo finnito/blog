@@ -5,6 +5,7 @@ slug: "pyrocms-json-ld-breadcrumbs"
 categories: ["Development", "PyroCMS"]
 metaDescription: "Having a nice looking search card on Google is all part of Search Engine Optimisation. Learn how to make JSON-LD breadcrumbs using PyroCMS 3 & Twig!"
 metaImageURL: "JSON-LD.png"
+prism: "true"
 ---
 
 Having a nice looking search card on Google is all part of Search Engine Optimisation. Thankfully, [PyroCMS 3][p3] has a great breadcrumbing implementation built in and we can leverage this to easily generate semantic HTML markup and some lovely [JSON-LD][jld].

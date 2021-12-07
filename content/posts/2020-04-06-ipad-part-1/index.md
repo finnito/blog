@@ -5,6 +5,7 @@ date: 2020-04-10T17:02:48+12:00
 categories: ["iPad", "Development"]
 metaDescription: "How I’m being productive on a 2020 iPad Pro 12.9 - Git, SSH, VPN and Remote Desktop."
 metaImageURL: "/posts/ipad-part-one/terminus-working-copy.png"
+prism: "true"
 ---
 
 This post is coming to you from a 2020 iPad Pro 12.9" - a beautiful, huge, iPad. Back in 2010 I owned a iPad 1 (thanks Dad!) - I ostenstably used it for schoolwork, but I think I mostly played the tower defence game, [Sentinel 3][1], while pretending to do work in my Statistics class.

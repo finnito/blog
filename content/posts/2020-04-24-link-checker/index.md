@@ -4,6 +4,7 @@ date: 2020-04-24T15:01:25+12:00
 categories: ["Development", "Project"]
 metaDescription: "My little Python script to detect link rot on websites through checking of HTTP status codes. Lightweight and useful!"
 metaImageURL: "/projects/link-checker/link-checker-project-og-image.png"
+prism: "true"
 ---
 
 __[Source Code: Gitlab][gitlab]__

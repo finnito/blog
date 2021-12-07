@@ -6,6 +6,7 @@ draft: true
 categories: ["Development", "Project"]
 metaDescription: "Introducing, AutoImageResizer! A tiny Lumen application that takes images via an API, resizes them and serves them back to the user for responsive image display!"
 metaImageURL: "/posts/auto-image-resizer/auto-image-resizer-og-image.png"
+prism: "true"
 ---
 
 Introducing, [AutoImageResizer][1]! A tiny Lumen application that takes images via an API, resizes them and serves them back to the user for responsive image display!

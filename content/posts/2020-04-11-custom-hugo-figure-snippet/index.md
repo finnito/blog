@@ -5,6 +5,7 @@ date: 2020-04-11T10:12:19.296170+12:00
 categories: ["Development"]
 metaDescription: "Learn how to create a custom snippet to insert a responsive <figure> element into your Hugo posts!"
 metaImageURL: "/posts/custom-hugo-figure-snippet/custom-figure-snippet-og-image.png"
+prism: "true"
 ---
 
 [Hugo][5] is a really nice way to write a blog - your writing is stored as plain text and by using [Markdown][1] you can introduce some nice basic HTML formatting. Markdown allows you to have HTML inside the same file by adding the following flag to your `config.toml` file:

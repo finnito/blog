@@ -4,6 +4,7 @@ slug: "deploying-this-website"
 date: 2019-11-14T19:38:06+13:00
 categories: ["Development"]
 metaDescription: "How to set up a GitLab pipeline to deploy a website with Hugo."
+prism: "true"
 ---
 
 Setting up a Continuous Integration (CI) pipeline can be tricky and hard to debug. Here are some notes I made during my process!
