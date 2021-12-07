@@ -4,45 +4,24 @@
     <div class="article-meta">
         <h1><span class="title">{{ .Title | markdownify }}</span></h1>
     </div>
-    <p class="hike-stats">
-        <span class="distance">
-            <span class="dynamic"></span>
-        </span>
-        <span class="climb">
-            <span class="dynamic"></span>
-        </span> in 
-        <span class="duration">
-            <span class="dynamic"></span>
-        </span> @ 
-        <span class="speed">
-            <span class="dynamic"></span>
-        </span>
-        <span class="downloadGPX"></span>
-    </p>
-    <div class="chart-container">
-        <canvas id="elevationProfile" height="200" width="1200"></canvas>
-    </div>
     {{ .Content }}
 </div>
 
 <script>
-    var GPXFileURL = "{{ index (.Resources.Match "*.gpx") 0 }}",
-        StartPinURL = "/img/pin-icon-start.png",
-        EndPinURL = "/img/pin-icon-end.png",
-        RetinaMarkerIconURL = "/img/marker-icon-2x.png",
-        MarkerIconURL = "/img/marker-icon.png",
-        MarkerIconShadowURL = "/img/marker-shadow.png";
+    var GPXFiles = [{{ range .Resources.Match "*.gpx" }}"{{ .Permalink }}",{{ end }}],
+        GPXDataFiles = [{{ range .Resources.Match "*.gpx" }}{{ index $.Site.Data.gpx (index (split .Title ".") 0) }},{{ end }}];
 </script>
 
-<!-- <script src="/js/leaflet.min.js"></script> -->
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css"
    integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ=="
    crossorigin=""/>
  <script src="https://unpkg.com/leaflet@1.6.0/dist/leaflet.js"
    integrity="sha512-gZwIG9x3wUXg2hdXF6+rVkLF/0Vi9U8D2Ntg4Ga5I5BZpVkVxlJWbSQtXPSiUTtC0TjtGOmxa1AJPuV0CPthew=="
    crossorigin=""></script>
-<script src="/js/gpx.min.js"></script> 
-<script src="/js/chart.min.js"></script>
-<script src="/js/singleHike.js"></script>
+<!-- <script src="/js/chart.min.js"></script> -->
+<script src="/js/Polyline.encoded.js"></script> 
+<script src="/js/multiHike.js"></script>
+<script src='https://api.mapbox.com/mapbox.js/plugins/leaflet-fullscreen/v1.0.1/Leaflet.fullscreen.min.js'></script>
+        <link href='https://api.mapbox.com/mapbox.js/plugins/leaflet-fullscreen/v1.0.1/leaflet.fullscreen.css' rel='stylesheet' />
 
 {{ partial "footer.html" . }}
