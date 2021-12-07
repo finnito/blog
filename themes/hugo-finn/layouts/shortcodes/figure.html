@@ -1,12 +1,15 @@
-{{ $img := (index (.Page.Resources.Match (.Get "src")) 0) }}
+{{ $img := (index (.Page.Resources.Match (print (.Get "name") ".*")) 0) }}
+{{ $img512 := (index (.Page.Resources.Match (print (.Get "name") "-512.webp")) 0) }}
+{{ $img1024 := (index (.Page.Resources.Match (print (.Get "name") "-1024.webp")) 0) }}
+{{ $img2048 := (index (.Page.Resources.Match (print (.Get "name") "-2048.webp")) 0) }}
 <figure>
     <a href='{{ $img.Permalink }}' title='Full size image: {{ .Get "title" }}'>
         <img 
             srcset='
-                {{ $.Site.Params.imageHostingURL }}/512?u={{ $img.Permalink }} 512w,
-                {{ $.Site.Params.imageHostingURL }}/1024?u={{ $img.Permalink }} 1024w,
-                {{ $.Site.Params.imageHostingURL }}/1800?u={{ $img.Permalink }} 1800w'
-            sizes="100%"
+                {{ $img512.Permalink }} {{ $img512.Width }}w,
+                {{ $img1024.Permalink }} {{ $img1024.Width }}w,
+                {{ $img2048.Permalink }} {{ $img2048.Width }}w'
+            sizes="(min-width: 780px) 584px, calc(100vw - 16px)"
             height="{{ $img.Height }}"
             width="{{ $img.Width }}"
             src='{{ $img.Permalink }}'
