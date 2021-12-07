@@ -2,7 +2,7 @@ baseurl                 = "http://finn.test"
 contentdir              = "content"
 layoutdir               = "layouts"
 publishdir              = "public"
-title                   = "Finn LeSueur"
+title                   = "Finn Le Sueur"
 canonifyurls            = true
 uglyurls                = false
 staticDir               = ["static"]
@@ -18,7 +18,7 @@ enableGitInfo           = true
   unsafe=true
 
 [Params]
-  subtitle      = "Finn LeSueur on the internet."
+  subtitle      = "Finn Le Sueur on the internet."
   logo          = "logo.png"
   favicon       = "favicon.ico"
   dateFormat    = "January 2, 2006"
@@ -28,7 +28,7 @@ enableGitInfo           = true
   imageHostingURL = "http://localhost:8080"
 
 [Author]
-  name    = "Finn LeSueur"
+  name    = "Finn Le Sueur"
   email   = "finn@lesueur.nz"
   gitlab  = "Finnito"
 
