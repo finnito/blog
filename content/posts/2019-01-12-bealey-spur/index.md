@@ -6,7 +6,7 @@ categories: ["Hiking"]
 metaDescription: "A beautiful day walk in the Arthur's Pass - around 6hrs return to the hut, or longer if you want to go up further!"
 metaImageURL: "/posts/bealey-spur/2019-01-12-bealey-spur-0134.jpg"
 type: "post"
-layout: "multiGPS"
+layout: "gps"
 ---
 
 __Hikers__: Finn, Seonaid, Jay, Andrea, Mylène
