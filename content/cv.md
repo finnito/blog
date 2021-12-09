@@ -3,6 +3,7 @@ title: Curriculum Vitae
 menu: main
 name: “Curriculum Vitae”
 weight: 4
+draft: true
 ---
 
 ## SUMMARY
