@@ -143,7 +143,7 @@ function populateGPXTable() {
         totalElevGain += gpxFile.stats.uphill;
         totalElevLoss += gpxFile.stats.downhill;
 
-        var tableRow = "<tr><td><small>" + date + "</small> [<a href='#' onclick='showActivity(" + gpxFile.stats.polylineID + "); return false;'>Show</a>, <a href='" + GPXFiles[id] + "'>Download</a>]<br/>" + gpxFile.stats.name + "</td>"
+        var tableRow = "<tr><td><small>" + date + "</small> [<a onclick='showActivity(" + gpxFile.stats.polylineID + "); return false;' style='cursor: pointer;'>Show</a>, <a href='" + GPXFiles[id] + "'>Download</a>]<br/>" + gpxFile.stats.name + "</td>"
             + "<td>" + distanceKm + "km<br/>" + duration + "hrs</td>"
             + "<td>" + speed + "km/hr<br/>" + elevGain + "m ⬆️, " + elevLoss + "m ⬇️</td>";
             // + "<td></td>";
@@ -151,7 +151,7 @@ function populateGPXTable() {
     }
     table.innerHTML += "<tr><td></td><td>" + (totalDist/1000).toFixed(2) + "km<br/>" + msToHMS(totalDur * 1000)+ "hrs</td>"
         + "<td>" + totalElevGain.toFixed(0) + "m ⬆️, "
-        + totalElevLoss.toFixed(0) + "m ⬇️</td><td></td>";
+        + totalElevLoss.toFixed(0) + "m ⬇️</td>";
 }
 
 
@@ -174,7 +174,7 @@ function showActivity(id) {
         }
     };
 
-    window.scrollTop();
+    window.scrollTo({ top: 0, behavior: 'smooth' });
 }
 
 
