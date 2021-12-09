@@ -9,5 +9,4 @@ The internet is a big place and we can often be found in many places. Here are s
 
 - My Teaching Notes -- https://putaiao.nz
 - Github -- https://github.com/Finnito
-- Instagram -- https://www.instagram.com/finnito__
 - Strava -- https://strava.com/athletes/finn_lesueur
