@@ -7,7 +7,6 @@ type: "post"
 layout: "gps"
 metaDescription: ""
 metaImageURL: "/posts/chs-run-club-2021/"
-draft: true
 ---
 
 Thanks for an excellent year, Cashmere! Here's to an epic 2022.
