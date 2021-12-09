@@ -143,7 +143,7 @@ function populateGPXTable() {
         totalElevGain += gpxFile.stats.uphill;
         totalElevLoss += gpxFile.stats.downhill;
 
-        var tableRow = "<tr><td><small>" + date + "</small> [<a onclick='showActivity(" + gpxFile.stats.polylineID + "); return false;' style='cursor: pointer;'>Show</a>, <a href='" + GPXFiles[id] + "'>Download</a>]<br/>" + gpxFile.stats.name + "</td>"
+        var tableRow = "<tr><td><small>" + date + " [<a onclick='showActivity(" + gpxFile.stats.polylineID + "); return false;' style='cursor: pointer;'>Show</a>, <a href='" + GPXFiles[id] + "'>Download</a>]</small><br/>" + gpxFile.stats.name + "</td>"
             + "<td>" + distanceKm + "km<br/>" + duration + "hrs</td>"
             + "<td>" + speed + "km/hr<br/>" + elevGain + "m ⬆️, " + elevLoss + "m ⬇️</td>";
             // + "<td></td>";
