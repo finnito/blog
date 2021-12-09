@@ -23,6 +23,51 @@ var trackColours = [
     "#c56cf0",
     "#33d9b2",
     "#17c0eb",
+    "#ff3838",
+    "#6F1E51",
+    "#c56cf0",
+    "#33d9b2",
+    "#17c0eb",
+    "#ff3838",
+    "#6F1E51",
+    "#c56cf0",
+    "#33d9b2",
+    "#17c0eb",
+    "#ff3838",
+    "#6F1E51",
+    "#c56cf0",
+    "#33d9b2",
+    "#17c0eb",
+    "#ff3838",
+    "#6F1E51",
+    "#c56cf0",
+    "#33d9b2",
+    "#17c0eb",
+    "#ff3838",
+    "#6F1E51",
+    "#c56cf0",
+    "#33d9b2",
+    "#17c0eb",
+    "#ff3838",
+    "#6F1E51",
+    "#c56cf0",
+    "#33d9b2",
+    "#17c0eb",
+    "#ff3838",
+    "#6F1E51",
+    "#c56cf0",
+    "#33d9b2",
+    "#17c0eb",
+    "#ff3838",
+    "#6F1E51",
+    "#c56cf0",
+    "#33d9b2",
+    "#17c0eb",
+    "#ff3838",
+    "#6F1E51",
+    "#c56cf0",
+    "#33d9b2",
+    "#17c0eb",
 ];
 
 
@@ -98,15 +143,38 @@ function populateGPXTable() {
         totalElevGain += gpxFile.stats.uphill;
         totalElevLoss += gpxFile.stats.downhill;
 
-        var tableRow = "<tr><td><small>" + date + "</small><br/>" + gpxFile.stats.name + "</td>"
+        var tableRow = "<tr><td><small>" + date + "</small> [<a href='#' onclick='showActivity(" + gpxFile.stats.polylineID + "); return false;'>Show</a>, <a href='" + GPXFiles[id] + "'>Download</a>]<br/>" + gpxFile.stats.name + "</td>"
             + "<td>" + distanceKm + "km<br/>" + duration + "hrs</td>"
-            + "<td>" + speed + "km/hr<br/>" + elevGain + "m ⬆️, " + elevLoss + "m ⬇️</td>"
-            + "<td><a download href='" + GPXFiles[id] + "'>Download GPX</a></td>";
+            + "<td>" + speed + "km/hr<br/>" + elevGain + "m ⬆️, " + elevLoss + "m ⬇️</td>";
+            // + "<td></td>";
         table.innerHTML += tableRow;
     }
     table.innerHTML += "<tr><td></td><td>" + (totalDist/1000).toFixed(2) + "km<br/>" + msToHMS(totalDur * 1000)+ "hrs</td>"
         + "<td>" + totalElevGain.toFixed(0) + "m ⬆️, "
         + totalElevLoss.toFixed(0) + "m ⬇️</td><td></td>";
+}
+
+
+
+/**
+ * Show a given layer
+ * by _leaflet_id.
+ **/
+function showActivity(id) {
+    for (const [layerGroupID, layerGroup] of Object.entries(Tracks._layers)) {
+    // HikeMap.eachLayer(function(layer){
+        // console.log(layer);
+        if (layerGroup._leaflet_id == id) {
+            HikeMap.fitBounds(layerGroup.getBounds());
+            layerGroup.setStyle({"opacity": 0.9});
+            // layerGroup.openToolip();
+            // console.log(layer);
+        } else {
+            layerGroup.setStyle({"opacity": 0.1});
+        }
+    };
+
+    window.scrollTop();
 }
 
 
@@ -127,6 +195,8 @@ function addGPXTracks() {
         var polyline = L.Polyline.fromEncoded(GPXDataFiles[i].stats.polyline, {
             color: trackColours[i]
         }).addTo(trackGroup);
+        GPXDataFiles[i].stats.polylineID = trackGroup._leaflet_id;
+        // console.log(polyline);
 
         trackGroup.on("mouseover", function(e) {
             console.log("Hovered on: ", e.target._leaflet_id);
