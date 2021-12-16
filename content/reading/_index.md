@@ -11,10 +11,6 @@ metaDescription: "A simple page to keep track of my reading lists."
 	- Contact
  - Dan Simmons
 	- Hyperion - Hyperion Cantos (1)
- - Neal Stephenson
-	- Snow Crash
- - Philip Plait
-	- Bad Astronomy
  - Richard Dawkins
 	- The Selfish Gene
  - Trudi Canavan
@@ -95,6 +91,8 @@ metaDescription: "A simple page to keep track of my reading lists."
  	+ Gone
  - Neil Gaiman
 	- American Gods
+ - Neal Stephenson
+	- Snow Crash
  - Orson Scott Card
 	- Ender's Game - Ender's Game (1)
  - Peter F. Hamilton
@@ -106,6 +104,8 @@ metaDescription: "A simple page to keep track of my reading lists."
 	- The Dreaming Void - Void (1)
 	- The Temporal Void - Void (2)
 	- The Evolutionary Void - Void (3)
+ - Philip Plait
+	- Bad Astronomy
  - Philip Pullman
 	- The Golden Compass - His Dark Materials (1)
 	- The Subtle Knife - His Dark Materials (2)
