@@ -88,11 +88,11 @@ metaDescription: "A simple page to keep track of my reading lists."
  - Laura J. Snyder
 	- The Philosophical Breakfast Club: Four Remarkable Friends Who Transformed Science and Changed the World
  - Michael Blencowe
- 	+ Gone
+ 	+ [Gone](2021-10-21-gone)
  - Neil Gaiman
 	- American Gods
  - Neal Stephenson
-	- Snow Crash
+	- [Snow Crash](2021-12-13-snow-crash)
  - Orson Scott Card
 	- Ender's Game - Ender's Game (1)
  - Peter F. Hamilton
@@ -105,7 +105,7 @@ metaDescription: "A simple page to keep track of my reading lists."
 	- The Temporal Void - Void (2)
 	- The Evolutionary Void - Void (3)
  - Philip Plait
-	- Bad Astronomy
+	- [Bad Astronomy](2021-11-10-bad-astronomy)
  - Philip Pullman
 	- The Golden Compass - His Dark Materials (1)
 	- The Subtle Knife - His Dark Materials (2)
