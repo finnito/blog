@@ -134,12 +134,11 @@ a[download]:hover, a[download]:active {
 .book-flex {
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
+  align-items: center;
 }
 
 .book-flex img {
-  max-width: 150px;
-  margin-left: 1rem;
+  max-width: 250px;
   width: 100vw;
 }
 
@@ -616,6 +615,10 @@ table tr:nth-child(2n-1) td {
   }
   .book-flex {
     flex-direction: row;
+    align-items: flex-start;
+  }
+  .book-flex img {
+    margin-left: 1rem;
   }
 }
 
