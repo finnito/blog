@@ -1,3 +1,14 @@
+:root {
+  --main-blue: #0984e3;
+  --black: rgb(51, 51, 51);
+  --white:  #FFFFFF;
+  --shadow: 0 1px 1px hsl(0deg 0% 0% / 0.15),
+    0 2px 2px hsl(0deg 0% 0% / 0.15),
+    0 4px 4px hsl(0deg 0% 0% / 0.15),
+    0 8px 8px hsl(0deg 0% 0% / 0.15),
+    0 16px 16px hsl(0deg 0% 0% / 0.15);
+}
+
 html,
 body {
   overflow-x: hidden;
@@ -7,12 +18,11 @@ body {
 
 body {
   font-family: Iowan Old Style, Apple Garamond, Baskerville, Times New Roman, Droid Serif, Times, Source Serif Pro, serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
-  color: rgb(51, 51, 51);
+  color: var(--black);
   line-height: 1.75;
   max-width: 900px;
   margin: auto;
   display: grid;
-  /*grid-template-rows: auto auto 600px auto;*/
   grid-template-areas:
     "nav"
     "map"
@@ -26,10 +36,6 @@ body {
 article:not(:last-of-type) {
   border-bottom: 1px solid rgba(0, 0, 0, 0.1);
 }
-
-/*article span.icon::before {
-  padding-right: 0.5rem;
-}*/
 
 main nav {
   padding: 0;
@@ -47,7 +53,8 @@ main img {
   border-radius: 0.25rem;
   max-width: 100%;
   overflow: hidden;
-  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+  box-shadow: var(--shadow);
+  /*box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);*/
   width: 100%;
   height: auto;
 }
@@ -60,10 +67,10 @@ p {
 .center { text-align: center; }
 
 p > code {
-  background-color: #f5f6fa;
+  background-color: var(--black);
   padding: 0.25rem;
   border-radius: 0.25rem;
-  color: rgb(51, 51, 51);
+  color: var(--white);
 }
 
 figure {
@@ -112,27 +119,29 @@ footer {
 
 a[download] {
   background-color: rgba(46, 204, 113, 0.1);
-  /*background-color: #27ae60;*/
-  color: #27ae60;
+  color: var(--main-blue);
   padding: 0.25rem 0.5rem;
-  /*box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);*/
   transition: all 300ms;
   border-radius: 0.25rem;
   white-space: nowrap;
 }
 
 a[download]:hover, a[download]:active {
-  color: #2ecc71;;
-  /*background-color: #2ecc71;*/
-  /*box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);*/
+  color: var(--main-blue);
   cursor: pointer;
 }
 
-/*a[target=_blank]::after {
-  content: "↗";
-  vertical-align: super;
-  font-size: 0.75rem;
-}*/
+.book-flex {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.book-flex img {
+  max-width: 150px;
+  margin-left: 1rem;
+  width: 100vw;
+}
 
 input[type=checkbox].toggle {
   width: 75px;
@@ -256,7 +265,7 @@ h3 {
 }
 
 a {
-  color: #3498db;
+  color: var(--main-blue);
   text-decoration: none;
   border-bottom: 0;
 }
@@ -604,6 +613,9 @@ table tr:nth-child(2n-1) td {
   }
   article span.icon::before {
     margin-left: -2rem;
+  }
+  .book-flex {
+    flex-direction: row;
   }
 }
 

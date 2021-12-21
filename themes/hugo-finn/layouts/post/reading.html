@@ -4,7 +4,14 @@
     <h1><span class="title"><em>{{ .Title | markdownify }}</em></span> <span class="light">by {{ .Params.author }}</span></h1>
     <time>Read: {{ .Params.started | time.Format "2 Jan" }} {{ with .Params.finished }}- {{ . | time.Format "2 Jan 2006" }}{{ end }}</time>
     <p><strong>Genre:</strong> {{ .Params.genre }}</p>
-    {{ .Content }}
+    <div class="book-flex">
+        <div>
+        {{ .Content }}
+        </div>
+        {{ with .Params.cover }}
+        <img src="{{ . }}" loading='lazy'/>
+        {{ end }}
+    </div>
 </div>
 
 {{ partial "footer.html" . }}
