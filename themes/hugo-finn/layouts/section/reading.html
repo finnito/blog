@@ -1,6 +1,14 @@
 {{ partial "header.html" . }}
 
 <div class="content">
+    <h2>{{ .Title }}</h2>
+    <h3>Reviews</h3>
+    <ul>
+    {{ range (.Pages.ByParam "finished").Reverse }}
+        <li><a href="{{ .Permalink }}">{{ .Params.finished }} - {{ .Title }}</a>
+    {{ end }}
+    </ul>
+    <hr/>
     {{ .Content }}
 </div>
 
