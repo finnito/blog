@@ -5,8 +5,8 @@ date: 2021-11-15T13:55:00+13:00
 type: post
 layout: reading
 status: completed
-started: 2021-11-10T12:00:00+13:00
-finished: 2021-11-17T12:00:00+13:00
+started: 2021-11-10
+finished: 2021-11-17
 genre: Science
 cover: https://m.media-amazon.com/images/I/413hjI+TMbL._AC_SY780_.jpg
 ---
