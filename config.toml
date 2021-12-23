@@ -26,7 +26,7 @@ enableGitInfo           = true
   commit        = true
   rss           = true
   comments      = false
-  mainSections  = ["posts", "photos"]
+  mainSections  = ["posts", "photos", "reading"]
   imageHostingURL = "https://img.lesueur.nz"
 
 [Author]
