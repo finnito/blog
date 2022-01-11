@@ -2,8 +2,7 @@
 
 <div class="content">
     <h1><span class="title">{{ .Title | markdownify }}</span></h1>
-    {{ if .PublishDate }}<time>{{ .PublishDate.Format "2 Jan 2006" }}</time>{{ end }}
-    {{ with .Params.git }}<a href="{{ . }}" title="Git Source">Source Code</a>{{ end }}
+    
     {{ .Content }}
 </div>
 
