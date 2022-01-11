@@ -137,7 +137,8 @@ a[download]:hover, a[download]:active {
   align-items: center;
 }
 
-.book-flex img {
+.book-flex > img {
+  min-width: 200px;
   max-width: 250px;
   width: 100vw;
 }
