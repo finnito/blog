@@ -4,6 +4,7 @@ menu: main
 weight: 3
 metaDescription: "A simple page to keep track of my reading lists."
 ---
+
 ### In Progress
 
  - Carl Sagan
@@ -11,10 +12,6 @@ metaDescription: "A simple page to keep track of my reading lists."
 	- Contact
  - Dan Simmons
 	- Hyperion - Hyperion Cantos (1)
- - Richard Dawkins
-	- The Selfish Gene
- - Trudi Canavan
-	- Priestess of the White - Age of Five (1)
 
 ### Read
 
@@ -87,6 +84,8 @@ metaDescription: "A simple page to keep track of my reading lists."
 	- The Ashes of Worlds - The Saga of Seven Suns (7)
  - Laura J. Snyder
 	- The Philosophical Breakfast Club: Four Remarkable Friends Who Transformed Science and Changed the World
+ - Mark Williams
+ 	+ [The Mindful Way Through Depression](2021-12-30-the-mindful-way-through-depression/)
  - Michael Blencowe
  	+ [Gone](2021-10-21-gone)
  - Neil Gaiman
@@ -141,10 +140,12 @@ metaDescription: "A simple page to keep track of my reading lists."
 	- Honoured Enemy - Legends of the Riftwar (1)
 	- Murder in LaMut - Legends of the Riftwar (2)
 	- Jimmy the Hand - Legends of the Riftwar (3)
+ - Richard Dawkins
+	- [The Selfish Gene](2021-12-17-the-selfish-gene/)
  - Robin Hobb
-	- Assassin's Apprentice - Farseer Trilogy (1)
-	- Royal Assassin - Farseer Trilogy (2)
-	- Assassin's Quest - Farseer Trilogy (3)
+	- [Assassin\'s Apprentice - Farseer Trilogy (1)](2021-11-07-farseer-trilogy/)
+	- [Royal Assassin - Farseer Trilogy (2)](2021-11-07-farseer-trilogy/)
+	- [Assassin\'s Quest - Farseer Trilogy (3)](2021-11-07-farseer-trilogy/)
  - Scott Westerfeld
 	- Uglies - Uglies (1)
 	- Pretties - Uglies (2)
@@ -152,8 +153,7 @@ metaDescription: "A simple page to keep track of my reading lists."
 	- Extras - Uglies (4)
  - Steven D. Levitt
 	- Freakonomics
- - Steven D. Levitt & Stephen J. Dubner
-	- SuperFreakonomics: Global Cooling, Patriotic Prostitutes and Why Suicide Bombers Should Buy Life Insurance
+	- SuperFreakonomics
  - Tamora Pierce
 	- Terrier - Beka Cooper (1)
 	- Bloodhound - Beka Cooper (2)
@@ -189,12 +189,15 @@ metaDescription: "A simple page to keep track of my reading lists."
 	- The Magicians' Guild - The Black Magician Trilogy (1)
 	- The Novice - The Black Magician Trilogy (2)
 	- The High Lord - The Black Magician Trilogy (3)
+	- [Priestess of the White - Age of Five (1)](2022-01-11-the-age-of-five-trilogy/)
+	- [The Last of the Wilds - Age of Five (2)](2022-01-11-the-age-of-five-trilogy/)
+	- [Voice of the Gods - Age of Five (3)](2022-01-11-the-age-of-five-trilogy/)
  - William Nicholson
 	- Seeker - Noble Warriors Trilogy (1)
 	- Jango - Noble Warriors Trilogy (2)
 	- Noman - Noble Warriors Trilogy (3)
 
-### Unread
+<!-- ### Unread
 
  - Aaron E. Carroll & Rachel C. Vreeman
 	- Don't Swallow Your Gum!: Myths, Half-Truths, and Outright Lies About Your Body and Health
@@ -491,8 +494,6 @@ metaDescription: "A simple page to keep track of my reading lists."
 	- Dark Force Rising - Thrawn Trilogy (2)
 	- The Last Command - Thrawn Trilogy (3)
  - Trudi Canavan
-	- The Last of the Wilds - Age of Five (2)
-	- Voice of the Gods - Age of Five (3)
 	- The Ambassador's Mission - The Traitor Spy Trilogy (1)
 	- The Rogue - The Traitor Spy Trilogy (2)
 	- The Traitor Queen - The Traitor Spy Trilogy (3)
@@ -503,4 +504,4 @@ metaDescription: "A simple page to keep track of my reading lists."
  - William Shakespeare
 	- The Complete Works
  - Yuval Noah Harari
-	- Sapiens: A Brief History of Humankind
+	- Sapiens: A Brief History of Humankind -->
