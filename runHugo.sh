@@ -11,4 +11,5 @@ hugo server \
 	--renderToDisk \
 	--gc \
 	--noHTTPCache \
+	--buildDrafts \
 	--destination="$dest"
