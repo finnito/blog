@@ -163,8 +163,31 @@ function populateGPXTable() {
 function showActivity(id) {
     for (const [layerGroupID, layerGroup] of Object.entries(Tracks._layers)) {
     // HikeMap.eachLayer(function(layer){
-        // console.log(layer);
+        console.log(layerGroup);
         if (layerGroup._leaflet_id == id) {
+            HikeMap.fitBounds(layerGroup.getBounds());
+            layerGroup.setStyle({"opacity": 0.9});
+            // layerGroup.openToolip();
+            // console.log(layer);
+        } else {
+            layerGroup.setStyle({"opacity": 0.1});
+        }
+    };
+
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+}
+
+
+/**
+ * Show a given layer group
+ * by activity name (in tooltip).
+ **/
+function showActivityByName(name) {
+    for (const [layerGroupID, layerGroup] of Object.entries(Tracks._layers)) {
+    // HikeMap.eachLayer(function(layer){
+        console.log(layerGroup);
+        if (layerGroup._tooltip._content.indexOf(name) > -1) {
+        // if (layerGroup._leaflet_id == id) {
             HikeMap.fitBounds(layerGroup.getBounds());
             layerGroup.setStyle({"opacity": 0.9});
             // layerGroup.openToolip();

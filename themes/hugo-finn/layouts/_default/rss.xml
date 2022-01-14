@@ -26,7 +26,12 @@
         {{- .Content | html -}}
       </description>
       {{ else }}
-      <description>{{- .Content | html -}}</description>
+      <description>
+        {{ if eq .Params.statsTable true }}
+        {{- partial "statsTable.html" . | html -}}
+        {{ end }}
+        {{- .Content | html -}}
+      </description>
       {{ end }}
     </item>
     {{ end }}
