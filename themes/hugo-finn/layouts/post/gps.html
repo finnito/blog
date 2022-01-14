@@ -3,7 +3,7 @@
 <div class="content">
     <div class="article-meta">
         <h1><span class="title">{{ .Title | markdownify }}</span></h1>
-        <p>Hike Date: {{ with .Params.hikeDate }}<time>{{ time.Format "2 Jan 2006" . }}</time>{{ end }}<br/>
+        <p>Activity Date: {{ with .Params.activityDate }}<time>{{ time.Format "2 Jan 2006" . }}</time>{{ end }}<br/>
     Updated: {{ if .PublishDate }}<time>{{ .PublishDate.Format "2 Jan 2006" }}</time>{{ end }}</p>
     </div>
     {{ .Content }}
