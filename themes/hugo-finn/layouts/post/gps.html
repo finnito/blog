@@ -6,6 +6,11 @@
         <p>Activity Date: {{ with .Params.activityDate }}<time>{{ time.Format "2 Jan 2006" . }}</time>{{ end }}<br/>
     Updated: {{ if .PublishDate }}<time>{{ .PublishDate.Format "2 Jan 2006" }}</time>{{ end }}</p>
     </div>
+
+    {{ if eq .Params.statsTable true }}
+    {{ partial "statsTable.html" . }}
+    {{ end }}
+
     {{ .Content }}
 </div>
 
