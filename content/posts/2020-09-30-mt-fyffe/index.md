@@ -2,15 +2,14 @@
 title: "Mt Fyffe Loop"
 slug: "mt-fyffe-loop"
 date: 2022-01-12T15:28:34+13:00
-hikeDate: 2020-09-30
+activityDate: 2020-09-30
 categories: ["Hiking"]
 type: "post"
 layout: "gps"
 metaDescription: "Mt Fyffe is an excellent area for overnight and two night trips, with lots of options, track variety and beautiful views."
 metaImageURL: "/posts/mt-fyffe-loop/IMG_6028.jpg"
+statsTable: true
 ---
-
-<table id="gpx-table"></table>
 
 ## Day 1: To Mt Fyffe Hut
 
