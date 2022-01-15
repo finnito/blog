@@ -522,7 +522,7 @@ input[type='radio'] {
 table {
   border-collapse: collapse;
   border-spacing: 0;
-  border: 1px solid rgba(0, 0, 0, 0.05);;
+  border: 1px solid rgba(0, 0, 0, 0.2);;
   empty-cells: show;
   max-width: 100%;
   display: inline-block;
@@ -531,8 +531,8 @@ table {
   box-sizing: border-box;
 }
 
-table tbody tr:last-of-type {
-  border-top: 1px solid black;
+table tfoot {
+  border-top: 2px solid black;
 }
 
 table td,
