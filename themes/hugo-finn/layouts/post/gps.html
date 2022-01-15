@@ -7,7 +7,7 @@
     Updated: {{ if .PublishDate }}<time>{{ .PublishDate.Format "2 Jan 2006" }}</time>{{ end }}</p>
     </div>
 
-    {{ if eq .Params.statsTable true }}
+    {{ if ne .Params.statsTable false }}
     {{ partial "statsTable.html" . }}
     {{ end }}
 
@@ -15,8 +15,8 @@
 </div>
 
 <script>
-    var GPXFiles = [{{ range .Resources.Match "*.gpx" }}"{{ .Permalink }}",{{ end }}],
-        GPXDataFiles = [{{ range .Resources.Match "*.gpx" }}{{ index $.Site.Data.gpx (index (split .Title ".") 0) }},{{ end }}];
+    var GPXFiles = [{{ range sort (.Resources.Match "*.gpx") }}"{{ .Permalink }}",{{ end }}],
+        GPXDataFiles = [{{ range sort (.Resources.Match "*.gpx") }}{{ index $.Site.Data.gpx (index (split .Title ".") 0) }},{{ end }}];
 </script>
 
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css"
