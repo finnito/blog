@@ -111,6 +111,38 @@ function initHike() {
 
     // Add GPX File
     addGPXTracks();
+    addImages();
+}
+
+
+
+/**
+ * Adds images to the
+ * Leaflet map.
+ **/
+function addImages() {
+    var figures = document.querySelectorAll("figure[data-lat]");
+    var i,
+        fig;
+    for (i = 0; i < figures.length; i++) {
+        fig = figures[i];
+        var photoIcon = L.icon({
+            iconUrl: '/img/marker-image.png',
+            iconSize:     [38, 38],
+            iconAnchor:   [19, 38],
+            popupAnchor:  [-3, -76],
+            fig:          fig.getAttribute("data-fig")
+        });
+        console.log(fig);
+        if (fig.getAttribute("data-lat") !== 0) {
+            L.marker([fig.getAttribute("data-lat"), fig.getAttribute("data-lng")], {icon: photoIcon}, {test: "something"})
+            .bindTooltip(fig.querySelector("figcaption").innerHTML)
+            .on("click", function(e) {
+                document.querySelector("figure[data-fig='" + e.target.options.icon.options.fig + "']").scrollIntoView();
+            })
+            .addTo(HikeMap);
+        }
+    }
 }
 
 
