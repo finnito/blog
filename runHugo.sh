@@ -5,7 +5,6 @@ source ~/.profile
 dest=~/Sites/public.finn.lesueur.nz/
 
 hugo server \
-	--cleanDestinationDir \
 	--disableFastRender \
 	--forceSyncStatic \
 	--renderToDisk \
