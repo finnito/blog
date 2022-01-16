@@ -27,7 +27,7 @@
       </description>
       {{ else }}
       <description>
-        {{ if ne .Params.statsTable false }}
+        {{ if eq .Params.layout "gps" }}
         {{- partial "statsTable.html" . | html -}}
         {{ end }}
         {{- .Content | html -}}
