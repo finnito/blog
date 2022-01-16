@@ -27,7 +27,7 @@
       </description>
       {{ else }}
       <description>
-        {{ if eq .Params.statsTable true }}
+        {{ if ne .Params.statsTable false }}
         {{- partial "statsTable.html" . | html -}}
         {{ end }}
         {{- .Content | html -}}
