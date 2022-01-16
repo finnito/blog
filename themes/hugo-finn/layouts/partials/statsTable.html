@@ -29,6 +29,7 @@
         {{ end }}
     </tbody>
 
+    {{ if gt (len (.Page.Resources.Match "*.gpx")) 1 }}
     {{ $seconds := printf "%02.0f" (float (mod (mod $totalDur 3600) 60)) }}
     {{ $hours := math.Floor (div $totalDur 3600) }}
     {{ $minutes := printf "%02.0f" (math.Floor (div (mod $totalDur 3600) 60)) }}
@@ -40,4 +41,5 @@
             <td>{{ $speed }}km/hr<br/>{{ $totalElevGain }}m ⬆️, {{ $totalElevLoss }}m ⬇️</td>      
         </tr>
     </tfoot>
+    {{ end }}
 </table>
