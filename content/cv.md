@@ -3,7 +3,7 @@ title: Curriculum Vitae
 menu: main
 name: “Curriculum Vitae”
 weight: 4
-draft: true
+expiryDate: 2021-12-31
 ---
 
 ## SUMMARY
