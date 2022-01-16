@@ -2,7 +2,12 @@
 {{ $img512 := (index (.Page.Resources.Match (print (.Get "name") "-512.webp")) 0) }}
 {{ $img1024 := (index (.Page.Resources.Match (print (.Get "name") "-1024.webp")) 0) }}
 {{ $img2048 := (index (.Page.Resources.Match (print (.Get "name") "-2048.webp")) 0) }}
-<figure>
+<figure
+    {{ with $img.Exif }}
+    data-lat="{{ .Lat }}"
+    data-lng="{{ .Long }}"
+    data-fig="{{ $img.Name }}"
+    {{ end }}>
     <a href='{{ $img.Permalink }}' title='Full size image: {{ .Get "title" }}'>
         <img 
             srcset='
