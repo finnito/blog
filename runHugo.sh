@@ -11,4 +11,5 @@ hugo server \
 	--gc \
 	--noHTTPCache \
 	--buildDrafts \
-	--destination="$dest"
+	--destination="$dest" \
+	--enableGitInfo
