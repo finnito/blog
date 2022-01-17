@@ -6,7 +6,7 @@ activityDate: 2021-04-17
 categories: ["trail-running sport"]
 type: "post"
 layout: "gps"
-metaDescription: ""
+metaDescription: "A beautiful run on good condition tracks with a great vibe in a cool part of New Zealand!"
 metaImageURL: "/posts/loop-the-lake-2021/IMG_6168.jpg"
 ---
 
