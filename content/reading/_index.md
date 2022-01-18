@@ -23,6 +23,9 @@ metaDescription: "A simple page to keep track of my reading lists."
 	- The Checklist Manifesto: How to Get Things Right
  - Audrey Niffenegger
 	- The Time Traveler's Wife
+ - Ben Goldacre
+ 	+ Bad Science
+ 	+ [Bad Pharma](2022-01-11-bad-pharma/)
  - Bill Bryson
 	- A Really Short History of Nearly Everything (Young Adult)
  - Brent Weeks
