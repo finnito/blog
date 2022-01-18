@@ -1,18 +1,15 @@
 ---
 title: "Rakiura North West Circuit"
-slug: “rakiura-north-west-circuit”
-date: 2021-10-03T20:28:26+13:00
+slug: "rakiura-north-west-circuit"
+date: 2021-10-02
 categories: ["Hiking"]
 type: "post"
-layout: "multiGPS"
-metaDescription: ""
-metaImageURL: "posts/rakiura-north-west-circuit/"
-draft: true
+layout: "gps"
+metaDescription: "An excellent 8-day, 110km+, 6600m+ trip around a beautiful part of Rakiura. Highly, highly recommended!"
+metaImageURL: "posts/rakiura-north-west-circuit/IMG_6883.jpg"
 ---
 
-<!-- TODO: Complete post -->
-
-__Hikers:__ Finn, Jen, Francie, Justin, Henri and Neil (October 2nd, 2021)
+__Hikers:__ Finn, Jen, Francie, Justin, Henri and Neil
 
 <nav id="TableOfContents">
   <h3>Contents</h3>
@@ -31,13 +28,12 @@ __Hikers:__ Finn, Jen, Francie, Justin, Henri and Neil (October 2nd, 2021)
 
 ## Day 0: Fly to Mason Bay
 
-
 > E koekoe te tūī, e ketekete te kākā, e kūkū te kererū.<br>
 > _The tūī sqwaks, the kākā chatters, the kererū coos._
 
 Our tramping group is made of very different people who look at tramping rather differently and have quite different types of people. It takes all sorts of people to have a good trip; to keep it in balance and find a good middle ground. Some diplomacy will be required but it will be good!
 
-Today Jen, Neil and I flew to Invercargill around 9am, and were joined by Francie, Justin and Henri around midday. We took an afternoon flight to Mason Bay which involved landing on the beach near Martin’s Creek, before swapping pilots and doing a quick hop up the beach to Duck Creek. From there it was a ~15min walk to Mason Bay Hut with one minor creek crossing five minutes before the hut. I recommend taking your boots off and going barefoot the rest of the way - it’s all just grass from there.
+Today Jen, Neil and I flew to Invercargill around 9am, and were joined by Francie, Justin and Henri around midday. We took an afternoon flight to Mason Bay which involved landing on the beach near Martin’s Creek, before swapping pilots and doing a quick hop up the beach to Duck Creek. From there it was a \~15min walk to Mason Bay Hut with one minor creek crossing five minutes before the hut. I recommend taking your boots off and going barefoot the rest of the way - it’s all just grass from there.
 
 We had a lot of debate about the next day to Big Hellfire Hut as there is a tidally affected zone, but the high tide track is steep, poorly marked and most likely involves bush bashing. We have agreed to leave mid-morning and arrive at the zone an hour or so after high tide and see if we can pass.
 
@@ -47,154 +43,164 @@ We’re all quite determined to see a kiwi on this trip, after not seeing any la
 
 A nighttime walk up to the homestead did not result in any kiwi sightings, but we did see two very cute deer right outside the hut!
 
+{{< figure name="IMG_6581" title="Our trusty wee plane that landed us on Mason Bay in some strong winds!" >}}
+{{< figure name="IMG_6585" title="Jen walking up to Mason Bay Hut." >}}
+
 ## Day 1: To Big Hellfire Hut
 
-<div id="Rakiura_NWC_1_8_Mason_Bay_to_Big_Hellfire_Hut"></div>
-
 > Kia mate ururoa, kei mate wheke.<br>
-> Fight like a shark, don’t give up like an octopus.
+> _Fight like a shark, don’t give up like an octopus._
 
-All good to do the high tide track.
-Quite the slog up to Pt. 399. A good day. Don’t expect to go fast. Nothing prepares you for the mud. Mollymorks on the beach.
-Toilet available at Little Hellfire Beach campground. Look out for the catprints. Cool use of buoys for track markers.
+The day starts with us retracing our steps down to the beach before following it along as far as we could. It was windy, misty and cloudy but we trudged on. We had to do the high tide track and despite warnings that it is _terrible_ we found it all good. It's slow going (but so is this whole tramp) but there is a fun wee sand-scree slope.
 
-Left at 9.45am after nice breakfast. Reached bluff at 10.45 but still too high to pass. High tide route.
+After that we climbed off the beach after seeing some Mollymorks and spent most of the rest of the day in the forest. For a coastal hike there sure is a lot of vert throughout this whole hike and today was a rude awakening there. Our packs were at their heaviest, this was the longest day by distance and time, and we were hurting by the time we got to Big Hellfire Hut. 
 
-> Pātai: Where does the pumice come from?
+There's a _lot_ of rubbish on the beaches, all washed up from the Southern Ocean. It's quite depressing, really, but some people have put some of it good use! For example there are a number of buoys used as track markers - it's quite cute really.
 
-> Pātai: What is the origin of tannins in the water?
+Throughout this trip we had a few questions which I thought I'd document them here where possible.
 
-> Pātai: What is the geological origin of Stewart Island and the basin behind Big Hellfire Hut?
+> __Pātai:__ Where does the pumice come from?
+> 
+> __Whakatika:__ I couldn't find a single origin but it must be foreign volcanos. Interesting how it's found there but not so much on The South Island of NZ.
+
+> __Pātai:__ What is the origin of tannins in the water?
+> 
+> __Whakatika:__ Tannins are large molecules which can be found bonded to proteins, cellulose, starches and minerals. They are insoluble (in water) and therefore do not break down when plants decompose in peaty soil. This means they leech out into the water causing a brown tea-like colour. - [US Forest Service](https://www.fs.fed.us/wildflowers/ethnobotany/tannins.shtml)
+
+> __Pātai:__ What is the geological origin of Stewart Island and the basin behind Big Hellfire Hut?
+> 
+> __Whakatika__: The island has a granite base layer from a very ancient volcanic vent. The tarns found on and around Mt Anglem / Hananui are from the last glacial period. There are some volcanic outcropings (e.g. Island Hill) in the low-lying area. - [DOC](https://www.doc.govt.nz/about-us/our-policies-and-plans/statutory-plans/statutory-plan-publications/conservation-management-strategies/stewart-island-rakiura/section-two/part-three-preservation-of-indigenous-species/3_5-geological-landform-and-soil-features/)
+
+{{< figure name="IMG_6615" title="Heading along Mason Bay in the gloom." >}}
+{{< figure name="IMG_6631" title="On the High Tide Track of Mason Bay." >}}
+{{< figure name="IMG_6655" title="Little Hellfire Beach." >}}
 
 ## Day 2: To East Ruggedy Hut
-
-<div id="Rakiura_NWC_2_8_To_East_Ruggedy_Hut"></div>
 
 > Tama tū, tama ora; tama noho, tama mate.<br>
 > He who stands, lives; he who does nothing, perishes.
 
-- Nice lunch spot in the sun just before West Ruggedy Beach in the trees. 
-- Lookout was beautiful - highlight of the day.
-- Neil got first known descent on crotch-deep mud puddle.
-- Didn’t have to use the high tide route on West Ruggedy Beach.
-- Lovely afternoon sun at the hut. Used solar panel to charge phone briefly.
-- Overall the day felt easier than day 1. There was a little less height gain and sections of track that were drier and less muddy.
+Thankfully this day was a tad shorter and the going much easier! The sidetrip to the lookout is well worth it - you get an excellent view! There is also a great lunch spot just before West Ruggedy Beach in the trees.
+Neil got first known descent (FKD) into a croth-deep mud puddle but there's always somewhere to wash it off!
+
+We didn't have to use the high tide route on West Ruggedy Beach - although it looked easier to pass than the one on Mason Bay!
+
+We reached the hut with the sun still out which was wonderful. We used the solar panel to charge my phone briefly we lazed in the sun for the remainder of the afternoon. Delightful ☀️
+
+Overall we found this day much easier - there was a _little_ less height gain and the track seemed less muddy and drier. Onwards!
+
+{{< figure name="IMG_6671" title="Some classic Rakiura mud." >}}
+{{< figure name="IMG_6684" title="Washed up rubbish used as decoration along the track." >}}
+{{< figure name="IMG_6700" title="Beautiful moody ocean on West Ruggedy Beach." >}}
+{{< figure name="IMG_6730" title="Climbing out of West Ruggedy Beach to East Ruggedy Hut." >}}
 
 ## Day 3: To Long Harry Hut
 
-<div id="Rakiura_NWC_3_8_To_Long_Harry_Hut"></div>
-
 > Tini whetū ki te rangi, he iti te pōkēao ka ngaro.<br>
-> A small cloud overhead will obscure the stars.
+> _A small cloud overhead will obscure the stars._
 
-The climbing today was mostly easier and the track condition was much better. There were LOTS of sandflies at the beaches which made stopping there unbearable.
+The climbing today was mostly easier and the track condition was much better. There were __lots__ of sandflies at the beaches which made stopping there unbearable.
 
-The first beach under point 360 is very bouldery - so keep your eye on loose stones to keep your ankles intact. 
-The second beach (Long Harry Bay) is not very accessible from the track as it is mostly cliffs. We lunched above the beach in the trees though, and I think I spied a way down through some tussocks.
+The first beach under Point 360 is very bouldery - so keep your eye on loose stones to keep your ankles intact. The second beach (Long Harry Bay) is not very accessible from the track as it is mostly cliffs. We lunched above the beach in the trees though, and I think I spied a way down through some tussocks.
 
-The last climbs and traverse from Long Harry Bay is HARD work with lots more up and down than is obvious from the topo map. The sun had come out at this point (yay) so we were sweating hard.
+The last part of the track climbs above some bluffy hillside and traverses. It is suprisingly hard work, with lots more up and down than is obvious from the topo map. The sun had come out at this point so we were sweating hard.
 
 The hut is beautifully situated and there is cellphone reception from the mainland pretty much anywhere with a clear view over to Te Tiriti o te Moana. We swam at the rocky beach below Hut - thankful to have a rinse. The water was bracing.
 
-Nick and Chaz went fishing and were very blessed with some kai Moana in the form of a couple large paua and blue cod. Neil also got a paua and we all enjoy the buttery and garlicy snack with dinner.
+Fellow trampers Nick and Chaz went fishing and were very blessed with some kai moana in the form of a couple large paua and blue cod. Neil also got a paua and we all enjoyed the buttery and garlicy snack with dinner.
 
-The weather was much nicer today and I was extremely grateful for that. The track was also generally much better condition and there was a lot less vertical meters to be climbed. All of this made for a much better day after having a small cloud over my head on day two.
+The weather was much nicer today and I was extremely grateful for that. The track was also generally much better condition and there was a lot less vertical meters to be climbed. All of this made for a much better day after having a small cloud over my head on day two. I also use the solar panel today to charge both Jen and I's watches. Success!
 
-I was pleased to read my book and to use my solar panel charger for the first time this trip - successfully charging both Jen and I’s watches over the afternoon. I still kind of want to sell mine and get the enduro though!
+I saw my first roa in the bush near the hut on the final descent, although it didn’t get out on the track in front of us. Very cute. Heard sounds at night but unfortunately also heard one possum and saw another in front of us on the track.
 
-I saw my first roa in the bush near the hut on the final descent, although it didn’t get out on the track in front of us. Very cute. Heard sounds at night time but unfortunately also heard one possum and saw another in front of us on the track.
+> __Pātai:__ What was the old barrel in the ground and the mine-entrance-esque structure in the ground on the east end of Long Harry Bay.
+> __Whakatika:__ According to a fellow tramper it is from the old hut!
 
-> Pātai: What was the old barrel in the ground and the mine-entrance-esque structure in the ground on the east end of Long Harry Bay.
-> Whakatika: ?Old Hut
-
-> Pātai: More info about the Humpridge track to take Louise and Daniel.
+{{< figure name="IMG_6744" title="Crossing East Ruggedy Beach." >}}
+{{< figure name="IMG_6767-Pano" title="Looking back towards East Ruggedy Beach and the Rugged Islands." >}}
+{{< figure name="IMG_6814" title="Logs by the ocean near Long Harry Hut" >}}
 
 ## Day 4: To Yankee River Hut
 
-<div id="Rakiura_NWC_4_8_To_Yankee_River_Hut"></div>
+> He au kei uta e taea te karo, he au kei te moana e kore e taea.<br>
+> _You may dodge smoke on land, but you cannot dodge the current at sea._
 
-> <br>
-> 
+This day was lovely - it was shorter, there was less climbing and we made good time on some good quality track. The day starts easy with a gentle climb through the bush to Smoky Beach. The beach has golden sand and we couldn't help but stop for a swim!
 
-- Great day. Easy start to the day climbing gently through the bush to Smoky Beach.
-- Beautiful golden sandy bay, great for swimming on a beautiful day.
-- Very direct climb up to ~280m but manageable and then descending into Yankee River Hut.
-- When descending down the last sand dune out of Smoky Beach, don’t cross the stream. Turn right instead up the hill.
-- No where near as muddy as Mason Bay or Hellfire legs. Good track condition overall.
-- Beautiful situ for a Hut, but it needs a bit of a clean! Some exit mould would go a long way. 
-- Dad caught a fish - got some extra dinner. Might go out to look for paua at low tide.
-- The inlet is great for a quick dip to wash boots, gaiters and ourselves.
-- Cool swing Bridge.
-- Battery pack died I think but solar panel is doing well with the watches. Bit slow to charge the phone though.
-- Went hunting for paua- took a couple of hours but got two right at the end. Cut my finger pretty good but they smell delicious!
+From there the track climbs rather directly up to a vague saddle before descending again, directly, to Yankee River Hut. When leaving Smoky Beach don't cross the little stream as others appear to have done. Instead, turn right at the stream and you will find your way. We accidentally spent 10min bush bashing around before deciding we had done something wrong!
+
+Dad went and caught a fish for some extra dinner - yum! Jen and I were inspired to go foraging ourselves and spent a couple of hours hunting paua. In the end we found two good sized ones! I cut my finger open because I forgot how to use  a pocket knife, apparently. Lots of bleeding but it stopped in the end, hah.
+
+{{< figure name="IMG_6825" title="The golden sands and beautiful swimming water of Smoky Beach" >}}
+{{< figure name="IMG_6879" title="The sun going down at Christmas Village Hut." >}}
 
 ## Day 5: To Christmas Village Hut
 
-<div id="Rakiura_NWC_5_8_To_Christmas_Village_Hut"></div>
-
 > Ehara! Ko koe te ringa e huti punga!<br>
-> Yes! Yours is the arm best suited to pull up the anchor.
+> _Yes! Yours is the arm best suited to pull up the anchor._
 
-- GroundEffect selling ultralight sleeping bag ?fastpacking
-- ? sponsor a CHS C2C team
-- ? Ironman 71.3
-- Improve breakfast efficiency: muesli, jetboil, coffee in thermas
-- Tried fishing but the sea was too rough at high tide.
-- Not many limpets available at high tide. Lost a hook.
-- Nice walk - good track and much less climbing which was very nice.
+This day was longer than the previous two but the track quality was quite good and we kept up a quicker pace than the previous days. There were SO many sandflies at Lucky Beach so we just kept going and ate while we walked. We wanted to stop but it was practically impossible with so much uncovered skin.
+
+Jen and I had thoughts about how to improve the efficiency of our tramping mornings because we were having quite a slow time getting started in the morning with the big group. We thought we could instead bring muesli, buy a jetboil and make coffee in our thermas' to go! Maybe one day.
+
+Jen and I went to try out hand at fishing again but the sea was quite rough and it was high tide. We couldn't find many limpets for bait and in the end we lost a hook and gave up.
+
+There wasn't so much firewood at this hut so we all spent some hours search for wood up and down the beach. Thankfully some fellow trampers had a saw with them and managed to do a good job splitting it up! In the end we got the hut warm.
 
 ## Day 6: Hananui (Mt Anglem)
 
-<div id="Rakiura_NWC_6_8_Hananui_Mt_Anglem_"></div>
-
 > E tū te huru mā, haramai e noho. E tū te huru pango, hanatu e haere.<br>
-> Let the white hair remain here, let the black hair get up and go.
+> _Let the white hair remain here, let the black hair get up and go._
 
-- Left at 8am to summit Hananui.
-- Sunset came in the front window; completely beautiful and visible from bed!!
-- Track to Hananui was pretty good all things considered. Got up in 2:20 and down quicker.
-- Lack of firewood at the hut but Jen and I took a couple of logs from up Hananui back to the hut. We also scoured the beach for dry wood.
-- Pondered my te reo māori ability on the walk. Would like to get better. ? Enroll at Te Wānanga; ? Summer course; ? Find all school waiata and practice; ? Practice with Amy
-- Had a nice afternoon nap.
-- ? National Geographic subscription
-- Honeycomb Hill caves
-- Ngarua caves near Takaka
-- Awamoana moa bone excavations
-- Saw a cute little grey bird at the top of Hananui and a seal in the ocean outside the hut. Everyone went outside to see it, and it was very curious as to all the people watching it.
-- Heavy rain in the afternoon and loud waves. Nice for an afternoon nap with the fire on. 
-- Hēnarae Hāmana - huia birdsong
-- Ghosts of Gondwana - George Gibbs
-- Remutaka Ranges’ Catchpool Track (huia country)
+We decided on having a second day at Christmas Village Hut so that we could go summit Mt Anglem / Hananui. We woke up as the sun rose above the ocean and came directly in the front window of the hut. Perhaps the most beautiful thing I've seen in a long time.
+
+We got up nice and early and were walking by 8am! The track was pretty variable - often steep, sometimes boggy, sometimes muddy, sometimes very rutted from the rain, and sometimes rocky, but I rated it. It took Jen and I 2:20 to reach the summit and we got down a lot quicker.
+
+On the way down there was a lot of treefall with lots of dry wood available! We decided to take a few large braches/sticks down the last section of track to use as firefood. We also spent another hour scouring the beach for more firewood.
+
+In the afternoon we had some heavy rain and loud waves which made for a really nice aesthetic while holed up in the hut. We also spotted a very curious seal bobbing around out front of the hut - it spent a long time watching everyone who went out to see it. So very cute.
+
+{{< figure name="IMG_6883" title="The crew at the top of Hananui - not a sight to be seen." >}}
 
 ## Day 7: To Bungaree Hut
 
-<div id="Rakiura_NWC_7_8_To_Bungaree_Hut"></div>
-
 > E kitea ai ngā taonga o te moana, me mākū koe.<br>
-> If you seek the treasures of the ocean, you better get wet.
+> _If you seek the treasures of the ocean, you better get wet._
 
-- Rain was forecast for the night and morning, so we started a little slow. It was misty and damp but we didn’t get wet really.
-- Tried to leave the hut nice and clean
-- Walk was gentle and nice in the forest
-- Reached Murray Beach in good time, and decided to have lunch at the south end in the sun. Beautiful spot, but cold in the breeze.
-- The rest of the track was alright, pretty up and down but nothing too long or strenuous.
-- Brain not motivated today; pretty tired and just wanted to stop. Hungry. Looking forward to getting out.
-- Bungaree Hut is beautiful and has a great outlook on the beach.
-- Went for a nice swim to get clean - very cold but very worth it.
-- sat in the sun and read my book with Jen. Lovely.
-- Brainstormed writing a book as a guide through Y9-10 science curriculum
-- The Sixth Extinction
-- Research wide angle lens again
+Having checked the weather forecast the night before we knew that there was going to be rain in the morning so we had a lazy start which was appreciated. In the end we didn't really get wet - only mildly damp. We made a good effort to leave the hut nice and clean but it was a bit grubby when we turned up. You should try do the same!
 
->{.patai} Pātai: Can burning plastic block a chimney?
+The walking in the forest was nice and gentle - we were due for a low-vert day which our legs were going to appreciate. We reached Murray Beach in good time so decided to have lunch at the far end before re-entering the bush for the last section of climbing. The sun was out and we had a beautiful spot, but the breeze was a little cool today.
 
-> Pātai: What’s the deal with San Marino?
+The rest of the track was pretty relaxed - there was a good amount of up and down but nothing too sustained, it was all over pretty quicky which was appreciated. It was today that my brain was getting a bit tired - I just wanted to stop and sleep. The many nights of poor sleep in the huts was catching up with me, I think.
+
+The outlook of Bungaree Hut was amazing. It's the same hut as Yankee River but this time it is situated on a bank above Big Bungaree Beach, looking South East along the bay. Totally stunning. We had a really good swim to freshen up and that made a big difference - for the better - on my mood.
+
+Spent the afternoon in the sun with Jen reading my book. Some suggested reading was The Sixth Extinction which looks really good. I had an idea of writing a book (not a textbook) that explores NZ and the junior Science curriculum at the same time. Who knows?
+
+{{< figure name="IMG_6889" title="Mud and roots on the way down to Murray Beach." >}}
+{{< figure name="IMG_6899" title="Crossing Murray Beach." >}}
+{{< figure name="IMG_6904" title="On the last climbing section towards Bungaree Hut." >}}
+
+> __Pātai:__ Can burning plastic block a chimney? (graffiti in the hut implied it can)
+> 
+> __Whakatika:__ I could not find any sources to show that it can block the chimney, although it is true that the fumes released from burning plastic can be noxious!
 
 ## Day 8: To Lee Bay
 
-<div id="Rakiura_NWC_8_8_To_Lee_Bay"></div>
+> E kore tātau e mohio ki te waitohu nui o te wai kia mimiti rawa te puna.<br>
+> _We will never know the worth of water unitl the well runs dry._
 
-> <br>
+Today we were on a bit of a mission - the end was in sight! I personally get a bit focussed when I know that a hot shower and a good sleep are waiting for me at the end of a trip and tend to zone out on the day. I do admit that this happened today. I recall making reasonably good time on the first section of the track to Port William Hut, although there were a couple of trees down and a couple of steep climbs in and out of stream gullies.
+
+We had some coffee, food and painkillers at Port William Campsite because I was feeling grotty. Unfortunately there were some bugs in the water tank from the shelter, so we just used our drink bottles for the coffee.
+
+From there on to the end the track is part of [the great walk](https://www.doc.govt.nz/parks-and-recreation/places-to-go/southland/places/stewart-island-rakiura/rakiura-national-park/things-to-do/rakiura-track/) on Rakiura so we made excellent time charging along a nice wide, well-formed track. Excellent. We saw a roa en-route to Maori Beach, and while we were crossing the beach we saw a _lot_ of bubbles in the surf and wondered why..
+
+> __Pātai:__ How do the soap bubbles form? (Organic chemistry)
 > 
+> __Whakatika:__ "..Seawater contains dissolved salts, proteins, fats, dead algae, detergents and other pollutants. If you shake this glass of ocean water vigorously, small bubbles will form on the surface of the liquid." - [OceanWatch Australia](https://www.oceanwatch.org.au/latest-news/coastal-marine/what-is-sea-foam-and-why-does-it-happen/)
 
-> Pātai: How do the soap bubbles form? (Organic chemistry)
+We had booked some transport from Lee Bay back to Oban which was a blessing. It was quite a few kms and there was no reason for us to do a bunch of road walking after all of that!
+
+{{< figure name="IMG_6937" title="Bungaree Hut at night 😍" >}}
+{{< figure name="IMG_6962" title="Bungaree Hut in the morning." >}}
