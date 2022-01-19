@@ -1,7 +1,7 @@
 ---
 title: Mt Herbert from Kaituna Valley
 slug: "mt-herbert-from-kaituna-valley"
-date: 2019-02-06T21:28:00+13:00
+date: 2019-02-06
 categories: ["Hiking"]
 type: "post"
 layout: "gps"

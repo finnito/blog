@@ -1,8 +1,7 @@
 ---
 title: "West Coast Wilderness Trail"
 slug: "west-coast-wilderness-trail"
-date: 2022-01-14T12:49:03+13:00
-activityDate: 2021-03-19
+date: 2021-03-19
 categories: ["Cycling"]
 type: "post"
 layout: "gps"

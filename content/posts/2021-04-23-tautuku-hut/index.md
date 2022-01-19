@@ -1,7 +1,7 @@
 ---
 title: Tautuku Hut
 slug: tatuku-hut
-date: 2021-04-23T16:33:57+12:00
+date: 2021-04-23
 categories: ["trail-running sport"]
 type: "post"
 layout: "gps"
@@ -17,7 +17,7 @@ We've been enjoying a little holiday to The Catlins during these school holidays
 
 {{< figure name="tautuku-hut" author="Finn Le Sueur" title="The quirky Tautuku Hut." >}}
 
-The track has an elevation gain of around ~365m on the round trip, making it not too strenuous for the less-fit people out there. The track is extremely well marked, with plentiful orange triangles. It is however, quite muddy. I think this is expected for Southland, though! If you know that going in, you'll have quite a nice time. It took us ~45min to run in, and about ~40min to run out. So, all in all, a great wee-trip!
+The track has an elevation gain of around \~365m on the round trip, making it not too strenuous for the less-fit people out there. The track is extremely well marked, with plentiful orange triangles. It is however, quite muddy. I think this is expected for Southland, though! If you know that going in, you'll have quite a nice time. It took us \~45min to run in, and about \~40min to run out. So, all in all, a great wee-trip!
 
 {{< figure name="tautuku-track2" author="Finn Le Sueur" title="Muddy but well-formed." >}}
 

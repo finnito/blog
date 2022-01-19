@@ -1,7 +1,7 @@
 ---
 title: Wharfedale Track & Mt Oxford
 slug: "wharfedale-track"
-date: 2020-01-09T23:01:04+13:00
+date: 2020-01-09
 categories: ["Hiking"]
 type: "post"
 layout: "gps"

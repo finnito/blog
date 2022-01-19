@@ -1,8 +1,7 @@
 ---
 title: "Boundary Creek Hut"
 slug: "boundary-creek-hut"
-date: 2022-01-12T10:16:19+13:00
-hikeDate: 2021-10-23
+date: 2021-10-23
 categories: ["Hiking"]
 type: "post"
 layout: "gps"

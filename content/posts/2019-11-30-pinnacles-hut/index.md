@@ -1,8 +1,7 @@
 ---
 title: "Pinnacles Hut"
 slug: "pinnacles-hut"
-date: 2022-01-16T11:31:25+13:00
-activityDate: 2019-11-30
+date: 2019-11-30
 categories: ["Hiking"]
 type: "post"
 layout: "gps"

@@ -1,8 +1,7 @@
 ---
 title: "Motatapu Track"
 slug: "motatapu-track"
-date: 2022-01-17T09:14:28+13:00
-activityDate: 2020-07-10
+date: 2020-07-10
 categories: ["Hiking"]
 type: "post"
 layout: "gps"

@@ -1,7 +1,7 @@
 ---
 title: "Lake Angelus Hut"
 slug: "lake-angelus-hut"
-date: 2021-07-11T12:49:53+12:00
+date: 2021-07-11
 categories: ["Hiking"]
 type: "post"
 layout: "gps"

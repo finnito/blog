@@ -1,7 +1,7 @@
 ---
 title: "Edwards-Hawdon"
 slug: "edwards-hawdon"
-date: 2020-05-30T20:29:18+12:00
+date: 2020-05-30
 metaDescription: "An excellent 2-night trip in Arthur's Pass near Christchurch. Beautiful terrain, huts and walking makes for a great trip."
 metaImageURL: "/posts/edwards-hawdon/IMG_5421.jpg"
 categories: ["Hiking"]

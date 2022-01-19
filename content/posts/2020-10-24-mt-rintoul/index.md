@@ -1,8 +1,7 @@
 ---
 title: "Mt Rintoul"
 slug: "mt-rintoul"
-date: 2022-01-16T16:16:59+13:00
-activityDate: 2020-10-24
+date: 2020-10-24
 categories: ["Hiking"]
 type: "post"
 layout: "gps"

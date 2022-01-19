@@ -1,7 +1,7 @@
 ---
 title: "Matiri Hut and Lake"
 slug: "matiri-hut-and-lake"
-date: 2021-07-13T15:43:18+12:00
+date: 2021-07-13
 categories: ["trail-running sport"]
 type: "post"
 layout: "gps"

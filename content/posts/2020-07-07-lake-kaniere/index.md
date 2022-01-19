@@ -1,8 +1,7 @@
 ---
 title: Exploring Lake Kaniere
 slug: exploring-lake-kaniere
-date: 2022-01-17T11:39:46+13:00
-activityDate: 2020-07-07
+date: 2020-07-07
 categories: ["trail-running sport"]
 type: "post"
 layout: "gps"

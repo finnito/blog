@@ -1,7 +1,7 @@
 ---
 title: Craigieburn Forest Park
 slug: "craigieburn-forest-park"
-date: 2020-01-02T13:53:53+13:00
+date: 2020-01-01
 categories: ["Hiking"]
 type: "post"
 layout: "gps"
