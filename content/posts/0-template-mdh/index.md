@@ -4,10 +4,10 @@ slug: "template-multi-day-hike"
 date: 
 categories: ["Hiking"]
 type: "post"
-draft: true
 layout: "multiGPS"
 metaDescription: ""
 metaImageURL: "/posts/template-multi-day-hike/"
+expirydate: 2021-12-31
 ---
 
 __Hikers:__ Finn & Jen (March 7th, 2020)

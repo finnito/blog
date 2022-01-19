@@ -5,7 +5,7 @@ date:
 categories: ["Development", "iPad"]
 metaDescription: ""
 metaImageURL: "/posts/template-post/"
-draft: true
+expirydate: 2021-12-31
 ---
 
 ## References
