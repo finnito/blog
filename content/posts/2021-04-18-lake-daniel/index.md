@@ -1,8 +1,7 @@
 ---
 title: Lake Daniell
 slug: lake-daniell
-date: 2022-01-17T13:25:39+13:00
-activityDate: 2021-04-18
+date: 2021-04-18
 categories: ["trail-running sport"]
 type: "post"
 layout: "gps"

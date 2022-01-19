@@ -1,7 +1,7 @@
 ---
 title: Benmore Hut
 slug: benmore-hut
-date: 2019-02-17T21:29:55+13:00
+date: 2019-02-06
 categories: ["Hiking"]
 metaDescription: "A short and relaxed walk very nearby Christchurch. Easily accessible and with a very cute hut. 3.5hrs return!"
 metaImageURL: "/posts/benmore-hut/2019-02-17-0289.jpg"

@@ -1,8 +1,7 @@
 ---
 title: "Camp Creek Hut"
 slug: "camp-creek-hut"
-date: 2022-01-16T21:20:59+13:00
-activityDate: 2020-07-05
+date: 2020-07-05
 categories: ["Hiking"]
 type: "post"
 layout: "gps"

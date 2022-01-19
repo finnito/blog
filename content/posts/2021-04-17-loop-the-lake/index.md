@@ -1,8 +1,7 @@
 ---
 title: Loop the Lake 2021
 slug: loop-the-lake-2021
-date: 2022-01-17T11:50:25+13:00
-activityDate: 2021-04-17
+date: 2021-04-17
 categories: ["trail-running sport"]
 type: "post"
 layout: "gps"

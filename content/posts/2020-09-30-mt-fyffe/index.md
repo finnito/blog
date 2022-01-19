@@ -1,8 +1,7 @@
 ---
 title: "Mt Fyffe Loop"
 slug: "mt-fyffe-loop"
-date: 2022-01-12T15:28:34+13:00
-activityDate: 2020-09-30
+date: 2020-09-30
 categories: ["Hiking"]
 type: "post"
 layout: "gps"

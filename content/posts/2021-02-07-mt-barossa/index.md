@@ -1,7 +1,7 @@
 ---
 title: Mt Barossa
 slug: mt-barossa
-date: 2021-02-07T21:46:16+13:00
+date: 2021-02-07
 categories: ["hiking sport"]
 type: "post"
 layout: "gps"

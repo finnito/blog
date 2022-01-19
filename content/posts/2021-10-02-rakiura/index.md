@@ -1,7 +1,7 @@
 ---
 title: "Rakiura North West Circuit"
 slug: "rakiura-north-west-circuit"
-date: 2021-10-02
+date: 2021-10-03
 categories: ["Hiking"]
 type: "post"
 layout: "gps"
