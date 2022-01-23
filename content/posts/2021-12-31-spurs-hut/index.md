@@ -15,8 +15,9 @@ We went away over New Years with a bunch of Jens doctor friends and on our way d
 
 The start of the track can be found down the access road to [Fox Peak Ski Field](https://www.foxpeak.co.nz/). The road is closed at the North Opuha River out of ski season and it is private access. This is __not__ noted [on the DOC website](https://www.doc.govt.nz/parks-and-recreation/places-to-go/canterbury/places/te-kahui-kaupeka-conservation-park/things-to-do/huts/spurs-hut/), but you should call ahead and leave a message if no one picks up.
 
-> DOC: 7km to the hut. Walking, mountain biking and horse treking allowed. Please keep to 10m easement. Close the gates. No public access to Fox Peak Ski Field.
-> Lillydale Farm: Private property. __Permission must be gained to enter. Contact Warrick Day at w.wday.@xtra.co.nz or [03 249 8025](tel:032498025).__
+> __DOC__: 7km to the hut. Walking, mountain biking and horse treking allowed. Please keep to 10m easement. Close the gates. No public access to Fox Peak Ski Field.
+>
+> __Lillydale Farm__: Private property. __Permission must be gained to enter. Contact Warrick Day at w.wday.@xtra.co.nz or [03 249 8025](tel:032498025).__
 
 {{< figure name="IMG_3249" title="Access information!" >}}
 
