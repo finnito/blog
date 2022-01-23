@@ -20,9 +20,10 @@
       <meta property="og:description" content="{{ .Params.metaDescription }}">
       <meta property="twitter:description" content="{{ .Params.metaDescription }}">
     {{ end }}
-    {{ if .Params.metaImageURL }}
-      <meta property="og:image" content="{{ .Params.metaImageURL | relURL }}">
-      <meta property="twitter:image" content="{{ .Params.metaImageURL | relURL }}">
+    {{ if .Params.metaImage }}
+      {{ $metaImg := ((index (.Resources.Match .Params.metaImage) 0).Resize "1024x") }}
+      <meta property="og:image" content="{{ $metaImg.Permalink }}">
+      <meta property="twitter:image" content="{{ $metaImg.Permalink }}">
     {{ end }}
     <meta property="og:type" content="website">
     <meta property="og:url" content="{{ .Permalink }}">

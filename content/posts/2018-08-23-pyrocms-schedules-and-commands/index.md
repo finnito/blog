@@ -4,7 +4,7 @@ date: 2018-08-23T13:57:07+13:00
 slug: "pyrocms-schedules-and-commands"
 categories: ["Development", "PyroCMS"]
 metaDescription: "In the past, you might have written a cron job to execute a periodic command to help run your website backend. With PyroCMS these days are behind you with the aid of custom Artisan commands and Laravel scheduling!"
-metaImageURL: "PyroCMS-Addons.png"
+metaImage: "PyroCMS-Addons.png"
 prism: "true"
 ---
 

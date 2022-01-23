@@ -4,7 +4,7 @@ date: 2018-09-07T13:59:21+13:00
 slug: "omnifocus-ios-url-scheme"
 categories: ["Development", "OmniFocus", "iOS"]
 metaDescription: "URL schemes are indispensable to anyone who uses iOS heavily and dabbles in automation. Read on to get an introductory guide to using the OmniFocus URL scheme to supercharge your iOS productivity!"
-metaImageURL: "OmniFocus-URL-Scheme.png"
+metaImage: "OmniFocus-URL-Scheme.png"
 prism: "true"
 ---
 

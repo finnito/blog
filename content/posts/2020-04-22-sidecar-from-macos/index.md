@@ -4,7 +4,7 @@ slug: initiate-sidecar-from-ios
 date: 2020-04-22T20:57:59+12:00
 categories: ["iPad", "Development"]
 metaDescription: "Learn how to initiate Sidecar from iOS so you can connect to a headless Mac!"
-metaImageURL: "/posts/initiate-sidecar-from-ios/shortcut-to-initiate-sidecar-from-ios.png"
+metaImage: "shortcut-to-initiate-sidecar-from-ios.png"
 ---
 
 Sidecar is wonderful and adds a huge amount of functionality to an already awesome iPad Pro 12.9" - but let's say that I want to connect to a headless Macbook Pro (or Mac Mini) in the future. How can I initiate Sidecar from the iPad end of the equation?

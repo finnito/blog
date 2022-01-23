@@ -4,7 +4,7 @@ date: 2018-08-23T13:54:59+13:00
 slug: "pyrocms-twig-template-variables"
 categories: ["Development", "PyroCMS"]
 metaDescription: "Learn the basics about how to use Twig template variables with PyroCMS 3 and supercharge your theme-creation powers!"
-metaImageURL: "Twig-Variables.png"
+metaImage: "Twig-Variables.png"
 prism: "true"
 ---
 

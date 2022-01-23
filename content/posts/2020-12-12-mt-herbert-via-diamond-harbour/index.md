@@ -6,7 +6,7 @@ categories: ["hiking sport"]
 type: "post"
 layout: "gps"
 metaDescription: "A great daywalk that is accessible from Lyttelton and Christchurch. Fore more adventure catch the ferry to and fro Diamond Harbour!"
-metaImageURL: "/posts/mt-herbert-via-diamond-harbour/IMG_1677.JPG"
+metaImage: "IMG_1677.JPG"
 ---
 
 __Hikers__: Em, Jun, Finn, Jen, Nic & Co.

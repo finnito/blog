@@ -6,7 +6,7 @@ categories: ["Hiking"]
 type: "post"
 layout: "gps"
 metaDescription: "An excellent overnighter trip that is close to the road-end. The hut is in good condition and has a bath with a fire outside!"
-metaImageURL: "/posts/camp-creek-hut/"
+metaImage: "IMG_5397.jpg"
 ---
 
 ## Day 1: To Camp Creek Hut

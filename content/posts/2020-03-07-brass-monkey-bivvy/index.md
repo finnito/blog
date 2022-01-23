@@ -6,7 +6,7 @@ categories: ["Hiking"]
 type: "post"
 layout: "gps"
 metaDescription: "Brass Monkey Bivvy is an adorable 2-bed backcountry hut accessible by some beautiful unmarked tops and valleys. I cannot recommend it highly enough!"
-metaImageURL: "/posts/brass-monkey-bivvy/IMG_7936.jpg"
+metaImage: "IMG_7936.jpg"
 ---
 
 __Hikers:__ Finn & Jen (March 7th, 2020)

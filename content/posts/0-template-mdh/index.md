@@ -6,7 +6,7 @@ categories: ["Hiking"]
 type: "post"
 layout: "multiGPS"
 metaDescription: ""
-metaImageURL: "/posts/template-multi-day-hike/"
+metaImage: "/posts/template-multi-day-hike/"
 expirydate: 2021-12-31
 ---
 

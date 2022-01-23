@@ -4,7 +4,7 @@ slug: "set-locale-error"
 date: 2020-02-28T12:01:20.805810+13:00
 categories: ["Development", "PyroCMS"]
 metaDescription: "How to fix 'setLocale($locale) must be compatible with setLocale(string $locale)' in PyroCMS and Laravel"
-metaImageURL: "/posts/set-locale-error/setLocale-og-image.png"
+metaImage: "setLocale-og-image.png"
 prism: "true"
 ---
 

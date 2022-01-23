@@ -6,7 +6,7 @@ categories: ["Hiking"]
 type: "post"
 layout: "gps"
 metaDescription: "An excellent overnighter near Christchurch with the potential for some awesome climbing on interesting rock!"
-metaImageURL: "/posts/pinnacles-hut/IMG_2633.jpg"
+metaImage: "IMG_2633.jpg"
 ---
 
 __Hikers:__ Finn, Jen, Thomas and Tessa

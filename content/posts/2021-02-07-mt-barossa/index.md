@@ -6,7 +6,7 @@ categories: ["hiking sport"]
 type: "post"
 layout: "gps"
 metaDescription: "A great daywalk in the vicinity of Christchurch. 7km round trip and < 3hrs."
-metaImageURL: "/posts/mt-barossa/IMG_1356.jpeg"
+metaImage: "IMG_1356.jpeg"
 ---
 
 __Hikers__: Finn, Amy and Ruru ft. Korra 🐕

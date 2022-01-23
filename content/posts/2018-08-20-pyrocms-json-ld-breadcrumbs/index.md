@@ -4,7 +4,7 @@ date: 2018-08-20T13:36:34+13:00
 slug: "pyrocms-json-ld-breadcrumbs"
 categories: ["Development", "PyroCMS"]
 metaDescription: "Having a nice looking search card on Google is all part of Search Engine Optimisation. Learn how to make JSON-LD breadcrumbs using PyroCMS 3 & Twig!"
-metaImageURL: "JSON-LD.png"
+metaImage: "JSON-LD.png"
 prism: "true"
 ---
 

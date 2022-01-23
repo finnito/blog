@@ -6,7 +6,7 @@ categories: ["hiking sport"]
 type: "post"
 layout: "gps"
 metaDescription: "An excellent 3-day tramp in the Ōhau-Lindis area, over varied terrain with some easy to navigate 'unmarked' terrain."
-metaImageURL: "/posts/snowy-gorge-maitland/IMG_7128.jpg"
+metaImage: "IMG_7128.jpg"
 ---
 
 __Hikers:__ Finn, Jen, Em, Hayleigh, Amy and Stephen!

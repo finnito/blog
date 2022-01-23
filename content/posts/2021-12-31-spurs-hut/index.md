@@ -6,7 +6,7 @@ categories: ["trail-running sport"]
 type: "post"
 layout: "gps"
 metaDescription: "A great little trail run or overnight hike in the Fairlie area. 14km return from Fox Peak access road."
-metaImageURL: "/posts/spurs-hut/IMG_3235.jpeg"
+metaImage: "IMG_3235.jpeg"
 ---
 
 __Runners__ Finn and Jen

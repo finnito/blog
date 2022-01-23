@@ -4,7 +4,7 @@ slug: "garmin-watch-bluetooth-hr-with-tacx-zwift"
 date: "2020-04-15T00:21:12+12:00"
 categories: ["Sport", "iPad"]
 metaDescription: "Learn to use Garmin's Virtual Run activity to broadcast your HR over Bluetooth for cycling on Tacx, Zwift and other platforms!"
-metaImageURL: "/posts/garmin-watch-bluetooth-hr-with-tacx-zwift/unsupported-garmin-hr-bluetooth-cycling.png"
+metaImage: "unsupported-garmin-hr-bluetooth-cycling.png"
 ---
 
 Garmin software version 8.10 for the Fenix 6 was released on March 23rd 2020 and bring with it this very exciting addition!

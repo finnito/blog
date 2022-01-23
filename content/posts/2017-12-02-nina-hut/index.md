@@ -6,7 +6,7 @@ categories: ["hiking sport"]
 type: "post"
 layout: "gps"
 metaDescription: "A great overnight tramp or day-walk in the Lewis Pass Area. 16.3km (6hr) return trip."
-metaImageURL: "/posts/nina-hut-day-trip/IMG_7465.jpg"
+metaImage: "IMG_7465.jpg"
 ---
 
 __Hikers__: Finn, Seonaid and Jay

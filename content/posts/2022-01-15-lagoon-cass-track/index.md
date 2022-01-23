@@ -6,7 +6,7 @@ categories: ["trail-running sport"]
 type: "post"
 layout: "gps"
 metaDescription: "A great 2-day hike or 1-day trail run in the Arthur's Pass area. 37km, 7hr trip when running."
-metaImageURL: "/posts/lagoon-cass-track/IMG_3340.jpeg"
+metaImage: "IMG_3340.jpeg"
 ---
 
 __Runners__: Finn and Jen

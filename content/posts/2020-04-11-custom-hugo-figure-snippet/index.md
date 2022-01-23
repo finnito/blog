@@ -4,7 +4,7 @@ slug: "custom-hugo-figure-snippet"
 date: 2020-04-11T10:12:19.296170+12:00
 categories: ["Development"]
 metaDescription: "Learn how to create a custom snippet to insert a responsive <figure> element into your Hugo posts!"
-metaImageURL: "/posts/custom-hugo-figure-snippet/custom-figure-snippet-og-image.png"
+metaImage: "custom-figure-snippet-og-image.png"
 prism: "true"
 ---
 

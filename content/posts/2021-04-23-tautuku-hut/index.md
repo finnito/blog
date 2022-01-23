@@ -6,7 +6,7 @@ categories: ["trail-running sport"]
 type: "post"
 layout: "gps"
 metaDescription: "A great 8km trail run (or walk) in the Catlins. Starting at the same carpark at Mclean Falls Walk it's easy to tick both off your list."
-metaImageURL: "/posts/tatuku-hut/tautuku-hut.jpeg"
+metaImage: "tautuku-hut.jpeg"
 ---
 
 __Runners__: Finn + Jen

@@ -6,7 +6,7 @@ categories: ["Hiking"]
 type: "post"
 layout: "gps"
 metaDescription: "An excellent 8-day, 110km+, 6600m+ trip around a beautiful part of Rakiura. Highly, highly recommended!"
-metaImageURL: "posts/rakiura-north-west-circuit/IMG_6883.jpg"
+metaImage: "IMG_6883.jpg"
 ---
 
 __Hikers:__ Finn, Jen, Francie, Justin, Henri and Neil

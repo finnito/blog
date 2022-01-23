@@ -3,7 +3,7 @@ title: Double Hut
 slug: "double-hut"
 date: 2019-01-01
 metaDescription: "A very relaxed and easy walk nearby Lake Clearwater. While nice it is a long way to drive from Christchurch for comparatively little walking."
-metaImageURL: "/posts/double-hut/2019-01-01-double-hut (2 of 2).jpg"
+metaImage: "2019-01-01-double-hut (2 of 2).jpg"
 categories: ["Hiking"]
 type: "post"
 layout: "gps"
