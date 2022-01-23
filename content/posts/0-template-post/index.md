@@ -4,7 +4,7 @@ slug: "template-post"
 date: 
 categories: ["Development", "iPad"]
 metaDescription: ""
-metaImageURL: "/posts/template-post/"
+metaImage: "/posts/template-post/"
 expirydate: 2021-12-31
 ---
 

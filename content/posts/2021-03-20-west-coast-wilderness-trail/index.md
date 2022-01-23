@@ -6,8 +6,7 @@ categories: ["Cycling"]
 type: "post"
 layout: "gps"
 metaDescription: "An excellent trail of excellent quality on The West Coast on the South Island! A great day-trip or multi-day adventure!"
-statsTable: true
-metaImageURL: "posts/west-coast-wilderness-trail/IMG_2047.jpeg"
+metaImage: "IMG_2047.jpeg"
 ---
 
 For the past three years my partner Jen and I have participated in [Biketober Christchurch](https://biketoberchch.nz/) in which a local organisation hosts a series of bike-related events throughout the city during the month of October. The month culimnates with a bike-orienteering-style event where you visit as many "passport" locations throughout the city on a single day.

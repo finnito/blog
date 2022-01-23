@@ -4,7 +4,7 @@ slug: "toodo"
 date: 2021-01-03T13:20:30+13:00
 categories: ["Development", "Python", "MacOS"]
 metaDescription: "Find the FIX/NOTE/TODO tasks in your source files, across multiple directories!"
-metaImageURL: "https://raw.githubusercontent.com/finnito/tooDo/main/gui-screenshot.png"
+metaImage: "https://raw.githubusercontent.com/finnito/tooDo/main/gui-screenshot.png"
 git: https://github.com/finnito/tooDo
 prism: "true"
 ---

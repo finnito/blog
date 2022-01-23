@@ -6,7 +6,7 @@ categories: ["Hiking"]
 type: "post"
 layout: "gps"
 metaDescription: "An excellent three-day trip in the Richmond Ranges with a good amount of climbing, distance and potential for views on a clear day!"
-metaImageURL: "/posts/mt-rintoul/IMG_6098.jpg"
+metaImage: "IMG_6098.jpg"
 ---
 
 __Hikers:__ Finn & Jen

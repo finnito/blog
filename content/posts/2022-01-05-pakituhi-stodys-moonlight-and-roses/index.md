@@ -6,7 +6,7 @@ categories: ["hiking sport"]
 type: "post"
 layout: "gps"
 metaDescription: "An epic four days in some great countryside over a wide variety of landscape, and with days of varying difficulty. Highly recommended!"
-metaImageURL: "/posts/pakituhi-stodys-moonlight-and-roses/IMG_7477.jpg"
+metaImage: "IMG_7477.jpg"
 ---
 
 __Hikers__: Finn and Jen

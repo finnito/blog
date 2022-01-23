@@ -6,7 +6,7 @@ categories: ["Hiking"]
 type: "post"
 layout: "gps"
 metaDescription: "2 days, 29km, 9hrs walking and a whole lot of climbing over and around Mt Oxford."
-metaImageURL: "/posts/wharfedale-track/IMG_0412.jpg"
+metaImage: "IMG_0412.jpg"
 ---
 
 __Hikers:__ Finn & Jen on 09/01/2020

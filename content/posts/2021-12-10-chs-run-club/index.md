@@ -6,7 +6,7 @@ categories: ["Hiking"]
 type: "post"
 layout: "gps"
 metaDescription: ""
-metaImageURL: "/posts/chs-run-club-2021/"
+metaImage: "/posts/chs-run-club-2021/"
 ---
 
 Thanks for an excellent year, Cashmere! Here's to an epic 2022.

@@ -4,7 +4,7 @@ slug: "better-touch-tool-macos-touchbar"
 date: 2020-02-05T23:59:27+13:00
 categories: ["Development"]
 metaDescription: "How I went from being uninterested in (and sometimes frustrated with) the MacOS TouchBar, to customising it hugely to boost my productivity add a bit of whimsy into my life."
-metaImageURL: "posts/better-touch-tool-macos-touchbar/bettertouchtool-og-image.png"
+metaImage: "bettertouchtool-og-image.png"
 ---
 
 The TouchBar is a controversial piece of hardware, often thought to add expense to the Macbooks that it lives on without providing much benefit. I would argue that having TouchID on a Macbook alone is a great benefit - although we might expect it to be replaced with FaceID at some point in the future!

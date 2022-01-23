@@ -6,7 +6,7 @@ categories: ["hiking sport"]
 type: "post"
 layout: "gps"
 metaDescription: "A varied hike to Mt Herbert summit accessible via Orton Bradley Park. 4.5hr, 18km round trip."
-metaImageURL: "/posts/mt-herbert-via-orton-bradley/IMG_5042.JPG"
+metaImage: "IMG_5042.JPG"
 ---
 
 __Hikers__: Finn and Jen

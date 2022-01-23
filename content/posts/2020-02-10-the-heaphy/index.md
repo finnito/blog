@@ -6,7 +6,7 @@ categories: ["Hiking"]
 type: "post"
 layout: "gps"
 metaDescription: "The Heaphy is a wonderful 4-day in Kahurangi National Park best spent in the sunshine with friends."
-metaImageURL: "posts/the-heaphy/IMG_3443.jpg"
+metaImage: "IMG_3443.jpg"
 ---
 
 __Hikers:__ Finn, Jen, Amy & Sam (February 10th, 2020)
@@ -31,7 +31,7 @@ __Note!:__ the track along the beach front has been modified over the pat couple
 
 The second day starts off just as relaxed as the end of the first: travelling on almost dead-flat ground for 10km to [Lewis Hut][4]. On the way are some glow worm caves [if you know where to look][5]! They're on the right just over a little bridge nestled in the forest, about an hour from Heaphy Hut. Keep an eye out for spiders and their egg sacks hanging from the roof, but they won't bother you if you don't bother them!
 
-From Lewis Hut the track climbs gently but steadily for around 13km (~670m ⬆️) all the way to [James Mackay Hut][6]. The climb is unrelenting but not challenging - just keep plodding! Take a look behind you down the valley as there is a really nice view down Heaphy River.
+From Lewis Hut the track climbs gently but steadily for around 13km (\~670m ⬆️) all the way to [James Mackay Hut][6]. The climb is unrelenting but not challenging - just keep plodding! Take a look behind you down the valley as there is a really nice view down Heaphy River.
 
 {{< figure name="IMG_3412" author="Finn Le Sueur" title="Amy after exploring the glow worm caves & avoiding and spiders and their egg sacks!" >}}
 

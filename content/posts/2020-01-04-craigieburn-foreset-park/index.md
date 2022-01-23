@@ -6,7 +6,7 @@ categories: ["Hiking"]
 type: "post"
 layout: "gps"
 metaDescription: "Jen and I had our first explore of Craigieburn Forest Park over the 2019/2020 New Year. Next time, less walking, more mountain biking!"
-metaImageURL: "/posts/craigieburn-forest-park/helicopter-hill.jpg"
+metaImage: "helicopter-hill.jpg"
 ---
 
 __Hikers:__ Finn & Jen on 01/02/2020

@@ -6,7 +6,7 @@ categories: ["trail-running sport"]
 type: "post"
 layout: "gps"
 metaDescription: "A truly beautiful Great Walk that can also be done as an ultra trail run, and I'd recommend it!"
-metaImageURL: "/posts/paparoa/IMG_3189.jpeg"
+metaImage: "IMG_3189.jpeg"
 ---
 
 __Runners__: Finn and Tim

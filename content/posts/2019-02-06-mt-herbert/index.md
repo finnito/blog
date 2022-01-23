@@ -6,7 +6,7 @@ categories: ["Hiking"]
 type: "post"
 layout: "gps"
 metaDescription: "A great day-hike (6hr round trip) that will give you a new perspective on Lyttelton Harbour."
-metaImageURL: "/posts/mt-herbert-from-kaituna-valley/2019-02-06-0226.jpg"
+metaImage: "2019-02-06-0226.jpg"
 ---
 
 __Hikers:__ Finn, Seonaid, Phoebe

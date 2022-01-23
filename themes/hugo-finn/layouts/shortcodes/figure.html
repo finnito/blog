@@ -1,7 +1,8 @@
 {{ $img := (index (.Page.Resources.Match (print (.Get "name") ".*")) 0) }}
-{{ $img512 := (index (.Page.Resources.Match (print (.Get "name") "-512.webp")) 0) }}
-{{ $img1024 := (index (.Page.Resources.Match (print (.Get "name") "-1024.webp")) 0) }}
-{{ $img2048 := (index (.Page.Resources.Match (print (.Get "name") "-2048.webp")) 0) }}
+{{ $img512 := $img.Resize "512x webp" }}
+{{ $img1024 := $img.Resize "1024x webp" }}
+{{ $img2048 := $img.Resize "2048x webp" }}
+
 <figure
     {{ with $img.Exif }}
     data-lat="{{ .Lat }}"

@@ -6,7 +6,7 @@ categories: ["Hiking"]
 type: "post"
 layout: "gps"
 metaDescription: "A beautiful 3-day tramp through wide valleys, dense bush and snowy tops. It visits two very memorable (if different) huts and passes through some of the best scenery in New Zealand."
-metaImageURL: "posts/caples-kay-scott-loop/IMG_2683.jpg"
+metaImage: "IMG_2683.jpg"
 ---
 
 __Hikers:__ Finn, Jen, Francie, Justin and Neil (July 22nd, 2021)

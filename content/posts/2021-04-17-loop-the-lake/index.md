@@ -6,7 +6,7 @@ categories: ["trail-running sport"]
 type: "post"
 layout: "gps"
 metaDescription: "A beautiful run on good condition tracks with a great vibe in a cool part of New Zealand!"
-metaImageURL: "/posts/loop-the-lake-2021/IMG_6168.jpg"
+metaImage: "IMG_6168.jpg"
 ---
 
 __Runners__: Finn

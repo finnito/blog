@@ -6,7 +6,7 @@ categories: ["Hiking"]
 type: "post"
 layout: "gps"
 metaDescription: "A multi-day tramp with stunning landscapes. Some of the track feels contrived, but it is well worth the trip!"
-metaImageURL: "/posts/motatapu-track/"
+metaImage: "IMG_5845.jpg"
 ---
 
 ## Day 1: To Highland Creek Hut

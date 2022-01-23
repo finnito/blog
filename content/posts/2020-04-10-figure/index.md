@@ -5,7 +5,7 @@ date: 2020-04-10T19:01:47+12:00
 expiryDate: 2021-12-31
 categories: ["Development"]
 metaDescription: "Learn about the new loading='lazy' attribute and how to use <figure> and <img> srcsets!"
-metaImageURL: "/posts/lazy-loading/figure-html-screenshot.png"
+metaImage: "figure-html-screenshot.png"
 prism: "true"
 ---
 

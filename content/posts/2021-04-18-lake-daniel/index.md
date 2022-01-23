@@ -6,7 +6,7 @@ categories: ["trail-running sport"]
 type: "post"
 layout: "gps"
 metaDescription: "A lovely gentle walk/run in the Lewis Pass area. 17km return with ~330m vert. on the round trip!"
-metaImageURL: "/posts/lake-daniell/IMG_2174.jpeg"
+metaImage: "IMG_2174.jpeg"
 ---
 
 __Runners__: Finn + Jen
