@@ -1,7 +1,7 @@
 baseurl                 = "https://finn.lesueur.nz"
 contentdir              = "content"
 layoutdir               = "layouts"
-publishdir              = "public"
+publishdir              = "/Users/finnlesueur/Sites/public.finn.lesueur.nz"
 title                   = "Finn Le Sueur"
 canonifyurls            = true
 uglyurls                = false
