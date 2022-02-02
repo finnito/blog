@@ -15,11 +15,11 @@ For the past few years I have been working on my fitness - trying to be a little
 
 The first part of this book teaches about depression in general - the emotions, behaviours and physical feelings associated with it. It also teaches about the automatic intepretation of events in life and how our frame of mind can cause us to enter the Funnel of Exhaustion.
 
-![](https://i.redd.it/zw2edbwht4i61.png)
+![The Exhaustion Funnel](https://i.redd.it/zw2edbwht4i61.png)
 
 It also discusses the ABC model of emotions/resilience, which was all baked into the self-talk and whether you enter the Funnel of Exhaustion or not.
 
-![](https://secureservercdn.net/160.153.137.99/9h6.c79.myftpupload.com/wp-content/uploads/2019/04/ABC-model-of-stress.png)
+![The ABC Model of Stress](https://secureservercdn.net/160.153.137.99/9h6.c79.myftpupload.com/wp-content/uploads/2019/04/ABC-model-of-stress.png)
 
 From there, the book leads into instruction of a series of mindfulness exercises and examples of people who the exercises helped. These exercises are all relatively simple but have the overall goal of altering your self-talk (__B__), with the aim of changing our response to events which may (or may not) trigger the funnel. It gives an 8-week course of mindfulness activities which you can follow - I haven't done that yet but I think I will give it a go after I complete Coast to Coast in early February.
 

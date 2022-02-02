@@ -40,3 +40,21 @@ timeout                 = 600000
   changefreq  = "weekly"
   filename    = "sitemap.xml"
   priority    = 0.5
+
+[mediaTypes]
+[mediaTypes."text/gemini"]
+  suffixes = ["gmi"]
+
+[outputFormats]
+[outputFormats.Gemini]
+    baseName = "index"
+    isPlainText = true
+    isHTML = false
+    mediaType = "text/gemini"
+    protocol = "gemini://"
+    permalinkable = true
+    path = "gemini/"
+
+[outputs]
+  home = ["HTML", "RSS", "GEMINI"]
+  page = ["HTML", "GEMINI"]

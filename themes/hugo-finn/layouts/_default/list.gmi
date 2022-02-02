@@ -1,0 +1,4 @@
+{{ .Content }}
+
+{{ range .Pages }}=> {{ .Permalink }} {{ .Title }}, {{ .PublishDate.Format "2 Jan 2006" }}
+{{ end }}
