@@ -1,0 +1,38 @@
+{{/* Use the raw page content */}}
+{{ $content := .Page.RawContent -}}
+
+{{/* Replace __bold__ */}}
+{{ $content := $content | replaceRE "\_{2}([a-zA-Z0-9\s]*)\_{2}" "$1" -}}
+
+{{/* Replace _italics_ */}}
+{{ $content := $content | replaceRE "\_{1}([a-zA-Z0-9\s]*)\_{1}" "$1" -}}
+
+{{/* Replace **bold** */}}
+{{ $content := $content | replaceRE "\*{2}([a-zA-Z0-9\s]*)\*{2}" "$1" -}}
+
+{{/* Replace *italics* */}}
+{{ $content := $content | replaceRE "\*{1}([a-zA-Z0-9\s]*)\*{1}" "$1" -}}
+
+{{/* Replace `code` */}}
+{{ $content := $content | replaceRE "`(.+?)`" "$1" -}}
+
+{{/* Replace ![alt](src) */}}
+{{ $content := $content | replaceRE `\!\[(.*)\]\((.*)\)` "=> $2 Image: $1" -}}
+
+{{/* Extract links */}}
+{{ $links := slice -}}
+{{ range findRE `\[(.+?)\]\((.+?)\)` $content -}}
+    {{- $content = $content | replaceRE `\[(.+?)\]\((.+?)\)` "$1" -}}
+    {{- $links =  $links | append (replaceRE `\[(.+?)\]\((.+?)\)` "=> $2 $1" .) -}}
+{{ end -}}
+
+{{/* Render content */}}
+{{ $content -}}
+
+{{/* Render links */}}
+{{ if gt (len $links) 0 }}
+### Links
+{{ range $links }}
+{{ . }}
+{{ end -}}
+{{ end -}}
