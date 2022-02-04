@@ -1,3 +1,7 @@
+{{- partial "header.gmi" . }}
+
 ## {{ .Title | markdownify }}
 
-{{ .Content }}
+{{ htmlUnescape (partial "gmiContent.html" .) -}}
+
+{{- partial "footer.gmi" . -}}

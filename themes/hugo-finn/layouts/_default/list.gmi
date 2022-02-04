@@ -1,4 +1,8 @@
-{{ .Content }}
+{{- partial "header.gmi" . }}
+
+{{ htmlUnescape (partial "gmiContent.html" .) -}}
 
 {{ range .Pages }}=> {{ .Permalink }} {{ .Title }}, {{ .PublishDate.Format "2 Jan 2006" }}
 {{ end }}
+
+{{- partial "footer.gmi" . -}}

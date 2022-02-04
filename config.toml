@@ -50,10 +50,11 @@ timeout                 = 600000
     baseName = "index"
     isPlainText = true
     isHTML = false
+    noUgly = false
     mediaType = "text/gemini"
     protocol = "gemini://"
     permalinkable = true
-    path = "gemini/"
+    path = ""
 
 [outputs]
   home = ["HTML", "RSS", "GEMINI"]
