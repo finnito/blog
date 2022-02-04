@@ -1,0 +1,5 @@
+## {{ .Site.Author.name }}
+
+Welcome to my Gemini capsule. I am a Science and Physics teacher from Christchurch, New Zealand who writes code in his spare time, but would really rather be outside doing almost any type of sport! 🏔 🏃‍♂️ 🎿 🛶 🚴‍♂️ 🧗 🧘‍♂️
+
+=> gemini://finn.lesueur.nz Home
