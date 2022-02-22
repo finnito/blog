@@ -2,7 +2,7 @@
 title: "Rakiura North West Circuit"
 slug: "rakiura-north-west-circuit"
 date: 2021-10-03
-categories: ["Hiking"]
+emoji: 🏔
 type: "post"
 layout: "gps"
 metaDescription: "An excellent 8-day, 110km+, 6600m+ trip around a beautiful part of Rakiura. Highly, highly recommended!"

@@ -2,7 +2,7 @@
 title: "Template Multi-Day Hike"
 slug: "template-multi-day-hike"
 date: 
-categories: ["Hiking"]
+emoji: 🏔
 type: "post"
 layout: "multiGPS"
 metaDescription: ""

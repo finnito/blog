@@ -64,10 +64,11 @@
             <p>{{ .Key }}</p>    
             {{ range .Pages }}
                 {{ if (isset .Params.categories 0) }}
-                    <li class="{{ lower (index .Params.categories 0) }}">
+                    <li>
                 {{ else }}
                     <li>
                 {{ end }}
+                    {{ with .Params.emoji }}{{ . }}{{ end }}
                     {{ if (.Draft) }}<strong>DRAFT: </strong>{{ end }}<a href="{{.Permalink}}">{{.Title}} <time>{{ .PublishDate.Format "2 Jan 2006" }}</time></a>
                 </li>
             {{ end }}

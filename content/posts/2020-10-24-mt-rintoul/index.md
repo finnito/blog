@@ -2,7 +2,7 @@
 title: "Mt Rintoul"
 slug: "mt-rintoul"
 date: 2020-10-24
-categories: ["Hiking"]
+emoji: 🏔
 type: "post"
 layout: "gps"
 metaDescription: "An excellent three-day trip in the Richmond Ranges with a good amount of climbing, distance and potential for views on a clear day!"

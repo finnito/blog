@@ -2,7 +2,7 @@
 title: Mt Herbert via Diamond Harbour
 slug: mt-herbert-via-diamond-harbour
 date: 2020-12-12
-categories: ["hiking sport"]
+emoji: 🥾
 type: "post"
 layout: "gps"
 metaDescription: "A great daywalk that is accessible from Lyttelton and Christchurch. Fore more adventure catch the ferry to and fro Diamond Harbour!"

@@ -2,7 +2,7 @@
 title: Bealey Spur
 slug: "bealey-spur"
 date: 2019-01-12
-categories: ["Hiking"]
+emoji: 🥾
 metaDescription: "A beautiful day walk in the Arthur's Pass - around 6hrs return to the hut, or longer if you want to go up further!"
 metaImage: "2019-01-12-bealey-spur-0134.jpg"
 type: "post"

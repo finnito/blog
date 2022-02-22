@@ -2,7 +2,7 @@
 title: Tautuku Hut
 slug: tatuku-hut
 date: 2021-04-23
-categories: ["trail-running sport"]
+emoji: 🏃
 type: "post"
 layout: "gps"
 metaDescription: "A great 8km trail run (or walk) in the Catlins. Starting at the same carpark at Mclean Falls Walk it's easy to tick both off your list."

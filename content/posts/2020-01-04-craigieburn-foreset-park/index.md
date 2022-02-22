@@ -2,7 +2,7 @@
 title: Craigieburn Forest Park
 slug: "craigieburn-forest-park"
 date: 2020-01-01
-categories: ["Hiking"]
+emoji: 🥾
 type: "post"
 layout: "gps"
 metaDescription: "Jen and I had our first explore of Craigieburn Forest Park over the 2019/2020 New Year. Next time, less walking, more mountain biking!"

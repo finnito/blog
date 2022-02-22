@@ -2,7 +2,7 @@
 title: "Mt Fyffe Loop"
 slug: "mt-fyffe-loop"
 date: 2020-09-30
-categories: ["Hiking"]
+emoji: 🏔
 type: "post"
 layout: "gps"
 metaDescription: "Mt Fyffe is an excellent area for overnight and two night trips, with lots of options, track variety and beautiful views."

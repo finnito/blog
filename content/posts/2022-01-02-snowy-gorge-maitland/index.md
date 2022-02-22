@@ -2,7 +2,7 @@
 title: Snowy Gorge - Maitland
 slug: snowy-gorge-maitland
 date: 2022-01-02
-categories: ["hiking sport"]
+emoji: 🏔
 type: "post"
 layout: "gps"
 metaDescription: "An excellent 3-day tramp in the Ōhau-Lindis area, over varied terrain with some easy to navigate 'unmarked' terrain."

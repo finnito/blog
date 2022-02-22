@@ -2,7 +2,7 @@
 title: Mt Herbert via Orton Bradley
 slug: mt-herbert-via-orton-bradley
 date: 2019-11-17
-categories: ["hiking sport"]
+emoji: 🥾
 type: "post"
 layout: "gps"
 metaDescription: "A varied hike to Mt Herbert summit accessible via Orton Bradley Park. 4.5hr, 18km round trip."

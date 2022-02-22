@@ -2,7 +2,7 @@
 title: 2019 in Review
 slug: 2019-in-review
 date: 2020-01-07T18:14:40+13:00
-categories: ["Writing"]
+emoji: ✍️
 type: "post"
 metaDescription: "2019 has been a big year - everything from moving out, my first job and 400+ hours of exercise."
 metaImage: "year-in-sport.jpeg"

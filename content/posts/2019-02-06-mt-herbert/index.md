@@ -2,7 +2,7 @@
 title: Mt Herbert from Kaituna Valley
 slug: "mt-herbert-from-kaituna-valley"
 date: 2019-02-06
-categories: ["Hiking"]
+emoji: 🥾
 type: "post"
 layout: "gps"
 metaDescription: "A great day-hike (6hr round trip) that will give you a new perspective on Lyttelton Harbour."

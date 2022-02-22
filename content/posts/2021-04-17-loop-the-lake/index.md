@@ -2,7 +2,7 @@
 title: Loop the Lake 2021
 slug: loop-the-lake-2021
 date: 2021-04-17
-categories: ["trail-running sport"]
+emoji: 🏅
 type: "post"
 layout: "gps"
 metaDescription: "A beautiful run on good condition tracks with a great vibe in a cool part of New Zealand!"

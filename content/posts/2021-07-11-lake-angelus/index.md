@@ -2,7 +2,7 @@
 title: "Lake Angelus Hut"
 slug: "lake-angelus-hut"
 date: 2021-07-11
-categories: ["Hiking"]
+emoji: 🏔
 type: "post"
 layout: "gps"
 metaDescription: "A beautiful two-day snowy tramp on the Travers Range that visits Lake Angelus and Speargrass huts."

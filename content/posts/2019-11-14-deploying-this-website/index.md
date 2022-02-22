@@ -2,7 +2,7 @@
 title: Deploying using Gitlab CI and SSH
 slug: "deploying-this-website"
 date: 2019-11-14T19:38:06+13:00
-categories: ["Development"]
+emoji: 💻
 metaDescription: "How to set up a GitLab pipeline to deploy a website with Hugo."
 prism: "true"
 ---

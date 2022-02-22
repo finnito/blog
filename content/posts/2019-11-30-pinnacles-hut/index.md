@@ -2,7 +2,7 @@
 title: "Pinnacles Hut"
 slug: "pinnacles-hut"
 date: 2019-11-30
-categories: ["Hiking"]
+emoji: 🏔
 type: "post"
 layout: "gps"
 metaDescription: "An excellent overnighter near Christchurch with the potential for some awesome climbing on interesting rock!"
