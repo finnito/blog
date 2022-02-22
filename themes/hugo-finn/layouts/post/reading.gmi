@@ -4,6 +4,8 @@
 
 * Read: {{ .Params.started | time.Format "2 Jan" }} {{ with .Params.finished }}- {{ . | time.Format "2 Jan 2006" }}{{ end }}
 * Genre: {{ .Params.genre }}
+
+=> {{ .Params.cover }} Image: Book Cover
 {{ htmlUnescape (partial "gmiContent.html" .) }}
 
 {{- partial "footer.gmi" . -}}

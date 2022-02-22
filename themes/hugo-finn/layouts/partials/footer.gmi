@@ -1,4 +1,5 @@
----
+---------------
+
 {{ $link := replace .Page.Permalink "gemini://" "https://" -}}
 {{- $link = replace $link "index.gmi" "" -}}
 => {{ $link }} View this page over HTTPS.
