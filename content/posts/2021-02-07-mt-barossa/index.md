@@ -2,7 +2,7 @@
 title: Mt Barossa
 slug: mt-barossa
 date: 2021-02-07
-categories: ["hiking sport"]
+emoji: 🥾
 type: "post"
 layout: "gps"
 metaDescription: "A great daywalk in the vicinity of Christchurch. 7km round trip and < 3hrs."

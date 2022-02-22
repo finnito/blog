@@ -2,7 +2,7 @@
 title: "Camp Creek Hut"
 slug: "camp-creek-hut"
 date: 2020-07-05
-categories: ["Hiking"]
+emoji: 🏔
 type: "post"
 layout: "gps"
 metaDescription: "An excellent overnighter trip that is close to the road-end. The hut is in good condition and has a bath with a fire outside!"

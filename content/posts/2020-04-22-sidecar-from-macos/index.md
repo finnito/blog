@@ -2,7 +2,7 @@
 title: How To Initiate Sidecar From iOS
 slug: initiate-sidecar-from-ios
 date: 2020-04-22T20:57:59+12:00
-categories: ["iPad", "Development"]
+emoji: 📱
 metaDescription: "Learn how to initiate Sidecar from iOS so you can connect to a headless Mac!"
 metaImage: "shortcut-to-initiate-sidecar-from-ios.png"
 ---

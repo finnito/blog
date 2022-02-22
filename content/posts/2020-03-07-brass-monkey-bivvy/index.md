@@ -2,7 +2,7 @@
 title: "Brass Monkey Bivvy"
 slug: "brass-monkey-bivvy"
 date: 2020-03-07
-categories: ["Hiking"]
+emoji: 🏔
 type: "post"
 layout: "gps"
 metaDescription: "Brass Monkey Bivvy is an adorable 2-bed backcountry hut accessible by some beautiful unmarked tops and valleys. I cannot recommend it highly enough!"

@@ -2,7 +2,7 @@
 title: Spurs Hut
 slug: spurs-hut
 date: 2021-12-31
-categories: ["trail-running sport"]
+emoji: 🏃
 type: "post"
 layout: "gps"
 metaDescription: "A great little trail run or overnight hike in the Fairlie area. 14km return from Fox Peak access road."

@@ -2,7 +2,7 @@
 title: Lake Daniell
 slug: lake-daniell
 date: 2021-04-18
-categories: ["trail-running sport"]
+emoji: 🏃
 type: "post"
 layout: "gps"
 metaDescription: "A lovely gentle walk/run in the Lewis Pass area. 17km return with ~330m vert. on the round trip!"

@@ -404,63 +404,6 @@ h3 + p,
   margin-left: 0.5rem;
 }
 
-li.sport::before,
-li.cycling::before,
-li.development::before,
-li.hiking::before,
-li.writing::before,
-li.ipad::before,
-li.photo::before,
-li::before {
-  margin-right: 0.5rem;
-}
-
-li.cycling::before,
-article.cycling span.icon::before {
-  content:  "🚲";
-}
-
-li.food::before,
-article.food span.icon::before {
-  content: "🍲";
-}
-li.teaching::before,
-article.teaching span.icon::before {
-  content: "🧑‍🏫";
-}
-li.sport::before,
-article.sport span.icon::before {
-  content: "🏃‍♂️";
-}
-li.ipad::before,
-article.ipad span.icon::before {
-  content: "📱";
-}
-li.development::before,
-article.development span.icon::before {
-  content: "💻";
-}
-li.hiking::before,
-article.hiking span.icon::before {
-  content: "🏔";
-}
-li.writing::before,
-article.writing span.icon::before {
-  content: "📚";
-}
-li.photo::before,
-article.photos span.icon::before {
-  content: "📸";
-}
-
-article.photo a { color: #EE5A24; }
-/*article.photo:not(:last-of-type) { border-bottom: 1px solid #EE5A24; }*/
-
-article.sport a,
-article.hiking a { color: #009432;}
-article.sport:not(:last-of-type),
-/*article.hiking:not(:last-of-type) { border-bottom: 1px solid #009432; }*/
-
 button {
   padding: 0.25rem 0.5rem;
   margin: 1rem auto;

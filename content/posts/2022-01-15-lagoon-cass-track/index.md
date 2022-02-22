@@ -2,7 +2,7 @@
 title: Lagoon-Cass Track
 slug: lagoon-cass-track
 date: 2022-01-15
-categories: ["trail-running sport"]
+emoji: 🏃
 type: "post"
 layout: "gps"
 metaDescription: "A great 2-day hike or 1-day trail run in the Arthur's Pass area. 37km, 7hr trip when running."

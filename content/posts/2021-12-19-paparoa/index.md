@@ -2,7 +2,7 @@
 title: Paparoa
 slug: paparoa
 date: 2021-12-19
-categories: ["trail-running sport"]
+emoji: 🏃
 type: "post"
 layout: "gps"
 metaDescription: "A truly beautiful Great Walk that can also be done as an ultra trail run, and I'd recommend it!"

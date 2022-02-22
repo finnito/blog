@@ -2,7 +2,7 @@
 title: Pakituhi - Stody's - Moonlight and Roses
 slug: pakituhi-stodys-moonlight-and-roses
 date: 2022-01-05
-categories: ["hiking sport"]
+emoji: 🏔
 type: "post"
 layout: "gps"
 metaDescription: "An epic four days in some great countryside over a wide variety of landscape, and with days of varying difficulty. Highly recommended!"

@@ -2,7 +2,7 @@
 title: Teaching, Pay and What Matters
 slug: teaching-pay-and-what-matters
 date: 2021-04-21T22:32:06+12:00
-categories: ["Teaching"]
+emoji: 🧑‍🏫
 metaDescription: "As a teacher, getting paid more is nice, but is it what we should really be asking for?"
 ---
 

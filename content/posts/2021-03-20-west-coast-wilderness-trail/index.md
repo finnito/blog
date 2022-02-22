@@ -2,7 +2,7 @@
 title: "West Coast Wilderness Trail"
 slug: "west-coast-wilderness-trail"
 date: 2021-03-19
-categories: ["Cycling"]
+emoji: 🚲
 type: "post"
 layout: "gps"
 metaDescription: "An excellent trail of excellent quality on The West Coast on the South Island! A great day-trip or multi-day adventure!"

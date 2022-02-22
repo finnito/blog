@@ -2,7 +2,7 @@
 title: Wharfedale Track & Mt Oxford
 slug: "wharfedale-track"
 date: 2020-01-09
-categories: ["Hiking"]
+emoji: 🏔
 type: "post"
 layout: "gps"
 metaDescription: "2 days, 29km, 9hrs walking and a whole lot of climbing over and around Mt Oxford."

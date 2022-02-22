@@ -2,7 +2,7 @@
 title: What Would Make a Difference?
 slug: what-would-make-a-difference
 date: 2021-04-23T15:39:21+12:00
-categories: ["Teaching"]
+emoji: 🧑‍🏫
 metaDescription: "What would make a difference in the teaching profession, if not more money?"
 ---
 

@@ -2,7 +2,7 @@
 title: "Better Touch Tool & MacOS TouchBar"
 slug: "better-touch-tool-macos-touchbar"
 date: 2020-02-05T23:59:27+13:00
-categories: ["Development"]
+emoji: 💻
 metaDescription: "How I went from being uninterested in (and sometimes frustrated with) the MacOS TouchBar, to customising it hugely to boost my productivity add a bit of whimsy into my life."
 metaImage: "bettertouchtool-og-image.png"
 ---
@@ -20,7 +20,7 @@ BetterTouchTool offers a wide variety of MacOS system enhancements from gestures
 ### Customising the TouchBar
 
 To get to the TouchBar customisation page, click on the menubar icon for BetterTouchTool and then "Configuration". Select Touch Bar from the dropdown and you should enter a screen that looks like an empty version of this:
-
+💻
 {{< figure name="bettertouchtool-touchbar-configuration" author="Finn Le Sueur" title="BetterTouchTool Touchbar Configuration" >}}
 
 Here you can add groups and top level triggers and assign actions to them, customise their appearance, order and a huge variety of options.

@@ -2,7 +2,7 @@
 title: "Matiri Hut and Lake"
 slug: "matiri-hut-and-lake"
 date: 2021-07-13
-categories: ["trail-running sport"]
+emoji: 🏃
 type: "post"
 layout: "gps"
 metaDescription: "A quick and well-formed trail in to Matiri Hut and Lake. It passes through a newly built hydroelectric scheme and would make a good jumping-off point for futher exploring."

@@ -9,8 +9,8 @@
             {{ .Key }}
             <ul>
             {{ range .Pages }}
-                <li class="{{ lower (index .Params.categories 0) }}">
-                    <a href="{{.Permalink}}">{{.Title}} <time>{{ .PublishDate.Format "2 Jan 2006" }}</time></a>
+                <li>
+                    <a href="{{.Permalink}}">{{ with .Params.emoji }}{{ . }}{{ end }} {{.Title}} <time>{{ .PublishDate.Format "2 Jan 2006" }}</time></a>
                 </li>
             {{ end }}
             </ul>

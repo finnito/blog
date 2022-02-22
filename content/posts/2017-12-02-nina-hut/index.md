@@ -2,7 +2,7 @@
 title: Nina Hut Day Trip
 slug: nina-hut-day-trip
 date: 2017-12-02
-categories: ["hiking sport"]
+emoji: 🥾
 type: "post"
 layout: "gps"
 metaDescription: "A great overnight tramp or day-walk in the Lewis Pass Area. 16.3km (6hr) return trip."

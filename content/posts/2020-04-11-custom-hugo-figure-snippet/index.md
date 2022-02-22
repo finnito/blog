@@ -2,7 +2,7 @@
 title: "Custom Hugo Figure Snippet"
 slug: "custom-hugo-figure-snippet"
 date: 2020-04-11T10:12:19.296170+12:00
-categories: ["Development"]
+emoji: 💻
 metaDescription: "Learn how to create a custom snippet to insert a responsive <figure> element into your Hugo posts!"
 metaImage: "custom-figure-snippet-og-image.png"
 prism: "true"
