@@ -11,17 +11,16 @@
     <link rel="sitemap" type="application/xml" title="Sitemap" href="/sitemap.xml" />
 
     <title>{{ with .Title }}{{ . }} | {{ end }}{{ .Site.Title }}</title>
-    <meta name="theme-color" content="#589E57">
     <meta property="og:title" content="{{ .Title }} | {{ .Site.Title }}">
     <meta property="twitter:title" content="{{ .Title }} | {{ .Site.Title }}">
     <meta name="title" content="{{ .Title }} | {{ .Site.Title }}">
-    {{ if .Params.metaDescription }}
-      <meta name="description" content="{{ .Params.metaDescription }}">
-      <meta property="og:description" content="{{ .Params.metaDescription }}">
-      <meta property="twitter:description" content="{{ .Params.metaDescription }}">
+    {{ with .Params.metaDescription }}
+      <meta name="description" content="{{ . }}">
+      <meta property="og:description" content="{{ . }}">
+      <meta property="twitter:description" content="{{ . }}">
     {{ end }}
-    {{ if .Params.metaImage }}
-      {{ $metaImg := ((index (.Resources.Match .Params.metaImage) 0).Resize "1024x") }}
+    {{ with .Params.metaImage }}
+      {{ $metaImg := ((index ($.Page.Resources.Match .) 0).Resize "1024x") }}
       <meta property="og:image" content="{{ $metaImg.Permalink }}">
       <meta property="twitter:image" content="{{ $metaImg.Permalink }}">
     {{ end }}
