@@ -89,6 +89,8 @@ metaDescription: "A simple page to keep track of my reading lists."
 	- The Philosophical Breakfast Club: Four Remarkable Friends Who Transformed Science and Changed the World
  - Mark Williams
  	+ [The Mindful Way Through Depression](2021-12-30-the-mindful-way-through-depression/)
+ - Massimo Pigliucci
+ 	+ [How To Be A Stoic](2022-03-05-how-to-be-a-stoic/)
  - Michael Blencowe
  	+ [Gone](2021-10-21-gone)
  - Neil Gaiman
