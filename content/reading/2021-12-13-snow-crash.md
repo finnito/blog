@@ -9,6 +9,7 @@ started: 2021-12-10
 finished: 2021-12-13
 genre: “Science Fiction”
 cover: https://kbimages1-a.akamaihd.net/dfff5e71-0806-4e8f-8ab0-ba9d9ff54976/1200/1200/False/snow-crash-1.jpg
+emoji: 📚
 ---
 
 This book feels fast-paced and is full of bizarre future-lingo. The way it is written and all the new concepts keep you hanging on every word -- trying to put it together and figure it all out.

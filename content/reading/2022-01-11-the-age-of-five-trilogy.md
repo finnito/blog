@@ -9,6 +9,7 @@ genre: Fantasy
 type: post
 layout: reading
 cover: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRVh3BSk20uMUDy8q1NJFTcTODykEOS9fPyDg&usqp=CAU
+emoji: 📚
 ---
 
 Heading into 2022 I thought I might try change up my reading by alternating between fiction and non-fiction. So here goes!
