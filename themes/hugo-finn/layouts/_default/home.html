@@ -3,71 +3,19 @@
 <div class="content">
     {{ .Content }}
 
-    <label class="filter-button" for="sport">
-        <input name="filter" type="radio" id="sport" checked>🏃 Sport 🏔</label>
-    <label class="filter-button" for="other">
-        <input name="filter" type="radio" id="other">💻 Other 🧑‍💻</label>
-
-    <script>
-        document.addEventListener("DOMContentLoaded", doFilter);
-        document.querySelectorAll("input[name='filter']").forEach(function(el) {
-            el.addEventListener("click", doFilter);
-        });
-
-        function doFilter() {
-            var categories = ["sport", "hiking", "cycling", "trail-running"];
-            var filter = document.querySelector("input[name='filter']:checked").id;
-
-            var hasSportCategory = false;
-            document.querySelectorAll("ul.archive > ul").forEach(function(list) {
-
-                visible = 0;
-                list.querySelectorAll("li").forEach(function(post) {
-                    categories.forEach(function(category) {
-                        if (post.classList.contains(category)) {
-                            hasSportCategory = true;
-                        }
-                    });
-
-                    if (filter == "sport") {
-                        if (hasSportCategory) {
-                            post.classList.remove("hidden");
-                            visible += 1;
-                        } else {
-                            post.classList.add("hidden");
-                        }
-                    } else {
-                        if (hasSportCategory) {
-                            post.classList.add("hidden");
-                        } else {
-                            visible += 1;
-                            post.classList.remove("hidden");
-                        }
-                    }
-
-                    hasSportCategory = false;
-                    if (visible == 0) {
-                        list.classList.add("hidden");
-                    } else {
-                        list.classList.remove("hidden");
-                    }
-                });
-            });
-        }
-    </script>
+    <div class="filters">
+        <input name="filter" type="radio" id="all" checked>
+        <label class="filter-button" for="all">Show All</label>
+    </div>
 
     <ul class="archive">
         <!-- Ranges through content/posts/*.md -->
-        {{ $pages := (where .Site.RegularPages "Section" "posts") }}
+        {{ $pages := .Site.RegularPages }}
         {{ range $pages.GroupByDate "January 2006" "desc" }}
             <ul>
             <p>{{ .Key }}</p>    
             {{ range .Pages }}
-                {{ if (isset .Params.categories 0) }}
-                    <li>
-                {{ else }}
-                    <li>
-                {{ end }}
+                <li>
                     {{ with .Params.emoji }}{{ . }}{{ end }}
                     {{ if (.Draft) }}<strong>DRAFT: </strong>{{ end }}<a href="{{.Permalink}}">{{.Title}} <time>{{ .PublishDate.Format "2 Jan 2006" }}</time></a>
                 </li>
@@ -76,5 +24,73 @@
         {{ end }}
     </ul>
 </div>
+
+<script>
+var categories = {
+    sport: ["🚲", "🥾", "🏃", "🏅", "🎿", "🏊", "🚣", "🏔"],
+    reading: ["📚", "📕"],
+    teaching: ["🧑‍🏫"],
+    Dev: ["📱", "💻"],
+    Photos: ["📸"],
+};
+
+// Create filter buttons
+for (const [key, value] of Object.entries(categories)) {
+    var filtersContainer = document.querySelector(".filters");
+    var filter = `<input name="filter" type="radio" id="${key}">
+        <label class="filter-button" for="${key}">${key}</label>`;
+    filtersContainer.innerHTML = filtersContainer.innerHTML + filter;
+};
+
+// Add event listeners
+document.addEventListener("DOMContentLoaded", doFilter);
+document.querySelectorAll("input[name='filter']").forEach(function(el) {
+    el.addEventListener("click", doFilter);
+});
+
+// Filter function
+function doFilter() {
+    var filter = document.querySelector("input[name='filter']:checked").id;
+
+    if (filter == "all") {
+        document.querySelectorAll("ul.archive > ul").forEach(function(list) {
+            list.classList.remove("hidden");
+            list.querySelectorAll("li").forEach(function(post) {
+                post.classList.remove("hidden");
+            });
+        });
+        return;
+    }
+
+    var filteredFor = false;
+    document.querySelectorAll("ul.archive > ul").forEach(function(list) {
+        visible = 0;
+        list.querySelectorAll("li").forEach(function(post) {
+            // Check each post
+            for (var i = 0; i < categories[filter].length; i++) {
+                if (post.innerText.indexOf(categories[filter][i]) > -1) {
+                    filteredFor = true; break;
+                }    
+            }
+
+            // Show or hide individual posts
+            if (filteredFor) {
+                post.classList.remove("hidden");
+                visible += 1;
+            } else {
+                post.classList.add("hidden");
+            }
+
+            // Show or hide month groups
+            filteredFor = false;
+            if (visible == 0) {
+                list.classList.add("hidden");
+            } else {
+                list.classList.remove("hidden");
+            }
+        });
+    });
+}
+</script>
 
 {{ partial "footer.html" . }}

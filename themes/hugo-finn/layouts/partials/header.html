@@ -63,12 +63,16 @@
                 <li><a href="mailto:finn@lesueur.nz?subject=Finn.LeSueur%20Contact%20Form">Email Me</a></li>
                 <li><a href="/index.xml">RSS Feed</a></li>
             </ul>
+
+            Me, Elsewhere
+            <ul class="menu">
+              <li><a href="https://putaiao.nz">- My Teaching Notes</a></li>
+              <li><a href="https://github.com/Finnito">- Github</a></li>
+              <li><a href="https://strava.com/athletes/finn_lesueur">- Strava</a></li>
+            </ul>
             <p class="emoji">🏔 🏃‍♂️ 🎿 🛶 🚴‍♂️ 🧗 🧘‍♂️</p>
           </div>
       </div>
-      {{ if not (in "gps multiGPS" .Params.layout) }}
-        <hr/>
-      {{ end }}
     </nav>
     {{ if in "gps multiGPS" .Params.layout }}
     <div id="hikeMap"></div>
