@@ -1,12 +1,16 @@
 :root {
   --main-blue: #0984e3;
   --black: rgb(51, 51, 51);
-  --white:  #FFFFFF;
-  --shadow: 0 1px 1px hsl(0deg 0% 0% / 0.15),
-    0 2px 2px hsl(0deg 0% 0% / 0.15),
-    0 4px 4px hsl(0deg 0% 0% / 0.15),
-    0 8px 8px hsl(0deg 0% 0% / 0.15),
-    0 16px 16px hsl(0deg 0% 0% / 0.15);
+  --white: #FFFFFF;
+  --green: #009432;
+  --shadow: 0 1px 2px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+}
+
+html {
+  font-family: Book Antiqua, Georgia, serif;
+  color: var(--black);
+  line-height: 1.4;
+  font-size: 17px;
 }
 
 html,
@@ -17,19 +21,17 @@ body {
 }
 
 body {
-  font-family: Iowan Old Style, Apple Garamond, Baskerville, Times New Roman, Droid Serif, Times, Source Serif Pro, serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
-  color: var(--black);
-  line-height: 1.75;
   max-width: 900px;
   margin: auto;
   display: grid;
   grid-template-areas:
+    "rainbow"
     "nav"
     "map"
     "content"
     "footer";
   grid-template-columns: 1fr;
-  transition: all 300ms;
+  transition: all 150ms;
   align-content: start;
 }
 
@@ -45,8 +47,12 @@ nav h2 {
   margin: 0.5rem 0;
 }
 
-nav, main, footer {
+nav {
   padding: 0 0.5rem;
+}
+
+main {
+  padding: 0 0.5rem 0.5rem 0.5rem;
 }
 
 main img {
@@ -54,7 +60,6 @@ main img {
   max-width: 100%;
   overflow: hidden;
   box-shadow: var(--shadow);
-  /*box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);*/
   width: 100%;
   height: auto;
 }
@@ -103,9 +108,14 @@ nav > ul {
 }
 
 blockquote {
-  border-left: 3px solid #009432;
+  border-left: 3px solid var(--green);
   padding-left: 1rem;
   margin-left: 0.5rem;
+  font-style: italic;
+}
+
+blockquote a {
+  font-style: normal;
 }
 
 .divided > li:not(:last-child) {
@@ -118,10 +128,9 @@ footer {
 }
 
 a[download] {
-  background-color: rgba(46, 204, 113, 0.1);
   color: var(--main-blue);
   padding: 0.25rem 0.5rem;
-  transition: all 300ms;
+  transition: all 150ms;
   border-radius: 0.25rem;
   white-space: nowrap;
 }
@@ -255,12 +264,8 @@ h1 {
   font-weight: 300;
 }
 
-h2 {
-  margin-bottom: 0;
-}
-
-h3 {
-  margin-bottom: 0;
+h1, h2, h3, h4, h5, h6 {
+  margin-bottom: 0.25rem;
 }
 
 a {
@@ -290,34 +295,6 @@ hr {
   margin: 0 auto;
 }
 
-nav hr {
-  background: -webkit-linear-gradient(left, #f6e58d, #ffbe76, #ff7979, #badc58, #dff9fb);
-  background: -moz-linear-gradient(left, #f6e58d, #ffbe76, #ff7979, #badc58, #dff9fb);
-  background: -ms-linear-gradient(left, #f6e58d, #ffbe76, #ff7979, #badc58, #dff9fb);
-  background: linear-gradient(left, #f6e58d, #ffbe76, #ff7979, #badc58, #dff9fb);
-  height:  4px;
-}
-
-@keyframes boxShadow {
-  from {
-    box-shadow: 0 1px 5px rgba(246, 229, 141, 0.24), 0 1px 2px rgba(246, 229, 141, 0.48);
-  }
-
-  40% {
-    box-shadow: 0 1px 5px rgba(255, 190, 118,0.24), 0 1px 2px rgba(255, 190, 118,0.48);
-  }
-
-  60% {
-    box-shadow: 0 1px 5px rgba(255, 121, 121,0.24), 0 1px 2px rgba(255, 121, 121,0.48);
-  }
-
-  80% {
-    box-shadow: 0 1px 5px rgba(186, 220, 88,0.24), 0 1px 2px rgba(186, 220, 88,0.48);
-  }
-
-  to {
-    box-shadow: 0 1px 5px rgba(223, 249, 251,0.24), 0 1px 2px rgba(223, 249, 251,0.48);
-  }
 .rainbow {
   height: 4px;
   background: -webkit-linear-gradient(left, rgba(255,0,0,0), #feac5e, #c779d0, #4bc0c8, rgba(255,0,0,0));
@@ -424,23 +401,6 @@ button {
   box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
 }
 
-.bmc-button img {
-  width: 35px !important;
-}
-
-.bmc-button {
-  line-height: 35px !important;
-  height: 51px !important;
-  min-width: 217px !important;
-  display: inline-flex !important;
-  color: #FFFFFF !important;
-  background-color: #FF813F !important;
-  border-radius: 5px !important;
-  padding: 7px 10px 7px 10px !important;
-  box-sizing: border-box !important;
-}
-.bmc-button span { margin-left: 1rem; }
-
 .exif { list-style: none; padding-left: 0;}
 .exif span { padding-left: 1.5rem; text-transform: none;}
 
@@ -449,23 +409,29 @@ button {
 
 input[type='radio'] {
   visibility: hidden;
+  width: 0;
+  height: 0;
+  margin: 0;
 }
 
 .hidden {
   display: none;
 }
 
+.filters {
+  margin: 1rem 0;
+}
+
+.filters input:checked + label {
+  border-bottom: 2px solid #c779d0;
+}
+
 .filter-button {
   cursor: pointer;
-}
-
-.filter-button {
-  border-radius: 0.25rem;
-  border: 1px solid lightgrey;
-}
-
-.filter-button > input {
-  display: none;
+  margin-right: 0.5rem;
+  padding: 0.25rem;
+  background-color: rgba(155, 89, 182, 0.1) ;
+  text-transform: capitalize;
 }
 
 table {
