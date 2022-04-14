@@ -99,6 +99,7 @@ main {
 footer {
   margin-top: 1rem;
   grid-area: footer;
+  padding-bottom: 1rem;
 }
 
 main > ul,
