@@ -28,63 +28,85 @@ metaDescription: "A simple page to keep track of my reading lists."
  	+ [Bad Pharma](2022-01-11-bad-pharma/)
  - Bill Bryson
 	- A Really Short History of Nearly Everything (Young Adult)
+ - Bill Manhire
+ 	+ [The Best of Best New Zealand Poems](2022-03-28-the-best-of-best-new-zealand-poems/)
  - Brent Weeks
-	- The Way of Shadows - Night Angel (1)
-	- Shadow's Edge - Night Angel (2)
-	- Beyond the Shadows - Night Angel (3)
+ 	+ Night Angel Trilogy
+		* (1) The Way of Shadows
+		* (2) Shadow's Edge
+		* (3) Beyond the Shadows
  - C. S. Lewis
-	- The Lion, the Witch and the Wardrobe - The Chronicles of Narnia (1)
+ 	+ The Chronicles of Narnia
+ 		* (1) The Lion, the Witch and the Wardrobe
  - Christopher Paolini
-	- Eragon - Inheritance (1)
-	- Eldest - Inheritance (2)
-	- Brisingr - Inheritance (3)
-	- Inheritance - Inheritance (4)
+ 	+ Inheritance
+		* (1) Eragon
+		* (2) Eldest
+		* (3) Brisingr
+		* (4) Inheritance
  - Cormac McCarthy
 	- The road
  - Deborah Blum & Tim Folger
 	- The Best American Science and Nature Writing 2014
+ - Elizabeth Kolbert
+ 	+ [The Sixth Extinction](2022-02-02-the-sixth-extinction/)
  - Frank Herbert
-	- Dune - Dune (1)
+ 	+ Dune
+ 		* (1) Dune
+ 		* (2) [Dune Messiah](2022-01-19-dune-messiah/)
  - Frank McCourt
 	- Tis: A Memoir
  - Garth Nix
-	- Sabriel - Abhorsen (1)
-	- Lirael - Abhorsen (2)
-	- Abhorsen - Abhorsen (3)
-	- Mister Monday - The Keys to the Kingdom (1)
-	- Grim Tuesday - The Keys to the Kingdom (2)
-	- Drowned Wednesday - The Keys to the Kingdom (3)
-	- Sir Thursday - The Keys to the Kingdom (4)
-	- Lady Friday - The Keys to the Kingdom (5)
-	- Superior Saturday - The Keys to the Kingdom (6)
-	- Lord Sunday - The Keys to the Kingdom (7)
+ 	+ Abhorsen
+		* (1) Sabriel
+		* (2) Lirael
+		* (3) Abhorsen
+	+ The Keys to the Kingdom
+		* (1) Mister Monday
+		* (2) Grim Tuesday
+		* (3) Drowned Wednesday
+		* (4) Sir Thursday
+		* (5) Lady Friday
+		* (6) Superior Saturday
+		* (7) Lord Sunday
  - George Orwell
-	- Nineteen Eighty-Four
+	+ Nineteen Eighty-Four
  - George R. R. Martin
-	- A Game of Thrones - A Song of Ice and Fire (1)
+	+ A Game of Thrones - A Song of Ice and Fire (1)
  - H. G. Wells
-	- The Time Machine/The Invisible Man
+	+ The Time Machine/The Invisible Man
+ - Isaac Asimov
+ 	+ Foundation
+ 		* (1) [Foundation](2022-02-06-foundation/)
+ 		* (2) [Foundation and Empire](2022-03-06-foundation-and-empire/)
+ 		* (3) [Second Foundation](2022-03-22-second-foundation/)
+ - Jim Afremow
+ 	+ [The Champions' Mind](2022-03-19-the-champions-mind/)
  - J. K. Rowling
-	- The Sorcerer's Stone - Harry Potter (1)
-	- The Chamber of Secrets - Harry Potter (2)
-	- The Prisoner of Azkaban - Harry Potter (3)
-	- The Goblet of Fire - Harry Potter (4)
-	- The Order of the Phoenix - Harry Potter (5)
-	- The Halfblood Prince - Harry Potter (6)
-	- The Deathly Hallows - Harry Potter (7)
+ 	+ Harry Potter
+		* (1) The Sorcerer's Stone
+		* (2) The Chamber of Secrets
+		* (3) The Prisoner of Azkaban
+		* (4) The Goblet of Fire
+		* (5) The Order of the Phoenix
+		* (6) The Halfblood Prince
+		* (7) The Deathly Hallows
  - J. R. R. Tolkien
-	- The Hobbit - Middle-Earth Universe (1)
-	- The Fellowship of the Ring - The Lord of the Rings (1)
-	- The Two Towers - The Lord of the Rings (2)
-	- The Return of the King - The Lord of the Rings (3)
+ 	+ Middle-Earth Universe
+ 		* (1) The Hobbit
+	- Lord of the Rings Trilogy
+		+ (1) The Fellowship of the Ring
+		+ (2) The Two Towers
+		+ (3) The Return of the King
  - Kevin J. Anderson
-	- Hidden Empire - The Saga of Seven Suns (1)
-	- A Forest of Stars - The Saga of Seven Suns (2)
-	- Horizon Storms - The Saga of Seven Suns (3)
-	- Scattered Suns - The Saga of Seven Suns (4)
-	- Of Fire and Night - The Saga of Seven Suns (5)
-	- Metal Swarm - The Saga of Seven Suns (6)
-	- The Ashes of Worlds - The Saga of Seven Suns (7)
+ 	+ Saga of the Seven Suns
+		* (1) Hidden Empire
+		* (2) A Forest of Stars
+		* (3) Horizon Storms
+		* (4) Scattered Suns
+		* (5) Of Fire and Night
+		* (6) Metal Swarm
+		* (7) The Ashes of Worlds
  - Laura J. Snyder
 	- The Philosophical Breakfast Club: Four Remarkable Friends Who Transformed Science and Changed the World
  - Mark Williams
@@ -98,109 +120,137 @@ metaDescription: "A simple page to keep track of my reading lists."
  - Neal Stephenson
 	- [Snow Crash](2021-12-13-snow-crash)
  - Orson Scott Card
-	- Ender's Game - Ender's Game (1)
+ 	+ Ender's Game
+ 		* (1) Ender's Game
  - Peter F. Hamilton
-	- Pandora's Star - Commonwealth Saga (1)
-	- Judas Unchained - Commonwealth Saga (2)
-	- Salvation - Salvation Sequence (1)
-	- Salvation Lost - Salvation Sequence (2)
-	- Saints of Salvation - Salvation Sequence (3)
-	- The Dreaming Void - Void (1)
-	- The Temporal Void - Void (2)
-	- The Evolutionary Void - Void (3)
+ 	+ The Commonwealth Saga
+ 		* (1) Pandora's Star
+ 		* (2) Judas Unchained
+ 	+ Void
+ 		* (1) The Draming Void
+ 		* (2) The Temporal Void
+ 		* (3) The Evolutionary Void
+ 	+ Salvation Sequence
+ 		* (1) Salvation
+ 		* (2) Salvation Lost
+ 		* (3) Saints of Salvation
  - Philip Plait
 	- [Bad Astronomy](2021-11-10-bad-astronomy)
  - Philip Pullman
-	- The Golden Compass - His Dark Materials (1)
-	- The Subtle Knife - His Dark Materials (2)
-	- The Amber Spyglass - His Dark Materials (3)
+ 	+ His Dark Materials
+ 		* (1) The Golden Compass
+ 		* (2) The Subtle Knife
+ 		* (3) The Amber Spyglass
  - Ray Bradbury
 	- Fahrenheit 451
  - Raymond E. Feist
-	- Talon of the Silver Hawk - Conclave of Shadows (1)
-	- King of Foxes - Conclave of Shadows (2)
-	- Exile's Return - Conclave of Shadows (3)
-	- Prince of the Blood - Krondor's Sons (1)
-	- The King's Buccaneer - Krondor's Sons (2)
-	- A Kingdom Besieged - The Chaoswar Saga (1)
-	- A Crown Imperiled - The Chaoswar Saga (2)
-	- Flight of the Nighthawks - The Darkwar Saga (1)
-	- Into a Dark Realm - The Darkwar Saga (2)
-	- Wrath of a Mad God - The Darkwar Saga (3)
-	- Rides a Dread Legion - The Demonwar Saga (1)
-	- At the Gates of Darkness - The Demonwar Saga (2)
-	- Krondor: The Betrayal - The Riftwar Legacy (1)
-	- Krondor: The Assassins - The Riftwar Legacy (2)
-	- Krondor: Tear of the Gods - The Riftwar Legacy (3)
-	- Magician - The Riftwar Saga (1)
-	- Silverthorn - The Riftwar Saga (3)
-	- A Darkness at Sethanon - The Riftwar Saga (4)
-	- Shadow of a Dark Queen - The Serpentwar Saga (1)
-	- Rise of a Merchant Prince - The Serpentwar Saga (2)
-	- Rage of a Demon King - The Serpentwar Saga (3)
-	- Shards of a Broken Crown - The Serpentwar Saga (4)
-	- Daughter of the Empire - The Empire Trilogy (1)
-	- Servant of the Empire - The Empire Trilogy (2)
-	- Mistress of the Empire - The Empire Trilogy (3)
-	- Honoured Enemy - Legends of the Riftwar (1)
-	- Murder in LaMut - Legends of the Riftwar (2)
-	- Jimmy the Hand - Legends of the Riftwar (3)
+ 	+ The Riftwar Saga
+ 		* (1) Magician
+ 		* (2) Silverthorn
+ 		* (3) A Darkness at Sethanon
+ 	+ Conclave of Shadows
+		* (1) Talon of the Silver Hawk
+		* (2) King of Foxes
+		* (3) Exile's Return
+	+ Krondor's Sons
+		* (1) Prince of the Blood
+		* (2) The King's Buccaneer
+	+ The Chaoswar Saga
+		* (1) A Kingdom Besieged
+		* (2) A Crown Imperiled
+	+ The Darkwar Saga
+		* (1) Flight of the Nighthawks
+		* (2) Into a Dark Realm
+		* (3) Wrath of a Mad God
+	+ The Demonwar Saga
+		* (1) Rides a Dread Legion
+		* (2) At the Gates of Darkness
+	+ The Riftwar Legacy
+		* (1) Krondor: The Betrayal
+		* (2) Krondor: The Assassins
+		* (3) Krondor: Tear of the Gods
+	+ The Serpentwar Saga
+		* (1) Shadow of a Dark Queen
+		* (2) Rise of a Merchant Prince
+		* (3) Rage of a Demon King
+		* (4) Shards of a Broken Crown
+	+ The Empire Trilogy
+		* (1) Daughter of the Empire
+		* (2) Servant of the Empire
+		* (3) Mistress of the Empire
+	+ Legends of the Riftwar
+		* (1) Honoured Enemy
+		* (2) Murder in LaMut
+		* (3) Jimmy the Hand
  - Richard Dawkins
 	- [The Selfish Gene](2021-12-17-the-selfish-gene/)
  - Robin Hobb
-	- [Assassin\'s Apprentice - Farseer Trilogy (1)](2021-11-07-farseer-trilogy/)
-	- [Royal Assassin - Farseer Trilogy (2)](2021-11-07-farseer-trilogy/)
-	- [Assassin\'s Quest - Farseer Trilogy (3)](2021-11-07-farseer-trilogy/)
+ 	+ The Farseer Trilogy
+		* (1) [Assassin\'s Apprentice](2021-11-07-farseer-trilogy/)
+		* (2) [Royal Assassin](2021-11-07-farseer-trilogy/)
+		* (3) [Assassin\'s Quest](2021-11-07-farseer-trilogy/)
  - Scott Westerfeld
-	- Uglies - Uglies (1)
-	- Pretties - Uglies (2)
-	- Specials - Uglies (3)
-	- Extras - Uglies (4)
+ 	+ Uglies
+		* (1) Uglies
+		* (2) Pretties
+		* (3) Specials
+		* (4) Extras
  - Steven D. Levitt
 	- Freakonomics
 	- SuperFreakonomics
  - Tamora Pierce
-	- Terrier - Beka Cooper (1)
-	- Bloodhound - Beka Cooper (2)
-	- Mastiff - Beka Cooper (3)
-	- Sandry's Book - Circle of Magic (1)
-  - Tris' Story - Circle of Magic (2)
-	- Daja's Book - Circle of Magic (3)
-	- Briar's Book - Circle of Magic (4)
-	- Trickster's Choice - Daughter of the Lioness (1)
-	- Trickster's Queen - Daughter of the Lioness (2)
-	- First Test - Protector of the Small (1)
-	- Page - Protector of the Small (2)
-	- Squire - Protector of the Small (3)
-	- Lady Knight - Protector of the Small (4)
-	- Alanna: The First Adventure - Song of the Lioness (1)
-	- In the Hand of the Goddess - Song of the Lioness (2)
-	- The Woman Who Rides Like a Man - Song of the Lioness (3)
-	- Lioness Rampant - Song of the Lioness (4)
-	- Magic Steps - The Circle Opens (1)
-	- Street Magic - The Circle Opens (2)
-	- Cold Fire - The Circle Opens (3)
-	- Shatterglass - The Circle Opens (4)
-	- Wild Magic - The Immortals (1)
-	- Wolf-Speaker - The Immortals (2)
-	- Emperor Mage - The Immortals (3)
-	- The Realms of the Gods - The Immortals (4)
+ 	+ Beka Cooper
+		* (1) Terrier
+		* (2) Bloodhound
+		* (3) Mastiff
+	+ Circle of Magic
+		* (1) Sandry's Book
+ 		* (2) Tris' Story
+		* (3) Daja's Book
+		* (4) Briar's Book
+	+ Daughter of the Lioness
+		* (1) Trickster's Choice
+		* (2) Trickster's Queen
+	+ Protector of the Small
+		* (1) First Test
+		* (2) Page
+		* (3) Squire
+		* (4) Lady Knight
+	+ Song of the Lioness
+		* (1) Alanna: The First Adventure
+		* (2) In the Hand of the Goddess
+		* (3) The Woman Who Rides Like a Man
+		* (4) Lioness Rampant
+	+ The Circle Opens
+		* (1) Magic Steps
+		* (2) Street Magic
+		* (3) Cold Fire
+		* (4) Shatterglass
+	+ Wild Magic
+		* (1) Wild Magic
+		* (2) Wolf-Speaker
+		* (3) Emperor Mage
+		* (4) The Realms of the Gods
  - Timothy Zahn
-	- Night Train to Rigel - Quadrail (1)
-	- The Third Lynx - Quadrail (2)
-	- Odd Girl Out - Quadrail (3)
-	- The Domino Pattern - Quadrail (4)
+ 	+ Quadrail
+		* (1) Night Train to Rigel
+		* (2) The Third Lynx
+		* (3) Odd Girl Out
+		* (4) The Domino Pattern
  - Trudi Canavan
-	- The Magicians' Guild - The Black Magician Trilogy (1)
-	- The Novice - The Black Magician Trilogy (2)
-	- The High Lord - The Black Magician Trilogy (3)
-	- [Priestess of the White - Age of Five (1)](2022-01-11-the-age-of-five-trilogy/)
-	- [The Last of the Wilds - Age of Five (2)](2022-01-11-the-age-of-five-trilogy/)
-	- [Voice of the Gods - Age of Five (3)](2022-01-11-the-age-of-five-trilogy/)
+ 	+ The Black Magician Trilogy
+		* (1) The Magicians' Guild
+		* (2) The Novice
+		* (3) The High Lord
+	+ Age of Five
+		* (1) [Priestess of the White](2022-01-11-the-age-of-five-trilogy/)
+		* (2) [The Last of the Wilds](2022-01-11-the-age-of-five-trilogy/)
+		* (3) [Voice of the Gods](2022-01-11-the-age-of-five-trilogy/)
  - William Nicholson
-	- Seeker - Noble Warriors Trilogy (1)
-	- Jango - Noble Warriors Trilogy (2)
-	- Noman - Noble Warriors Trilogy (3)
+ 	+ Noble Warriors Trilogy
+		* (1) Seeker
+		* (2) Jango
+		* (3) Noman
 
 <!-- ### Unread
 
