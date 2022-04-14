@@ -408,6 +408,7 @@ button {
 .nav-buttons a { padding: 0.5rem 1rem; }
 
 input[type='radio'] {
+  position: absolute;
   visibility: hidden;
   width: 0;
   height: 0;
@@ -432,6 +433,9 @@ input[type='radio'] {
   padding: 0.25rem;
   background-color: rgba(155, 89, 182, 0.1) ;
   text-transform: capitalize;
+  display: inline-block;
+  margin-bottom: 0.5rem;
+  border-bottom: 2px solid transparent;
 }
 
 table {
@@ -484,6 +488,30 @@ tbody tr:not(first-child) {
 
 table tr:nth-child(2n-1) td {
     background-color: var(--neutral-light);
+}
+
+.similar-posts {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.similar-posts > div {
+  width: 250px;
+  background-color: rgba(39, 174, 96, 0.1);
+  border-radius: 0.25rem;
+  box-shadow: var(--shadow);
+  margin-top: 1rem;
+  padding: 0.5rem;
+}
+
+.similar-posts > div a {
+  color: var(--black);
+}
+
+.similar-posts > div p {
+  margin-bottom: 0;
 }
 
 @media (min-width: 768px) {
