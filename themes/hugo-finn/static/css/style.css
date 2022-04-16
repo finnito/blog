@@ -11,9 +11,10 @@ html {
   color: var(--black);
   line-height: 1.4;
   font-size: 17px;
+  overflow-x: hidden;
+  max-width: 100vw;
 }
 
-html,
 body {
   overflow-x: hidden;
   position: relative;
@@ -162,7 +163,7 @@ input[type=checkbox].toggle,
 .hamburger {
     position: absolute;
     right: 0.5rem;
-    top: 0.8rem;
+    top: 0.6rem;
     margin: 0;
 }
 
@@ -506,7 +507,7 @@ table tr:nth-child(2n-1) td {
 }
 
 @media (min-width: 768px) {
-  html, body {
+  body {
     overflow-x: visible;
   }
   body {
