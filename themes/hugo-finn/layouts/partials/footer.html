@@ -5,7 +5,7 @@
 
     <h4>Similar Posts</h4>
     <div class="similar-posts">
-    {{ range shuffle (where .Site.RegularPages "Params.layout" "gps") }}
+    {{ range first 3 (shuffle (where .Site.RegularPages "Params.layout" "gps")) }}
         <div>
             <a href="{{ .Permalink }}" title="{{ .Title }}">
             <p><strong>{{ .Params.emoji }} {{ .Title }}</strong><br>
