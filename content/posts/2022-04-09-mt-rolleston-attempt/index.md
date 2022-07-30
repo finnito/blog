@@ -6,7 +6,7 @@ emoji: 🥾
 type: "post"
 layout: "gps"
 metaDescription: "A wicked autumn adventure up Mt Rolleston and a great trail run to Arthur's Pass."
-metaImage: "/posts/mt-rolleston-attempt/IMG_3601.jpeg"
+metaImage: "IMG_3601.jpeg"
 ---
 
 __Hikers__: Finn, Justin (Dad), Francie (Mum), and Becky
