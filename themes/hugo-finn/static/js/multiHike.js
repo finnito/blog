@@ -9,65 +9,29 @@ var LayersLoaded = 0;
 var GPXData = {};
 var trackColours = [
     "#ff3838",
-    "#6F1E51",
     "#c56cf0",
-    "#33d9b2",
-    "#17c0eb",
+    "#4cd137",
+    "#00a8ff",
     "#ff3838",
-    "#6F1E51",
     "#c56cf0",
-    "#33d9b2",
-    "#17c0eb",
+    "#4cd137",
+    "#00a8ff",
     "#ff3838",
-    "#6F1E51",
     "#c56cf0",
-    "#33d9b2",
-    "#17c0eb",
+    "#4cd137",
+    "#00a8ff",
     "#ff3838",
-    "#6F1E51",
     "#c56cf0",
-    "#33d9b2",
-    "#17c0eb",
+    "#4cd137",
+    "#00a8ff",
     "#ff3838",
-    "#6F1E51",
     "#c56cf0",
-    "#33d9b2",
-    "#17c0eb",
+    "#4cd137",
+    "#00a8ff",
     "#ff3838",
-    "#6F1E51",
     "#c56cf0",
-    "#33d9b2",
-    "#17c0eb",
-    "#ff3838",
-    "#6F1E51",
-    "#c56cf0",
-    "#33d9b2",
-    "#17c0eb",
-    "#ff3838",
-    "#6F1E51",
-    "#c56cf0",
-    "#33d9b2",
-    "#17c0eb",
-    "#ff3838",
-    "#6F1E51",
-    "#c56cf0",
-    "#33d9b2",
-    "#17c0eb",
-    "#ff3838",
-    "#6F1E51",
-    "#c56cf0",
-    "#33d9b2",
-    "#17c0eb",
-    "#ff3838",
-    "#6F1E51",
-    "#c56cf0",
-    "#33d9b2",
-    "#17c0eb",
-    "#ff3838",
-    "#6F1E51",
-    "#c56cf0",
-    "#33d9b2",
-    "#17c0eb",
+    "#4cd137",
+    "#00a8ff"
 ];
 
 
@@ -79,7 +43,7 @@ var trackColours = [
 function initHike() {
     // Create Map
     HikeMap = L.map('hikeMap', {zoom: 12, center: L.latLng(-43.55947876166007, 172.63676687379547), fullscreenControl: true});
-    Tracks = L.featureGroup().addTo(HikeMap)
+    Tracks = L.featureGroup().addTo(HikeMap);
 
     // Manage map tiles
     var layer50 = L.tileLayer('https://tiles-a.data-cdn.linz.govt.nz/services;key=50b8923a67814d28b7a1067e28f03000/tiles/v4/layer=50767/EPSG:3857/{z}/{x}/{y}.png', {
@@ -106,7 +70,6 @@ function initHike() {
         }
         HikeMap.removeLayer(layer50);
         layer250.addTo(HikeMap);
-        
     });
 
     // Add GPX File
@@ -123,17 +86,17 @@ function initHike() {
 function addImages() {
     var figures = document.querySelectorAll("figure[data-lat]");
     var i,
-        fig;
-    for (i = 0; i < figures.length; i++) {
+        fig,
+        photoIcon;
+    for (i = 0; i < figures.length; i += 1) {
         fig = figures[i];
-        var photoIcon = L.icon({
-            iconUrl: '/img/marker-image.png',
+        photoIcon = L.icon({
+            iconUrl: '/css/images/marker-image.png',
             iconSize:     [38, 38],
             iconAnchor:   [19, 38],
             popupAnchor:  [-3, -76],
             fig:          fig.getAttribute("data-fig")
         });
-        console.log(fig);
         if (fig.getAttribute("data-lat") !== 0) {
             L.marker([fig.getAttribute("data-lat"), fig.getAttribute("data-lng")], {icon: photoIcon}, {test: "something"})
             .bindTooltip(fig.querySelector("figcaption").innerHTML)
@@ -162,7 +125,7 @@ function populateGPXTable() {
     var totalElevGain = 0;
     var totalElevLoss = 0;
 
-    for (const [id, gpxFile] of Object.entries(GPXDataFiles)) {
+    for ( const [id, gpxFile] of Object.entries(GPXDataFiles)) {
         var date = gpxFile.stats.date;
         var distanceKm = (gpxFile.stats.distance / 1000).toFixed(2);
         var duration = msToHMS(gpxFile.stats.duration * 1000);
@@ -195,7 +158,7 @@ function populateGPXTable() {
 function showActivity(id) {
     for (const [layerGroupID, layerGroup] of Object.entries(Tracks._layers)) {
     // HikeMap.eachLayer(function(layer){
-        console.log(layerGroup);
+        // console.log(layerGroup);
         if (layerGroup._leaflet_id == id) {
             HikeMap.fitBounds(layerGroup.getBounds());
             layerGroup.setStyle({"opacity": 0.9});
@@ -217,7 +180,7 @@ function showActivity(id) {
 function showActivityByName(name) {
     for (const [layerGroupID, layerGroup] of Object.entries(Tracks._layers)) {
     // HikeMap.eachLayer(function(layer){
-        console.log(layerGroup);
+        // console.log(layerGroup);
         if (layerGroup._tooltip._content.indexOf(name) > -1) {
         // if (layerGroup._leaflet_id == id) {
             HikeMap.fitBounds(layerGroup.getBounds());
@@ -244,21 +207,50 @@ function addGPXTracks() {
         line,
         path;
 
+    var orangeIcon = L.icon({
+        iconUrl: '/css/images/marker-icon-2x-orange.png',
+
+        iconSize:     [25, 41],
+        iconAnchor:   [13, 41],
+        popupAnchor:  [13, -41],
+        tooltipAnchor:  [13, -41]
+    });
+
     for (i = 0; i < GPXDataFiles.length; i++) {
         var trackGroup = new L.featureGroup();
         trackGroup.addTo(Tracks);
         var polyline = L.Polyline.fromEncoded(GPXDataFiles[i].stats.polyline, {
             color: trackColours[i]
         }).addTo(trackGroup);
+
+        for (j = 0; j < GPXDataFiles[i].stats.waypoints.length; j++) {
+            var txt = GPXDataFiles[i].stats.waypoints[j][2]
+                + "<br>" + GPXDataFiles[i].stats.waypoints[j][0]
+                + ","
+                + GPXDataFiles[i].stats.waypoints[j][1]
+                + "<br>Click to Copy Text";
+
+            L.marker([
+                GPXDataFiles[i].stats.waypoints[j][0],
+                GPXDataFiles[i].stats.waypoints[j][1]
+            ],{'icon': orangeIcon})
+            .bindTooltip(txt)
+            .on("click", function(e) {
+                navigator.clipboard.writeText(e.target._tooltip._content.replace("<br>", "\n"));
+                window.alert("Copied \"" + e.target._tooltip._content.replace("<br>", "\n") + "\" to clipboard.");
+            })
+            .addTo(HikeMap);
+        }
+
         GPXDataFiles[i].stats.polylineID = trackGroup._leaflet_id;
         // console.log(polyline);
 
         trackGroup.on("mouseover", function(e) {
-            console.log("Hovered on: ", e.target._leaflet_id);
+            // console.log("Hovered on: ", e.target._leaflet_id);
             for (const [layerGroupID, layerGroup] of Object.entries(Tracks._layers)) {
-                console.log("Checking layer group ", layerGroupID, " vs ", e.target._leaflet_id, layerGroupID == e.target._leaflet_id);
+                // console.log("Checking layer group ", layerGroupID, " vs ", e.target._leaflet_id, layerGroupID == e.target._leaflet_id);
                 if (layerGroupID != e.target._leaflet_id) {
-                    console.log("Hiding: ", layerGroup);
+                    // console.log("Hiding: ", layerGroup);
                     layerGroup.setStyle({"opacity": 0.1});
                 }
             }
@@ -281,13 +273,13 @@ function addGPXTracks() {
  **/
 function addTooltip(el, data) {
     var tooltipText = "<strong>" + data.stats.name + "</strong><br/>"
-        + "Date: " + (data.stats.date) + "<br/>" 
+        + "Date: " + (data.stats.date) + "<br/>"
         + "Distance: " + (data.stats.distance/1000).toFixed(2) + "km<br/>"
         + "Duration: " + msToHMS(data.stats.duration * 1000) + "<br/>"
         + "Pace: " + ((data.stats.distance / 1000)/(data.stats.duration/3600)).toFixed(2) + "km/hr<br/>"
         + "Elevation Gain: " + data.stats.uphill + "m<br/>"
         + "Elevation Loss: " + data.stats.downhill + "m<br/>";
-    el.bindTooltip(tooltipText, {sticky: true});
+    el.bindTooltip(tooltipText, {sticky: true, keepInView: true});
 }
 
 
@@ -315,4 +307,4 @@ function msToHMS( ms ) {
  * Kick off the hike listener
  * when the document has loaded.
  **/
-document.addEventListener("DOMContentLoaded", initHike);
+window.addEventListener("DOMContentLoaded", initHike());
