@@ -109,10 +109,14 @@ nav > ul {
 }
 
 blockquote {
-  border-left: 3px solid var(--green);
-  padding-left: 1rem;
-  margin-left: 0.5rem;
-  font-style: italic;
+  margin: 0 auto 1rem auto;
+  background-color: rgba(255, 234, 167, 0.5);
+  border-radius: 0.25rem;
+  padding: 0.25rem 0.5rem;
+}
+
+blockquote p {
+  margin: 0;
 }
 
 blockquote a {
