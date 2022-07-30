@@ -4,7 +4,12 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="icon" href="/favicon.png">
-    <style>{{ readFile "/themes/hugo-finn/static/css/style.css" | safeCSS }}</style>
+    <style>
+      {{ readFile "/themes/hugo-finn/static/css/style.css" | safeCSS }}
+      {{ if in "gps multiGPS" .Params.layout }}
+      {{ readFile "/themes/hugo-finn/static/css/leaflet-fullscreen.min.css" | safeCSS }}
+      {{ end  }}
+    </style>
     {{ range .AlternativeOutputFormats -}}
       {{ printf `<link rel="%s" type="%s" href="%s" title="%s" />` .Rel .MediaType.Type .Permalink $.Site.Title | safeHTML }}
     {{ end -}}
@@ -14,6 +19,7 @@
     <meta property="og:title" content="{{ .Title }} | {{ .Site.Title }}">
     <meta property="twitter:title" content="{{ .Title }} | {{ .Site.Title }}">
     <meta name="title" content="{{ .Title }} | {{ .Site.Title }}">
+    
     {{ with .Params.metaDescription }}
       <meta name="description" content="{{ . }}">
       <meta property="og:description" content="{{ . }}">
@@ -24,11 +30,13 @@
       <meta property="og:image" content="{{ $metaImg.Permalink }}">
       <meta property="twitter:image" content="{{ $metaImg.Permalink }}">
     {{ end }}
+    
     <meta property="og:type" content="website">
     <meta property="og:url" content="{{ .Permalink }}">
     <meta property="twitter:url" content="{{ .Permalink }}">
+    
     {{ if eq .Params.prism "true" }}
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.23.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" />
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.23.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" />
     {{ end }}
   </head>
 
