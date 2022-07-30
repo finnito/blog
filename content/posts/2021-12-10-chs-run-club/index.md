@@ -6,7 +6,7 @@ emoji: 🏃
 type: "post"
 layout: "gps"
 metaDescription: ""
-metaImage: "/posts/chs-run-club-2021/"
+metaImage: ""
 ---
 
 Thanks for an excellent year, Cashmere! Here's to an epic 2022.
