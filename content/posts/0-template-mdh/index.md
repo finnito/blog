@@ -6,7 +6,7 @@ emoji: 🏔
 type: "post"
 layout: "multiGPS"
 metaDescription: ""
-metaImage: "/posts/template-multi-day-hike/"
+metaImage: ""
 expirydate: 2021-12-31
 ---
 
