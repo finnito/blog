@@ -1,7 +1,6 @@
 baseurl                 = "https://finn.lesueur.nz"
 contentdir              = "content"
 layoutdir               = "layouts"
-publishdir              = "/Users/finnlesueur/Sites/public.finn.lesueur.nz"
 title                   = "Finn Le Sueur"
 canonifyurls            = true
 uglyurls                = false
@@ -16,6 +15,9 @@ pygmentCodeFences       = true
 enableGitInfo           = true
 
 timeout                 = 600000
+
+[_build]
+  publishResources = false
 
 [markup.goldmark.renderer]
   unsafe=true
