@@ -6,5 +6,4 @@
     <span class="climb">({{ $stats.stats.uphill }}m 🆙, {{ $stats.stats.downhill }}m🔻)</span> in 
     <span class="duration">{{ math.Floor (div $stats.stats.duration 3600) }}hr {{ div (mod $stats.stats.duration 3600) 60 }}min</span> @ 
     <span class="speed">{{ printf "%.2f" $stats.stats.pace }}km/hr</span>.
-    <a class="downloadGPX" download href="{{ $gpx.Permalink }}" title='Download GPX for {{ .Get "track" }}'/>Download GPX</a>
 </p></blockquote>
