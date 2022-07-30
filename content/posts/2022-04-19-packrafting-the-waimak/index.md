@@ -6,7 +6,7 @@ emoji: 🛶
 type: "post"
 layout: "gps"
 metaDescription: ""
-metaImage: "/posts/packrafting-the-waimak/"
+metaImage: "IMG_3656.jpeg"
 ---
 
 __Rafters__: Finn & Jen
