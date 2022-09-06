@@ -21,7 +21,7 @@
 
         GPXDataFiles = [
         {{ range sort (.Resources.Match "*.gpx") }}
-            "{{ $.Site.BaseURL }}tracks/{{ index (split .Title ".") 0 }}.json",
+            "{{ $.Site.BaseURL }}/tracks/{{ index (split .Title ".") 0 }}.json",
         {{ end }}
         ];
 </script>
