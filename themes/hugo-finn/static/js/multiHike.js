@@ -6,6 +6,7 @@ var ElevationData = [];
 var ElevationChart;
 var Tracks;
 var LayersLoaded = 0;
+var ColourIterator = 0;
 var GPXData = {};
 var trackColours = [
     "#ff3838",
@@ -42,7 +43,8 @@ var trackColours = [
  **/
 function initHike() {
     // Create Map
-    HikeMap = L.map('hikeMap', {zoom: 12, center: L.latLng(-43.55947876166007, 172.63676687379547), fullscreenControl: true});
+    HikeMap = L.map('hikeMap', {zoom: 12, center: L.latLng(-43.55947876166007, 172.63676687379547)});
+    HikeMap.addControl(new L.Control.Fullscreen());
     Tracks = L.featureGroup().addTo(HikeMap);
 
     // Manage map tiles
@@ -110,89 +112,20 @@ function addImages() {
 
 
 /**
- * Populate the GPX table
- * with data.
- **/
-function populateGPXTable() {
-    if (document.querySelector("#gpx-table") == null) {
-        return;
-    }
-
-    document.getElementById("gpx-table").innerHTML += "<tbody></tbody>";
-    var table = document.querySelector("#gpx-table tbody");
-    var totalDist = 0;
-    var totalDur = 0;
-    var totalElevGain = 0;
-    var totalElevLoss = 0;
-
-    for ( const [id, gpxFile] of Object.entries(GPXDataFiles)) {
-        var date = gpxFile.stats.date;
-        var distanceKm = (gpxFile.stats.distance / 1000).toFixed(2);
-        var duration = msToHMS(gpxFile.stats.duration * 1000);
-        var speed = ((gpxFile.stats.distance / 1000)/(gpxFile.stats.duration/3600)).toFixed(2);
-        var elevGain = parseFloat(gpxFile.stats.uphill.toFixed(0));
-        var elevLoss = parseFloat(gpxFile.stats.downhill.toFixed(0));
-
-        totalDist += gpxFile.stats.distance;
-        totalDur += gpxFile.stats.duration;
-        totalElevGain += gpxFile.stats.uphill;
-        totalElevLoss += gpxFile.stats.downhill;
-
-        var tableRow = "<tr><td><small>" + date + " [<a onclick='showActivity(" + gpxFile.stats.polylineID + "); return false;' style='cursor: pointer;'>Show</a>, <a href='" + GPXFiles[id] + "'>Download</a>]</small><br/>" + gpxFile.stats.name + "</td>"
-            + "<td>" + distanceKm + "km<br/>" + duration + "hrs</td>"
-            + "<td>" + speed + "km/hr<br/>" + elevGain + "m ⬆️, " + elevLoss + "m ⬇️</td>";
-            // + "<td></td>";
-        table.innerHTML += tableRow;
-    }
-    table.innerHTML += "<tr><td></td><td>" + (totalDist/1000).toFixed(2) + "km<br/>" + msToHMS(totalDur * 1000)+ "hrs</td>"
-        + "<td>" + totalElevGain.toFixed(0) + "m ⬆️, "
-        + totalElevLoss.toFixed(0) + "m ⬇️</td>";
-}
-
-
-
-/**
- * Show a given layer
- * by _leaflet_id.
- **/
-function showActivity(id) {
-    for (const [layerGroupID, layerGroup] of Object.entries(Tracks._layers)) {
-    // HikeMap.eachLayer(function(layer){
-        // console.log(layerGroup);
-        if (layerGroup._leaflet_id == id) {
-            HikeMap.fitBounds(layerGroup.getBounds());
-            layerGroup.setStyle({"opacity": 0.9});
-            // layerGroup.openToolip();
-            // console.log(layer);
-        } else {
-            layerGroup.setStyle({"opacity": 0.1});
-        }
-    };
-
-    window.scrollTo({ top: 0, behavior: 'smooth' });
-}
-
-
-/**
  * Show a given layer group
  * by activity name (in tooltip).
  **/
 function showActivityByName(name) {
-    for (const [layerGroupID, layerGroup] of Object.entries(Tracks._layers)) {
-    // HikeMap.eachLayer(function(layer){
-        // console.log(layerGroup);
-        if (layerGroup._tooltip._content.indexOf(name) > -1) {
-        // if (layerGroup._leaflet_id == id) {
-            HikeMap.fitBounds(layerGroup.getBounds());
-            layerGroup.setStyle({"opacity": 0.9});
-            // layerGroup.openToolip();
-            // console.log(layer);
-        } else {
-            layerGroup.setStyle({"opacity": 0.1});
+    HikeMap.eachLayer(function(layer) {
+        if (layer.hasOwnProperty('_tooltip')) {
+            if (layer._tooltip._content.indexOf(name) > -1) {
+                HikeMap.fitBounds(layer.getBounds());
+            }
         }
-    };
+    });
 
     window.scrollTo({ top: 0, behavior: 'smooth' });
+    return false;
 }
 
 
@@ -217,53 +150,52 @@ function addGPXTracks() {
     });
 
     for (i = 0; i < GPXDataFiles.length; i++) {
-        var trackGroup = new L.featureGroup();
-        trackGroup.addTo(Tracks);
-        var polyline = L.Polyline.fromEncoded(GPXDataFiles[i].stats.polyline, {
-            color: trackColours[i]
-        }).addTo(trackGroup);
+        fetch(GPXDataFiles[i])
+        .then(response => {
+            return response.json()
+        })
+        .then(response => {
+            var trackGroup = new L.featureGroup();
+            trackGroup.addTo(Tracks);
 
-        for (j = 0; j < GPXDataFiles[i].stats.waypoints.length; j++) {
-            var txt = GPXDataFiles[i].stats.waypoints[j][2]
-                + "<br>" + GPXDataFiles[i].stats.waypoints[j][0]
-                + ","
-                + GPXDataFiles[i].stats.waypoints[j][1]
-                + "<br>Click to Copy Text";
+            // Add the track polyline
+            var polyline = L.Polyline.fromEncoded(response.stats.polyline, {
+                color: trackColours[ColourIterator]
+            }).addTo(trackGroup);
 
-            L.marker([
-                GPXDataFiles[i].stats.waypoints[j][0],
-                GPXDataFiles[i].stats.waypoints[j][1]
-            ],{'icon': orangeIcon})
-            .bindTooltip(txt)
-            .on("click", function(e) {
-                navigator.clipboard.writeText(e.target._tooltip._content.replace("<br>", "\n"));
-                window.alert("Copied \"" + e.target._tooltip._content.replace("<br>", "\n") + "\" to clipboard.");
-            })
-            .addTo(HikeMap);
-        }
-
-        GPXDataFiles[i].stats.polylineID = trackGroup._leaflet_id;
-        // console.log(polyline);
-
-        trackGroup.on("mouseover", function(e) {
-            // console.log("Hovered on: ", e.target._leaflet_id);
-            for (const [layerGroupID, layerGroup] of Object.entries(Tracks._layers)) {
-                // console.log("Checking layer group ", layerGroupID, " vs ", e.target._leaflet_id, layerGroupID == e.target._leaflet_id);
-                if (layerGroupID != e.target._leaflet_id) {
-                    // console.log("Hiding: ", layerGroup);
-                    layerGroup.setStyle({"opacity": 0.1});
-                }
+            // Different colour next time.
+            if (ColourIterator == trackColours.length - 1) {
+                ColourIterator = 0;
+            } else {
+                ColourIterator += 1;
             }
-        }).on("mouseout", function(e) {
-            for (const [layer, value] of Object.entries(Tracks._layers)) {
-                value.setStyle({"opacity": 0.9});
+
+            // Add any waypoints
+            for (j = 0; j < response.stats.waypoints.length; j++) {
+                var txt = response.stats.waypoints[j][2]
+                    + "<br>" + response.stats.waypoints[j][0]
+                    + ","
+                    + response.stats.waypoints[j][1]
+                    + "<br>Click to Copy Text";
+
+                L.marker([
+                    response.stats.waypoints[j][0],
+                    response.stats.waypoints[j][1]
+                ],{'icon': orangeIcon})
+                .bindTooltip(txt)
+                .on("click", function(e) {
+                    navigator.clipboard.writeText(e.target._tooltip._content.replace("<br>", "\n"));
+                    window.alert("Copied \"" + e.target._tooltip._content.replace("<br>", "\n") + "\" to clipboard.");
+                })
+                .addTo(trackGroup);
             }
-        });
-        L.marker([polyline._latlngs[0].lat, polyline._latlngs[0].lng]).addTo(trackGroup);
-        addTooltip(trackGroup, GPXDataFiles[i]);
+
+            L.marker([polyline._latlngs[0].lat, polyline._latlngs[0].lng]).addTo(trackGroup);
+            addTooltip(polyline, response);
+
+            HikeMap.fitBounds(Tracks.getBounds());
+        })
     }
-    HikeMap.fitBounds(Tracks.getBounds());
-    populateGPXTable();
 }
 
 
