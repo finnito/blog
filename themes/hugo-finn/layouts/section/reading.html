@@ -1,7 +1,7 @@
 {{ partial "header.html" . }}
 
 <div class="content">
-    <h2>{{ .Title }}</h2>
+    <h1>{{ .Title }}</h1>
     <h3>Reviews</h3>
     <ul>
     {{ range (.Pages.ByParam "finished").Reverse }}
