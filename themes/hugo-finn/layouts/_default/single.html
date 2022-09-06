@@ -5,6 +5,25 @@
     <p><strong>Posted:</strong> {{ with .Params.date }}<time>{{ time.Format "2 Jan 2006" . }}</time>{{ end }}<br/>
     {{ with .GitInfo }}Updated: <time>{{ .AuthorDate.Format "2 Jan 2006" }}</time>{{ end }}</p>
     {{ .Content }}
+
+    {{ if .Params.series }}
+        <div class="series">
+        {{ $name := index .Params.series 0 }}
+        <p><strong>{{$name}} Series</strong></p>
+        {{ $name := $name | urlize }}
+        {{ $page := . }}
+        {{ $series := index .Site.Taxonomies.series $name }}
+        <ol>
+        {{ range $series.Pages }}
+            {{ if eq .Title $page.Title }}
+                <li>{{.Date.Format "Jan 02, 2006"}} - {{.LinkTitle}}</li>
+            {{ else }}
+                <li>{{.Date.Format "Jan 02, 2006"}} - <a href="{{.Permalink}}">{{.LinkTitle}}</a></li>
+            {{ end }}
+        {{end}}
+        </ol>
+        </div>
+    {{end}}
 </div>
 
 {{ partial "footer.html" . }}
