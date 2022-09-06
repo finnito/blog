@@ -3,18 +3,6 @@
     {{ if eq .Params.layout "gps" }}
     <footer>
 
-    <h4>Similar Posts</h4>
-    <div class="similar-posts">
-    {{ range first 3 (shuffle (where .Site.RegularPages "Params.layout" "gps")) }}
-        <div>
-            <a href="{{ .Permalink }}" title="{{ .Title }}">
-            <p><strong>{{ .Params.emoji }} {{ .Title }}</strong><br>
-                <time>{{ .Params.date | time.Format "2 Jan 2006" }}</time><br>
-                {{ .Params.metaDescription }}
-            </p></a>
-        </div>
-    {{ end }}
-    </div>
 
     </footer>
     {{ end }}
