@@ -4,8 +4,21 @@
     {{ .Content }}
 
     <div class="filters">
-        <input name="filter" type="radio" id="all" checked>
-        <label class="filter-button" for="all">Show All</label>
+        <span>Filter by: </span><br/>
+        <input type="radio" name="filter" id="all" value=""/>
+        <label for="all">Show All</label>
+
+        <input type="radio" name="filter" id="sport" value="🥾,🎿,🏃,🏅,🏔,🚲,🛶,📸" checked/>
+        <label for="sport">Sport</label>
+
+        <input type="radio" name="filter" id="reading" value="📚"/>
+        <label for="reading">Reading</label>
+
+        <input type="radio" name="filter" id="writing" value="✍️,🧑‍🏫"/>
+        <label for="writing">Writing</label>
+
+        <input type="radio" name="filter" id="tech" value="💻,📱"/>
+        <label for="tech">Tech</label>
     </div>
 
     <ul class="archive">
@@ -17,7 +30,7 @@
             {{ range .Pages }}
                 <li>
                     {{ with .Params.emoji }}{{ . }}{{ end }}
-                    {{ if (.Draft) }}<strong>DRAFT: </strong>{{ end }}<a href="{{.Permalink}}">{{.Title}} <time>{{ .PublishDate.Format "2 Jan 2006" }}</time></a>
+                    {{ if (.Draft) }}<strong>DRAFT: </strong>{{ end }}<a href="{{.Permalink}}">{{.Title}} {{ with .Params.author }}by {{ . }}{{end }} <time>{{ .PublishDate.Format "2 Jan" }}</time></a>
                 </li>
             {{ end }}
             </ul>
@@ -26,71 +39,38 @@
 </div>
 
 <script>
-var categories = {
-    sport: ["🚲", "🥾", "🏃", "🏅", "🎿", "🏊", "🚣", "🏔", "🛶"],
-    reading: ["📚", "📕"],
-    teaching: ["🧑‍🏫"],
-    Dev: ["📱", "💻"],
-    Photos: ["📸"],
-};
-
-// Create filter buttons
-for (const [key, value] of Object.entries(categories)) {
-    var filtersContainer = document.querySelector(".filters");
-    var filter = `<input name="filter" type="radio" id="${key}">
-        <label class="filter-button" for="${key}">${key}</label>`;
-    filtersContainer.innerHTML = filtersContainer.innerHTML + filter;
-};
-
-// Add event listeners
-document.addEventListener("DOMContentLoaded", doFilter);
-document.querySelectorAll("input[name='filter']").forEach(function(el) {
-    el.addEventListener("click", doFilter);
-});
-
-// Filter function
-function doFilter() {
-    var filter = document.querySelector("input[name='filter']:checked").id;
-
-    if (filter == "all") {
-        document.querySelectorAll("ul.archive > ul").forEach(function(list) {
-            list.classList.remove("hidden");
-            list.querySelectorAll("li").forEach(function(post) {
-                post.classList.remove("hidden");
-            });
-        });
-        return;
-    }
-
-    var filteredFor = false;
-    document.querySelectorAll("ul.archive > ul").forEach(function(list) {
-        visible = 0;
-        list.querySelectorAll("li").forEach(function(post) {
-            // Check each post
-            for (var i = 0; i < categories[filter].length; i++) {
-                if (post.innerText.indexOf(categories[filter][i]) > -1) {
-                    filteredFor = true; break;
-                }    
-            }
-
-            // Show or hide individual posts
-            if (filteredFor) {
-                post.classList.remove("hidden");
-                visible += 1;
-            } else {
-                post.classList.add("hidden");
-            }
-
-            // Show or hide month groups
-            filteredFor = false;
-            if (visible == 0) {
-                list.classList.add("hidden");
-            } else {
-                list.classList.remove("hidden");
-            }
-        });
+    document.addEventListener("click", function(e) {
+        if (e.target.name == "filter") {
+            filter(document.querySelector("input:checked").value.split(","));
+        }
     });
-}
+
+    document.addEventListener("DOMContentLoaded", function() {
+        filter(document.querySelector("input:checked").value.split(","));
+    });
+
+    function filter (emojiArray) {
+        document.querySelectorAll(".archive li").forEach(function(li) {
+            var visible = emojiArray.some(function(emoji) {
+                return li.innerText.includes(emoji);
+            });
+
+            if (visible) {
+                li.classList.remove("hidden");
+            } else {
+                li.classList.add("hidden");
+            }
+        });
+
+        document.querySelectorAll(".archive ul").forEach(function(ul) {
+            var numVis = ul.querySelectorAll("li:not(.hidden)");
+            if (numVis.length !== 0) {
+                ul.classList.remove("hidden");
+            } else {
+                ul.classList.add("hidden");
+            }
+        })
+    }
 </script>
 
 {{ partial "footer.html" . }}
