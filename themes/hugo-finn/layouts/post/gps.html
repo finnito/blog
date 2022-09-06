@@ -13,14 +13,25 @@
 </div>
 
 <script>
-    var GPXFiles = [{{ range sort (.Resources.Match "*.gpx") }}"{{ .Permalink }}",{{ end }}],
-        GPXDataFiles = [{{ range sort (.Resources.Match "*.gpx") }}{{ index $.Site.Data.gpx (index (split .Title ".") 0) }},{{ end }}];
+    var GPXFiles = [
+        {{ range sort (.Resources.Match "*.gpx") }}
+            "{{ .Permalink }}",
+        {{ end }}
+        ],
+
+        GPXDataFiles = [
+        {{ range sort (.Resources.Match "*.gpx") }}
+            "{{ $.Site.BaseURL }}tracks/{{ index (split .Title ".") 0 }}.json",
+        {{ end }}
+        ];
 </script>
 
+<style>{{ readFile "/themes/hugo-finn/static/css/mod-gps.css" | safeCSS }}</style>
 <link rel="stylesheet" href="/css/leaflet.min.css"/>
- <script src="/js/leaflet.min.js"></script>
-<script src="/js/Polyline.encoded.js" async></script> 
+<script src="/js/leaflet.min.js"></script>
+<script src="/js/Polyline.encoded.js"></script> 
+<script src='/js/Leaflet.fullscreen.min.js'></script>
+<link href="/css/leaflet-fullscreen.min.css" rel="stylesheet"/>
 <script src="/js/multiHike.js" async></script>
-<script src='/js/Leaflet.fullscreen.min.js' async></script>
 
 {{ partial "footer.html" . }}
