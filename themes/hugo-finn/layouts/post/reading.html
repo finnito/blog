@@ -1,12 +1,17 @@
 {{ partial "header.html" . }}
 
 <div class="content">
-    <h1><span class="title"><em>{{ .Title | markdownify }}</em></span> <span class="light">by {{ .Params.author }}</span></h1>
-    <time>Read: {{ .Params.started | time.Format "2 Jan" }} {{ with .Params.finished }}- {{ . | time.Format "2 Jan 2006" }}{{ end }}</time>
-    <p><strong>Genre:</strong> {{ .Params.genre }}</p>
+    <h1>
+        {{ .Title | markdownify }}<br/>
+        <span class="light">by {{ .Params.author }}</span>
+    </h1>
     <div class="book-flex">
         <div>
-        {{ .Content }}
+            <p>
+                <strong>Read:</strong> {{ .Params.started | time.Format "Jan 2" }} {{ with .Params.finished }}-{{ . | time.Format "2, 2006" }}{{ end }}<br/>
+                <strong>Genre:</strong> {{ .Params.genre }}
+            </p>
+            {{ .Content }}
         </div>
         {{ with .Params.cover }}
         <img src="{{ . }}" loading='lazy'/>
