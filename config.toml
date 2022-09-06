@@ -22,6 +22,9 @@ timeout                 = 600000
 [markup.goldmark.renderer]
   unsafe=true
 
+[taxonomies]
+  series = 'series'
+
 [Params]
   subtitle      = "Finn Le Sueur on the internet."
   logo          = "logo.png"
