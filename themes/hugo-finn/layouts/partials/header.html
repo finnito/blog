@@ -26,48 +26,20 @@
     <meta property="og:url" content="{{ .Permalink }}">
   </head>
 
-{{ if in "gps multiGPS" .Params.layout }}
+{{ if in "gps multiGPS adventures" .Params.layout }}
   <body class="gps">
 {{ else }}
   <body>
 {{ end }}
-    <nav>
-      <h2><a href="/" class="home">{{ .Site.Author.name }}</a></h2>
-        <input class="toggle mobile" type="checkbox"/>
-        <div class="hamburger mobile">
-            <div>
-              <span></span>
-              <span></span>
-              <span></span>
-            </div>
-            <p>menu</p>
+    <header>
+      <nav>
+        <div class="fa">
+          <h2><a href="/" class="home">{{ .Site.Author.name }}</a></h2>
+          <p class="emoji">🏔 🏃‍♂️ 🎿 🛶 🚴‍♂️ 🧗 🧘‍♂️</p>
         </div>
-        <div class="nav-wrapper">
-          <div>
-            <p>I am a Science and Physics teacher from Christchurch, New Zealand who writes code in his spare time, but would really rather be outside doing almost any type of sport!</p>
-            <ul class="menu">
-              {{ $currentPage := . }}
-              <li class='{{ if eq .RelPermalink "/" }} active{{end}}'><a href="/" title="Home">Home</a></li>
-              {{ range .Site.Menus.main }}
-              <li class='{{if or ($currentPage.IsMenuCurrent "main" .) ($currentPage.HasMenuCurrent "main" .) }} active{{end}}'>
-                <a href="{{ .URL | relURL }}">{{ .Name }}</a>
-              </li>
-              {{ end }}
-                <li><a href="mailto:finn@lesueur.nz?subject=Finn.LeSueur%20Contact%20Form">Email Me</a></li>
-                <li><a href="/index.xml">RSS Feed</a></li>
-            </ul>
-
-            Me, Elsewhere
-            <ul class="menu">
-              <li><a href="https://putaiao.nz">- My Teaching Notes</a></li>
-              <li><a href="https://github.com/Finnito">- Github</a></li>
-              <li><a href="https://strava.com/athletes/finn_lesueur">- Strava</a></li>
-            </ul>
-            <p class="emoji">🏔 🏃‍♂️ 🎿 🛶 🚴‍♂️ 🧗 🧘‍♂️</p>
-          </div>
-      </div>
-    </nav>
-    {{ if in "gps fullGPS" .Params.layout }}
-    <div id="hikeMap"></div>
-    {{ end }}
+      </nav>
+      {{ if in "gps fullGPS adventures" .Params.layout }}
+      <div id="hikeMap"></div>
+      {{ end }}
+    </header>
     <main>
