@@ -1,0 +1,14 @@
+.series {
+  padding: 0.5rem;
+  border: 1px solid lightgray;
+  border-radius: 0.25rem;
+  display: inline-block;
+  margin-bottom: 2rem;
+}
+
+.series ol {
+  margin: 0;
+  padding-left: 1.5rem;
+}
+
+.series p { margin:0; }

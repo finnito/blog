@@ -1,0 +1,54 @@
+html {
+	font-family: Book Antiqua, Georgia, serif;
+	color: var(--black);
+	line-height: 1.4;
+	font-size: 17px;
+}
+
+h1 { line-height: 0.8; }
+
+time, figcaption {
+  text-transform: uppercase;
+  color: var(--grey);
+  font-size: 0.8rem;
+}
+
+pre,
+li > code,
+p > code {
+  padding: 0.25rem;
+  border-radius: 0.25rem;
+  overflow: auto;
+  color: black;
+  white-space: pre;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  word-wrap: normal;
+  font-family: monospace;
+  background: #f5f6fa;
+}
+
+a {
+  color: var(--main-blue);
+  text-decoration: none;
+  border-bottom: 0;
+}
+
+nav > ul a {
+  padding: 0.25rem 0.5rem;
+  margin: 0 0.5rem;
+}
+
+.emoji { font-size: 0.75rem; }
+
+@media (min-width: 768px) {
+  .emoji { font-size: 1rem; }
+}
+
+h2 a { color: black; }
+
+p:has(+ ul) { margin-bottom: 0; }
+
+p:first-child:last-child,
+p:only-of-type { margin: 0.5rem; }
+
+.light { font-size: 60%; font-weight: 300; }
