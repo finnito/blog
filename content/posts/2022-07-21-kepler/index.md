@@ -5,9 +5,8 @@ date: 2022-07-21
 emoji: 🥾
 type: "post"
 layout: "gps"
-metaDescription: ""
-metaImage: ""
-draft: true
+metaDescription: "An excellent 3-4 day hike for any season in th Fiordland region with stunning mountain, lake and forest views."
+metaImage: "IMG_4162.jpeg"
 ---
 
 ## Day 1: Luxmore Hut
