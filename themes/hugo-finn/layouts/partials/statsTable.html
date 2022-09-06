@@ -5,8 +5,9 @@
         {{ $totalElevGain := 0 }}
         {{ $totalElevLoss := 0 }}
 
-        {{ range .Page.Resources.Match "*.gpx" }}
+        {{ range .Resources.Match "*.gpx" }}
             {{ $track := index $.Site.Data.gpx (index (split .Title ".") 0) }}
+
             {{ $distanceKm := printf "%.2f" (div $track.stats.distance 1000) }}
             
             {{ $seconds := printf "%02.0f" (float (mod (mod $track.stats.duration 3600) 60)) }}
