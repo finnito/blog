@@ -2,11 +2,9 @@
 
 python3 stats.py
 
-dest=~/Sites/public.finn.lesueur.nz/
-
 rm -r ~/Sites/public.finn.lesueur.nz/
 
-hugo --config="config.toml" --destination="$dest"
+hugo --config="config.toml" --destination="$HOME/Sites/public.finn.lesueur.nz/"
 
 rsync \
 	--archive \
@@ -15,5 +13,6 @@ rsync \
 	--stats \
 	--progress \
 	--chown=www-data:www-data \
-	~/Sites/public.finn.lesueur.nz/ \
+	--rsh="ssh -p29163" \
+	"$HOME/Sites/public.finn.lesueur.nz/" \
 	root@172.105.169.195:/srv/finn.lesueur.nz/
