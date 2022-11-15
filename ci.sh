@@ -34,8 +34,8 @@ if [[ "$localHash" != "$remoteHash" ]]; then
 	python3 stats.py
 
 	# Remove last build
-	rm -r "$HOME/CI/blog-build"
-	mkdir -p "$HOME/CI/blog-build"
+	# rm -r "$HOME/CI/blog-build"
+	# mkdir -p "$HOME/CI/blog-build"
 
 	# Build site with Hugo
 	./hugo --config="config.toml" --destination="$HOME/CI/blog-build/"
