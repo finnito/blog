@@ -24,6 +24,27 @@
     
     <meta property="og:type" content="website">
     <meta property="og:url" content="{{ .Permalink }}">
+
+    <style>
+      {{ readFile "/themes/hugo-finn/static/css/style.css" | safeCSS }}
+      {{ readFile "/themes/hugo-finn/static/css/mod-typography.css" | safeCSS }}
+
+      {{ if in "home" .Title }}
+        {{ readFile "/themes/hugo-finn/static/css/mod-home.css" | safeCSS }}
+      {{ end }}
+
+      {{ if .Params.series }}
+        {{ readFile "/themes/hugo-finn/static/css/mod-series.css" | safeCSS }}
+      {{ end }}
+
+      {{ if eq "reading" .Params.layout }}
+        {{ readFile "/themes/hugo-finn/static/css/mod-reading.css" | safeCSS }}
+      {{ end }}
+
+      {{ if in "gps multiGPS" .Params.layout }}
+    
+      {{ end  }}
+    </style>
   </head>
 
 {{ if in "gps multiGPS adventures" .Params.layout }}
