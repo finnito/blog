@@ -50,7 +50,7 @@ if [[ "$localHash" != "$remoteHash" ]]; then
 		--chown=www-data:www-data \
 		--rsh="ssh -p29163" \
 		"$HOME/CI/blog-build/" \
-		finn@172.105.169.195:/srv/finn.lesueur.nz/
+		root@172.105.169.195:/srv/finn.lesueur.nz/
 
 	# Leave Python3 venv
 	deactivate
