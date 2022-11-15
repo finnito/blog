@@ -20,7 +20,8 @@ git fetch
 localHash=$(cat .git/refs/heads/master)
 remoteHash=$(cat .git/refs/remotes/origin/master)
 
-if ["$localHash" != "$remoteHash"]; then
+printf "=== Comparing ===\nLocal  Hash: %s\nRemote Hash: %s" "$localHash" "$remoteHash"
+
 if [[ "$localHash" != "$remoteHash" ]]; then
 	# Enter Python3 venv
 	source venv/bin/activate
