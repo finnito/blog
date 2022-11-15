@@ -11,7 +11,7 @@
         <input type="radio" name="filter" id="sport" value="🥾,🎿,🏃,🏅,🏔,🚲,🛶,📸" checked/>
         <label for="sport">Sport</label>
 
-        <input type="radio" name="filter" id="reading" value="📚"/>
+        <input type="radio" name="filter" id="reading" value="📚,🎧"/>
         <label for="reading">Reading</label>
 
         <input type="radio" name="filter" id="writing" value="✍️,🧑‍🏫"/>
@@ -25,10 +25,20 @@
         <!-- Ranges through content/posts/*.md -->
         {{ $pages := .Site.RegularPages }}
         {{ range $pages.GroupByDate "January 2006" "desc" }}
-            <ul>
+
+            {{ $hasVisible := 0 }}
+            {{ range .Pages }}
+                {{ if in "🥾 🎿 🏃 🏅 🏔 🚲 🛶 📸" .Params.emoji }}
+                    {{ $hasVisible = 1 }}
+                {{ end }}
+            {{ end }}
+ 
+            <ul {{ if eq $hasVisible 0 }}class="hidden"{{ end }}>
             <p>{{ .Key }}</p>    
             {{ range .Pages }}
-                <li>
+                {{ $isSport := in "🥾 🎿 🏃 🏅 🏔 🚲 🛶 📸" .Params.emoji }}
+
+                <li {{ if eq $isSport false }}class="hidden"{{ end }}>
                     {{ with .Params.emoji }}{{ . }}{{ end }}
                     {{ if (.Draft) }}<strong>DRAFT: </strong>{{ end }}<a href="{{.Permalink}}">{{.Title}} {{ with .Params.author }}by {{ . }}{{end }} <time>{{ .PublishDate.Format "2 Jan" }}</time></a>
                 </li>
@@ -43,10 +53,6 @@
         if (e.target.name == "filter") {
             filter(document.querySelector("input:checked").value.split(","));
         }
-    });
-
-    document.addEventListener("DOMContentLoaded", function() {
-        filter(document.querySelector("input:checked").value.split(","));
     });
 
     function filter (emojiArray) {
