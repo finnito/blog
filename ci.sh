@@ -21,6 +21,7 @@ localHash=$(cat .git/refs/heads/master)
 remoteHash=$(cat .git/refs/remotes/origin/master)
 
 if ["$localHash" != "$remoteHash"]; then
+if [[ "$localHash" != "$remoteHash" ]]; then
 	# Enter Python3 venv
 	source venv/bin/activate
 
