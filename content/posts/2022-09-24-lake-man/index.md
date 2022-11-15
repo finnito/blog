@@ -7,6 +7,7 @@ type: "post"
 layout: "gps"
 metaDescription: "A wonderful and approachable 3-day trip in Lewis Pass."
 metaImage: "IMG_8460.jpg"
+people: ["Finn", "Jen"]
 ---
 
 ## Day 1: St Jacob's Hut
