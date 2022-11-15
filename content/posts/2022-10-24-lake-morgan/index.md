@@ -7,6 +7,7 @@ type: "post"
 layout: "gps"
 metaDescription: "A challenging but stunning three-day trip on the edge of the Southern Alps with plenty of scenery to amaze."
 metaImage: "IMG_8590.jpg"
+people: ["Finn", "Jen"]
 ---
 
 ## Day 1: Lake Morgan
