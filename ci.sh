@@ -34,6 +34,7 @@ if [[ "$localHash" != "$remoteHash" ]]; then
 
 	# Remove last build
 	rm -r "$HOME/CI/blog-build"
+	mkdir -p "$HOME/CI/blog-build"
 
 	# Build site with Hugo
 	./hugo --config="config.toml" --destination="$HOME/CI/blog-build/"
