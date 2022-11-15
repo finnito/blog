@@ -7,12 +7,12 @@ dest=~/Sites/public.finn.lesueur.nz/
 hugo server \
 	--disableFastRender \
 	--forceSyncStatic \
+	--buildDrafts \
 	--renderToDisk \
-	--cleanDestinationDir \
 	--gc \
 	--noHTTPCache \
-	--buildDrafts \
-	--buildFuture \
 	--port=8888 \
+	--minify \
 	--destination="$dest" \
-	--enableGitInfo
+	--enableGitInfo \
+	--verbose
