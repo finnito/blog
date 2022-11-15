@@ -38,11 +38,6 @@ header nav {
   padding-bottom: 0.5rem;
 }
 
-footer nav {
-  border-top: 0.5rem;
-  border-top: 1px solid lightgray;
-}
-
 nav > ul {
   scroll-snap-type: x mandatory;
   display: flex;
@@ -107,12 +102,6 @@ main {
   position: relative;
   word-wrap: break-word;
   min-width:  0;
-}
-
-footer {
-  margin-top: 1rem;
-  grid-area: footer;
-  padding: 0 1rem 1rem 1rem;
 }
 
 main > ul,
