@@ -31,6 +31,9 @@ header {
 
 footer {
   grid-area: footer;
+  border-top: 1px solid lightgray;
+  margin-top: 1rem;
+  padding: 1rem 0.5rem;
 }
 
 header nav {
@@ -45,6 +48,7 @@ nav > ul {
   flex-wrap: nowrap;
   white-space: nowrap;
   overflow-x: auto;
+  overflow-y: hidden;
   left: -0.5rem;
   width: calc(100% + 1rem);
   position: relative;
