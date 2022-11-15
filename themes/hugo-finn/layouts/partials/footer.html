@@ -12,26 +12,6 @@
         </ul>
       </nav>
     </footer>
-    <style>
-      {{ readFile "/themes/hugo-finn/static/css/style.css" | safeCSS }}
-      {{ readFile "/themes/hugo-finn/static/css/mod-typography.css" | safeCSS }}
-
-      {{ if in "home" .Title }}
-        {{ readFile "/themes/hugo-finn/static/css/mod-home.css" | safeCSS }}
-      {{ end }}
-
-      {{ if .Params.series }}
-        {{ readFile "/themes/hugo-finn/static/css/mod-series.css" | safeCSS }}
-      {{ end }}
-
-      {{ if eq "reading" .Params.layout }}
-        {{ readFile "/themes/hugo-finn/static/css/mod-reading.css" | safeCSS }}
-      {{ end }}
-
-      {{ if in "gps multiGPS" .Params.layout }}
-    
-      {{ end  }}
-    </style>
 
     {{ if eq .Params.prism "true" }}
     <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.23.0/prism.min.js" integrity="sha512-YBk7HhgDZvBxmtOfUdvX0z8IH2d10Hp3aEygaMNhtF8fSOvBZ16D/1bXZTJV6ndk/L/DlXxYStP8jrF77v2MIg==" crossorigin="anonymous" async></script>
