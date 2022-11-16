@@ -7,6 +7,7 @@ type: "post"
 layout: "gps"
 metaDescription: "A great day-hike (6hr round trip) that will give you a new perspective on Lyttelton Harbour."
 metaImage: "2019-02-06-0226.jpg"
+people: ["Finn", "Seonaid", "Phoebe"]
 ---
 
 __Hikers:__ Finn, Seonaid, Phoebe
