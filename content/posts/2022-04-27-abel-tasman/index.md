@@ -7,6 +7,7 @@ type: "post"
 layout: "gps"
 metaDescription: "A truly delightful and easy tramp in the Nelson region. One of the greatest of Great Walks."
 metaImage: "IMG_7572.jpg"
+people: ["Finn", "Jen"]
 ---
 
 After our great adventure to Jam Hut and the Clarence, we wanted something a bit quieter. We recuperated for the night in Blenheim before heading to Nelson to catch up with some friends. While there we booked the Abel Tasman! We didn't look into staying at the huts knowing that they would be busy. We thought we'd enjoy camping more as it would be quieter and closer to nature.
