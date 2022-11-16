@@ -60,9 +60,10 @@ if [[ "$localHash" != "$remoteHash" ]]; then
 	deactivate
 
 	# Send success notification to phone
+	message=$(cat "$HOME/CI/$(date +'%Y-%m-%d')")
 	curl \
 		--form-string "t=Blog Rebuilt" \
-		--form-string "m=finn.lesueur.nz rebuilt using CI." \
+		--form-string "m=$message" \
 		--form-string "d=59496" \
 		--form-string "k=pd0cruRXVFrQz6CyGJNh" \
 		https://www.pushsafer.com/api
