@@ -8,7 +8,9 @@ import polyline
 import datetime
 import pytz
 
+# ==========
 # Find all GPX files
+# ==========
 paths = []
 for subdir, dirs, files in os.walk(Path.cwd() / "content"):
     for file in files:
@@ -16,14 +18,41 @@ for subdir, dirs, files in os.walk(Path.cwd() / "content"):
         if filepath.endswith(".gpx"):
             paths.append(filepath)
 
-# Iterate files and build summary
-# data files.
-for file in paths:
+# print(f"{len(paths)} GPX files found")
+
+# ==========
+# Load the cache
+# ==========
+cacheFile = open("parse_gpx.cache", "r")
+data = cacheFile.read()
+cache = json.loads(data)
+cacheFile.close()
+# print(f"Cache has {len(cache)} entries.")
+
+# ==========
+# Determine what files are stale
+# ==========
+hotPaths = []
+for path in paths:
+    if not path in cache:
+        hotPaths.append(path)
+        # print(f"{path.split('/')[-1]} is not in the cache.")
+    elif cache[path] < os.stat(path).st_mtime:
+        hotPaths.append(path)
+        # print(f"{path.split('/')[-1]} is stale.")
+    else:
+        # print(f"{path.split('/')[-1]} fresh.")
+        pass
+
+# ==========
+# Parse stale files
+# ==========
+for file in hotPaths:
     static_file = "static/tracks/" + file.split("/")[-1].split(".gpx")[0] + ".json"
     data_file = "data/gpx/" + file.split("/")[-1].split(".gpx")[0] + ".json"
 
     # if (not os.path.exists(data_file)):
-    print(file)
+    # print(f"Processing {file.split('/')[-1]}")
     gpx_file = open(file, 'r')
     gpx = gpxpy.parse(gpx_file)
 
@@ -56,19 +85,19 @@ for file in paths:
                 elevation_graph_data.append((point.elevation))
                 # print(point, elevation_graph_data)
                 # exit()
-    print(len(elevation_graph_data))
+    # print(len(elevation_graph_data))
     line = polyline.encode(points)
 
     # 2020-02-10 20:26:33+00:00
     dte = gpx.get_time_bounds().start_time
     # dte = datetime.strptime("%Y-%m-%d %H:%M-%S%z", gpx.get_time_bounds().start_time)
-    print(dte.astimezone(tz=pytz.timezone("Pacific/Auckland")))
+    # print(dte.astimezone(tz=pytz.timezone("Pacific/Auckland")))
 
     # Get Waypoints
     waypoints = []
     for waypoint in gpx.waypoints:
         waypoints.append([waypoint.latitude, waypoint.longitude, waypoint.name])
-        print(f'waypoint {waypoint.name} -> ({waypoint.latitude},{waypoint.longitude})')
+        print(f'    Waypoint {waypoint.name} -> ({waypoint.latitude},{waypoint.longitude})')
 
     data                        = {}
     data["stats"]               = {}
@@ -89,3 +118,12 @@ for file in paths:
 
     with open(static_file, "w") as out:
         out.write(json.dumps(data))
+
+    # Update entry
+    cache[file] = os.stat(file).st_mtime
+
+# ==========
+# Write the cache
+# ==========
+with open("parse_gpx.cache", "w") as f:
+    f.write(json.dumps(cache))

@@ -31,7 +31,7 @@ if [[ "$localHash" != "$remoteHash" ]]; then
 	git pull origin master
 	
 	# Rebuild gpx-->json data files
-	python3 stats.py
+	python3 parse_gpx.py
 
 	# Remove last build
 	# rm -r "$HOME/CI/blog-build"
