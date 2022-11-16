@@ -36,10 +36,10 @@ hotPaths = []
 for path in paths:
     if not path in cache:
         hotPaths.append(path)
-        # print(f"{path.split('/')[-1]} is not in the cache.")
+        print(f"{path.split('/')[-1]} is not in the cache.")
     elif cache[path] < os.stat(path).st_mtime:
         hotPaths.append(path)
-        # print(f"{path.split('/')[-1]} is stale.")
+        print(f"{path.split('/')[-1]} is stale.")
     else:
         # print(f"{path.split('/')[-1]} fresh.")
         pass
@@ -97,7 +97,7 @@ for file in hotPaths:
     waypoints = []
     for waypoint in gpx.waypoints:
         waypoints.append([waypoint.latitude, waypoint.longitude, waypoint.name])
-        print(f'    Waypoint {waypoint.name} -> ({waypoint.latitude},{waypoint.longitude})')
+        # print(f'    Waypoint {waypoint.name} -> ({waypoint.latitude},{waypoint.longitude})')
 
     data                        = {}
     data["stats"]               = {}

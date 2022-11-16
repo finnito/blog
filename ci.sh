@@ -5,7 +5,8 @@ set -o nounset   # abort on unbound variable
 set -o pipefail  # don't hide errors within pipes
 
 on_error(){
-	curl --form-string "t=Blog CI Failure" \
+	curl \
+		--form-string "t=Blog CI Failure" \
 		--form-string "m=finn.lesueur.nz CI has failed." \
 		--form-string "d=59496" \
 		--form-string "k=pd0cruRXVFrQz6CyGJNh" \
@@ -38,7 +39,10 @@ if [[ "$localHash" != "$remoteHash" ]]; then
 	# mkdir -p "$HOME/CI/blog-build"
 
 	# Build site with Hugo
-	./hugo --config="config.toml" --destination="$HOME/CI/blog-build/"
+	./hugo \
+		--config="config.toml" \
+		--verbose \
+		--destination="$HOME/CI/blog-build/"
 
 	# Sync build to server
 	rsync \
@@ -46,7 +50,7 @@ if [[ "$localHash" != "$remoteHash" ]]; then
 		--compress \
 		--delete \
 		--stats \
-		--progress \
+		--itemize-changes \
 		--chown=www-data:www-data \
 		--rsh="ssh -p29163" \
 		"$HOME/CI/blog-build/" \
@@ -56,7 +60,8 @@ if [[ "$localHash" != "$remoteHash" ]]; then
 	deactivate
 
 	# Send success notification to phone
-	curl --form-string "t=Blog Rebuilt" \
+	curl \
+		--form-string "t=Blog Rebuilt" \
 		--form-string "m=finn.lesueur.nz rebuilt using CI." \
 		--form-string "d=59496" \
 		--form-string "k=pd0cruRXVFrQz6CyGJNh" \
