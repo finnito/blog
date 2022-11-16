@@ -60,7 +60,7 @@ if [[ "$localHash" != "$remoteHash" ]]; then
 	deactivate
 
 	# Send success notification to phone
-	message=$(cat "$HOME/CI/$(date +'%Y-%m-%d')")
+	message=$(cat "$HOME/CI/blog-logfile-$(date +'%Y-%m-%d').log")
 	curl \
 		--form-string "t=Blog Rebuilt" \
 		--form-string "m=$message" \
