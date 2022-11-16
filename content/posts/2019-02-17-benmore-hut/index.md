@@ -7,6 +7,7 @@ metaDescription: "A short and relaxed walk very nearby Christchurch. Easily acce
 metaImage: "2019-02-17-0289.jpg"
 type: "post"
 layout: "gps"
+people: ["Finn", "Seonaid", "Phoebe"]
 ---
 
 __Hikers:__ Finn, Seonaid, Phoebe
