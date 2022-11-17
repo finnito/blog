@@ -11,10 +11,11 @@ readonly ARGS="$@" # Arguments
 readonly ARGNUM="$#" # Arguments number
 
 on_error(){
+	message=$(cat "/volume1/homes/finn/CI/blog-logfile-$(date +'%Y-%m-%d').log")
 	curl \
 		--silent \
 		--form-string "t=Blog CI Failure" \
-		--form-string "m=finn.lesueur.nz CI has failed." \
+		--form-string "m=$message" \
 		--form-string "d=59496" \
 		--form-string "k=pd0cruRXVFrQz6CyGJNh" \
 		https://www.pushsafer.com/api
