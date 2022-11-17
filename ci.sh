@@ -21,7 +21,7 @@ on_error(){
 		--form-string "k=pd0cruRXVFrQz6CyGJNh" \
 		https://www.pushsafer.com/api
 }
-trap 'on_error' ERR
+trap 'on_error $? $LINENO' ERR
 
 help(){
 	printf "Usage: ./ci.sh --retry
