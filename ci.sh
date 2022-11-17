@@ -48,7 +48,7 @@ do
 	shift
 done
 
-cd "$HOME/CI/blog"
+cd "/volume1/homes/finn/CI/blog"
 
 printf "[$(date +'%T')]: Fetching git\n"
 git fetch --quiet
