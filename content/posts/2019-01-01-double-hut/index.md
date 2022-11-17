@@ -7,6 +7,7 @@ metaImage: "2019-01-01-double-hut (2 of 2).jpg"
 emoji: 🥾
 type: "post"
 layout: "gps"
+people: ["Finn", "Seonaid", "Jay"]
 ---
 
 __Hikers:__ Finn, Seonaid, Jay
