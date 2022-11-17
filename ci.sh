@@ -5,6 +5,7 @@ set -o nounset   # abort on unbound variable
 set -o pipefail  # don't hide errors within pipes
 
 on_error(){
+	echo "Error: ($1) occurred on $2"
 	message=$(cat "/volume1/homes/finn/CI/blog-logfile-$(date +'%Y-%m-%d').log")
 	curl \
 		--silent \
