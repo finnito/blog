@@ -4,12 +4,6 @@ set -o errexit   # abort on nonzero exitstatus
 set -o nounset   # abort on unbound variable
 set -o pipefail  # don't hide errors within pipes
 
-readonly PROGNAME=$(basename $0) # File name
-readonly PROGBASENAME=${PROGNAME%.*} # File name, without the extension
-readonly PROGDIR=$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd) # File directory
-readonly ARGS="$@" # Arguments
-readonly ARGNUM="$#" # Arguments number
-
 on_error(){
 	message=$(cat "/volume1/homes/finn/CI/blog-logfile-$(date +'%Y-%m-%d').log")
 	curl \
