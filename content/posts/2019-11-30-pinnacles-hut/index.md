@@ -7,6 +7,7 @@ type: "post"
 layout: "gps"
 metaDescription: "An excellent overnighter near Christchurch with the potential for some awesome climbing on interesting rock!"
 metaImage: "IMG_2633.jpg"
+people: ["Finn", "Jen", "Thomas", "Tessa"]
 ---
 
 __Hikers:__ Finn, Jen, Thomas and Tessa
