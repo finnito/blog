@@ -84,7 +84,7 @@ if [[ "$localHash" != "$remoteHash" ]] || [[ "$RETRY" == true ]]; then
 	printf "[$(date +'%T')]: Building Hugo\n"
 	./hugo \
 		--config="config.toml" \
-		--quiet
+		--quiet \
 		--destination="/volume1/homes/finn/CI/blog-build/"
 
 	# Sync build to server
