@@ -100,7 +100,7 @@ if [[ "$localHash" != "$remoteHash" ]] || [[ "$RETRY" == true ]]; then
 		root@172.105.169.195:/srv/finn.lesueur.nz/
 
 	# Leave Python3 venv
-	printf "[$(date +'%T')]: Deactivating venv"
+	printf "[$(date +'%T')]: Deactivating venv\n"
 	deactivate
 
 	# Send success notification to phone
