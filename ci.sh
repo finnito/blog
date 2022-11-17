@@ -49,8 +49,8 @@ done
 
 cd "$HOME/CI/blog"
 
-git fetch
 printf "[$(date +'%T')]: Fetching git\n"
+git fetch --quiet
 
 localHash=$(cat .git/refs/heads/master)
 remoteHash=$(cat .git/refs/remotes/origin/master)
@@ -64,8 +64,8 @@ if [[ "$localHash" != "$remoteHash" ]] || [[ "$RETRY" == true ]]; then
 
 	# CI is behind master.
 	# Get most recent changes then deploy.
-	git pull origin master
 	printf "[$(date +'%T')]: Pulling changes\n"
+	git pull origin master --quiet
 	
 	# Rebuild gpx-->json data files
 	printf "[$(date +'%T')]: Running parse_gpx.py\n"
