@@ -93,7 +93,6 @@ if [[ "$localHash" != "$remoteHash" ]] || [[ "$RETRY" == true ]]; then
 		--archive \
 		--compress \
 		--delete \
-		--stats \
 		--chown=www-data:www-data \
 		--rsh="ssh -p29163" \
 		"/volume1/homes/finn/CI/blog-build/" \
