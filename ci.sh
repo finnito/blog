@@ -4,6 +4,12 @@ set -o errexit   # abort on nonzero exitstatus
 set -o nounset   # abort on unbound variable
 set -o pipefail  # don't hide errors within pipes
 
+readonly PROGNAME=$(basename $0) # File name
+readonly PROGBASENAME=${PROGNAME%.*} # File name, without the extension
+readonly PROGDIR=$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd) # File directory
+readonly ARGS="$@" # Arguments
+readonly ARGNUM="$#" # Arguments number
+
 on_error(){
 	curl \
 		--silent \
@@ -15,8 +21,35 @@ on_error(){
 }
 trap 'on_error' ERR
 
+RETRY=false
+
+while [ "$#" -gt 0 ]
+do
+	case "$1" in
+	-h|--help)
+		usage
+		exit 0
+		;;
+	-r|--retry)
+		RETRY=true
+		shift
+		;;
+	--)
+		break
+		;;
+	-*)
+		echo "Invalid option '$1'. Use --help to see the valid options" >&2
+		exit 1
+		;;
+	# an option argument, continue
+	*)	;;
+	esac
+	shift
+done
+
 cd "$HOME/CI/blog"
 
+printf "[$(date +'%T')]: Fetching git"
 git fetch
 
 localHash=$(cat .git/refs/heads/master)
@@ -24,7 +57,7 @@ remoteHash=$(cat .git/refs/remotes/origin/master)
 
 # printf "=== Comparing ===\nLocal  Hash: %s\nRemote Hash: %s\n" "$localHash" "$remoteHash"
 
-if [[ "$localHash" != "$remoteHash" ]]; then
+if [[ "$localHash" != "$remoteHash" ]] || [[ "$RETRY" == true ]]; then
 	# Enter Python3 venv
 	source venv/bin/activate
 
