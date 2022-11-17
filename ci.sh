@@ -59,25 +59,28 @@ remoteHash=$(cat .git/refs/remotes/origin/master)
 
 if [[ "$localHash" != "$remoteHash" ]] || [[ "$RETRY" == true ]]; then
 	# Enter Python3 venv
+	printf "[$(date +'%T')]: Activating venv"
 	source venv/bin/activate
 
 	# CI is behind master.
 	# Get most recent changes then deploy.
+	printf "[$(date +'%T')]: Pulling changes"
 	git pull origin master
 	
 	# Rebuild gpx-->json data files
-	time --format="parse_gpx.py: %es" python3 parse_gpx.py
+	printf "[$(date +'%T')]: Running parse_gpx.py"
+	python3 parse_gpx.py
 
 	# Build site with Hugo
-	time --format="hugo: %es" \
-		./hugo \
+	printf "[$(date +'%T')]: Building Hugo"
+	./hugo \
 		--config="config.toml" \
-		--verbose \
+		--quiet
 		--destination="$HOME/CI/blog-build/"
 
 	# Sync build to server
-	time --format="rsync: %es" \
-		rsync \
+	printf "[$(date +'%T')]: Rsync tp VPS"
+	rsync \
 		--archive \
 		--compress \
 		--delete \
@@ -88,6 +91,7 @@ if [[ "$localHash" != "$remoteHash" ]] || [[ "$RETRY" == true ]]; then
 		root@172.105.169.195:/srv/finn.lesueur.nz/
 
 	# Leave Python3 venv
+	printf "[$(date +'%T')]: Deactivating venv"
 	deactivate
 
 	# Send success notification to phone
