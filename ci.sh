@@ -54,7 +54,6 @@ do
 	# an option argument, continue
 	*)	;;
 	esac
-	shift
 done
 
 cd "/volume1/homes/finn/CI/blog"
