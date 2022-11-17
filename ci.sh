@@ -16,13 +16,21 @@ on_error(){
 }
 trap 'on_error' ERR
 
+help(){
+	printf "Usage: ./ci.sh --retry
+Options
+   -r, --retry: Runs the CI without requiring different
+                local and remote hashes.
+"
+}
+
 RETRY=false
 
 while [ "$#" -gt 0 ]
 do
 	case "$1" in
 	-h|--help)
-		usage
+		help
 		exit 0
 		;;
 	-r|--retry)
