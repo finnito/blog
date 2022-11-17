@@ -88,7 +88,7 @@ if [[ "$localHash" != "$remoteHash" ]] || [[ "$RETRY" == true ]]; then
 		--destination="/volume1/homes/finn/CI/blog-build/"
 
 	# Sync build to server
-	printf "[$(date +'%T')]: Rsync tp VPS\n"
+	printf "[$(date +'%T')]: Rsync to VPS\n"
 	rsync \
 		--archive \
 		--compress \
