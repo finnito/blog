@@ -49,8 +49,8 @@ done
 
 cd "$HOME/CI/blog"
 
-printf "[$(date +'%T')]: Fetching git"
 git fetch
+printf "[$(date +'%T')]: Fetching git\n"
 
 localHash=$(cat .git/refs/heads/master)
 remoteHash=$(cat .git/refs/remotes/origin/master)
@@ -59,27 +59,27 @@ remoteHash=$(cat .git/refs/remotes/origin/master)
 
 if [[ "$localHash" != "$remoteHash" ]] || [[ "$RETRY" == true ]]; then
 	# Enter Python3 venv
-	printf "[$(date +'%T')]: Activating venv"
+	printf "[$(date +'%T')]: Activating venv\n"
 	source venv/bin/activate
 
 	# CI is behind master.
 	# Get most recent changes then deploy.
-	printf "[$(date +'%T')]: Pulling changes"
 	git pull origin master
+	printf "[$(date +'%T')]: Pulling changes\n"
 	
 	# Rebuild gpx-->json data files
-	printf "[$(date +'%T')]: Running parse_gpx.py"
+	printf "[$(date +'%T')]: Running parse_gpx.py\n"
 	python3 parse_gpx.py
 
 	# Build site with Hugo
-	printf "[$(date +'%T')]: Building Hugo"
+	printf "[$(date +'%T')]: Building Hugo\n"
 	./hugo \
 		--config="config.toml" \
 		--quiet
 		--destination="$HOME/CI/blog-build/"
 
 	# Sync build to server
-	printf "[$(date +'%T')]: Rsync tp VPS"
+	printf "[$(date +'%T')]: Rsync tp VPS\n"
 	rsync \
 		--archive \
 		--compress \
