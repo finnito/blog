@@ -76,7 +76,7 @@ if [[ "$localHash" != "$remoteHash" ]] || [[ "$RETRY" == true ]]; then
 	./hugo \
 		--config="config.toml" \
 		--quiet
-		--destination="$HOME/CI/blog-build/"
+		--destination="/volume1/homes/finn/CI/blog-build/"
 
 	# Sync build to server
 	printf "[$(date +'%T')]: Rsync tp VPS\n"
@@ -87,7 +87,7 @@ if [[ "$localHash" != "$remoteHash" ]] || [[ "$RETRY" == true ]]; then
 		--stats \
 		--chown=www-data:www-data \
 		--rsh="ssh -p29163" \
-		"$HOME/CI/blog-build/" \
+		"/volume1/homes/finn/CI/blog-build/" \
 		root@172.105.169.195:/srv/finn.lesueur.nz/
 
 	# Leave Python3 venv
@@ -95,7 +95,7 @@ if [[ "$localHash" != "$remoteHash" ]] || [[ "$RETRY" == true ]]; then
 	deactivate
 
 	# Send success notification to phone
-	message=$(cat "$HOME/CI/blog-logfile-$(date +'%Y-%m-%d').log")
+	message=$(cat "/volume1/homes/finn/CI/blog-logfile-$(date +'%Y-%m-%d').log")
 	curl \
 		--silent \
 		--form-string "t=Blog Rebuilt" \
