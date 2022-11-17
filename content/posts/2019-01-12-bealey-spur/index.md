@@ -7,6 +7,7 @@ metaDescription: "A beautiful day walk in the Arthur's Pass - around 6hrs return
 metaImage: "2019-01-12-bealey-spur-0134.jpg"
 type: "post"
 layout: "gps"
+people: ["Finn", "Seonaid", "Jay", "Andrea", "Mylène"]
 ---
 
 __Hikers__: Finn, Seonaid, Jay, Andrea, Mylène
