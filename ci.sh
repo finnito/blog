@@ -33,8 +33,7 @@ if [[ "$localHash" != "$remoteHash" ]]; then
 	git pull origin master
 	
 	# Rebuild gpx-->json data files
-	time --format="parse_gpx.py: %es" \
-		python3 parse_gpx.py
+	time --format="parse_gpx.py: %es" python3 parse_gpx.py
 
 	# Build site with Hugo
 	time --format="hugo: %es" \
