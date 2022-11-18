@@ -17,6 +17,13 @@
         <img src="{{ . }}" loading='lazy'/>
         {{ end }}
     </div>
+    <section id="isso-thread" data-title="{{ .Title }}" data-isso-id="{{ .Slug }}"></section>
 </div>
+
+<script 
+    data-isso-avatar=false
+    data-isso-vote=false
+    data-isso-id="{{ .Slug }}"
+    src="https://isso.lesueur.nz/js/embed.min.js"></script>
 
 {{ partial "footer.html" . }}
