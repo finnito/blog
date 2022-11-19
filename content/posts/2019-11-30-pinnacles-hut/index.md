@@ -7,10 +7,8 @@ type: "post"
 layout: "gps"
 metaDescription: "An excellent overnighter near Christchurch with the potential for some awesome climbing on interesting rock!"
 metaImage: "IMG_2633.jpg"
-people: ["Finn", "Jen", "Thomas", "Tessa"]
+people: ["Finn", "Jen", "Thomas F", "Tessa"]
 ---
-
-__Hikers:__ Finn, Jen, Thomas and Tessa
 
 We set off for this trip excited for a nice ovrenighter near Christchurch. I had convinced the others that we should consider putting the tents into the car in case there are lots of cars at the carpark and we feel like we should bring them. Once we arrived at the carpark someone asked _"Did we have to book the hut?"_, and it turns out, yes we did have to book the hut, and no I didn't do that. It had been a few years since I did this track and I hadn't thought about that! We checked the [DOC website for Pinnacles Hut](https://www.doc.govt.nz/parks-and-recreation/places-to-go/canterbury/places/mount-somers-area/things-to-do/huts/pinnacles-hut/) and turns out it was full! We packed both the tents along with all our climbing gear and were __fully laden__.
 

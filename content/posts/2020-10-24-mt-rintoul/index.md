@@ -7,6 +7,7 @@ type: "post"
 layout: "gps"
 metaDescription: "An excellent three-day trip in the Richmond Ranges with a good amount of climbing, distance and potential for views on a clear day!"
 metaImage: "IMG_6098.jpg"
+people: ["Finn", "Jen"]
 ---
 
 __Hikers:__ Finn & Jen

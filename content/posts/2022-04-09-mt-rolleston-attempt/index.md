@@ -7,9 +7,8 @@ type: "post"
 layout: "gps"
 metaDescription: "A wicked autumn adventure up Mt Rolleston and a great trail run to Arthur's Pass."
 metaImage: "IMG_3601.jpeg"
+people: ["Finn", "Justin", "Francie", "Becky"]
 ---
-
-__Hikers__: Finn, Justin (Dad), Francie (Mum), and Becky
 
 The day started at 5 am when my alarm went off. I snuck out of bed, crept into some clothes and wandered down the driveway with my backpack to wait for my parents to pick me up. We stopped in Arthur's Pass to pick up Becky and had another coffee which was much needed!
 

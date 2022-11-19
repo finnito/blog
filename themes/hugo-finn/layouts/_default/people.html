@@ -1,0 +1,26 @@
+{{ partial "header.html" . }}
+
+<div class="content">
+    {{ .Content }}
+
+    <ul class="archive">
+        <!-- Ranges through content/posts/*.md -->
+        {{ $people := slice }}
+        {{ range .Site.Pages }}
+            {{ with .Params.people }}
+            {{ $people = union $people . }}
+            {{ end }}
+        {{ end }}
+        {{ range sort (uniq $people) }}
+            {{ $person := . }}
+            <li>{{ $person }}</li>
+            <ul>
+                {{ range where $.Site.Pages "Params.people" "intersect" (slice $person) }}
+                <li>{{ .Params.emoji }} <a href="/posts/{{ .Slug }}" title="{{ .Title }}">{{ .Title }}</a></li>
+                {{ end }}
+            </ul>
+        {{ end }}
+    </ul>
+</div>
+
+{{ partial "footer.html" . }}

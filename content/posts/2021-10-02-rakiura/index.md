@@ -7,6 +7,7 @@ type: "post"
 layout: "gps"
 metaDescription: "An excellent 8-day, 110km+, 6600m+ trip around a beautiful part of Rakiura. Highly, highly recommended!"
 metaImage: "IMG_6883.jpg"
+people: ["Finn", "Jen", "Francie", "Justin", "Henri", "Neil"]
 ---
 
 __Hikers:__ Finn, Jen, Francie, Justin, Henri and Neil

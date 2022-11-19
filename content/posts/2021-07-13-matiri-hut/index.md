@@ -7,6 +7,7 @@ type: "post"
 layout: "gps"
 metaDescription: "A quick and well-formed trail in to Matiri Hut and Lake. It passes through a newly built hydroelectric scheme and would make a good jumping-off point for futher exploring."
 metaImage: "20210713_153258.jpg"
+people: ["Finn", "Jen"]
 ---
 
 __Runners:__ Finn & Jen (July 13th, 2021)

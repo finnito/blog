@@ -7,9 +7,8 @@ type: "post"
 layout: "gps"
 metaDescription: "A great 2-day hike or 1-day trail run in the Arthur's Pass area. 37km, 7hr trip when running."
 metaImage: "IMG_3340.jpeg"
+people: ["Finn", "Jen"]
 ---
-
-__Runners__: Finn and Jen
 
 We have a couple of friends who are doing [Coast to Coast](https://www.coasttocoast.co.nz/) in 2022 and were participating in the Rasdex Classic kayak race down the Waimakariri. I volunteered to shuttle them up to the top of the river in the car and they were to bike back to Christchurch at the end.
 

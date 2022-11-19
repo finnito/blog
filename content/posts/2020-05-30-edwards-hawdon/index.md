@@ -7,9 +7,8 @@ metaImage: "IMG_5421.jpg"
 emoji: 🏔
 type: "post"
 layout: "gps"
+people: ["Finn", "Jen", "Thomas F"]
 ---
-
-__Hikers:__ Finn, Jen & Tom (May 30th, 2020)
 
 ## Day 1: Greyneys Shelter to Edwards Hut
 

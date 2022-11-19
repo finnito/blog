@@ -7,9 +7,8 @@ type: "post"
 layout: "gps"
 metaDescription: "A beautiful 3-day tramp through wide valleys, dense bush and snowy tops. It visits two very memorable (if different) huts and passes through some of the best scenery in New Zealand."
 metaImage: "IMG_2683.jpg"
+people: ["Finn", "Jen", "Francie", "Justin", "Neil"]
 ---
-
-__Hikers:__ Finn, Jen, Francie, Justin and Neil (July 22nd, 2021)
 
 <nav id="TableOfContents">
   <h3>Contents</h3>

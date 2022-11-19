@@ -7,6 +7,7 @@ type: "post"
 layout: "gps"
 metaDescription: "An excellent three day tramping-packraft trip near Kāikora with a good mix of hard tramping and excellent wave-trains and rapids."
 metaImage: "IMG_3731.jpeg"
+people: ["Finn", "Jen"]
 ---
 
 The night before the trip we stayed in Kāikoura at [Alpine Pacific Holiday Park](https://alpine-pacific.co.nz). There are some very cheap and totally acceptable rooms available, and as a bonus, there is very good coffee down the road at [The Beach House Cafe](https://beachhousecafe.co.nz). Unfortunately, we are still slack with mornings and didn't get hiking until 10:10 am.

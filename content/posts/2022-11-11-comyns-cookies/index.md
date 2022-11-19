@@ -8,6 +8,7 @@ layout: "gps"
 metaDescription: ""
 metaImage: ".jpg"
 draft: true
+people: ["Finn", "Jen"]
 ---
 
 ## Day 1: Comyns Hut

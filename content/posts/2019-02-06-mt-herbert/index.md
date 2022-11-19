@@ -10,8 +10,6 @@ metaImage: "2019-02-06-0226.jpg"
 people: ["Finn", "Seonaid", "Phoebe"]
 ---
 
-__Hikers:__ Finn, Seonaid, Phoebe
-
 Mt Herbert is a beautiful walk on the Banks Peninsula with great views back across Lyttelton Harbour to Christchurch. It is around two hours and 40 minutes to Mt Herbert from Kaituna Valley and around two hours and 20 minutes to get back down.
 
 ## Stage 1: Kaituna Valley to Packhorse Hut

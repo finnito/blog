@@ -8,6 +8,7 @@ layout: "gps"
 metaDescription: ""
 metaImage: ""
 draft: true
+people: ["Finn", "Tim H", "Dave"]
 ---
 
 https://www.strava.com/activities/5494013197

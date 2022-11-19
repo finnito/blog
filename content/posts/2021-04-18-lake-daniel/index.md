@@ -7,9 +7,8 @@ type: "post"
 layout: "gps"
 metaDescription: "A lovely gentle walk/run in the Lewis Pass area. 17km return with ~330m vert. on the round trip!"
 metaImage: "IMG_2174.jpeg"
+people: ["Finn", "Jen"]
 ---
-
-__Runners__: Finn + Jen
 
 After being very patient with all the driving I was putting her through to do [Loop the Lake](/posts/loop-the-lake-2021) we decided to stop in Lewis Pass to do a run on our way home. What better run to do after a race than a nice _flat_ cruise into Lake Daniell!
 
