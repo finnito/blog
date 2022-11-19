@@ -7,6 +7,7 @@ type: "post"
 layout: "gps"
 metaDescription: "An excellent 3-4 day hike for any season in th Fiordland region with stunning mountain, lake and forest views."
 metaImage: "IMG_4162.jpeg"
+people: ["Finn", "Jen"]
 ---
 
 ## Day 1: Luxmore Hut

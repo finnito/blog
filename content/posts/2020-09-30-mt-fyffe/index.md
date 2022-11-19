@@ -7,6 +7,7 @@ type: "post"
 layout: "gps"
 metaDescription: "Mt Fyffe is an excellent area for overnight and two night trips, with lots of options, track variety and beautiful views."
 metaImage: "IMG_6028.jpg"
+people: ["Finn", "Jen"]
 ---
 
 ## Day 1: To Mt Fyffe Hut

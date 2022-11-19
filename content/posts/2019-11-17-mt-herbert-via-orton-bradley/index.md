@@ -10,8 +10,6 @@ metaImage: "IMG_5042.JPG"
 people: ["Finn", "Jen"]
 ---
 
-__Hikers__: Finn and Jen
-
 This is yet _another_ route that can take you up to Mt Herbert / Te Ahu Tatiki. It's a bit interesting in that is a DOC route but you access it via Orton Bradley Park and __there is an entry fee to the park.__
 
 > The entrance fee is $5 per adult, $1 per child, to a maximum of $10 per car load. - [Orton Bradley Website](http://www.ortonbradley.nz/#intro)

@@ -7,6 +7,7 @@ type: "post"
 layout: "gps"
 metaDescription: "An easy 2-day tramp near Christchurch. It is easily accessible, family, dog and horse friendly."
 metaImage: "IMG_7014.jpg"
+people: ["Finn", "Jen", "Korra 🐕"]
 ---
 
 ### Day 1: To Boundary Creek Hut

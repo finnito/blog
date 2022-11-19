@@ -7,9 +7,8 @@ type: "post"
 layout: "gps"
 metaDescription: "The Heaphy is a wonderful 4-day in Kahurangi National Park best spent in the sunshine with friends."
 metaImage: "IMG_3443.jpg"
+people: ["Finn", "Jen", "Amy H", "Sam"]
 ---
-
-__Hikers:__ Finn, Jen, Amy & Sam (February 10th, 2020)
 
 ## Day 1: To Heaphy Hut
 

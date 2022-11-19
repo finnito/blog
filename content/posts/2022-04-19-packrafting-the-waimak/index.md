@@ -7,9 +7,8 @@ type: "post"
 layout: "gps"
 metaDescription: ""
 metaImage: "IMG_3656.jpeg"
+people: ["Finn", "Jen"]
 ---
-
-__Rafters__: Finn & Jen
 
 ## The Rafting
 

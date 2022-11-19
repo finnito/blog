@@ -7,9 +7,8 @@ type: "post"
 layout: "gps"
 metaDescription: "A great daywalk that is accessible from Lyttelton and Christchurch. Fore more adventure catch the ferry to and fro Diamond Harbour!"
 metaImage: "IMG_1677.JPG"
+people: ["Finn", "Jen", "Emily H"]
 ---
-
-__Hikers__: Em, Jun, Finn, Jen, Nic & Co.
 
 After a lovely brunch at Corsiar Bay for Em's birthday we headed to the Lyttelton Ferry Terminal to catch the ferry across to Diamond Harbour. Right at the beachfront where the ferry lands a track begins - this track will take you all the way to the summit of Mt Herbert / Te Ahu Patiki (919m). This is the highest point on the Banks Peninsula and it gives some pretty epic views of the habour and up the coast all the way to Kaikoura if the seeing is good!
 

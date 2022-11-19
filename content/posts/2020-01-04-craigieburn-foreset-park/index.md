@@ -7,9 +7,8 @@ type: "post"
 layout: "gps"
 metaDescription: "Jen and I had our first explore of Craigieburn Forest Park over the 2019/2020 New Year. Next time, less walking, more mountain biking!"
 metaImage: "helicopter-hill.jpg"
+people: ["Finn", "Jen"]
 ---
-
-__Hikers:__ Finn & Jen on 01/02/2020
 
 Craigieburn Forest Park has a wide range of walks; everything from a 45-minute walk through the forest, to a multi-hour traverse to [Castle Hill Village][chv]. You can find a lot of information [here on the DOC website][doc], but there is a lot more tracks on the sign at Mistletoe Flat!
 

@@ -7,6 +7,7 @@ type: "post"
 layout: "gps"
 metaDescription: "A great 8km trail run (or walk) in the Catlins. Starting at the same carpark at Mclean Falls Walk it's easy to tick both off your list."
 metaImage: "IMG_6223.jpg"
+people: ["Finn", "Jen"]
 ---
 
 __Runners__: Finn + Jen

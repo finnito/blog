@@ -10,8 +10,6 @@ layout: "gps"
 people: ["Finn", "Seonaid", "Jay", "Andrea", "Mylène"]
 ---
 
-__Hikers__: Finn, Seonaid, Jay, Andrea, Mylène
-
 Bealey Spur is a beautiful day walk in the Arthur's Pass area. The DOC time to Bealey Spur Hut is 2hr 30min hours and around 6.4km (615m climb), but we made there in 1hr 45min. Up to the ridge was another 55min for a total of 8.35km and 906m climbed!
 
 There is a carpark at the bottom of the hill in a small field - the track is popular so don't go and park on the road, you'll just get in everyone's way! Google Maps says that there is a carpark up the road, but it's lying. There's a portaloo at the carpark, a long drop toilet at the start of the track, and also a long drop at Bealey Spur Hut so plenty of options for when nature calls.

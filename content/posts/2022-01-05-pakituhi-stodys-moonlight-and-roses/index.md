@@ -7,9 +7,8 @@ type: "post"
 layout: "gps"
 metaDescription: "An epic four days in some great countryside over a wide variety of landscape, and with days of varying difficulty. Highly recommended!"
 metaImage: "IMG_7477.jpg"
+people: ["Finn", "Jen"]
 ---
-
-__Hikers__: Finn and Jen
 
 The day we got out from the Snowy Gorge - Maitland trip, Jen and I stayed the night in Omarama - very happy to have a shower and eat some vegetables!
 

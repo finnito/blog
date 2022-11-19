@@ -7,6 +7,7 @@ type: "post"
 layout: "gps"
 metaDescription: "A multi-day tramp with stunning landscapes. Some of the track feels contrived, but it is well worth the trip!"
 metaImage: "IMG_5845.jpg"
+people: ["Finn", "Jen", "Justin", "Francie", "Becky", "Neil"]
 ---
 
 ## Day 1: To Highland Creek Hut
