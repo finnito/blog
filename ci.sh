@@ -10,16 +10,21 @@ readonly PROGDIR=$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd) # File directory
 readonly ARGS="$@" # Arguments
 readonly ARGNUM="$#" # Arguments number
 
+RETRY=false
+NOTIFY=true
+
 on_error(){
-	echo "Error: ($1) occurred on $2"
-	message=$(cat "/volume1/homes/finn/CI/blog-logfile-$(date +'%Y-%m-%d').log")
-	curl \
-		--silent \
-		--form-string "t=Blog CI Failure" \
-		--form-string "m=$message" \
-		--form-string "d=59496" \
-		--form-string "k=pd0cruRXVFrQz6CyGJNh" \
-		https://www.pushsafer.com/api
+	if [[ "$NOTIFY" == true ]]; then
+		echo "Error: ($1) occurred on $2"
+		message=$(cat "/volume1/homes/finn/CI/blog-logfile-$(date +'%Y-%m-%d').log")
+		curl \
+			--silent \
+			--form-string "t=Blog CI Failure" \
+			--form-string "m=$message" \
+			--form-string "d=59496" \
+			--form-string "k=pd0cruRXVFrQz6CyGJNh" \
+			https://www.pushsafer.com/api
+	fi
 }
 trap 'on_error $? $LINENO' ERR
 
@@ -31,8 +36,6 @@ Options
 "
 }
 
-RETRY=false
-
 while [ "$#" -gt 0 ]
 do
 	case "$1" in
@@ -42,6 +45,10 @@ do
 		;;
 	-r|--retry)
 		RETRY=true
+		shift
+		;;
+	-n|--nonotify)
+		NOTIFY=false
 		shift
 		;;
 	--)
@@ -102,13 +109,15 @@ if [[ "$localHash" != "$remoteHash" ]] || [[ "$RETRY" == true ]]; then
 	printf "[$(date +'%T')]: Deactivating venv\n"
 	deactivate
 
-	# Send success notification to phone
-	message=$(cat "/volume1/homes/finn/CI/blog-logfile-$(date +'%Y-%m-%d').log")
-	curl \
-		--silent \
-		--form-string "t=Blog Rebuilt" \
-		--form-string "m=$message" \
-		--form-string "d=59496" \
-		--form-string "k=pd0cruRXVFrQz6CyGJNh" \
-		https://www.pushsafer.com/api
+	if [[ "$NOTIFY" == true ]]; then
+		# Send success notification to phone
+		message=$(cat "/volume1/homes/finn/CI/blog-logfile-$(date +'%Y-%m-%d').log")
+		curl \
+			--silent \
+			--form-string "t=Blog Rebuilt" \
+			--form-string "m=$message" \
+			--form-string "d=59496" \
+			--form-string "k=pd0cruRXVFrQz6CyGJNh" \
+			https://www.pushsafer.com/api
+	fi
 fi
