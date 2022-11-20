@@ -3,7 +3,7 @@ title: The Magician’s Nephew
 author: C.S. Lewis
 date: 2022-11-19
 started: 2022-11-19
-finished: 2022-11–19
+finished: 2022-11-19
 genre: Fiction
 type: post
 layout: reading
