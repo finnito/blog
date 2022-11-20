@@ -8,7 +8,7 @@
     <div class="book-flex">
         <div>
             <p>
-                <strong>Read:</strong> {{ .Params.started | time.Format "Jan 2" }} {{ with .Params.finished }}-{{ . | time.Format "2, 2006" }}{{ end }}<br/>
+                <strong>Read:</strong> {{ .Params.started | time.Format "Jan 2" }}{{ with .Params.finished }}-{{ . | time.Format "2, 2006" }}{{ end }}<br/>
                 <strong>Genre:</strong> {{ .Params.genre }}
             </p>
             {{ .Content }}
