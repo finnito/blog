@@ -4,6 +4,8 @@ set -o errexit   # abort on nonzero exitstatus
 set -o nounset   # abort on unbound variable
 set -o pipefail  # don't hide errors within pipes
 
+_START=$(date +%s)
+
 readonly PROGNAME=$(basename $0) # File name
 readonly PROGBASENAME=${PROGNAME%.*} # File name, without the extension
 readonly PROGDIR=$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd) # File directory
@@ -108,6 +110,11 @@ if [[ "$localHash" != "$remoteHash" ]] || [[ "$RETRY" == true ]]; then
 	# Leave Python3 venv
 	printf "[$(date +'%T')]: Deactivating venv\n"
 	deactivate
+
+	_DURATION=$[$(date +%s) - $_START]
+	_SECONDS=$(($_DURATION%60))
+	_MIN=$(($_DURATION/60))
+	printf "[$(date +'%T')]: Duration ${_MIN}:${_SEC}min\n"
 
 	if [[ "$NOTIFY" == true ]]; then
 		# Send success notification to phone
