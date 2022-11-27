@@ -10,8 +10,6 @@ metaImage: "IMG_6098.jpg"
 people: ["Finn", "Jen"]
 ---
 
-__Hikers:__ Finn & Jen
-
 ### Day 1: To [Tarn Hut](https://www.doc.govt.nz/parks-and-recreation/places-to-go/marlborough/places/mount-richmond-forest-park/things-to-do/huts/tarn-hut/)
 
 With a nice three-day weekend lined up Jen and I wanted to do a three-day tramp. A rare opportunity during the school term for me. We drove to Blenhiem on Friday after work and arrived at [a campground quite late](https://goo.gl/maps/ijpEVvGPPSdh6i298). On Saturday we got up quite early and made our way down to the start of the track which is a _rather_ long way down the North Bank of the Wairau River and then upstream of the Goulter River. It's a lot of gravel driving, but worth it. [Carpark Here: https://goo.gl/maps/ND13VQHCxm7MExLy9](https://goo.gl/maps/ND13VQHCxm7MExLy9).
