@@ -2,7 +2,7 @@
 title: "The Heaphy"
 slug: "the-heaphy"
 date: 2020-02-10
-emoji: 🏔
+emoji: 🥾
 type: "post"
 layout: "gps"
 metaDescription: "The Heaphy is a wonderful 4-day in Kahurangi National Park best spent in the sunshine with friends."

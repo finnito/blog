@@ -2,7 +2,7 @@
 title: "Boundary Creek Hut"
 slug: "boundary-creek-hut"
 date: 2021-10-23
-emoji: 🏔
+emoji: 🥾
 type: "post"
 layout: "gps"
 metaDescription: "An easy 2-day tramp near Christchurch. It is easily accessible, family, dog and horse friendly."
