@@ -2,7 +2,7 @@
 title: "Motatapu Track"
 slug: "motatapu-track"
 date: 2020-07-10
-emoji: 🏔
+emoji: 🥾
 type: "post"
 layout: "gps"
 metaDescription: "A multi-day tramp with stunning landscapes. Some of the track feels contrived, but it is well worth the trip!"

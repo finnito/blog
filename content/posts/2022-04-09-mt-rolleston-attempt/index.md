@@ -2,7 +2,7 @@
 title: "Mt Rolleston Attempt"
 slug: "mt-rolleston-attempt"
 date: 2022-04-09
-emoji: 🥾
+emoji: 🏔
 type: "post"
 layout: "gps"
 metaDescription: "A wicked autumn adventure up Mt Rolleston and a great trail run to Arthur's Pass."

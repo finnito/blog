@@ -2,7 +2,7 @@
 title: Tarn Hut
 slug: "tarn-hut"
 date: 2020-01-25
-emoji: 🏔
+emoji: 🥾
 type: "post"
 layout: "gps"
 metaDescription: "Tarn Hut Loop is 2 days, 25.9km, 8hrs 8min walking a very pretty tarn in some very epic country nestled behind Ashley Gorge."
