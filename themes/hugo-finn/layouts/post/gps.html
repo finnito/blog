@@ -2,11 +2,14 @@
 
 <div class="content">
     <h1>{{ .Title | markdownify }}</h1>
-    <p>Activity Date: {{ with .Params.date }}<time>{{ time.Format "2 Jan 2006" . }}</time>{{ end }}
-    {{ with .GitInfo }}<br/>Updated: <time>{{ .AuthorDate.Format "2 Jan 2006" }}</time>{{ end }}
+    <p><strong>Activity Date:</strong> {{ with .Params.date }}<time>{{ time.Format "2 Jan 2006" . }}</time>{{ end }}
+    {{ with .GitInfo }}<br/><strong>Updated:</strong> <time>{{ .AuthorDate.Format "2 Jan 2006" }}</time>{{ end }}
 
     {{ with .Params.people }}
-    <br/><a href="/people" title="View a list of all people.">People</a>: {{ delimit . ", " }}
+    <br/><strong>People:</strong> {{ range $index, $person := . }}
+    <a href="/people#{{ anchorize $person }}" title="View trips with {{ $person }}.">
+        {{ $person -}}
+    </a>{{- if lt $index (sub (len $.Params.people) 1)}}, {{ end -}}{{ end }}
     {{ end }}
     </p>
 
