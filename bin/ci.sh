@@ -36,7 +36,7 @@ help(){
 Options
 	-d, --nodeploy	: Does not rsync the files to VPS.
 	-n, --nonotify	: Does not send Pushsafer notification.
-   -r, --retry		: Runs the CI without requiring different
+	-r, --retry		: Runs the CI without requiring different
                     local and remote hashes.
 "
 }
@@ -94,11 +94,11 @@ if [[ "$localHash" != "$remoteHash" ]] || [[ "$RETRY" == true ]]; then
 	
 	# Rebuild gpx-->json data files
 	printf "[$(date +'%T')]: Running parse_gpx.py\n"
-	python3 parse_gpx.py
+	./bin/parse_gpx.py
 
 	# Build site with Hugo
 	printf "[$(date +'%T')]: Building Hugo\n"
-	./hugo \
+	./bin/hugo \
 		--config="config.toml" \
 		--quiet \
 		--destination="/volume1/homes/finn/CI/blog-build/"
