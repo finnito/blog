@@ -14,6 +14,7 @@ readonly ARGNUM="$#" # Arguments number
 
 RETRY=false
 NOTIFY=true
+DEPLOY=true
 
 on_error(){
 	if [[ "$NOTIFY" == true ]]; then
@@ -33,8 +34,10 @@ trap 'on_error $? $LINENO' ERR
 help(){
 	printf "Usage: ./ci.sh --retry
 Options
-   -r, --retry: Runs the CI without requiring different
-                local and remote hashes.
+	-d, --nodeploy	: Does not rsync the files to VPS.
+	-n, --nonotify	: Does not send Pushsafer notification.
+   -r, --retry		: Runs the CI without requiring different
+                    local and remote hashes.
 "
 }
 
@@ -51,6 +54,10 @@ do
 		;;
 	-n|--nonotify)
 		NOTIFY=false
+		shift
+		;;
+	-d|--nodeploy)
+		DEPLOY=false
 		shift
 		;;
 	--)
@@ -96,16 +103,18 @@ if [[ "$localHash" != "$remoteHash" ]] || [[ "$RETRY" == true ]]; then
 		--quiet \
 		--destination="/volume1/homes/finn/CI/blog-build/"
 
-	# Sync build to server
-	printf "[$(date +'%T')]: Rsync to VPS\n"
-	rsync \
-		--archive \
-		--compress \
-		--delete \
-		--chown=www-data:www-data \
-		--rsh="ssh -p29163" \
-		"/volume1/homes/finn/CI/blog-build/" \
-		root@172.105.169.195:/srv/finn.lesueur.nz/
+	if [[ "$RETRY" == true ]]; then
+		# Sync build to server
+		printf "[$(date +'%T')]: Rsync to VPS\n"
+		rsync \
+			--archive \
+			--compress \
+			--delete \
+			--chown=www-data:www-data \
+			--rsh="ssh -p29163" \
+			"/volume1/homes/finn/CI/blog-build/" \
+			root@172.105.169.195:/srv/finn.lesueur.nz/
+	fi
 
 	# Leave Python3 venv
 	printf "[$(date +'%T')]: Deactivating venv\n"
