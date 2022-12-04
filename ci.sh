@@ -112,7 +112,7 @@ if [[ "$localHash" != "$remoteHash" ]] || [[ "$RETRY" == true ]]; then
 	deactivate
 
 	_DURATION=$[$(date +%s) - $_START]
-	_SECONDS=$(($_DURATION%60))
+	_SEC=$(($_DURATION%60))
 	_MIN=$(($_DURATION/60))
 	printf "[$(date +'%T')]: Duration ${_MIN}:${_SEC}min\n"
 
