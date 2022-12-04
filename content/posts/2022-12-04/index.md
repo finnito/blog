@@ -1,7 +1,7 @@
 ---
 title: "Collective Bargining Continues"
-slug: "2022-06-11"
-date: "2022-06-11"
+slug: "2022-12-04"
+date: "2022-12-04"
 type: "post"
 series: ["Unions"]
 emoji: 🧑‍🏫
