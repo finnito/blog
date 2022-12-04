@@ -136,4 +136,6 @@ if [[ "$localHash" != "$remoteHash" ]] || [[ "$RETRY" == true ]]; then
 			--form-string "k=pd0cruRXVFrQz6CyGJNh" \
 			https://www.pushsafer.com/api
 	fi
+
+	find ../*.log | sort --reverse | awk "NR>5" | xargs rm
 fi
