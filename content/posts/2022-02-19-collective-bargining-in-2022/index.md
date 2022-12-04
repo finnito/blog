@@ -3,6 +3,7 @@ title: Collective Bargining in 2022
 slug: collective-bargining-in-2022
 date: 2022-02-19T19:19:39+13:00
 emoji: 🧑‍🏫
+series: ["Unions"]
 metaDescription: NZ Secondary School Teachers are due for another round of collective negotiations and we need to fight for a large pay increase! Read more details here.
 ---
 
