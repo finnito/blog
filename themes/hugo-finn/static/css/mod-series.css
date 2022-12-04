@@ -1,13 +1,15 @@
 .series {
   padding: 0.5rem;
-  border: 1px solid lightgray;
-  border-radius: 0.25rem;
-  display: inline-block;
-  margin-bottom: 2rem;
+  border: 5px solid #e74c3c;
+  border-radius: 0 1rem 1rem 1rem;
+  display: block;
+  border-image-slice: ;
+  margin: auto auto 2rem auto;
 }
 
-.series ol {
+.series ul {
   margin: 0;
+  list-style-type: disclosure-closed;
   padding-left: 1.5rem;
 }
 
