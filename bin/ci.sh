@@ -137,5 +137,5 @@ if [[ "$localHash" != "$remoteHash" ]] || [[ "$RETRY" == true ]]; then
 			https://www.pushsafer.com/api
 	fi
 
-	find ../*.log | sort --reverse | awk "NR>5" | xargs rm
+	find ../*.log | sort --reverse | awk "NR>5" | xargs -0 -r rm
 fi
