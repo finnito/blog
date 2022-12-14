@@ -41,14 +41,14 @@
         {{ readFile "/themes/hugo-finn/static/css/mod-reading.css" | safeCSS }}
       {{ end }}
 
-      {{ if in "gps multiGPS" .Params.layout }}
-    
+      {{ if in "gps multiGPS inreach" .Params.layout }}
+        {{ readFile "/themes/hugo-finn/static/css/mod-gps.css" | safeCSS }}
       {{ end  }}
     </style>
     <a rel="me" href="https://mastodon.world/@finnito">Mastodon</a>
   </head>
 
-{{ if in "gps multiGPS adventures" .Params.layout }}
+{{ if in "gps multiGPS adventures inreach" .Params.layout }}
   <body class="gps">
 {{ else }}
   <body>
@@ -60,7 +60,7 @@
           <p class="emoji">🏔 🏃‍♂️ 🎿 🛶 🚴‍♂️ 🧗 🧘‍♂️</p>
         </div>
       </nav>
-      {{ if in "gps fullGPS adventures" .Params.layout }}
+      {{ if in "gps inreach fullGPS adventures" .Params.layout }}
       <div id="hikeMap"></div>
       {{ end }}
     </header>
