@@ -5,7 +5,6 @@ title                   = "Finn Le Sueur"
 canonifyurls            = true
 uglyurls                = false
 staticDir               = ["static"]
-
 DefaultContentLanguage  = "en"
 LanguageCode            = "en"
 theme                   = "hugo-finn"
@@ -13,7 +12,6 @@ metaDataFormat          = "yaml"
 pygmentsUseClasses      = true
 pygmentCodeFences       = true
 enableGitInfo           = true
-
 timeout                 = 600000
 
 [_build]
