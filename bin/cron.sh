@@ -10,7 +10,7 @@ readonly PROGDIR=$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd) # File directory
 readonly ARGS="$@" # Arguments
 readonly ARGNUM="$#" # Arguments number
 
-status=$(cat /volume1/web/webhook.status  | tr -s '\n' '')
+status=$(cat /volume1/web/webhook.status  | tr -d '\n')
 if [[ "$status" != "1" ]]; then
 	exit 1
 fi
