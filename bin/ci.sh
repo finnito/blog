@@ -17,17 +17,8 @@ NOTIFY=true
 DEPLOY=true
 
 on_error(){
-	if [[ "$NOTIFY" == true ]]; then
-		echo "Error: ($1) occurred on $2"
-		message=$(cat "/volume1/homes/finn/CI/blog-logfile-$(date +'%Y-%m-%d').log")
-		curl \
-			--silent \
-			--form-string "t=Blog CI Failure" \
-			--form-string "m=$message" \
-			--form-string "d=59496" \
-			--form-string "k=pd0cruRXVFrQz6CyGJNh" \
-			https://www.pushsafer.com/api
-	fi
+	echo "Error: ($1) occurred on $2"
+	cat "/volume1/homes/finn/CI/blog-logfile-$(date +'%Y-%m-%d').log" | ssmtp finn.lesueur@gmail.com
 }
 trap 'on_error $? $LINENO' ERR
 
@@ -125,18 +116,6 @@ if [[ "$localHash" != "$remoteHash" ]] || [[ "$RETRY" == true ]]; then
 	_SEC=$(($_DURATION%60))
 	_MIN=$(($_DURATION/60))
 	printf "[$(date +'%T')]: Duration ${_MIN}:${_SEC}min\n"
-
-	if [[ "$NOTIFY" == true ]]; then
-		# Send success notification to phone
-		message=$(cat "/volume1/homes/finn/CI/blog-logfile-$(date +'%Y-%m-%d').log")
-		curl \
-			--silent \
-			--form-string "t=Blog Rebuilt" \
-			--form-string "m=$message" \
-			--form-string "d=59496" \
-			--form-string "k=pd0cruRXVFrQz6CyGJNh" \
-			https://www.pushsafer.com/api
-	fi
 
 	find ../*.log | sort --reverse | awk "NR>5" | xargs -0 -r rm
 
