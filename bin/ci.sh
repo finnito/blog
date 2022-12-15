@@ -75,7 +75,9 @@ done
 status=$(cat /volume1/web/webhook.status)
 if [[ "$status" != true ]]; then
 	exit 1
+fi
 
+pkill -f ci.sh
 
 cd "/volume1/ContinuousIntegration/blog"
 
