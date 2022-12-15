@@ -11,7 +11,7 @@ readonly ARGS="$@" # Arguments
 readonly ARGNUM="$#" # Arguments number
 
 status=$(cat /volume1/web/webhook.status  | tr -d '\n')
-if [[ "$status" != "1" ]]; then
+if [[ $status != 1 ]]; then
 	exit 1
 fi
 
