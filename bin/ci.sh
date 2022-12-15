@@ -74,8 +74,9 @@ done
 
 cd "/volume1/homes/finn/CI/blog"
 
+printf "Subject: Blog Build Output\n\n"
 printf "[$(date +'%T')]: Fetching git\n"
-git fetch --quiet
+git fetch
 
 localHash=$(cat .git/refs/heads/master)
 remoteHash=$(cat .git/refs/remotes/origin/master)
@@ -138,4 +139,6 @@ if [[ "$localHash" != "$remoteHash" ]] || [[ "$RETRY" == true ]]; then
 	fi
 
 	find ../*.log | sort --reverse | awk "NR>5" | xargs -0 -r rm
+
+	cat "/volume1/homes/finn/CI/blog-logfile-$(date +'%Y-%m-%d').log" | ssmtp finn.lesueur@gmail.com
 fi
