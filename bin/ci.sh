@@ -19,7 +19,7 @@ DEPLOY=true
 on_error(){
 	if [[ "$NOTIFY" == true ]]; then
 		echo "Error: ($1) occurred on $2"
-		message=$(cat "/volume1/ContinuousIntegration/blog-logfile-$(date +'%Y-%m-%d').log")
+		message=$(cat "/volume1/homes/finn/blog-logfile-$(date +'%Y-%m-%d').log")
 		curl \
 			--silent \
 			--form-string "t=Blog CI Failure" \
@@ -72,7 +72,7 @@ do
 	esac
 done
 
-cd "/volume1/ContinuousIntegration/blog"
+cd "/volume1/homes/finn/blog"
 
 printf "[$(date +'%T')]: Fetching git\n"
 git fetch --quiet
@@ -101,7 +101,7 @@ if [[ "$localHash" != "$remoteHash" ]] || [[ "$RETRY" == true ]]; then
 	./bin/hugo \
 		--config="config.toml" \
 		--quiet \
-		--destination="/volume1/ContinuousIntegration/blog-build/"
+		--destination="/volume1/homes/finn/blog-build/"
 
 	if [[ "$RETRY" == true ]]; then
 		# Sync build to server
@@ -112,7 +112,7 @@ if [[ "$localHash" != "$remoteHash" ]] || [[ "$RETRY" == true ]]; then
 			--delete \
 			--chown=www-data:www-data \
 			--rsh="ssh -p29163" \
-			"/volume1/ContinuousIntegration/blog-build/" \
+			"/volume1/homes/finn/blog-build/" \
 			root@172.105.169.195:/srv/finn.lesueur.nz/
 	fi
 
@@ -127,7 +127,7 @@ if [[ "$localHash" != "$remoteHash" ]] || [[ "$RETRY" == true ]]; then
 
 	if [[ "$NOTIFY" == true ]]; then
 		# Send success notification to phone
-		message=$(cat "/volume1/ContinuousIntegration/blog-logfile-$(date +'%Y-%m-%d').log")
+		message=$(cat "/volume1/homes/finn/blog-logfile-$(date +'%Y-%m-%d').log")
 		curl \
 			--silent \
 			--form-string "t=Blog Rebuilt" \
