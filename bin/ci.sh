@@ -72,6 +72,11 @@ do
 	esac
 done
 
+status=$(cat /volume1/web/webhook.status)
+if [[ "$status" != true ]]; then
+	exit 1
+
+
 cd "/volume1/ContinuousIntegration/blog"
 
 printf "[$(date +'%T')]: Fetching git\n"
