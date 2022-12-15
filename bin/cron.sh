@@ -20,7 +20,7 @@ printf "Killing any ci.sh\n"
 pkill -f ci.sh || 
 
 printf "Running CI\n"
-bash /volume1/ContinuousIntegration/blog/bin/ci.sh --retry
+bash /volume1/homes/finn/CI/blog/bin/ci.sh --retry
 
 printf "Updating webhook.status\n"
 echo '0' > '/volume1/web/webhook.status'
