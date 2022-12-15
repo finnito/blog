@@ -15,50 +15,50 @@ enableGitInfo           = true
 timeout                 = 600000
 
 [_build]
-  publishResources = false
+  publishResources      = false
 
 [markup.goldmark.renderer]
-  unsafe=true
+  unsafe                = true
 
 [taxonomies]
-  series = 'series'
+  series                = 'series'
 
 [Params]
-  subtitle      = "Finn Le Sueur on the internet."
-  logo          = "logo.png"
-  favicon       = "favicon.ico"
-  dateFormat    = "January 2, 2006"
-  commit        = true
-  rss           = true
-  comments      = false
-  mainSections  = ["posts", "photos", "reading"]
-  imageHostingURL = "https://img.lesueur.nz"
+  subtitle              = "Finn Le Sueur on the internet."
+  logo                  = "logo.png"
+  favicon               = "favicon.ico"
+  dateFormat            = "January 2, 2006"
+  commit                = true
+  rss                   = true
+  comments              = false
+  mainSections          = ["posts", "photos", "reading"]
+  imageHostingURL       = "https://img.lesueur.nz"
 
 [Author]
-  name    = "Finn Le Sueur"
-  email   = "finn@lesueur.nz"
-  gitlab  = "Finnito"
+  name                  = "Finn Le Sueur"
+  email                 = "finn@lesueur.nz"
+  gitlab                = "Finnito"
 
 [sitemap]
-  changefreq  = "weekly"
-  filename    = "sitemap.xml"
-  priority    = 0.5
+  changefreq            = "weekly"
+  filename              = "sitemap.xml"
+  priority              = 0.5
 
 [mediaTypes]
 [mediaTypes."text/gemini"]
-  suffixes = ["gmi"]
+  suffixes              = ["gmi"]
 
 [outputFormats]
 [outputFormats.Gemini]
-    baseName = "index"
-    isPlainText = true
-    isHTML = false
-    noUgly = false
-    mediaType = "text/gemini"
-    protocol = "gemini://"
-    permalinkable = true
-    path = ""
+    baseName            = "index"
+    isPlainText         = true
+    isHTML              = false
+    noUgly              = false
+    mediaType           = "text/gemini"
+    protocol            = "gemini://"
+    permalinkable       = true
+    path                = ""
 
 [outputs]
-  home = ["HTML", "RSS", "GEMINI"]
-  page = ["HTML", "GEMINI"]
+  home                  = ["HTML", "RSS", "GEMINI"]
+  page                  = ["HTML", "GEMINI"]
