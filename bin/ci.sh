@@ -145,4 +145,5 @@ if [[ "$localHash" != "$remoteHash" ]] || [[ "$RETRY" == true ]]; then
 	fi
 
 	find ../*.log | sort --reverse | awk "NR>5" | xargs -0 -r rm
+	echo '0' > '/volume1/web/webhook.status'
 fi
