@@ -17,7 +17,7 @@ if [[ $status != 1 ]]; then
 fi
 
 printf "Killing any ci.sh\n"
-pkill -f ci.sh
+pkill -f ci.sh || exit 0
 
 printf "Running CI\n"
 bash /volume1/ContinuousIntegration/blog/bin/ci.sh --retry
