@@ -117,7 +117,7 @@ if [[ "$localHash" != "$remoteHash" ]] || [[ "$RETRY" == true ]]; then
 	_MIN=$(($_DURATION/60))
 	printf "[$(date +'%T')]: Duration ${_MIN}:${_SEC}min\n"
 
-	find ../*.log | sort --reverse | awk "NR>5" | xargs -0 -r rm
+	find /volume1/homes/finn/CI/*.log | sort --reverse | awk "NR>5" | xargs --null --no-run-if-empty rm
 
 	cat "/volume1/homes/finn/CI/blog-logfile-$(date +'%Y-%m-%d').log" | ssmtp finn.lesueur@gmail.com
 fi
