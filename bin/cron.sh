@@ -12,15 +12,15 @@ readonly ARGNUM="$#" # Arguments number
 
 status=$(cat /volume1/web/webhook.status  | tr -d '\n')
 if [[ $status != 1 ]]; then
-	# printf "Webhook not fired\n"
-	exit 1
+	printf "Webhook not fired\n"
+	exit 0
 fi
 
-# printf "Updating webhook.status\n"
+printf "Updating webhook.status\n"
 echo '0' > '/volume1/web/webhook.status'
 
-# printf "Killing any ci.sh\n"
-pkill -f ci.sh || 
+printf "Killing any ci.sh\n"
+pkill -f ci.sh ||
 
-# printf "Running CI\n"
-bash /volume1/homes/finn/CI/blog/bin/ci.sh --retry --nonotify
+printf "Running CI"
+bash /volume1/homes/finn/CI/blog/bin/ci.sh --retry --nonotify > "/volume1/homes/finn/CI/blog-logfile-$(date +'%Y-%m-%d').log" 2>&1
