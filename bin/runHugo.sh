@@ -15,4 +15,5 @@ hugo server \
 	--minify \
 	--destination="$dest" \
 	--enableGitInfo \
-	--verbose
+	--verbose \
+	--debug
