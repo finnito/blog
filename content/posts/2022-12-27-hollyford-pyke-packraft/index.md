@@ -19,7 +19,7 @@ On Dec 26th we drove down from Christchurch and camped for the night. There are 
 
 Whakatipu Kā Tuka (Hollyford River) starts with a  couple of rapids to warm you up. One of them has trees across essentially the whole river, however, we found a little channel on the true right which saw us safely through. There is lots of flat river paddling in between the rapids, which is lovely as it allows you to gaze in awe at the mountains around you.
 
-The main rapid to be aware of on this day is Little Home Rapid. It is Class 3+ and not something to go blundering into. Thankfully, it is very obvious. You can hear it coming up and will see the boulder field which marks its start. Move to the true right and exit the river next to the truly humungous boulder. This is where the portage track starts and it is very obvious. We originally stopped at a little beach before that and found a trapline, but no track.
+The main rapid to be aware of on this day is Little Homer Rapid. It is Class 3+ and not something to go blundering into. Thankfully, it is very obvious. You can hear it coming up and will see the boulder field which marks its start. Move to the true right and exit the river next to the truly humungous boulder. This is where the portage track starts and it is very obvious. We originally stopped at a little beach before that and found a trapline, but no track.
 
 We found the portage track quite a grovel. We have a double raft which is quite heavy when loaded with gear. Jen was in charge of our backpacks and the paddles but wasn't faring much better in the mud. Still, better than trying to send the Little Homer Rapid!
 
@@ -50,7 +50,7 @@ If you look carefully you can spot some private baches (cribs) hidden among the 
 
 Martin's Bay Hut is lovely, but the sandflies are pretty vicious. We found the breeze keeps them off you on the beach, though, which is excellent! We walked down to the river mouth for a bit of a better look in the afternoon.
 
-{{< figure name="IMG_4654" title="Jen reading the boat as I take photos." >}}
+{{< figure name="IMG_4654" title="Jen readying the boat as I take photos." >}}
 {{< figure name="IMG_4668" title="Looking back towards Lake McKerrow Hut to admire the sunrise." >}}
 {{< figure name="IMG_4693" title="Looking down Martin's Bay spit." >}}
 {{< figure name="IMG_4717" title="Tara ([White-fronted Tern](https://nzbirdsonline.org.nz/species/white-fronted-tern)) at Martin's Bay lagoon." >}}
