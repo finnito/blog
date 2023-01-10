@@ -233,10 +233,3 @@ function msToHMS( ms ) {
     seconds = ('00' + (seconds % 60)).slice(-2);
     return hours + ":" + minutes;
 }
-
-
-/**
- * Kick off the hike listener
- * when the document has loaded.
- **/
-window.addEventListener("DOMContentLoaded", initHike());
