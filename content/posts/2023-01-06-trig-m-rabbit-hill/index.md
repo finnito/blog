@@ -1,6 +1,6 @@
 ---
 title: "Trig M & Rabbit Hill"
-slug: "trig-m-&-rabbit-hill"
+slug: "trig-m-rabbit-hill"
 date: 2023-01-06
 emoji: 🥾
 type: "post"
