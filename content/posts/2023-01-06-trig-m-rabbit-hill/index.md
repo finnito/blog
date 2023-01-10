@@ -10,11 +10,11 @@ metaImage: "IMG_3964.jpeg"
 people: ["Finn", "Alex", "Liz", "Renee", "Korra 🐕", "Alfie 🐕"]
 ---
 
-We have some excellent neighbours (Liz and Alex) who also have a dog, Alfie. He's a very energetic and cute [German Shorthaired Pointer](https://en.wikipedia.org/wiki/German_Shorthaired_Pointer) and is working on getting doing the [Further Faster Mountain Dog Challenge](https://www.furtherfaster.co.nz/pages/mountain-dog-challenge).
+We have some excellent neighbours (Liz and Alex) who also have a dog, Alfie. He's a very energetic and cute [German Shorthaired Pointer](https://en.wikipedia.org/wiki/German_Shorthaired_Pointer) and is working on doing the [Further Faster Mountain Dog Challenge](https://www.furtherfaster.co.nz/pages/mountain-dog-challenge).
 
 One of the peaks is a straightforward tussocked hill called Trig M in Porters Pass. We got invited along but Jen had work so couldn't come 😢.
 
-We headed off just after 8am and were walking around 9:30am. It took us 52min to reach Trig M up a 4WD track which was very well formed if a bit steep and unrelenting. From there follow a worn foot trail south of Trig M towards Rabbit Hill. The foot trail soon disappears and you are left to find your own way through the tussocks. At the final saddle before Rabbit Hill, you will find a rather marshy area - we couldn't find a good way through it and mostly just got muddy (especially the dogs).
+We headed off just after 8am and were walking around 9:30am. It took us 52min to reach Trig M up a 4WD track which was very well formed, if a bit steep. From there we followed a worn foot trail south of Trig M towards Rabbit Hill. The foot trail soon disappeared and we were left to find own way through the tussocks. At the final saddle before Rabbit Hill, we encountered a rather marshy area - we couldn't find a good way through it and mostly just got muddy (especially the dogs).
 
 The view from Rabbit Hill is well worth the trip. You can see out to the Rakaia River, Lake Coleridge and Redcliffe Stream where you can walk into [Cookies Hut](/posts/comyns-cookies-circuit/). Once you've admired the view to your hearts content, it's simple enough to follow your steps back to Trig M and the car. We got rained on at the end, so had a rather damp and doggy-smelling car on the way home. Delightful.
 
