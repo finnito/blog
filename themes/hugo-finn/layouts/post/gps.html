@@ -19,7 +19,7 @@
 
     {{ .Content }}
 
-    <section id="isso-thread" data-title="{{ .Title }}" data-isso-id="{{ .Slug }}"></section>
+    <button class="load-comments" data-title="{{ .Title }}" data-isso-id="{{ .Slug }}" onclick="loadComments();">Load Comments</button>
 </div>
 
 <script>
@@ -34,19 +34,88 @@
             "{{ $.Site.BaseURL }}/tracks/{{ index (split .Title ".") 0 }}.json",
         {{ end }}
         ];
-</script>
 
-<style>{{ readFile "/themes/hugo-finn/static/css/mod-gps.css" | safeCSS }}</style>
-<link rel="stylesheet" href="/css/leaflet.min.css"/>
-<script src="/js/leaflet.min.js"></script>
-<script src="/js/Polyline.encoded.js"></script> 
-<script src='/js/Leaflet.fullscreen.min.js'></script>
-<link href="/css/leaflet-fullscreen.min.css" rel="stylesheet"/>
-<script src="/js/multiHike.js" async></script>
-<script 
-    data-isso-avatar=false
-    data-isso-vote=false
-    data-isso-id="{{ .Slug }}"
-    src="https://isso.lesueur.nz/js/embed.min.js"></script>
+    function loadComments() {
+        var btn = document.querySelector("button.load-comments");
+
+        var section = document.createElement("section");
+        section.setAttribute("id", "isso-thread");
+        section.setAttribute("data-title", btn.getAttribute("data-title"));
+        section.setAttribute("data-isso-is", btn.getAttribute("data-isso-id"));
+        btn.after(section);
+
+        var script = document.createElement("script");
+        script.setAttribute("data-isso-avatar", "false");
+        script.setAttribute("data-isso-vote", "false");
+        script.setAttribute("data-isso-id", btn.getAttribute("data-isso-id"));
+        script.setAttribute("src", "https://isso.lesueur.nz/js/embed.min.js");
+        document.querySelector("footer").after(script);
+        
+        btn.remove();
+    }
+
+    window.addEventListener("DOMContentLoaded", function() {
+        document.getElementById("hikeMap").addEventListener("click", mapClick);
+    });
+
+    function mapClick() {
+        document.getElementById("hikeMap").removeEventListener("click", mapClick);
+
+        function loadResource(url, type) {
+            return new Promise(function(resolve, reject) {
+                let resource;
+                if (type == "css") {
+                    resource = document.createElement("link");
+                    resource.setAttribute("rel", "stylesheet");
+                    resource.href = url;
+                } else {
+                    resource =document.createElement("script");
+                    resource.src = url;
+                    resource.async = false;
+                }
+                resource.onload = function() {
+                    resolve(url);
+                }
+                resource.onerror = function() {
+                    reject(url);
+                }
+                document.head.appendChild(resource);
+            });
+        }
+
+        var styles = ["/css/leaflet.min.css", "/css/leaflet-fullscreen.min.css"];
+        var stylePromises = [];
+        styles.forEach(function(href) {
+            stylePromises.push(loadResource(href, "css"));
+        });
+
+        function loadScripts() {
+            var scripts = ["/js/leaflet.min.js", "/js/Polyline.encoded.js", "/js/Leaflet.fullscreen.min.js", "/js/multiHike.js"]
+            var scriptPromises = [];
+            scripts.forEach(function(src) {
+                scriptPromises.push(loadResource(src, "js"));
+            });
+
+            Promise.all(scriptPromises)
+            .then(function() {
+                initHike();
+                document.querySelector("button.load-map").remove();
+            })
+            .catch(function(script) {
+                console.log("Error loading: " + script);
+            })
+        }
+
+        
+
+        Promise.all(stylePromises)
+        .then(function() {
+            loadScripts();            
+        })
+        .catch(function(style) {
+            console.log("Error loading: " + style);
+        })
+    }
+</script>
 
 {{ partial "footer.html" . }}
