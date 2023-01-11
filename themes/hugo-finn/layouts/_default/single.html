@@ -3,9 +3,7 @@
 <div class="content">
     <h1>{{ .Title | markdownify }}</h1>
     <p><strong>Posted:</strong> {{ with .Params.date }}<time>{{ time.Format "2 Jan 2006" . }}</time>{{ end }}<br/>
-    {{ with .GitInfo }}Updated: <time>{{ .AuthorDate.Format "2 Jan 2006" }}</time>{{ end }}</p>
-
-    {{ .Content }}
+    {{ with .GitInfo }}<strong>Updated:</strong> <time>{{ .AuthorDate.Format "2 Jan 2006" }}</time>{{ end }}</p>
 
     {{ if .Params.series }}
         <div class="series">
@@ -26,12 +24,11 @@
         </div>
     {{end}}
 
-    <section id="isso-thread" data-title="{{ .Title }}" data-isso-id="{{ .Slug }}"></section>
-    <script 
-      data-isso-avatar=false
-      data-isso-vote=false
-      data-isso-id="{{ .Slug }}"
-      src="https://isso.lesueur.nz/js/embed.min.js"></script>
+    {{ .Content }}
+
+    <button class="load-comments" data-title="{{ .Title }}" data-isso-id="{{ .Slug }}" onclick="loadComments();">Load Comments</button>
+
+    {{ partial "isso-script.html" . }}
 </div>
 
 {{ partial "footer.html" . }}

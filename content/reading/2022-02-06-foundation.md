@@ -9,6 +9,7 @@ type: post
 layout: reading
 cover: https://1.bp.blogspot.com/-CSZMrHOOLGA/Xs8Sz0y1u6I/AAAAAAAAGPw/af5RsFA6tnAdl-K3Aazt2BuAe0OMztzDwCPcBGAYYCw/s1991/Asimov_Foundation_2020-05.jpg
 emoji: 📚
+series: ["Foundation"]
 ---
 
 Foundation has been on my radar for a very long time, and after seeing it mentioned online more frequently since the Apple TV series was released, I finally jumped in!
