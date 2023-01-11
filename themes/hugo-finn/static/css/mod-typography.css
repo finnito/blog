@@ -5,7 +5,7 @@ html {
 	font-size: 17px;
 }
 
-h1 { line-height: 0.8; }
+h1 { line-height: 1; }
 
 time, figcaption {
   text-transform: uppercase;
@@ -38,7 +38,7 @@ nav > ul a {
   margin: 0 0.5rem;
 }
 
-.emoji { font-size: 0.75rem; }
+.emoji { font-size: 0.75rem; margin-bottom: 0; }
 
 @media (min-width: 768px) {
   .emoji { font-size: 1rem; }
@@ -51,4 +51,14 @@ p:has(+ ul) { margin-bottom: 0; }
 p:first-child:last-child,
 p:only-of-type { margin: 0.5rem; }
 
-.light { font-size: 60%; font-weight: 300; }
+.light {
+  font-size: 60%;
+  font-weight: 300;
+  text-align: right;
+  display: block;
+  font-style: italic;
+}
+
+input, select, textarea {
+  font-size: 16px;
+}

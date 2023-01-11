@@ -1,0 +1,20 @@
+<script>
+function loadComments() {
+        var btn = document.querySelector("button.load-comments");
+
+        var section = document.createElement("section");
+        section.setAttribute("id", "isso-thread");
+        section.setAttribute("data-title", btn.getAttribute("data-title"));
+        section.setAttribute("data-isso-is", btn.getAttribute("data-isso-id"));
+        btn.after(section);
+
+        var script = document.createElement("script");
+        script.setAttribute("data-isso-avatar", "false");
+        script.setAttribute("data-isso-vote", "false");
+        script.setAttribute("data-isso-id", btn.getAttribute("data-isso-id"));
+        script.setAttribute("src", "https://isso.lesueur.nz/js/embed.min.js");
+        document.querySelector("footer").after(script);
+
+        btn.remove();
+}
+</script>

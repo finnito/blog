@@ -17,13 +17,28 @@
         <img src="{{ . }}" loading='lazy'/>
         {{ end }}
     </div>
-    <section id="isso-thread" data-title="{{ .Title }}" data-isso-id="{{ .Slug }}"></section>
-</div>
 
-<script 
-    data-isso-avatar=false
-    data-isso-vote=false
-    data-isso-id="{{ .Slug }}"
-    src="https://isso.lesueur.nz/js/embed.min.js"></script>
+    {{ if .Params.series }}
+        <div class="series">
+        {{ $name := index .Params.series 0 }}
+        <p><strong>{{$name}} Series</strong></p>
+        {{ $name := $name | urlize }}
+        {{ $page := . }}
+        {{ $series := index .Site.Taxonomies.series $name }}
+        <ul>
+        {{ range sort $series.Pages ".Params.date" "asc" }}
+            {{ if eq .Title $page.Title }}
+                <li>{{.Date.Format "Jan 02, 2006"}} - {{.LinkTitle}}</li>
+            {{ else }}
+                <li>{{.Date.Format "Jan 02, 2006"}} - <a href="{{.Permalink}}">{{.LinkTitle}}</a></li>
+            {{ end }}
+        {{end}}
+        </ul>
+        </div>
+    {{end}}
+
+    <button class="load-comments" data-title="{{ .Title }}" data-isso-id="{{ .Slug }}" onclick="loadComments();">Load Comments</button>
+</div>
+{{ partial "isso-script.html" . }}
 
 {{ partial "footer.html" . }}
