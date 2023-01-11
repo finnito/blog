@@ -9,7 +9,7 @@ emoji: 🫀
 draft: true
 ---
 
-## Discovery: I've got a murmur!
+## Discovery: I've Got a Murmur!
 
 In 2019 I found myself with a new partner -- Jen. She's pretty rad, if I do say so myself. She is also a doctor, which leads to many interesting conversations that I love. One evening we were having a bit of a snuggle (cute, I know), and she goes "You have a heart murmur!". I didn't know what to make of that and she dismissed it as a thing that happens when you're post exercise and in VT[^1].
 
@@ -44,22 +44,22 @@ Hmm, what can cause that? In my case, a bicuspid aortic valve. Is it bad? Yes. H
 
 > __Aortic dissection__: where the inner layer of the aorta sustains a tear which fills with blood and can cause the aorta to split open (potentially fatal).[^8]
 
-## So, what's the fix?
+## So, What's the Fix? 
 
 To stop the aorta dilatating any further, pressure needs to be reduced. This can be done by replacing the aortic valve to get new leaflets. To do this you need to undergo open heart surgery and be put on a bypass machine.[^9] Pretty serious stuff.
 
 The dilatation of my aorta is such that it should be repaired. This reduces the risk of fatal dissection. The repair can be affected with a Dacron graft to replace the section of dilatated aorta.[^10] Intense!
 
-After this, my left ventrical, which is also dilatated, should _hopefully_ return to normal size. This wil occur because it will not have to accommodate the regurgitated blood.[^11]
+After this, my left ventrical, which is also dilatated, should _hopefully_ return to normal size. This _should_ occur because it will not have to accommodate the regurgitated blood.[^11]
 
 <figure>
-    <img src="https://www.ahajournals.org/cms/asset/1cc6bcd4-0655-48e6-b6f6-d6fbd66a0562/18ff6.jpg"/>
+    <img src="https://cdn.upmc.com/-/media/upmc/services/heart-vascular/conditions-treatments/ctad-illustrations/full-size-images/aortic-root-aneurysm-root-replacement.png?la=en&rev=e662530fae65404891125f0f1a79fd21&hash=6AB850AE7EE043B0CE8D0C3660391702"/>
     <figcaption>
-        <p>A dilated aortic root and Dacron graft. [<a href="https://www.ahajournals.org/doi/10.1161/01.cir.0000154569.08857.7a">Source</a>]</p>
+        <p>A dilated aortic root and Dacron graft. [<a href="https://www.upmc.com/services/heart-vascular/conditions-treatments/aortic-root-aneurysm#treatment">Source</a>]</p>
     </figcaption>
 </figure>
 
-## Where am I now?
+## What Now?
 
 I've had my echo and an appointment with my cardiologist. Now, my case will be presented to the _entire_ set of cardiothorassic surgons at Christchurch Public Hospital. At the meeting they will agree on the most appropriate surgical fix. After that, I get an appointment with my surgon to discuss their recommendations and we go from there..
 
@@ -68,7 +68,7 @@ Finn
 
 [^1]: Ventricular tachycardia: https://www.mayoclinic.org/diseases-conditions/ventricular-tachycardia/symptoms-causes/syc-20355138
 [^2]: An ultrasound of the heart: https://www.healthnavigator.org.nz/health-a-z/e/echocardiogram/
-[^3]: https://ecgwaves.com/topic/doppler-effect-and-doppler-studies-in-echocardiography/
+[^3]: A picture showing the shift in sound waves due to the movement of the object they are reflected off. https://ecgwaves.com/topic/doppler-effect-and-doppler-studies-in-echocardiography/
 [^4]: https://www.mayoclinic.org/diseases-conditions/bicuspid-aortic-valve/cdc-20385577
 [^5]: https://www.mayoclinic.org/diseases-conditions/aortic-stenosis/symptoms-causes/syc-20353139
 [^6]: https://www.mayoclinic.org/diseases-conditions/aortic-valve-regurgitation/symptoms-causes/syc-20353129
