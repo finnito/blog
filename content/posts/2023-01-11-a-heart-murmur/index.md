@@ -6,18 +6,17 @@ type: "post"
 metaDescription: "The start of my journey of learning and discovery of my heart."
 series: ["Journey of the Heart"]
 emoji: 🫀
-draft: true
 ---
 
 ## Discovery: I've Got a Murmur!
 
-In 2019 I found myself with a new partner -- Jen. She's pretty rad, if I do say so myself. She is also a doctor, which leads to many interesting conversations that I love. One evening we were having a bit of a snuggle (cute, I know), and she goes "You have a heart murmur!". I didn't know what to make of that and she dismissed it as a thing that happens when you're post exercise and in VT[^1].
+In 2019 I found myself with a new partner -- Jen. She's pretty rad, if I do say so myself. She is also a doctor, which leads to many interesting conversations that I love. One evening we were having a bit of a snuggle (cute, I know), and she goes "You have a heart murmur!". I didn't know what to make of that and she told me to see "a real doctor", but I was probably just tachycardic[^1]. We both promptly forgot about it.
 
-Fast forward to 2022 and I'm seeing my GP for an unrelated issue and he asks "Can I listen to your heart?". So, he puts in his stethoscope and what do you know "You've got a heart murmur". "Oh yeah! My partner picked that up in 2019 but we both forgot about it." Well, he wanted to investigate it. He refered me to the DHB and a few months later and I got an appointment for an echocardiogram[^2].
+Fast forward to 2022 and I'm seeing my GP for an unrelated issue and he asks "Can I listen to your heart?". So, he puts his stethoscope in his ears and what do you know "You've got a heart murmur". "Oh yeah! My partner picked that up in 2019 but we both forgot about it." Well, he wanted to investigate it. He refered me to the DHB and a few months later and I got an appointment for an echocardiogram[^2].
 
 ## My Malformed Aortic Valve
 
-My echo was performed by a lovely nurse who let me ask lots of questions. I was mostly interested in the doppler shift[^3] I could see on the ultrasound screen -- very interesting stuff! Turns out, it shows the flow of blood. Super cool. She told me that yep, thats definitely a "bicuspid aortic valve" and there's definitely "regurgitation" and a "leaflet looks stenosed". To explain:
+My echo was performed by a lovely technician who let me ask lots of questions. I was mostly interested in the doppler shift[^3] I could see on the ultrasound screen -- very interesting stuff! Turns out, it shows the flow of blood. Super cool. She told me that yep, thats definitely a "bicuspid aortic valve" and there's definitely "regurgitation" and a "leaflet looks stenosed". To explain:
 
 - the aortic valve should have three leaflets not two[^4],
 - stenosed means that the leaflet is not as flexible as it should be and doesn't open/close properly[^5],
@@ -66,7 +65,7 @@ I've had my echo and an appointment with my cardiologist. Now, my case will be p
 Mā te wā,
 Finn
 
-[^1]: Ventricular tachycardia: https://www.mayoclinic.org/diseases-conditions/ventricular-tachycardia/symptoms-causes/syc-20355138
+[^1]: https://www.healthdirect.gov.au/tachycardia
 [^2]: An ultrasound of the heart: https://www.healthnavigator.org.nz/health-a-z/e/echocardiogram/
 [^3]: A picture showing the shift in sound waves due to the movement of the object they are reflected off. https://ecgwaves.com/topic/doppler-effect-and-doppler-studies-in-echocardiography/
 [^4]: https://www.mayoclinic.org/diseases-conditions/bicuspid-aortic-valve/cdc-20385577
