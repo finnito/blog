@@ -3,8 +3,7 @@
   border: 5px solid #e74c3c;
   border-radius: 0 1rem 1rem 1rem;
   display: block;
-  border-image-slice: ;
-  margin: auto auto 2rem auto;
+  margin: 1rem auto 1rem 0;
 }
 
 .series ul {
