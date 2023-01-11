@@ -6,7 +6,7 @@
 }
 
 .archive > ul p {
-  margin-bottom: 0;
+  margin: auto auto 0 0;
   padding-bottom: 0;
 }
 
@@ -16,9 +16,9 @@
   padding-left: 0;
 }
 
-/*.archive ul:has(li:not(.hidden)) {
-  display: block;
-}*/
+.content + p {
+  margin-left: 0;
+}
 
 .archive li {
   line-height: 1.25rem;
