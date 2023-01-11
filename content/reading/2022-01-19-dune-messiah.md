@@ -10,6 +10,7 @@ type: post
 layout: reading
 cover: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQjQr0BewKzJ7kPCfuhcS0xR_JiJKO1a9Enqw&usqp=CAU
 emoji: 📚
+series: ["Dune"]
 ---
 
 I was really excited to discover that Dune was merely the start of Frank Herbert’s Dune universe - and this second book didn’t disappoint!

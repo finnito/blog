@@ -9,6 +9,7 @@ type: post
 layout: reading
 cover: https://jeroenthoughts.files.wordpress.com/2019/02/second-foundation.jpg
 emoji: 📚
+series: ["Foundation"]
 ---
 
 I’m still very much enjoying this series, and this one was no different. It was really interesting to get some insight into The Second Foundation, their motives and how they function. Still, though. Much is left unsaid and I can’t wait for more!
