@@ -9,6 +9,7 @@ type: post
 layout: reading
 emoji: 📚
 cover: https://kbimages1-a.akamaihd.net/18e11ccb-e42b-4861-ba74-37a72141c1d7/353/569/90/False/heretics-of-dune.jpg
+series: ["Dune"]
 ---
 
 This was perhaps my favourite book of the series. I thoroughly enjoyed both the story line and the science fiction-ness of it all. There were lots of interesting plotlines, technology, and hidden complexities to it. I'm very much looking forward to the next book to see how this story concludes.
