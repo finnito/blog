@@ -24,12 +24,11 @@
         </div>
     {{end}}
 
-    <section id="isso-thread" data-title="{{ .Title }}" data-isso-id="{{ .Slug }}"></section>
-    <script 
-      data-isso-avatar=false
-      data-isso-vote=false
-      data-isso-id="{{ .Slug }}"
-      src="https://isso.lesueur.nz/js/embed.min.js"></script>
+    {{ .Content }}
+
+    <button class="load-comments" data-title="{{ .Title }}" data-isso-id="{{ .Slug }}" onclick="loadComments();">Load Comments</button>
+
+    {{ partial "isso-script.html" . }}
 </div>
 
 {{ partial "footer.html" . }}
