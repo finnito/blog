@@ -38,7 +38,7 @@ nav > ul a {
   margin: 0 0.5rem;
 }
 
-.emoji { font-size: 0.75rem; }
+.emoji { font-size: 0.75rem; margin-bottom: 0; }
 
 @media (min-width: 768px) {
   .emoji { font-size: 1rem; }
