@@ -22,10 +22,9 @@ Fast forward to 2022 and I'm seeing my GP for an unrelated issue and he asks "Ca
 
 ### My Malformed Aortic Valve
 
-My echo was performed by a lovely technician who let me ask lots of questions. I was mostly interested in the Doppler shift[^3] I could see on the ultrasound screen -- very interesting stuff! Turns out, it shows the flow of blood. Super cool. She told me that yep, that's definitely a "bicuspid aortic valve" and there's definitely "regurgitation" and a "leaflet looks stenosed". To explain:
+My echo was performed by a lovely technician who let me ask lots of questions. I was mostly interested in the Doppler shift[^3] I could see on the ultrasound screen -- very interesting stuff! Turns out, it shows the flow of blood. Super cool. She told me that yep, that's definitely a "bicuspid aortic valve" and there's definitely "regurgitation". To explain:
 
 - the aortic valve should have three leaflets not two[^4],
-- stenosed means that the leaflet is not as flexible as it should be and doesn't open/close properly[^5],
 - and regurgitation means that some blood is flowing back into the left ventricle due to the malformed leaflets[^6].
 
 In summary, not good. 
@@ -87,7 +86,6 @@ Mā te wā 👋
 [^2]: An ultrasound of the heart: https://www.healthnavigator.org.nz/health-a-z/e/echocardiogram/
 [^3]: A picture showing the shift in sound waves due to the movement of the object they are reflected off. https://ecgwaves.com/topic/doppler-effect-and-doppler-studies-in-echocardiography/
 [^4]: https://www.mayoclinic.org/diseases-conditions/bicuspid-aortic-valve/cdc-20385577
-[^5]: https://www.mayoclinic.org/diseases-conditions/aortic-stenosis/symptoms-causes/syc-20353139
 [^6]: https://www.mayoclinic.org/diseases-conditions/aortic-valve-regurgitation/symptoms-causes/syc-20353129
 [^7]: https://healthblog.uofmhealth.org/enlarged-aorta-risks-and-symptoms
 [^8]: https://www.mayoclinic.org/diseases-conditions/aortic-dissection/symptoms-causes/syc-20369496
