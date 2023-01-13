@@ -44,6 +44,10 @@
       {{ if in "gps multiGPS inreach" .Params.layout }}
         {{ readFile "/themes/hugo-finn/static/css/mod-gps.css" | safeCSS }}
       {{ end  }}
+
+      {{ if in "photos" .Section }}
+        {{ readFile "/themes/hugo-finn/static/css/mod-photos.css" | safeCSS }}
+      {{ end  }}
     </style>
   </head>
 

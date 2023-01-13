@@ -6,9 +6,9 @@
     <div class="filters">
         <span>Filter by: </span><br/>
         <input type="radio" name="filter" id="all" value=""/>
-        <label for="all">Show All</label>
+        <label for="all">All</label>
 
-        <input type="radio" name="filter" id="sport" value="🥾,🎿,🏃,🏅,🏔,🚲,🛶,📸" checked/>
+        <input type="radio" name="filter" id="sport" value="🥾,🎿,🏃,🏅,🏔,🚲,🛶" checked/>
         <label for="sport">Sport</label>
 
         <input type="radio" name="filter" id="reading" value="📚,🎧"/>
@@ -19,6 +19,9 @@
 
         <input type="radio" name="filter" id="tech" value="💻,📱"/>
         <label for="tech">Tech</label>
+
+        <input type="radio" name="filter" id="photos" value="📸"/>
+        <label for="photos">Photos</label>
     </div>
 
     <ul class="archive">
@@ -28,7 +31,7 @@
 
             {{ $hasVisible := 0 }}
             {{ range .Pages }}
-                {{ if in "🥾 🎿 🏃 🏅 🏔 🚲 🛶 📸" .Params.emoji }}
+                {{ if in "🥾 🎿 🏃 🏅 🏔 🚲 🛶" .Params.emoji }}
                     {{ $hasVisible = 1 }}
                 {{ end }}
             {{ end }}
@@ -36,7 +39,7 @@
             <ul {{ if eq $hasVisible 0 }}class="hidden"{{ end }}>
             <p>{{ .Key }}</p>    
             {{ range .Pages }}
-                {{ $isSport := in "🥾 🎿 🏃 🏅 🏔 🚲 🛶 📸" .Params.emoji }}
+                {{ $isSport := in "🥾 🎿 🏃 🏅 🏔 🚲 🛶" .Params.emoji }}
 
                 <li {{ if eq $isSport false }}class="hidden"{{ end }}>
                     {{ with .Params.emoji }}{{ . }}{{ end }}
