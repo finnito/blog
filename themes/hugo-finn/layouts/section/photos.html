@@ -7,7 +7,7 @@
                 {{ .Title }}
             </a>
         </h1>
-        <time>{{ .Params.photoDate.Format "January 2, 2006" }}</time>
+        <time>{{ time.Format "January 2, 2006 at 9:00am" .Params.photoDate }}</time>
             {{ $image := index (.Resources.ByType "image") 0 }}
             <figure>
                 <a href='' title="{{ .Params.Title }}">

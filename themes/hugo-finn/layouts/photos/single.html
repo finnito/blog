@@ -2,7 +2,7 @@
 
 <div class="content">
     <h1>{{ .Title }}</h1>
-    <time>{{ .Params.photoDate.Format "January 2, 2006" }}</time>
+    <time>{{ .Params.photoDate | time.Format "January 2, 2006" }}</time>
         {{ $img := index (.Resources.ByType "image") 0 }}
         {{ $img512 := $img.Resize "512x webp" }}
         {{ $img1024 := $img.Resize "1024x webp" }}
@@ -25,14 +25,28 @@
                 <ul class="exif">
                     <li>🙋‍♂️<span>{{ .Params.photographer }}</span></li>
                     {{ with $img.Exif }}
-                    <li>{{ with .Tags.Model }}📷<span>{{ . }}</span>{{ end }}</li>
+                    
+                    {{ with .Tags.Model }}
+                    <li>📷<span>{{ . }}</span></li>
+                    {{ end }}
+
+                    {{ with .Tags }}
                     <li>🎞
-                        {{ with .Tags.ExposureTime }}<span>{{ . }}s</span>{{ end }}
-                        {{ with .Tags.FNumber }}<span>f/{{ . }}</span>{{ end }}
-                        {{ with .Tags.FocalLength }}<span>{{ . }}mm</span>{{ end }}
-                        {{ with .Tags.ISOSpeedRatings }}<span>ISO {{ . }}</span>{{ end }}
-                        <span>{{ .Date | time.Format ":time_short" }}</span>
+                        {{ with .ExposureTime }}
+                        <span>{{ . }}s</span>
+                        {{ end }}
+                        {{ with .FNumber }}
+                        <span>f/{{ . }}</span>
+                        {{ end }}
+                        {{ with .FocalLength }}
+                        <span>{{ . }}mm</span>
+                        {{ end }}
+                        {{ with .ISOSpeedRatings }}
+                        <span>ISO {{ . }}</span>
+                        {{ end }}
                     </li>
+                    {{ end }}
+                    {{ if .Lat }}
                     <li>
                         🌏  <a title="Photo location on TopoMap"
                             href="http://www.topomap.co.nz/NZTopoMap?v=2&ll={{ .Lat }},{{ .Long }}&z=14&pin=1&lbl={{ .Lat }},{{ .Long }}"
@@ -40,6 +54,7 @@
                             <span>{{ printf "%.5f" .Lat }}, {{ printf "%.5f" .Long }}</span>
                         </a>
                     </li>
+                    {{ end }}
                     {{ end }}
                 </ul>
             </figcaption>
