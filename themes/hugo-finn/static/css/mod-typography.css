@@ -62,3 +62,5 @@ p:only-of-type { margin: 0.5rem; }
 input, select, textarea {
   font-size: 16px;
 }
+
+sup {line-height: 0;}
