@@ -3,62 +3,7 @@
 <div class="content">
     <h1>{{ .Title }}</h1>
     <time>{{ .Params.photoDate | time.Format "January 2, 2006" }}</time>
-        {{ $img := index (.Resources.ByType "image") 0 }}
-        {{ $img512 := $img.Resize "512x webp" }}
-        {{ $img1024 := $img.Resize "1024x webp" }}
-        {{ $img2048 := $img.Resize "2048x webp" }}
-        <figure>
-            <a href='{{ $img.Permalink }}' title='Full size image: {{ .Title }}'>
-                <img 
-                    srcset='
-                        {{ $img512.Permalink }} {{ $img512.Width }}w,
-                        {{ $img1024.Permalink }} {{ $img1024.Width }}w,
-                        {{ $img2048.Permalink }} {{ $img2048.Width }}w'
-                    sizes="(min-width: 780px) 584px, calc(100vw - 16px)"
-                    height="{{ $img.Height }}"
-                    width="{{ $img.Width }}"
-                    src='{{ $img.Permalink }}'
-                    alt='{{ .Title }}'
-                    loading="lazy"/>
-            </a>
-            <figcaption>
-                <ul class="exif">
-                    <li>🙋‍♂️<span>{{ .Params.photographer }}</span></li>
-                    {{ with $img.Exif }}
-                    
-                    {{ with .Tags.Model }}
-                    <li>📷<span>{{ . }}</span></li>
-                    {{ end }}
-
-                    {{ with .Tags }}
-                    <li>🎞
-                        {{ with .ExposureTime }}
-                        <span>{{ . }}s</span>
-                        {{ end }}
-                        {{ with .FNumber }}
-                        <span>f/{{ . }}</span>
-                        {{ end }}
-                        {{ with .FocalLength }}
-                        <span>{{ . }}mm</span>
-                        {{ end }}
-                        {{ with .ISOSpeedRatings }}
-                        <span>ISO {{ . }}</span>
-                        {{ end }}
-                    </li>
-                    {{ end }}
-                    {{ if .Lat }}
-                    <li>
-                        🌏  <a title="Photo location on TopoMap"
-                            href="http://www.topomap.co.nz/NZTopoMap?v=2&ll={{ .Lat }},{{ .Long }}&z=14&pin=1&lbl={{ .Lat }},{{ .Long }}"
-                            target="_blank">
-                            <span>{{ printf "%.5f" .Lat }}, {{ printf "%.5f" .Long }}</span>
-                        </a>
-                    </li>
-                    {{ end }}
-                    {{ end }}
-                </ul>
-            </figcaption>
-        </figure>
+    {{ partial "photos-figure.html" . }}
     {{ .Content }}  
 
     <div class="nav-buttons">
