@@ -8,49 +8,15 @@
             </a>
         </h1>
         <time>{{ time.Format "January 2, 2006 at 9:00am" .Params.photoDate }}</time>
-            {{ $image := index (.Resources.ByType "image") 0 }}
-            <figure>
-                <a href='' title="{{ .Params.Title }}">
-                    <img 
-                        srcset='
-                            {{ $.Site.Params.imageHostingURL }}/512?u={{.Permalink}}{{$image}} 512w,
-                            {{ $.Site.Params.imageHostingURL }}/1024?u={{.Permalink}}{{$image}} 1024w,
-                            {{ $.Site.Params.imageHostingURL }}/1800?u={{.Permalink}}{{$image}} 1800w,'
-                        src='{{.Permalink}}{{$image}}'
-                        sizes="100%"
-                        height="{{ $image.Height }}"
-                        width="{{ $image.Width }}"
-                        alt="{{ .Params.Title }}"
-                        loading="lazy"/>
-                </a>
-                <figcaption>
-                    <ul class="exif">
-                        <li>🙋‍♂️<span>{{ .Params.photographer }}</span></li>
-                        {{ with $image.Exif }}
-                        <li>{{ with .Tags.Model }}📷<span>{{ . }}</span>{{ end }}</li>
-                        <li>🎞
-                            {{ with .Tags.ExposureTime }}<span>{{ . }}s</span>{{ end }}
-                            {{ with .Tags.FNumber }}<span>f/{{ . }}</span>{{ end }}
-                            {{ with .Tags.FocalLength }}<span>{{ . }}mm</span>{{ end }}
-                            {{ with .Tags.ISOSpeedRatings }}<span>ISO {{ . }}</span>{{ end }}
-                        </li>
-                        <li>
-                            🌏<a title="Photo location on TopoMap"
-                                href="http://www.topomap.co.nz/NZTopoMap?v=2&ll={{ .Lat }},{{ .Long }}&z=14&pin=1&lbl={{ .Lat }},{{ .Long }}"
-                                target="_blank">
-                                <span>{{ printf "%.5f" .Lat }}, {{ printf "%.5f" .Long }}</span>
-                            </a>
-                        </li>
-                        {{ end }}
-                    </ul>
-                </figcaption>
-            </figure>
+            {{ partial "photos-figure.html" . }}
         {{ .Content }}
     {{ end }}
 
+    <blockquote><p>Subscribe to my photography RSS feed by clicking here: <a href="/photos/index.xml">{{ .Permalink }}index.xml</a>.</p></blockquote>
+
     <h2>Archive</h2>
     <ul class="archive">
-        {{ range .Data.Pages.GroupByParamDate "photoDate" "January 2006" }}
+        {{ range .Data.Pages.GroupByParamDate "date" "January 2006" }}
             {{ .Key }}
             {{ range .Pages }}
             <ul>
