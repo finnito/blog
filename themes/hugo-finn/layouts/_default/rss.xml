@@ -22,7 +22,7 @@
       <guid>{{ .Permalink }}</guid>
       {{ if eq .Section "photos" }}
       <description>
-        {{- partial "rss-figure.html" . | html -}}
+        {{- partial "photos-figure.html" . | html -}}
         {{- .Content | html -}}
       </description>
       {{ else }}
