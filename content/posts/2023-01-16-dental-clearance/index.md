@@ -75,7 +75,7 @@ This is the interesting thing about lots of Science — medicine especially. In 
 
 I was due for a dental check-up in January anyhow, so was glad to get my teeth cleaned. The removal of plaques will likely not be the make-or-break of my surgery, but every little bit counts. In the end, it is good for medicine to err on the side of conservatism and cautiousness.
 
-> "Over 60 years of published data still do not provide evidence on which to make strong recommendations for antibiotic prophylaxis against endocarditis at the time of dental procedures. The 2008 New Zealand guidelines represent a conservative consensus of local expert opinions and seven years after they were written there does not seem to be a good reason to change these recommendations."^[3]
+> "Over 60 years of published data still do not provide evidence on which to make strong recommendations for antibiotic prophylaxis against endocarditis at the time of dental procedures. The 2008 New Zealand guidelines represent a conservative consensus of local expert opinions and seven years after they were written there does not seem to be a good reason to change these recommendations."[^3]
 
 Still, I didn't __need__ those antibiotics, even going by the conservative guidelines. Prescribe your antibiotics appropriately and finish your scripts, even if you're feeling better![^8]
 
