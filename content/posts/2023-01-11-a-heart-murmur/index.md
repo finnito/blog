@@ -70,9 +70,9 @@ The dilatation of my aorta is such that it should be repaired. This reduces the 
 After this, my left ventricle, which is also dilatated, should _hopefully_ return to normal size. This _should_ occur because it will not have to accommodate the regurgitated blood.[^11] This is important because if it dilatates too much it may not return to normal size/function in the future, which would significantly impact my quality of life (e.g. heart failure).[^13]
 
 <figure>
-    <img src="https://cdn.upmc.com/-/media/upmc/services/heart-vascular/conditions-treatments/ctad-illustrations/full-size-images/aortic-root-aneurysm-root-replacement.png?la=en&rev=e662530fae65404891125f0f1a79fd21&hash=6AB850AE7EE043B0CE8D0C3660391702" loading="lazy"/>
+    <img src="https://themarfandiary.weebly.com/uploads/2/3/9/4/23940725/2140047_orig.jpg" loading="lazy"/>
     <figcaption>
-        <p>A dilated aortic root and Dacron graft. [<a href="https://www.upmc.com/services/heart-vascular/conditions-treatments/aortic-root-aneurysm#treatment">Source</a>]</p>
+        <p>A dilated aortic root and Dacron graft. [<a href="https://themarfandiary.weebly.com/blog/aortic-education">Source</a>]</p>
     </figcaption>
 </figure>
 
