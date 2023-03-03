@@ -31,8 +31,8 @@ Then [find your local MP](https://vote.nz/maps/find-your-electorate/). Mine in C
 - (Labour) Hon Duncan Webb: duncan.webb@labour.org.nz
 - (National) Hon Dale Stephens: dale.stephens@national.org.nz
 
-```
-Dear Hon Chris Hipkins, Hon Jan Tinetti, Hon Kelvin Davis, <Your MPs Here>,
+---
+Dear Hon Chris Hipkins, Hon Jan Tinetti, Hon Kelvin Davis, \<Your MPs Here>,
 
 I am writing to you today to encourage you to improve the funding given to schools for capital works such as retrofitting air conditioning units in classrooms.
 
@@ -45,5 +45,4 @@ Please, on behalf of the rangatahi who are to be the future of this country, giv
 Ngā mihi maioha,
 
 Nā,
-<Your Name Here>
-```
+\<Your Name Here>
