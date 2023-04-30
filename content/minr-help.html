@@ -84,6 +84,7 @@
         margin: auto;
         line-height: 1.7;
         padding: 1rem;
+        font-family: -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Cantarell, Ubuntu, roboto, noto, arial, sans-serif; 
       }
 
       details {
@@ -100,10 +101,18 @@
       ol, ul { margin: 0.5rem 0; }
       summary:hover  {cursor: pointer}
       p { margin: 1rem auto; }
+      .flex-apart {
+        display: flex;
+        justify-content: space-between;
+      }
+      img { max-height: 50px; border-radius: 0.5rem; }
     </style>
   </head>
   <body>
-    <h1>Help for mINR</h1>
+    <div class="flex-apart">
+      <h1>Help for mINR</h1>
+      <img src="/minr.jpeg" alt="Chemical structure of warfarin in white on a background gradient of sunset red in the top left to sunset purple in the bottom right.">
+    </div>
     <p>This app is written by <a href="https://finn.lesueur.nz">Finn Le Sueur</a>. All of your data is stored by Apple and is not accessible by Finn or any other person. The app does not track or collect any information about its users or install-base. Thus, it cannot leak, sell or use your information for nefarious purposes.</p>
     <p>It was built as a hobby project when Finn received news that he was to get a heart valve replacement. As such, there is no team or large company behind it. If you cannot find your answers below, at the bottom there is an email you can send a message to.</p>
     <p>Thank you for using this app!</p>
