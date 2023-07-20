@@ -1,7 +1,7 @@
 ---
 title: The Player of Games
 author: Iain M. Banks
-date: 2023-07-18
+date: 2023-06-21
 started: 2023-06-15
 finished: 2023-06-21
 genre: Science Fiction

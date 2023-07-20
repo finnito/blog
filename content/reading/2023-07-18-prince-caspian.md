@@ -1,7 +1,7 @@
 ---
 title: Prince Caspian
 author: C. S. Lewis
-date: 2023-07-18
+date: 2023-06-19
 started: 2023-06-01
 finished: 2023-06-19
 genre: Fantasy

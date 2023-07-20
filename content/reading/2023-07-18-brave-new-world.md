@@ -1,9 +1,9 @@
 ---
 title: Brave New World
 author: Aldous Huxley
-date: 2023-07-18
+date: 2023-07-19
 started: 2023-07-18
-finished: 2023-07-17
+finished: 2023-07-19
 genre: Science Fiction
 type: post
 layout: reading

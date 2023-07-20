@@ -1,7 +1,7 @@
 ---
 title: Consider Phlebas
 author: Iain M. Banks
-date: 2023-07-18
+date: 2023-05-14
 started: 2023-05-01
 finished: 2023-05-14
 genre: Science Fiction

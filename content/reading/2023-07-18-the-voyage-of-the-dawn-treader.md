@@ -1,7 +1,7 @@
 ---
 title: The Voyage of the Dawn Treader
 author: C. S. Lewis
-date: 2023-07-18
+date: 2023-06-18
 started: 2023-06-12
 finished: 2023-06-18
 genre: Fiction
