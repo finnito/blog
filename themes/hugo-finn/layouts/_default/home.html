@@ -54,11 +54,20 @@
 <script>
     document.addEventListener("click", function(e) {
         if (e.target.name == "filter") {
-            filter(document.querySelector("input:checked").value.split(","));
+            filterPosts();
+            updateURL();
         }
     });
 
-    function filter (emojiArray) {
+    function updateURL() {
+        const id = document.querySelector("input:checked").id
+        const url = new URL(location.href);
+        url.searchParams.set("f", id);
+        history.replaceState(null, "", url);
+    }
+
+    function filterPosts () {
+        let emojiArray = document.querySelector("input:checked").value.split(",")
         document.querySelectorAll(".archive li").forEach(function(li) {
             var visible = emojiArray.some(function(emoji) {
                 return li.innerText.includes(emoji);
@@ -80,6 +89,15 @@
             }
         })
     }
+
+    document.addEventListener("DOMContentLoaded", function() {
+        const url = new URL(location.href);
+        if (url.searchParams.has("f")) {
+            document.querySelector("input:checked").checked = false;
+            document.querySelector("input#" + url.searchParams.get("f")).checked = true;
+            filterPosts();
+        }
+    })
 </script>
 
 {{ partial "footer.html" . }}
