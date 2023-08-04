@@ -12,6 +12,8 @@ readonly PROGDIR=$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd) # File directory
 readonly ARGS="$@" # Arguments
 readonly ARGNUM="$#" # Arguments number
 
+OUTPUTDIR="/volume1/web/finn.lesueur.nz/"
+
 RETRY=false
 NOTIFY=true
 DEPLOY=true
@@ -93,7 +95,7 @@ if [[ "$localHash" != "$remoteHash" ]] || [[ "$RETRY" == true ]]; then
 	./bin/hugo \
 		--config="config.toml" \
 		--quiet \
-		--destination="/volume1/homes/finn/CI/blog-build/"
+		--destination="$OUTPUTDIR"
 
 	if [[ "$RETRY" == true ]]; then
 		# Sync build to server
@@ -104,7 +106,7 @@ if [[ "$localHash" != "$remoteHash" ]] || [[ "$RETRY" == true ]]; then
 			--delete \
 			--chown=www-data:www-data \
 			--rsh="ssh -p29163" \
-			"/volume1/homes/finn/CI/blog-build/" \
+			"$OUTPUTDIR" \
 			root@172.105.169.195:/srv/finn.lesueur.nz/
 	fi
 
