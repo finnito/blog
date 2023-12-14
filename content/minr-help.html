@@ -95,10 +95,11 @@
       }
 
       details[open] {
-        background-color: rgba(52, 152, 219, 0.1);
+        background-color: rgba(52, 152, 219, 0.25);
       }
 
       ol, ul { margin: 0.5rem 0; }
+      summary { font-weight: bold; }
       summary:hover  {cursor: pointer}
       p { margin: 1rem auto; }
       .flex-apart {
@@ -106,6 +107,15 @@
         justify-content: space-between;
       }
       img { max-height: 50px; border-radius: 0.5rem; }
+      
+      /* Match dark mode of app. */
+      @media (prefers-color-scheme: dark) {
+		* { color: white; }
+		a { color: #9F2C37; }
+		body { background-color: #161516; }
+		details { background-color: #262527; }
+		details[open] { background-color: }
+      }
     </style>
   </head>
   <body>
