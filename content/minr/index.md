@@ -9,7 +9,7 @@ I built this app as a hobby project in early 2023 when I received news that I wa
 
 1. [App Store Page](https://apps.apple.com/us/app/minr/id6448668274)
 2. [Help Page](https://finn.lesueur.nz/minr/minr-help.html)
-3. [YouTube Tutorials]https://www.youtube.com/watch?v=yVN11Ma8QB8&list=PLTY6jHvfu9gAFMdkLRBg-X7ROyr-J5_pw)
+3. [YouTube Tutorials](https://www.youtube.com/watch?v=yVN11Ma8QB8&list=PLTY6jHvfu9gAFMdkLRBg-X7ROyr-J5_pw)
 4. [Privacy Policy](https://finn.lesueur.nz/minr/minr-privacy-policy.html)
 
 ## Version History
