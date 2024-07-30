@@ -8,6 +8,8 @@ hugo server \
 	--buildDrafts \
 	--renderToDisk \
 	--gc \
+ 	--logLevel info \
+  	--navigateToChanged \
 	--noHTTPCache \
 	--port=8888 \
 	--minify \
