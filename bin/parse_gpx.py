@@ -23,6 +23,12 @@ for subdir, dirs, files in os.walk(Path.cwd() / "content"):
 # ==========
 # Load the cache
 # ==========
+try:
+    with open("parse_gpx.cache", mode='x') as f:
+        f.write(json.dumps({}))
+except FileExistsError:
+    pass
+
 cacheFile = open("parse_gpx.cache", "r")
 data = cacheFile.read()
 cache = json.loads(data)
