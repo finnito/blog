@@ -4,6 +4,7 @@ dest=~/Sites/public.finn.lesueur.nz/
 
 hugo server \
 	--disableFastRender \
+	--navigateToChanged \
 	--forceSyncStatic \
 	--buildDrafts \
 	--renderToDisk \
