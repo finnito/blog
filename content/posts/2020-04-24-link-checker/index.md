@@ -5,6 +5,7 @@ emoji: 💻
 metaDescription: "My little Python script to detect link rot on websites through checking of HTTP status codes. Lightweight and useful!"
 metaImage: "link-checker-project-og-image.png"
 prism: "true"
+expiryDate: 2024-09-10
 ---
 
 __[Source Code: Gitlab][gitlab]__

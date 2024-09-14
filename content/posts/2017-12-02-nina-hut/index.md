@@ -20,7 +20,7 @@ From there the track climbs reasonably gently along the true right of the river 
 
 The hut was really nice and has a great outlook up the valley and the surrounding mountains. I'd love to go back as part of a longer tramp - perhaps to Devils Den Bivs and the Sylvia Tops.
 
-{{< figure name="IMG_7456" title="The lovely flat forest by Lewis River." >}}
-{{< figure name="IMG_7460" title="Crossing a creek just before Nina Valley Campsite." >}}
-{{< figure name="IMG_7465" title="Nina River just below the swing bridge." >}}
-{{< figure name="IMG_7468" title="Some of the beautiful open valley on the lower track." >}}
+{{< figure2 name="IMG_7456.jpg" width="5472" height="3648" title="The lovely flat forest by Lewis River." >}}
+{{< figure2 name="IMG_7460.jpg" width="5472" height="3648" title="Crossing a creek just before Nina Valley Campsite." >}}
+{{< figure2 name="IMG_7465.jpg" width="5472" height="3648" title="Nina River just below the swing bridge." >}}
+{{< figure2 name="IMG_7468.jpg" width="5472" height="3648" title="Some of the beautiful open valley on the lower track." >}}

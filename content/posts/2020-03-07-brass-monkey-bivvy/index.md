@@ -24,15 +24,15 @@ I was a real sleepy head on Saturday morning so we didn't properly hit the road 
 
 Jen started us off by absolutely boosting through the forest and we were out onto the open tops in 45 minutes! From here there was a little track that mostly followed the ridge line, but Jen was nav'ing and we didn't always stick to it.
 
-{{< figure name="IMG_7936" author="Finn Le Sueur" title="Jen on the Lewis Tops" >}}
+{{< figure2 name="IMG_7936.jpg" width="1024" height="683" author="Finn Le Sueur" title="Jen on the Lewis Tops" >}}
 
 The climb through the forest is pretty unrelenting, but it is over quickly! From there, the tops undulate (for a loose definition of undulate) before descending steeply down from __Point 1580__ and then back up and around the south-east side of __The Apprentice__ and across to Lucretia (1643m).
 
-{{< figure name="IMG_5177" author="Finn Le Sueur" title="Our route around The Apprentice." >}}
+{{< figure2 name="IMG_5177.jpg" width="1024" height="683" author="Finn Le Sueur" title="Our route around The Apprentice." >}}
 
 While we were climbing around The Apprentice we saw a group of five come down from Mt Technical, and knowing Brass Monkey Bivvy was only a 2-bed hut, we picked up the pace! We caught them just after Lucretia only to find that they were friends of Jen and thankfully they were going through to [Nina Hut][4]! We joined up and chatted to them as we descended to [Brass Monkey Bivvy][5]. We all relaxed at the biv and they warmed up and recharged before heading down to Nina Hut in the dark.
 
-{{< figure name="IMG_5192" author="Finn Le Sueur" title="Descending to Brass Monkey Bivvy" >}}
+{{< figure2 name="IMG_5192.jpg" width="1024" height="683" author="Finn Le Sueur" title="Descending to Brass Monkey Bivvy" >}}
 
 ## Day 2: Out via Lucretia Bivvy
 
@@ -45,7 +45,7 @@ There are two ways out of Brass Monkey Bivvy via Nina Valley:
 
 Duchess Stream takes an unmarked track all the way through to Nina Hut while Lucretia Stream has a much shorter unmarked section through to [Lucretia Bivvy][6] and then out via Lucretia Hut Route and onto the Nina Valley Track. To avoid too much rough terrain we opted for Lucretia Stream.
 
-{{< figure name="IMG_5214" author="Finn Le Sueur" title="Brass Monkey Bivvy in the morning." >}}
+{{< figure2 name="IMG_5214.jpg" width="1024" height="683" author="Finn Le Sueur" title="Brass Monkey Bivvy in the morning." >}}
 
 The day starts by climbing back up towards Lucretia but taking a right hand turn down into Lucretia Stream. There is a little track from the saddle and a series of tarns which will guide you towards a rather narrow looking ridge into the valley. Rest assured this is the right way to go! I couldn't find when James Broadbent cut the route, but there are references to it back to 2008.
 
@@ -55,7 +55,7 @@ The trail is marked mostly by white rectangles of Venetian blinds made of metal 
 
 Once the track reaches the valley it sticks to the true right of the river all the way to the bivvy. From the bivvy the track is quite well marked and crosses Lucretia Stream once to get onto the true left before meandering all the way down to Nina Valley.
 
-{{< figure name="IMG_5237" author="Finn Le Sueur" title="A very friendly bird from Lucretia Bivvy." >}}
+{{< figure2 name="IMG_5237.jpg" width="1024" height="683" author="Finn Le Sueur" title="A very friendly bird from Lucretia Bivvy." >}}
 
 We swum at the swing bridge over the Nina River but the sandflies were a bit extreme after a _very_ short dip we headed off! We were looking forward to soaking in the hotpools at [Maruria Hot Springs][8]! The track down Nina Valley is extremely gentle and well-formed. We had good weather but in any rain it will get very boggy, so be ware!
 

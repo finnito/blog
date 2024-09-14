@@ -20,12 +20,12 @@ It's mid-winter, it's cold and there's snow up on the hills. This day however wa
 
 The landscape is pretty awesome through here, and it is well worth remembering to turn around and look down the valley to Glendhu Bay and Lake Wānaka. The descent from pt. 1267 is steep and for us, snowy/icy. We had to go pretty slow as we didn't pack any crampons!
 
-{{< figure name="IMG_5774" title="Climbing to Fern Bern Hut." >}}
-{{< figure name="IMG_5785" title="Looking towards Glendhu Bay." >}}
-{{< figure name="IMG_5796" title="Jack Hall's Saddle by Point 1267. Ready for a slippery descent!" >}}
-{{< figure name="IMG_5797" title="Taking care on the icy terrain!" >}}
-{{< figure name="IMG_5811" title="Looking down towards Highland Creek Hut (out of sight)." >}}
-{{< figure name="IMG_5815" title="Highland Creek Hut finally in view!" >}}
+{{< figure2 name="IMG_5774.jpg" width="5472" height="3648" title="Climbing to Fern Bern Hut." >}}
+{{< figure2 name="IMG_5785.jpg" width="5472" height="3648" title="Looking towards Glendhu Bay." >}}
+{{< figure2 name="IMG_5796.jpg" width="5472" height="3648" title="Jack Hall's Saddle by Point 1267. Ready for a slippery descent!" >}}
+{{< figure2 name="IMG_5797.jpg" width="5472" height="3648" title="Taking care on the icy terrain!" >}}
+{{< figure2 name="IMG_5811.jpg" width="5472" height="3648" title="Looking down towards Highland Creek Hut (out of sight)." >}}
+{{< figure2 name="IMG_5815.jpg" width="5472" height="3648" title="Highland Creek Hut finally in view!" >}}
 
 ## Day 2: To Roses Hut
 
@@ -33,9 +33,9 @@ For me this day was equal parts beautiful, and completely and utterly frustratin
 
 Back on the positive side, the views are completely unreal. Especially in winter with a dusting of snow on the tops and underfoot.
 
-{{< figure name="IMG_5837" title="Climbing towards Point 1245 on the way to Roses Hut." >}}
-{{< figure name="IMG_5844" title="Roses Hut visible on the far side of the valley - still a lot of descent to go!" >}}
-{{< figure name="IMG_5845" title="Watching Neil and Becky descend down to Roses Hut." >}}
+{{< figure2 name="IMG_5837.jpg" width="5472" height="3648" title="Climbing towards Point 1245 on the way to Roses Hut." >}}
+{{< figure2 name="IMG_5844.jpg" width="5472" height="3648" title="Roses Hut visible on the far side of the valley - still a lot of descent to go!" >}}
+{{< figure2 name="IMG_5845.jpg" width="5472" height="3648" title="Watching Neil and Becky descend down to Roses Hut." >}}
 
 ## Day 3: Abort to Glendhu Bay
 

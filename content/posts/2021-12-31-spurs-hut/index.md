@@ -20,7 +20,7 @@ The start of the track can be found down the access road to [Fox Peak Ski Field]
 >
 > __Lillydale Farm__: Private property. __Permission must be gained to enter. Contact Warrick Day at w.wday.@xtra.co.nz or [03 249 8025](tel:032498025).__
 
-{{< figure name="IMG_3249" title="Access information!" >}}
+{{< figure2 name="IMG_3249.jpeg" width="1280" height="960" title="Access information!" >}}
 
 It was quite a humid day and neither of us had done much high intensity exercise in a couple of weeks so we were feeling a bit out of practice. That feeling only intensified when we started running - we both felt pretty terrible despite the gentle (if muddy) gradient.
 
@@ -28,7 +28,7 @@ There were some little creeks to splash our feet in which was nice, and there wa
 
 Overall, it is a beautiful area that deserves for some future exploring!
 
-{{< figure name="IMG_3235" title="Jen following the 4WD track alongside the deer fence at the start of the track." >}}
-{{< figure name="IMG_3239" title="The 4WD track falls apart for a while where the North Opuha River has erroded it." >}}
-{{< figure name="IMG_3242" title="Looking across the valley to the Sherwood Range." >}}
-{{< figure name="IMG_3243" title="Spurs Hut" >}}
+{{< figure2 name="IMG_3235.jpeg" width="1280" height="960" title="Jen following the 4WD track alongside the deer fence at the start of the track." >}}
+{{< figure2 name="IMG_3239.jpeg" width="1280" height="960" title="The 4WD track falls apart for a while where the North Opuha River has erroded it." >}}
+{{< figure2 name="IMG_3242.jpeg" width="1280" height="960" title="Looking across the valley to the Sherwood Range." >}}
+{{< figure2 name="IMG_3243.jpeg" width="1280" height="960" title="Spurs Hut" >}}

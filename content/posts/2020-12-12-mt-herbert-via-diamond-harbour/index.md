@@ -18,4 +18,4 @@ The track is well formed the whole way - mostly being 4WD farm track. Be ware of
 
 It's well worth it as a trip, and it's even better if you can walk through to Port Levvy Saddle or Gebbies Pass, but those trips require someone to _very_ nicely shuttle your car around.
 
-{{< figure name="IMG_1677" title="Group photo at the top 😀" >}}
+{{< figure2 name="IMG_1677.JPG" width="4032" height="3024" title="Group photo at the top 😀" >}}

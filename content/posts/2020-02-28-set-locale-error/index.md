@@ -6,6 +6,7 @@ emoji: 💻
 metaDescription: "How to fix 'setLocale($locale) must be compatible with setLocale(string $locale)' in PyroCMS and Laravel"
 metaImage: "setLocale-og-image.png"
 prism: "true"
+draft: true
 ---
 
 ## The Problem

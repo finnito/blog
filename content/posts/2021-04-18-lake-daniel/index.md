@@ -18,4 +18,4 @@ It was nice to tick this off as a trail run instead of getting Jen to tramp in -
 
 Highly recommended!
 
-{{< figure name="IMG_2174" title="Jen on the little jetty on the lakefront." >}}
+{{< figure2 name="IMG_2174.jpeg" width="4032" height="3024" title="Jen on the little jetty on the lakefront." >}}

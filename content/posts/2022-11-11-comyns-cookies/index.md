@@ -30,11 +30,11 @@ After A Frame Hut, the track merges with Turton's Stream, which you can meander 
 
 As you round the corner out of Mutton Gully, Comyns Hut will pop into view. It is situated on some lovely tussocked flats just upstream of the confluence with the Hakatere (North Branch Ashburton River).
 
-{{< figure name="IMG_8723" title="Jen cruising up towards Turton's Saddle." >}}
-{{< figure name="IMG_8728" title="Looking down Glenrock Stream from Turton's Saddle with the Wilberforce in the distance." >}}
-{{< figure name="IMG_8729" title="Motoring along Turton's Saddle being assaulted by flies." >}}
-{{< figure name="IMG_8735" title="A [Kārearea (New Zealand Falcon)](https://nzbirdsonline.org.nz/species/new-zealand-falcon) watches us pass by." >}}
-{{< figure name="IMG_8742" title="Crossing Turton's Stream on the way downstream." >}}
+{{< figure2 name="IMG_8723.jpg" width="5488" height="3662" title="Jen cruising up towards Turton's Saddle." >}}
+{{< figure2 name="IMG_8728.jpg" width="5488" height="3662" title="Looking down Glenrock Stream from Turton's Saddle with the Wilberforce in the distance." >}}
+{{< figure2 name="IMG_8729.jpg" width="5488" height="3662" title="Motoring along Turton's Saddle being assaulted by flies." >}}
+{{< figure2 name="IMG_8735.jpg" width="5488" height="3662" title="A [Kārearea (New Zealand Falcon)](https://nzbirdsonline.org.nz/species/new-zealand-falcon) watches us pass by." >}}
+{{< figure2 name="IMG_8742.jpg" width="5488" height="3662" title="Crossing Turton's Stream on the way downstream." >}}
 
 ## Day 2: Cookies Hut
 {{< stats track="2022-11-12-Comyns_Cookies_D2_Cookies_Hut" >}}
@@ -58,13 +58,13 @@ A short 50min walk up Swift River sees you at Cookie's Hut. Thankfully despite i
 
 Cookie's Hut is in a great location and condition, with views up Middle Creek and Swift River towards Tribulation Hut. It also has a fireplace, but the glass pane has fallen out (or been removed?).
 
-{{< figure name="IMG_8764" title="Easy-going riverbed and low matagouri on the Hakatere." >}}
-{{< figure name="IMG_8765" title="A wide section of riverbed on the Hakatere." >}}
-{{< figure name="IMG_8767" title="The Hakatere begins to narrow as you get further down." >}}
-{{< figure name="IMG_8784" title="Jen looking at me questioningly as we consider clinging to rocks alongside the rapid." >}}
-{{< figure name="IMG_8798" title="Lots of what I think are [Karoro (Souther black-backed gull)](https://www.nzbirdsonline.org.nz/species/southern-black-backed-gull) at Cookies Point keeping us company over lunch." >}}
-{{< figure name="IMG_8799" title="Jen looking up Swift River." >}}
-{{< figure name="IMG_8809" title="A [Tōrea pango (variable oystercatcher)](https://nzbirdsonline.org.nz/species/variable-oystercatcher) which we accidentally disturbed on Swift River." >}}
+{{< figure2 name="IMG_8764.jpg" width="5488" height="3662" title="Easy-going riverbed and low matagouri on the Hakatere." >}}
+{{< figure2 name="IMG_8765.jpg" width="5488" height="3662" title="A wide section of riverbed on the Hakatere." >}}
+{{< figure2 name="IMG_8767.jpg" width="5488" height="3662" title="The Hakatere begins to narrow as you get further down." >}}
+{{< figure2 name="IMG_8784.jpg" width="5488" height="3662" title="Jen looking at me questioningly as we consider clinging to rocks alongside the rapid." >}}
+{{< figure2 name="IMG_8798.jpg" width="5488" height="3662" title="Lots of what I think are [Karoro (Souther black-backed gull)](https://www.nzbirdsonline.org.nz/species/southern-black-backed-gull) at Cookies Point keeping us company over lunch." >}}
+{{< figure2 name="IMG_8799.jpg" width="5488" height="3662" title="Jen looking up Swift River." >}}
+{{< figure2 name="IMG_8809.jpg" width="5488" height="3662" title="A [Tōrea pango (variable oystercatcher)](https://nzbirdsonline.org.nz/species/variable-oystercatcher) which we accidentally disturbed on Swift River." >}}
 
 ## Day 3: Out
 {{< stats track="2022-11-13-Comyns_Cookies_D3_Out" >}}
@@ -90,9 +90,9 @@ Follow a single track alongside the cloverfield until you cross into the top of 
 
 I had locked a bike to a bush at the track start on Double Hill Run Rd. Jen had some lunch and a dip in the river while I slogged back to the car in the beating sun.
 
-{{< figure name="IMG_8839" title="Getting ready to leave Cookies Hut in the morning." >}}
-{{< figure name="IMG_8843" title="Jen heading up Swift River from Cookies Hut." >}}
-{{< figure name="IMG_8852" title="Tribulation Hut nestled amongst the matagouri on the riverside." >}}
-{{< figure name="IMG_8854" title="Contrasting high-country tussock and coverfield 🤢." >}}
-{{< figure name="IMG_8862" title="Heading down Redcliffe Stream on poor quality track." >}}
-{{< figure name="IMG_8863" title="Clambering down Jack Stream, almost at the end!" >}}
+{{< figure2 name="IMG_8839.jpg" width="5488" height="3662" title="Getting ready to leave Cookies Hut in the morning." >}}
+{{< figure2 name="IMG_8843.jpg" width="5488" height="3662" title="Jen heading up Swift River from Cookies Hut." >}}
+{{< figure2 name="IMG_8852.jpg" width="5488" height="3662" title="Tribulation Hut nestled amongst the matagouri on the riverside." >}}
+{{< figure2 name="IMG_8854.jpg" width="5488" height="3662" title="Contrasting high-country tussock and coverfield 🤢." >}}
+{{< figure2 name="IMG_8862.jpg" width="5488" height="3662" title="Heading down Redcliffe Stream on poor quality track." >}}
+{{< figure2 name="IMG_8863.jpg" width="5488" height="3662" title="Clambering down Jack Stream, almost at the end!" >}}

@@ -35,13 +35,13 @@ The hut book goes back a _very_ long time due to its infrequent use - although i
 
 Despite the contradictory DOC information, there is no toilet. Make sure you bring a trowel! There is also a little creek just east of the hut that is a good water source. Saves you climbing over the small hill.
 
-{{< figure name="IMG_7089" title="Crossing the Ahuriri." >}}
-{{< figure name="IMG_7106" title="Heading towards Snowy Gorge Creek." >}}
-{{< figure name="IMG_7111" title="Jen and Em traversing the undulating valley." >}}
-{{< figure name="IMG_7117" title="Snowy Gorge Creek." >}}
-{{< figure name="IMG_7122" title="Em looking towards the hut. Where is it?" >}}
-{{< figure name="IMG_7128" title="The gang crusing along up Snowy Gorge Creek." >}}
-{{< figure name="IMG_7147" title="Dinner at Snowy Gorge Hut 🥰" >}}
+{{< figure2 name="IMG_7089.jpg" width="5496" height="3670" title="Crossing the Ahuriri." >}}
+{{< figure2 name="IMG_7106.jpg" width="5496" height="3670" title="Heading towards Snowy Gorge Creek." >}}
+{{< figure2 name="IMG_7111.jpg" width="5496" height="3670" title="Jen and Em traversing the undulating valley." >}}
+{{< figure2 name="IMG_7117.jpg" width="5496" height="3670" title="Snowy Gorge Creek." >}}
+{{< figure2 name="IMG_7122.jpg" width="5496" height="3670" title="Em looking towards the hut. Where is it?" >}}
+{{< figure2 name="IMG_7128.jpg" width="5496" height="3670" title="The gang crusing along up Snowy Gorge Creek." >}}
+{{< figure2 name="IMG_7147.jpg" width="5496" height="3670" title="Dinner at Snowy Gorge Hut 🥰" >}}
 
 ### Day 2: To Maitland Hut
 
@@ -53,10 +53,10 @@ There is an orange marker and a very cute wooden sign to indicate your entry int
 
 Unfortunately, we found the hut full but were glad for a toilet. This wasn't too much of a problem though because the weather was clear for a few more days yet. We disassembled the tent to use the various pieces as ground mats. That night the six of us slept outside under the stars with nought to disturb us except the a very incessant [ruru](https://www.doc.govt.nz/nature/native-animals/birds/birds-a-z/morepork-ruru/). Not the best sleep I've ever had, but I loved the stars ✨.
 
-{{< figure name="IMG_7155" title="Cute photo before we leave!" >}}
-{{< figure name="IMG_7160" title="Heading up the valley floor before we start climbing to the saddle." >}}
-{{< figure name="IMG_7178" title="Jen and Em climbing towards the saddle." >}}
-{{< figure name="IMG_7188" title="Dodging spaniards on the way to Maitland Hut - looking forward to the forest." >}}
+{{< figure2 name="IMG_7155.jpg" width="5496" height="3670" title="Cute photo before we leave!" >}}
+{{< figure2 name="IMG_7160.jpg" width="5496" height="3670" title="Heading up the valley floor before we start climbing to the saddle." >}}
+{{< figure2 name="IMG_7178.jpg" width="5496" height="3670" title="Jen and Em climbing towards the saddle." >}}
+{{< figure2 name="IMG_7188.jpg" width="5496" height="3670" title="Dodging spaniards on the way to Maitland Hut - looking forward to the forest." >}}
 
 ### Day 3: Out to Lake Ōhau
 
@@ -68,8 +68,8 @@ My only note of caution is to turn left not long after you see a DOC avalanche z
 
 We picked up the two cars and went immediately down to Round Bush Campsite for a swim in Lake Ōhau! Very, very refreshing. Amy and Stephen went back to Christchurch while Jen and I took Hayleigh and Em back to their car by the Ahuriri, at which point we also parted ways. It was a first great tramp together and I'm looking forward to the next one!
 
-{{< figure name="IMG_7214" title="Maitland Hut - not that we got to sleep inside!" >}}
-{{< figure name="IMG_7215" title="Crossing Maitland Stream." >}}
-{{< figure name="IMG_7229" title="Some treefall on the not very maintained Maitland Stream Track." >}}
-{{< figure name="IMG_7233" title="Amy and Steven climbing the first of two scree slopes. Hard work!" >}}
-{{< figure name="IMG_7240" title="Group photo at the top of the 4WD track before we descend!" >}}
+{{< figure2 name="IMG_7214.jpg" width="5496" height="3670" title="Maitland Hut - not that we got to sleep inside!" >}}
+{{< figure2 name="IMG_7215.jpg" width="5496" height="3670" title="Crossing Maitland Stream." >}}
+{{< figure2 name="IMG_7229.jpg" width="5496" height="3670" title="Some treefall on the not very maintained Maitland Stream Track." >}}
+{{< figure2 name="IMG_7233.jpg" width="5496" height="3670" title="Amy and Steven climbing the first of two scree slopes. Hard work!" >}}
+{{< figure2 name="IMG_7240.jpg" width="5496" height="3670" title="Group photo at the top of the 4WD track before we descend!" >}}

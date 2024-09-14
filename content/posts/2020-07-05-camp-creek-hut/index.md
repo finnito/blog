@@ -20,15 +20,15 @@ The hut is in really nice condition, it's got six beds and it's free and there w
 
 It took a couple of hours but I managed to get the fire going under the bath, and we had a nice hot bath in the dark. Just wonderful.
 
-{{< figure name="IMG_1955" title="Some more gentle ascent near the hut." >}}
-{{< figure name="IMG_0090" title="River + rain = wet++" >}}
-{{< figure name="IMG_1378" title="Muddy, steep and treefall!" >}}
-{{< figure name="IMG_5397" title="Camp Creek Hut." >}}
-{{< figure name="IMG_5542" title="Ascending to Camp Creek Hut on some of the more gentle lower track." >}}
+{{< figure2 name="IMG_1955.jpg" width="4032" height="3024" title="Some more gentle ascent near the hut." >}}
+{{< figure2 name="IMG_0090.jpg" width="4032" height="3024" title="River + rain = wet++" >}}
+{{< figure2 name="IMG_1378.jpg" width="4032" height="3024" title="Muddy, steep and treefall!" >}}
+{{< figure2 name="IMG_5397.jpg" width="4032" height="3024" title="Camp Creek Hut." >}}
+{{< figure2 name="IMG_5542.jpg" width="4032" height="3024" title="Ascending to Camp Creek Hut on some of the more gentle lower track." >}}
 
 
 ## Day 2: Out the Same Way
 
 The trek out was quick and straightforward. It descends quite steeply back the way you came and we found it a little slippery, especially as it had started raining again. Nevertheless, we made it out in good spirits and were ready to continue our holiday roadtrip!
 
-{{< figure name="IMG_0516" title="Ready to get wet on the walk out!" >}}
+{{< figure2 name="IMG_0516.jpg" width="4032" height="3024" title="Ready to get wet on the walk out!" >}}

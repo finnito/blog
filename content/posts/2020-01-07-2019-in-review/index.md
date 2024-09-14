@@ -38,7 +38,7 @@ I'm not entirely sure where my want to do Coast to Coast came from. I know that 
 
 I contacted a local legend of a runner and multisporter, Martin Lukes and managed to get him as a coach for the year. Stoked! He helped me plan my training throughout the year - and what a year it has been.
 
-{{< figure name="year-in-sport" author="Finn Le Sueur" title="2019 Year in Sport" >}}
+{{< figure2 name="year-in-sport.jpeg" width="1080" height="1355" author="Finn Le Sueur" title="2019 Year in Sport" >}}
 
 My training played a huge role in my 2019 Year Theme: __Choose to be Outside__. I would class it as a great success! I did not aim to look different, lose body fat or get an 8-pack, I just wanted to be outside. Outside is where I am happy and it is where I love to be.
 

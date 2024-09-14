@@ -30,11 +30,11 @@ The junction for the Whare Route is well signposted and very obvious. It follows
 
 You reach some larger clearings around Point 552 before descending sharply to Pinchgut Hut. The track continues to be in good condition, very clear, and well posted with orange-capped snowpoles.
 
-{{< figure name="IMG_5676" title="Jen and Korra just before Mt Thomas summit." >}}
-{{< figure name="IMG_5688" title="Jen descending towards Wooded Gully Track junction." >}}
-{{< figure name="IMG_5692" title="On the way to Whare Route junction – sick views." >}}
-{{< figure name="IMG_5701" title="Korra enjoying a bone and looking adorable in her jumper." >}}
-{{< figure name="IMG_5712" title="Sunrise at camp while doing the dishes in Pinchgut Stream." >}}
+{{< figure2 name="IMG_5676.jpeg" width="1280" height="960" title="Jen and Korra just before Mt Thomas summit." >}}
+{{< figure2 name="IMG_5688.jpeg" width="1280" height="960" title="Jen descending towards Wooded Gully Track junction." >}}
+{{< figure2 name="IMG_5692.jpeg" width="1280" height="960" title="On the way to Whare Route junction – sick views." >}}
+{{< figure2 name="IMG_5701.jpeg" width="1280" height="960" title="Korra enjoying a bone and looking adorable in her jumper." >}}
+{{< figure2 name="IMG_5712.jpeg" width="1280" height="960" title="Sunrise at camp while doing the dishes in Pinchgut Stream." >}}
 
 ## Day 2: Out via Cattle Peak Route & Bob's Camp Bivouac
 
@@ -57,9 +57,9 @@ From there it's only a short climb past Point 1043 to Ridge Track junction. The 
 
 You will soon find yourself popping out into a small grassy clearing before entering the pine forest plantation. A very straightforward track takes you to a forestry road which you follow back to the car. Pretty great stuff! We found this day quite a bit longer than the first, owing mostly to the extra 200m climbing, the poorer condition track, and tired legs.
 
-{{< figure name="IMG_5720" title="Jen working through some bush on the way up Cattle Peak Route." >}}
-{{< figure name="IMG_5728" title="Lovely tussocked ridgeline interspersed by matagouri and other shrubbery." >}}
-{{< figure name="IMG_5738" title="Korra looking stoked to be running free." >}}
-{{< figure name="IMG_5742" title="Jen being too warm in her pants – a classic Autumn mistake." >}}
-{{< figure name="IMG_5755" title="Bob's Camp Bivouac – so cute!" >}}
-{{< figure name="IMG_5765" title="Some classic beech forest on the way down Ridge Track." >}}
+{{< figure2 name="IMG_5720.jpeg" width="1280" height="960" title="Jen working through some bush on the way up Cattle Peak Route." >}}
+{{< figure2 name="IMG_5728.jpeg" width="1280" height="960" title="Lovely tussocked ridgeline interspersed by matagouri and other shrubbery." >}}
+{{< figure2 name="IMG_5738.jpeg" width="1280" height="960" title="Korra looking stoked to be running free." >}}
+{{< figure2 name="IMG_5742.jpeg" width="1280" height="960" title="Jen being too warm in her pants – a classic Autumn mistake." >}}
+{{< figure2 name="IMG_5755.jpeg" width="1280" height="960" title="Bob's Camp Bivouac – so cute!" >}}
+{{< figure2 name="IMG_5765.jpeg" width="1280" height="960" title="Some classic beech forest on the way down Ridge Track." >}}

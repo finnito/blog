@@ -21,17 +21,17 @@ The climb to Relax Shelter is well, steep and unrelenting. That said, it was ove
 
 The landscape is not at all intimidating at this point, so we were happy to walk on the soft snow without crampons or axes. Jen did opt for a single walking/ski pole, just in case though.
 
-{{< figure name="IMG_6196" author="Finn Le Sueur" title="Jen on Robert Ridge" >}}
+{{< figure2 name="IMG_6196.jpeg" width="2048" height="1365" author="Finn Le Sueur" title="Jen on Robert Ridge" >}}
 
 We put on our crampons not long after Flagtop (1690m) because the track started to sidle across some faces instead of staying on the ridge. The snow conditions continued to be nice, and the terrain was still good. We were blessed by perhaps the best possible weather, on this trip. Not a cloud above us, barely a breeze, so we were feeling great! __It took us about two hours to reach Flagtop, which was the midpoint (by distance) for the day.__
 
-{{< figure name="IMG_6203" author="Finn Le Sueur" title="Jen on Robert Ridge as the track starts to sidle and crampons added a nice layer of safety." >}}
+{{< figure2 name="IMG_6203.jpeg" width="2048" height="1365" author="Finn Le Sueur" title="Jen on Robert Ridge as the track starts to sidle and crampons added a nice layer of safety." >}}
 
 From here the route continues on with much of the same, beautiful views of the valleys below and of mountain ridges in the far distance. We even spotted Speargrass Hut down on the west side of the range. __The junction for Speargrass Hut is about 20-30min before Angelus Hut__, and in the end, we arrived just after 2pm, just in time for a late lunch in the sun-heated hut.
 
-{{< figure name="IMG_2561" author="Finn Le Sueur" title="The frankly amazing view from Angelus Hut." >}}
+{{< figure2 name="IMG_2561.jpeg" width="2048" height="779" author="Finn Le Sueur" title="The frankly amazing view from Angelus Hut." >}}
 
-{{< figure name="IMG_6236" author="Finn Le Sueur" title="The Large Magellanic Cloud over Maniniaro/Angelus Peak, and the star Canopus glowing brightly to the right of Sunset Saddle." >}}
+{{< figure2 name="IMG_6236.jpeg" width="2048" height="1365" author="Finn Le Sueur" title="The Large Magellanic Cloud over Maniniaro/Angelus Peak, and the star Canopus glowing brightly to the right of Sunset Saddle." >}}
 
 ## Day 2: Out via Speargrass Hut
 {{< stats track="Lake_Angelus_Day_2" >}}
@@ -40,7 +40,7 @@ This day is about 1km longer than Robert Ridge, but with over 1000m of descent, 
 
 From here the track crosses Speargrass Creek a number of times. All the while, the trail gets rather muddy but enters some rather beautiful forest. __In the end it took us 2:25 to reach Speargrass Hut from Lake Angelus Hut__. 
 
-{{< figure name="IMG_2599" author="Finn Le Sueur" title="Speargrass Hut" >}}
+{{< figure2 name="IMG_2599.jpeg" width="2048" height="1536" author="Finn Le Sueur" title="Speargrass Hut" >}}
 
 From there, the track mainly sidles along the valley towards Mt Robert Carpark. While very beautiful, we were running out of legs and motivation and were mostly powered by the occasional grumble. Nevertheless, __we made it out after another 2:45, taking the day total to around 5:10__.
 

@@ -10,7 +10,7 @@ prism: "true"
 
 This post is coming to you from a 2020 iPad Pro 12.9" - a beautiful, huge, iPad. Back in 2010 I owned a iPad 1 (thanks Dad!) - I ostenstably used it for schoolwork, but I think I mostly played the tower defence game, [Sentinel 3][1], while pretending to do work in my Statistics class.
 
-{{< figure name="sentinel-screenshot" title="Sentinel 3" author="Finn Le Sueur" >}}
+{{< figure2 name="sentinel-screenshot.jpg" width="2732" height="1430" title="Sentinel 3" author="Finn Le Sueur" >}}
 
 <!--more-->
 
@@ -28,7 +28,7 @@ Working Copy is a truly excellent git client written by Anders Borum. I bought i
 
 Terminus is another truly great app. I managed to set up SSH to my server with public key authentication which was pretty cool! Now I can SSH into my Linode instances in case I want to do some work in there or kickstart a dead process. 
 
-{{< figure name="terminus-working-copy" title="Working Copy & Terminus" author="Finn Le Sueur" >}}
+{{< figure2 name="terminus-working-copy.png" width="2732" height="2048" title="Working Copy & Terminus" author="Finn Le Sueur" >}}
 
 ## Physics Tutorials with [Concepts][6]
 
@@ -42,7 +42,7 @@ Enter, Concepts & iOS Screen Recording! I use the free version of Concepts, simp
 
 The school I work for, while reasonably tech forward, is very much a Windows-first and MacOS if-it-works kind of place. Because I really like my MacBook Pro I have been using it instead of my work issued laptop so far - the only major issue is that the software that is used to take the roll, do reporting and other administrative tasks is only available on the school laptops or via Remote Desktop. Enter, [Microsoft Remote Desktop][7] - a solid, free and workable app. Does the trick on my MacBook, and thankfully, also here on my iPad.
 
-This will work perfectly by itself when I am connected to the school wifi network, but less so when I am elsewhere. Enter, corporate the VPN (yuck). The app designated for use by the school is [FortiClientVPN][8] which seems to do the trick - although the MacOS app is a hard to use, hot mess but that is a story for another time.
+This will work perfectly by itself when I am connected to the school wifi network, but less so when I am elsewhere. Enter, the corporate VPN (yuck). The app designated for use by the school is [FortiClientVPN][8] which seems to do the trick - although the MacOS app is a hard to use, hot mess but that is a story for another time.
 
 With these two apps in tow I can happily Remote Desktop into work and do all my usual tasks there. I even tested it out by doing some reporting while on holiday break!
 

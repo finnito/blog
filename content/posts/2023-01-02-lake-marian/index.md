@@ -20,7 +20,7 @@ Unfortunately we couldn't stay too long so we headed back down in our wet clothe
 
 __Overall:__ This walk is well worth is, especially if it's hot weather and you can go for a swim! Not to be missed.
 
-{{< figure name="IMG_5164" title="Some amazing rapids on Marian Creek. Scary." >}}
-{{< figure name="IMG_5169" title="Still running just before the steepness begins." >}}
-{{< figure name="IMG_5176" title="Admiring Lake Marian before jumping in." >}}
-{{< figure name="IMG_5178" title="View from __in__ the lake." >}}
+{{< figure2 name="IMG_5164.jpeg" width="4032" height="3024" title="Some amazing rapids on Marian Creek. Scary." >}}
+{{< figure2 name="IMG_5169.jpeg" width="4032" height="3024" title="Still running just before the steepness begins." >}}
+{{< figure2 name="IMG_5176.jpeg" width="4032" height="3024" title="Admiring Lake Marian before jumping in." >}}
+{{< figure2 name="IMG_5178.jpeg" width="4032" height="3024" title="View from __in__ the lake." >}}

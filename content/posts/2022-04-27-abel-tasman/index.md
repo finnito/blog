@@ -27,11 +27,11 @@ The track begins by climbing up to the junction with the Inland Track, but the c
 
 Once we climbed back out of Whariwharangi we decided to take the slightly extended route to Mutton Cove via Separation Point. Pretty neat little point --  think it would make a funky campsite! From there the track descends into Mutton Cove and then sidles around to Anapai Bay. We started walking at 1 pm so by the time we arrived the sun had set behind the hill and it was cooling down, so we didn't swim, instead opting for hot drinks, food and reading our books.
 
-{{< figure name="IMG_7502" title="Wainui Bay" >}}
-{{< figure name="IMG_7512" title="Whariwharangi Bay" >}}
-{{< figure name="IMG_7514" title="Looking back towards Golden Bay" >}}
-{{< figure name="IMG_7515" title="Separation Point" >}}
-{{< figure name="IMG_7517" title="Mutton Cove" >}}
+{{< figure2 name="IMG_7502.jpg" width="5488" height="3662" title="Wainui Bay" >}}
+{{< figure2 name="IMG_7512.jpg" width="5488" height="3662" title="Whariwharangi Bay" >}}
+{{< figure2 name="IMG_7514.jpg" width="5488" height="3662" title="Looking back towards Golden Bay" >}}
+{{< figure2 name="IMG_7515.jpg" width="5488" height="3662" title="Separation Point" >}}
+{{< figure2 name="IMG_7517.jpg" width="5488" height="3662" title="Mutton Cove" >}}
 
 ## Day 2: To Onetahui Campsite
 
@@ -54,13 +54,13 @@ The weather got increasingly gloomy during the afternoon as we walked to Tonga S
 
 We reached Onetahuti Campsite at 3 pm which left plenty of time for tea, coffee, snacks and reading! We weren't too keen on a swim due to the gloomy weather. We would find out the weka at Onetahuti are particularly sneaky. They managed to get rubbish from each of the three parties that stayed the night there! What a menace.
 
-{{< figure name="IMG_7526" title="Sunrise from Anapai Campsite" >}}
-{{< figure name="IMG_7533" title="Leaving Anapai Campsite in the morning" >}}
-{{< figure name="IMG_7535" title="Pukatea Walk" >}}
-{{< figure name="IMG_7539" title="Tōtaranui from Skinner Point" >}}
-{{< figure name="IMG_7540" title="Crosing Awaroa Inlet" >}}
-{{< figure name="IMG_7544" title="A gloomy afternoon at Awaroa Bay" >}}
-{{< figure name="IMG_7549" title="Very cute bridge crossing into Onetahuti" >}}
+{{< figure2 name="IMG_7526.jpg" width="5488" height="3662" title="Sunrise from Anapai Campsite" >}}
+{{< figure2 name="IMG_7533.jpg" width="5488" height="3662" title="Leaving Anapai Campsite in the morning" >}}
+{{< figure2 name="IMG_7535.jpg" width="5488" height="3662" title="Pukatea Walk" >}}
+{{< figure2 name="IMG_7539.jpg" width="5488" height="3662" title="Tōtaranui from Skinner Point" >}}
+{{< figure2 name="IMG_7540.jpg" width="5488" height="3662" title="Crosing Awaroa Inlet" >}}
+{{< figure2 name="IMG_7544.jpg" width="5488" height="3662" title="A gloomy afternoon at Awaroa Bay" >}}
+{{< figure2 name="IMG_7549.jpg" width="5488" height="3662" title="Very cute bridge crossing into Onetahuti" >}}
 
 ## Day 3: Akersten Campsite
 
@@ -80,8 +80,8 @@ After lunch, we took the Anchorage Acces Track up to the main track where we cou
 
 We both had a little dip and rinse in the bay, but were not enthused to get in too much because we were about to lose the sunlight (damn east coast). But, smelling better, we settled in for another great afternoon of drinking coffee and tea, eating snacks and reading.
 
-{{< figure name="IMG_7555" title="Leaving Tonga Bay" >}}
-{{< figure name="IMG_7566" title="Akersten Campsite" >}}
+{{< figure2 name="IMG_7555.jpg" width="5488" height="3662" title="Leaving Tonga Bay" >}}
+{{< figure2 name="IMG_7566.jpg" width="5488" height="3662" title="Akersten Campsite" >}}
 
 ## Day 4: Out to Mārahau
 
@@ -96,5 +96,5 @@ We woke up after another good sleep with the campsite to ourselves, finished our
 
 With fresh clothes on, we were good to go for the drive home! What a great tramping adventure. Easy walking, lovely beaches and camping, lots of hot drinks, lots of reading, and going to sleep easy! Just perfect.
 
-{{< figure name="IMG_7572" title="Sunset over Rangitoto ki te  Tonga / D'Urville Island" >}}
-{{< figure name="IMG_7594" title="Some kayakers enjoying a great morning near Motuareronui / Adele Island" >}}
+{{< figure2 name="IMG_7572.jpg" width="5488" height="3662" title="Sunset over Rangitoto ki te  Tonga / D'Urville Island" >}}
+{{< figure2 name="IMG_7594.jpg" width="5488" height="3662" title="Some kayakers enjoying a great morning near Motuareronui / Adele Island" >}}

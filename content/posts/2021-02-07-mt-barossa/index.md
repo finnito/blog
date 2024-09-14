@@ -18,7 +18,7 @@ Korra didn't vibe with the stream at the bottom and tried to jump it - she faile
 
 A great walk, although it's a bit far from Chrsitchurch for such a short daywalk though! Might be nicer if you were staying in the area and were doing a fiew different trips.
 
-{{< figure name="IMG_1356" title="Jen me and Lexi!" author="Tessa Hobbs" >}}
-{{< figure name="IMG_1815" title="Ruru and Amy on the way up!" >}}
-{{< figure name="IMG_1836" title="Korra being affectionate at the top." >}}
-{{< figure name="IMG_1856" title="Heading back down, still blisteringly hot!" >}}
+{{< figure2 name="IMG_1356.jpeg" width="1280" height="960" title="Jen me and Lexi!" author="Tessa Hobbs" >}}
+{{< figure2 name="IMG_1815.jpeg" width="1280" height="960" title="Ruru and Amy on the way up!" >}}
+{{< figure2 name="IMG_1836.jpeg" width="1280" height="960" title="Korra being affectionate at the top." >}}
+{{< figure2 name="IMG_1856.jpeg" width="1280" height="960" title="Heading back down, still blisteringly hot!" >}}

@@ -44,8 +44,8 @@ We’re all quite determined to see a kiwi on this trip, after not seeing any la
 
 A nighttime walk up to the homestead did not result in any kiwi sightings, but we did see two very cute deer right outside the hut!
 
-{{< figure name="IMG_6581" title="Our trusty wee plane that landed us on Mason Bay in some strong winds!" >}}
-{{< figure name="IMG_6585" title="Jen walking up to Mason Bay Hut." >}}
+{{< figure2 name="IMG_6581.jpg" width="5472" height="3648" title="Our trusty wee plane that landed us on Mason Bay in some strong winds!" >}}
+{{< figure2 name="IMG_6585.jpg" width="5472" height="3648" title="Jen walking up to Mason Bay Hut." >}}
 
 ## Day 1: To Big Hellfire Hut
 
@@ -72,9 +72,9 @@ Throughout this trip we had a few questions which I thought I'd document them he
 > 
 > __Whakatika__: The island has a granite base layer from a very ancient volcanic vent. The tarns found on and around Mt Anglem / Hananui are from the last glacial period. There are some volcanic outcropings (e.g. Island Hill) in the low-lying area. - [DOC](https://www.doc.govt.nz/about-us/our-policies-and-plans/statutory-plans/statutory-plan-publications/conservation-management-strategies/stewart-island-rakiura/section-two/part-three-preservation-of-indigenous-species/3_5-geological-landform-and-soil-features/)
 
-{{< figure name="IMG_6615" title="Heading along Mason Bay in the gloom." >}}
-{{< figure name="IMG_6631" title="On the High Tide Track of Mason Bay." >}}
-{{< figure name="IMG_6655" title="Little Hellfire Beach." >}}
+{{< figure2 name="IMG_6615.jpg" width="5472" height="3648" title="Heading along Mason Bay in the gloom." >}}
+{{< figure2 name="IMG_6631.jpg" width="5472" height="3648" title="On the High Tide Track of Mason Bay." >}}
+{{< figure2 name="IMG_6655.jpg" width="5472" height="3648" title="Little Hellfire Beach." >}}
 
 ## Day 2: To East Ruggedy Hut
 
@@ -90,10 +90,10 @@ We reached the hut with the sun still out which was wonderful. We used the solar
 
 Overall we found this day much easier - there was a _little_ less height gain and the track seemed less muddy and drier. Onwards!
 
-{{< figure name="IMG_6671" title="Some classic Rakiura mud." >}}
-{{< figure name="IMG_6684" title="Washed up rubbish used as decoration along the track." >}}
-{{< figure name="IMG_6700" title="Beautiful moody ocean on West Ruggedy Beach." >}}
-{{< figure name="IMG_6730" title="Climbing out of West Ruggedy Beach to East Ruggedy Hut." >}}
+{{< figure2 name="IMG_6671.jpg" width="5472" height="3648" title="Some classic Rakiura mud." >}}
+{{< figure2 name="IMG_6684.jpg" width="5472" height="3648" title="Washed up rubbish used as decoration along the track." >}}
+{{< figure2 name="IMG_6700.jpg" width="5472" height="3648" title="Beautiful moody ocean on West Ruggedy Beach." >}}
+{{< figure2 name="IMG_6730.jpg" width="5472" height="3648" title="Climbing out of West Ruggedy Beach to East Ruggedy Hut." >}}
 
 ## Day 3: To Long Harry Hut
 
@@ -117,9 +117,8 @@ I saw my first roa in the bush near the hut on the final descent, although it di
 > __Pātai:__ What was the old barrel in the ground and the mine-entrance-esque structure in the ground on the east end of Long Harry Bay.
 > __Whakatika:__ According to a fellow tramper it is from the old hut!
 
-{{< figure name="IMG_6744" title="Crossing East Ruggedy Beach." >}}
-{{< figure name="IMG_6767-Pano" title="Looking back towards East Ruggedy Beach and the Rugged Islands." >}}
-{{< figure name="IMG_6814" title="Logs by the ocean near Long Harry Hut" >}}
+{{< figure2 name="IMG_6744.jpg" width="5472" height="3648" title="Crossing East Ruggedy Beach." >}}
+{{< figure2 name="IMG_6814.jpg" width="5472" height="3648" title="Logs by the ocean near Long Harry Hut" >}}
 
 ## Day 4: To Yankee River Hut
 
@@ -132,8 +131,8 @@ From there the track climbs rather directly up to a vague saddle before descendi
 
 Dad went and caught a fish for some extra dinner - yum! Jen and I were inspired to go foraging ourselves and spent a couple of hours hunting paua. In the end we found two good sized ones! I cut my finger open because I forgot how to use  a pocket knife, apparently. Lots of bleeding but it stopped in the end, hah.
 
-{{< figure name="IMG_6825" title="The golden sands and beautiful swimming water of Smoky Beach" >}}
-{{< figure name="IMG_6879" title="The sun going down at Christmas Village Hut." >}}
+{{< figure2 name="IMG_6825.jpg" width="5472" height="3648" title="The golden sands and beautiful swimming water of Smoky Beach" >}}
+{{< figure2 name="IMG_6879.jpg" width="5472" height="3648" title="The sun going down at Christmas Village Hut." >}}
 
 ## Day 5: To Christmas Village Hut
 
@@ -161,7 +160,7 @@ On the way down there was a lot of treefall with lots of dry wood available! We 
 
 In the afternoon we had some heavy rain and loud waves which made for a really nice aesthetic while holed up in the hut. We also spotted a very curious seal bobbing around out front of the hut - it spent a long time watching everyone who went out to see it. So very cute.
 
-{{< figure name="IMG_6883" title="The crew at the top of Hananui - not a sight to be seen." >}}
+{{< figure2 name="IMG_6883.jpg" width="5472" height="3648" title="The crew at the top of Hananui - not a sight to be seen." >}}
 
 ## Day 7: To Bungaree Hut
 
@@ -178,9 +177,9 @@ The outlook of Bungaree Hut was amazing. It's the same hut as Yankee River but t
 
 Spent the afternoon in the sun with Jen reading my book. Some suggested reading was The Sixth Extinction which looks really good. I had an idea of writing a book (not a textbook) that explores NZ and the junior Science curriculum at the same time. Who knows?
 
-{{< figure name="IMG_6889" title="Mud and roots on the way down to Murray Beach." >}}
-{{< figure name="IMG_6899" title="Crossing Murray Beach." >}}
-{{< figure name="IMG_6904" title="On the last climbing section towards Bungaree Hut." >}}
+{{< figure2 name="IMG_6889.jpg" width="5472" height="3648" title="Mud and roots on the way down to Murray Beach." >}}
+{{< figure2 name="IMG_6899.jpg" width="5472" height="3648" title="Crossing Murray Beach." >}}
+{{< figure2 name="IMG_6904.jpg" width="5472" height="3648" title="On the last climbing section towards Bungaree Hut." >}}
 
 > __Pātai:__ Can burning plastic block a chimney? (graffiti in the hut implied it can)
 > 
@@ -203,5 +202,5 @@ From there on to the end the track is part of [the great walk](https://www.doc.g
 
 We had booked some transport from Lee Bay back to Oban which was a blessing. It was quite a few kms and there was no reason for us to do a bunch of road walking after all of that!
 
-{{< figure name="IMG_6937" title="Bungaree Hut at night 😍" >}}
-{{< figure name="IMG_6962" title="Bungaree Hut in the morning." >}}
+{{< figure2 name="IMG_6937.jpg" width="5472" height="3648" title="Bungaree Hut at night 😍" >}}
+{{< figure2 name="IMG_6962.jpg" width="5472" height="3648" title="Bungaree Hut in the morning." >}}

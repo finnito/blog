@@ -14,11 +14,11 @@ We've been enjoying a little holiday to The Catlins during these school holidays
 
 [Tautuku Hut](https://www.doc.govt.nz/parks-and-recreation/places-to-go/otago/places/catlins-coastal-area/things-to-do/tautuku-hut/) is one of the few huts in the region, and being just off the main road, and about 4km from the road-end, it is an excellent day walk or overnighter. It is free to stay at, and maintained by [Permolat Southland](https://permolatsouthland.nz/home/huts-and-tracks/hut-list/tautuku-hut/)
 
-{{< figure name="tautuku-hut" author="Finn Le Sueur" title="The quirky Tautuku Hut." >}}
+{{< figure2 name="tautuku-hut.jpeg" width="4032" height="3024" author="Finn Le Sueur" title="The quirky Tautuku Hut." >}}
 
 The track has an elevation gain of around \~365m on the round trip, making it not too strenuous for the less-fit people out there. The track is extremely well marked, with plentiful orange triangles. It is however, quite muddy. I think this is expected for Southland, though! If you know that going in, you'll have quite a nice time. It took us \~45min to run in, and about \~40min to run out. So, all in all, a great wee-trip!
 
-{{< figure name="tautuku-track2" author="Finn Le Sueur" title="Muddy but well-formed." >}}
+{{< figure2 name="tautuku-track2.jpeg" width="4032" height="3024" author="Finn Le Sueur" title="Muddy but well-formed." >}}
 
 Some resources for planning your trip:
 

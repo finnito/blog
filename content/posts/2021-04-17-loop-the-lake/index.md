@@ -22,4 +22,4 @@ Heading back towards St Arnaud on Lakehead Track the footing was better, the tra
 
 I cruised over the line in 2:35:43 and was pretty happy with that time. In the future I think I'll aim for sub 2:30 but who knows!
 
-{{< figure name="IMG_6168" title="Lake Rotoiti from Travers Range." >}}
+{{< figure2 name="IMG_6168.jpg" width="5472" height="3648" title="Lake Rotoiti from Travers Range." >}}

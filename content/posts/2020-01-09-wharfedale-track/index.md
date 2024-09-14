@@ -16,7 +16,7 @@ Overall, this day is super cruisy. The track is very well-formed, the incline ge
 
 Continue on for another 7.6km (1hr 45min, 152m ⬆️) to reach the Wharfedale Saddle. Somewhere around halfway along this section, you will encounter a nice little clearing by a stream in the bottom of a small hillside valley. This is a perfect place for lunch.
 
-{{< figure name="IMG_0412" author="Finn Le Sueur" title="Jen climbing to Wharfedale Saddle" >}}
+{{< figure2 name="IMG_0412.jpg" width="1024" height="768" author="Finn Le Sueur" title="Jen climbing to Wharfedale Saddle" >}}
 
 The descent down from Wharfedale Saddle is as gentle as the climb up. After 1.6km (20min, 95m ⬇️) you will reach the Black Hill junction. Take this turn if you are headed up to Black Hill Hut for the night! If you, like us, are headed for Wharfedale Hut, continue on with the gentle descent for another 3.4km (45min, 147m ⬇️).
 
@@ -30,7 +30,7 @@ From here it is 2.7km (56min, 229m ⬆️) to the summit of Mt Oxford. It first 
 
 The last thing to do is to descend back down the __View Hill - Mt Oxford Track__ for 5.05km (1hr 25min, 576m ⬇️). The track is a mix of steep, gravely descent, and some nice flatter forest walking. Take your time and look after your knees! Mine sure were suffering by the time I got back to the car.
 
-{{< figure name="IMG_0421" author="Finn Le Sueur" title="Jen secending View Hill - Mt Oxford Track" >}}
+{{< figure2 name="IMG_0421.jpg" width="1024" height="768" author="Finn Le Sueur" title="Jen secending View Hill - Mt Oxford Track" >}}
 
 [wdht]: https://www.doc.govt.nz/parks-and-recreation/places-to-go/canterbury/places/oxford-forest-conservation-area/things-to-do/tracks/wharfedale-hut-tracks/
 [mto]: https://www.doc.govt.nz/parks-and-recreation/places-to-go/canterbury/places/oxford-forest-conservation-area/things-to-do/tracks/mt-oxford-tracks/

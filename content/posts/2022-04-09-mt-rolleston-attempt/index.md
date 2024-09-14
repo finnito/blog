@@ -20,8 +20,8 @@ After lunch in the delightful sun we clambered down what looked to be a scree sl
 
 I decided to run the track back to Arthur's Pass because I was feeling good and like I wanted to be outside a little bit longer. Mum and Dad too my gaiters and I turned off just before the car. The first part of the track is in severe disrepair but it gets much nicer after passing Temple Basin. It's got a whole lot much undulation than I expected, but was a totally enjoyable run!
 
-{{< figure name="IMG_3588" title="Dad looking up at Otira Face; our route up through the tussocks visible to his left." >}}
+{{< figure2 name="IMG_3588.jpeg" width="3096" height="2322" title="Dad looking up at Otira Face; our route up through the tussocks visible to his left." >}}
 
-{{< figure name="IMG_3601" title="Mum and Becky waiting as Dad and I scope out some of the ridgeline." >}}
+{{< figure2 name="IMG_3601.jpeg" width="3096" height="2322" title="Mum and Becky waiting as Dad and I scope out some of the ridgeline." >}}
 
-{{< figure name="IMG_3608" title="Picking our way through scree and boulders back down to the valley floor." >}}
+{{< figure2 name="IMG_3608.jpeg" width="3096" height="2322" title="Picking our way through scree and boulders back down to the valley floor." >}}

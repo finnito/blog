@@ -36,7 +36,7 @@ Being new to teaching and a bit naive about the workforce I thought that 9% over
 
 We can see that it is getting a bit out of hand recently, but what about the total inflation since July 2019 when the collective agreement came into force? Let's ask the Reserve Bank of New Zealand.
 
-{{< figure name="rbnz-inflation-calculator" title="Inflation between Q2 2019 and Q4 2021. Retrieved 09/02/2022." >}}
+{{< figure2 name="rbnz-inflation-calculator" title="Inflation between Q2 2019 and Q4 2021. Retrieved 09/02/2022." >}}
 
 The collective agreement doesn't expire until July 2022, so we should expect even more inflation in the interim. What does this mean for the 9% increase in wages that we won in 2019? __It just _barely_ covered inflation. We got no pay rise. We are well on our way to essentially receiving a pay cut__.
 

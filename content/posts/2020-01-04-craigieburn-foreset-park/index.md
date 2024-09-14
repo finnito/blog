@@ -20,7 +20,7 @@ The posted DOC time for this 2.1km (~345m gain) uphill track is 45 minutes, but 
 
 The posted DOC time for this 0.5km (~115m gain) is 15min, and due to its steepness, this is actually pretty accurate! A first for DOC, perhaps.
 
-{{< figure name="2020-01-01-helicopter-hill" author="Finn Le Sueur" title="Jen at Helicopter Hill" >}}
+{{< figure2 name="2020-01-01-helicopter-hill.jpg" width="2048" height="1536" author="Finn Le Sueur" title="Jen at Helicopter Hill" >}}
 
 ## 3: Lyndon Saddle to Broken River Road (Luge Track)
 

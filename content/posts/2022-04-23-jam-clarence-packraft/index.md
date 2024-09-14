@@ -49,12 +49,12 @@ Jam Hut has four beds and appears to be quite well maintained. No one had been t
 
 A hidden gem, I think. 💎
 
-{{< figure name="IMG_3689" title="Jen walking up the lower George Stream." >}}
-{{< figure name="IMG_3707" title="Jen clambering up one of the two rather large boulders!" >}}
-{{< figure name="IMG_3725" title="Jen crossing some precarious scree on the way to George Saddle." >}}
-{{< figure name="IMG_3728" title="Not far now, although the scree was still terrible." >}}
-{{< figure name="IMG_3731" title="Last 15m. Face of pain and grounchiness at the climb." >}}
-{{< figure name="IMG_3741" title="The evening sun leaving Doddemeade Stream." >}}
+{{< figure2 name="IMG_3689.jpeg" width="4032" height="3024" title="Jen walking up the lower George Stream." >}}
+{{< figure2 name="IMG_3707.jpeg" width="4032" height="3024" title="Jen clambering up one of the two rather large boulders!" >}}
+{{< figure2 name="IMG_3725.jpeg" width="4032" height="3024" title="Jen crossing some precarious scree on the way to George Saddle." >}}
+{{< figure2 name="IMG_3728.jpeg" width="4032" height="3024" title="Not far now, although the scree was still terrible." >}}
+{{< figure2 name="IMG_3731.jpeg" width="4032" height="3024" title="Last 15m. Face of pain and grounchiness at the climb." >}}
+{{< figure2 name="IMG_3741.jpeg" width="4032" height="3024" title="The evening sun leaving Doddemeade Stream." >}}
 
 ## Day 2: The Clarence
 
@@ -76,11 +76,11 @@ Unfortunately, the Twain isn't the most appropriate boat for these rapids and it
 
 With the overcast cold day and the wetness of the river we got pretty chilly and had to stop to put on some more layers. In the end, we called it a day early, found a good looking beach and parked up for the night. Come tomorrow we would find out that if we had paddled around the corner we would have found a much better spot with some morning sun (marked on the map). The campsite was good though, it was sheltered from the breeze, and there was only a short period of drizzle in the evening.
 
-{{< figure name="IMG_3747" title="Jam Hut with water tank, woodshed and dog kennels all right by the porch. An excellent wee hut." >}}
-{{< figure name="IMG_3757" title="A view of Jam Stream on the way to the Clarence." >}}
-{{< figure name="IMG_3761" title="A u-bend on Jam Stream with epic erosion on the banks." >}}
-{{< figure name="IMG_3765" title="Jen on the Twain, looking safe and ready to go!" >}}
-{{< figure name="IMG_3773" title="Our campsite for the night. What a stunner." >}}
+{{< figure2 name="IMG_3747.jpeg" width="4032" height="3024" title="Jam Hut with water tank, woodshed and dog kennels all right by the porch. An excellent wee hut." >}}
+{{< figure2 name="IMG_3757.jpeg" width="4032" height="3024" title="A view of Jam Stream on the way to the Clarence." >}}
+{{< figure2 name="IMG_3761.jpeg" width="4032" height="3024" title="A u-bend on Jam Stream with epic erosion on the banks." >}}
+{{< figure2 name="IMG_3765.jpeg" width="4032" height="3024" title="Jen on the Twain, looking safe and ready to go!" >}}
+{{< figure2 name="IMG_3773.jpeg" width="4032" height="3024" title="Our campsite for the night. What a stunner." >}}
 
 ### Day 3: Out via The Clarence
 
@@ -94,7 +94,7 @@ Once the river opens out into a Canterbury-style braided river there are not any
 
 The George Stream confluence doesn't look so much like a stream confluence as it looks like a [debris fan](https://geologypics.com/140131-97/). I managed to lug the raft (with gear inside) on my shoulder up to the car while Jen took the backpacks in the drybag, plus the two small lunch drybags. Bit of an effort but only about 400m back to the car. We were very glad for some sun on this day as it helped keep us warm and dry off at the end!
 
-{{< figure name="IMG_3780" title="Dressed warmly in the morning, ready to go!" >}}
-{{< figure name="IMG_3786" title="One last look at the epic terrain." >}}
-{{< figure name="IMG_3789" title="Enjoying some of the more gentle water on the way to Matai Flat." >}}
-{{< figure name="IMG_3806" title="The wide open valley out the bottom of the gorge. Beautiful water with fun braids to paddle." >}}
+{{< figure2 name="IMG_3780.jpeg" width="4032" height="3024" title="Dressed warmly in the morning, ready to go!" >}}
+{{< figure2 name="IMG_3786.jpeg" width="4032" height="3024" title="One last look at the epic terrain." >}}
+{{< figure2 name="IMG_3789.jpeg" width="4032" height="3024" title="Enjoying some of the more gentle water on the way to Matai Flat." >}}
+{{< figure2 name="IMG_3806.jpeg" width="4032" height="3024" title="The wide open valley out the bottom of the gorge. Beautiful water with fun braids to paddle." >}}

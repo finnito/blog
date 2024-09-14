@@ -25,12 +25,12 @@ Alright, I hopped over to the [Pioneer Energy website](https://pioneerenergy.co.
 It starts as a very well formed 4WD track, and you can see where a large hydroelectric pipe has been buried, or is sometimes above ground. It seems very large, but dwarfs the pipes at the more major hydroelectric facilities!
 
 
-{{< figure name="IMG_2619" author="Finn Le Sueur" title="Jen next to the hydroelectric pipe." >}}
+{{< figure2 name="IMG_2619.jpeg" width="1280" height="960" author="Finn Le Sueur" title="Jen next to the hydroelectric pipe." >}}
 
 There are two turn-offs where they have created new track to lay the pipe, both times turn left. At the second junction the track deteriorates and becomes more muddy, but is still totally manageable. The hut is pretty standard, but does smell strongly of smoke. Perhaps the fire is not venting well, or has just seen higher usage than other huts.
 
-{{< figure name="IMG_2616" author="Finn Le Sueur" title="Jen blasting along the nice 4WD track." >}}
+{{< figure2 name="IMG_2616.jpeg" width="1280" height="960" author="Finn Le Sueur" title="Jen blasting along the nice 4WD track." >}}
 
 The view up the valley and over the lake is beautiful and [would be worth a better explore in the future](https://www.doc.govt.nz/parks-and-recreation/places-to-go/nelson-tasman/places/kahurangi-national-park/things-to-do/tracks/matiri-valley-and-1000-acre-plateau-tramping-tracks/)!
 
-{{< figure name="20210713_153258" author="Jennifer Rouse" title="Finn looking over Matiri Lake" >}}
+{{< figure2 name="20210713_153258.jpg" width="4032" height="3024" author="Jennifer Rouse" title="Finn looking over Matiri Lake" >}}

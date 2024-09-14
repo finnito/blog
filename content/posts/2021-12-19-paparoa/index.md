@@ -16,13 +16,13 @@ A friend from work is moving to Australia for a year and has entered an ultramar
 
 We headed off from Christchurch rather early in the morning with the aim to run West to East. This is the more difficult direction because the West (coast) is lower in elevation than the East so we had more hill climbing to do. The track starts off really nicely and we hit a quite reasonable 5min pace. It soon starts climbing, however, and we really dialed it back.
 
-{{< figure name="IMG_3189" title="Tim on an early bridge!" >}}
-{{< figure name="IMG_3197" title="Lovely forest visible from Pororari Hut." >}}
+{{< figure2 name="IMG_3189.jpeg" width="1280" height="960" title="Tim on an early bridge!" >}}
+{{< figure2 name="IMG_3197.jpeg" width="1280" height="960" title="Lovely forest visible from Pororari Hut." >}}
 
 The first hut we reached was Pororari - it took us 1:55. From there the track climbs even more steeply so we ended up simply power hiking most of the uphills and running the flats and the downs. This is quite an effective technique! The traverse along the tops to is beautiful and we reached Moonlight Tops Hut at 4:40.
 
-{{< figure name="IMG_3199" title="Beautiful waterfall on the climb up from Pororari Hut!" >}}
-{{< figure name="IMG_3202" title="Moonlight Tops Hut here we go!" >}}
+{{< figure2 name="IMG_3199.jpeg" width="1280" height="960" title="Beautiful waterfall on the climb up from Pororari Hut!" >}}
+{{< figure2 name="IMG_3202.jpeg" width="1280" height="960" title="Moonlight Tops Hut here we go!" >}}
 
 The track carries on undulating its way to Ces Clark Hut, although I think this section is technically downhill. It was in this section that I hit my longest run ever - and I was feeling okay! Some butt chafe arrived and my legs were tired but we kept plodding along, ticking off the kms.
 

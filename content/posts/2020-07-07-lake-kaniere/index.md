@@ -18,6 +18,6 @@ We parked at the north west end of the road and headed off along the track, aimi
 
 All in all, a solid, easy going trail run! Highly recommended. Next time we go back we'll try do a full loop of the lake, plus some of the other trails in the area! 🏔
 
-{{< figure name="IMG_6223" title="A quick breather and opportunity to admire the view!" >}}
-{{< figure name="IMG_6231" title="Love a good bridge, and a good view!" >}}
-{{< figure name="IMG_9887" title="Follow the orange triangles!" >}}
+{{< figure2 name="IMG_6223.jpg" width="4032" height="3024" title="A quick breather and opportunity to admire the view!" >}}
+{{< figure2 name="IMG_6231.jpg" width="4032" height="3024" title="Love a good bridge, and a good view!" >}}
+{{< figure2 name="IMG_9887.jpg" width="4032" height="3024" title="Follow the orange triangles!" >}}

@@ -22,7 +22,7 @@ You should take a right turn, crossing The Mingha River just before the Edwards 
 
 The Bealey River can be formidable in high flows, but we encountered it after a significant dry period, measuring approximately 60 cubic meters per second (cumecs) at the Waimakariri Bridge. You should not have any trouble crossing at this flow. Nor should you with the Edwards River East Branch crossing further up bother you.
 
-{{< figure name="IMG_5304" author="Finn Le Sueur" title="Frosty shrooms on the way to Edwards Hut." >}}
+{{< figure2 name="IMG_5304.jpg" width="2048" height="1365" author="Finn Le Sueur" title="Frosty shrooms on the way to Edwards Hut." >}}
 
 From here the track is well-marked, with some riverbed travel indicated by the ever-trusty cairns and a couple of arrows. You should not at any point have to cross the river, preferring to stay on the south-east side at all times.
 
@@ -46,7 +46,7 @@ If the weather is warm, or the river very low, you can follow the orange markers
 
 I forgot how to walk, kicked a rock and went down. Dosed up on painkillers but feeling pretty stupid, we plodded on.
 
-{{< figure name="IMG_5487" author="Jennifer Rouse" title="Tommy the French physio strapping my ankle at Edwards Hut." >}}
+{{< figure2 name="IMG_5487.jpg" width="2048" height="1365" author="Jennifer Rouse" title="Tommy the French physio strapping my ankle at Edwards Hut." >}}
 
 ### To Tarn Col
 
@@ -61,7 +61,7 @@ The climb to Tarn Col is very steep but there are a few good options to get up t
 hold onto and there are some steps kicked into the hillside.
 - __Right__: Dry all the way, some steps kicked into the dirt and seemed pretty good according to some fellow trampers.
 
-{{< figure name="IMG_5421" author="Finn Le Sueur" title="Tom and Jen on Tern Col." >}}
+{{< figure2 name="IMG_5421.jpg" width="2048" height="1365" author="Finn Le Sueur" title="Tom and Jen on Tern Col." >}}
 
 ### To Walker Pass
 
@@ -86,7 +86,7 @@ This day is short and relatively unremarkable. The leg to Hawdon Shelter is down
 
 When the river levels are low, this section of the trip will pose no problem, but it would be worth being cautious, as always, if it has rained recently.
 
-{{< figure name="IMG_5519" author="Finn Le Sueur" title="Hiking out with Tommy, Chloe, Niko and Irina!" >}}
+{{< figure2 name="IMG_5519.jpg" width="2048" height="1365" author="Finn Le Sueur" title="Hiking out with Tommy, Chloe, Niko and Irina!" >}}
 
 It is also worth noting that most traffic is east-bound at the end of a weekend, which makes it a little more difficult to hitch-hike westwards towards Greyney's Shelter to pick up your car. More difficult, but not impossible! If you were feeling brave you could leave a bike, or go for a bit of a run. If I hadn't sprained my ankle, Jen and I were going to jog it, but alas.
 

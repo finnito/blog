@@ -11,13 +11,14 @@
     <meta property="og:title" content="{{ .Title }} | {{ .Site.Title }}">
     <meta name="title" content="{{ .Title }} | {{ .Site.Title }}">
     
+    {{ $page := . }}
+
     {{ with .Params.metaDescription }}
       <meta name="description" content="{{ . }}">
       <meta property="og:description" content="{{ . }}">
     {{ end }}
     {{ with .Params.metaImage }}
-      {{ $metaImg := ((index ($.Page.Resources.Match .) 0).Resize "1024x") }}
-      <meta property="og:image" content="{{ $metaImg.Permalink }}">
+      <meta property="og:image" content='{{ path.Join $page.Site.Params.imageHostingURL "resize:fill:1024:0:0:0/plain/" "local:///images/" $page.Slug . }}'>
     {{ end }}
     
     <meta property="og:type" content="website">

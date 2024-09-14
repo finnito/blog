@@ -28,17 +28,17 @@ On both sides of P1196 the scrub is very dense and overgrown. Dad talked of camp
 
 The descent from O’Shanessy down its south spur is steep and would require care in wet/snowy conditions. The gradient eventually eases off and you soon find the hut. We had bumped into a party of 4 headed to stay at the hut so stopped in for a cup of tea before heading up to Lake Morgan proper to camp. We found a suitable site for two at the north end on a tiny wee peninsula.
 
-{{< figure name="IMG_8486" title="Dad climbing the Brian O'Lynne Track." >}}
-{{< figure name="IMG_8501" title="Jen grovelling up Brian O'Lynne Track - pants rolled because it's too warm!" >}}
-{{< figure name="IMG_8512" title="Mt Elizabeth" >}}
-{{< figure name="IMG_8517" title="Looking over to Point 1251." >}}
-{{< figure name="IMG_8529" title="Mum and Katherine traversing towards Point 1251." >}}
-{{< figure name="IMG_8557" title="Climbing along the ridge of 1251 for a look. Didn't go to the summit!" >}}
-{{< figure name="IMG_8573" title="A very cute [Miromiro / Tomtit](https://nzbirdsonline.org.nz/species/tomtit) with Mt O'Shanessy in the background." >}}
-{{< figure name="IMG_8587" title="Schist (I think) near the summit of Mt O'Shanessy." >}}
-{{< figure name="IMG_8590" title="Mum and Katherine looking down at Lake Morgan from Mt O'Shanessy." >}}
-{{< figure name="IMG_8619" title="Moody mountains. Looking towards Point 1375 and 1250." >}}
-{{< figure name="IMG_8642" title="Campsite at Lake Morgan with Point 1489 obscured in cloud." >}}
+{{< figure2 name="IMG_8486.jpg" width="5488" height="3662" title="Dad climbing the Brian O'Lynne Track." >}}
+{{< figure2 name="IMG_8501.jpg" width="5488" height="3662" title="Jen grovelling up Brian O'Lynne Track - pants rolled because it's too warm!" >}}
+{{< figure2 name="IMG_8512.jpg" width="5488" height="3662" title="Mt Elizabeth" >}}
+{{< figure2 name="IMG_8517.jpg" width="5488" height="3662" title="Looking over to Point 1251." >}}
+{{< figure2 name="IMG_8529.jpg" width="5488" height="3662" title="Mum and Katherine traversing towards Point 1251." >}}
+{{< figure2 name="IMG_8557.jpg" width="5488" height="3662" title="Climbing along the ridge of 1251 for a look. Didn't go to the summit!" >}}
+{{< figure2 name="IMG_8573.jpg" width="5488" height="3662" title="A very cute [Miromiro / Tomtit](https://nzbirdsonline.org.nz/species/tomtit) with Mt O'Shanessy in the background." >}}
+{{< figure2 name="IMG_8587.jpg" width="5488" height="3662" title="Schist (I think) near the summit of Mt O'Shanessy." >}}
+{{< figure2 name="IMG_8590.jpg" width="5488" height="3662" title="Mum and Katherine looking down at Lake Morgan from Mt O'Shanessy." >}}
+{{< figure2 name="IMG_8619.jpg" width="5488" height="3662" title="Moody mountains. Looking towards Point 1375 and 1250." >}}
+{{< figure2 name="IMG_8642.jpg" width="5488" height="3662" title="Campsite at Lake Morgan with Point 1489 obscured in cloud." >}}
 
 ## Day 2: Jacko Flat Hut
 {{< stats track="2022-10-25-Lake_Morgan_D2_Over_to_Jacko_Flat_Hut" >}}
@@ -61,13 +61,13 @@ The hut is a couple of minutes from the bush and in quite a nice locale. The hut
 
 With dark clouds were roiling over the Kaimata Range, with Mt Alexander and Mt Howe well hidden in the grey, we were quite thankful to reach the hut in the mid-afternoon. I chopped a lot of firewood, had a coffee, some chocolate (most of a block) and lay down on a very mouldy mattresses. They need new covers ASAP! The fire is of the open style and vents into hut a bit. Crack a window to help it draw and light the fire as far back as practical in the hearth.
 
-{{< figure name="IMG_8654" title="A cute photo in the morning before we part ways." >}}
-{{< figure name="IMG_8655" title="Climb the rocky gully and the traverse tussocked faces to Point 1489 center left." >}}
-{{< figure name="IMG_8656" title="Mum, Dad and Katherine on their way to Cone Creek Hut." >}}
-{{< figure name="IMG_8660" title="Jen navigating more schist." >}}
-{{< figure name="IMG_8669" title="Working our way down to Top Crooked Hut." >}}
-{{< figure name="IMG_8678" title="Jen making her way down the chute to Top Crooked Hut." >}}
-{{< figure name="IMG_8686" title="Some overgrown forest on the way to Jacko Flat Hut." >}}
+{{< figure2 name="IMG_8654.jpg" width="5488" height="3662" title="A cute photo in the morning before we part ways." >}}
+{{< figure2 name="IMG_8655.jpg" width="5488" height="3662" title="Climb the rocky gully and the traverse tussocked faces to Point 1489 center left." >}}
+{{< figure2 name="IMG_8656.jpg" width="5488" height="3662" title="Mum, Dad and Katherine on their way to Cone Creek Hut." >}}
+{{< figure2 name="IMG_8660.jpg" width="5488" height="3662" title="Jen navigating more schist." >}}
+{{< figure2 name="IMG_8669.jpg" width="5488" height="3662" title="Working our way down to Top Crooked Hut." >}}
+{{< figure2 name="IMG_8678.jpg" width="5488" height="3662" title="Jen making her way down the chute to Top Crooked Hut." >}}
+{{< figure2 name="IMG_8686.jpg" width="5488" height="3662" title="Some overgrown forest on the way to Jacko Flat Hut." >}}
 
 ## Day 3: Out to Windy Point
 {{< stats track="2022-10-26-Lake_Morgan_D3_Out_the_Crooked" >}}
@@ -90,8 +90,8 @@ The walk down the old Rotomanu - Kopara Road was very relaxed and in remarkably 
 
 Overall this was a pretty epic trip with stunning scenery, lush bush and wonderful rivers. It was doable as a three-day trip but would be more pleasant if you took it a little slower and perhaps stayed at Top Crooked Hut.
 
-{{< figure name="IMG_8700" title="Sore legs, sore feet and pained expressions." >}}
-{{< figure name="IMG_8702" title="The track started rather nicely, but it was not to last.." >}}
-{{< figure name="IMG_8706" title="The track got erroded into the Crooked River at times!" >}}
-{{< figure name="IMG_8709" title="This photo sums up Jacko Flat Track - overgrown, hard to follow and treefall." >}}
-{{< figure name="IMG_8711" title="One of the unclear riverside sections." >}}
+{{< figure2 name="IMG_8700.jpg" width="5488" height="3662" title="Sore legs, sore feet and pained expressions." >}}
+{{< figure2 name="IMG_8702.jpg" width="5488" height="3662" title="The track started rather nicely, but it was not to last.." >}}
+{{< figure2 name="IMG_8706.jpg" width="5488" height="3662" title="The track got erroded into the Crooked River at times!" >}}
+{{< figure2 name="IMG_8709.jpg" width="5488" height="3662" title="This photo sums up Jacko Flat Track - overgrown, hard to follow and treefall." >}}
+{{< figure2 name="IMG_8711.jpg" width="5488" height="3662" title="One of the unclear riverside sections." >}}

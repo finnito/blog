@@ -12,7 +12,7 @@ Sometimes you can feel like a broken record, but, every February in Christchurch
 
 The school I teach at has a wide variety of buildings. Some are brand new, well-insulated and climate controlled, while others get both too hot in summer and too cold in winter, with very little to help them either way. Ultimately, some classrooms end up being over 30C while also filled with 30 students trying to do some work. This is not good for students or teachers. They don't do their best work, and neither do we.
 
-{{< figure name="A25-21-02-2023" title="The temperature in my classroom one afternoon." >}}
+{{< figure2 name="A25-21-02-2023.jpg" width="1440" height="960" title="The temperature in my classroom one afternoon." >}}
 
 You can ask school management about this, but ultimately they don't have the budget to fit out each school with heat pumps or other air conditioning. It simply costs too much and the government doesn't provide enough funds for the installation, the maintenance, or the ongoing electricity costs for 100 heat pumps in a large school.
 

@@ -21,13 +21,13 @@ The track covers very gently sloping terrain from the treeline to Luxmore Hut, s
 
 Luxmore Hut was positively freezing, and the bunkrooms were even worse. Thankfully there were only three of us there, not including a family staying in the warden's quarters, so we slept in front of the fire! One of the family members was an avalanche technician who works for the Mountain Safety Council and he gave us some good advice about track sections to take care about, and said the snow was locking up well and that we could be reasonably confident in it. Excellent.
 
-{{< figure name="IMG_7619" title="Flat and wide on the way to Brod Bay." >}}
-{{< figure name="IMG_7621" title="The incline to Luxmore Hut begins." >}}
-{{< figure name="IMG_7625" title="Sneaky view out to Te Anau." >}}
-{{< figure name="IMG_7627" title="Limestone Cliffs in the clouds." >}}
-{{< figure name="IMG_7630" title="Very cool light green moss on the trees near the treeline." >}}
-{{< figure name="IMG_7638" title="Hoar frost above the treeline." >}}
-{{< figure name="IMG_7640" title="The view down Lake Te Anau." >}}
+{{< figure2 name="IMG_7619.jpg" width="5488" height="3662" title="Flat and wide on the way to Brod Bay." >}}
+{{< figure2 name="IMG_7621.jpg" width="5488" height="3662" title="The incline to Luxmore Hut begins." >}}
+{{< figure2 name="IMG_7625.jpg" width="5488" height="3662" title="Sneaky view out to Te Anau." >}}
+{{< figure2 name="IMG_7627.jpg" width="5488" height="3662" title="Limestone Cliffs in the clouds." >}}
+{{< figure2 name="IMG_7630.jpg" width="5488" height="3662" title="Very cool light green moss on the trees near the treeline." >}}
+{{< figure2 name="IMG_7638.jpg" width="5488" height="3662" title="Hoar frost above the treeline." >}}
+{{< figure2 name="IMG_7640.jpg" width="5488" height="3662" title="The view down Lake Te Anau." >}}
 
 ## Day 2: Iris Burn Hut
 {{< stats track="2022-07-22-Kepler_D2_Iris_Burn_Hut" >}}
@@ -46,15 +46,15 @@ From the treeline there was extensive treefall from the wind and snow which blew
 
 We had Iris Burn to ourselves which was rather nice, and we slept, again, in front of the fire!
 
-{{< figure name="IMG_4138" title="Trundling along towards Forest Burn Shelter." >}}
-{{< figure name="IMG_4154" title="Very curious and friendly green #2 kea at the shelter." >}}
-{{< figure name="IMG_4161" title="Jen passes through an area with surface snow tumbles." >}}
-{{< figure name="IMG_4162" title="The very atmospheric ridge with cornice on the way to 1401." >}}
-{{< figure name="IMG_4169" title="Looking towards 1383." >}}
-{{< figure name="IMG_4186" title="Posing for a photo in the brief moments of sun!" >}}
-{{< figure name="IMG_4214" title="Hanging Valley Shelter - frozen." >}}
-{{< figure name="IMG_4225" title="Treeeeeeeefall! One of many." >}}
-{{< figure name="IMG_4237" title="Bridge still felt sturdy - holding up well under the weight." >}}
+{{< figure2 name="IMG_4138.jpeg" width="4032" height="3024" title="Trundling along towards Forest Burn Shelter." >}}
+{{< figure2 name="IMG_4154.jpeg" width="4032" height="3024" title="Very curious and friendly green #2 kea at the shelter." >}}
+{{< figure2 name="IMG_4161.jpeg" width="4032" height="3024" title="Jen passes through an area with surface snow tumbles." >}}
+{{< figure2 name="IMG_4162.jpeg" width="4032" height="3024" title="The very atmospheric ridge with cornice on the way to 1401." >}}
+{{< figure2 name="IMG_4169.jpeg" width="4032" height="3024" title="Looking towards 1383." >}}
+{{< figure2 name="IMG_4186.jpeg" width="4032" height="3024" title="Posing for a photo in the brief moments of sun!" >}}
+{{< figure2 name="IMG_4214.jpeg" width="4032" height="3024" title="Hanging Valley Shelter - frozen." >}}
+{{< figure2 name="IMG_4225.jpeg" width="4032" height="3024" title="Treeeeeeeefall! One of many." >}}
+{{< figure2 name="IMG_4237.jpeg" width="4032" height="3024" title="Bridge still felt sturdy - holding up well under the weight." >}}
 
 ## Day 3: Out to Rainbow Reach
 {{< stats track="2022-07-23-Kepler_D3_Out_" >}}
@@ -65,8 +65,8 @@ In the end, this day was not very eventful, but the bush was very lush and green
 
 We got a room for the night in Te Anau and headed down to [La Toscana Pizzeria](https://goo.gl/maps/VcbZ1Kgw1rpFMaBs7) where we got two pastas, two entrees, two house drinks, and a shared dessert for $60! What a bargain. It's an early bird special, so make sure you get there not long after opening!
 
-{{< figure name="IMG_7647" title="The lush green of the valley floor" >}}
-{{< figure name="IMG_7648" title="Looking back up the valley." >}}
-{{< figure name="IMG_7652" title="Love a boardwalk." >}}
-{{< figure name="IMG_7653" title="Peat bog and caniverous plants." >}}
-{{< figure name="IMG_7654" title="Always a fan of a bridge." >}}
+{{< figure2 name="IMG_7647.jpg" width="5488" height="3662" title="The lush green of the valley floor" >}}
+{{< figure2 name="IMG_7648.jpg" width="5488" height="3662" title="Looking back up the valley." >}}
+{{< figure2 name="IMG_7652.jpg" width="5488" height="3662" title="Love a boardwalk." >}}
+{{< figure2 name="IMG_7653.jpg" width="5488" height="3662" title="Peat bog and caniverous plants." >}}
+{{< figure2 name="IMG_7654.jpg" width="5488" height="3662" title="Always a fan of a bridge." >}}

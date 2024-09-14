@@ -16,7 +16,7 @@ This is yet _another_ route that can take you up to Mt Herbert / Te Ahu Tatiki. 
 
 Ah well. The start of the track is quite nice through the trees and there is even a nice detour that you can do to a waterfall! After you leave the park you will see a very overgrown DOC sign which will tell you it's 2.5hrs to the Mt Herbert Shelter.
 
-{{< figure name="IMG_5043" title="Decrepit DOC sign." >}}
+{{< figure2 name="IMG_5043.JPG" width="4032" height="3024" title="Decrepit DOC sign." >}}
 
 From here the track climbs more steeply through some bush. Take care through here - there was a good deal of ongaonga which is a stinging nettle which has paralytic effects. You certainly don't want to watch into a patch of it!
 
@@ -24,4 +24,4 @@ From here the track climbs more steeply through some bush. Take care through her
 
 After the track exits the bush you will find yourself back on a 4WD farm track which zigzags up to the saddle between Mt Herbert and Mt Bradley. Take care on this track as it often gets muddly and Jen rolled her ankle really bad here. Fortunately she solidered on and we went for a really nice dinner in Diamond Harbour afterwards to improve morale 🥰
 
-{{< figure name="IMG_5042" title="The summit of Mt Herbert with a [geodetic marker](https://www.geodesy.linz.govt.nz/gdb/index.cgi?mode=gmap&code=A588&sessionid=101605524377011642481008&action=+setfoundmarks+updatelist&foundmarklist=A5GX|A5GY|APH5|APH4|APH3|APH2|APH1|A588|EQVK|AG28|A296|A0YE&listaction=clear+add&mark=)." >}}
+{{< figure2 name="IMG_5042.JPG" width="4032" height="3024" title="The summit of Mt Herbert with a [geodetic marker](https://www.geodesy.linz.govt.nz/gdb/index.cgi?mode=gmap&code=A588&sessionid=101605524377011642481008&action=+setfoundmarks+updatelist&foundmarklist=A5GX|A5GY|APH5|APH4|APH3|APH2|APH1|A588|EQVK|AG28|A296|A0YE&listaction=clear+add&mark=)." >}}

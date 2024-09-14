@@ -20,8 +20,8 @@ The river itself was a great paddle -- not too pushy, nor were the confluences o
 
 The boat is not the most hydrodynamic but we managed 9.5-10km/h most of the way which is a very reasonable speed I think.
 
-{{< figure name="IMG_3656" title="Jen looking stylish in her very sun-smart hat." >}}
-{{< figure name="IMG_3658" title="Looking upstream after we did an accidential 180." >}}
+{{< figure2 name="IMG_3656.jpeg" width="3096" height="2323" title="Jen looking stylish in her very sun-smart hat." >}}
+{{< figure2 name="IMG_3658.jpeg" width="3096" height="2323" title="Looking upstream after we did an accidential 180." >}}
 
 ## The Cycling
 
@@ -33,6 +33,6 @@ You can follow the stopbank or parallel gravel road for the rest of the ride unt
 
 I'd highly recommend a day similar to this as excellent training for Coast to Coast! You can follow the gravel all the way up to the [Waimakariri Gorge Bridge](https://goo.gl/maps/nDM1bH7W58icfBMj6) at the bottom of the Coast to Coast paddle, so this training day could be as long as you wanted to make it!
 
-{{< figure name="IMG_3668" title="" author="Jennifer Rouse" title="Me ready to go on our bike ride!" >}}
-{{< figure name="IMG_3669" title="Jen on the most picturesque section of the stopbank." >}}
-{{< figure name="IMG_3673" title="Jen cycling through a small forestry area." >}}
+{{< figure2 name="IMG_3668.jpeg" height="3096" width="2323" title="" author="Jennifer Rouse" title="Me ready to go on our bike ride!" >}}
+{{< figure2 name="IMG_3669.jpeg" width="3096" height="2323" title="Jen on the most picturesque section of the stopbank." >}}
+{{< figure2 name="IMG_3673.jpeg" height="3096" width="2323" title="Jen cycling through a small forestry area." >}}

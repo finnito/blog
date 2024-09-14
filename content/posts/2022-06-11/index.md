@@ -12,6 +12,6 @@ Somewhere during the week of May 2nd, 2022, I had the idea of setting myself the
 
 So, I began. I managed a few small volume weeks ~40km. It’s good to start small and manageable so that you can keep it up. It all seemed good but a couple of weeks ago it all fell apart. So soon, huh? Turns out work can be a real kick in the guts.
 
-{{< figure name="journey-to-100-1" title="Mutton Cove" >}}
+{{< figure2 name="journey-to-100-1.png" width="3080" height="2053" title="Mutton Cove" >}}
 
 Time to get back on the horse and see how I go!

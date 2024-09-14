@@ -18,7 +18,7 @@ We climbed from Kaituna Valley to Packhorse hut in 55 minutes, covering a distan
 
 We made some nice cow friends near the hut - they're very friendly and are used to hikers. There were some nice calves so it pays to be wary of the mothers, but you shouldn't see any bulls or encounter any trouble!
 
-{{< figure name="2019-02-06-0205" author="Finn Le Sueur" title="Seonaid making friends with some local cows!" >}}
+{{< figure2 name="2019-02-06-0205.jpg" width="2048" height="1365" author="Finn Le Sueur" title="Seonaid making friends with some local cows!" >}}
 
 ## Stage 2: Packhorse Hut to Mt Herbert Shelter
 
@@ -28,7 +28,7 @@ As you come out of the bush further east there is a (very) small sign pointing t
 
 Continuing on you reach a saddle and cross over to the north side where you soon join another 4WD track up to the Mt Herbert Shelter.
 
-{{< figure name="2019-02-06-0226" author="Finn Le Sueur" title="Seonaid and Phoebe traversing to Mt Herbert Shelter." >}}
+{{< figure2 name="2019-02-06-0226.jpg" width="2048" height="1365" author="Finn Le Sueur" title="Seonaid and Phoebe traversing to Mt Herbert Shelter." >}}
 
 ## Stage 3: Mt Herbert Shelter to the Summit
 
@@ -42,4 +42,4 @@ All in all, it was a great walk, albiet a little chilly in the breezy southerly 
 
 Waitangi Day well spent!
 
-{{< figure name="2019-02-06" author="Finn Le Sueur" title="The very green southern face of Mt Bradley." >}}
+{{< figure2 name="2019-02-06.jpg" width="2048" height="1365" author="Finn Le Sueur" title="The very green southern face of Mt Bradley." >}}

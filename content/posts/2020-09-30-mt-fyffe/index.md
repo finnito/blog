@@ -18,28 +18,28 @@ There was plenty of space to park and a nice big sign detailing the trails over 
 
 The views are truly stunning, with a brilliant vista looking up and down the coast. We sat on the seat outside and enjoyed the sun before it got too cold and then migrated inside. The hut looks like it gets lots of visitors but not as many overnighters so we were by ourselves - nice.
 
-{{< figure name="IMG_6018" title="Jen enjoying the view!" >}}
-{{< figure name="IMG_6026" title="Jen and I at Mt Fyffe Hut 🥰" >}}
+{{< figure2 name="IMG_6018.jpg" width="5472" height="3648" title="Jen enjoying the view!" >}}
+{{< figure2 name="IMG_6026.jpg" width="5472" height="3648" title="Jen and I at Mt Fyffe Hut 🥰" >}}
 
 ## Day 2: To Kowhai Saddle
 
 We were both regretting not bringing a pair of shorts - instead opting for _just_ the hiking pants. What a mistake! It was very nice and warm. My original plan was for us to descend down Spaniard Spur Track to the Kowhai River, and from there to climb Kowhai Saddle and down to Hapuku Hut. This was not be be!
 
-{{< figure name="IMG_6028" title="Jen beginning the descent to Kowhai River." >}}
+{{< figure2 name="IMG_6028.jpg" width="5472" height="3648" title="Jen beginning the descent to Kowhai River." >}}
 
 The descent to Kowhai River is good (if steep) and the track from there to Kowhai Hut is also good. We were making good time (2:10). From there the track condition quickly deteoriates and we found ourselves plodding rather slowly. By the time we reached Kowhai Saddle we had rethought our plan and decided to camp there for the night! Excellent. We relaxed in the tent and enjoyed the views and sunset and as the sun went down we heard some bats flapping past 🦇!
 
-{{< figure name="IMG_6032" title="Jen climbing up to Kowhai Saddle - plodding." >}}
-{{< figure name="IMG_1316" title="Kowhai Saddle campsite ⛺️" >}}
+{{< figure2 name="IMG_6032.jpg" width="5472" height="3648" title="Jen climbing up to Kowhai Saddle - plodding." >}}
+{{< figure2 name="IMG_1316.jpg" width="4032" height="3024" title="Kowhai Saddle campsite ⛺️" >}}
 
 ## Day 3: Out via Mt Fyffe
 
 We (somehow) managed to doze and take it chill in the morning despite the sun and sweltering temperatures in the hut, but by 10:45 (ha) we were off. We started by climbing rather directly up to Gables End via a delightful scree slope. This was, as Jen likes to remind me, not her favourite. It only took us 1:05 to reach the ridgeline and from there the going was much easier. There is a descent of 80-100m down from Gables End and then a climb straight back up to Gable, but it's nothing major. Another small scree slope.
 
-{{< figure name="IMG_6047" title="Jen traversing towards Mt Fyffe." >}}
+{{< figure2 name="IMG_6047.jpg" width="5472" height="3648" title="Jen traversing towards Mt Fyffe." >}}
 
 From there the going is even better, simply following the ridgeline, enjoying the views and taking some nice photos along the way. After we passed the summit the track returned to being suitable for a 4WD and spent a short time passing through a stand of pines. After the track reaches Mt Fyffe Hut it simply followed the 4WD track back down to Mt Fyffe Carpark.
 
-{{< figure name="IMG_6073" title="Posing for one photo - allowed." >}}
+{{< figure2 name="IMG_6073.jpg" width="5472" height="3648" title="Posing for one photo - allowed." >}}
 
 Overall we enjoyed this trip quite a lot - the weather was great and the views were stunning. We are always happy for a good night camping in the wilderness too!

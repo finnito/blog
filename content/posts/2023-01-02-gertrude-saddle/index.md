@@ -20,11 +20,10 @@ The view from the top is immense. It's truly amazing. We headed up a little furt
 
 __Overall:__ totally worth the trip; not that scary; not that dangerous in good conditions.
 
-{{< figure name="IMG_5001" title="Looking up the valley. Track goes to the left in the sun." >}}
-{{< figure name="IMG_5030" title="Jen heading up the last of the broken rocks before getting to the slabs." >}}
-{{< figure name="IMG_5040" title="Heading onto the slabs past the slightly excessive DOC sign." >}}
-{{< figure name="IMG_5043" title="Slabing it up. There's a short wire rigged to the rock at the false saddle." >}}
-{{< figure name="IMG_5069" title="Cute photo at the top taken by a kind stranger." >}}
-{{< figure name="IMG_5083" title="Jen looking down on the Gulliver River." >}}
-{{< figure name="IMG_5103" title="Sweet pano 🥰" author="Jen" >}}
-{{< figure name="IMG_5113" title="Looking back at Black Lake and Mt Crosscut." >}}
+{{< figure2 name="IMG_5001.jpeg" width="4032" height="3024" title="Looking up the valley. Track goes to the left in the sun." >}}
+{{< figure2 name="IMG_5030.jpeg" width="4032" height="3024" title="Jen heading up the last of the broken rocks before getting to the slabs." >}}
+{{< figure2 name="IMG_5040.jpeg" width="4032" height="3024" title="Heading onto the slabs past the slightly excessive DOC sign." >}}
+{{< figure2 name="IMG_5043.jpeg" width="4032" height="3024" title="Slabing it up. There's a short wire rigged to the rock at the false saddle." >}}
+{{< figure2 name="IMG_5069.jpeg" height="4032" width="3024" title="Cute photo at the top taken by a kind stranger." >}}
+{{< figure2 name="IMG_5083.jpeg" width="4032" height="3024" title="Jen looking down on the Gulliver River." >}}
+{{< figure2 name="IMG_5113.jpeg" width="4032" height="3024" title="Looking back at Black Lake and Mt Crosscut." >}}

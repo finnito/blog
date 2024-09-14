@@ -18,9 +18,9 @@ The next day we drove through Lindis Pass to Lake Hawea and Timaru River. We wer
 
 We knew that we were going to finish the tramp at the bottom of Timaru River and that it was going to be a long last day, so we opted to drop the car at the Peter Muir Bridge carkpark and walk back to the start of the track to Pakituhi Hut. We thought about running but it was exceptionally hot so I vetoed. It took us an hour to walk back to the track start and then another 2.5hrs to climb to Pakituhi Hut, where 36 of those minutes was us completing the zig-zags at the start. There is no shade the whole way and it is _very_ steep. We drank a lot of water, but still not as much as we should have! We were very pleased to reach the hut and be able to cool off a little bit. We were even more pleased to have the hut to ourselves given that it is part of Te Araroa!
 
-{{< figure name="IMG_7323" title="Look back to Hawea." >}}
-{{< figure name="IMG_7325" title="Jen enduring the heat and the steep climb." >}}
-{{< figure name="IMG_7327" title="Hot." >}}
+{{< figure2 name="IMG_7323.jpg" width="5496" height="3670" title="Look back to Hawea." >}}
+{{< figure2 name="IMG_7325.jpg" width="5496" height="3670" title="Jen enduring the heat and the steep climb." >}}
+{{< figure2 name="IMG_7327.jpg" width="5496" height="3670" title="Hot." >}}
 
 ### Day 2: To Stody's Hut
 
@@ -32,10 +32,10 @@ The track turns off to Stody's Hut between Points 1409 and 1418 and quickly desc
 
 We arrived at 12:30pm and spent the next 10 hours lying in the sun, reading and eating. It was completely delightful. Perhaps our favourite day of the whole trip.
 
-{{< figure name="IMG_7348" title="Looking down at some goats she spotted!" >}}
-{{< figure name="IMG_7360" title="Bit cloudy at Breast Hill - nice flowers though." >}}
-{{< figure name="IMG_7362" title="The 4WD track leading towards Stody's Hut." >}}
-{{< figure name="IMG_7376" title="Adorable and inquisitive bird at Stody's Hut." >}}
+{{< figure2 name="IMG_7348.jpg" width="5496" height="3670" title="Looking down at some goats she spotted!" >}}
+{{< figure2 name="IMG_7360.jpg" width="5496" height="3670" title="Bit cloudy at Breast Hill - nice flowers though." >}}
+{{< figure2 name="IMG_7362.jpg" width="5496" height="3670" title="The 4WD track leading towards Stody's Hut." >}}
+{{< figure2 name="IMG_7376.jpg" width="5496" height="3670" title="Adorable and inquisitive bird at Stody's Hut." >}}
 
 ### Day 3: To Moonlight and Roses Hut
 
@@ -51,10 +51,10 @@ Having not read Moir's Guide, we estimated that this meant the spur where the cr
 
 We finally found the hut nestled on the end of the forest and boy is it a cute wee site for a hut. __There is no loo (at least not that we could see)__ despite the DOC website saying otherwise. We had a few daylight hours left so made the most of them by reading our books and eating in the sun. I loved it there.
 
-{{< figure name="IMG_7419" title="Descending to Timaru River." >}}
-{{< figure name="IMG_7434" title="Heading downstream to the unnamed junction." >}}
-{{< figure name="IMG_7455" title="Heading up the unnamed creek towards Moonlight and Roses Hut." >}}
-{{< figure name="IMG_7466" title="The unnamed creek opens out after a time to a lovely highcountry valley." >}}
+{{< figure2 name="IMG_7419.jpg" width="5496" height="3670" title="Descending to Timaru River." >}}
+{{< figure2 name="IMG_7434.jpg" width="5496" height="3670" title="Heading downstream to the unnamed junction." >}}
+{{< figure2 name="IMG_7455.jpg" width="5496" height="3670" title="Heading up the unnamed creek towards Moonlight and Roses Hut." >}}
+{{< figure2 name="IMG_7466.jpg" width="5496" height="3670" title="The unnamed creek opens out after a time to a lovely highcountry valley." >}}
 
 ### Day 4: Out via Dingle Peak
 
@@ -68,8 +68,8 @@ We had a quick rest and snack at Junction Hut before doing our best to blast dow
 
 All in all this was an epic trip with a good deal of variety. I don't think we made the wrong decision trying to summit Dingle Peak, but I think a more sane way to exit would have been to get into a stream ASAP or even to backtrack to the ridgeline above Moonlight and Roses Hut and to follow that down to Junction Hut.
 
-{{< figure name="IMG_7477" title="Cute photo before we leave Moonlight and Roses in the morning (coffee in hand)." >}}
-{{< figure name="IMG_7483" title="Dingle Peak 🏔" >}}
-{{< figure name="IMG_7490" title="Traversing some scree on the way up to Dingle Peak." >}}
-{{< figure name="IMG_7496" title="Looking across to Maungatika and the rest of the range." >}}
-{{< figure name="IMG_7497" title="Descending towards Timaru Deer Spur Creek for a 'quick' exit." >}}
+{{< figure2 name="IMG_7477.jpg" width="5496" height="3670" title="Cute photo before we leave Moonlight and Roses in the morning (coffee in hand)." >}}
+{{< figure2 name="IMG_7483.jpg" width="5496" height="3670" title="Dingle Peak 🏔" >}}
+{{< figure2 name="IMG_7490.jpg" width="5496" height="3670" title="Traversing some scree on the way up to Dingle Peak." >}}
+{{< figure2 name="IMG_7496.jpg" width="5496" height="3670" title="Looking across to Maungatika and the rest of the range." >}}
+{{< figure2 name="IMG_7497.jpg" width="5496" height="3670" title="Descending towards Timaru Deer Spur Creek for a 'quick' exit." >}}

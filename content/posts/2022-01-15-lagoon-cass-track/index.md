@@ -16,15 +16,15 @@ We dropped them off and made our way to Cora Lynn Carpark with the intention of 
 
 The track begins by climbing steeply through the forest above the carpark before exiting the forest and traversing to Lagoon Saddle and A-Frame Hut. It took us just over an hour to reach the hut. From there it descends down into the Harper River, spending time both in the river and on track parallel to it.
 
-{{< figure name="IMG_3323" title="Climbing through the forest on the way to Lagoon Saddle." >}}
-{{< figure name="IMG_3325" title="Out in the open on the way to Lagoon Saddle." >}}
+{{< figure2 name="IMG_3323.jpeg" width="4032" height="3024" title="Climbing through the forest on the way to Lagoon Saddle." >}}
+{{< figure2 name="IMG_3325.jpeg" width="4032" height="3024" title="Out in the open on the way to Lagoon Saddle." >}}
 
 The track makes a small climb just before West Harper Hut to avoid a gorge, before continuing to follow the river quite closely. The track is all quite reasonable through here but we took it nice and slow as to not burn out - this was going to be Jen's longest run so we didn't want to push it too hard.
 
 We reached Hamilton Hut in the heat of the day and had a quick break there. From there the track follows the riverbed of Hamilton Creek before leaving it for the forest. There has been a slip in the forest here so you will need to follow a little side track through the bush to avoid it. It's not much of a detour.
 
-{{< figure name="IMG_3327" title="The wonderful valley of Harper River." >}}
-{{< figure name="IMG_3334" title="The valley flats by Hamilton Hut." >}}
+{{< figure2 name="IMG_3327.jpeg" width="4032" height="3024" title="The wonderful valley of Harper River." >}}
+{{< figure2 name="IMG_3334.jpeg" width="4032" height="3024" title="The valley flats by Hamilton Hut." >}}
 
 Jen was feeling pretty naff through this section and got a bit wheezy for a moment, so we stopped to have some food, water and gels before continuing on towards Cass Saddle. The track description indicates that it "climbs steeply" and boy does it ever. We didn't run any of this part.
 
@@ -34,6 +34,6 @@ We continued down reaching Cass Saddle Hut quickly. From there we really enjoyed
 
 All in all I really enjoyed this trail - it's got some great scenery, some great valleys and some fun tracks. It would be nice to go back on a day that isn't quite so hot!
 
-{{< figure name="IMG_3338" title="Spaniard. Jen for scale. 😨" >}}
-{{< figure name="IMG_3340" title="Descending from Cass Saddle towards Cass Saddle Hut in the trees." >}}
-{{< figure name="IMG_3345" title="Jen feeling fed up with Cass River." >}}
+{{< figure2 name="IMG_3338.jpeg" width="4032" height="3024" title="Spaniard. Jen for scale. 😨" >}}
+{{< figure2 name="IMG_3340.jpeg" width="4032" height="3024" title="Descending from Cass Saddle towards Cass Saddle Hut in the trees." >}}
+{{< figure2 name="IMG_3345.jpeg" width="4032" height="3024" title="Jen feeling fed up with Cass River." >}}

@@ -32,7 +32,7 @@ timeout                 = 600000
   rss                   = true
   comments              = false
   mainSections          = ["posts", "photos", "reading"]
-  imageHostingURL       = "https://img.lesueur.nz"
+  imageHostingURL       = "https://dam.lesueur.nz/insecure/"
 
 [Author]
   name                  = "Finn Le Sueur"

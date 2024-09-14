@@ -1,0 +1,16 @@
+<figure>
+    <a href='https://dam.lesueur.nz/insecure/resize:fill:0:0:0:0/plain/local:///images/{{.Page.Slug}}/{{ .Get "name" }}' title='Full size image: {{ .Get "title" }}'>
+        <img
+        	srcset='https://dam.lesueur.nz/insecure/resize:fill:512:0:0:0/plain/local:///images/{{ .Page.Slug }}/{{ .Get "name" }} 512w,
+                https://dam.lesueur.nz/insecure/resize:fill:1024:0:0:0/plain/local:///images/{{ .Page.Slug }}/{{ .Get "name" }} 1024w,
+                https://dam.lesueur.nz/insecure/resize:fill:2048:0:0:0/plain/local:///images/{{ .Page.Slug }}/{{ .Get "name" }} 2048w'
+            sizes='(min-width: 780px) 584px, calc(100vw - 16px)'
+            src='https://dam.lesueur.nz/insecure/resize:fill:0:0:0:0/plain/local:///images/{{.Page.Slug}}/{{ .Get "name" }}'
+            alt='{{ .Get "title" }}'
+            loading='lazy'
+            {{ with .Get "height" }}height='{{ . }}'{{ end }}
+            {{ with .Get "width" }}width='{{ . }}'{{ end }}
+            />
+    </a>
+    <figcaption>(📷: {{ if .Get "author" }}{{ .Get "author" | markdownify }}{{ else }}Finn Le Sueur{{ end }}) {{ .Get "title" | markdownify }}</figcaption>
+</figure>

@@ -23,7 +23,7 @@ This update changes this for running - and as we will see - cycling too (althoug
 
 All you need to do is to update your Garmin - start a _Virtual Run_ workout and leave it on the pairing screen. Once on this screen your software should detect your Garmin via Bluetooth - no need for that pesky ANT+ dongle!
 
-{{< figure name="unsupported-garmin-hr-bluetooth-cycling" title="Unsupported Garmin HR with Tacx and Zwift Over Bluetooth" author="Finn Le Sueur">}}
+{{< figure2 name="unsupported-garmin-hr-bluetooth-cycling.png" width="1920" height="1080" title="Unsupported Garmin HR with Tacx and Zwift Over Bluetooth" author="Finn Le Sueur">}}
 
 One final note is that because this is just a bit hacky, the watch will time out of this screen after about 30min and go to the main watch face. You can stop this by pressing any button (I recommend the backlight button) as this will delay the timeout.
 
@@ -33,7 +33,7 @@ If it times out and goes to the home screen it will lose the Bluetooth connectio
 
 For me, this is extremely sweet because it means I can use my new iPad Pro 12.9 to connect to my Tacx trainer (power, cadence, speed and control as well as my HR via my Garmin Fenix 6 all using Bluetooth! No ANT+ dongle - just a charging cable, my bike trainer and a whole lot of sweat.
 
-{{< figure name="tacx-screenshot-bluetooth-hr" title="Tacx on the iPad Screenshot" author="Finn Le Sueur" >}}
+{{< figure2 name="tacx-screenshot-bluetooth-hr.png" width="1600" height="1199" title="Tacx on the iPad Screenshot" author="Finn Le Sueur" >}}
 
 —- Happy sweating 👋 
 

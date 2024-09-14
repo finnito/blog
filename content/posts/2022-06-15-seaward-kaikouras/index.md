@@ -28,31 +28,35 @@ The packraft, yellow, bright
  And mightiest of all
     Tapuae-O-Ueniku
  A step on the journey of
-Uenuku, on the way to heaven
-Or, “a decent mountain at last”
-  For Sir Ed. A decent mountain
-         Indeed.
+  Uenuku, on the way to heaven
+   Or, “a decent mountain at last”
+            For Sir Ed.
+              A decent
+            mountain
+          indeed.
 
-The water turns grey-blue from rock
-  Weathering away, greywacke to loess
-    Sediment carried downstream,
-      Rock broken by the snow, the ice,
+   The water turns
+      grey-blue from rock
+    Weathering away
+  greywacke to loess
+    Sediment carried downstream
+      Rock broken by the snow and ice
     The harsh weather of our home
   But today, not so harsh
-The water is cold, but
+ The water is cold, but
 our souls are warm
 
 Swish — swish — swish — swish
   Ahead! A rock on the left
    Okay, going right
      Paddle hard
-       Go, go.
+       Go, go!
         Phew.
     Another rapid
    Big boulders in the river
   Leftover from a landslide, a scar
 Earthquakes shake loose the choss
-     of the southern alps
+     of the Southern Alps
          
 Helmet blue, jacket red
  Lush mātai green

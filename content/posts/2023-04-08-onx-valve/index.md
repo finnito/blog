@@ -56,7 +56,7 @@ For example, a normal INR range is from around 0.8–1.2. This means that a pati
 
 Not all valves are equal. For example, a more modern valve like the On-X has a therapeutic range INR range of 1.5–2[^5]. This means that patients with an On-X valve would have to take less warfarin and would be less at risk of adverse bleeding incidents. That is in comparison to, say, the St Jude valve which have a therapeutic range of 2.5-3.5[^7]. For me this is great because I like to do sports like rock climbing, trail running, tramping (hiking), moderate mountain climbing and some whitewater kayaking. Being able to take a low warfarin dose and top-up with aspirin (e.g. 80mg)[^5] would be a huge win.
 
-{{< figure name="valves" title="A comparison of valves.[^6]" author="BMES" >}}
+{{< figure2 name="valves" title="A comparison of valves.[^6]" author="BMES" >}}
 
 That said, because I am getting my valve replaced through the public system here in New Zealand, I have less choice in the valve I will get. In talking to my surgeon, she said that we can aim to use a certain valve, but sometimes when she looks at the heart in the flesh, she doesn't always feel like she can go ahead with the preferred plan. __I am totally cool with that.__ Of course, I would like an On-X valve over a St Jude (the normal one used at my hospital) due to its lower therapeutic INR range, but I 1000% trust the judgement of my surgeon on the day.
 

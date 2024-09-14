@@ -25,11 +25,11 @@ We found the portage track quite a grovel. We have a double raft which is quite 
 
 From the portage, it is pretty easy sailing down to Lake McKerrow Hut. The rapid just above the hut was charging when we went through - the wave train was pretty huge. We skirted to the true right and go through unscathed. One last hike-a-boat through the bush sees you at the hut.
 
-{{< figure name="IMG_4598" title="Exited and ready to go!" >}}
-{{< figure name="IMG_4600" title="Trees from the get go." >}}
-{{< figure name="IMG_4605" title="Amazing river and wet lens from the rapids." >}}
-{{< figure name="IMG_4624" title="Looking upstream through the bottom of Little Homer Rapid." >}}
-{{< figure name="IMG_4629" title="Chillin on the way to McKerrow Hut." >}}
+{{< figure2 name="IMG_4598.jpeg" width="4032" height="3024" title="Exited and ready to go!" >}}
+{{< figure2 name="IMG_4600.jpeg" width="4032" height="3024" title="Trees from the get go." >}}
+{{< figure2 name="IMG_4605.jpeg" width="4032" height="3024" title="Amazing river and wet lens from the rapids." >}}
+{{< figure2 name="IMG_4624.jpeg" width="4032" height="3024" title="Looking upstream through the bottom of Little Homer Rapid." >}}
+{{< figure2 name="IMG_4629.jpeg" width="4032" height="3024" title="Chillin on the way to McKerrow Hut." >}}
 
 ## Day 2: Martin's Bay Hut
 {{< stats track="HP_D2_Martin_s_Bay_Hut" >}}
@@ -50,10 +50,10 @@ If you look carefully you can spot some private baches (cribs) hidden among the 
 
 Martin's Bay Hut is lovely, but the sandflies are pretty vicious. We found the breeze keeps them off you on the beach, though, which is excellent! We walked down to the river mouth for a bit of a better look in the afternoon.
 
-{{< figure name="IMG_4654" title="Jen readying the boat as I take photos." >}}
-{{< figure name="IMG_4668" title="Looking back towards Lake McKerrow Hut to admire the sunrise." >}}
-{{< figure name="IMG_4693" title="Looking down Martin's Bay spit." >}}
-{{< figure name="IMG_4717" title="Tara ([White-fronted Tern](https://nzbirdsonline.org.nz/species/white-fronted-tern)) at Martin's Bay lagoon." >}}
+{{< figure2 name="IMG_4654.jpeg" width="4032" height="3024" title="Jen readying the boat as I take photos." >}}
+{{< figure2 name="IMG_4668.jpeg" width="4032" height="3024" title="Looking back towards Lake McKerrow Hut to admire the sunrise." >}}
+{{< figure2 name="IMG_4693.jpeg" width="4032" height="3024" title="Looking down Martin's Bay spit." >}}
+{{< figure2 name="IMG_4717.jpeg" width="4032" height="3024" title="Tara ([White-fronted Tern](https://nzbirdsonline.org.nz/species/white-fronted-tern)) at Martin's Bay lagoon." >}}
 
 ## Day 3: Big Bay Hut
 {{< stats track="HP_D3_Big_Bay_Hut" >}}
@@ -66,11 +66,11 @@ You soon get onto the coastline proper and can follow it for a long time. It is 
 
 We found one tramper having a rest day at Big Bay Hut -- he had walked for 14hrs to get there from Olivine Hut the previous day. Phew! We nabbed a couple of beds near the door and headed down to the Awarua River for a dip and a wash. Much refreshed we spent the afternoon reading, drinking coffee and eating snacks. Delightful.
 
-{{< figure name="IMG_4731" title="Jen cruising along the coastal track." >}}
-{{< figure name="IMG_4735" title="Looking out at the epic coastline and moody sky." >}}
-{{< figure name="IMG_4750" title="Looking towards Three Mile Beach and Big Bay." >}}
-{{< figure name="IMG_4758" title="Avoiding some big boulders." >}}
-{{< figure name="IMG_4761" title="The 4WD track on the way to Three Mile Beach." >}}
+{{< figure2 name="IMG_4731.jpeg" width="4032" height="3024" title="Jen cruising along the coastal track." >}}
+{{< figure2 name="IMG_4735.jpeg" width="4032" height="3024" title="Looking out at the epic coastline and moody sky." >}}
+{{< figure2 name="IMG_4750.jpeg" width="4032" height="3024" title="Looking towards Three Mile Beach and Big Bay." >}}
+{{< figure2 name="IMG_4758.jpeg" width="4032" height="3024" title="Avoiding some big boulders." >}}
+{{< figure2 name="IMG_4761.jpeg" width="4032" height="3024" title="The 4WD track on the way to Three Mile Beach." >}}
 
 ## Day 4: Olivine Hut
 
@@ -92,12 +92,12 @@ We reached Olivine Hut after 2:45hrs on the river where we found the big party. 
 
 Around 8:40pm two hikers turned up from Lake Alabaster Hut. It took them 12hrs! The Pyke sounds like damn hard work by foot. Just before their arrival Jen had read about a mouse in the hut book and it dared to show its face! She tried to block off some more holes in its living quarters, but it was probably in vain. Someone 'ought to bring in a trap/bait.
 
-{{< figure name="IMG_4778" title="About to cross Awarua River." >}}
-{{< figure name="IMG_4787" title="Heading up to the Pyke in the lush forest." >}}
-{{< figure name="IMG_4810" title="The dry riverbed of Paulin Creek." >}}
-{{< figure name="IMG_4833" title="Trying to spot Olivine River." >}}
-{{< figure name="IMG_4840" title="Diorite Stream waterfall." >}}
-{{< figure name="IMG_4863" title="Sunset on the Pyke 😍" >}}
+{{< figure2 name="IMG_4778.jpeg" width="4032" height="3024" title="About to cross Awarua River." >}}
+{{< figure2 name="IMG_4787.jpeg" width="4032" height="3024" title="Heading up to the Pyke in the lush forest." >}}
+{{< figure2 name="IMG_4810.jpeg" width="4032" height="3024" title="The dry riverbed of Paulin Creek." >}}
+{{< figure2 name="IMG_4833.jpeg" width="4032" height="3024" title="Trying to spot Olivine River." >}}
+{{< figure2 name="IMG_4840.jpeg" width="4032" height="3024" title="Diorite Stream waterfall." >}}
+{{< figure2 name="IMG_4863.jpeg" width="4032" height="3024" title="Sunset on the Pyke 😍" >}}
 
 ## Day 5: Lake Alabaster Hut
 {{< stats track="HP_D5_Alabaster_Hut" >}}
@@ -108,10 +108,10 @@ Around 10:30am a north-west tailwind popped up which helped us across Lake Alaba
 
 We met a lovely family and their two friends at the hut where we had a nice New Years' Eve. They had caught a rather large fish in the Pyke River and shared it with us. Delicious.
 
-{{< figure name="IMG_4889" title="Finn on the Olivine cableway" author="Jen">}}
-{{< figure name="IMG_4907" title="A stunning day on the Pyke." >}}
-{{< figure name="IMG_4918" title="Mt Madeline (I think) in the distance." >}}
-{{< figure name="IMG_4934" title="Having a wee rest." >}}
+{{< figure2 name="IMG_4889.jpeg" width="4032" height="3024" title="Finn on the Olivine cableway" author="Jen">}}
+{{< figure2 name="IMG_4907.jpeg" width="4032" height="3024" title="A stunning day on the Pyke." >}}
+{{< figure2 name="IMG_4918.jpeg" width="4032" height="3024" title="Mt Madeline (I think) in the distance." >}}
+{{< figure2 name="IMG_4934.jpeg" height="4032" width="3024" title="Having a wee rest." >}}
 
 ## Day 6: Out via Hidden Falls Hut
 {{< stats track="HP_D6_Hike_Out" >}}
@@ -124,8 +124,8 @@ We got on the trail at 11:30am and Jen set a good pace. The forest is beautiful 
 
 We lunched at Hidden Falls Hut before continuing to the car. The afternoon heat had set in and we were feeling much less enthusiastic than the morning. Still, we got out in good time and had a thorough bath in the Whakatipu Kā Tuka (Hollyford) before driving out.
 
-{{< figure name="IMG_4964" title="Cruising out of Lake Alabaster Hut." >}}
-{{< figure name="IMG_4968" title="Rather large bridge over a rather small stream." >}}
-{{< figure name="IMG_4973" title="Stunning forest." >}}
-{{< figure name="IMG_4979" title="Another excellent bridge with an excellent view." >}}
-{{< figure name="IMG_4986" title="Some more lush forest." >}}
+{{< figure2 name="IMG_4964.jpeg" width="4032" height="3024" title="Cruising out of Lake Alabaster Hut." >}}
+{{< figure2 name="IMG_4968.jpeg" width="4032" height="3024" title="Rather large bridge over a rather small stream." >}}
+{{< figure2 name="IMG_4973.jpeg" width="4032" height="3024" title="Stunning forest." >}}
+{{< figure2 name="IMG_4979.jpeg" width="4032" height="3024" title="Another excellent bridge with an excellent view." >}}
+{{< figure2 name="IMG_4986.jpeg" width="4032" height="3024" title="Some more lush forest." >}}

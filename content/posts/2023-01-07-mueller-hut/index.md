@@ -30,15 +30,15 @@ A short descent later saw us back at the carpark which was packed to the brim. W
 
 __Overall:__ an amazing trip with great walking, despite the poor visibility and rain on Saturday. A must-do.
 
-{{< figure name="IMG_5249" title="Jen, Louise, Daniel and I ready to go!" >}}
-{{< figure name="IMG_5258" title="Nothin' but cloud." >}}
-{{< figure name="IMG_5272" title="At least the nature is beautiful!" >}}
-{{< figure name="IMG_5283" title="Wooooo snow!" >}}
-{{< figure name="IMG_5290" title="Cloudy ridgeline at the top." >}}
-{{< figure name="IMG_5304" title="Jen in the sunrise." >}}
-{{< figure name="IMG_5333" title="Jen admiring Aoraki (Mt Cook)" >}}
-{{< figure name="IMG_5345" title="Cute group photo before leaving in the morning." >}}
-{{< figure name="IMG_5359" title="Sun's out, guns out!" >}}
-{{< figure name="IMG_5363" title="Looking back at Mueller Hut managing to stay out of the cloud." >}}
-{{< figure name="IMG_5400" title="Heading back down with a bit of a view." >}}
-{{< figure name="IMG_5404" title="Aoraki and Lake Hooker 😍" >}}
+{{< figure2 name="IMG_5249.jpeg" width="4032" height="3024" title="Jen, Louise, Daniel and I ready to go!" >}}
+{{< figure2 name="IMG_5258.jpeg" width="4032" height="3024" title="Nothin' but cloud." >}}
+{{< figure2 name="IMG_5272.jpeg" width="4032" height="3024" title="At least the nature is beautiful!" >}}
+{{< figure2 name="IMG_5283.jpeg" width="4032" height="3024" title="Wooooo snow!" >}}
+{{< figure2 name="IMG_5290.jpeg" width="4032" height="3024" title="Cloudy ridgeline at the top." >}}
+{{< figure2 name="IMG_5304.jpeg" width="4032" height="3024" title="Jen in the sunrise." >}}
+{{< figure2 name="IMG_5333.jpeg" width="4032" height="3024" title="Jen admiring Aoraki (Mt Cook)" >}}
+{{< figure2 name="IMG_5345.jpeg" width="4032" height="3024" title="Cute group photo before leaving in the morning." >}}
+{{< figure2 name="IMG_5359.jpeg" width="4032" height="3024" title="Sun's out, guns out!" >}}
+{{< figure2 name="IMG_5363.jpeg" width="4032" height="3024" title="Looking back at Mueller Hut managing to stay out of the cloud." >}}
+{{< figure2 name="IMG_5400.jpeg" width="4032" height="3024" title="Heading back down with a bit of a view." >}}
+{{< figure2 name="IMG_5404.jpeg" width="4032" height="3024" title="Aoraki and Lake Hooker 😍" >}}

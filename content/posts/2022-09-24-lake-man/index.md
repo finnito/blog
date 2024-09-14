@@ -35,10 +35,10 @@ Hope Pass Track is an old 4WD track, although it doesn't look like it has seen m
 St Jacob's Hut is cute, tidy and well looked after. Water can be gained from a nearby creek, there is ample firewood, and there are camping sites a plenty nearby. We had a lovely afternoon relaxing in the hut and hiding from the sandflies.
 
 
-{{< figure name="IMG_8378" title="Jen crusing through the dappled forest above Hope River." >}}
-{{< figure name="IMG_8383" title="Coming up on Hope Halfway Hut situated in a large clearing." >}}
-{{< figure name="IMG_8390" title="Quite the view up the valley toward Tawhai Hill." >}}
-{{< figure name="IMG_8407" title="St Jacob's Hut. It's as cute on the outside as it is inside." >}}
+{{< figure2 name="IMG_8378.jpg" width="5488" height="3662" title="Jen crusing through the dappled forest above Hope River." >}}
+{{< figure2 name="IMG_8383.jpg" width="5488" height="3662" title="Coming up on Hope Halfway Hut situated in a large clearing." >}}
+{{< figure2 name="IMG_8390.jpg" width="5488" height="3662" title="Quite the view up the valley toward Tawhai Hill." >}}
+{{< figure2 name="IMG_8407.jpg" width="5488" height="3662" title="St Jacob's Hut. It's as cute on the outside as it is inside." >}}
 
 ## Day 2: Doubtless Hut
 {{< stats track="Lake_Man_D2_Over_to_Doubtless_Hut" >}}
@@ -66,18 +66,18 @@ The track descends steeply into the forest on the north side of the range before
 
 The track down to Doubtful River alongside Kendron River was, in a word, rooty. Rooty and steep, if I were to use two. That said, it was really nice forest. With feet starting to get a bit sore we were pleased to reach the junction on the Doubtful River and to know we were close to the hut! Turning upstream the track is very well formed and maintained and we quickly reached the hut, also very tidy! There was essentially no navigation required over this day, with everything thoroughly well marked and cut.
 
-{{< figure name="IMG_8409" title="Beautiful vistas up Hope River on our way to Lake Man Biv" >}}
-{{< figure name="IMG_8410" title="Cruising alongside Hope River, avoiding [matagouri/tūmatakuru](https://www.doc.govt.nz/nature/native-plants/matagouri-wild-irishman/), but not avoiding the rain." >}}
-{{< figure name="IMG_8413" title="A [South Island pied oystercatcher / Tōrea](https://nzbirdsonline.org.nz/species/south-island-pied-oystercatcher) which has come inland to nest." >}}
-{{< figure name="IMG_8418" title="On our way to Pussy Stream through a short section of picturesque forest." >}}
-{{< figure name="IMG_8423" title="Jen navigating some fallen trees on Pussy Stream." >}}
-{{< figure name="IMG_8432" title="Jen right at the start of the climb to Lake Man Biv. It gets better." >}}
-{{< figure name="IMG_8435" title="Mt Lakeman looking stunning and very summitable. An adventure for another day." >}}
-{{< figure name="IMG_8440" title="Some of the truly lush forest on the Doubtful Range." >}}
-{{< figure name="IMG_8445" title="The view across to the saddle above Lake Man Biv." >}}
-{{< figure name="IMG_8449" title="I was enamoured with the fairytale-like forest surrounding Lake Man Biv." >}}
-{{< figure name="IMG_8454" title="Jen descending alongside Kendron River to Doubtless Hut" >}}
-{{< figure name="IMG_8460" title="Love a good sign." >}}
+{{< figure2 name="IMG_8409.jpg" width="5488" height="3662" title="Beautiful vistas up Hope River on our way to Lake Man Biv" >}}
+{{< figure2 name="IMG_8410.jpg" width="5488" height="3662" title="Cruising alongside Hope River, avoiding [matagouri/tūmatakuru](https://www.doc.govt.nz/nature/native-plants/matagouri-wild-irishman/), but not avoiding the rain." >}}
+{{< figure2 name="IMG_8413.jpg" width="5488" height="3662" title="A [South Island pied oystercatcher / Tōrea](https://nzbirdsonline.org.nz/species/south-island-pied-oystercatcher) which has come inland to nest." >}}
+{{< figure2 name="IMG_8418.jpg" width="5488" height="3662" title="On our way to Pussy Stream through a short section of picturesque forest." >}}
+{{< figure2 name="IMG_8423.jpg" width="5488" height="3662" title="Jen navigating some fallen trees on Pussy Stream." >}}
+{{< figure2 name="IMG_8432.jpg" width="5488" height="3662" title="Jen right at the start of the climb to Lake Man Biv. It gets better." >}}
+{{< figure2 name="IMG_8435.jpg" width="5488" height="3662" title="Mt Lakeman looking stunning and very summitable. An adventure for another day." >}}
+{{< figure2 name="IMG_8440.jpg" width="5488" height="3662" title="Some of the truly lush forest on the Doubtful Range." >}}
+{{< figure2 name="IMG_8445.jpg" width="5488" height="3662" title="The view across to the saddle above Lake Man Biv." >}}
+{{< figure2 name="IMG_8449.jpg" width="5488" height="3662" title="I was enamoured with the fairytale-like forest surrounding Lake Man Biv." >}}
+{{< figure2 name="IMG_8454.jpg" width="5488" height="3662" title="Jen descending alongside Kendron River to Doubtless Hut" >}}
+{{< figure2 name="IMG_8460.jpg" width="5488" height="3662" title="Love a good sign." >}}
 
 ## Day 3: Out to Windy Point
 {{< stats track="Lake_Man_D3_Out_to_Windy_Point" >}}
@@ -100,5 +100,5 @@ The track continues along, mostly quite uninterestingly, veering around a deer p
 
 This was a wonderful three-day trip, requiring little navigational expertise, nor any mastery over a fear of heights or exposure. Highly recommended.
 
-{{< figure name="IMG_8462" title="Doubtless Hut. Well maintained and cared for by the [Doubtless Conservation & Trapping group](https://www.facebook.com/DoubtfulValleyRestoration/)" >}}
-{{< figure name="IMG_8470" title="Looking down at a beautiful glacial valley where the Hope and Boyle Rivers converge." >}}
+{{< figure2 name="IMG_8462.jpg" width="5488" height="3662" title="Doubtless Hut. Well maintained and cared for by the [Doubtless Conservation & Trapping group](https://www.facebook.com/DoubtfulValleyRestoration/)" >}}
+{{< figure2 name="IMG_8470.jpg" width="5488" height="3662" title="Looking down at a beautiful glacial valley where the Hope and Boyle Rivers converge." >}}
