@@ -8,6 +8,7 @@ layout: "gps"
 metaDescription: "Tarn Hut Loop is 2 days, 25.9km, 8hrs 8min walking a very pretty tarn in some very epic country nestled behind Ashley Gorge."
 metaImage: "IMG_0412.jpg"
 people: ["Finn", "Jen", "Thomas F"]
+gpxFiles: ["Day_1_Tarn_Hut.gpx","Day_2_Out_via_Youngman_s_Stream_Hut.gpx"]
 ---
 
 ## Day 1: Tarn Hut

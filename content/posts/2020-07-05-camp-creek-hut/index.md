@@ -8,6 +8,7 @@ layout: "gps"
 metaDescription: "An excellent overnighter trip that is close to the road-end. The hut is in good condition and has a bath with a fire outside!"
 metaImage: "IMG_5397.jpg"
 people: ["Finn", "Jen"]
+gpxFiles: ["Camp_Creek_Hut_In.gpx","Camp_Creek_Hut_Out.gpx"]
 ---
 
 ## Day 1: To Camp Creek Hut

@@ -7,7 +7,8 @@ type: "post"
 layout: "gps"
 metaDescription: "A truly beautiful Great Walk that can also be done as an ultra trail run, and I'd recommend it!"
 metaImage: "IMG_3189.jpeg"
-people: ["Finn", "Tim H"]
+people: ["Finn", "Tim Hargraves"]
+gpxFiles: ["Paparoa.gpx"]
 ---
 
 __Runners__: Finn and Tim

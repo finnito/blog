@@ -8,6 +8,7 @@ layout: "gps"
 metaDescription: "A varied hike to Mt Herbert summit accessible via Orton Bradley Park. 4.5hr, 18km round trip."
 metaImage: "IMG_5042.JPG"
 people: ["Finn", "Jen"]
+gpxFiles: ["Mt_Herbert_via_Orton_Bradley.gpx"]
 ---
 
 This is yet _another_ route that can take you up to Mt Herbert / Te Ahu Tatiki. It's a bit interesting in that is a DOC route but you access it via Orton Bradley Park and __there is an entry fee to the park.__

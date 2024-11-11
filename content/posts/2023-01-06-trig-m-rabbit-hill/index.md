@@ -8,6 +8,7 @@ layout: "gps"
 metaDescription: "A great, easy day-walk in the Porters Pass area with wonderful high country views."
 metaImage: "IMG_3964.jpeg"
 people: ["Finn", "Alex", "Liz", "Renee", "Korra 🐕", "Alfie 🐕"]
+gpxFiles: ["Trig_M_Rabbit_Hill.gpx"]
 ---
 
 We have some excellent neighbours (Liz and Alex) who also have a dog, Alfie. He's a very energetic and cute [German Shorthaired Pointer](https://en.wikipedia.org/wiki/German_Shorthaired_Pointer) and is working on doing the [Further Faster Mountain Dog Challenge](https://www.furtherfaster.co.nz/pages/mountain-dog-challenge).

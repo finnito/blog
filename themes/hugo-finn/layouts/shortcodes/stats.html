@@ -1,5 +1,4 @@
 {{ $stats := index $.Site.Data.gpx (index (split (.Get "track") ".") 0) }}
-{{ $gpx := index ($.Page.Resources.Match (print (.Get "track") ".gpx")) 0 }}
 
 <blockquote><p class="hike-stats">
     <span class="distance">{{ printf "%.2f" (div $stats.stats.distance 1000) }}km</span>

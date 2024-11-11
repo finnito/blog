@@ -8,6 +8,7 @@ layout: "gps"
 metaDescription: "An epic four days in some great countryside over a wide variety of landscape, and with days of varying difficulty. Highly recommended!"
 metaImage: "IMG_7477.jpg"
 people: ["Finn", "Jen"]
+gpxFiles: ["Day_1_1_Shuttle_The_Car.gpx","Day_1_2_Up_to_Pakituhi_Hut.gpx","Day_2_To_Stody_s_Hut.gpx","Day_3_To_Moonlight_and_Roses_Hut.gpx","Day_4_Out_via_Dingle_Peak.gpx"]
 ---
 
 The day we got out from the Snowy Gorge - Maitland trip, Jen and I stayed the night in Omarama - very happy to have a shower and eat some vegetables!

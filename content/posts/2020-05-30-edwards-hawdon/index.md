@@ -8,6 +8,7 @@ emoji: 🥾
 type: "post"
 layout: "gps"
 people: ["Finn", "Jen", "Thomas F"]
+gpxFiles: ["Edwards_Hawdon_Day_1_Edwards_Hut.gpx","Edwards_Hawdon_Day_2_Hawdon_Hut.gpx","Edwards_Hawdon_Day_3_Out.gpx"]
 ---
 
 ## Day 1: Greyneys Shelter to Edwards Hut

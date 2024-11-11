@@ -7,6 +7,7 @@ type: "post"
 layout: "gps"
 metaDescription: "A tough race this year on a Plan B course that finished in a disappointing DNF."
 people: ["Finn"]
+gpxFiles: ["Longest Day 2020.gpx","Longest_Day_2022_1_Run_1.gpx","Longest_Day_2022_2_Bike_1.gpx","Longest_Day_2022_3_Goats_Pass.gpx","Longest_Day_2022_4_Ride_2_Plan_B_.gpx"]
 ---
 
 After a successful Longest Day in 2020, I thought that I would try again! The first time around I had an excellent coach help me along. He taught me a lot about training, and how to achieve the many challenges associated with such a race. This time I was fending for myself, although I had my partner Jen helping me along with a copious amount of snacks from The Great Escape and motivation (in the form of insults about my laziness).

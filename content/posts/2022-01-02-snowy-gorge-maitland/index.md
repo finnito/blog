@@ -8,6 +8,7 @@ layout: "gps"
 metaDescription: "An excellent 3-day tramp in the Ōhau-Lindis area, over varied terrain with some easy to navigate 'unmarked' terrain."
 metaImage: "IMG_7128.jpg"
 people: ["Finn", "Jen", "Emily H", "Hayleigh M", "Amy H", "Stephen J"]
+gpxFiles: ["Day_1_To_Snowy_Gorge_Hut.gpx","Day_2_To_Maitland_Hut.gpx","Day_3_Out_to_Lake_Ohau.gpx"]
 ---
 
 Along with a large group of Jen's doctor friends, we had just celebrated New Year's in Tekapo. Six of us also wanted to go tramping afterwards. I spent quite a while looking at different tramps in the area - weighing up the difficulty, terrain, huts, transport and other variables but ended up settling on this one. It wasn't the best transport-wise, but it was an otherwise beautiful tramp and had some beautiful landscapes.

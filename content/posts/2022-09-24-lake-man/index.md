@@ -8,6 +8,7 @@ layout: "gps"
 metaDescription: "A wonderful and approachable 3-day trip in Lewis Pass."
 metaImage: "IMG_8460.jpg"
 people: ["Finn", "Jen"]
+gpxFiles: ["Lake_Man_D1_To_St_Jacob_s_Hut.gpx","Lake_Man_D2_Over_to_Doubtless_Hut.gpx","Lake_Man_D3_Out_to_Windy_Point.gpx"]
 ---
 
 ## Day 1: St Jacob's Hut

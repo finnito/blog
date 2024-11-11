@@ -8,6 +8,7 @@ layout: "gps"
 metaDescription: "A beautiful 3-day tramp through wide valleys, dense bush and snowy tops. It visits two very memorable (if different) huts and passes through some of the best scenery in New Zealand."
 metaImage: "IMG_2683.jpg"
 people: ["Finn", "Jen", "Francie", "Justin", "Neil"]
+gpxFiles: ["Day_1_To_Upper_Caples_Hut.gpx","Day_2_To_Kay_Creek_Hut.gpx","Day_3_Out_via_Scott_Basin_Creek.gpx"]
 ---
 
 <nav id="TableOfContents">

@@ -8,6 +8,7 @@ layout: "gps"
 metaDescription: "Brass Monkey Bivvy is an adorable 2-bed backcountry hut accessible by some beautiful unmarked tops and valleys. I cannot recommend it highly enough!"
 metaImage: "IMG_7936.jpg"
 people: ["Finn", "Jen"]
+gpxFiles: ["Day_1_Brass_Monkey_Bivvy_via_Lewis_Tops.gpx","Day_2_Out_via_Lucretia_Bivvy.gpx"]
 ---
 
 I was a little nervous (but mostly excited) about this trip because it would be the first time Jen or I had done any tramping through unmarked land, but everyone I spoke to who had done it reassured me that it was really straightforward! I managed to track down a GPX file from [Wilderness Mag][1] and loaded it onto the [NZ Topo50 South Island iOS app][2] so I could see where we were going. You can download my GPX tracks for both days by clicking the button just below the heading for each day.

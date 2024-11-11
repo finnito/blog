@@ -8,6 +8,7 @@ layout: "gps"
 metaDescription: "A great overnight tramp or day-walk in the Lewis Pass Area. 16.3km (6hr) return trip."
 metaImage: "IMG_7465.jpg"
 people: ["Finn", "Seonaid", "Jay"]
+gpxFiles: ["Nina_Hut_day_trip.gpx"]
 ---
 
 This trip is from the what feels like the depths of time. In search of some good day hikes we ended up in Lewis Pass. Overall we felt like we spent too long driving for the length of the hike, but ah well, it's a very nice track!

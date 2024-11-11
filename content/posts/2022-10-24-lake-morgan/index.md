@@ -8,6 +8,7 @@ layout: "gps"
 metaDescription: "A challenging but stunning three-day trip on the edge of the Southern Alps with plenty of scenery to amaze."
 metaImage: "IMG_8590.jpg"
 people: ["Finn", "Jen", "Justin", "Francie", "Katherine"]
+gpxFiles: ["2022-10-24-Lake_Morgan_D1_1_To_Lake_Morgan_Hut.gpx","2022-10-24-Lake_Morgan_D1_2_Up_to_the_Lake_to_Camp.gpx","2022-10-25-Lake_Morgan_D2_Over_to_Jacko_Flat_Hut.gpx","2022-10-26-Lake_Morgan_D3_Out_the_Crooked.gpx"]
 ---
 
 ## Day 1: Lake Morgan

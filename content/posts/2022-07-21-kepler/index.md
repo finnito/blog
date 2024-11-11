@@ -8,6 +8,7 @@ layout: "gps"
 metaDescription: "An excellent 3-4 day hike for any season in th Fiordland region with stunning mountain, lake and forest views."
 metaImage: "IMG_4162.jpeg"
 people: ["Finn", "Jen"]
+gpxFiles: ["2022-07-21-Kepler_D1_Luxmore_Hut.gpx","2022-07-22-Kepler_D2_Iris_Burn_Hut.gpx","2022-07-23-Kepler_D3_Out_.gpx"]
 ---
 
 ## Day 1: Luxmore Hut

@@ -5,25 +5,30 @@
         {{ $totalElevGain := 0 }}
         {{ $totalElevLoss := 0 }}
 
-        {{ range .Resources.Match "*.gpx" }}
-            {{ $track := index $.Site.Data.gpx (index (split .Title ".") 0) }}
+        {{ range .Params.gpxFiles }}
+            {{ $track := index $.Site.Data.gpx (strings.TrimSuffix ".gpx" . ) }}
 
             {{ $distanceKm := printf "%.2f" (div $track.stats.distance 1000) }}
+            {{ $totalDist = add $totalDist $track.stats.distance }}
             
+        
             {{ $seconds := printf "%02.0f" (float (mod (mod $track.stats.duration 3600) 60)) }}
             {{ $hours := math.Floor (div $track.stats.duration 3600) }}
             {{ $minutes := printf "%02.0f" (math.Floor (div (mod $track.stats.duration 3600) 60)) }}
+
+            {{ $totalDur = add $totalDur $track.stats.duration }}
+            
             {{ $speed := printf "%.2f" (div (div $track.stats.distance 1000) (div $track.stats.duration 3600)) }}
+
             {{ $elevGain := printf "%.0f" $track.stats.uphill }}
             {{ $elevLoss := printf "%.0f" $track.stats.downhill }}
 
-            {{ $totalDist = add $totalDist $track.stats.distance }}
-            {{ $totalDur = add $totalDur $track.stats.duration }}
             {{ $totalElevGain = add $totalElevGain $track.stats.uphill }}
+        
             {{ $totalElevLoss = add $totalElevLoss $track.stats.downhill }}
 
             <tr>
-                <td><small>{{ $track.stats.date }} [<a onclick='showActivityByName("{{ $track.stats.name }}"); return false;' style='cursor: pointer;'>Show</a>, <a href="{{ .Permalink }}">Download GPX</a>]</small><br/>{{ $track.stats.name }}</td>
+                <td><small>{{ $track.stats.date }} [<a onclick='showActivityByName("{{ $track.stats.name }}"); return false;' style='cursor: pointer;'>Show</a>, <a href="{{ . }}">Download GPX</a>]</small><br/>{{ $track.stats.name }}</td>
                 <td>{{ $distanceKm }}km<br/>{{ $hours }}:{{ $minutes }}:{{ $seconds }}</td>
                 <td>{{ $speed }}km/hr<br/>{{ $elevGain}}m ⬆️, {{ $elevLoss }}m ⬇️</td>
             </tr>

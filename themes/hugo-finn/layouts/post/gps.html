@@ -23,15 +23,27 @@
 </div>
 
 <script>
-    var GPXFiles = [
-        {{ range sort (.Resources.Match "*.gpx") }}
-            "{{ .Permalink }}",
+    // var GPXFiles = [
+    //     {{ range sort (.Resources.Match "*.gpx") }}
+    //         "{{ .Permalink }}",
+    //     {{ end }}
+    //     ],
+
+        GPXFiles = [
+        {{ range .Params.gpxFiles }}
+            "https://ftp.lesueur.nz/blog/{{$.Page.Slug}}/{{ . }}",
         {{ end }}
         ],
 
+        // GPXDataFiles = [
+        // {{ range sort (.Resources.Match "*.gpx") }}
+        //     "{{ $.Site.BaseURL }}/tracks/{{ index (split .Title ".") 0 }}.json",
+        // {{ end }}
+        // ],
+
         GPXDataFiles = [
-        {{ range sort (.Resources.Match "*.gpx") }}
-            "{{ $.Site.BaseURL }}/tracks/{{ index (split .Title ".") 0 }}.json",
+        {{ range .Params.gpxFiles }}
+            "{{ $.Site.BaseURL }}tracks/{{ strings.Replace . "gpx" "json" }}",
         {{ end }}
         ];
 

@@ -8,6 +8,7 @@ layout: "gps"
 metaDescription: "A lovely dog-friendly overnighter in close proximity to Christchurch. Just perfect."
 metaImage: "IMG_5692.jpeg"
 people: ["Finn", "Jen", "Korra 🐕"]
+gpxFiles: ["Pinchgut_D1_In_via_Mt_Thomas_and_Whare_Route.gpx","Pinchgut_D2_Out_via_Bobs_Camp.gpx"]
 ---
 
 ## Day 1: Pinchgut Hut via Mt Thomas & Whare Route

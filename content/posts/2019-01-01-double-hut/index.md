@@ -8,6 +8,7 @@ emoji: 🥾
 type: "post"
 layout: "gps"
 people: ["Finn", "Seonaid", "Jay"]
+gpxFiles: ["2019-01-01-double-hut.gpx"]
 ---
 
 Double Hut is a very relaxed 10.5 km, 2 hr 15 min walk from the carpark by Lake Heron situated in the Ashburton Lakes District. It is a gentle incline on a well formed track and makes for a nice day trip; extra suitable for families!
