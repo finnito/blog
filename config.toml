@@ -44,21 +44,6 @@ timeout                 = 600000
   filename              = "sitemap.xml"
   priority              = 0.5
 
-[mediaTypes]
-[mediaTypes."text/gemini"]
-  suffixes              = ["gmi"]
-
-[outputFormats]
-[outputFormats.Gemini]
-    baseName            = "index"
-    isPlainText         = true
-    isHTML              = false
-    noUgly              = false
-    mediaType           = "text/gemini"
-    protocol            = "gemini://"
-    permalinkable       = true
-    path                = ""
-
 [outputs]
-  home                  = ["HTML", "RSS", "GEMINI"]
-  page                  = ["HTML", "GEMINI"]
+  home                  = ["HTML", "RSS"]
+  page                  = ["HTML"]
