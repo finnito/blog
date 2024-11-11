@@ -8,6 +8,7 @@ layout: "gps"
 metaDescription: "A great daywalk in the vicinity of Christchurch. 7km round trip and < 3hrs."
 metaImage: "IMG_1356.jpeg"
 people: ["Finn", "Amy H", "Ruru", "Korra 🐕"]
+gpxFiles: ["Mt_Barossa_ft_Korra.gpx"]
 ---
 
 This was my second time up Mt Barrossa in a few months. The first time I went with Jen and Tessa and we took Lexi 🐕, and this time Jen was at work and we had since recused a dog (!!) so I took Korra 🐕.

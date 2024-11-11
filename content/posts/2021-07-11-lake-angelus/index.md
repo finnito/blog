@@ -8,6 +8,7 @@ layout: "gps"
 metaDescription: "A beautiful two-day snowy tramp on the Travers Range that visits Lake Angelus and Speargrass huts."
 metaImage: "IMG_6236.jpeg"
 people: ["Finn", "Jen"]
+gpxFiles: ["Lake_Angelus_Day_1.gpx","Lake_Angelus_Day_2.gpx"]
 ---
 
 ## Day 1: Lake Angelus Hut via Robert Ridge

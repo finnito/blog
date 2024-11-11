@@ -8,6 +8,7 @@ layout: "gps"
 metaDescription: "A three-star classic packrafting trip in an amazing part of the country. Unbeatable."
 metaImage: "IMG_4918.jpeg"
 people: ["Finn", "Jen"]
+gpxFiles: ["HP_D0_Humboldt_Falls.gpx","HP_D1_McKerrow_Island_Hut.gpx","HP_D2_1_Afternoon_Walk.gpx","HP_D2_Martin_s_Bay_Hut.gpx","HP_D3_Big_Bay_Hut.gpx","HP_D4_1_Hike_to_the_Pike.gpx","HP_D4_2_Olivine_Hut.gpx","HP_D5_Alabaster_Hut.gpx","HP_D6_Hike_Out.gpx"]
 ---
 
 Jen and I had been looking at this circuit on [Packrafting Trips NZ](https://www.packraftingtrips.nz/hollyford-pyke/) for almost a year. We had originally planned to do it earlier in 2022 but the weather told us no. Thankfully, an excellent weather window popped up and we jumped at the chance to do it.

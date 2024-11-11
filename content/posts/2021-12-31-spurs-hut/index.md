@@ -8,6 +8,7 @@ layout: "gps"
 metaDescription: "A great little trail run or overnight hike in the Fairlie area. 14km return from Fox Peak access road."
 metaImage: "IMG_3235.jpeg"
 people: ["Finn", "Jen"]
+gpxFiles: ["Spurs_Hut.gpx"]
 ---
 
 __Runners__ Finn and Jen

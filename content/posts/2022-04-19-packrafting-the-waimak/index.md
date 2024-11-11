@@ -8,6 +8,7 @@ layout: "gps"
 metaDescription: ""
 metaImage: "IMG_3656.jpeg"
 people: ["Finn", "Jen"]
+gpxFiles: ["2022-04-19-1-Packrafting_on_the_Waimak.gpx","2022-04-19-2-Bike_To_Car.gpx"]
 ---
 
 ## The Rafting

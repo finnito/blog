@@ -8,6 +8,7 @@ layout: "gps"
 metaDescription: "A great walk with stunning views and excellent friends. A must do."
 metaImage: "IMG_5333.jpeg"
 people: ["Finn", "Jen", "Tessa", "Louise B", "Daniel S", "Hayleigh M", "Tim H", "Hannah M", "Tom S"]
+gpxFiles: ["Mueller_Hut_Up.gpx", "Mueller_Hut_Down.gpx"]
 ---
 
 Initiated by Hannah, this trip was to be a nice weekend away with a bunch of friends. After futzing around with a couple of cancellations and group food preparation, we were good to go. Except, the weather wasn't. A front was blowing through on Friday and was not set to clear for Saturday. Ah well, up we go!

@@ -8,6 +8,7 @@ layout: "gps"
 metaDescription: "The Heaphy is a wonderful 4-day in Kahurangi National Park best spent in the sunshine with friends."
 metaImage: "IMG_3443.jpg"
 people: ["Finn", "Jen", "Amy H", "Sam"]
+gpxFiles: ["The_Heaphy_Day_1.gpx","The_Heaphy_Day_2.gpx","The_Heaphy_Day_3.gpx","The_Heaphy_Day_4.gpx"]
 ---
 
 ## Day 1: To Heaphy Hut

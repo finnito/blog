@@ -8,6 +8,7 @@ layout: "gps"
 metaDescription: "A pleasant three-day trip near Christchurch with a mix of high country terrain and river walking."
 metaImage: "IMG_8784.jpg"
 people: ["Finn", "Jen"]
+gpxFiles: ["2022-11-11-Comyns_Cookies_D1_Comyns_Hut.gpx","2022-11-12-Comyns_Cookies_D2_Cookies_Hut.gpx","2022-11-13-Comyns_Cookies_D3_Out.gpx","2022-11-13-Comyns_Cookies_D3_Shuttle.gpx"]
 ---
 
 ## Day 1: Comyns Hut

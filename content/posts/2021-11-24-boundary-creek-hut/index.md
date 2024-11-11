@@ -8,6 +8,7 @@ layout: "gps"
 metaDescription: "An easy 2-day tramp near Christchurch. It is easily accessible, family, dog and horse friendly."
 metaImage: "IMG_7014.jpg"
 people: ["Finn", "Jen", "Korra 🐕"]
+gpxFiles: ["Day_1_To_Boundary_Creek_Hut.gpx","Day_2_1_Out_via_Mystery_Lake.gpx","Day_2_2_Picking_up_the_car.gpx"]
 ---
 
 ### Day 1: To Boundary Creek Hut

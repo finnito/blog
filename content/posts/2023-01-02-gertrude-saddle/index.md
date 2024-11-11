@@ -8,6 +8,7 @@ layout: "gps"
 metaDescription: "An amazing day-walk in the Milford region with stunning views and awesome geology."
 metaImage: "IMG_5113.jpeg"
 people: ["Finn", "Jen"]
+gpxFiles: ["Gertrude_Saddle.gpx"]
 ---
 
 Yesterday Jen and I finished the [Hollyford-Pyke packraft](/posts/hollyford-pyke-packraft/) and camped on Milford Rd. We had one day left before having to drive home, so we hit up Gertrude Saddle and [Lake Marian](/posts/lake-marian/).

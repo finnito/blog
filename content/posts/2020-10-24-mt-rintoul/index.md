@@ -8,6 +8,7 @@ layout: "gps"
 metaDescription: "An excellent three-day trip in the Richmond Ranges with a good amount of climbing, distance and potential for views on a clear day!"
 metaImage: "IMG_6098.jpg"
 people: ["Finn", "Jen"]
+gpxFiles: ["Mt_Rintoul_Day_1.gpx","Mt_Rintoul_Day_2.gpx","Mt_Rintoul_Day_3.gpx"]
 ---
 
 ### Day 1: To [Tarn Hut](https://www.doc.govt.nz/parks-and-recreation/places-to-go/marlborough/places/mount-richmond-forest-park/things-to-do/huts/tarn-hut/)

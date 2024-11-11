@@ -8,6 +8,7 @@ layout: "gps"
 metaDescription: "A beautiful run on good condition tracks with a great vibe in a cool part of New Zealand!"
 metaImage: "IMG_6168.jpg"
 people: ["Finn"]
+gpxFiles: ["Loop_the_Lake_2021.gpx"]
 ---
 
 A couple of friends had mentioned that they wanted to do this race up by St Arnaud, and my parents had done it a few times so I was keen. We booked a house, but in the intervening weeks everyone else pulled out and it just ended up that Jen and I were going to go up for the weekend. We drove up on Friday after work and arrived quite late. On Saturday morning I got up early to go register for the race and Jen was exhaused so slept in.

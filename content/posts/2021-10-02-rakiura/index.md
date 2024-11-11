@@ -8,6 +8,7 @@ layout: "gps"
 metaDescription: "An excellent 8-day, 110km+, 6600m+ trip around a beautiful part of Rakiura. Highly, highly recommended!"
 metaImage: "IMG_6883.jpg"
 people: ["Finn", "Jen", "Francie", "Justin", "Henri", "Neil"]
+gpxFiles: ["Rakiura_NWC_1_8_Mason_Bay_to_Big_Hellfire_Hut.gpx","Rakiura_NWC_2_8_To_East_Ruggedy_Hut.gpx","Rakiura_NWC_3_8_To_Long_Harry_Hut.gpx","Rakiura_NWC_4_8_To_Yankee_River_Hut.gpx","Rakiura_NWC_5_8_To_Christmas_Village_Hut.gpx","Rakiura_NWC_6_8_Hananui_Mt_Anglem_.gpx","Rakiura_NWC_7_8_To_Bungaree_Hut.gpx","Rakiura_NWC_8_8_To_Lee_Bay.gpx"]
 ---
 
 __Hikers:__ Finn, Jen, Francie, Justin, Henri and Neil

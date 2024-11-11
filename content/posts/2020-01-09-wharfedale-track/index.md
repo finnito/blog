@@ -8,6 +8,7 @@ layout: "gps"
 metaDescription: "2 days, 29km, 9hrs walking and a whole lot of climbing over and around Mt Oxford."
 metaImage: "IMG_0412.jpg"
 people: ["Finn", "Jen"]
+gpxFiles: ["Wharfedale_Day_1_Wharfedale_Track.gpx","Wharfedale_Day_2_Out_via_Mt_Oxford.gpx"]
 ---
 
 ## Day 1: Wharfedale Track

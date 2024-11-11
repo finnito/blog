@@ -8,6 +8,7 @@ layout: "gps"
 metaDescription: "Mt Fyffe is an excellent area for overnight and two night trips, with lots of options, track variety and beautiful views."
 metaImage: "IMG_6028.jpg"
 people: ["Finn", "Jen"]
+gpxFiles: ["Mt_Fyffe_Day_1_To_Fyffe_Hut.gpx","Mt_Fyffe_Day_2_To_Kowhai_Saddle_via_Kowhai_Hut.gpx","Mt_Fyffe_Day_3_Out_via_Gables_End_Mt_Fyffe_Summit.gpx"]
 ---
 
 ## Day 1: To Mt Fyffe Hut

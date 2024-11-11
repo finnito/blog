@@ -8,6 +8,7 @@ layout: "gps"
 metaDescription: "A multi-day tramp with stunning landscapes. Some of the track feels contrived, but it is well worth the trip!"
 metaImage: "IMG_5845.jpg"
 people: ["Finn", "Jen", "Justin", "Francie", "Becky", "Neil"]
+gpxFiles: ["Motatapu_Day_1_To_Highland_Creek_Hut.gpx","Motatapu_Day_2_Roses_Hut.gpx","Motatapu_Day_3_Abort_to_Glendhu_Bay.gpx"]
 ---
 
 ## Day 1: To Highland Creek Hut

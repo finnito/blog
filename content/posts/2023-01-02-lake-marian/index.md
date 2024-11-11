@@ -8,6 +8,7 @@ layout: "gps"
 metaDescription: "An excellent short day-trip or run in the Milford Area with a swimming opportunity."
 metaImage: "IMG_5176.jpeg"
 people: ["Finn", "Jen"]
+gpxFiles: ["Lake_Marian.gpx"]
 ---
 
 Yesterday Jen and I finished the [Hollyford-Pyke packraft](/posts/hollyford-pyke-packraft/) and this morning we went up [Gertrude Saddle](/posts/gertrude-saddle/). We were due to drive up to Cromwell that afternoon/evening but had just enough time to sneak in a trip to Lake Marian if we walked fast/jogged.

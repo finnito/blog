@@ -8,6 +8,7 @@ metaImage: "2019-01-12-bealey-spur-0134.jpg"
 type: "post"
 layout: "gps"
 people: ["Finn", "Seonaid", "Jay", "Andrea", "Mylène"]
+gpxFiles: ["2019-01-12-bealey-spur.gpx"]
 ---
 
 Bealey Spur is a beautiful day walk in the Arthur's Pass area. The DOC time to Bealey Spur Hut is 2hr 30min hours and around 6.4km (615m climb), but we made there in 1hr 45min. Up to the ridge was another 55min for a total of 8.35km and 906m climbed!

@@ -8,6 +8,7 @@ layout: "gps"
 metaDescription: "A great 8km trail run (or walk) in the Catlins. Starting at the same carpark at Mclean Falls Walk it's easy to tick both off your list."
 metaImage: "tautuku-hut.jpeg"
 people: ["Finn", "Jen"]
+gpxFiles: ["TautukuHut.gpx"]
 ---
 
 We've been enjoying a little holiday to The Catlins during these school holidays - visiting many (many) waterfalls,  a little rock climbing, cycling walking and running. But, we had wanted to do something a little longer to turned our eyes towards Tautuku Hut.
