@@ -9,6 +9,7 @@ type: post
 layout: reading
 emoji: 🎧
 cover: https://cdn2.penguin.com.au/covers/original/9780141991740.jpg
+expiryDate: 2024-11-10
 ---
 
 This is an excellent retelling of a set of speeches given by Thunberg. She is direct, too the point, and honest. It is truly refreshing.

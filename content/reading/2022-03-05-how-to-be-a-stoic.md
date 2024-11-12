@@ -9,6 +9,7 @@ type: post
 layout: reading
 cover: https://cdn2.penguin.com.au/covers/original/9781846045073.jpg
 emoji: 📚
+expiryDate: 2024-11-10
 ---
 
 It took me quite a while to get through this book, owing to both the amount of re-reading and thinking it requires and also to some busyness and stress around work and [Coast to Coast 2022](/posts/coast-to-coast-2022/). I have about four pages of notes, not all of which I will recount here. But in a sentence, I found this book really interesting, enlightening, and I've taken a few really good concepts away from it already. I'm sure more will emerge over the coming weeks and months as I continue to ponder it.

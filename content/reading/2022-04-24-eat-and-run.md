@@ -9,6 +9,7 @@ type: post
 layout: reading
 cover: https://vedgedout.files.wordpress.com/2013/04/eat-and-run-12.jpg
 emoji: 📚
+expiryDate: 2024-11-10
 ---
 
 This book was very easy to read, well told and very inspiring. It is part autobiography, part training advice, part cookbook and part story of how to live a meaningful life.

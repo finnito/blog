@@ -10,6 +10,7 @@ finished: 2021-11-07
 genre: Fantasy
 cover: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1447493572i/10762697._SS2000_.jpg
 emoji: 📚
+expiryDate: 2024-11-10
 ---
 
 I thoroughly enjoyed this book - I'm a big lover of the Fantasy genre, and this ticked all the boxes. I enjoyed how there was some magic, but it was more subtle than is some other series I love (looking at you, [Raymond E Feist](http://www.crydee.com/raymond-feist/book-series). The magic is not all-powerful and the world seems quite believable.

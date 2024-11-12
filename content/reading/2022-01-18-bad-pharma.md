@@ -10,6 +10,7 @@ type: post
 layout: reading
 cover: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSribNo2z0c-DyzVCw7DpvNgqc06JJREpaq6A&usqp=CAU
 emoji: 📚
+expiryDate: 2024-11-10
 ---
 
 I really, thoroughly, enjoyed this book from start to finish. As someone with a doctor for a partner - and also knows many doctors through her, this was really eye opening. I had some inklings from Bad Science, another book by Ben, but this really took it another step.

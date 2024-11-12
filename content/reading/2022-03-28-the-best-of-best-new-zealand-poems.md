@@ -9,6 +9,7 @@ type: post
 layout: reading
 cover: https://www.whitcoulls.co.nz/content/products/50/86/9780864736512.jpg?width=416&height=620&fit=bounds&enable=upscale&bg-color=ffffff&canvas=416%2C620
 emoji: 📚
+expiryDate: 2024-11-10
 ---
 
 I listen to some podcasts from RNZ, and [this one appeared in my feed a couple of weeks ago](https://www.rnz.co.nz/national/programmes/sunday/audio/2018833107/new-zealand-men-s-reading-rates-continuing-to-drop). It was on reading rates in New Zealand, and had some interesting stats about how much the different genders read different genres. What stuck in my mind was the idea of _reading poetry_. It wasn't really something I had considered!

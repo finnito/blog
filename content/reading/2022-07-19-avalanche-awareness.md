@@ -9,6 +9,7 @@ type: post
 layout: reading
 emoji: 📚
 cover: https://alpinerecreation.com/images/onlineshop/books_avalanche.jpg
+expiryDate: 2024-11-10
 ---
 
 An excellent and detailed look into avalanches, terrain, weather and snowpack with a focus on New Zealand conditions. There's more than you could ever take in during a single read, so this book will be coming with me on any wintry or snowy tramp so I can keep my knowledge fresh.

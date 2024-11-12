@@ -9,6 +9,7 @@ type: post
 layout: reading
 emoji: 🎧
 cover: https://images.macmillan.com/folio-assets/macmillan_us_frontbookcovers_1000H/9781250074225.jpg
+expiryDate: 2024-11-10
 ---
 
 Given that this book is both written and read by Bill Nye, it has all the usual humor and energy that you would expect from the absolute [meme lord](https://www.urbandictionary.com/define.php?term=Meme%20Lord) that is Bill. The energy takes you along on a ride of evolution, the science behind it, while also managing to touch on many other favourites such as dinosaurs and space.

@@ -9,6 +9,7 @@ type: post
 layout: reading
 cover: https://www.reelybored.com/wp-content/uploads/2020/03/hot-zone-book-review.jpg
 emoji: 📚
+expiryDate: 2024-11-10
 ---
 
 This book came to me as a recommendation from a friend and what a worthy recommendation it was. This book is equal parts horrifying fascinating. It engages you from start to finish and delivers an amazing level of detail.

@@ -10,6 +10,7 @@ layout: reading
 emoji: 🎧
 cover: https://cdn2.penguin.com.au/covers/original/9781529150384.jpg
 series: ["Star Wars: The Thrawn Trilogy"]
+expiryDate: 2024-11-10
 ---
 
 Recently I have been walking to work and finding myself doing a lot of activities where I can’t read a book, but can listen to podcasts. But, feeling a bit burned out by podcasts I was looking for a change. Remembering that ebooks exist, I opened the ever-wonderful Libby and started browsing for a book.

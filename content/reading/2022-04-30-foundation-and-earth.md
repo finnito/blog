@@ -10,6 +10,7 @@ layout: reading
 cover: https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.you-books.com%2Fstorebooks%2FI%2FI-Asimov%2FFoundation-And-Earth%2Fcover.jpg&f=1&nofb=1
 emoji: 📚
 series: ["Foundation"]
+expiryDate: 2024-11-10
 ---
 
 This was a great end to the Foundation series. While still quite sci-fantasy, there was a lot of discussion of the human condition and some gentle philosophy.

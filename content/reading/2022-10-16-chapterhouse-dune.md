@@ -10,6 +10,7 @@ layout: reading
 emoji: 📚
 cover: https://upload.wikimedia.org/wikipedia/en/8/82/Chapterhouse_Dune-Frank_Herbert_%281985%29_First_edition.jpg
 series: ["Dune"]
+expiryDate: 2024-11-10
 ---
 
 What a book! Amazing. It was great to stick with the storyline set up in Heretics of Dune and to see a conclusion eventuate. There were lots of unfinished threads and one can see how there is room for much more writing to come.

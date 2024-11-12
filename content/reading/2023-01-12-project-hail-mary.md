@@ -9,6 +9,7 @@ type: post
 layout: reading
 emoji: 📚
 cover: https://bookandfilmglobe.com/wp-content/uploads/2021/05/91Bd7P8UwxL.jpg
+expiryDate: 2024-11-10
 ---
 
 After being recommended this book a _lot_ I ended up being gifted it for Christmas (thanks, Mum!). Turns out it’s as great as everyone says it is. The science feels immersive and accurate and doesn’t stray too far into science-fantasy, which I love.

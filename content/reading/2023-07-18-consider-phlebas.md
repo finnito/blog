@@ -9,6 +9,7 @@ type: post
 layout: reading
 emoji: 📚
 cover: https://cdn.kobo.com/book-images/561b6eed-7547-42b0-a83e-012503fa4e50/353/569/90/False/consider-phlebas-1.jpg
+expiryDate: 2024-11-10
 ---
 
 This science fiction series has been on my radar for a really long time, so I was quite excited to start it. Each book seems to be quite distinct from the others, carrying no particular storyline (from what I can tell).

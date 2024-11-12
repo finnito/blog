@@ -9,6 +9,7 @@ type: post
 layout: reading
 emoji: 📚
 cover: https://images.thenile.io/r1000/9781398501911.jpg
+expiryDate: 2024-11-10
 ---
 
 Well, this book is an experience. Grover's writing style is over the top, repetitive and honestly a bit manic sounding. But, there are some advice gems in there.

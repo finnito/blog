@@ -9,6 +9,7 @@ type: post
 layout: reading
 emoji: 📚
 cover: https://cdn11.bigcommerce.com/s-qvcg41qdf5/images/stencil/1200x1200/products/2375/2693/9781869408671__17485.1551219098.jpg
+expiryDate: 2024-11-10
 ---
 
 As a teacher in New Zealand you are continuously prompted and nagged into learning [Te Reo Māori](https://en.wikipedia.org/wiki/M%C4%81ori_language), [Tikanga Māori](https://en.wikipedia.org/wiki/Tikanga_M%C4%81ori) and about [Te Ao Māori](https://en.wikipedia.org/wiki/M%C4%81ori_culture). Unfortunately, the Ministry of Education is all talk and no action. They want these things but do not provide much (any) time for teachers to learn this. So it becomes something that you do in your own time.

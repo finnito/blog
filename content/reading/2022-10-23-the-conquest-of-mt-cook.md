@@ -9,6 +9,7 @@ type: post
 layout: reading
 emoji: 📚
 cover: https://images.squarespace-cdn.com/content/v1/5807f8c020099eb094d839e7/1624930028588-93NZJSBGAKY7RIBZ4L6H/Book+Cover.png
+expiryDate: 2024-11-10
 ---
 
 I picked up this book after reading Solo by Hazel Phillips (also an excellent book) and was not disappointed. Freda was an amazing and inspirational woman of her time. Many accounts of her climbs paint a picture of a truly different time. The climbs, harrowing, the equipment and clothes, rudimentary, and the tracks more or less non-existent.

@@ -9,6 +9,7 @@ type: post
 layout: reading
 emoji: 📚
 cover: https://cdn2.penguin.com.au/covers/original/9781784744601.jpg
+expiryDate: 2024-11-10
 ---
 
 In our world, so frequently divided, so frequently mined for profit and for individual gain, it can be hard to see how we will progress forwards. How can we improve our lot, with such big steps being taken backwards?

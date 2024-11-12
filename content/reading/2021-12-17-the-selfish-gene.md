@@ -10,6 +10,7 @@ finished: 2021-12-30
 genre: Science
 cover: https://images-na.ssl-images-amazon.com/images/I/71+Ggj5aqKL.jpg
 emoji: 📚
+expiryDate: 2024-11-10
 ---
 
 As a Science teacher this book is quite interesting, even though I only teach genetics to a basic level in Years 9-11 (NZ). We take it as a given that animals can be naturally selected for their influence of others (the extended phenotype) although I never specifically state this when teaching.

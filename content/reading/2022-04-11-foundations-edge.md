@@ -10,6 +10,7 @@ layout: reading
 cover: https://jeroenthoughts.files.wordpress.com/2020/11/a558ffcfda98b0c74384ceb7d7ff6bd5.jpg
 emoji: 📚
 series: ["Foundation"]
+expiryDate: 2024-11-10
 ---
 
 Continuing my reading of the Foundation series, I also enjoyed this book. It has, as do many late-in-the-series sci-fi books, taken quite the turn from sci-fi into what feels more like fantasy. Perhaps the sci-fi-ness will be returned in the 5th book!

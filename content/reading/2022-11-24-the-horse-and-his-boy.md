@@ -10,6 +10,7 @@ layout: reading
 emoji: 📚
 cover: https://i.harperapps.com/hcanz/covers/9780007588541/y648.jpg
 series: ["The Chronicles of Narnia"]
+expiryDate: 2024-11-10
 ---
 
 It took me a while to read this book because I got distracted, but, it was quite lovely. Following the trend set so far the writing is very simple and the narrator's point of view a bit odd at times.

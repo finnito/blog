@@ -9,6 +9,7 @@ type: post
 layout: reading
 cover: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRjhwe6KXJ29VuFWrb_G7_rjm__sRZYBTRCTg&usqp=CAU
 emoji: 📚
+expiryDate: 2024-11-10
 ---
 
 Certain peope would hate this book, I think. I wasn’t sure that I was into it to begin with - all the cheesy quotes were grating on me. But, in the end there was a lot of good advice. I made a large number of highlights and will be able to derive a bunch of actionable processes to help with my training, and wider life.

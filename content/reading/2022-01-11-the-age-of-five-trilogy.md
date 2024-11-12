@@ -10,6 +10,7 @@ type: post
 layout: reading
 cover: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRVh3BSk20uMUDy8q1NJFTcTODykEOS9fPyDg&usqp=CAU
 emoji: 📚
+expiryDate: 2024-11-10
 ---
 
 Heading into 2022 I thought I might try change up my reading by alternating between fiction and non-fiction. So here goes!

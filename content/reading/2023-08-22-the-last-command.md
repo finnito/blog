@@ -10,6 +10,7 @@ layout: reading
 emoji: 🎧
 cover: https://m.media-amazon.com/images/I/51aiFeUE9ZS.jpg
 series: ["Star Wars: The Thrawn Trilogy"]
+expiryDate: 2024-11-10
 ---
 
 Again, Zahn knocks it out of the park. I enjoyed the ending to this one – rather satifying. Lots of little twists and turns to keep you guessing. Some of them a little obvious, but good. I guessed entirely wrong about Delta Source, which was satisfying. Always fun to have the author lead you in the wrong direction a little bit before getting you with the truth!

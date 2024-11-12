@@ -9,6 +9,7 @@ type: post
 layout: reading
 emoji: 📚
 cover: https://exislepublishing.com/wp-content/uploads/2021/12/The-Road-to-Godwana-scaled.jpg
+expiryDate: 2024-11-10
 ---
 
 This year I had a major surgery – open heart surgery for an aortic valve replacement! As I checked into the hospital for my operation and recovery a number of Jen’s doctor friends came to visit me. I really appreciated their time. Amazingly, a couple of them bought me some books! I hardly even buy myself books these days.

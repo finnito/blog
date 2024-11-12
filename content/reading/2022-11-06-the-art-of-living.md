@@ -9,6 +9,7 @@ type: post
 layout: reading
 emoji: 🎧
 cover: https://cdn2.penguin.com.au/covers/original/9781846045097.jpg
+expiryDate: 2024-11-10
 ---
 
 I listened to this over a weekend with a few hours to myself and found it very interesting. Buddhism makes for some insightful spirituality teaching without the need for a deity. To me it seems to centre around connectedness, a lack of individual self, and transformation instead of beginnings and endings. I find this way of thinking quite compatible with Science and the needs of our modern world.

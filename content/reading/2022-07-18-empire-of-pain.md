@@ -9,6 +9,7 @@ type: post
 layout: reading
 emoji: 📚
 cover: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1611952534l/43868109.jpg
+expiryDate: 2024-11-10
 ---
 
 From start to finish this expertly researched book details the moral corruption and emotional detachment of the entire Sackler family. Not a single person displays any understanding of how their business or their actions have harmed millions of people worldwide.

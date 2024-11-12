@@ -10,6 +10,7 @@ layout: reading
 cover: https://blas.com/wp-content/uploads/2018/02/Cover2.jpg
 emoji: 📚
 series: ["Foundation"]
+expiryDate: 2024-11-10
 ---
 
 I’m thoroughly enjoying this series so far! This story really held me - I didn't even quite figure it out right until near the end. Well played! It holds up amazingly well for being written in 1952.

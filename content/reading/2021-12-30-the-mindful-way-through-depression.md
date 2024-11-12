@@ -10,6 +10,7 @@ type: post
 layout: reading
 cover: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR54MpxHUfLlnnfUQ-nGTFbS2EEOtadu7LN1g&usqp=CAU
 emoji: 📚
+expiryDate: 2024-11-10
 ---
 
 For the past few years I have been working on my fitness - trying to be a little more than a _weekend warrior_. With this I have entered a few big events like [Coast to Coast](https://www.coasttocoast.co.nz/), and this has required quite a lot of training! I have found that as I train (and work) throughout the year I get really big fluctuations in my motivation and state of mind. While I think that this is natural, it is not uncommon for me to find myself unable to train for weeks at a time. I don't _think_ that this is clinical depression but it's something along those lines, so here I am learning about one way to assist myself.
