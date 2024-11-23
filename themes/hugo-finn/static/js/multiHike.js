@@ -167,6 +167,13 @@ function addGPXTracks() {
                 color: trackColours[ColourIterator]
             }).addTo(trackGroup);
 
+            L.marker([polyline._latlngs[0].lat, polyline._latlngs[0].lng]).addTo(trackGroup);
+            addTooltip(trackGroup, response);
+
+            trackGroup.on('dblclick', function(e) {
+                HikeMap.fitBounds(e.target.getBounds());
+            });
+
             // Different colour next time.
             if (ColourIterator == trackColours.length - 1) {
                 ColourIterator = 0;
@@ -194,8 +201,7 @@ function addGPXTracks() {
                 .addTo(trackGroup);
             }
 
-            L.marker([polyline._latlngs[0].lat, polyline._latlngs[0].lng]).addTo(trackGroup);
-            addTooltip(polyline, response);
+            
 
             HikeMap.fitBounds(Tracks.getBounds());
         })
@@ -214,7 +220,8 @@ function addTooltip(el, data) {
         + "Duration: " + msToHMS(data.stats.duration * 1000) + "<br/>"
         + "Pace: " + ((data.stats.distance / 1000)/(data.stats.duration/3600)).toFixed(2) + "km/hr<br/>"
         + "Elevation Gain: " + data.stats.uphill + "m<br/>"
-        + "Elevation Loss: " + data.stats.downhill + "m<br/>";
+        + "Elevation Loss: " + data.stats.downhill + "m<br/>"
+        + "<i>Double-click icon to zoom to track.</i>";
     el.bindTooltip(tooltipText, {sticky: true, keepInView: true});
 }
 
