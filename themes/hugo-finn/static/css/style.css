@@ -37,8 +37,11 @@ footer {
 }
 
 header nav {
-  border-bottom: 1px solid lightgray;
   padding-bottom: 0.5rem;
+}
+
+body:not(.gps) header nav {
+  border-bottom: 1px solid lightgray;
 }
 
 nav > ul {
@@ -205,6 +208,87 @@ button[class^='load']:hover {
 button[class^='load']:active {
   box-shadow: #422800 2px 2px 0 0;
   transform: translate(2px, 2px);
+}
+
+ul.reading {
+  list-style: none;
+  list-style-type: "";
+}
+ul.reading ul {
+  padding-left: 2rem;
+}
+
+ul.reading > li > ul > li:not(.series) {
+  margin-left: 2.2rem;
+  padding-left: 1.2rem;
+}
+
+ul.reading > li > p {
+  font-weight: 800;
+  margin-bottom: 0;
+  margin-top: 1rem;
+}
+
+li.series {
+  list-style-type: "📚";
+}
+
+li.series:not(:first-of-type) {
+  margin-top: 0.5rem;
+}
+
+li.series p {
+  margin-bottom: 0;
+  font-weight: 600;
+  margin-left: 0.5rem;
+  padding-left: 0.5rem;
+  margin-top: 0;
+}
+li span.order {
+  width: 2rem;
+  display: inline-block;
+}
+
+li.series ul { list-style: none; padding-left: 1rem; }
+
+ul.reading li.series:has(li.hidden) {
+  display: none;
+}
+ul.reading li.series:has(li:not(.hidden)) {
+  display: list-item;
+}
+
+ul.reading > li:has(li.hidden) {
+  display: none;
+}
+
+ul.reading > li:has(li:not(.series):not(.hidden)) {
+  display: list-item;
+}
+
+.tag {
+  font-size: x-small;
+}
+
+.filters {
+  margin: 1rem 0;
+}
+
+.filters input:checked + label {
+  border-bottom: 2px solid #c779d0;
+}
+
+.filters input {display: none;}
+
+.filters label {
+  cursor: pointer;
+  margin-right: 0.5rem;
+  padding: 0.25rem;
+  background-color: rgba(155, 89, 182, 0.1) ;
+  text-transform: capitalize;
+  display: inline-block;
+  margin-bottom: 0.5rem;
+  border-bottom: 2px solid transparent;
 }
 
 @media (min-width: 768px) {
