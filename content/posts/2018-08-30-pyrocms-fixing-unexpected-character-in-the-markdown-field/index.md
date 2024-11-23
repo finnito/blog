@@ -6,6 +6,7 @@ emoji: 💻
 metaDescription: "Getting Unexpected character '&' when parsing Twig in the PyroCMS 3 Markdown Field? Make sure you use single quotes instead of double quotes in the plugin! "
 metaImage: "PyroCMS-Addons.png"
 prism: "true"
+expiryDate: 2024-11-11
 ---
 
 Something I have recently gotten into is writing in [Markdown][md] - in fact, these very posts in my Guides addon are written in [Markdown][md]. It is very readable and great for publishing, but sometimes you want to go further and embed some more complex HTML elements inside it. Markdown natively allows you to do that, but I wanted to supercharge this so I got [Twig][tw] involved!

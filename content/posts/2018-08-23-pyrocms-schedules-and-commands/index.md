@@ -6,6 +6,7 @@ emoji: 💻
 metaDescription: "In the past, you might have written a cron job to execute a periodic command to help run your website backend. With PyroCMS these days are behind you with the aid of custom Artisan commands and Laravel scheduling!"
 metaImage: "PyroCMS-Addons.png"
 prism: "true"
+expiryDate: 2024-11-11
 ---
 
 In the past, you might have written a cron job to execute a periodic command to help run your website backend. With [PyroCMS][pyro] these days are behind you with the aid of custom [Artisan commands][Artisan] and [Laravel scheduling][laravels]!

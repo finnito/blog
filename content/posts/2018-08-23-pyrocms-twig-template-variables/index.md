@@ -6,6 +6,7 @@ emoji: 💻
 metaDescription: "Learn the basics about how to use Twig template variables with PyroCMS 3 and supercharge your theme-creation powers!"
 metaImage: "Twig-Variables.png"
 prism: "true"
+expiryDate: 2024-11-11
 ---
 
 A pretty basic part of an HTML document is using `<meta/>` and other tags to add metadata to a page so that browsers and search engines can read it. There is any number of tags that you might want to include in your `<head>` element, but let us use the `<title>` tag as a starting point.
