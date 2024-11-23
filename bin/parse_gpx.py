@@ -7,12 +7,13 @@ from pathlib import Path
 import polyline
 import datetime
 import pytz
+import sys
 
 # ==========
 # Find all GPX files
 # ==========
 paths = []
-for subdir, dirs, files in os.walk(Path.cwd() / "content"):
+for subdir, dirs, files in os.walk(sys.argv[1]):
     for file in files:
         filepath = subdir + os.sep + file
         if filepath.endswith(".gpx"):
