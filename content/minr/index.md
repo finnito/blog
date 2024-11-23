@@ -1,6 +1,7 @@
 ---
 title: mINR
 date: 2023-12-15
+emoji: 🩸
 ---
 
 I built this app as a hobby project in early 2023 when I received news that I was to get a [heart valve replacement](/posts/a-heart-murmur/). As I was opting for a mechanical heart valve, I would have to been on [warfarin](https://en.wikipedia.org/wiki/Warfarin) (an anticoagulant) for the rest of my life. This means daily medication which needs to be adjusted as my diet and kidney function changes throughout my life. Most patients would record their medications in [a little notebook](https://healthify.nz/assets/Brochures/my-warfarin-and-inr-diary-210811.pdf), but, being technology oriented I figured an app would be better!
