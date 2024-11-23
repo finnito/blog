@@ -5,6 +5,8 @@ photoDate = 2021-04-29T16:38:48+12:00
 image = "IMG_2361.jpeg"
 photographer = "Finn Le Sueur"
 emoji = "📸"
+width = "3955"
+height = "2966"
 +++
 
 Making the most of the autumn light by running on Godley Heads.

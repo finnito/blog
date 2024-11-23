@@ -5,6 +5,8 @@ photoDate = 2022-12-30
 image = "patterns-of-the-pyke.jpeg"
 photographer = "Finn Le Sueur"
 emoji = "📸"
+width = "2048"
+height = "2048"
 +++
 
 Some wonderful patterns I captured while #packrafting the Hollyford-Pyke in #Milford #NewZealand #photography

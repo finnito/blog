@@ -6,6 +6,8 @@ photoDate = 2020-05-31T13:50:19+12:00
 image = "D2AA26D4-D574-454F-9DAA-8006AA600830.jpeg"
 photographer = "Finn LeSueur"
 emoji = "📸"
+width = "5338"
+height = "3559"
 +++
 
 Crossing Tarn Col over a very cold Queen’s Birthday weekend. It was crisp out of the sun and the ice was persistent throughout the day, making the trip beautiful but treacherous.

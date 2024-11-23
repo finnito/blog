@@ -5,6 +5,8 @@ photoDate = 2023-01-13T21:32:56+13:00
 image = "sparse-trees.jpeg"
 photographer = "Finn Le Sueur"
 emoji = "📸"
+width = "4032"
+height = "3024"
 +++
 
 Spotted a wonderful sunset over Glenelg Spur and #Rapaki this evening in #Christchurch #NewZealand. The sparse trees really made it for me.

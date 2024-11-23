@@ -1,4 +1,4 @@
-{{ $imagePath := path.Join "local:///images/" .File.Dir .Params.image }}
+{{ $imagePath := path.Join "local:///blog/" .File.Dir .Params.image }}
 
 <figure>
     <a href='{{ path.Join .Site.Params.imageHostingURL "resize:fill:0:0:0:0/plain/" $imagePath }}' title='Full size image: {{ .Params.title }}'>
@@ -10,6 +10,8 @@
             src='{{ path.Join .Site.Params.imageHostingURL "resize:fill:0:0:0:0/plain/" $imagePath }}'
             alt='{{ .Params.title }}'
             loading='lazy'
+            {{ with .Params.height }}height='{{ . }}'{{ end }}
+            {{ with .Params.width }}width='{{ . }}'{{ end }}
             />
     </a>
     <figcaption>

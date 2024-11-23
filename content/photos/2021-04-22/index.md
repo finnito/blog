@@ -5,6 +5,8 @@ photoDate = 2021-04-22T16:34:56+12:00
 image = "IMG_2301.jpeg"
 photographer = "Finn Le Sueur"
 emoji = "📸"
+width = "3024"
+height = "4032"
 +++
 
 Exploring Cathedral Caves with Jen on a classic wet and rainy day in The Catlins.

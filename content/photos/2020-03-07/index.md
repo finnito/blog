@@ -4,6 +4,8 @@ date = 2020-06-16T11:40:56+12:00
 categories = ["photo"]
 photoDate = 2020-03-07T14:44:07+13:00
 image = "IMG_0681.jpeg"
+width = "4032"
+height = "3024"
 photographer = "Finn LeSueur"
 emoji = "📸"
 +++
