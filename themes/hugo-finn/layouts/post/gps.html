@@ -31,7 +31,7 @@
 
         GPXFiles = [
         {{ range .Params.gpxFiles }}
-            "https://ftp.lesueur.nz/blog/{{$.Page.Slug}}/{{ . }}",
+            "https://assets.lesueur.nz/blog/{{$.Page.Slug}}/{{ . }}",
         {{ end }}
         ],
 
@@ -83,7 +83,11 @@
         });
 
         function loadScripts() {
-            var scripts = ["/js/leaflet.min.js", "/js/Polyline.encoded.js", "/js/Leaflet.fullscreen.min.js", "/js/multiHike.js"]
+            var scripts = [
+                "/js/leaflet.min.js",
+                "/js/Polyline.encoded.js",
+                "/js/Leaflet.fullscreen.min.js",
+                "/js/multiHike.js"]
             var scriptPromises = [];
             scripts.forEach(function(src) {
                 scriptPromises.push(loadResource(src, "js"));
