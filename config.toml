@@ -34,10 +34,10 @@ timeout                 = 600000
   mainSections          = ["posts", "photos", "reading"]
   imageHostingURL       = "https://dam.lesueur.nz/insecure/"
 
-[Author]
-  name                  = "Finn Le Sueur"
-  email                 = "finn@lesueur.nz"
-  gitlab                = "Finnito"
+  [Params.Author]
+    name                  = "Finn Le Sueur"
+    email                 = "finn@lesueur.nz"
+    gitlab                = "Finnito"
 
 [sitemap]
   changefreq            = "weekly"
