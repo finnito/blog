@@ -76,7 +76,7 @@ gpxFiles: [
 * Monday 15/07
     * Drove Kenmare & Jen bought some pottery!
     * Drove into Killarney National Park & took the requisite tourist photos at Ladies View
-    * Lunched in Killarney @ The Shire
+    * Lunched in Killarney at The Shire
     * Drove Cronin’s Yard and hiked Carrauntoohil via Brother O’Shea’s Gully
     * 😴 Drove Killorglin & [parked in town by the river](https://maps.app.goo.gl/Ssomd1JDGyyCw4Vv9). Ate takeaways in the van (it was late).
 * Tuesday 16/07
