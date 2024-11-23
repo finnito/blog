@@ -121,7 +121,7 @@ gpxFiles: [
 * Sunday 21/07
     * Drove to Galway
     * Perused some shops, got food and chilled
-    * Went to Munroe’s Tavern for the after-event; the national hurling final was on! Go the Rebel County
+    * Went to Munroe’s Tavern for the after-event and the national hurling final was on! Go the Rebel County!
     * 😴 Stayed in a [car park just down the road](https://maps.app.goo.gl/EVKn5aooSV4kNTCQ7) from the tavern (convenient!).
 * Monday 22/07
     * Ferried to Inismore from Rossaveel Harbour
