@@ -2,163 +2,152 @@
 
 <div class="content">
     <h1>{{ .Title }}</h1>
-    
-    
-        {{ with (.Pages.ByParam "finished").Reverse}}
-        <h3>Reviews</h3>
-        <ul>
-        {{ range . }}
-            <li><a href="{{ .Permalink }}">{{ .Params.finished }} - {{ .Title }}</a>
-        {{ end }}
-        </ul>
-        {{ end }}
 
-        <div class="filters">
-            <span>Filter by: </span><br/>
-            <input type="radio" name="filter" id="all" value="" checked/>
-            <label for="all">All</label>
-        </div>
+    {{ .Content }}
 
-        <script>
-        document.addEventListener("click", function(e) {
-            if (e.target.name == "filter") {
-                filterBooks();
-                updateURL();
+    <div class="filters">
+        <span>Filter by: </span><br/>
+        <input type="radio" name="filter" id="all" value="" checked/>
+        <label for="all">All</label>
+    </div>
+
+    <script>
+    document.addEventListener("click", function(e) {
+        if (e.target.name == "filter") {
+            filterBooks();
+            updateURL();
+        }
+    });
+
+    function updateURL() {
+        const id = document.querySelector("input:checked").id
+        const url = new URL(location.href);
+        url.searchParams.set("f", id);
+        history.replaceState(null, "", url);
+    }
+
+    function filterBooks () {
+        if (document.querySelector("input:checked").value == "") {
+            document.querySelectorAll("li.hidden").forEach(function(li) {
+                li.classList.remove("hidden");
+            });
+            return;
+        }
+
+        let filterYear = document.querySelector("input:checked").value.slice(1);
+        console.log(filterYear);
+        document.querySelectorAll("ul.reading ul li:not(.series)").forEach(function(li) {
+            var visible = li.getAttribute("data-year") == filterYear;
+
+            if (visible) {
+                li.classList.remove("hidden");
+            } else {
+                li.classList.add("hidden");
             }
         });
 
-        function updateURL() {
-            const id = document.querySelector("input:checked").id
-            const url = new URL(location.href);
-            url.searchParams.set("f", id);
-            history.replaceState(null, "", url);
-        }
+        
+    }
 
-        function filterBooks () {
-            if (document.querySelector("input:checked").value == "") {
-                document.querySelectorAll("li.hidden").forEach(function(li) {
-                    li.classList.remove("hidden");
-                });
-                return;
+    document.addEventListener("DOMContentLoaded", function() {
+        
+
+        var years = [];
+        let books = Array.from(document.querySelectorAll("ul.reading ul li:not(.series)"));
+        console.log(books);
+        
+        books.forEach(function(li) {
+            let bookYear = li.getAttribute("data-year");
+            if (!years.includes(bookYear)) {
+                years.push(li.getAttribute("data-year"));
+            }
+        });
+        years = years.sort().reverse();
+
+        var filters = [];
+        years.forEach(function(year) {
+            console.log(books.filter((book) => book.getAttribute("data-year") == year));
+            filters.push([
+                year,
+                books.filter((book) => book.getAttribute("data-year") == year).length
+            ]);
+        });
+        
+        console.log(filters);
+        // console.log(years.sort().reverse());
+        filters.forEach(function(filter) {
+            if (filter[0] == null) {
+                filter[0] = "Unknown";
             }
 
-            let filterYear = document.querySelector("input:checked").value.slice(1);
-            console.log(filterYear);
-            document.querySelectorAll("ul.reading ul li:not(.series)").forEach(function(li) {
-                var visible = li.getAttribute("data-year") == filterYear;
+            let input = document.createElement("input");
+            input.type = "radio";
+            input.name = "filter";
+            input.id = "y"+filter[0];
+            input.value = "y"+filter[0];
 
-                if (visible) {
-                    li.classList.remove("hidden");
-                } else {
-                    li.classList.add("hidden");
-                }
-            });
+            let label = document.createElement("label");
+            label.setAttribute("for", "y"+filter[0]);
+            label.innerText = filter[0] + " (" + filter[1] + ")";
 
-            
+            document.querySelector("div.filters").appendChild(input)
+            document.querySelector("div.filters").appendChild(label);
+        });
+
+        const url = new URL(location.href);
+        if (url.searchParams.has("f")) {
+            document.querySelector("input:checked").removeAttribute("checked");
+            document.getElementById(url.searchParams.get("f")).setAttribute("checked", "");
+            filterBooks();
         }
-
-        document.addEventListener("DOMContentLoaded", function() {
-            
-
-            var years = [];
-            let books = Array.from(document.querySelectorAll("ul.reading ul li:not(.series)"));
-            console.log(books);
-            
-            books.forEach(function(li) {
-                let bookYear = li.getAttribute("data-year");
-                if (!years.includes(bookYear)) {
-                    years.push(li.getAttribute("data-year"));
-                }
-            });
-            years = years.sort().reverse();
-
-            var filters = [];
-            years.forEach(function(year) {
-                console.log(books.filter((book) => book.getAttribute("data-year") == year));
-                filters.push([
-                    year,
-                    books.filter((book) => book.getAttribute("data-year") == year).length
-                ]);
-            });
-            
-            console.log(filters);
-            // console.log(years.sort().reverse());
-            filters.forEach(function(filter) {
-                if (filter[0] == null) {
-                    filter[0] = "Unknown";
-                }
-
-                let input = document.createElement("input");
-                input.type = "radio";
-                input.name = "filter";
-                input.id = "y"+filter[0];
-                input.value = "y"+filter[0];
-
-                let label = document.createElement("label");
-                label.setAttribute("for", "y"+filter[0]);
-                label.innerText = filter[0] + " (" + filter[1] + ")";
-
-                document.querySelector("div.filters").appendChild(input)
-                document.querySelector("div.filters").appendChild(label);
-            });
-
-            const url = new URL(location.href);
-            if (url.searchParams.has("f")) {
-                document.querySelector("input:checked").removeAttribute("checked");
-                document.getElementById(url.searchParams.get("f")).setAttribute("checked", "");
-                filterBooks();
-            }
-        })
+    })
     </script>
 
-        {{ $data := partial "csv-to-map.html" (dict "page" . "path" "reading_data.csv") }}
+    {{ $data := partial "csv-to-map.html" (dict "page" . "path" "reading_data.csv") }}
 
-        {{ $authors := slice }}
-        {{ range $k, $v := $data }}
-          {{ $authors = $authors | append (index $v "Author") }}
-        {{ end }}
+    {{ $authors := slice }}
+    {{ range $k, $v := $data }}
+      {{ $authors = $authors | append (index $v "Author") }}
+    {{ end }}
 
-        <ul class="reading">
-        {{ range $authors | uniq }}
-            {{ $author := . }}
-            {{ $books := where $data "Author" $author }}
-            
-            <li>
-                <p>{{ . }}</p>
-                <ul>
-                    {{ range where $books "Series" "eq" "" }}
-                    <li {{ with index . "Bookshelves" }}data-year="{{ . }}"{{ else }}data-year="Unknown"{{ end }}>{{ index . "Title" }}</li>
+    <ul class="reading">
+    {{ range $authors | uniq }}
+        {{ $author := . }}
+        {{ $books := where $data "Author" $author }}
+        
+        <li>
+            <p>{{ . }}</p>
+            <ul>
+                {{ range where $books "Series" "eq" "" }}
+                <li {{ with index . "Bookshelves" }}data-year="{{ . }}"{{ else }}data-year="Unknown"{{ end }}>{{ index . "Title" }}</li>
+                {{ end }}
+
+                {{ $series := slice }}
+                {{ range $k, $v := $books }}
+                  {{ $series = $series | append (index $v "Series") }}
+                {{ end }}
+                {{ $series = $series | uniq }}
+
+                {{ if ne (index $series 0) "" }}
+                    {{ range $series | uniq }}
+                    <li class="series">
+                        <p>{{ . }}</p>
+                        <ul>
+                            
+                            {{ range sort (where $books "Series" .) "Series Order" "asc" }}
+                            <li {{ with index . "Bookshelves" }}data-year="{{ . }}"{{ else }}data-year="Unknown"{{ end }}>
+                                <span class="order">{{ index . "Series Order" }})</span> 
+                                {{ index . "Title" }} 
+                            </li>
+                            {{ end }}
+                        </ul>
+                    </li>
                     {{ end }}
-
-                    {{ $series := slice }}
-                    {{ range $k, $v := $books }}
-                      {{ $series = $series | append (index $v "Series") }}
-                    {{ end }}
-                    {{ $series = $series | uniq }}
-
-                    {{ if ne (index $series 0) "" }}
-                        {{ range $series | uniq }}
-                        <li class="series">
-                            <p>{{ . }}</p>
-                            <ul>
-                                
-                                {{ range sort (where $books "Series" .) "Series Order" "asc" }}
-                                <li {{ with index . "Bookshelves" }}data-year="{{ . }}"{{ else }}data-year="Unknown"{{ end }}>
-                                    <span class="order">{{ index . "Series Order" }})</span> 
-                                    {{ index . "Title" }} 
-                                </li>
-                                {{ end }}
-                            </ul>
-                        </li>
-                        {{ end }}
-                    {{ end }}
-                </ul>
-            </li>
-        {{ end }}
-        </ul>
-
-
-    {{ .Content }}
+                {{ end }}
+            </ul>
+        </li>
+    {{ end }}
+    </ul>
 </div>
 
 {{ partial "footer.html" . }}
