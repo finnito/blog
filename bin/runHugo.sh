@@ -7,7 +7,7 @@ hugo server \
 	--navigateToChanged \
 	--forceSyncStatic \
 	--buildDrafts \
-	--renderToDisk \
+	--renderStaticToDisk \
 	--gc \
  	--logLevel info \
   	--navigateToChanged \
