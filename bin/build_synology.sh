@@ -12,7 +12,7 @@ mkdir --parents static/tracks
 python bin/parse_gpx.py /volume1/web/dam/blog/
 
 # Build Hugo
-hugo \
+~/bin/hugo \
 	--cleanDestinationDir \
 	--enableGitInfo \
 	--gc \
