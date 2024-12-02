@@ -17,9 +17,13 @@ gpxFiles: [
 
 Tim and I set out from Christchurch pretty promptly with two dogs in tow: Korra and Ted. Korra gets overstimulated in the car and I have not yet figured out how to calm her down, so Tim did very well during his first long car trip with her. Lots of panting, drooling and yelping at cars through the window.
 
-There isn't much of a car park at the trailhead but I managed to partially park under some trees – not that it made much difference in the end. Dogs leashed up, and our entirely too heavy packs on our backs, we set off. Neither of us had done much tramping in recent months, and it was my first trip since [heart surgery](https://finn.lesueur.nz/series/journey-of-the-heart-/) about 6 months prior. The track was all quite well-formed except for a couple of points when you cross some unnamed tributaries to the Blue Grey River. Hunt around and you will find it again!
+There isn't much of a car park at the trailhead but I managed to partially park under some trees – not that it made much difference in the end. Dogs leashed up, and our entirely too heavy packs on our backs, we set off. Neither of us had done much tramping in recent months, and it was my first trip since [heart surgery](https://finn.lesueur.nz/series/journey-of-the-heart-/) about 6 months prior so we were feeling a little apprehensive about it. Committed but apprehensive.
 
-There was only two challenging (for humans) sections: the first was where a landslide had taken out some of the track and also caused a very large tree to fall across the track. We managed to clamber over, although Ted did slip on the trunk and go for a bit of a slide down the hill! Second, there is a well-known tree down across the track alongside Lake Christabel. There is a rather small gap to climb through and it required taking off our packs and pushing them through.
+The track was all quite well-formed (if overgrown) except for a couple of points when you cross some unnamed tributaries to the Blue Grey River. Hunt around and you will find it again! There was only three challenging (for humans) sections:
+
+1. A tree had fallen down, the track that sidles past the river a little challenging to traverse.
+2. A landslide had taken out some of the track and also caused a very large tree to fall across the track. We managed to clamber over, although Ted did slip on the trunk and go for a bit of a slide down the hill!
+3. Lastly, there is a well-known tree down across the track alongside Lake Christabel. There is a rather small gap to climb through and it required taking off our packs and pushing them through.
 
 We were pretty knackered at the end of this day, although not as tired as Ted who fell asleep on his mat with his paws over his face. What a good dog.
 
