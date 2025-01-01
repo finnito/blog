@@ -6,28 +6,32 @@ emoji: 🥾
 people: ["Finn", "Jen"]
 type: "post"
 layout: "gps"
-metaDescription: ""
+metaDescription: "An epic(ly beautiful) alternative to the classic Three Passes route."
 metaImage: ""
+gpxFiles: [
+    "Three Passes D5 Out.gpx",
+    "Three Passes D1 to Newton Creek Hut.gpx",
+    "Three Passes D2 to Julia Hut.gpx",
+    "Three Passes D3 to Park Morpeth Hut.gpx",
+    "Three Passes D4 to Mud Flats Hut.gpx"]
 draft: true
 ---
 
-We started nice and early, leaving Christchurch just after 7am. Jen’s sister was staying at our to look after Korra 🐕, which was very nice of her.
+Three Passes is a classic South Island route, but it is somewhat inconvenient being quite an end-to-end trip, probably involving an expensive car relocation. This modification allows you to cross all three passes, as well as the more challenging Newton Saddle __and__ to make it a loop. Ideal.
 
 ## Day 1: To Newton Creek Hut
 
-There was a good sized carpark at the Arahura and we left the car there with our new steering wheel lock attached. Since it was there for 4 nights we hoped it would deter any would-be menaces.
+There was a good sized carpark at the Arahura and we left the car there with our new steering wheel lock attached. Since it would be there for 4 nights we hoped it would deter any would-be menaces.
 
 The track starts as described: across private land. It’s all pretty simple here, although we were already sweating! Once you cross the Cesspool and get a great view of the river (and also a potential swimming spot), the track continues to be pretty great. It is generally an old logging road so quite wide and well-formed, but often dips down into washed out creeks and across river fans. There are also a few sections of travel next to the river, but they were nothing to be concerned about.
 
 We made great time to Lower Arahura Hut (3hrs), where we had a lovely lunch, and topped up on coffee and sunscreen. We plodded on, knowing that the harder section was to come.
 
-There was quite a slog up an unnamed washed out creek, which was surprisingly hard work. From there the track climbed quite high above the river - to the point where it was out of sight and almost out of hearing. You cross a completely epic waterfall which comes (near vertical) crashing out of the trees and past you into the forest below. Thankfully it is not so steep that you can’t sidle through it - although, this would be a terrible idea if it has rained recently.
+Speaking of: there was a short slog up an unnamed washed out creek which was surprisingly hard work. From there the track climbed quite high above the river - to the point where it was out of sight and almost out of hearing. You cross a completely epic waterfall which comes (near vertical) crashing out of the trees and past you into the forest below. Thankfully it is not so steep that you can’t sidle through it - although, this would be a less-good time if it had been raining recently.
 
-The turnoff for Newton Creek Hut was obvious and the track descends steeply toward the river. The swing bridge is _excellent_ and the section of track on the true right before climbing __steeply__ up to Newton Creek is picturesque in the extreme.
+The turnoff for Newton Creek Hut was obvious and the track descends steeply toward the river. The swing bridge is _excellent_ and the section of track on the true right of the Arahura is picturesque in the extreme. The climb to Newton Creek is unrelenting and probably in the range of 50-70deg at times. It is hard work but over reasonably quickly. From the top it is a nice sidle and then a quick descent down to the creek before reaching the hut.
 
-The climb to Newton Creek is unrelenting and probably in the range of 50-70deg at times. Hard work but over reasonably quickly. From the top it is a nice side and quick descent down to the creek before reaching the hut.
-
-We got to the hut just before 7pm, so still had some sunlight to warm up in after a quick splash in the river to remove some of the days dirt and smells. Much too cold to get into, though!
+We got to the hut just before 7pm, so still had some sunlight to warm up in after a quick splash in the river to remove some of the days dirt and smells. Much too cold for a proper swim, though!
 
 > ☕️ Cream cheese and jam bagels; watermelon, grapes, and pineapple (leftover from Christmas).
 
@@ -39,7 +43,7 @@ We got to the hut just before 7pm, so still had some sunlight to warm up in afte
 
 ## Day 2: To Julia Hut
 
-The day started nicely and we were out the door before 8am. The track to Newton Saddle very quickly became river travel, boulder hopping, waterfall bouldering and cutty grass bashing. It continued much the same until we got out of the scrub. From there we followed a few poles to Newton Saddle which has an amazing view 😍.
+The day started nicely and we were out the door before 8am. The track to Newton Saddle very quickly became river travel, boulder hopping, waterfall bouldering and cutty grass bashing. It continued much the same until we got out of the scrub. From there we followed a few poles to Newton Saddle which has an amazing view 😍. One of the other hikers at the hut tried to reach the saddle on her own but didn't make it. We found a few places where it would be easier to progress with a partner to give you a boost or a hand up certain parts.
 
 The descent into Dunns Creek was a bit naff as there wasn’t really a distinct track (to be expected). It was steep and slippery on the tussocks and wouldn’t be very fun if it were damp underfoot. The travel down Dunns Creek was much the same as the travel up from the other side, but there were a few extended sections of bush travel when the river became impassable. In the end we reached Dunns Hut after 5.5hrs and were very pleased to see it. It has recently been done up and looked awesome, even sporting a couple of double-glazed windows.
 
@@ -47,7 +51,7 @@ From Dunns Hut the travel was quite nice (if a bit boggy) to the saddle just bel
 
 The track to Julia Hut starts as a bit of a highway, being 4WD width and well-formed. It becomes slightly less nice after the bridge across the Taipo, but still completely lovely compared to Newton Saddle! I was feeling pretty pooped by this point, so was a bit mopey. It was a bit of a slog up to the hut, but we made it clocking in at 11hrs door to door (with about 1hr stopping time). 
 
-The hut was unfortunately full, so we pitched the tent, made some dinner (burned both our tongues) and climbed into bed around 9:15pm. Big day in the office and properly a bigger one tomorrow!
+The hut was unfortunately full so we pitched the tent, made some dinner (burned both our tongues) and climbed into bed around 9:15pm. Big day in the office and probably a bigger one tomorrow!
 
 > ☕️ Muesli & instant coffee with dehy oat milk. 
 
@@ -77,7 +81,7 @@ We claimed our beds for the night, dropped our packs and headed to the Wilberfor
 > 🍴 Mushroom and cannelloni bean ragu (dehydrated at home) and mashed potato (bought dehydrated).
 > 🍫 A hot chocolate and some actual chocolate.
 
-## Day 4: To Mudflats Hut
+## Day 4: To Mud Flats Hut
 
 We started early, having had very poor sleep: the climbers got in around 11pm, it was super warm, and there was a snorer in the hut. We trotted out, looking forward to the shorter day, slightly cooler temperatures and lots of time to read our books in the hut. The travel was straightforward to the bottom of Browning Pass, and the zig-zags mostly made sense, except for when they didn’t. When we lost them, we tended to go straight up until we could find another snow pole. The last few hundred meters were _very_ steep and would be quite challenging to go down. They are exposed on loose rock and poor visibility of where to go.
 
