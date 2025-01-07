@@ -23,22 +23,19 @@ Three Passes is a classic South Island route, but it is somewhat inconvenient be
 
 There was a good sized carpark at the Arahura and we left the car there with our new steering wheel lock attached. Since it would be there for 4 nights we hoped it would deter any would-be menaces.
 
-The track starts as described: across private land. It’s all pretty simple here, although we were already sweating! Once you cross the Cesspool and get a great view of the river (and also a potential swimming spot), the track continues to be pretty great. It is generally an old logging road so quite wide and well-formed, but often dips down into washed out creeks and across river fans. There are also a few sections of travel next to the river, but they were nothing to be concerned about.
+The track starts as described: across private land. It’s all pretty simple here, although we were already sweating! Once you cross the Cesspool and get a great view of the river (and also a potential swimming spot). The track is generally an old logging road so quite wide and well-formed, but often dips down into washed out creeks and across river fans. There are also a few sections of travel next to the river, but they were nothing to be concerned about.
 
 We made great time to Lower Arahura Hut (3hrs), where we had a lovely lunch, and topped up on coffee and sunscreen. We plodded on, knowing that the harder section was to come.
 
-Speaking of: there was a short slog up an unnamed washed out creek which was surprisingly hard work. From there the track climbed quite high above the river - to the point where it was out of sight and almost out of hearing. You cross a completely epic waterfall which comes (near vertical) crashing out of the trees and past you into the forest below. Thankfully it is not so steep that you can’t sidle through it - although, this would be a less-good time if it had been raining recently.
+Speaking of washed out creeks: there was a short slog up an unnamed washed out creek which was surprisingly hard work. From there the track climbed quite high above the river - to the point where it was out of sight and almost out of hearing. You cross a completely epic waterfall which comes (near vertical) crashing out of the trees and past you into the forest below. Thankfully it is not so steep that you can’t sidle through it - although, this would be a less-good time if it had been raining recently.
 
 The turnoff for Newton Creek Hut was obvious and the track descends steeply toward the river. The swing bridge is _excellent_ and the section of track on the true right of the Arahura is picturesque in the extreme. The climb to Newton Creek is unrelenting and probably in the range of 50-70deg at times. It is hard work but over reasonably quickly. From the top it is a nice sidle and then a quick descent down to the creek before reaching the hut.
 
 We got to the hut just before 7pm, so still had some sunlight to warm up in after a quick splash in the river to remove some of the days dirt and smells. Much too cold for a proper swim, though!
 
-> ☕️ Cream cheese and jam bagels; watermelon, grapes, and pineapple (leftover from Christmas).
-
-> 🌮 Ham, tofurkey, and smoked Gouda cheese in a wrap (more leftovers).
-
-> 🍴 Baked beans (dehydrated at home) and mashed potato (bought dehydrated).
-
+> ☕️ Cream cheese and jam bagels; watermelon, grapes, and pineapple (leftover from Christmas). <br/>
+> 🌮 Ham, tofurkey, and smoked Gouda cheese in a wrap (more leftovers). <br/>
+> 🍴 Baked beans (dehydrated at home) and mashed potato (bought dehydrated). <br/>
 > 🍫 A hot chocolate and some actual chocolate.
 
 ## Day 2: To Julia Hut
@@ -53,12 +50,9 @@ The track to Julia Hut starts as a bit of a highway, being 4WD width and well-fo
 
 The hut was unfortunately full so we pitched the tent, made some dinner (burned both our tongues) and climbed into bed around 9:15pm. Big day in the office and probably a bigger one tomorrow!
 
-> ☕️ Muesli & instant coffee with dehy oat milk. 
-
-> 🌮 Tuna, avocado and smoked Gouda in a wrap.
-
-> 🍴 Dehydrated bolognaise with an avocado that got squished (RIP). 
-
+> ☕️ Muesli & instant coffee with dehy oat milk. <br/>
+> 🌮 Tuna, avocado and smoked Gouda in a wrap. <br/>
+> 🍴 Dehydrated bolognaise with an avocado that got squished (RIP). <br/>
 > 🍫 A hot chocolate and some actual chocolate.
 
 ## Day 3: To Park Morpeth Hut
@@ -76,9 +70,9 @@ The view was absolutely stunning over both of the passes, and looking down into 
 
 We claimed our beds for the night, dropped our packs and headed to the Wilberforce for a greatly needed and well-earned clean. We both washed our tops and I washed my shorts, but the sun went down and only time will tell if they dry over night.
 
-> ☕️ Muesli & instant coffee with dehy oat milk.
-> 🌮 Tuna, avocado and smoked Gouda in a wrap.
-> 🍴 Mushroom and cannelloni bean ragu (dehydrated at home) and mashed potato (bought dehydrated).
+> ☕️ Muesli & instant coffee with dehy oat milk. <br/>
+> 🌮 Tuna, avocado and smoked Gouda in a wrap. <br/>
+> 🍴 Mushroom and cannelloni bean ragu (dehydrated at home) and mashed potato (bought dehydrated). <br/>
 > 🍫 A hot chocolate and some actual chocolate.
 
 ## Day 4: To Mud Flats Hut
@@ -91,12 +85,9 @@ We hit Harman Hut at midday, perfect time for an early lunch (compared to previo
 
 We claimed our beds and were thankful to have been there first because a party of 5 turned up shortly after, and then three more who were at Park Morpeth with us the prior night. Two cups of tea, dinner, a hot chocolate and some chocolate later we were ready for sleep.
 
-> ☕️ Muesli & instant coffee with dehy oat milk.
-
-> 🌮 Tuna and smoked Gouda in a wrap.
-
-> 🍴 2x packets of spicy noodles
-
+> ☕️ Muesli & instant coffee with dehy oat milk. <br/>
+> 🌮 Tuna and smoked Gouda in a wrap. <br/>
+> 🍴 2x packets of spicy noodles. <br/>
 > 🍫 A hot chocolate and some actual chocolate.
 
 ## Day 5: Out
