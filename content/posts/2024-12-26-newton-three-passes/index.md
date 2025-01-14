@@ -7,51 +7,14 @@ people: ["Finn", "Jen"]
 type: "post"
 layout: "gps"
 metaDescription: "An epic(ly beautiful) alternative to the classic Three Passes route."
-metaImage: ""
+metaImage: "DSCF2024.JPG"
 gpxFiles: [
-    "Three Passes D5 Out.gpx",
     "Three Passes D1 to Newton Creek Hut.gpx",
     "Three Passes D2 to Julia Hut.gpx",
     "Three Passes D3 to Park Morpeth Hut.gpx",
-    "Three Passes D4 to Mud Flats Hut.gpx"]
-draft: true
+    "Three Passes D4 to Mud Flats Hut.gpx",
+    "Three Passes D5 Out.gpx"]
 ---
-
-
-{{< figure2 name="DSCF2019.JPG" width="6240" height="4160" title="" >}}
-{{< figure2 name="DSCF2024.JPG" width="6240" height="4160" title="" >}}
-{{< figure2 name="DSCF2048.JPG" width="6240" height="4160" title="" >}}
-{{< figure2 name="DSCF2065.JPG" width="6240" height="4160" title="" >}}
-{{< figure2 name="DSCF2071.JPG" width="6240" height="4160" title="" >}}
-{{< figure2 name="DSCF2088.JPG" width="6240" height="4160" title="" >}}
-{{< figure2 name="DSCF2097.JPG" width="6240" height="4160" title="" >}}
-{{< figure2 name="DSCF2103.JPG" width="6240" height="4160" title="" >}}
-{{< figure2 name="DSCF2110.JPG" width="6240" height="4160" title="" >}}
-{{< figure2 name="DSCF2117.JPG" width="6240" height="4160" title="" >}}
-{{< figure2 name="DSCF2123.JPG" width="4160" height="6240" title="" >}}
-{{< figure2 name="DSCF2128.JPG" width="6240" height="4160" title="" >}}
-{{< figure2 name="DSCF2140.JPG" width="6240" height="4160" title="" >}}
-{{< figure2 name="DSCF2145.JPG" width="6240" height="4160" title="" >}}
-{{< figure2 name="DSCF2158.JPG" width="6240" height="4160" title="" >}}
-{{< figure2 name="DSCF2169.JPG" width="6240" height="4160" title="" >}}
-{{< figure2 name="DSCF2182.JPG" width="6240" height="4160" title="" >}}
-{{< figure2 name="DSCF2186.JPG" width="6240" height="4160" title="" >}}
-{{< figure2 name="DSCF2195.JPG" width="6240" height="4160" title="" >}}
-{{< figure2 name="DSCF2199.JPG" width="6240" height="4160" title="" >}}
-{{< figure2 name="DSCF2211.JPG" width="6240" height="4160" title="" >}}
-{{< figure2 name="DSCF2216.JPG" width="6240" height="4160" title="" >}}
-{{< figure2 name="DSCF2233.JPG" width="6240" height="4160" title="" >}}
-{{< figure2 name="DSCF2236.JPG" width="6240" height="4160" title="" >}}
-{{< figure2 name="DSCF2257.JPG" width="6240" height="4160" title="" >}}
-{{< figure2 name="DSCF2264.JPG" width="6240" height="4160" title="" >}}
-{{< figure2 name="DSCF2273.JPG" width="6240" height="4160" title="" >}}
-{{< figure2 name="DSCF2282.JPG" width="6240" height="4160" title="" >}}
-{{< figure2 name="DSCF2299.JPG" width="6240" height="4160" title="" >}}
-{{< figure2 name="DSCF2311.JPG" width="6240" height="4160" title="" >}}
-{{< figure2 name="DSCF2336.JPG" width="6240" height="4160" title="" >}}
-{{< figure2 name="DSCF2348.JPG" width="6240" height="4160" title="" >}}
-{{< figure2 name="DSCF2360.JPG" width="6240" height="4160" title="" >}}
-{{< figure2 name="IMG_7877.JPG" width="4032" height="3024" title="" >}}
 
 Three Passes is a classic South Island route, but it is somewhat inconvenient being quite an end-to-end trip, probably involving an expensive car relocation. This modification allows you to cross all three passes, as well as the more challenging Newton Saddle __and__ to make it a loop. Ideal.
 
@@ -74,6 +37,12 @@ We got to the hut just before 7pm, so still had some sunlight to warm up in afte
 > 🍴 Baked beans (dehydrated at home) and mashed potato (bought dehydrated). <br/>
 > 🍫 A hot chocolate and some actual chocolate.
 
+{{< figure2 name="DSCF2019.JPG" width="6240" height="4160" title="Jen entering some beautiful bush near the start of the track." >}}
+{{< figure2 name="DSCF2024.JPG" width="6240" height="4160" title="Jen admiring the bridge across the Cesspool." >}}
+{{< figure2 name="DSCF2048.JPG" width="6240" height="4160" title="One of the countless stream crossings of the trip." >}}
+{{< figure2 name="DSCF2065.JPG" width="6240" height="4160" title="Crossing the bridge to climb up to Newton Creek Hut." >}}
+{{< figure2 name="DSCF2071.JPG" width="6240" height="4160" title="Across the creek you have to rock-hop upstream until you find the track." >}}
+
 ## Day 2: To Julia Hut
 
 The day started nicely and we were out the door before 8am. What started as a track quickly became river travel, boulder-hopping, waterfall-bouldering and cutty-grass-bashing. This continued until we got out of the scrub and finally followed some markers toward Newton Saddle. The view from the saddle is stunning!😍
@@ -93,13 +62,25 @@ The hut was unfortunately full so we pitched the tent, made some dinner (burned 
 > 🍴 Dehydrated bolognaise with an avocado that got squished (RIP). <br/>
 > 🍫 A hot chocolate and some actual chocolate.
 
+{{< figure2 name="DSCF2088.JPG" width="6240" height="4160" title="The track to Newton Saddle becomes overgrown almost immediately." >}}
+{{< figure2 name="DSCF2097.JPG" width="6240" height="4160" title="Starting to get warm now that the sun has reached the valley! The track has dissolved into river travel." >}}
+{{< figure2 name="DSCF2103.JPG" width="6240" height="4160" title="Jen avoiding slippery rocks while clambering up the creek." >}}
+{{< figure2 name="DSCF2110.JPG" width="6240" height="4160" title="Looking back at Newton Creek from Newton Saddle." >}}
+{{< figure2 name="DSCF2117.JPG" width="6240" height="4160" title="Making our way down Dunns Creek." >}}
+{{< figure2 name="DSCF2123.JPG" width="4160" height="6240" title="One of many beautiful waterfalls with bluffs on the side of Tara Tama in the background." >}}
+{{< figure2 name="DSCF2128.JPG" width="6240" height="4160" title="Clambering down the knee-smashing chute to the Taipo River." >}}
+{{< figure2 name="DSCF2140.JPG" width="6240" height="4160" title="Crossing Hura Creek where we saw two whio." >}}
+{{< figure2 name="DSCF2145.JPG" width="6240" height="4160" title="The track up to Julia Hut was excellent." >}}
+{{< figure2 name="DSCF2158.JPG" width="6240" height="4160" title="Stunning views and Southern Rata in bloom up the Taipo River." >}}
+{{< figure2 name="DSCF2169.JPG" width="6240" height="4160" title="I think this was our first three-wire bridge, but Jen disagrees! I can't remember." >}}
+
 ## Day 3: To Park Morpeth Hut
 
 What a day! We woke early but were slow to break camp, having forgotten about the admin of packing down a tent. We hit the track around 8am and for the first few kilometres it was very nice, well-formed and in beautiful bush. We even saw another three whio!
 
 After some time the track enters the creek, but the travel is _much_ easier than anything Newton or Dunns creeks had to offer, so we felt good about that. Also, as with Newton and Dunns creeks, the “markers” are dazed and confused: you should basically ignore them once you are on the river and just go where looks the best to you.
 
-We did, unfortunately, miss the turnoff for the track to Harman Pass. But, we blame the orange triangle on the opposite side of the creek upstream of the turnoff. Crazy! Having backtracked and sent it straight up the hillside to intercept the _actual_ track the rest of the ascent to Harman Pass was totally fine (if steep).
+We did, unfortunately, miss the turnoff for the track to Harman Pass. But, we blame the orange triangle on the opposite side of the creek upstream of the turnoff. Crazy! Having backtracked and sent it straight up the hillside to intercept the _actual_ track the rest of the ascent to Harman Pass was totally fine (if steep). The turnoff is somewhere around -42.931793, 171.4153 on the true left.
 
 We cruised along until just above one of Ariels Tarns where we stopped for lunch and also opted to dry out the sopping-wet tent from the morning dew. From there, the travel was pretty straightforward: some boulders hopping up to the snowfields on the East side of White Horn Pass. We put on our micro spikes (thanks, Neil and Becky!) and headed on up. We passed a lone hiker whose two friends had absconded to climb a nearby peak. They were intending to meet back up and reach Park Morpeth Hut later (yikes!).
 
@@ -111,6 +92,16 @@ We claimed our beds for the night, dropped our packs and headed to the Wilberfor
 > 🌮 Tuna, avocado and smoked Gouda in a wrap. <br/>
 > 🍴 Mushroom and cannelloni bean ragu (dehydrated at home) and mashed potato (bought dehydrated). <br/>
 > 🍫 A hot chocolate and some actual chocolate.
+
+{{< figure2 name="DSCF2182.JPG" width="6240" height="4160" title="The track up to Harman Pass is very well-formed and cut near Julia Hut." >}}
+{{< figure2 name="DSCF2186.JPG" width="6240" height="4160" title="Once in the riverbed, the track is no more and you just go wherever works!" >}}
+{{< figure2 name="DSCF2195.JPG" width="6240" height="4160" title="Don't miss the turnoff out of the riverbed on the true left." >}}
+{{< figure2 name="DSCF2199.JPG" width="6240" height="4160" title="Ariel Tarns and Whitehorn Pass" >}}
+{{< figure2 name="DSCF2211.JPG" width="6240" height="4160" title="Having a great time on the snow field with our loaned microspikes. Much lighter than our proper crampons!" >}}
+{{< figure2 name="DSCF2216.JPG" width="6240" height="4160" title="Jen on the snow field, not far until the top!" >}}
+{{< figure2 name="DSCF2233.JPG" width="6240" height="4160" title="Starting the descent down the west side of Whitehorn Pass." >}}
+{{< figure2 name="DSCF2236.JPG" width="6240" height="4160" title="Jen made a shade attachment on her hat from an empty food bag." >}}
+{{< figure2 name="DSCF2257.JPG" width="6240" height="4160" title="Stunning tarns and bogland near Park Morpeth Hut." >}}
 
 ## Day 4: To Mud Flats Hut
 
@@ -127,6 +118,12 @@ We claimed our beds and were thankful to have been there first because a party o
 > 🍴 2x packets of spicy noodles. <br/>
 > 🍫 A hot chocolate and some actual chocolate.
 
+{{< figure2 name="DSCF2264.JPG" width="6240" height="4160" title="Hammer Falls looking stunning in the early morning." >}}
+{{< figure2 name="DSCF2273.JPG" width="6240" height="4160" title="Part way up Browning Pass." >}}
+{{< figure2 name="DSCF2282.JPG" width="6240" height="4160" title="The Wilberforce!" >}}
+{{< figure2 name="DSCF2299.JPG" width="6240" height="4160" title="Harman River looking lush." >}}
+{{< figure2 name="DSCF2311.JPG" width="6240" height="4160" title="Not too far from Mud Flats Hut now.." >}}
+
 ## Day 5: Out
 
 The rain blew through (mostly) overnight, so we headed off with grey skies above and sore feet (for me at least) below. The ground was boggy, the forest was damp and there was lots animal sign throughout the day but we only saw one deer.
@@ -140,3 +137,8 @@ We pulled off our wet clothes, struggled into some dry ones and headed home foot
 > ☕️ Muesli & instant coffee with dehy oat milk. <br/>
 > 🌮 Tuna and smoked Gouda in a wrap. <br/>
 > 🍴 Fish and chips at home!
+
+{{< figure2 name="DSCF2336.JPG" width="6240" height="4160" title="The lush forest was accentuated by the low light and morning mist." >}}
+{{< figure2 name="DSCF2348.JPG" width="6240" height="4160" title="Back across the very cool waterfall in between Newton Junction and Lower Arahua Hut" >}}
+{{< figure2 name="DSCF2360.JPG" width="6240" height="4160" title="Rain clouds gathering in the distance.." >}}
+{{< figure2 name="IMG_7877.JPG" width="4032" height="3024" title="Jen - properly sodden - crossing the Cesspool, almost back at the car." >}}
