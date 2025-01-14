@@ -17,6 +17,42 @@ gpxFiles: [
 draft: true
 ---
 
+
+{{< figure2 name="DSCF2019.JPG" width="6240" height="4160" title="" >}}
+{{< figure2 name="DSCF2024.JPG" width="6240" height="4160" title="" >}}
+{{< figure2 name="DSCF2048.JPG" width="6240" height="4160" title="" >}}
+{{< figure2 name="DSCF2065.JPG" width="6240" height="4160" title="" >}}
+{{< figure2 name="DSCF2071.JPG" width="6240" height="4160" title="" >}}
+{{< figure2 name="DSCF2088.JPG" width="6240" height="4160" title="" >}}
+{{< figure2 name="DSCF2097.JPG" width="6240" height="4160" title="" >}}
+{{< figure2 name="DSCF2103.JPG" width="6240" height="4160" title="" >}}
+{{< figure2 name="DSCF2110.JPG" width="6240" height="4160" title="" >}}
+{{< figure2 name="DSCF2117.JPG" width="6240" height="4160" title="" >}}
+{{< figure2 name="DSCF2123.JPG" width="4160" height="6240" title="" >}}
+{{< figure2 name="DSCF2128.JPG" width="6240" height="4160" title="" >}}
+{{< figure2 name="DSCF2140.JPG" width="6240" height="4160" title="" >}}
+{{< figure2 name="DSCF2145.JPG" width="6240" height="4160" title="" >}}
+{{< figure2 name="DSCF2158.JPG" width="6240" height="4160" title="" >}}
+{{< figure2 name="DSCF2169.JPG" width="6240" height="4160" title="" >}}
+{{< figure2 name="DSCF2182.JPG" width="6240" height="4160" title="" >}}
+{{< figure2 name="DSCF2186.JPG" width="6240" height="4160" title="" >}}
+{{< figure2 name="DSCF2195.JPG" width="6240" height="4160" title="" >}}
+{{< figure2 name="DSCF2199.JPG" width="6240" height="4160" title="" >}}
+{{< figure2 name="DSCF2211.JPG" width="6240" height="4160" title="" >}}
+{{< figure2 name="DSCF2216.JPG" width="6240" height="4160" title="" >}}
+{{< figure2 name="DSCF2233.JPG" width="6240" height="4160" title="" >}}
+{{< figure2 name="DSCF2236.JPG" width="6240" height="4160" title="" >}}
+{{< figure2 name="DSCF2257.JPG" width="6240" height="4160" title="" >}}
+{{< figure2 name="DSCF2264.JPG" width="6240" height="4160" title="" >}}
+{{< figure2 name="DSCF2273.JPG" width="6240" height="4160" title="" >}}
+{{< figure2 name="DSCF2282.JPG" width="6240" height="4160" title="" >}}
+{{< figure2 name="DSCF2299.JPG" width="6240" height="4160" title="" >}}
+{{< figure2 name="DSCF2311.JPG" width="6240" height="4160" title="" >}}
+{{< figure2 name="DSCF2336.JPG" width="6240" height="4160" title="" >}}
+{{< figure2 name="DSCF2348.JPG" width="6240" height="4160" title="" >}}
+{{< figure2 name="DSCF2360.JPG" width="6240" height="4160" title="" >}}
+{{< figure2 name="IMG_7877.JPG" width="4032" height="3024" title="" >}}
+
 Three Passes is a classic South Island route, but it is somewhat inconvenient being quite an end-to-end trip, probably involving an expensive car relocation. This modification allows you to cross all three passes, as well as the more challenging Newton Saddle __and__ to make it a loop. Ideal.
 
 ## Day 1: To Newton Creek Hut
@@ -37,81 +73,6 @@ We got to the hut just before 7pm, so still had some sunlight to warm up in afte
 > 🌮 Ham, tofurkey, and smoked Gouda cheese in a wrap (more leftovers). <br/>
 > 🍴 Baked beans (dehydrated at home) and mashed potato (bought dehydrated). <br/>
 > 🍫 A hot chocolate and some actual chocolate.
-
-
-{{< figure2 name="DSCF2199.JPG" width="6240" height="4160" title="Jen heading into some beautiful bush prior to the Cesspool." >}}
-
-
-
-{{< figure2 name="DSCF2199.JPG" width="6240" height="4160" title="" >}}
-{{< figure2 name="DSCF2048.JPG" width="6240" height="4160" title="" >}}
-{{< figure2 name="DSCF2233.JPG" width="6240" height="4160" title="" >}}
-{{< figure2 name="DSCF2088.JPG" width="6240" height="4160" title="" >}}
-{{< figure2 name="DSCF2264.JPG" width="6240" height="4160" title="" >}}
-{{< figure2 name="DSCF2110.JPG" width="6240" height="4160" title="" >}}
-{{< figure2 name="DSCF2299.JPG" width="6240" height="4160" title="" >}}
-{{< figure2 name="DSCF2128.JPG" width="6240" height="4160" title="" >}}
-{{< figure2 name="DSCF2348.JPG" width="6240" height="4160" title="" >}}
-{{< figure2 name="DSCF2158.JPG" width="6240" height="4160" title="" >}}
-{{< figure2 name="DSCF2186.JPG" width="6240" height="4160" title="" >}}
-{{< figure2 name="DSCF2019.JPG" width="6240" height="4160" title="" >}}
-{{< figure2 name="DSCF2211.JPG" width="6240" height="4160" title="" >}}
-{{< figure2 name="DSCF2065.JPG" width="6240" height="4160" title="" >}}
-{{< figure2 name="DSCF2236.JPG" width="6240" height="4160" title="" >}}
-{{< figure2 name="DSCF2097.JPG" width="6240" height="4160" title="" >}}
-{{< figure2 name="DSCF2273.JPG" width="6240" height="4160" title="" >}}
-{{< figure2 name="DSCF2117.JPG" width="6240" height="4160" title="" >}}
-{{< figure2 name="DSCF2311.JPG" width="6240" height="4160" title="" >}}
-{{< figure2 name="DSCF2140.JPG" width="6240" height="4160" title="" >}}
-{{< figure2 name="DSCF2360.JPG" width="6240" height="4160" title="" >}}
-{{< figure2 name="DSCF2169.JPG" width="6240" height="4160" title="" >}}
-{{< figure2 name="DSCF2195.JPG" width="6240" height="4160" title="" >}}
-{{< figure2 name="DSCF2024.JPG" width="6240" height="4160" title="" >}}
-{{< figure2 name="DSCF2216.JPG" width="6240" height="4160" title="" >}}
-{{< figure2 name="DSCF2071.JPG" width="6240" height="4160" title="" >}}
-{{< figure2 name="DSCF2257.JPG" width="6240" height="4160" title="" >}}
-{{< figure2 name="DSCF2103.JPG" width="6240" height="4160" title="" >}}
-{{< figure2 name="DSCF2282.JPG" width="6240" height="4160" title="" >}}
-{{< figure2 name="DSCF2123.JPG" width="4160" height="6240" title="" >}}
-{{< figure2 name="DSCF2336.JPG" width="6240" height="4160" title="" >}}
-{{< figure2 name="DSCF2145.JPG" width="6240" height="4160" title="" >}}
-{{< figure2 name="IMG_7877.JPG" width="4032" height="3024" title="" >}}
-{{< figure2 name="DSCF2182.JPG" width="6240" height="4160" title="" >}}
-
-
-{{< figure2 name="DSCF2048.JPG" width="6240" height="4160" title="" >}}
-{{< figure2 name="DSCF2233.JPG" width="6240" height="4160" title="" >}}
-{{< figure2 name="DSCF2088.JPG" width="6240" height="4160" title="" >}}
-{{< figure2 name="DSCF2264.JPG" width="6240" height="4160" title="" >}}
-{{< figure2 name="DSCF2110.JPG" width="6240" height="4160" title="" >}}
-{{< figure2 name="DSCF2299.JPG" width="6240" height="4160" title="" >}}
-{{< figure2 name="DSCF2128.JPG" width="6240" height="4160" title="" >}}
-{{< figure2 name="DSCF2348.JPG" width="6240" height="4160" title="" >}}
-{{< figure2 name="DSCF2158.JPG" width="6240" height="4160" title="" >}}
-{{< figure2 name="DSCF2186.JPG" width="6240" height="4160" title="" >}}
-{{< figure2 name="DSCF2019.JPG" width="6240" height="4160" title="" >}}
-{{< figure2 name="DSCF2211.JPG" width="6240" height="4160" title="" >}}
-{{< figure2 name="DSCF2065.JPG" width="6240" height="4160" title="" >}}
-{{< figure2 name="DSCF2236.JPG" width="6240" height="4160" title="" >}}
-{{< figure2 name="DSCF2097.JPG" width="6240" height="4160" title="" >}}
-{{< figure2 name="DSCF2273.JPG" width="6240" height="4160" title="" >}}
-{{< figure2 name="DSCF2117.JPG" width="6240" height="4160" title="" >}}
-{{< figure2 name="DSCF2311.JPG" width="6240" height="4160" title="" >}}
-{{< figure2 name="DSCF2140.JPG" width="6240" height="4160" title="" >}}
-{{< figure2 name="DSCF2360.JPG" width="6240" height="4160" title="" >}}
-{{< figure2 name="DSCF2169.JPG" width="6240" height="4160" title="" >}}
-{{< figure2 name="DSCF2195.JPG" width="6240" height="4160" title="" >}}
-{{< figure2 name="DSCF2024.JPG" width="6240" height="4160" title="" >}}
-{{< figure2 name="DSCF2216.JPG" width="6240" height="4160" title="" >}}
-{{< figure2 name="DSCF2071.JPG" width="6240" height="4160" title="" >}}
-{{< figure2 name="DSCF2257.JPG" width="6240" height="4160" title="" >}}
-{{< figure2 name="DSCF2103.JPG" width="6240" height="4160" title="" >}}
-{{< figure2 name="DSCF2282.JPG" width="6240" height="4160" title="" >}}
-{{< figure2 name="DSCF2123.JPG" width="4160" height="6240" title="" >}}
-{{< figure2 name="DSCF2336.JPG" width="6240" height="4160" title="" >}}
-{{< figure2 name="DSCF2145.JPG" width="6240" height="4160" title="" >}}
-{{< figure2 name="IMG_7877.JPG" width="4032" height="3024" title="" >}}
-{{< figure2 name="DSCF2182.JPG" width="6240" height="4160" title="" >}}
 
 ## Day 2: To Julia Hut
 
