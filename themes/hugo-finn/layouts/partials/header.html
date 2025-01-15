@@ -18,7 +18,7 @@
       <meta property="og:description" content="{{ . }}">
     {{ end }}
     {{ with .Params.metaImage }}
-      <meta property="og:image" content='{{ path.Join $page.Site.Params.imageHostingURL "resize:fill:1024:0:0:0/plain/" "local:///images/" $page.Slug . }}'>
+      <meta property="og:image" content='{{ path.Join $page.Site.Params.imageHostingURL "resize:fill:1024:0:0:0/plain/" "local:///blog/" $page.Slug . }}'>
     {{ end }}
     
     <meta property="og:type" content="website">
