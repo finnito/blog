@@ -13,18 +13,17 @@ gpxFiles: [
     "Cameron_Hut_Out.gpx"]
 ---
 
-While Jen and I were hiking our Newton Saddle & Three Passes trip, Hayleigh and Tim were keeping an eye on the weather over New Years. We had discussed wanting to do an overnighter with the doggos and that visting Cameron Hut would be a good option. When we got out from the trip, the weather was looking a bit unsettled, but probably good enough to go. So, we hurridly washed all our clothes, re-packed and headed out.
+While Jen and I were hiking our Newton Saddle & Three Passes trip, Hayleigh and Tim were keeping an eye on the weather over New Years. We had discussed wanting to do an overnighter with the doggos and that visiting Cameron Hut would be a good option. When we got out from the trip, the weather was looking a bit unsettled, but probably good enough to go. So, we hurriedly washed all our clothes, re-packed and headed out.
 
-We arrived and the hills were grey, cloudy and looking like they would be be drizzly soon. Still, we headed off into the wet grass and slightly overgrown track. The dogs had a great time with lots of things to smell water to drink. The track is all very straightfoward, climbing slowly and steadily up the valley. It sticks to the true right for the duration of the track, too.
+We arrived and the hills were grey, cloudy and looking like they would be drizzly soon. Still, we headed off into the wet grass and slightly overgrown track. The dogs had a great time with lots of things to smell and water to drink. The track is all very straightforward, climbing slowly and steadily up the valley. It sticks to the true right for the duration of the track, too.
 
-The only meaningful climb is about 10.5km from the start, but it only lasts about ~150m vertical over 1km. So, nothing to stress about. The only mistake we made with the trip in was trying to stick too close to the warratahs nearer the top of the valley. The "track" becomes overgrown and indistinct and you would find travel much more straightforward by following the riverbank, we think.
+The only meaningful climb is about 10.5km from the start, but it only lasts about ~150m vertical over 1km. So, nothing to stress about. The only mistake we made with the trip was trying to stick too close to the waratahs nearer the top of the valley. The "track" becomes overgrown and indistinct and you would find travel much more straightforward by following the riverbank, we think.
 
-When we reached the it hut it was nestled in the cloud and everything was wet, including the dogs! We pitched the tends, dried the dogs off in the boot room of the hut, ate dinner and then hunkered down in our tents and hoped for a clear morning.
+When we reached the hut, it was nestled in the cloud and everything was wet, including the dogs! We pitched the tents, dried the dogs off in the boot room of the hut, ate dinner and then hunkered down in our tents and hoped for a clear morning.
 
 Thankfully, the weather gods smiled upon us and we got to see some of the awesome peaks around the hut. There were about nine kea flying around the area, one of which was quite interested in Korra's breakfast, but she told it to get lost, ha.
 
 We headed back out thankful for an adventure with friends, amazing views, an adorable hut, and our excellent dogs Korra and Ted.
-
 
 {{< figure2 name="DSCF2362.jpeg" width="6240" height="4160" title="Tim and Ted trudging into the mist." >}}
 {{< figure2 name="DSCF2370.jpeg" width="6240" height="4160" title="Everyone standing out with their pack covers." >}}
