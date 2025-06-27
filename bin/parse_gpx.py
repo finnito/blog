@@ -10,6 +10,10 @@ import pytz
 import sys
 
 # ==========
+# python3 bin/parse_gpx.py /Volumes/web/dam/blog/
+# ==========
+
+# ==========
 # Find all GPX files
 # ==========
 paths = []
