@@ -103,8 +103,6 @@
             })
         }
 
-        
-
         Promise.all(stylePromises)
         .then(function() {
             loadScripts();            
@@ -113,6 +111,36 @@
             console.log("Error loading: " + style);
         })
     }
+</script>
+<script src="/js/minimasonry.min.js" async></script>
+<script src="/js/glightbox.min.js" async></script>
+<link rel="stylesheet" href="/css/glightbox.min.css"/>
+<script>
+    window.addEventListener("load", function() {
+        
+        // https://github.com/Spope/MiniMasonry.js/
+        console.log("Init Masonry");
+        var grids = document.querySelectorAll('.grid');
+        grids.forEach(function(grid) {
+            var masonry = new MiniMasonry({
+                container: grid,
+                baseWidth: 400,
+                gutterX: 5,
+                gutterY: 0
+            });
+        });
+
+        // https://github.com/biati-digital/glightbox
+        const lightbox = GLightbox({
+            touchNavigation: true,
+            openEffect: 'fade',
+            closeEffect: 'fade',
+            slideEffect: 'fade',
+            descPosition: 'right',
+            loop: false
+        });
+        
+    });
 </script>
 {{ partial "isso-script.html" . }}
 
