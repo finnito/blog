@@ -37,11 +37,13 @@ We got to the hut just before 7 pm, so still had some sunlight to warm up in aft
 > 🍴 Baked beans (dehydrated at home) and mashed potato (bought dehydrated). <br/>
 > 🍫 A hot chocolate and some actual chocolate.
 
+<div class="grid">
 {{< figure2 name="DSCF2019.JPG" width="6240" height="4160" title="Jen entering some beautiful bush near the start of the track." >}}
 {{< figure2 name="DSCF2024.JPG" width="6240" height="4160" title="Jen admiring the bridge across the Cesspool." >}}
 {{< figure2 name="DSCF2048.JPG" width="6240" height="4160" title="One of the countless stream crossings of the trip." >}}
 {{< figure2 name="DSCF2065.JPG" width="6240" height="4160" title="Crossing the bridge to climb up to Newton Creek Hut." >}}
 {{< figure2 name="DSCF2071.JPG" width="6240" height="4160" title="Across the creek you have to rock-hop upstream until you find the track." >}}
+</div>
 
 ## Day 2: To Julia Hut
 
@@ -62,6 +64,7 @@ The hut was unfortunately full so we pitched the tent, made some dinner (burned 
 > 🍴 Dehydrated bolognese with an avocado that got squished (RIP). <br/>
 > 🍫 A hot chocolate and some actual chocolate.
 
+<div class="grid">
 {{< figure2 name="DSCF2088.JPG" width="6240" height="4160" title="The track to Newton Saddle becomes overgrown almost immediately." >}}
 {{< figure2 name="DSCF2097.JPG" width="6240" height="4160" title="Starting to get warm now that the sun has reached the valley! The track has dissolved into river travel." >}}
 {{< figure2 name="DSCF2103.JPG" width="6240" height="4160" title="Jen avoiding slippery rocks while clambering up the creek." >}}
@@ -73,6 +76,7 @@ The hut was unfortunately full so we pitched the tent, made some dinner (burned 
 {{< figure2 name="DSCF2145.JPG" width="6240" height="4160" title="The track up to Julia Hut was excellent." >}}
 {{< figure2 name="DSCF2158.JPG" width="6240" height="4160" title="Stunning views and Southern Rata in bloom up the Taipo River." >}}
 {{< figure2 name="DSCF2169.JPG" width="6240" height="4160" title="I think this was our first three-wire bridge, but Jen disagrees! I can't remember." >}}
+</div>
 
 ## Day 3: To Park Morpeth Hut
 
@@ -93,6 +97,7 @@ We claimed our beds for the night, dropped our packs and headed to the Wilberfor
 > 🍴 Mushroom and cannelloni bean ragu (dehydrated at home) and mashed potato (bought dehydrated). <br/>
 > 🍫 A hot chocolate and some actual chocolate.
 
+<div class="grid">
 {{< figure2 name="DSCF2182.JPG" width="6240" height="4160" title="The track up to Harman Pass is very well-formed and cut near Julia Hut." >}}
 {{< figure2 name="DSCF2186.JPG" width="6240" height="4160" title="Once in the riverbed, the track is no more and you just go wherever works!" >}}
 {{< figure2 name="DSCF2195.JPG" width="6240" height="4160" title="Don't miss the turnoff out of the riverbed on the true left." >}}
@@ -102,6 +107,7 @@ We claimed our beds for the night, dropped our packs and headed to the Wilberfor
 {{< figure2 name="DSCF2233.JPG" width="6240" height="4160" title="Starting the descent down the west side of Whitehorn Pass." >}}
 {{< figure2 name="DSCF2236.JPG" width="6240" height="4160" title="Jen made a shade attachment on her hat from an empty food bag." >}}
 {{< figure2 name="DSCF2257.JPG" width="6240" height="4160" title="Stunning tarns and bogland near Park Morpeth Hut." >}}
+</div>
 
 ## Day 4: To Mud Flats Hut
 
@@ -118,11 +124,13 @@ We claimed our beds and were thankful to have been there first because a party o
 > 🍴 2x packets of spicy noodles. <br/>
 > 🍫 A hot chocolate and some actual chocolate.
 
+<div class="grid">
 {{< figure2 name="DSCF2264.JPG" width="6240" height="4160" title="Hammer Falls looking stunning in the early morning." >}}
 {{< figure2 name="DSCF2273.JPG" width="6240" height="4160" title="Part way up Browning Pass." >}}
 {{< figure2 name="DSCF2282.JPG" width="6240" height="4160" title="The Wilberforce!" >}}
 {{< figure2 name="DSCF2299.JPG" width="6240" height="4160" title="Harman River looking lush." >}}
 {{< figure2 name="DSCF2311.JPG" width="6240" height="4160" title="Not too far from Mud Flats Hut now.." >}}
+</div>
 
 ## Day 5: Out
 
@@ -138,7 +146,9 @@ We pulled off our wet clothes, struggled into some dry ones and headed home foot
 > 🌮 Tuna and smoked Gouda in a wrap. <br/>
 > 🍴 Fish and chips at home!
 
+<div class="grid">
 {{< figure2 name="DSCF2336.JPG" width="6240" height="4160" title="The lush forest was accentuated by the low light and morning mist." >}}
 {{< figure2 name="DSCF2348.JPG" width="6240" height="4160" title="Back across the very cool waterfall in between Newton Junction and Lower Arahua Hut" >}}
 {{< figure2 name="DSCF2360.JPG" width="6240" height="4160" title="Rain clouds gathering in the distance.." >}}
 {{< figure2 name="IMG_7877.JPG" width="4032" height="3024" title="Jen - properly sodden - crossing the Cesspool, almost back at the car." >}}
+</div>

@@ -25,6 +25,7 @@ Thankfully, the weather gods smiled upon us and we got to see some of the awesom
 
 We headed back out thankful for an adventure with friends, amazing views, an adorable hut, and our excellent dogs Korra and Ted.
 
+<div class="grid">
 {{< figure2 name="DSCF2362.jpeg" width="6240" height="4160" title="Tim and Ted trudging into the mist." >}}
 {{< figure2 name="DSCF2370.jpeg" width="6240" height="4160" title="Everyone standing out with their pack covers." >}}
 {{< figure2 name="DSCF2374.jpeg" width="6240" height="4160" title="Following a nice banked track above Cameron River." >}}
@@ -43,3 +44,4 @@ We headed back out thankful for an adventure with friends, amazing views, an ado
 {{< figure2 name="DSCF2461.jpeg" width="6240" height="4160" title="Tim's pack and tent make for great colours in a photo." >}}
 {{< figure2 name="DSCF2468.jpeg" width="6240" height="4160" title="Hayleigh with high morale on the way back up the climb." >}}
 {{< figure2 name="DSCF2489.jpeg" width="6240" height="4160" title="Ted waiting for his people to catch up. What a good dog!" >}}
+</div>

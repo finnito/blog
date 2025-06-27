@@ -24,12 +24,13 @@ The first part of the trail is easily the slowest-going and roughest section, pr
 
 We trundled into Twizel for a quick pre-dinner ice cream and then headed off to Lake Poaka Campsite. The campsite was spacious and not very busy. The only water options are the lake (filled with ducks) and the canal. We opted for the canal which was only a short walk up from our tents.
 
-
+<div class="grid">
 {{< figure2 name="DSCF2494.jpeg" width="6240" height="4160" title="Em looking stoked about getting started." >}}
 {{< figure2 name="DSCF2496.jpeg" width="6240" height="4160" title="Team photo before setting off." author="Kind Stranger" >}}
 {{< figure2 name="DSCF2519.jpeg" width="6240" height="4160" title="Waiting (and waiting) for our helicopter ride." author="Kind Stranger" >}}
 {{< figure2 name="DSCF2520.jpeg" width="6240" height="4160" title="Finally at the track start!" >}}
 {{< figure2 name="DSCF2532.jpeg" width="6240" height="4160" title="Trundling along Lake Pukaki." >}}
+</div>
 
 ## Day 2: To Ahuriri Bridge Campsite
 
@@ -39,6 +40,7 @@ But, before we reached the ice cream we passed through Quailburn Campsite which 
 
 Ahuriri Bridge Campsite is very large and offers many possible camping sites but has the downfall of being near the main road (traffic noise) and lacking a good water source. The only real option is one of the small braids of the Ahuriri River, which has a lot of farming upstream. Not exactly the most enticing. We opted to boil the water for dinner and fill our drink bottles in Ōmarama the next day.
 
+<div class="grid">
 {{< figure2 name="DSCF2540.jpeg" width="6240" height="4160" title="Some nice lines from the campsite." >}}
 {{< figure2 name="DSCF2546.jpeg" width="6240" height="4160" title="The gals ready to go on day two!" >}}
 {{< figure2 name="DSCF2550.jpeg" width="6240" height="4160" title="A cute corner on the canal." >}}
@@ -46,6 +48,7 @@ Ahuriri Bridge Campsite is very large and offers many possible camping sites but
 {{< figure2 name="DSCF2556.jpeg" width="6240" height="4160" title="Rain clouds looming around Lake Ōhau." >}}
 {{< figure2 name="DSCF2563.jpeg" width="6240" height="4160" title="Em cycling into the distance on Tarnbrae Track." >}}
 {{< figure2 name="DSCF2568.jpeg" width="6136" height="4090" title="24/7 snacks!" >}}
+</div>
 
 ## Day 3: To Te Akatarawa Campsite
 
@@ -53,12 +56,14 @@ In the morning we trundled into Ōmarama to pick up some cheese and salami for o
 
 The campsite is quite large, although, not as large as Whānganui Campsite just down the road. We found a flat space, pitched our tents, paid our fees, and enjoyed the evening sun. It turned out we were down the more "retired" end of the campground, so it was very relaxed and peaceful.
 
+<div class="grid">
 {{< figure2 name="DSCF2576.jpeg" width="6240" height="4160" title="Everything is stunning through the valley." >}}
 {{< figure2 name="DSCF2579.jpeg" width="6240" height="4160" title="Cycling around the little peninsula." >}}
 {{< figure2 name="DSCF2583.jpeg" width="6240" height="4160" title="My (mostly) trusty bikepacking setup ft. a solar panel." >}}
 {{< figure2 name="DSCF2586.jpeg" width="6240" height="4160" title="Some picturesque hills and nice downhill around Lake Benmore." >}}
 {{< figure2 name="DSCF2588.jpeg" width="6240" height="4160" title="Lake Aviemore in the distance." >}}
 {{< figure2 name="DSCF2591.jpeg" width="6240" height="4160" title="Em really excited about Benmore Dam." >}}
+</div>
 
 ## Day 4: To Duntroon Domain
 
@@ -70,8 +75,10 @@ When you come into Duntroon there is a short detour through the Duntroon Wetland
 
 The Duntroon Domain makes for a great campsite: there are _lots_ of spaces, a kitchen with kettles, power and a fridge as well as __hot showers__! Wahoo! We all had a good wash and headed out for dinner at the Duntroon Hotel, which we all quite enjoyed.
 
+<div class="grid">
 {{< figure2 name="DSCF2598.jpeg" width="6240" height="4160" title="Jen checking out Aviemore Dam." >}}
 {{< figure2 name="DSCF2605.jpeg" width="6064" height="4042" title="Me chillin'." author="Jen" >}}
+</div>
 
 ## Day 5: To Ōamaru
 
@@ -79,6 +86,8 @@ We woke early and were prompt at getting going knowing Katherine and Em had work
 
 We lunched at Windsor, sitting on the grass outside their Public Hall (very much closed), enjoying the midday sun which had come out after a cloudy start. The last part of this day has a lot of downhill which made for easy riding on well-formed trails. In the afternoon we had coffee at the Fort Enfield Tavern and enjoyed a break from the sun. From there it was one last climb up to Weston and then a slow descent into Ōamaru and out to the wharf! We got a little turned around as we avoided the Hollywood filming that was going on in town but eventually made it to the ocean and later our car.
 
+<div class="grid">
 {{< figure2 name="IMG_7906.jpeg" width="4032" height="3024" title="Some beautiful sedimentation layers." >}}
 {{< figure2 name="IMG_7907.jpeg" width="4032" height="3024" title="Jen and Em trying to pat the calves." >}}
 {{< figure2 name="DSCF2618.jpeg" width="6240" height="4160" title="Made it to the ocean!" author="Kind Stranger" >}}
+</div>

@@ -27,11 +27,12 @@ There was only one other person at the hut which was nice. We had a lovely dinne
 > 🍴 Homemade flatbreads with falafel, cucumber, cherry tomato, and hummus.<br/>
 > 🍫 A hot chocolate and some actual chocolate.
 
+<div class="grid">
 {{< figure2 name="IMG_7927.jpeg" width="5712" height="4284" title="Jen climbing the very steep track to Carroll Hut through the bush." >}}
 {{< figure2 name="IMG_7938.jpeg" width="5712" height="4284" title="The track is definitely not as steep out of the bush, but still a good effort." >}}
 {{< figure2 name="IMG_7940.jpeg" width="8064" height="6048" title="Looking up toward Arthur's Pass and the viaduct in the distance." >}}
 {{< figure2 name="IMG_7945.jpeg" width="5712" height="4284" title="Carroll Hut under the setting sun." >}}
-
+</div>
 
 ## Day 2: To Hunts Hut
 
@@ -45,6 +46,7 @@ From the marsh the route descends alongside (and sometimes in) a small creek bef
 > 🍴 Dehydrated homemade dhal. <br/>
 > 🍫 A hot chocolate and some actual chocolate.
 
+<div class="grid">
 {{< figure2 name="IMG_7953.jpeg" width="5712" height="4284" title="Admiring some of the tarns in the morning!" >}}
 {{< figure2 name="IMG_7972.jpeg" width="5712" height="4284" title="Jen trucking along the Kelly Range with Hunts Creek on the left in  the distance. The hut is located in the tussocked clearing just above the foreground ridge." >}}
 {{< figure2 name="IMG_7979.jpeg" width="5712" height="4284" title="Definitely wondered whether the bush bashing was worth going down to see the tarn.." >}}
@@ -52,11 +54,11 @@ From the marsh the route descends alongside (and sometimes in) a small creek bef
 {{< figure2 name="IMG_7983.jpeg" width="5712" height="4284" title="Navigating head height tussocks (very impressive) at Hunt Saddle." >}}
 {{< figure2 name="IMG_7990.jpeg" width="5712" height="4284" title="Jen some large screen with the Kelly Range and Hunt Saddle in the background." >}}
 {{< figure2 name="IMG_7992.jpeg" width="5712" height="4284" title="Hunts Creek Hut looking stunning!" >}}
+</div>
 
 ## Day 3: To Mid-Taipo Hut via Dry Creek
 
 We had the hut to ourselves overnight – something that feels more and more like a rare occurance. Feeling well rested, also owing to the many hours spent lazing in the hut the previous day, we headed off for a bit of an unknown crossing into the Taipo via Dry Creek. There is mention made of it on Remote Huts but I couldn't find any description of how long it might take, other than a group that took 8 hours to ascend Dry Creek from the Taipo side. It was also mentioned a bunch in the hut book, but no timings. Still, the sun was out, we felt good, and there was some great backcountry travel ahead of us!
-
 
 
 > ☕️ Home made granola & instant coffee with dehy oat milk. <br/>
@@ -65,17 +67,27 @@ We had the hut to ourselves overnight – something that feels more and more lik
 > 🍴 Dehydrated baked beans and instant mash potato. <br/>
 > 🍫 A hot chocolate and some actual chocolate.
 
+<div class="grid">
 {{< figure2 name="IMG_7994.jpeg" width="5712" height="4284" title="" >}}
 {{< figure2 name="IMG_7995.jpeg" width="5712" height="4284" title="" >}}
 {{< figure2 name="IMG_7998.jpeg" width="5712" height="4284" title="" >}}
 {{< figure2 name="IMG_8005.jpeg" width="5712" height="4284" title="" >}}
 {{< figure2 name="IMG_8009.jpeg" width="5712" height="4284" title="" >}}
-{{< figure2 name="IMG_8017.jpeg" width="3710" height="2862" title="" >}}
+{{< figure2 name="IMG_8017.jpeg" width="5712" height="4284" title="" >}}
 {{< figure2 name="IMG_8024.jpeg" width="4032" height="3024" title="" >}}
 {{< figure2 name="IMG_8030.jpeg" width="4032" height="3024" title="" >}}
 {{< figure2 name="IMG_8031.jpeg" width="5712" height="4284" title="" >}}
 {{< figure2 name="IMG_8034.jpeg" width="5712" height="4284" title="" >}}
 {{< figure2 name="IMG_8057.jpeg" width="5712" height="4284" title="" >}}
+</div>
+
+## Day 4: Out via Carroll Hut
+
+> ☕️ Home made granola & instant coffee with dehy oat milk. <br/>
+> 🥜 Nut bar x2, miscellaneous lollies, nuts/M&M/pretzel mix.<br/>
+> 🌮 Smoked cheese and hummus in a wrap. <br/>
+
+<div class="grid">
 {{< figure2 name="IMG_8061.jpeg" width="4032" height="3024" title="" >}}
 {{< figure2 name="IMG_8068.jpeg" width="4032" height="3024" title="" >}}
 {{< figure2 name="IMG_8075.jpeg" width="5712" height="4284" title="" >}}
@@ -86,11 +98,5 @@ We had the hut to ourselves overnight – something that feels more and more lik
 {{< figure2 name="IMG_8096.jpeg" width="5712" height="4284" title="" >}}
 {{< figure2 name="IMG_8103.jpeg" width="5712" height="4284" title="" >}}
 {{< figure2 name="IMG_8113.jpeg" width="5712" height="4284" title="" >}}
-
-## Day 4: Out via Carroll Hut
-
-> ☕️ Home made granola & instant coffee with dehy oat milk. <br/>
-> 🥜 Nut bar x2, miscellaneous lollies, nuts/M&M/pretzel mix.<br/>
-> 🌮 Smoked cheese and hummus in a wrap. <br/>
-
-
+</div>
+</div>
