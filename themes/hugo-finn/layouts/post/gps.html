@@ -2,8 +2,8 @@
 
 <div class="content">
     <h1>{{ .Title | markdownify }}</h1>
-    <p><strong>Activity Date:</strong> {{ with .Params.date }}<time>{{ time.Format "2 Jan 2006" . }}</time>{{ end }}
-    {{ with .GitInfo }}<br/><strong>Updated:</strong> <time>{{ .AuthorDate.Format "2 Jan 2006" }}</time>{{ end }}
+    <p><strong>Activity Date:</strong> {{ with .Params.date }}<time datetime='{{ time.Format "2006-01-02" . }}'>{{ time.Format "2 Jan 2006" . }}</time>{{ end }}
+    {{ with .GitInfo }}<br/><strong>Updated:</strong> <time datetime='{{ .AuthorDate.Format "2006-01-02" }}'>{{ .AuthorDate.Format "2 Jan 2006" }}</time>{{ end }}
 
     {{ with .Params.people }}
     <br/><strong>People:</strong> {{ range $index, $person := . }}

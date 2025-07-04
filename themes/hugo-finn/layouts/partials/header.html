@@ -14,8 +14,13 @@
     {{ $page := . }}
 
     {{ with .Params.metaDescription }}
+      {{ if in "gps multiGPS inreach" $page.Params.layout }}
+      <meta name="description" content="Trip Report: {{ . }}">
+      <meta property="og:description" content="Trip Report: {{ . }}">
+      {{ else }}
       <meta name="description" content="{{ . }}">
       <meta property="og:description" content="{{ . }}">
+      {{ end }}
     {{ end }}
     {{ with .Params.metaImage }}
       <meta property="og:image" content='{{ path.Join $page.Site.Params.imageHostingURL "resize:fill:1024:0:0:0/plain/" "local:///blog/" $page.Slug . }}'>
