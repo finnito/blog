@@ -6,7 +6,7 @@ emoji: 🥾
 people: ["Finn", "Jen"]
 type: "post"
 layout: "gps"
-metaDescription: "A beautiful but challenging 5-day circuit that has everything from hot pools to scenic climbs & rugged bush."
+metaDescription: "A beautiful but challenging 5-day circuit with everything from hot pools to scenic climbs & rugged bush."
 metaImage: "IMG_8857.jpeg"
 gpxFiles: [
 	"activity_19615381880.gpx",
@@ -18,17 +18,17 @@ gpxFiles: [
 
 ## Day 1: To Cedar Flat Hut
 
-After spending all of Saturday trying to pack for a trip of unknown length we were about ready to get going. We had a prompt start and dropped Korra 🐕 to the kennels before heading across to the West Coast.
+After spending all of Saturday trying to pack for a trip of unknown length we were about ready to get going. We had a prompt start and dropped Korra 🐕 at the kennels before heading across to the West Coast.
 
-As we got walking the weather was a bit mixed: some sun, some clouds, but overall quite still and calm. I was immediately too warm and regretting wearing pants, having left my shorts in the car. Surely—I thought, it would be too cold for short. Surely.
+As we got walking the weather was a bit mixed: some sun, some clouds, but overall quite still and calm. I was immediately too warm and regretted wearing pants, having left my shorts in the car. Surely—I thought, it would be too cold for short. Surely.
 
 The track starts along a farm track before quickly entering the bush. From there it undulates alongside the Toaroha, occasionally popping out on to the riverbed. The riverbed travel was quite slick, the morning dew and prior rain having moistened the lichen. We were happy to regain the bush around Charles Ridge!
 
-From there the track climbs quite unrelenting but is always well-formed. There is the occasional mud, but honestly it was never very bad. The descent from the high point (circa 510m) to the hut is relaxed, posing no real challenge. Once back on the river flats you are mere minutes from the 6-wire bridge to assist you in crossing the Toaroha.
+From there the track climbs quite unrelentingly but is always well-formed. There is the occasional mud, but honestly, it was never very bad. The descent from the high point (circa 510m) to the hut is relaxed, posing no real challenge. Once back on the river flats, you are mere minutes from the 6-wire bridge to assist you in crossing the Toaroha.
 
-We found the hut in tidy condition (albeit a bit mouldy), with little firewood and naught but a blunt saw and small axe to chop wood. Sadly the head had snapped off the large axe. We spent the better part of an hour chopping wood but it was all quite wet. With a good deal of patience Jen managed to get the fire going, and once hot enough it managed to burn some of the damper wood.
+We found the hut in tidy condition (albeit a bit mouldy), with little firewood and nought but a blunt saw and small axe to chop wood. Sadly the head had snapped off the large axe. We spent the better part of an hour chopping wood but it was all quite wet. With a good deal of patience, Jen managed to get the fire going, and once hot enough it managed to burn some of the damper wood.
 
-After dinner we headed out to the hot pools and found they completely lovely. 10/10. They are situated on the far bank of Wren Creek - not the near side as marked on the Topo50 tiles. We soaked for some time in the sandfly-less dark before trodding back to the hut. We made the trek in under 15min in the dark while wearing crocs!
+After dinner, we headed out to the hot pools and found them completely lovely. 10/10. They are situated on the far bank of Wren Creek - not the near side as marked on the Topo50 tiles. We soaked for some time in the sandfly-less dark before trodding back to the hut. We made the trek in under 15min in the dark while wearing crocs!
 
 > ☕️ Coffee, cheese scone (Sheffield)<br/>
 > 🥜 Afghan cookie (Sheffield) and sour feijoas<br/>
@@ -51,17 +51,17 @@ After dinner we headed out to the hot pools and found they completely lovely. 10
 
 ## Day 2: To Top Kokatahi Hut
 
-After a lazy start (I rolled out of bed after 8am!) we hit the track just before 10am. It rained heavily on and off overnight, so we were dressed for wet. The track up the valley is well formed but muddier than the first day, and it crosses a beautiful gorge via a well-appointed swing bridge. Super cool.
+After a lazy start (I rolled out of bed after 8am!) we hit the track just before 10am. It rained heavily on and off overnight, so we were dressed for the wet. The track up the valley is well formed but muddier than the first day, and it crosses a beautiful gorge via a well-appointed swing bridge. Super cool.
 
 After about 25min we turned off up the Adventure Ridge track and were not disappointed. It climbs relentlessly through the forest, only flattening out right before Adventure Biv (makes sense). The biv is _adorable_! I don’t think we had seen such a small one before. We nestled inside to eat our lunch and drink our thermos coffee before starting back up the hill.
 
-From Adventure Biv the track climbs steeply and can be quite indistinct and overgrown. There are markers a plenty, but that doesn’t mean it is obvious how to get to them. There is a very steep section up an erosion gully before you reach the open tussock. I imagine it would be easier if you were 12ft all with legs of a giant!
+From Adventure Biv the track climbs steeply and can be quite indistinct and overgrown. There are markers aplenty, but that doesn’t mean it is obvious how to get to them. There is a very steep section up an erosion gully before you reach the open tussock. I imagine it would be easier if you were 12ft tall with legs of a giant!
 
 The track climbs unrelentingly and Jen felt like she was lacking some leg power, but honestly was doing great (over 1000m vert. and counting!). At around 1200m the drizzle turned into snow and at 1300m it started to settle. Things were much colder from that point since touching icy plants (and making the water melt) makes your hands much colder than wet ones.
 
 > __Enthalpy of Melting__: _the energy required to change a certain amount of water from solid into liquid._
 > 
-> To melt 1g of ice (with a constant temperature of 0 °C) takes 333.55J of energy, while to raise water from 0 °C to 1 °C takes 4.18J (specific heat capcaity). Thus, by melting ice by touching it with your hands takes 79.79x more energy than simply touching cold water and warming it up!
+> To melt 1g of ice (with a constant temperature of 0 °C) takes 333.55J of energy, while to raise water from 0 °C to 1 °C takes 4.18J (specific heat capacity). Thus, melting ice by touching it with your hands takes 79.79x more energy than simply touching cold water and warming it up!
 > 
 > More details can be found on [Wikipedia](https://en.wikipedia.org/wiki/Enthalpy_of_fusion) or your favourite Chemistry textbook.
 
@@ -78,7 +78,7 @@ The hut is small and tidy and had some wood left outside. I went a foraged a bun
 > 🍫 Hot raro and chocolate rice pudding
 
 <div class="grid">
-{{< figure2 name="IMG_8806.jpeg" width="4032" height="3024" title="An orange pack cover always make for good photos." >}}
+{{< figure2 name="IMG_8806.jpeg" width="4032" height="3024" title="An orange pack cover always makes for good photos." >}}
 {{< figure2 name="IMG_8809.jpeg" width="5712" height="4284" title="Jen on the new looking swing bridge across the Toaroha." >}}
 {{< figure2 name="IMG_8814.jpeg" width="5712" height="4284" title="The rapids above the short gorge upstream of Cedar Flat Hut" >}}
 {{< figure2 name="IMG_8822.jpeg" width="5712" height="4284" title="The hard work begins!" >}}
@@ -102,16 +102,16 @@ The hut is small and tidy and had some wood left outside. I went a foraged a bun
 
 Well, this day was rougher than anticipated. The West Coast always offers some challenging tracks, but being a DOC maintain route I expected easier going!
 
-The frost came in hard overnight and everything was slippery and crunchy when we headed off around 10am. We had hoped that a later start would allow the sun to reach the valley, but in fact we didn’t get into the sun until later afternoon! The route starts as a very well formed and well-cut track before smashing any hopes of a good track into smithereens on the icy and slippery riverbed. Two fords of the Kokatahi occur within an hour of the hut (not including the one right by the hut), but neither proved challenging at normal flows.
+The frost came in hard overnight and everything was slippery and crunchy when we headed off around 10am. We had hoped that a later start would allow the sun to reach the valley, but in fact, we didn’t get into the sun until late in the afternoon! The route starts as a very well-formed and well-cut track before smashing any hopes of a good track into smithereens on the icy and slippery riverbed. Two fords of the Kokatahi occur within an hour of the hut (not including the one right by the hut), but neither proved challenging at normal flows.
 
-The track cuts in an out of the bush on the true right before reaching a swing bridge. The bridge looks a little unnecessary because the river is particular crossable at that point. However, I could very easily imagine this route becoming _very_ challenging after/during rain. Once on the true left it continues to hop in and out of the bush, often leaving you to clamber up and down some rather large boulders and vertical faces. This really slowed us down, I think. That and all the icy boulders!
+The track cuts in and out of the bush on the true right before reaching a swing bridge. The bridge looks a little unnecessary because the river is particularly crossable at that point. However, I could very easily imagine this route becoming _very_ challenging after/during rain. Once on the true left it continues to hop in and out of the bush, often leaving you to clamber up and down some rather large boulders and vertical faces. This slowed us down more than anything else, I think. That and all the icy boulders!
 
-Our morale was bit low (read: very) as we made our way down the valley, but we were buoyed by passing the sign to Clarke’s Pass. This told us we weren’t too far from the cableway! Wahoo. The track generally continues to improve as you get closer to the cableway, too.
+Our morale was a bit low (read: very) as we made our way down the valley, but we were buoyed by passing the sign to Clarke’s Pass. This told us we weren’t too far from the cableway! Wahoo. The track generally continues to improve as you get closer to the cableway, too.
 We did, however, miss a triangle (I’m convinced it was missing) for a re-entry to the bush and got stuck on the riverbed. We ended up bashing through a little bit of bush to find the track we were certain was there.
 
-The cableway was fun and a much smoother experience than the one I tried down at Olivine Hut! The crossing was quick and easy, but I think doing it solo with the odd lever thing would have been hard work! From the cableway the “track” continues down the true right riverbed for a couple hundred meters before entering the bush and arriving at the hut. We saw two whio just before we left the river! Stoked.
+The cableway was fun and a much smoother experience than the one I tried down at Olivine Hut! The crossing was quick and easy, but I think doing it solo with the odd lever thing would have been hard work! From the cableway, the “track” continues down the true right riverbed for a couple hundred meters before entering the bush and arriving at the hut. We saw two whio just before we left the river! Stoked.
 
-Crawford is a very tidy hut with an _excellent_ view of the river confluence. Mt Reeves, Genoa Peak and pt. 1686 feature predominantly in the skyline. As of this evening we are considering fording the confluence and picking up the Permolat trail to Boo Boo Hut. This is as opposed to going back up the Kokatahi to use the cableway. We will see…
+Crawford is a very tidy hut with an _excellent_ view of the river confluence with Mt Reeves, Genoa Peak and pt. 1686 featuring predominantly in the skyline. As of this evening we are considering fording the confluence and picking up the Permolat trail to Boo Boo Hut. This is as opposed to going back up the Kokatahi to use the cableway. We will see…
 
 > ☕️ Coffee and ANZAC slice<br/>
 > 🥜 Nut bar, sour patch kids, sour feijoas, chocolate<br/>
@@ -122,7 +122,7 @@ Crawford is a very tidy hut with an _excellent_ view of the river confluence. Mt
 <div class="grid">
 {{< figure2 name="IMG_8903.jpeg" width="5712" height="4284" title="A frosty start to the day with a beautiful blue sky overhead." >}}
 {{< figure2 name="IMG_8906.jpeg" width="5712" height="4284" title="A quick initial crossing of the Kokatahi to get the day started." >}}
-{{< figure2 name="IMG_8910.jpeg" width="5712" height="4284" title="We didn't get into the sun proper for the whole day. Plenty of frost, though!" >}}
+{{< figure2 name="IMG_8910.jpeg" width="5712" height="4284" title="We didn't get into the sun properly for the whole day. Plenty of frost, though!" >}}
 {{< figure2 name="IMG_8912.jpeg" width="5712" height="4284" title="Dense bush was always available when not on the riverbed." >}}
 {{< figure2 name="IMG_8914.jpeg" width="4032" height="3024" title="Jen plodding." >}}
 {{< figure2 name="IMG_8918.jpeg" width="4032" height="3024" title="A cool creek that travelled under the screen until appearing to come out of the side of the hill." >}}
@@ -141,9 +141,9 @@ During the night we were visited by two local possums! Their presence, and that 
 
 We hit the track a little earlier than prior days just in case the day was a long one. This was supposed to be the roughest of the days, with quite an unformed track on the true left of the Kokatahi. It turned out better than we thought, I think!
 
-We begun by crossing the Crawford and ambling down the true right of the Kokatahi with the aim of crossing just above the Blue Duck Creek confluence (as described). We ended up going too far and the river looked too deep, so we backtracked a little and crossed at a wider spot. There was an even better spot further upstream if you didn’t want wet undies on a frosty morning 🥶
+We began by crossing the Crawford and ambling down the true right of the Kokatahi to cross just above the Blue Duck Creek confluence (as described on Remote Hut). We ended up going too far and the river looked too deep, so we backtracked a little and crossed at a wider spot. There was an even better spot further upstream if you didn’t want wet undies on a frosty morning 🥶
 
-We found the track very well marked if a bit unstable and scramble-y. There were fewer large boulders to clamber over compared to the route from Top Kokatahi, but still plenty of short uphill grunts. For the most part travel was in the bush, which was also appreciated.
+We found the track very well marked if a bit unstable and scramble-y. There were fewer large boulders to clamber over compared to the route from Top Kokatahi, but still plenty of short uphill grunts. For the most part, travel was in the bush, which was also appreciated.
 
 We were pleased to spot the slip near Druid Creek across the river as it meant we were making good progress and that the final climb to Boo Boo Hut was in our near future. We also spotted the big slip under the hut and the three creeks (Maharry, Alice, Pinnacles) right before it. We lunched in the open with a lovely view of the river shortly before leaving the riverside. It took about 3hrs to reach this point.
 
@@ -165,7 +165,7 @@ The forecast is for the rain to arrive in the early hours of the morning, so it 
 {{< figure2 name="IMG_8962.jpeg" width="5712" height="4284" title="Epic river and epic scenery." >}}
 {{< figure2 name="IMG_8964.jpeg" width="5712" height="4284" title="Epicly big (slippery) boulders." >}}
 {{< figure2 name="IMG_8970.jpeg" width="4032" height="3024" title="More big boulders and unstable erosion creeks." >}}
-{{< figure2 name="IMG_8974.jpeg" width="5712" height="4284" title="On of many beautiful glimpses of the Kokatahi River from the bush." >}}
+{{< figure2 name="IMG_8974.jpeg" width="5712" height="4284" title=" One of many beautiful glimpses of the Kokatahi River from the bush." >}}
 {{< figure2 name="IMG_8975.jpeg" width="5712" height="4284" title="Jen looking for the way forward along the riverside." >}}
 {{< figure2 name="IMG_8981.jpeg" width="5712" height="4284" title="River so blue it looks like someone put food dye in it." >}}
 {{< figure2 name="IMG_8984.jpeg" width="5712" height="4284" title="Looking back to Crawford Junction in the distance." >}}
@@ -177,11 +177,11 @@ The forecast is for the rain to arrive in the early hours of the morning, so it 
 
 During the night the rain came early, drat! This meant by the time that we woke the track and forest was sodden. Thankfully, there wasn't much in terms of river crossings that could stop us. All we had to do was walk downhill in the rain, that's not so hard!
 
-The track, for the most part, was very straightforward. It was well-formed and well-marked, but there were a number of slippery rocks and unstable steps due to water-soaked ground. Still, easily passable and we made good time down the hill and across the couple of creeks. We reached the bridge across the _stunning_ Whakarira Gorge in just under two hours. Wowee, that is one nice gorge.
+The track, for the most part, was very straightforward. It was well-formed and well-marked, but there were many slippery rocks and unstable steps due to water-soaked ground. Still, easily passable and we made good time down the hill and across the couple of creeks. We reached the bridge across the _stunning_ Whakarira Gorge in just under two hours. Wowee, that is one nice gorge.
 
-From there the tracks follows some quite flat and picturesque beech forest on the true right of the Kokatahi River. The forest doesn't go the whole way out, though, turning into farmland after not too long. At this point the travel becomes quite boggy and cow-trodden. We were plugging some quite deep steps in mud for a while, here! Once you pass the bend just before Prominent Spur the track quality improves before becoming a sturdy farm track in the last kilometer before the access road.
+From there the track follows some quite flat and picturesque beech forest on the true right of the Kokatahi River. The forest doesn't go the whole way out, though, turning into farmland after not too long. At this point, the travel becomes quite boggy and cow-trodden. We were plugging some quite deep steps in mud for a while, here! Once you pass the bend just before Prominent Spur the track quality improves before becoming a sturdy farm track in the last kilometre before the access road.
 
-The rain eased off for the last 45-60min which allowed us to dry off a little and to get changed at the car without becoming drenched. At this point we learned that Korra had been sent to the vet from the kennels with a fever and an infected foot. We picked up some kai in Hokitiki (mmmmm fish and chips) before heading back to see our poor pooch.
+The rain eased off for the last 45-60min which allowed us to dry off a little and to get changed at the car without becoming drenched. At this point, we learned that Korra had been sent to the vet from the kennels with a fever and an infected foot. We picked up some kai in Hokitiki (mmmmm fish and chips) before heading back to see our poor pooch.
 
 > ☕️ Coffee and ANZAC slice<br/>
 > 🥜 Nut bar x2<br/>
@@ -189,7 +189,7 @@ The rain eased off for the last 45-60min which allowed us to dry off a little an
 
 <div class="grid">
 {{< figure2 name="IMG_8996.jpeg" width="4032" height="3024" title="A quick snap of Boo Boo Hut in the rain." >}}
-{{< figure2 name="IMG_9004.jpeg" width="5712" height="4284" title="One of the many lush looking creeks on the route." >}}
+{{< figure2 name="IMG_9004.jpeg" width="5712" height="4284" title="One of the many lush-looking creeks on the route." >}}
 {{< figure2 name="IMG_9005.jpeg" width="5712" height="4284" title="Looking at the top of the Whakarira Gorge." >}}
 {{< figure2 name="IMG_9007.jpeg" width="5712" height="4284" title="Whakarira Gorge looking absolutely stunning." >}}
 {{< figure2 name="IMG_9009.jpeg" width="4032" height="3024" title="The final exit of Whakarira Gorge." >}}
