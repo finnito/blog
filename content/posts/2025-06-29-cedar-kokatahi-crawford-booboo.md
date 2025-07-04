@@ -6,15 +6,14 @@ emoji: 🥾
 people: ["Finn", "Jen"]
 type: "post"
 layout: "gps"
-metaDescription: ""
-metaImage: ""
+metaDescription: "A beautiful but challenging 5-day circuit that has everything from hot pools to scenic climbs & rugged bush."
+metaImage: "IMG_8857.jpeg"
 gpxFiles: [
 	"activity_19615381880.gpx",
 	"activity_19615386160.gpx",
 	"activity_19615390239.gpx",
 	"activity_19615395331.gpx",
 	"activity_19615399214.gpx"]
-draft: true
 ---
 
 ## Day 1: To Cedar Flat Hut
