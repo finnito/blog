@@ -99,4 +99,3 @@ We had the hut to ourselves overnight – something that feels more and more lik
 {{< figure2 name="IMG_8103.jpeg" width="5712" height="4284" title="" >}}
 {{< figure2 name="IMG_8113.jpeg" width="5712" height="4284" title="" >}}
 </div>
-</div>
