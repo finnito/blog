@@ -1,5 +1,5 @@
 <figure>
-    <a class="glightbox" data-gallery='1' data-glightbox="description: {{ .Get "title" | markdownify }}<br/>📷: {{ if .Get "author" }}{{ .Get "author" | markdownify }}{{ else }}Finn Le Sueur{{ end }}" href='https://imgproxy.lesueur.nz/insecure/resize:fill:3096:0:0:0/plain/local:///blog/{{ .Page.Slug }}/{{ .Get "name" }}' title='Full size image: {{ .Get "title" }}'>
+    <a class="glightbox" data-gallery='1' data-glightbox="description: {{ .Get "title" | markdownify }}<br/>📷: {{ if .Get "author" }}{{ .Get "author" | markdownify }}{{ else }}Finn Le Sueur{{ end }}" href='https://imgproxy.lesueur.nz/insecure/resize:fill:3096:0:0:0/plain/local:///blog/{{ .Page.Slug }}/{{ .Get "name" }}' title='{{ .Get "title" }}'>
         <img
         	srcset='https://imgproxy.lesueur.nz/insecure/resize:fill:512:0:0:0/cb:2/plain/local:///blog/{{ .Page.Slug }}/{{ .Get "name" }} 512w,
                 https://imgproxy.lesueur.nz/insecure/resize:fill:1024:0:0:0/cb:2/plain/local:///blog/{{ .Page.Slug }}/{{ .Get "name" }} 1024w,
