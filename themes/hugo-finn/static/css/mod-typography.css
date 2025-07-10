@@ -7,12 +7,6 @@ html {
 
 h1 { line-height: 1; }
 
-time, figcaption {
-  text-transform: uppercase;
-  color: var(--grey);
-  font-size: 0.8rem;
-}
-
 pre,
 li > code,
 p > code {

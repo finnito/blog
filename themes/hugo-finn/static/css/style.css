@@ -98,11 +98,16 @@ p > code {
 }
 
 figure {
-  margin: auto 0 1rem 0;
+  margin: auto;
   text-align: center;
 }
 
-figcaption { text-align: left; }
+figcaption {
+  margin: 0.25rem 0.5rem;
+/*  text-align: left;*/
+  font-size: smaller;
+  font-style: oblique;
+}
 
 main {
   grid-area: content;

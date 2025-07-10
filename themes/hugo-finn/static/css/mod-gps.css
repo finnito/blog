@@ -20,11 +20,12 @@
 .grid figure {
   position: absolute;
   margin: 0;
-  max-width: 600px;
+  max-width: calc(100vw - 1rem);
 }
 
 .grid figure figcaption {
-  display: none;
+  display: block;
+  margin-bottom: 1rem;
 }
 
 .grid figure img {
@@ -41,10 +42,25 @@
   color: white;
 }
 
+a.glightbox {
+  display: flex;
+}
+
 body.gscrollbar-fixer {
   margin-right: auto;
   margin-left: auto;
 }
 body.glightbox-open {
   overflow: visible;
+}
+
+@media screen and (min-width: 750px) {
+  .grid {
+    left: calc((100vw - 100%) / -2);
+    width: 100vw;
+  }
+
+  .grid figure figcaption {
+    display: none;
+  }
 }
