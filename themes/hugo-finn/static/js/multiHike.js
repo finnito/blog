@@ -5,8 +5,8 @@ var HikeMap;
 var ElevationData = [];
 var ElevationChart;
 var Tracks;
-var LayersLoaded = 0;
 var ColourIterator = 0;
+var BaseLayers;
 var GPXData = {};
 var trackColours = [
     "#ff3838",
@@ -47,40 +47,76 @@ function initHike() {
     HikeMap.addControl(new L.Control.Fullscreen());
     Tracks = L.featureGroup().addTo(HikeMap);
 
-    // Manage map tiles
+    // Create base layers
     var layer50 = L.tileLayer('https://tiles-a.data-cdn.linz.govt.nz/services;key=50b8923a67814d28b7a1067e28f03000/tiles/v4/layer=50767/EPSG:3857/{z}/{x}/{y}.png', {
         attribution: 'NZ Topo Map by <a href="https://data.linz.govt.nz/layer/50767-nz-topo50-maps/">LINZ</a>'
     });
     var layer250 = L.tileLayer('https://tiles-a.data-cdn.linz.govt.nz/services;key=50b8923a67814d28b7a1067e28f03000/tiles/v4/layer=50798/EPSG:3857/{z}/{x}/{y}.png', {
         attribution: 'NZ Topo Map by <a href="https://data.linz.govt.nz/layer/50767-nz-topo250-maps/">LINZ</a>'
     });
-    var layerGlobal = L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    
+    var layerOSM = L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
         attribution: '©️ <a href="https://www.openstreetmap.org/copyright">OpenStreetMap Contributors</a>'
     });
-    layerGlobal.addTo(HikeMap);
-    if (HikeMap.getZoom() > 12) {
-        HikeMap.removeLayer(layer250);
-        layer50.addTo(HikeMap);
-    } else {
-        HikeMap.removeLayer(layer50);
-        layer250.addTo(HikeMap);
+
+    BaseLayers = {
+        "NZ Topo50": layer50,
+        "NZ Topo250": layer250,
+        "OpenStreetMap": layerOSM
     }
+
+    L.control.layers(BaseLayers, {}, {collapsed: true}).addTo(HikeMap);
+
+    HikeMap.on("moveend zoomend", function(e) {
+        checkBaseLayers();
+    });
+
     HikeMap.on('fullscreenchange', function () {
         HikeMap.invalidateSize();
     });
-    HikeMap.on("zoomend", function(e){
-        if (HikeMap.getZoom() > 12) {
-            HikeMap.removeLayer(layer250);
-            layer50.addTo(HikeMap);
-            return;
-        }
-        HikeMap.removeLayer(layer50);
-        layer250.addTo(HikeMap);
-    });
 
     // Add GPX File
-    addGPXTracks();
+    fetchGPXFiles();
     addImages();
+}
+
+
+/**
+ * Checks zoom & lat,lon to
+ * determine which topo tiles
+ * to show.
+ **/
+function checkBaseLayers() {
+    let nzBounds = L.latLngBounds(
+        L.latLng(-32.9, 179.999),
+        L.latLng(-51.3, 162.2)
+        
+    );
+
+    // If in NZ
+    // show NZ Topo tiles
+    if (nzBounds.contains(HikeMap.getCenter())) {
+        // console.log("Map center is in NZ");
+        
+        HikeMap.eachLayer
+        if (HikeMap.getZoom() > 12) {
+            BaseLayers["NZ Topo250"].remove(HikeMap);
+            BaseLayers["NZ Topo50"].addTo(HikeMap);
+        } else {
+            BaseLayers["NZ Topo250"].addTo(HikeMap);
+            BaseLayers["NZ Topo50"].remove(HikeMap);
+        }
+        BaseLayers["OpenStreetMap"].remove(HikeMap);
+    }
+
+    // Else, outside NZ
+    // show OSM tiles
+    else {
+        // console.log("Map center is outside NZ");
+        BaseLayers["NZ Topo250"].remove(HikeMap);
+        BaseLayers["NZ Topo50"].remove(HikeMap);
+        BaseLayers["OpenStreetMap"].addTo(HikeMap);
+    }
 }
 
 
@@ -138,7 +174,20 @@ function showActivityByName(name) {
  * Add the GPX file to
  * the LeafletJS map.
  **/
-function addGPXTracks() {
+async function fetchGPXFiles() {
+    await Promise.all(GPXDataFiles.map(async (url) => {
+        const response = await fetch(url)
+        const data = await response.json();
+        addGPXTrackToMap(data);
+        return data;
+    }))
+    .then(response => {
+        // console.log("All loaded!");
+        HikeMap.fitBounds(Tracks.getBounds());
+    })
+}
+
+function addGPXTrackToMap(response) {
     var i,
         data,
         line,
@@ -146,65 +195,52 @@ function addGPXTracks() {
 
     var orangeIcon = L.icon({
         iconUrl: '/css/images/marker-icon-2x-orange.png',
-
         iconSize:     [25, 41],
         iconAnchor:   [13, 41],
         popupAnchor:  [13, -41],
         tooltipAnchor:  [13, -41]
     });
 
-    for (i = 0; i < GPXDataFiles.length; i++) {
-        fetch(GPXDataFiles[i])
-        .then(response => {
-            return response.json()
+    var trackGroup = new L.featureGroup();
+    trackGroup.addTo(Tracks);
+
+    // Add the track polyline
+    var polyline = L.Polyline.fromEncoded(response.stats.polyline, {
+        color: trackColours[ColourIterator]
+    }).addTo(trackGroup);
+
+    L.marker([polyline._latlngs[0].lat, polyline._latlngs[0].lng]).addTo(trackGroup);
+    addTooltip(trackGroup, response);
+
+    trackGroup.on('dblclick', function(e) {
+        HikeMap.fitBounds(e.target.getBounds());
+    });
+
+    // Different colour next time.
+    if (ColourIterator == trackColours.length - 1) {
+        ColourIterator = 0;
+    } else {
+        ColourIterator += 1;
+    }
+
+    // Add any waypoints
+    for (j = 0; j < response.stats.waypoints.length; j++) {
+        var txt = response.stats.waypoints[j][2]
+            + "<br>" + response.stats.waypoints[j][0]
+            + ","
+            + response.stats.waypoints[j][1]
+            + "<br>Click to Copy Text";
+
+        L.marker([
+            response.stats.waypoints[j][0],
+            response.stats.waypoints[j][1]
+        ],{'icon': orangeIcon})
+        .bindTooltip(txt)
+        .on("click", function(e) {
+            navigator.clipboard.writeText(e.target._tooltip._content.replace("<br>", "\n"));
+            window.alert("Copied \"" + e.target._tooltip._content.replace("<br>", "\n") + "\" to clipboard.");
         })
-        .then(response => {
-            var trackGroup = new L.featureGroup();
-            trackGroup.addTo(Tracks);
-
-            // Add the track polyline
-            var polyline = L.Polyline.fromEncoded(response.stats.polyline, {
-                color: trackColours[ColourIterator]
-            }).addTo(trackGroup);
-
-            L.marker([polyline._latlngs[0].lat, polyline._latlngs[0].lng]).addTo(trackGroup);
-            addTooltip(trackGroup, response);
-
-            trackGroup.on('dblclick', function(e) {
-                HikeMap.fitBounds(e.target.getBounds());
-            });
-
-            // Different colour next time.
-            if (ColourIterator == trackColours.length - 1) {
-                ColourIterator = 0;
-            } else {
-                ColourIterator += 1;
-            }
-
-            // Add any waypoints
-            for (j = 0; j < response.stats.waypoints.length; j++) {
-                var txt = response.stats.waypoints[j][2]
-                    + "<br>" + response.stats.waypoints[j][0]
-                    + ","
-                    + response.stats.waypoints[j][1]
-                    + "<br>Click to Copy Text";
-
-                L.marker([
-                    response.stats.waypoints[j][0],
-                    response.stats.waypoints[j][1]
-                ],{'icon': orangeIcon})
-                .bindTooltip(txt)
-                .on("click", function(e) {
-                    navigator.clipboard.writeText(e.target._tooltip._content.replace("<br>", "\n"));
-                    window.alert("Copied \"" + e.target._tooltip._content.replace("<br>", "\n") + "\" to clipboard.");
-                })
-                .addTo(trackGroup);
-            }
-
-            
-
-            HikeMap.fitBounds(Tracks.getBounds());
-        })
+        .addTo(Tracks);
     }
 }
 
