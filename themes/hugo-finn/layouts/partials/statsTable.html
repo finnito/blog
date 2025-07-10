@@ -43,7 +43,7 @@
     {{ $speed := printf "%.2f" (div (div $totalDist 1000) (div $totalDur 3600)) }}
     <tfoot>
         <tr>
-            <td></td>
+            <td><strong>Total<strong></td>
             <td>{{ printf "%.2f" (div $totalDist 1000) }}km<br/>{{ $hours }}:{{ $minutes }}:{{ $seconds }}</td>
             <td>{{ $speed }}km/hr<br/>{{ $totalElevGain }}m ⬆️, {{ $totalElevLoss }}m ⬇️</td>      
         </tr>
