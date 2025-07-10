@@ -48,12 +48,10 @@
         ];
 
     window.addEventListener("DOMContentLoaded", function() {
-        document.getElementById("hikeMap").addEventListener("click", mapClick);
+        mapClick();
     });
 
     function mapClick() {
-        document.getElementById("hikeMap").removeEventListener("click", mapClick);
-
         function loadResource(url, type) {
             return new Promise(function(resolve, reject) {
                 let resource;
@@ -96,7 +94,6 @@
             Promise.all(scriptPromises)
             .then(function() {
                 initHike();
-                document.querySelector("button.load-map").remove();
             })
             .catch(function(script) {
                 console.log("Error loading: " + script);
