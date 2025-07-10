@@ -1,20 +1,14 @@
 #hikeMap {
   height: 50vh;
-  /*  grid-area: map;*/
   position: relative;
   left: calc((100vw - 100% - 1rem) / -2);
   width: calc(100vw - 1rem);
-/*  background: #56ab2f;*/
-/*  background: -webkit-linear-gradient(to right, #a8e063, #56ab2f);*/
-/*  background: linear-gradient(to right, #a8e063, #56ab2f);*/
   background-color: #9BC9D7;
   display: flex;
 }
 
 .grid {
   position: relative;
-  left: calc((100vw - 100% - 1rem) / -2);
-  width: calc(100vw - 1rem);
 }
 
 .grid figure {

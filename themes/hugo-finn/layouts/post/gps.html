@@ -23,29 +23,17 @@
 </div>
 
 <script>
-    // var GPXFiles = [
-    //     {{ range sort (.Resources.Match "*.gpx") }}
-    //         "{{ .Permalink }}",
-    //     {{ end }}
-    //     ],
-
-        GPXFiles = [
+    var GPXFiles = [
         {{ range .Params.gpxFiles }}
             "https://assets.lesueur.nz/blog/{{$.Page.Slug}}/{{ . }}",
         {{ end }}
-        ],
+    ];
 
-        // GPXDataFiles = [
-        // {{ range sort (.Resources.Match "*.gpx") }}
-        //     "{{ $.Site.BaseURL }}/tracks/{{ index (split .Title ".") 0 }}.json",
-        // {{ end }}
-        // ],
-
-        GPXDataFiles = [
+    var GPXDataFiles = [
         {{ range .Params.gpxFiles }}
             "{{ $.Site.BaseURL }}tracks/{{ strings.Replace . "gpx" "json" }}",
         {{ end }}
-        ];
+    ];
 
     window.addEventListener("DOMContentLoaded", function() {
         mapClick();
@@ -116,7 +104,6 @@
     window.addEventListener("load", function() {
         
         // https://github.com/Spope/MiniMasonry.js/
-        console.log("Init Masonry");
         var grids = document.querySelectorAll('.grid');
         grids.forEach(function(grid) {
             var masonry = new MiniMasonry({
