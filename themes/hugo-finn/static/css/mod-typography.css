@@ -40,6 +40,28 @@ nav > ul a {
 
 h2 a { color: black; }
 
+p {
+  text-align: justify;
+}
+
+p a {
+  border-bottom: 2px dotted var(--main-blue);
+}
+
+p a:hover, p a:active {
+  background-color: var(--main-blue-light);
+}
+
+a.button {
+  background-color: var(--yellowLight);
+  border: 1px solid var(--yellow);
+  padding: 0.1rem 0.25rem;
+  border-radius: 0.25rem;
+  box-shadow: var(--shadow);
+  margin: auto 0.5rem;
+  color: black;
+}
+
 p:has(+ ul) { margin-bottom: 0; }
 
 p:first-child:last-child,
