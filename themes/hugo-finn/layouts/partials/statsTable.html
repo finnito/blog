@@ -4,6 +4,7 @@
         {{ $totalDur := 0 }}
         {{ $totalElevGain := 0 }}
         {{ $totalElevLoss := 0 }}
+        {{ $page := . }}
 
         {{ range .Params.gpxFiles }}
             {{ $track := index $.Site.Data.gpx (strings.TrimSuffix ".gpx" . ) }}
@@ -28,7 +29,7 @@
             {{ $totalElevLoss = add $totalElevLoss $track.stats.downhill }}
 
             <tr>
-                <td><small>{{ $track.stats.date }} [<a onclick='showActivityByName("{{ $track.stats.name }}"); return false;' style='cursor: pointer;'>Show</a>, <a href="{{ . }}">Download GPX</a>]</small><br/>{{ $track.stats.name }}</td>
+                <td><small>{{ $track.stats.date }} <a class="button" href="{{$.Site.Params.assetHostingURL}}{{$page.Slug}}/{{.}}">Download GPX</a></small><br/>{{ $track.stats.name }}</td>
                 <td>{{ $distanceKm }}km<br/>{{ $hours }}:{{ $minutes }}:{{ $seconds }}</td>
                 <td>{{ $speed }}km/hr<br/>{{ $elevGain}}m ⬆️, {{ $elevLoss }}m ⬇️</td>
             </tr>

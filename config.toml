@@ -33,6 +33,7 @@ timeout                 = 600000
   comments              = false
   mainSections          = ["posts", "photos", "reading"]
   imageHostingURL       = "https://imgproxy.lesueur.nz/insecure/"
+  assetHostingURL       = "https://assets.lesueur.nz/blog/"
 
   [Params.Author]
     name                  = "Finn Le Sueur"
