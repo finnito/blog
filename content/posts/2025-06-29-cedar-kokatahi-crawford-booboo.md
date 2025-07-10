@@ -20,7 +20,7 @@ gpxFiles: [
 
 After spending all of Saturday trying to pack for a trip of unknown length we were about ready to get going. We had a prompt start and dropped Korra 🐕 at the kennels before heading across to the West Coast.
 
-As we got walking the weather was a bit mixed: some sun, some clouds, but overall quite still and calm. I was immediately too warm and regretted wearing pants, having left my shorts in the car. Surely—I thought, it would be too cold for short. Surely.
+As we got walking the weather was a bit mixed: some sun, some clouds, but overall quite still and calm. I was immediately too warm and regretted wearing pants, having left my shorts in the car. Surely—I thought, it would be too cold for shorts. Surely.
 
 The track starts along a farm track before quickly entering the bush. From there it undulates alongside the Toaroha, occasionally popping out on to the riverbed. The riverbed travel was quite slick, the morning dew and prior rain having moistened the lichen. We were happy to regain the bush around Charles Ridge!
 
