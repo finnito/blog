@@ -108,9 +108,10 @@
         grids.forEach(function(grid) {
             var masonry = new MiniMasonry({
                 container: grid,
-                baseWidth: 400,
-                gutterX: 5,
+                baseWidth: 375,
+                gutterX: 0,
                 gutterY: 0,
+                ultimateGutter: 0,
                 minify: true
             });
         });
@@ -122,6 +123,7 @@
             closeEffect: 'fade',
             slideEffect: 'fade',
             descPosition: 'right',
+            moreLength: 0,
             loop: false
         });
         
