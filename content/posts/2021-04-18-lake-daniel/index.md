@@ -11,7 +11,7 @@ people: ["Finn", "Jen"]
 gpxFiles: ["Lake_Daniell.gpx"]
 ---
 
-After being very patient with all the driving I was putting her through to do [Loop the Lake](/posts/loop-the-lake-2021) we decided to stop in Lewis Pass to do a run on our way home. What better run to do after a race than a nice _flat_ cruise into Lake Daniell!
+After being very patient with all the driving I was putting her through to do [Loop the Lake](/posts/loop-the-lake-2021/) we decided to stop in Lewis Pass to do a run on our way home. What better run to do after a race than a nice _flat_ cruise into Lake Daniell!
 
 I had been there some years ago to camp the night but couldn't really remember much about the track or much about the distance (and I hadn't done my research) but we turned up ready to go! The track is extremely nice the whole way. It is well formed, good underfoot and not too rocky. There are some small climbs, but it is just a gentle undulation with about 150m gain each way. It took us 1hr to run each direction with a quick break at the hut to cool down and stretch the legs.
 
