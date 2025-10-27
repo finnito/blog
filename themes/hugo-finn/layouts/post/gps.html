@@ -7,7 +7,7 @@
 
     {{ with .Params.people }}
     <br/><strong>People:</strong> {{ range $index, $person := . }}
-    <a href="/people#{{ anchorize $person }}" title="View trips with {{ $person }}.">
+    <a href="/people/#{{ anchorize $person }}" title="View trips with {{ $person }}.">
         {{ $person -}}
     </a>{{- if lt $index (sub (len $.Params.people) 1)}}, {{ end -}}{{ end }}
     {{ end }}

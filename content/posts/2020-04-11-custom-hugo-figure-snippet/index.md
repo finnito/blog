@@ -24,13 +24,13 @@ These snippet files are special because any Hugo functions inside the snippet ar
 
 Here is how I call my snippet, where `src`, `title`, and `author` are the arguments passed to the `figure.html` snippet.
 
-```
+```html
 {{</* figure name="" title="" author="" */>}}
 ```
 
 And, here is how the snippet works, where the main takeaway is `{{ .Get "src" }}` is how to get an argument input!
 
-```
+```html
 {{ $img := (index (.Page.Resources.Match (print (.Get "name") ".*")) 0) }}
 {{ $img512 := (index (.Page.Resources.Match (print (.Get "name") "-512.webp")) 0) }}
 {{ $img1024 := (index (.Page.Resources.Match (print (.Get "name") "-1024.webp")) 0) }}
@@ -53,7 +53,7 @@ And, here is how the snippet works, where the main takeaway is `{{ .Get "src" }}
 </figure>
 ```
 
-Pretty sweet! I've even got `:figure` mapped as a text expansion shortcut so I don't have to remember the syntax each time! Click through to read about [responsively serving images with srcset][3], or click through to read about [my image resizing service, AutoImageResizer][4], head over here!
+Pretty sweet! I've even got `:figure` mapped as a text expansion shortcut so I don't have to remember the syntax each time!
 
 Happy developing!
 
@@ -62,12 +62,8 @@ Happy developing!
 ## References
 - [Daring Fireball: Markdown][1]
 - [GoHugo: Shortcodes][2]
-- [Finn LeSueur: Figure, Srcset & Lazy Loading][3]
-- [Finn LeSueur: AutoImageResizer][4]
 - [GoHugo][5]
 
 [1]: https://daringfireball.net/projects/markdown/syntax "Daring Fireball: Markdown"
 [2]: https://gohugo.io/content-management/shortcodes/ "GoHugo: Shortcodes"
-[3]: https://finn.lesueur.nz/posts/lazy-loading/ "Finn LeSueur: Figure, Srcset & Lazy Loading"
-[4]: https://finn.lesueur.nz/posts/auto-image-resizer/ "Finn LeSueur: AutoImageResizer"
 [5]: https://gohugo.io/ "GoHugo"

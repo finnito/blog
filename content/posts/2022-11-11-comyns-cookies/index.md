@@ -34,7 +34,7 @@ As you round the corner out of Mutton Gully, Comyns Hut will pop into view. It i
 {{< figure2 name="IMG_8723.jpg" width="5488" height="3662" title="Jen cruising up towards Turton's Saddle." >}}
 {{< figure2 name="IMG_8728.jpg" width="5488" height="3662" title="Looking down Glenrock Stream from Turton's Saddle with the Wilberforce in the distance." >}}
 {{< figure2 name="IMG_8729.jpg" width="5488" height="3662" title="Motoring along Turton's Saddle being assaulted by flies." >}}
-{{< figure2 name="IMG_8735.jpg" width="5488" height="3662" title="A [Kārearea (New Zealand Falcon)](https://nzbirdsonline.org.nz/species/new-zealand-falcon) watches us pass by." >}}
+{{< figure2 name="IMG_8735.jpg" width="5488" height="3662" title="A [Kārearea (New Zealand Falcon)](https://www.nzbirdsonline.org.nz/species/new-zealand-falcon) watches us pass by." >}}
 {{< figure2 name="IMG_8742.jpg" width="5488" height="3662" title="Crossing Turton's Stream on the way downstream." >}}
 
 ## Day 2: Cookies Hut
@@ -65,7 +65,7 @@ Cookie's Hut is in a great location and condition, with views up Middle Creek an
 {{< figure2 name="IMG_8784.jpg" width="5488" height="3662" title="Jen looking at me questioningly as we consider clinging to rocks alongside the rapid." >}}
 {{< figure2 name="IMG_8798.jpg" width="5488" height="3662" title="Lots of what I think are [Karoro (Souther black-backed gull)](https://www.nzbirdsonline.org.nz/species/southern-black-backed-gull) at Cookies Point keeping us company over lunch." >}}
 {{< figure2 name="IMG_8799.jpg" width="5488" height="3662" title="Jen looking up Swift River." >}}
-{{< figure2 name="IMG_8809.jpg" width="5488" height="3662" title="A [Tōrea pango (variable oystercatcher)](https://nzbirdsonline.org.nz/species/variable-oystercatcher) which we accidentally disturbed on Swift River." >}}
+{{< figure2 name="IMG_8809.jpg" width="5488" height="3662" title="A [Tōrea pango (variable oystercatcher)](https://www.nzbirdsonline.org.nz/species/variable-oystercatcher) which we accidentally disturbed on Swift River." >}}
 
 ## Day 3: Out
 {{< stats track="2022-11-13-Comyns_Cookies_D3_Out" >}}

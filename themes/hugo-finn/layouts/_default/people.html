@@ -16,7 +16,7 @@
             <li id="{{ anchorize $person }}">{{ $person }} <a href="#{{ anchorize $person }}" title="Anchor page to {{ $person }}.">#</a></li>
             <ul>
                 {{ range where $.Site.Pages "Params.people" "intersect" (slice $person) }}
-                <li>{{ .Params.emoji }} <a href="/posts/{{ .Slug }}" title="{{ .Title }}">{{ .Title }}</a></li>
+                <li>{{ .Params.emoji }} <a href="{{ .Permalink }}" title="{{ .Title }}">{{ .Title }}</a></li>
                 {{ end }}
             </ul>
         {{ end }}

@@ -54,7 +54,7 @@ Martin's Bay Hut is lovely, but the sandflies are pretty vicious. We found the b
 {{< figure2 name="IMG_4654.jpeg" width="4032" height="3024" title="Jen readying the boat as I take photos." >}}
 {{< figure2 name="IMG_4668.jpeg" width="4032" height="3024" title="Looking back towards Lake McKerrow Hut to admire the sunrise." >}}
 {{< figure2 name="IMG_4693.jpeg" width="4032" height="3024" title="Looking down Martin's Bay spit." >}}
-{{< figure2 name="IMG_4717.jpeg" width="4032" height="3024" title="Tara ([White-fronted Tern](https://nzbirdsonline.org.nz/species/white-fronted-tern)) at Martin's Bay lagoon." >}}
+{{< figure2 name="IMG_4717.jpeg" width="4032" height="3024" title="Tara ([White-fronted Tern](https://www.nzbirdsonline.org.nz/species/white-fronted-tern)) at Martin's Bay lagoon." >}}
 
 ## Day 3: Big Bay Hut
 {{< stats track="HP_D3_Big_Bay_Hut" >}}

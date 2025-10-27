@@ -33,11 +33,5 @@ The last thing to do is to descend back down the __View Hill - Mt Oxford Track__
 
 {{< figure2 name="IMG_0421.jpg" width="1024" height="768" author="Finn Le Sueur" title="Jen secending View Hill - Mt Oxford Track" >}}
 
-[wdht]: https://www.doc.govt.nz/parks-and-recreation/places-to-go/canterbury/places/oxford-forest-conservation-area/things-to-do/tracks/wharfedale-hut-tracks/
-[mto]: https://www.doc.govt.nz/parks-and-recreation/places-to-go/canterbury/places/oxford-forest-conservation-area/things-to-do/tracks/mt-oxford-tracks/
-
-### References:
-
-- Wharfedale Hut Tracks: https://www.doc.govt.nz/parks-and-recreation/places-to-go/canterbury/places/oxford-forest-conservation-area/things-to-do/tracks/wharfedale-hut-tracks/
-- Mt Oxford Tracks: https://www.doc.govt.nz/parks-and-recreation/places-to-go/canterbury/places/oxford-forest-conservation-area/things-to-do/tracks/mt-oxford-tracks/
-- Oxford Forest Conservation Area: https://www.doc.govt.nz/globalassets/documents/parks-and-recreation/tracks-and-walks/canterbury/waimakariri/foothills-forests-brochure.pdf
+[wdht]: https://www.doc.govt.nz/parks-and-recreation/places-to-go/canterbury/places/oxford-forest-conservation-area/things-to-do/tracks/wharfedale-track/
+[mto]: https://www.doc.govt.nz/parks-and-recreation/places-to-go/canterbury/places/oxford-forest-conservation-area/things-to-do/tracks/ryde-falls-tracks/

@@ -121,7 +121,7 @@ Thank you for the work you do in representing us!
 ```
 
 ### Write to your Member of Parliment & Education Ministers
-Find your member of parliament [here](https://www.parliament.nz/media/8879/members-contact-details-as-at-21-december-2021-pdf.pdf).
+Find your member of parliament [here](https://www3.parliament.nz/en/get-involved/have-your-say/contact-an-mp).
 
 - Chris Hipkins: chris.hipkins@parliament.govt.nz
 - Jan Tinetti: jan.tinetti@parliament.govt.nz

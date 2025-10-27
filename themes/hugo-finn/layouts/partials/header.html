@@ -11,6 +11,7 @@
     <title>{{ with .Title }}{{ . }} | {{ end }}{{ .Site.Title }}</title>
     <meta property="og:title" content="{{ .Title }} | {{ .Site.Title }}">
     <meta name="title" content="{{ .Title }} | {{ .Site.Title }}">
+    <meta property="twitter:title" content="{{ .Title }} | {{ .Site.Title }}">
     
     {{ $page := . }}
 
@@ -18,16 +19,20 @@
       {{ if in "gps multiGPS inreach" $page.Params.layout }}
       <meta name="description" content="Trip Report: {{ . }}">
       <meta property="og:description" content="Trip Report: {{ . }}">
+      <meta property="twitter:description" content="Trip Report: {{ . }}">
       {{ else }}
       <meta name="description" content="{{ . }}">
       <meta property="og:description" content="{{ . }}">
+      <meta property="twitter:description" content="{{ . }}">
       {{ end }}
     {{ end }}
     {{ with .Params.metaImage }}
       <meta property="og:image" content='{{ path.Join $page.Site.Params.imageHostingURL "resize:fill:1024:0:0:0/plain/" "local:///blog/" $page.Slug . }}'>
+      <meta property="twitter:image" content='{{ path.Join $page.Site.Params.imageHostingURL "resize:fill:1024:0:0:0/plain/" "local:///blog/" $page.Slug . }}'>
     {{ end }}
     
     <meta property="og:type" content="website">
+    <meta property="twitter:card" content="summary">
     <meta property="og:url" content="{{ .Permalink }}">
 
     <style>
