@@ -26,6 +26,15 @@
       <meta property="twitter:description" content="{{ . }}">
       {{ end }}
     {{ end }}
+
+    {{ if eq $page.Section "photos" }}
+    <meta name="description" content="{{ $page.Content }}">
+    <meta property="og:description" content="{{ $page.Content }}">
+    <meta property="twitter:description" content="{{ $page.Content }}">
+    <meta property="og:image" content='{{ path.Join $page.Site.Params.imageHostingURL "resize:fill:1024:0:0:0/plain/" "local:///blog/" $page.Slug . }}'>
+    <meta property="twitter:image" content='{{ path.Join $page.Site.Params.imageHostingURL "resize:fill:1024:0:0:0/plain/" "local:///blog/" $page.Slug . }}'>
+    {{ end }}
+
     {{ with .Params.metaImage }}
       <meta property="og:image" content='{{ path.Join $page.Site.Params.imageHostingURL "resize:fill:1024:0:0:0/plain/" "local:///blog/" $page.Slug . }}'>
       <meta property="twitter:image" content='{{ path.Join $page.Site.Params.imageHostingURL "resize:fill:1024:0:0:0/plain/" "local:///blog/" $page.Slug . }}'>
