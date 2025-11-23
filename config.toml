@@ -32,7 +32,6 @@ timeout                 = 600000
   rss                   = true
   comments              = false
   mainSections          = ["posts", "photos", "reading"]
-  imageHostingURL       = "https://imgproxy.lesueur.nz/insecure/"
   assetHostingURL       = "https://assets.lesueur.nz/blog/"
 
   [Params.Author]

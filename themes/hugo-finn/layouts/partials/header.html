@@ -32,13 +32,20 @@
     <meta name="description" content="{{ $page.Content }}">
     <meta property="og:description" content="{{ $page.Content }}">
     <meta property="twitter:description" content="{{ $page.Content }}">
-    <meta property="og:image" content='{{ path.Join $page.Site.Params.imageHostingURL "resize:fill:1024:0:0:0/plain/" "local:///blog/" $page.Slug . }}'>
-    <meta property="twitter:image" content='{{ path.Join $page.Site.Params.imageHostingURL "resize:fill:1024:0:0:0/plain/" "local:///blog/" $page.Slug . }}'>
+
+    {{ $ogImagePath := urls.JoinPath "fit-in/1024x/blog/" $page.File.Dir $page.Params.image }}
+    {{ $ogImageSignature := hmac "sha1" (getenv "HUGO_IMAGOR_SHA_SECRET") $ogImagePath "binary" | base64Encode | replaceRE `\+` "-" | replaceRE `\/` "_" }}
+    {{ $ogImageURL := urls.JoinPath "https://imagor.lesueur.nz" $ogImageSignature $ogImagePath }}
+    <meta property="og:image" content='{{ $ogImageURL }}'>
+    <meta property="twitter:image" content='{{ $ogImageURL }}'>
     {{ end }}
 
     {{ with .Params.metaImage }}
-      <meta property="og:image" content='{{ path.Join $page.Site.Params.imageHostingURL "resize:fill:1024:0:0:0/plain/" "local:///blog/" $page.Slug . }}'>
-      <meta property="twitter:image" content='{{ path.Join $page.Site.Params.imageHostingURL "resize:fill:1024:0:0:0/plain/" "local:///blog/" $page.Slug . }}'>
+      {{ $ogImagePath := urls.JoinPath "fit-in/1024x/blog/" $page.Slug . }}
+      {{ $ogImageSignature := hmac "sha1" (getenv "HUGO_IMAGOR_SHA_SECRET") $ogImagePath "binary" | base64Encode | replaceRE `\+` "-" | replaceRE `\/` "_" }}
+      {{ $ogImageURL := urls.JoinPath "https://imagor.lesueur.nz" $ogImageSignature $ogImagePath }}
+      <meta property="og:image" content='{{ $ogImageURL }}'>
+      <meta property="twitter:image" content='{{ $ogImageURL }}'>
     {{ end }}
     
     <meta property="og:type" content="website">
