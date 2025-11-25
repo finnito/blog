@@ -1,13 +1,28 @@
-{{ $imagePath := path.Join "local:///blog/" .File.Dir .Params.image }}
+
+{{ $path512 := urls.JoinPath "fit-in/512x/blog/" .File.Dir .Params.image }}
+{{ $signature512 := hmac "sha1" (getenv "HUGO_IMAGOR_SHA_SECRET") $path512 "binary" | base64Encode | replaceRE `\+` "-" | replaceRE `\/` "_" }}
+{{ $fullURL512 := urls.JoinPath "https://imagor.lesueur.nz" $signature512 $path512 }}
+
+{{ $path1024 := urls.JoinPath "fit-in/1024x/blog/" .File.Dir .Params.image }}
+{{ $signature1024 := hmac "sha1" (getenv "HUGO_IMAGOR_SHA_SECRET") $path1024 "binary" | base64Encode | replaceRE `\+` "-" | replaceRE `\/` "_" }}
+{{ $fullURL1024 := urls.JoinPath "https://imagor.lesueur.nz" $signature1024 $path1024 }}
+
+{{ $path2048 := urls.JoinPath "fit-in/2048x/blog/" .File.Dir .Params.image }}
+{{ $signature2048 := hmac "sha1" (getenv "HUGO_IMAGOR_SHA_SECRET") $path2048 "binary" | base64Encode | replaceRE `\+` "-" | replaceRE `\/` "_" }}
+{{ $fullURL2048 := urls.JoinPath "https://imagor.lesueur.nz" $signature2048 $path2048 }}
+
+{{ $path3096 := urls.JoinPath "fit-in/3096x/blog/" .File.Dir .Params.image }}
+{{ $signature3096 := hmac "sha1" (getenv "HUGO_IMAGOR_SHA_SECRET") $path3096 "binary" | base64Encode | replaceRE `\+` "-" | replaceRE `\/` "_" }}
+{{ $fullURL3096 := urls.JoinPath "https://imagor.lesueur.nz" $signature3096 $path3096 }}
 
 <figure>
-    <a href='{{ path.Join .Site.Params.imageHostingURL "resize:fill:0:0:0:0/plain/" $imagePath }}' title='Full size image: {{ .Params.title }}'>
+    <a href='{{ $fullURL3096 }}' title='Full size image: {{ .Params.title }}'>
         <img
-            srcset='{{ path.Join .Site.Params.imageHostingURL "resize:fill:512:0:0:0/plain/" $imagePath }} 512w,
-                {{ path.Join .Site.Params.imageHostingURL "resize:fill:1024:0:0:0/plain/" $imagePath }} 1024w,
-                {{ path.Join .Site.Params.imageHostingURL "resize:fill:2048:0:0:0/plain/" $imagePath }} 2048w'
+            srcset='{{ $fullURL512 }} 512w,
+                {{ $fullURL1024 }} 1024w,
+                {{ $fullURL2048 }}'
             sizes='(min-width: 780px) 584px, calc(100vw - 16px)'
-            src='{{ path.Join .Site.Params.imageHostingURL "resize:fill:0:0:0:0/plain/" $imagePath }}'
+            src='{{ $fullURL3096 }}'
             alt='{{ .Params.title }}'
             loading='lazy'
             {{ with .Params.height }}height='{{ . }}'{{ end }}
