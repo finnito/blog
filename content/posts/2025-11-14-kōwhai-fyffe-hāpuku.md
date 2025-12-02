@@ -67,7 +67,7 @@ At the hut we met two hunters who told us their dog had run off into the bush th
 
 ## Day 3: Out via Hāpuku River
 
-
+After getting back to the hut very late, the hunters also got up quite early to go for another stalk before heading out. We rolled out of bed not too long after them, but were in much less of a hurry to get out. We had heard that taking the river to the Hāpuku road end was a good deal slower than the track, despite the slip
 
 > ☕️ Muesli & coffee<br/>
 > 🥜 Nut bar x2<br/>
