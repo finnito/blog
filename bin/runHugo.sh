@@ -8,7 +8,6 @@ hugo server \
 	--forceSyncStatic \
 	--buildDrafts \
 	--renderStaticToDisk \
-	--gc \
  	--logLevel info \
   	--navigateToChanged \
 	--noHTTPCache \
