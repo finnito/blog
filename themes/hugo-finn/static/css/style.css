@@ -5,9 +5,9 @@
   --grey: #34495e;
   --white: #FFFFFF;
   --green: #009432;
-  --yellowLight: rgba(241, 196, 15, 0.5);
+  --yellowLight: rgba(241, 196, 15, 0.25);
   --yellow: rgba(241, 196, 15, 1);
-  --orangeLight: rgba(230, 126, 34, 0.5);
+  --orangeLight: rgba(230, 126, 34, 0.25);
   --orange: rgba(230, 126, 34, 1);
   --purpleLight: rgba(155, 89, 182, 0.5);
   --purple: rgba(155, 89, 182, 1);
