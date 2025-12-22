@@ -8,6 +8,13 @@
     <link rel="sitemap" type="application/xml" title="Sitemap" href="/sitemap.xml" />
     <link rel="canonical" href="{{ .Permalink }}" />
     <meta name="robots" content="index">
+    
+    {{ if in "gps multiGPS inreach" .Params.layout }}
+        <link rel="preconnect" href="https://imagor.lesueur.nz" />
+        <link rel="preconnect" href="https://isso.lesueur.nz" />
+    {{ end }}
+
+    <link rel="preload" href="/css/glightbox.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
 
     <title>{{ with .Title }}{{ . }} | {{ end }}{{ .Site.Title }}</title>
     <meta property="og:title" content="{{ .Title }} | {{ .Site.Title }}">
