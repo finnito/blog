@@ -25,10 +25,6 @@
     {{end}}
 
     {{ .Content }}
-
-    <button class="load-comments" data-title="{{ .Title }}" data-isso-id="{{ .Slug }}" onclick="loadComments();">Load Comments</button>
-
-    {{ partial "isso-script.html" . }}
 </div>
 
 {{ partial "footer.html" . }}
