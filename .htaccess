@@ -1,0 +1,14 @@
+<IfModule mod_headers.c>
+    <FilesMatch "\.(jpg|jpeg|png|gif|webp)$">
+        Header set Cache-Control "max-age=604800, public"
+    </FilesMatch>
+                
+    <FilesMatch "\.(js|css|swf)$">
+        Header set Cache-Control "max-age=2592000"
+    </FilesMatch>
+                                
+    <FilesMatch "\.(multiHike.js)$">
+        Header set Cache-Control "max-age=43200"
+    </FilesMatch>
+
+</IfModule>
