@@ -29,7 +29,7 @@
             {{ $totalElevLoss = add $totalElevLoss $track.stats.downhill }}
 
             <tr>
-                <td><small>{{ $track.stats.date }} <a class="button" href="{{$.Site.Params.assetHostingURL}}{{$page.Slug}}/{{.}}">Download GPX</a></small><br/>{{ $track.stats.name }}</td>
+                <td><small>{{ $track.stats.date }} <a class="button" title="Download the GPX file for {{$track.stats.name}}" href="{{$.Site.Params.assetHostingURL}}{{$page.Slug}}/{{.}}" download>Download GPX</a></small><br/>{{ $track.stats.name }}</td>
                 <td>{{ $distanceKm }}km<br/>{{ $hours }}:{{ $minutes }}:{{ $seconds }}</td>
                 <td>{{ $speed }}km/hr<br/>{{ $elevGain}}m ⬆️, {{ $elevLoss }}m ⬇️</td>
             </tr>
