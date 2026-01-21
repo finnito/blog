@@ -17,6 +17,17 @@ I built this app as a hobby project in early 2023 when I received news that I wa
 
 ## Version History
 
+### 2026.1 (Jan 21, '26)
+
+- <mark>Feature: Adds ability to log half-mg doses (e.g. 2.5mg, 7.5mg).</mark>
+- Feature: Adds interactive widgets (dashboard & quick-entry).
+- Feature: Adds average dose (mg/day) information to the "All INR" view.
+- Feature: Improve Shortcuts actions.
+- Fix: Dismiss medication reminder when a dose is logged.
+- Fix: Improve the code backing icon-changing.
+- Fix: Hide non-user-facing AppIntents from Siri.
+- Fix: Various layout and UI tweaks and improvements to consistency.
+
 ### 2023.4 (Dec 17, '23)
 
 - Feature: Adds ability to customise the app icon.
