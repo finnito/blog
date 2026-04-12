@@ -93,4 +93,4 @@ Mā te wā 👋
 [^10]: https://www.cedars-sinai.org/health-library/diseases-and-conditions/o/open-aortic-repairs.html
 [^11]: https://www.mayoclinic.org/diseases-conditions/dilated-cardiomyopathy/symptoms-causes/syc-20353149
 [^12]: https://www.youtube.com/watch?v=uFoUATyZvLQ
-[^13]: https://www.pennmedicine.org/for-patients-and-visitors/patient-information/conditions-treated-a-to-z/dilated-cardiomyopathy
+[^13]: https://www.pennmedicine.org/conditions/dilated-cardiomyopathy

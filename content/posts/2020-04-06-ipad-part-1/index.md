@@ -51,7 +51,7 @@ All in all, pretty successful and I can seem to get most of my work done here so
 —- Finn 👋
 
 ### References
-- [Sentinel 3: iOS App Store][1]
+- Sentinel 3: iOS App Store
 - [Building this Website][2]
 - [Working Copy: iOS App Store][3]
 - [Terminus: iOS App Store][4]
@@ -60,7 +60,6 @@ All in all, pretty successful and I can seem to get most of my work done here so
 - [Microsoft Remote Desktop: iOS App Store][7]
 - [ForticlientVPN: iOS App Store][8]
 
-[1]: https://apps.apple.com/nz/app/sentinel-3-homeworld/id415917116?mt=12 "Sentinel 3 on the iOS App Store"
 [2]: https://finn.lesueur.nz/posts/building-this-website/ "Building This Website"
 [3]: https://apps.apple.com/nz/app/working-copy-git-client/id896694807 "Working Copy on the iOS App Store"
 [4]: https://apps.apple.com/nz/app/termius-ssh-client/id549039908 "Terminus on the iOS App Store"

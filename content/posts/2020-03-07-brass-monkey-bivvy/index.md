@@ -80,7 +80,7 @@ Overall, we had an excellent weekend and really enjoyed our first experience of 
 [2]: https://apps.apple.com/nz/app/nz-topo50-south-island/id605676156 "NZ Topo50 South Island iOS App"
 [3]: https://goo.gl/maps/M4bCCM8F13vuadVL7 "St James Walkway Carpark"
 [4]: https://www.doc.govt.nz/parks-and-recreation/places-to-go/canterbury/places/lake-sumner-forest-park/things-to-do/huts/nina-hut/ "DOC: Nina Hut"
-[5]: https://www.doc.govt.nz/parks-and-recreation/places-to-go/west-coast/places/lewis-pass-scenic-reserve/things-to-do/huts/brass-monkey-bivvy/ "Brass Monkey Bivvy"
+[5]: https://web.archive.org/web/20221128023704/https://www.doc.govt.nz/parks-and-recreation/places-to-go/west-coast/places/lewis-pass-scenic-reserve/things-to-do/huts/brass-monkey-bivvy/ "Brass Monkey Bivvy"
 [6]: https://www.doc.govt.nz/parks-and-recreation/places-to-go/canterbury/places/lake-sumner-forest-park/things-to-do/huts/lucretia-hut/ "Lucretia Bivvy"
 [7]: https://hikingisgood.com/brass-monkey-bivouac-from-lucretia-valley-and-down-via-duchess-stream/ "Hiking is Good: Lucretia Valley"
 [8]: https://www.maruiahotsprings.nz/ "Maruria Hot Springs"
