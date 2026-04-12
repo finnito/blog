@@ -46,7 +46,7 @@ This is measured through a relatively simple finger-prick blood test and can be 
 For example, a normal INR range is from around 0.8–1.2. This means that a patient not on anticoagulation medicines would have a prothrombin time of 9.6–14.4 seconds, given an average of 12 seconds. When you take anticoagulation drugs (e.g. warfarin), your time to form a clot increases – sometimes by a lot! The therapeutic range for most valves is between 2.5–3.5, meaning a prothrombin time of 30–42 seconds.[^4] The higher the INR, the more bleedy you are and the less likely to form a clot on the prosthesis.
 
 <figure>
-    <img src="https://roche.scene7.com/is/image/RocheDiaProd/cps-hero-coaguchek-inrange-handling-video?scl=1&fmt=png-alpha" loading="lazy"/>
+    <img src="https://healthify.nz/assets/Health-A-Z/Cardiac/CoaguChek-INRange-test-meter-and-supplies-Roche__ResizedImageWzcwMCwzNjhd.png" loading="lazy"/>
     <figcaption>
         <p>Roche CoaguChek INRange System used for patient self-monitoring of INR.</p>
     </figcaption>
