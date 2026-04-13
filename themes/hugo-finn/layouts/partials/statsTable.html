@@ -7,7 +7,7 @@
         {{ $page := . }}
 
         {{ range .Params.gpxFiles }}
-            {{ $track := index $.Site.Data.gpx (strings.TrimSuffix ".gpx" . ) }}
+            {{ $track := index hugo.Data.gpx (strings.TrimSuffix ".gpx" . ) }}
 
             {{ $distanceKm := printf "%.2f" (div $track.stats.distance 1000) }}
             {{ $totalDist = add $totalDist $track.stats.distance }}
