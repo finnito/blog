@@ -6,6 +6,7 @@ emoji: 💻
 metaDescription: "URL schemes are indispensable to anyone who uses iOS heavily and dabbles in automation. Read on to get an introductory guide to using the OmniFocus URL scheme to supercharge your iOS productivity!"
 metaImage: "OmniFocus-URL-Scheme.png"
 prism: "true"
+expiryDate: 2026-04-01
 ---
 
 URL schemes are indispensable to anyone who uses iOS heavily and dabbles in automation. They allow users to make deep-links into apps and to automate actions using apps such as [Siri Shortcuts][ss], [Editorial][ed] or [Drafts][dr].

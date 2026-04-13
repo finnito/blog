@@ -5,7 +5,7 @@ date: 2022-04-19
 emoji: 🛶
 type: "post"
 layout: "gps"
-metaDescription: ""
+metaDescription: "A fun day on the water to test our new (to us) Kokopelli Twain!"
 metaImage: "IMG_3656.jpeg"
 people: ["Finn", "Jen"]
 gpxFiles: ["2022-04-19-1-Packrafting_on_the_Waimak.gpx","2022-04-19-2-Bike_To_Car.gpx"]

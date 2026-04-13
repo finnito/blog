@@ -6,6 +6,7 @@ type: "post"
 series: ["Journey to 100"]
 emoji: ✍️
 metaDescription: "The first post talking about my journey to a 100km run."
+expiryDate: 2026-04-01
 ---
 
 Somewhere during the week of May 2nd, 2022, I had the idea of setting myself the goal of doing a 100km run. Not as a race, but just a thing to do. Around this time I had a resurgence of running, a little bit at least. I was running every morning with my dog as a way to give her some activity before being confined at home while my partner and I go to work.

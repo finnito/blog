@@ -5,7 +5,7 @@ date: 2021-07-13
 emoji: 🏃
 type: "post"
 layout: "gps"
-metaDescription: "A quick and well-formed trail in to Matiri Hut and Lake. It passes through a newly built hydroelectric scheme and would make a good jumping-off point for futher exploring."
+metaDescription: "A quick and well-formed trail in to Matiri Hut and Lake. It would make a good jumping-off point for futher exploring."
 metaImage: "20210713_153258.jpg"
 people: ["Finn", "Jen"]
 gpxFiles: ["Matiri_Hut.gpx"]

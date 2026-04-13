@@ -1,5 +1,5 @@
 ---
-title: "Using Garmin's Virtual Run for Bluetooth HR on Tacx and Zwift"
+title: "Using Garmin's Virtual Run for Bluetooth HR"
 slug: "garmin-watch-bluetooth-hr-with-tacx-zwift"
 date: "2020-04-15T00:21:12+12:00"
 categories: ["Sport", "iPad"]

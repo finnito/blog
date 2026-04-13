@@ -1,5 +1,5 @@
 ---
-title: "Markdown Table Generator - An Apple Shortcut to make your Markdown life easier"
+title: "Markdown Table Generator"
 date: 2020-04-29T20:09:12+12:00
 slug: markdown-table-generator
 emoji: 📱

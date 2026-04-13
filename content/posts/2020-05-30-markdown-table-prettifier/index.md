@@ -1,5 +1,5 @@
 ---
-title: "Markdown Table Prettifier - A Scriptable action to make your Markdown tables more readable."
+title: "Markdown Table Prettifier"
 date: 2020-04-30T14:03:47+12:00
 slug: "markdown-table-prettifier"
 emoji: 📱

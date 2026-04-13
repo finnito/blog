@@ -5,7 +5,7 @@ date: 2020-03-07
 emoji: 🏔
 type: "post"
 layout: "gps"
-metaDescription: "Brass Monkey Bivvy is an adorable 2-bed backcountry hut accessible by some beautiful unmarked tops and valleys. I cannot recommend it highly enough!"
+metaDescription: "Brass Monkey Bivvy is an adorable 2-bed backcountry hut (since replaced) accessible by some beautiful unmarked tops and valleys."
 metaImage: "IMG_7936.jpg"
 people: ["Finn", "Jen"]
 gpxFiles: ["Day_1_Brass_Monkey_Bivvy_via_Lewis_Tops.gpx","Day_2_Out_via_Lucretia_Bivvy.gpx"]

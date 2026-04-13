@@ -3,7 +3,7 @@ title: "Exit Interview: Kindle Paperwhite 2 (2013)"
 slug: exit-interview-kindle-paperwhite-2-2013
 date: 2022-02-19T18:56:34+13:00
 emoji: 💻
-metaDescription: An excellent product of its time, but one which has aged badly in the world of Libby, fast hardware and improvements in ergonomics.
+metaDescription: "An excellent product of its time, but one which has aged badly in the world of Libby, fast hardware and improvements in ergonomics."
 ---
 
 Getting an e-reader was a revolution back when I bought this in 2013. It was small, portable, had a backlight, could store as many books as I wanted, and had a battery life measured in weeks. It used it heavily, but then less as my reading habit fell to the wayside while I was at University.
