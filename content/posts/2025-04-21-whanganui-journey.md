@@ -50,7 +50,7 @@ Also, we did try (unsuccessfully) to kill a possum with a rock, but we won't get
 
 Today the river was running slightly high due to the recent rain, but not so much that it would cause any problems. Instead, it would simply smooth out a few rapids and ensure we had a reasonably speedy trip. Ideal! I'm under the impression that the river is always this brown, though.
 
-We hit the river and soon after were greeted with some more rain! On went the jackets we just kept paddling – you get damp in a canoe anyway. When it came to lunch, we paddled up Retaruke River to tie our boats to the banks and take the short track to Whakahoro Campsite. The campsite was rather large with several toilets, bunk rooms (an old school?) and a few shelters with tables. We had also hoped to get some kai and coffee from [Blue Duck Station](https://www.blueduckstation.co.nz/) which is sometimes open, but not today. Alas.
+We hit the river and soon after were greeted with some more rain! On went the jackets we just kept paddling – you get damp in a canoe anyway. When it came to lunch, we paddled up Retaruke River to tie our boats to the banks and take the short track to Whakahoro Campsite. The campsite was rather large with several toilets, bunk rooms (an old school?) and a few shelters with tables. We had also hoped to get some kai and coffee from [Blue Duck Station](https://blueduckstation.co.nz) which is sometimes open, but not today. Alas.
 
 As we paddled the rest of the way to Mangapapa Campsite the bush lining the banks became denser and more of a constant. On the upper reaches of the Whanganui, there is a good deal of farmland around, but as you enter Whanganui National Park that definitely changes.
 

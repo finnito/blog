@@ -21,7 +21,7 @@ As of July 2021 there is still an alert on the DOC page:
 > 
 > Construction work on the Matiri hydroelectricity scheme is taking place in the Matiri Valley, affecting public access in the area. Work is expected to be completed later in 2021. See full details on the Pioneer Energy website.
 
-Alright, I hopped over to the [Pioneer Energy website](https://www.pioneerenergygroup.co.nz/projects-and-partnerships/new-developments-and-projects/matiri-project-information/) and found __you should go to the hut at the start of the track and follow the instructions inside to alert the workers to your presence__. This will allow them to give you safe passage through, if necessary. That sounds easy enough but we got no response on the radio, and later decided that it was actually turned off. Perhaps construction is complete, or perhaps they are not working over winter. Either way, we decided to go!
+Alright, I hopped over to the [Pioneer Energy website](https://www.pioneerenergyrenewables.co.nz/our-locations/matiri-hydro) and found __you should go to the hut at the start of the track and follow the instructions inside to alert the workers to your presence__. This will allow them to give you safe passage through, if necessary. That sounds easy enough but we got no response on the radio, and later decided that it was actually turned off. Perhaps construction is complete, or perhaps they are not working over winter. Either way, we decided to go!
 
 It starts as a very well formed 4WD track, and you can see where a large hydroelectric pipe has been buried, or is sometimes above ground. It seems very large, but dwarfs the pipes at the more major hydroelectric facilities!
 

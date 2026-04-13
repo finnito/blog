@@ -11,7 +11,7 @@ When I started teaching in 2019 here in New Zealand our union collective agreeme
 
 ![Back the Teachers](https://www.ppta.org.nz/assets/Featured/Back-the-teachers-PHIBBSVISUALS-TEACHERS-1web__FillMaxWzgwMCw0MDBd.jpg)
 
-We got 9% pay increase over three years; an extra pay step was introduced; management units were increased; addition of gender neutral pronouns in the parental leave clause; Māori immersion teacher allowance; career advisor allowance; one-off gross payment of $1500; and a few other miscellanous things. [Read the full list here](https://www.ppta.org.nz/collective-agreements/secondary-teachers-collective-agreement-stca/terms-of-settlement).
+We got 9% pay increase over three years; an extra pay step was introduced; management units were increased; addition of gender neutral pronouns in the parental leave clause; Māori immersion teacher allowance; career advisor allowance; one-off gross payment of $1500; and a few other miscellanous things. [Read the full list here](https://www.ppta.org.nz/collective-agreements/secondary-teachers-collective-agreement-stca).
 
 ### Finn Learns About Inflation
 
@@ -44,7 +44,7 @@ The collective agreement doesn't expire until July 2022, so we should expect eve
 
 What does this mean for our next round of collective bargining in 2022? Perhaps that __we need to bargin hard for an actual pay rise__. We should not just accept a pay rise that matches inflation. The Ministry of Education needs to value our jobs in order to attract more teachers into the future. We need to be attracting the best and brightest around to help support the generations that will come after us.
 
-> "The demand for primary teachers is projected to grow marginally until 2023, before dropping year-on-year in the longer term. Whilst the demand for secondary teachers is still projected to grow year-on-year out to 2024." - [Ministry of Education / Te Tāhuhu o te Mātauranga](https://www.education.govt.nz/news/teacher-supply-for-the-2022-school-year-update). Retrieved 09/02/2022.
+> "The demand for primary teachers is projected to grow marginally until 2023, before dropping year-on-year in the longer term. Whilst the demand for secondary teachers is still projected to grow year-on-year out to 2024." - [Ministry of Education / Te Tāhuhu o te Mātauranga](https://web.archive.org/web/20241010230433/https://www.education.govt.nz/news/teacher-supply-for-the-2022-school-year-update/). Retrieved 09/02/2022.
 
 Okay, so what about inflation into the future? Reading [BNZ's Markets Outlook](https://www.bnz.co.nz/assets/markets/research/BNZMO_20220208.pdf) document published 08/02/2022 (retrieved 09/02/2022) there are a few little points to note.
 

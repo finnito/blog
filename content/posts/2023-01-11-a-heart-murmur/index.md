@@ -83,11 +83,11 @@ I've had an echo, an MRI and an appointment with my cardiologist. Now, my case w
 Mā te wā 👋
 
 [^1]: https://www.healthdirect.gov.au/tachycardia
-[^2]: An ultrasound of the heart: https://healthify.nz/health-a-z/e/echocardiogram/
-[^3]: A picture showing the shift in sound waves due to the movement of the object they are reflected off. https://ecgwaves.com/topic/doppler-effect-and-doppler-studies-in-echocardiography/
+[^2]: https://healthify.nz/health-a-z/e/echocardiogram
+[^3]: https://ecgwaves.com/topic/doppler-effect-and-doppler-studies-in-echocardiography/
 [^4]: https://www.mayoclinic.org/diseases-conditions/bicuspid-aortic-valve/cdc-20385577
 [^6]: https://www.mayoclinic.org/diseases-conditions/aortic-valve-regurgitation/symptoms-causes/syc-20353129
-[^7]: https://www.michiganmedicine.org/enlarged-aorta-risks-and-symptoms
+[^7]: https://www.michiganmedicine.org/health-lab/enlarged-aorta-risks-and-symptoms-what-know
 [^8]: https://www.mayoclinic.org/diseases-conditions/aortic-dissection/symptoms-causes/syc-20369496
 [^9]: https://www.nhs.uk/tests-and-treatments/heart-valve-replacement/
 [^10]: https://www.cedars-sinai.org/health-library/diseases-and-conditions/o/open-aortic-repairs.html

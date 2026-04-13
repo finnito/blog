@@ -34,8 +34,8 @@ gpxFiles: [
     * Dropped our bags in town at a hostel and got a shower at the local pools. Headed out into the rain to walk around town.
     * 🥘Christchurch Inn: fries and jam
     * Visited the Guinness Storehouse, drank our first Guinness and learned a lot!
-    * Pick up our [Nomad van from Indie Campers](https://indiecampers.ie/campervans/eu-active-bunk-4-manual-base) and I got used to driving manual again on some stressfully narrow roads.
-    * Drive to [Jonnie Fox’s](https://maps.app.goo.gl/Y2yHDBdxRD83ov4m6) for dinner with live music James Hurt.
+    * Pick up our [Nomad van from Indie Campers](https://indiecampers.com/discover/en-ie/campervans/eu-active-bunk) and I got used to driving manual again on some stressfully narrow roads.
+    * Drive to [Jonnie Fox’s](https://www.google.com/maps/place/Johnnie+Fox's+Pub/@53.2217107,-6.2217797,709m/data=!3m2!1e3!4b1!4m6!3m5!1s0x4867a75b8ab63805:0xeeefb2147006b0!8m2!3d53.2217107!4d-6.2191994!16s%2Fg%2F1tfm0wn7?entry=tts&g_ep=EgoyMDI0MTExMy4xIPu8ASoASAFQAw%3D%3D) for dinner with live music James Hurt.
     * 😴 Stayed in their overflow carpark (available when you have a meal there).
 * Wednesday 10/07
     * Drive to Crone Woods and hiked over to and around Powerscourt Waterfall
@@ -65,7 +65,7 @@ gpxFiles: [
     * Drove and walked Blarney
     * Did washing at a laundromat
     * Drove Dromberg Stone Circle
-    * 😴 Drove Lough Hyne and [stayed on a pier](https://maps.app.goo.gl/TgFdmwdB6vHfxNvFA). No bioluminescent algae at this time of year, but had a lovely evening by the lake with hot choccy
+    * 😴 Drove Lough Hyne and [stayed on a pier](https://www.google.com/maps/place/51°30'15.8%22N+9°18'28.9%22W/@51.504399,-9.308034,17z/data=!3m1!4b1!4m4!3m3!8m2!3d51.504399!4d-9.308034?entry=ttu&g_ep=EgoyMDI2MDQwOC4wIKXMDSoASAFQAw%3D%3D). No bioluminescent algae at this time of year, but had a lovely evening by the lake with hot choccy
 * Sunday 14/07
     * Walked up Knockomagh in the morning
     * Drove Baltimore had a coffee
