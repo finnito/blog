@@ -304,6 +304,25 @@ ul.reading > li:has(li:not(.series):not(.hidden)) {
   border-bottom: 2px solid transparent;
 }
 
+details {
+    background-color: rgba(225, 225, 225, 0.5);
+    padding: 0.25rem;
+    border-radius: 0.25rem;
+    box-shadow: var(--shadow);
+    margin: 0.5rem auto;
+}
+
+details summary {
+    font-weight: 700;
+    cursor: pointer;
+}
+
+details ul {
+    padding-top: 0.25rem;
+    border-top: 1px solid rgba(225,225,225,1);
+    margin-top: 0.25rem;
+}
+
 @media (min-width: 768px) {
   button[class^='load'] {
     min-width: 120px;
