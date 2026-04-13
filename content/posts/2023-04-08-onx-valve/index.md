@@ -25,9 +25,9 @@ In the worst case, these clots can lead to a blockage of the blood vessel (embol
 Among other things, a valve can be blocked or obstructed by a thrombosis (non-travelling clot), vegetation (irregular cell growth) from endocarditis, or a pannus (abnormal layer of fibrovascular tissue) around the wall.
 
 <figure>
-    <img src="https://drsvenkatesan.wordpress.com/files/2009/03/pannus-2.jpg" loading="lazy"/>
-    <img src="https://f6publishing.blob.core.windows.net/5067c75e-9691-4042-a267-3938c3d6ef03/WJC-7-224-g002.jpg" loading="lazy">
-    <img src="https://www.mayoclinic.org/-/media/kcms/gbs/patient-consumer/images/2015/11/12/16/37/prosthetic_1lg.jpg">
+    <img src="https://drsvenkatesan.wordpress.com/files/2009/03/pannus-2.jpg" alt="Prosthetic valve thrombus and pannus" loading="lazy"/>
+    <img src="https://f6publishing.blob.core.windows.net/5067c75e-9691-4042-a267-3938c3d6ef03/WJC-7-224-g002.jpg" alt="Pannus around a valve." loading="lazy">
+    <img src="https://www.mayoclinic.org/-/media/kcms/gbs/patient-consumer/images/2015/11/12/16/37/prosthetic_1lg.jpg" alt="Thrombus on a valve." loading="lazy">
     <figcaption>
         <p>A diagram showing where a pannus and thrombus may form, and their relative morphology, plus real-life images. Sources <a href="https://drsvenkatesan.com/2009/03/20/what-is-pannus-formation-in-prosthetic-valves-what-is-the-clinical-significance/">1</a>, <a href="https://www.wjgnet.com/1949-8462/full/v7/i4/224.htm">2</a>, <a href="https://www.mayoclinic.org/medical-professionals/cardiovascular-diseases/news/prosthetic-valve-thrombosis-time-is-critical/mac-20430866">3</a>.
     </figcaption>
@@ -46,7 +46,7 @@ This is measured through a relatively simple finger-prick blood test and can be 
 For example, a normal INR range is from around 0.8–1.2. This means that a patient not on anticoagulation medicines would have a prothrombin time of 9.6–14.4 seconds, given an average of 12 seconds. When you take anticoagulation drugs (e.g. warfarin), your time to form a clot increases – sometimes by a lot! The therapeutic range for most valves is between 2.5–3.5, meaning a prothrombin time of 30–42 seconds.[^4] The higher the INR, the more bleedy you are and the less likely to form a clot on the prosthesis.
 
 <figure>
-    <img src="https://healthify.nz/assets/Health-A-Z/Cardiac/CoaguChek-INRange-test-meter-and-supplies-Roche__ResizedImageWzcwMCwzNjhd.png" loading="lazy"/>
+    <img src="https://healthify.nz/assets/Health-A-Z/Cardiac/CoaguChek-INRange-test-meter-and-supplies-Roche__ResizedImageWzcwMCwzNjhd.png" alt="The CoaguChek INRange device." loading="lazy"/>
     <figcaption>
         <p>Roche CoaguChek INRange System used for patient self-monitoring of INR.</p>
     </figcaption>

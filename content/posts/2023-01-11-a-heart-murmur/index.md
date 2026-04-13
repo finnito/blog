@@ -30,9 +30,9 @@ My echo was performed by a lovely technician who let me ask lots of questions. I
 In summary, not good. 
 
 <figure>
-    <img src="https://www.umcvc.org/sites/default/files/styles/large/public/bicuspid-aortic-valve.jpg" loading="lazy"/>
+    <img src="https://my.clevelandclinic.org/-/scassets/images/org/health/articles/bicuspid-aortic-valve-disease" alt="Diagram showing bicuspid vs tricuspid aortic valve." loading="lazy"/>
     <figcaption>
-        <p>A bicuspid vs tricuspid aortic valve. [<a href="https://www.umcvc.org/conditions-treatments/bicuspid-aortic-valve-bav">Source</a>]</p>
+        <p>A bicuspid vs tricuspid aortic valve. [<a href="https://my.clevelandclinic.org/health/diseases/16780-bicuspid-aortic-valve-disease">Source</a>]</p>
     </figcaption>
 </figure>
 
@@ -70,7 +70,7 @@ The dilatation of my aorta is such that it should be repaired. This reduces the 
 After this, my left ventricle, which is also dilatated, should _hopefully_ return to normal size. This _should_ occur because it will not have to accommodate the regurgitated blood.[^11] This is important because if it dilatates too much it may not return to normal size/function in the future, which would significantly impact my quality of life (e.g. heart failure).[^13]
 
 <figure>
-    <img src="https://themarfandiary.weebly.com/uploads/2/3/9/4/23940725/2140047_orig.jpg" loading="lazy"/>
+    <img src="https://themarfandiary.weebly.com/uploads/2/3/9/4/23940725/2140047_orig.jpg" alt="Diagram showing a dilated aortic root (left) and a dacron graft (right)." loading="lazy"/>
     <figcaption>
         <p>A dilated aortic root and Dacron graft. [<a href="https://themarfandiary.weebly.com/blog/aortic-education">Source</a>]</p>
     </figcaption>
