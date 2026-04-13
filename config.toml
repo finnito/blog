@@ -6,13 +6,18 @@ canonifyurls            = false
 uglyurls                = false
 staticDir               = ["static"]
 DefaultContentLanguage  = "en"
-LanguageCode            = "en"
 theme                   = "hugo-finn"
 metaDataFormat          = "yaml"
 pygmentsUseClasses      = true
 pygmentCodeFences       = true
 enableGitInfo           = true
 timeout                 = 600000
+
+[languages]
+    [languages.en]
+        direction       = "ltr"
+        label           = "English"
+        locale          = "en"
 
 [_build]
   publishResources      = false
