@@ -15,7 +15,7 @@ In a previous post I wondered out-loud, what are teachers experiencing and wheth
 
 It is clear what I think - money is nice but what many teachers __really__ want is better working conditions. But, what does that look like? First year teachers in New Zealand do no more than 15 contact hours per week, second year teachers do no more than 17.5 hours, and fully qualified & registered teachers, no more than 20 hours.[^1]
 
-[^1]: https://www.ppta.org.nz/publication-library/document/99https://www.ppta.org.nz/publication-library/document/99
+[^1]: https://www.ppta.org.nz/about-ppta/publication-library/document/99https://www.ppta.org.nz/about-ppta/publication-library/document/99
 
 | Year         | Total Hours | Max. Contact Hours | Non-Contacts |
 |:-------------|:------------|:-------------------|:-------------|

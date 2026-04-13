@@ -29,7 +29,7 @@ We reached Hamilton Hut in the heat of the day and had a quick break there. From
 
 Jen was feeling pretty naff through this section and got a bit wheezy for a moment, so we stopped to have some food, water and gels before continuing on towards Cass Saddle. The track description indicates that it "climbs steeply" and boy does it ever. We didn't run any of this part.
 
-Once we gained the saddle we were glad for some downhill and managed a little jog in amongst some enormous spaniards. We spotted a paraglider above us at Hamilton Peak, and then a couple of guys training to [GODZone](https://www.godzoneadventure.com/) came past the other way. Looked like they were out for a massive day!
+Once we gained the saddle we were glad for some downhill and managed a little jog in amongst some enormous spaniards. We spotted a paraglider above us at Hamilton Peak, and then a couple of guys training to [GODZone](https://godzoneadventure.com/) came past the other way. Looked like they were out for a massive day!
 
 We continued down reaching Cass Saddle Hut quickly. From there we really enjoyed the well formed track through the forest. The gradient is quite nice here and we moved well. Unfortunately the track pops out on the Cass River for >3km where the going was quite slow. Jen was not as confident on the rocks and had very sore feet from running. We mostly walked this section until we found the 4WD trail right at the end.
 

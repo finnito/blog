@@ -44,7 +44,7 @@ Horrifyingly, you can see that secondary school teachers pay the second most in 
 
 ## Where Does It Go?
 
-Well, you can read [the financial statements of the PPTA](https://www.ppta.org.nz/past-events/annual-conference-2022/document/1755) online and see a detailed breakdown, but, here is a summary.
+Well, you can read [the financial statements of the PPTA](https://www.ppta.org.nz/events/past-events/annual-conference-2022/document/1755) online and see a detailed breakdown, but, here is a summary.
 
 Over the past three years, the PPTA has made a large surplus, As of March 2022 they have $5,795,094 cash at the bank and $11,185,491 in investments. It, therefore, stands to reason that our dues could be reduced to 0.75%.
 
@@ -54,7 +54,7 @@ If dues were 0.75% in the 2022 financial year ending March 2022 the PPTA would s
 |---------------|----------:|-----------:|-----------:|-----------:|-----------:|
 | Subscriptions | 9,897,916 | 10,518,916 | 11,441,529 | 12,397,389 | 12,900,254 |
 | Surplus       |   586,193 |     26,052 |  1,121,313 |  2,539,027 |  2,706,446 |
-|               | [Reference](https://www.ppta.org.nz/about-ppta/document/882) | [Reference](https://www.ppta.org.nz/about-ppta/document/882)  | [Reference](https://www.ppta.org.nz/publication-library/document/993)  | [Reference](https://www.ppta.org.nz/past-events/annual-conference-2022/document/1755)  | [Reference](https://www.ppta.org.nz/past-events/annual-conference-2022/document/1755)  |
+|               | [Reference](https://www.ppta.org.nz/about-ppta/document/882) | [Reference](https://www.ppta.org.nz/about-ppta/document/882)  | [Reference](https://www.ppta.org.nz/about-ppta/publication-library/document/993)  | [Reference](https://www.ppta.org.nz/events/past-events/annual-conference-2022/document/1755)  | [Reference](https://www.ppta.org.nz/events/past-events/annual-conference-2022/document/1755)  |
 
 ## 0.75% Dues in the Real World
 

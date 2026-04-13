@@ -71,7 +71,7 @@ Throughout this trip we had a few questions which I thought I'd document them he
 
 > __Pātai:__ What is the geological origin of Stewart Island and the basin behind Big Hellfire Hut?
 > 
-> __Whakatika__: The island has a granite base layer from a very ancient volcanic vent. The tarns found on and around Mt Anglem / Hananui are from the last glacial period. There are some volcanic outcropings (e.g. Island Hill) in the low-lying area. - [DOC](https://www.doc.govt.nz/about-us/our-policies-and-plans/statutory-plans/statutory-plan-publications/conservation-management-strategies/stewart-island-rakiura/section-two/part-three-preservation-of-indigenous-species/3_5-geological-landform-and-soil-features/)
+> __Whakatika__: The island has a granite base layer from a very ancient volcanic vent. The tarns found on and around Mt Anglem / Hananui are from the last glacial period. There are some volcanic outcropings (e.g. Island Hill) in the low-lying area. - [DOC](https://web.archive.org/web/20190206153511/https://www.doc.govt.nz/about-us/our-policies-and-plans/statutory-plans/statutory-plan-publications/conservation-management-strategies/stewart-island-rakiura/section-two/part-three-preservation-of-indigenous-species/3_5-geological-landform-and-soil-features/)
 
 {{< figure2 name="IMG_6615.jpg" width="5472" height="3648" title="Heading along Mason Bay in the gloom." >}}
 {{< figure2 name="IMG_6631.jpg" width="5472" height="3648" title="On the High Tide Track of Mason Bay." >}}

@@ -10,7 +10,7 @@ Getting an e-reader was a revolution back when I bought this in 2013. It was sma
 
 The device was light and easy to use. However, the OS was extremely slow. The responsiveness of the screen left much to be desired. That didn't stop it from being good at its job, however.
 
-Then came the pandemic, lockdown and a renewed desire to read and learn. I got the Kindle out of a dusty drawer next to my bed and found it lacking. The input lag, the lack of physical page turning buttons and lack of integration with [Libby by Overdrive](https://www.overdrive.com/apps/libby/) all grated on me. Meanwhile, my partner was asking to borrow it more and more. I turned to reading books on my phone using the Libby app. I __loved__ being able to just get books out from the library. Frictionless. Perfect.
+Then came the pandemic, lockdown and a renewed desire to read and learn. I got the Kindle out of a dusty drawer next to my bed and found it lacking. The input lag, the lack of physical page turning buttons and lack of integration with [Libby by Overdrive](https://www.overdrive.com/apps/libby) all grated on me. Meanwhile, my partner was asking to borrow it more and more. I turned to reading books on my phone using the Libby app. I __loved__ being able to just get books out from the library. Frictionless. Perfect.
 
 I also found myself wanting newer hardware and physical page turning buttons. Unfortunately those were only available on the flagship Kindle readers, so I found myself looking at Kobo - specifically the Libra 2 which had just come out. It ticked all the boxes and I picked it up one weekend and love it.
 

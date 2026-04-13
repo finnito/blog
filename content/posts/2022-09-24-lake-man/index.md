@@ -23,7 +23,7 @@ __Detailed Timings__
 
 After much agnoising over what trip we were to do, we decided on this very nice looking loop. We liked it because it wasn't too dependent on river levels and because it was a proper loop - no shuttle needed!
 
-We drove in to [Windy Point](https://goo.gl/maps/L1L9N1w4r8mVjVJN6) from Hanmer Springs having stayed the night there and got [an extremely good coffee from Powerhouse Cafe & Restaurant](https://goo.gl/maps/iT6zTPFnQTLY1QGNA). The carpark is large and partially visible from the road. There is also a new looking long drop toilet there, which is super convenient.
+We drove in to [Windy Point](https://www.google.com/maps/place/42%C2%B035'03.2%22S+172%C2%B022'57.1%22E/@-42.584214,172.3803513,863m/data=!3m2!1e3!4b1!4m6!3m5!1s0x0:0xbab6cee8c8dc0339!7e2!8m2!3d-42.5842138!4d172.38254?shorturl=1) from Hanmer Springs having stayed the night there and got [an extremely good coffee from Powerhouse Cafe & Restaurant](https://www.google.com/maps/place/Powerhouse+Cafe+%26+Restaurant/@-42.5212261,172.828623,18.85z/data=!4m5!3m4!1s0x6d3063788d22436f:0x824b57b0102254ee!8m2!3d-42.521278!4d172.8284743?shorturl=1). The carpark is large and partially visible from the road. There is also a new looking long drop toilet there, which is super convenient.
 
 The track starts by crossing the Boyle River on a great swingbridge before climbing up to the Tui Track junction. From there it follows the Hope Kiwi Track and climbs well above the river, much high than you might expect or judge from the map. It also undulates more than expected, but nothing challenging. The track still has some windfall leftover from the storms in June/July 2022, but it gets less as the track continues on.
 
@@ -31,7 +31,7 @@ Hope Kiwi Hut is a reasonably sad state of affairs having no fireplace and being
 
 From Hope Kiwi Hut the track continues on through the forest in which you will find an excellent photo opportunity looking up the valley towards The Nelson Tops and Tawhai Hill. The track then drops down to the true left of Hope River and passes along some grassy flats to the bridge that crosses Hope River. The gorge it crosses is very beautiful and it looks like it would be quite a fun paddle! We'll have to come back!
 
-Hope Pass Track is an old 4WD track, although it doesn't look like it has seen much use in quite some time. It also has washed out in a couple of places and looks quite impassable for a vehicle. Nothing too remarkable about this section, although we were quite disturbed by the [Canada geese](https://nzbirdsonline.org.nz/species/canada-goose) honking like their lives depended on it. Not quite the peaceful backcountry you might wish for.
+Hope Pass Track is an old 4WD track, although it doesn't look like it has seen much use in quite some time. It also has washed out in a couple of places and looks quite impassable for a vehicle. Nothing too remarkable about this section, although we were quite disturbed by the [Canada geese](https://www.nzbirdsonline.org.nz/species/canada-goose) honking like their lives depended on it. Not quite the peaceful backcountry you might wish for.
 
 St Jacob's Hut is cute, tidy and well looked after. Water can be gained from a nearby creek, there is ample firewood, and there are camping sites a plenty nearby. We had a lovely afternoon relaxing in the hut and hiding from the sandflies.
 
@@ -69,7 +69,7 @@ The track down to Doubtful River alongside Kendron River was, in a word, rooty. 
 
 {{< figure2 name="IMG_8409.jpg" width="5488" height="3662" title="Beautiful vistas up Hope River on our way to Lake Man Biv" >}}
 {{< figure2 name="IMG_8410.jpg" width="5488" height="3662" title="Cruising alongside Hope River, avoiding [matagouri/tūmatakuru](https://www.doc.govt.nz/nature/native-plants/matagouri-wild-irishman/), but not avoiding the rain." >}}
-{{< figure2 name="IMG_8413.jpg" width="5488" height="3662" title="A [South Island pied oystercatcher / Tōrea](https://nzbirdsonline.org.nz/species/south-island-pied-oystercatcher) which has come inland to nest." >}}
+{{< figure2 name="IMG_8413.jpg" width="5488" height="3662" title="A [South Island pied oystercatcher / Tōrea](https://www.nzbirdsonline.org.nz/species/south-island-pied-oystercatcher) which has come inland to nest." >}}
 {{< figure2 name="IMG_8418.jpg" width="5488" height="3662" title="On our way to Pussy Stream through a short section of picturesque forest." >}}
 {{< figure2 name="IMG_8423.jpg" width="5488" height="3662" title="Jen navigating some fallen trees on Pussy Stream." >}}
 {{< figure2 name="IMG_8432.jpg" width="5488" height="3662" title="Jen right at the start of the climb to Lake Man Biv. It gets better." >}}

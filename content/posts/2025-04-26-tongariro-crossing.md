@@ -13,7 +13,7 @@ gpxFiles: ["activity_18936085729.gpx"]
 
 After we finished we headed to Ohakune—a ski town near Mount Ruapehu, where we had an Airbnb booked. We did a huge pile of laundry, lit the fire and got into the hot tub, knowing that we had a shuttle booked to do the Tongariro Crossing the next day!
 
-We rolled out of bed early so that we could drive about 1 hour to the [Tongariro Crossing Carpark](https://maps.app.goo.gl/u68AYefrNhxF4fPx6) where we were due to get picked up by the shuttle. A bus arrived and a very cheerful driver took us around to the start of the crossing. We shuffled out of the bus and joined a crowd of people waiting to use the loos before hitting the trail.
+We rolled out of bed early so that we could drive about 1 hour to the [Tongariro Crossing Carpark](https://www.google.com/maps/place/Tongariro+Crossing+Car+Park/@-39.0776969,175.6691732,14.35z/data=!4m6!3m5!1s0x6d6ba70aabc234d1:0x464ead841ab3d4af!8m2!3d-39.0660379!4d175.6726826!16s%2Fg%2F11fs_4wmkp?entry=tts&g_ep=EgoyMDI1MDYzMC4wIPu8ASoASAFQAw%3D%3D&skid=51078692-05be-4263-93c6-f7d72accf95e) where we were due to get picked up by the shuttle. A bus arrived and a very cheerful driver took us around to the start of the crossing. We shuffled out of the bus and joined a crowd of people waiting to use the loos before hitting the trail.
 
 For the first half of the crossing we were in a fairly consistent line of people, occasionally overtaking others, and occasionally being overtaken. In classic Great Walk style, the trail was incredibly well-formed and all you had to do was turn up with enough fitness to put one foot in front of the other!
 

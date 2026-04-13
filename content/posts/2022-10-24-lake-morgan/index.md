@@ -35,7 +35,7 @@ The descent from O’Shanessy down its south spur is steep and would require car
 {{< figure2 name="IMG_8517.jpg" width="5488" height="3662" title="Looking over to Point 1251." >}}
 {{< figure2 name="IMG_8529.jpg" width="5488" height="3662" title="Mum and Katherine traversing towards Point 1251." >}}
 {{< figure2 name="IMG_8557.jpg" width="5488" height="3662" title="Climbing along the ridge of 1251 for a look. Didn't go to the summit!" >}}
-{{< figure2 name="IMG_8573.jpg" width="5488" height="3662" title="A very cute [Miromiro / Tomtit](https://nzbirdsonline.org.nz/species/tomtit) with Mt O'Shanessy in the background." >}}
+{{< figure2 name="IMG_8573.jpg" width="5488" height="3662" title="A very cute [Miromiro / Tomtit](https://www.nzbirdsonline.org.nz/species/tomtit) with Mt O'Shanessy in the background." >}}
 {{< figure2 name="IMG_8587.jpg" width="5488" height="3662" title="Schist (I think) near the summit of Mt O'Shanessy." >}}
 {{< figure2 name="IMG_8590.jpg" width="5488" height="3662" title="Mum and Katherine looking down at Lake Morgan from Mt O'Shanessy." >}}
 {{< figure2 name="IMG_8619.jpg" width="5488" height="3662" title="Moody mountains. Looking towards Point 1375 and 1250." >}}
@@ -85,7 +85,7 @@ On the odd occasion that it drops you onto the side of the river you should cont
 
 As noted on [Remote Huts - Jacko Flat](https://www.remotehuts.co.nz/jacko-flat-hut.html), the track is currently very overgrown, the groundtrail is not obvious, and there is a good amount of treefall which at times, obscures very helpful triangles. We wasted a lot of time losing the trail and having to try find it again. With a good trim it would be navigable in closer to five hours as opposed to six plus.
 
-Take every opportunity to look down into Crooked River as the gorge is truly beautiful. We heard from a family friend that some [Whio / Blue Duck](https://nzbirdsonline.org.nz/species/blue-duck) had been spotted on the river but we didn't see them. We also read online that some interest in the track and Jacko Flat Hut was expressed by some whitewater kayakers and I can see why - those rapids go hard!
+Take every opportunity to look down into Crooked River as the gorge is truly beautiful. We heard from a family friend that some [Whio / Blue Duck](https://www.nzbirdsonline.org.nz/species/blue-duck) had been spotted on the river but we didn't see them. We also read online that some interest in the track and Jacko Flat Hut was expressed by some whitewater kayakers and I can see why - those rapids go hard!
 
 The walk down the old Rotomanu - Kopara Road was very relaxed and in remarkably good condition.
 

@@ -25,7 +25,7 @@ One across the marsh, you will reach an incline - this marks the start of the fi
 
 The true left varies in landscape from open tussock to bouldery scree, to pointy [spaniards](https://en.wikipedia.org/wiki/Aciphylla_colensoi) and [matagouri](https://www.doc.govt.nz/nature/native-plants/matagouri-wild-irishman/). If you thought matagouri sucks, you will think it is nought but a nuisance after a spaniard draws blood 🩸! We were all left with many battle scars on our legs after this trip - the spaniards were unrelenting.
 
-> "A moraine is material left behind by a moving glacier. This material is usually soil and rock." - [National Geographic](https://www.nationalgeographic.org/encyclopedia/moraine/)
+> "A moraine is material left behind by a moving glacier. This material is usually soil and rock." - [National Geographic](https://education.nationalgeographic.org/resource//encyclopedia/moraine/)
 
 Further up the valley below Point 1797 is a glacial moraine, behind which is the hut. There are two ways you can do this, and it seems that people have opted for both in the past!
 Option 1. Stick to the river (which we did) and make your way _around_ the moraine

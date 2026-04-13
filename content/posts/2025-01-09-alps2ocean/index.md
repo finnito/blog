@@ -67,7 +67,7 @@ The campsite is quite large, although, not as large as Whānganui Campsite just 
 
 ## Day 4: To Duntroon Domain
 
-We had quite a lazy morning because we knew we had a shorter day of cycling coming up and didn't leave camp until about 10:30 am. Once we got going we made good time down Te Akatarawa Road to Aviemore Dam. After that, the trail crosses the dam and follows alongside Otematata Kurow Road until Kurow. We stopped there for lunch at [Feliz and Sage Cafe](https://maps.app.goo.gl/amsZC3NYiFKq7xaT8), which we enjoyed. They were kind enough to let us eat our packed lunch, but we did order some coffee, slices and scones. Mmmmmmmm.
+We had quite a lazy morning because we knew we had a shorter day of cycling coming up and didn't leave camp until about 10:30 am. Once we got going we made good time down Te Akatarawa Road to Aviemore Dam. After that, the trail crosses the dam and follows alongside Otematata Kurow Road until Kurow. We stopped there for lunch at [Feliz and Sage Cafe](https://www.google.com/maps/place/Feliz+%26+Sage+Cafe+%26+Gifts/@-44.7342153,170.4698796,17.74z/data=!4m6!3m5!1s0xa82a0d8644122a33:0x430f60f26eb9aabf!8m2!3d-44.7328965!4d170.4701895!16s%2Fg%2F11gv0nlsd7?entry=tts&g_ep=EgoyMDI1MDExMC4wIPu8ASoASAFQAw%3D%3D), which we enjoyed. They were kind enough to let us eat our packed lunch, but we did order some coffee, slices and scones. Mmmmmmmm.
 
 From Kurow the track follows a mostly 4WD trail in the forest nearer the Waitaki River. It is quite scenic but occasionally rocky, especially when crossing minor tributaries to the Waitaki.
 

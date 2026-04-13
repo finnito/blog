@@ -221,7 +221,7 @@ We whiled away the rest of the day in our sleeping bags in front of the fire, re
 
 In the evening, two hikers arrived at the hut and were pleased to find the fire lit and the hut nice and warm. They were doing the same loop as us, except starting and ending at a different point, and also over three days instead of 6. Bonkers!
 
-As they were up early for a big day, we were also up promptly. This turned out to be a good thing as searching for the 1942 wreckage of [the Kereru](https://asn.flightsafety.org/wikibase/29260) took longer than expected.
+As they were up early for a big day, we were also up promptly. This turned out to be a good thing as searching for the 1942 wreckage of [the Kereru](https://aviation-safety.net/wikibase/29260) took longer than expected.
 
 After climbing up from the hut to the track junction at the saddle, we followed the reasonably well-formed track toward the saddle south-west of point 1613 as per the Topo50 tiles. Around 1480, we sidled off the track and descended to where we thought the wreckage was (according to some quick Googling). Alas, we were much too low and had all but given up and were headed back to the track directly above (west) of us, when we happened upon the wreckage scattered down the hillside.
 

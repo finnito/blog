@@ -44,6 +44,6 @@ For me, this is extremely sweet because it means I can use my new iPad Pro 12.9 
 - [What is an ANT Dongle?][4]
 
 [1]: https://www8.garmin.com/support/download_details.jsp?id=15031 "Garmin Fenix 6 Updates"
-[2]: https://zwift.com/ "Zwift"
-[3]: https://tacx.com/product/tacx-films-tda/ "Tacx"
+[2]: https://www.zwift.com/ "Zwift"
+[3]: https://www.garmin.com/c/sports-fitness/indoor-trainers "Tacx"
 [4]: https://www.cyclingweekly.com/news/product-news/ant-dongle-371974 "What is an ANT Dongle?"

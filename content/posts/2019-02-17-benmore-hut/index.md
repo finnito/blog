@@ -14,7 +14,7 @@ gpxFiles: ["2019-02-17-benmore-hut.gpx"]
 [Benmore Hut](https://www.doc.govt.nz/parks-and-recreation/places-to-go/canterbury/places/korowai-torlesse-tussocklands-park/things-to-do/huts/benmore-hut/) is a cute little hut 6km (1hr 45min) from Benmore Station on a farmland and bush track! The track is around 12km return with a total time of 3.25hrs walking. It is nestled in behind Springfield, a mere hour drive from Christchurch. The track is gentle and the scenery beautiful. I'm not sure how I didn't know about this track before as it makes for a wonderful day-walk for any weekend warriors from Christchurch.
 The Track
 
-The track starts from [a large carparking area in behind Benmore Station](https://goo.gl/maps/qB9dXKVsQQF2) and follows a 4WD farm track for 3-4 kilometers before diving into Thirteen Mile Bush (a beech forest). There's nothing quite like the smell of beech, you can really smell the honeydew. Mmmm honey!
+The track starts from [a large carparking area in behind Benmore Station](https://www.google.com/maps/place/Benmore+Rd,+Springfield+7580/@-43.3412916,171.8075646,298m/data=!3m1!1e3!4m5!3m4!1s0x6d2e6d9cb1f26f9f:0x70921ddaa8473888!8m2!3d-43.334385!4d171.8194717?shorturl=1) and follows a 4WD farm track for 3-4 kilometers before diving into Thirteen Mile Bush (a beech forest). There's nothing quite like the smell of beech, you can really smell the honeydew. Mmmm honey!
 
 {{< figure2 name="2019-02-17-0268.jpg" width="2048" height="1365" author="Finn Le Sueur" title="Seonaid and Phoebe convering the relatively boring start to the walk." >}}
 

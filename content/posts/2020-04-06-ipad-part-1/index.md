@@ -61,9 +61,9 @@ All in all, pretty successful and I can seem to get most of my work done here so
 - [ForticlientVPN: iOS App Store][8]
 
 [2]: https://finn.lesueur.nz/posts/building-this-website/ "Building This Website"
-[3]: https://apps.apple.com/nz/app/working-copy-git-client/id896694807 "Working Copy on the iOS App Store"
-[4]: https://apps.apple.com/nz/app/termius-ssh-client/id549039908 "Terminus on the iOS App Store"
+[3]: https://apps.apple.com/nz/app/git-client-working-copy/id896694807 "Working Copy on the iOS App Store"
+[4]: https://apps.apple.com/nz/app/termius-modern-ssh-client/id549039908 "Terminus on the iOS App Store"
 [5]: https://covid19.govt.nz/alert-system/covid-19-alert-system/ "New Zealand Pandemic Alert Levels"
 [6]: https://apps.apple.com/nz/app/concepts/id560586497 "Concepts on the iOS App Store"
-[7]: https://apps.apple.com/nz/app/microsoft-remote-desktop/id714464092 "Microsoft Remote Desktop on the iOS App Store"
+[7]: https://apps.apple.com/nz/app/windows-app-mobile/id714464092 "Microsoft Remote Desktop on the iOS App Store"
 [8]: https://apps.apple.com/nz/app/forticlient-vpn/id1475674905 "FortiClientVPN on the iOS App Store"

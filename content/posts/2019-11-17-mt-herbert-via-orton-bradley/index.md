@@ -13,7 +13,7 @@ gpxFiles: ["Mt_Herbert_via_Orton_Bradley.gpx"]
 
 This is yet _another_ route that can take you up to Mt Herbert / Te Ahu Tatiki. It's a bit interesting in that is a DOC route but you access it via Orton Bradley Park and __there is an entry fee to the park.__
 
-> The entrance fee is $5 per adult, $1 per child, to a maximum of $10 per car load. - [Orton Bradley Website](http://www.ortonbradley.nz/#intro)
+> The entrance fee is $5 per adult, $1 per child, to a maximum of $10 per car load. - [Orton Bradley Website](https://www.ortonbradley.nz/#intro)
 
 Ah well. The start of the track is quite nice through the trees and there is even a nice detour that you can do to a waterfall! After you leave the park you will see a very overgrown DOC sign which will tell you it's 2.5hrs to the Mt Herbert Shelter.
 

@@ -78,7 +78,7 @@ Overall, we had an excellent weekend and really enjoyed our first experience of 
 
 [1]: https://www.wildernessmag.co.nz/trip/brass-monkey-bivouac-lewis-pass-tops-canterbury-west-coast/ "Brass Monkey - Lewis Tops"
 [2]: https://apps.apple.com/nz/app/nz-topo50-south-island/id605676156 "NZ Topo50 South Island iOS App"
-[3]: https://goo.gl/maps/M4bCCM8F13vuadVL7 "St James Walkway Carpark"
+[3]: https://www.google.com/maps/place/St+James+Walkway+Car+Park/@-42.380029,172.3981422,820m/data=!3m2!1e3!4b1!4m5!3m4!1s0x6d300f4d9d8e7e19:0x109f8e1fecdafb60!8m2!3d-42.380033!4d172.4003309?shorturl=1 "St James Walkway Carpark"
 [4]: https://www.doc.govt.nz/parks-and-recreation/places-to-go/canterbury/places/lake-sumner-forest-park/things-to-do/huts/nina-hut/ "DOC: Nina Hut"
 [5]: https://web.archive.org/web/20221128023704/https://www.doc.govt.nz/parks-and-recreation/places-to-go/west-coast/places/lewis-pass-scenic-reserve/things-to-do/huts/brass-monkey-bivvy/ "Brass Monkey Bivvy"
 [6]: https://www.doc.govt.nz/parks-and-recreation/places-to-go/canterbury/places/lake-sumner-forest-park/things-to-do/huts/lucretia-hut/ "Lucretia Bivvy"

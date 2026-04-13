@@ -8,7 +8,7 @@ emoji: 🧑‍🏫
 metaDescription: "A speech and short discussion of inflation pay increases in the teaching sector."
 ---
 
-This week the Canterbury region of the [Post Primary Teachers Association (PPTA) Union](https://www.ppta.org.nz/) had a stopwork meeting to discuss and vote on the collective agreement offer that we had received from the Minstry of Education (MOE). Reccently I had volunteered as the branch representative for my school and after _many_ conversations with teachers, I found myself lying in bed at 12am the night before reading the PPTA [Financial Statements for the year ended 31 March 2022](https://www.ppta.org.nz/publication-library/document/1755). That reading lead to a statement that I contributed to discussion at the stopwork meeting. Here it is.
+This week the Canterbury region of the [Post Primary Teachers Association (PPTA) Union](https://www.ppta.org.nz/) had a stopwork meeting to discuss and vote on the collective agreement offer that we had received from the Minstry of Education (MOE). Reccently I had volunteered as the branch representative for my school and after _many_ conversations with teachers, I found myself lying in bed at 12am the night before reading the PPTA [Financial Statements for the year ended 31 March 2022](https://www.ppta.org.nz/about-ppta/publication-library/document/1755). That reading lead to a statement that I contributed to discussion at the stopwork meeting. Here it is.
 
 > Kia Ora koutou,
 > 

@@ -20,13 +20,13 @@ It's time for the Government to step up and fund schools adequately. It's time f
 
 ### The Letter
 
-Find your member of parliament [here](https://dpmc.govt.nz/our-business-units/cabinet-office/ministers-and-their-portfolios/ministerial-list).
+Find your member of parliament [here](https://www.dpmc.govt.nz/our-business-units/cabinet-office/ministers-and-their-portfolios/ministerial-list).
 
 - Chris Hipkins: chris.hipkins@parliament.govt.nz
 - Jan Tinetti: jan.tinetti@parliament.govt.nz
 - Kelvin Davis: kelvin.davis@parliament.govt.nz
 
-Then [find your local MP](https://vote.nz/maps/find-your-electorate/). Mine in Christchurch Central are:
+Then [find your local MP](https://vote.nz/maps/find-your-electorate). Mine in Christchurch Central are:
 
 - (Labour) Hon Duncan Webb: duncan.webb@labour.org.nz
 - (National) Hon Dale Stephens: dale.stephens@national.org.nz

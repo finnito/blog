@@ -15,7 +15,7 @@ The night before the trip we stayed in Kāikoura at [Alpine Pacific Holiday Park
 
 ## Day 1: To Jam Hut
 
-The gravel road to the start is in pretty good condition - there's only one ford of note. The rest is all very reasonable and our Outback had no trouble traversing it. There are a couple of gates to leave as you found them. There is [a little carpark on the south side of George Stream under a tree](https://goo.gl/maps/yGyNwEUyyw9MU2bJ9). There is a small DOC sign but it was hidden by overgrown weeds when we got there. With the sun out - bluebird day - and _very_ heavy packs we were good to go!
+The gravel road to the start is in pretty good condition - there's only one ford of note. The rest is all very reasonable and our Outback had no trouble traversing it. There are a couple of gates to leave as you found them. There is [a little carpark on the south side of George Stream under a tree](https://www.google.com/maps/place/42%C2%B006'30.0%22S+173%C2%B050'06.8%22E/@-42.108344,173.8344813,342m/data=!3m2!1e3!4b1!4m6!3m5!1s0x0:0x891a0734ac6a1f8!7e2!8m2!3d-42.1083439!4d173.8352336?shorturl=1). There is a small DOC sign but it was hidden by overgrown weeds when we got there. With the sun out - bluebird day - and _very_ heavy packs we were good to go!
 
 ### Access
 
@@ -71,7 +71,7 @@ It took us over half an hour to transition onto the packraft, but we weren't in 
 
 Our raft ([Kokopelli Twain](https://kokopelli.com/products/twain)) has a _T-Zip_, which is an airtight zip into the inflatable stern of the raft. This allows you to open up the raft and store your gear _inside_ it! An airtight zip doesn't seem like a thing that should be possible, but it works an absolute charm. We stored all our gear inside the raft, placing only the lunch stuff in a waterproof bag between our legs. To the front of the boat, we strapped our empty backpacks which were in a dry bag. Big success! Plenty of room.
 
-I'll leave a description of the river to [Packrafting Trips NZ - Waiau Toa – Clarence River II/II+ (III)](https://www.packraftingtrips.nz/waiau-toa-clarence-river-ii/), but just below the confluence of Jam Stream is a II+/III rapid, and there are a few more after that. Pretty fun times -- we weren't too worried about the rapids.
+I'll leave a description of the river to [Packrafting Trips NZ - Waiau Toa – Clarence River II/II+ (III)](https://www.packraftingtrips.nz/waiau-toa-clarence-river/), but just below the confluence of Jam Stream is a II+/III rapid, and there are a few more after that. Pretty fun times -- we weren't too worried about the rapids.
 
 Unfortunately, the Twain isn't the most appropriate boat for these rapids and it frequently fills up like a bathtub in the big wave trains. No worries though, just stop and tip it out (or have me in the back with a pot as a bailer!).
 

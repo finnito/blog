@@ -17,9 +17,9 @@ For the past three years my partner Jen and I have participated in [Biketober Ch
 
 There are prizes up for grabs and one of our friends (Penzy) accompanied us in 2020 and she won bike hire and transport for a section of The West Coast Wilderness Trail.
 
-{{< figure2 name="west-coast-wilderness-trail.jpg" width="5933" height="2631" author="[West Coast Wilderness Trail](https://www.westcoastwildernesstrail.co.nz/)" title="The map from the offical website" >}}
+{{< figure2 name="west-coast-wilderness-trail.jpg" width="5933" height="2631" author="[West Coast Wilderness Trail](https://westcoastwildernesstrail.co.nz/)" title="The map from the offical website" >}}
 
-We stayed the night in Greymouth and drove down to Hokitika in the morning. We headed into the see the company that was providing the bikes and transport - [Cycle Journeys](https://cyclejourneys.co.nz/). The company dropped us off [where the trail intersects the Old Christchurch Road](https://goo.gl/maps/fz3pMyNtJQesqdbK8). From there the trail follows a nice 4WD trail for a few kilometers before turning into more of a 2-abreast width walking/cycling track. Keep an eye out for a small sign indicating an old dam which you can walk 20min down to the river to see. Pretty cool!
+We stayed the night in Greymouth and drove down to Hokitika in the morning. We headed into the see the company that was providing the bikes and transport - [Cycle Journeys](https://cyclejourneys.co.nz/). The company dropped us off [where the trail intersects the Old Christchurch Road](https://www.google.com/maps/place/42%C2%B043'59.3%22S+171%C2%B012'35.8%22E/@-42.73314,171.2077503,776m/data=!3m2!1e3!4b1!4m6!3m5!1s0x0:0xc3c0b9c06795fd20!7e2!8m2!3d-42.7331396!4d171.2099385?shorturl=1). From there the trail follows a nice 4WD trail for a few kilometers before turning into more of a 2-abreast width walking/cycling track. Keep an eye out for a small sign indicating an old dam which you can walk 20min down to the river to see. Pretty cool!
 
 
 {{< figure2 name="IMG_1996.jpeg" width="4032" height="3024" title="The way to the wooden, broken down historic dam." >}}

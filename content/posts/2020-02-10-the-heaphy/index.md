@@ -76,10 +76,10 @@ We headed to Takaka that evening for a well-earned shower and some delicious foo
 - [Swimming in Brown River on TopoMap][11]
 - [Roots Bar on Google Maps][12]
 
-[1]: https://goo.gl/maps/Fr8e8s1euKRFj3uGA "Carter's Beach"
-[2]: https://goo.gl/maps/CrSu94H4nRb2PMu69 "Kōhaihai Shelter and Campsite"
+[1]: https://www.google.com/maps/place/Carters+Beach/@-41.7440125,171.5500353,14z/data=!3m1!4b1!4m5!3m4!1s0x6d2506492b8168a7:0x500ef868479dc00!8m2!3d-41.7477985!4d171.56159?shorturl=1 "Carter's Beach"
+[2]: https://www.google.com/maps/place/Kohaihai+Conservation+Campsite/@-41.1091937,172.1004146,17z/data=!3m1!4b1!4m5!3m4!1s0x6d24aec1b8117f51:0xd8bbe879ca9d2fb1!8m2!3d-41.1091978!4d172.1026033?shorturl=1 "Kōhaihai Shelter and Campsite"
 [3]: https://www.doc.govt.nz/parks-and-recreation/places-to-go/nelson-tasman/places/kahurangi-national-park/things-to-do/huts/heaphy-hut/ "Heaphy Hut"
-[4]: https://www.doc.govt.nz/parks-and-recreation/places-to-go/nelson-tasman/places/kahurangi-national-park/things-to-do/huts/lewis-hut/ "Lewis Hut"
+[4]: https://www.doc.govt.nz/parks-and-recreation/places-to-go/nelson-tasman/places/kahurangi-national-park "Lewis Hut"
 [5]: http://www.topomap.co.nz/NZTopoMap?v=2&ll=-40.97673,172.1201&z=14&pin=1&lbl=40%C2%B058%E2%80%B236%E2%80%B3S%20172%C2%B007%E2%80%B212%E2%80%B3E "Glow Worm Caves"
 [6]: https://www.doc.govt.nz/parks-and-recreation/places-to-go/nelson-tasman/places/kahurangi-national-park/things-to-do/huts/james-mackay-hut/ "James Mackay Hut"
 [7]: http://www.topomap.co.nz/NZTopoMap?v=2&ll=-40.89207,172.3551&z=14&pin=1&lbl=40%C2%B053%E2%80%B231%E2%80%B3S%20172%C2%B021%E2%80%B218%E2%80%B3E "Swimming Near Gouland Downs Hut"
@@ -88,5 +88,5 @@ We headed to Takaka that evening for a well-earned shower and some delicious foo
 [10]: https://www.doc.govt.nz/parks-and-recreation/places-to-go/nelson-tasman/places/kahurangi-national-park/things-to-do/campsites/aorere-shelter-campsite/ "Aorere Shelter"
 [11]: http://www.topomap.co.nz/NZTopoMap?v=2&ll=-40.85173,172.44634&z=14&pin=1&lbl=40%C2%B051%E2%80%B206%E2%80%B3S%20172%C2%B026%E2%80%B247%E2%80%B3E 
 "Swimming in Brown River"
-[12]: https://goo.gl/maps/SCBmkQypVNbZSYW36 "Roots Bar in Takaka"
+[12]: https://www.google.com/maps/place/Roots+Bar/@-40.8609579,172.8035533,17z/data=!3m1!4b1!4m5!3m4!1s0x6d3c8f241ae06ffd:0x8100a2e616f241e0!8m2!3d-40.860962!4d172.805742?shorturl=1 "Roots Bar in Takaka"
 

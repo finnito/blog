@@ -39,4 +39,4 @@ Next time: __mountain bikes__!
 - [Craigieburn Forest Park][doc]
 
 [chv]: http://www.castlehill.net.nz/village/castlehill_village.php "Castle Hill Village"
-[doc]: https://www.doc.govt.nz/parks-and-recreation/places-to-go/canterbury/places/craigieburn-forest-park/things-to-do/tracks/craigieburn-forest-park-walking-tracks/ "Craigieburn Forest Park Walking Tracks"
+[doc]: https://www.doc.govt.nz/parks-and-recreation/places-to-go/canterbury/places/craigieburn-forest-park/ "Craigieburn Forest Park Walking Tracks"

@@ -14,7 +14,7 @@ In 2019 the [Post Primary Teachers Association (PPTA) / Te Wehengarua](https://p
 3. Increase Units from $4000 to $5000
 4. Increase Middle Management Units from $1000 to $2000
 5. $1500 lump sum
-6. [And many other things..](https://www.ppta.org.nz/collective-agreements/secondary-teachers-collective-agreement-stca/terms-of-settlement/)
+6. [And many other things..](https://www.ppta.org.nz/collective-agreements/secondary-teachers-collective-agreement-stca/terms-of-settlement)
 
 This is all well and good - __it is important to get recognised, monetarily, for the work you do__. However, in the two years since this agreement has come into effect, I have had some enlightening conversations with other teachers (both management, and not). The comments revolved around:
 

@@ -11,7 +11,7 @@ When I started teaching in 2019 here in New Zealand our union collective agreeme
 
 ![Back the Teachers](https://www.ppta.org.nz/assets/Featured/Back-the-teachers-PHIBBSVISUALS-TEACHERS-1web__FillMaxWzgwMCw0MDBd.jpg)
 
-We got 9% pay increase over three years; an extra pay step was introduced; management units were increased; addition of gender neutral pronouns in the parental leave clause; Māori immersion teacher allowance; career advisor allowance; one-off gross payment of $1500; and a few other miscellanous things. [Read the full list here](https://www.ppta.org.nz/collective-agreements/secondary-teachers-collective-agreement-stca/terms-of-settlement/).
+We got 9% pay increase over three years; an extra pay step was introduced; management units were increased; addition of gender neutral pronouns in the parental leave clause; Māori immersion teacher allowance; career advisor allowance; one-off gross payment of $1500; and a few other miscellanous things. [Read the full list here](https://www.ppta.org.nz/collective-agreements/secondary-teachers-collective-agreement-stca/terms-of-settlement).
 
 ### Finn Learns About Inflation
 
@@ -31,7 +31,7 @@ Being new to teaching and a bit naive about the workforce I thought that 9% over
 | Sep-21  | 4.9           |
 | Dec-21  | 5.9           |
 >
-> Data courtesy of [Stats NZ](https://www.stats.govt.nz/indicators/consumers-price-index-cpi).
+> Data courtesy of [Stats NZ](https://www.stats.govt.nz/indicators/consumers-price-index-cpi/).
 > Retrieved: 09/02/2022.
 
 We can see that it is getting a bit out of hand recently, but what about the total inflation since July 2019 when the collective agreement came into force? Let's ask the Reserve Bank of New Zealand.
@@ -44,7 +44,7 @@ The collective agreement doesn't expire until July 2022, so we should expect eve
 
 What does this mean for our next round of collective bargining in 2022? Perhaps that __we need to bargin hard for an actual pay rise__. We should not just accept a pay rise that matches inflation. The Ministry of Education needs to value our jobs in order to attract more teachers into the future. We need to be attracting the best and brightest around to help support the generations that will come after us.
 
-> "The demand for primary teachers is projected to grow marginally until 2023, before dropping year-on-year in the longer term. Whilst the demand for secondary teachers is still projected to grow year-on-year out to 2024." - [Ministry of Education / Te Tāhuhu o te Mātauranga](https://www.education.govt.nz/news/teacher-supply-for-the-2022-school-year-update/). Retrieved 09/02/2022.
+> "The demand for primary teachers is projected to grow marginally until 2023, before dropping year-on-year in the longer term. Whilst the demand for secondary teachers is still projected to grow year-on-year out to 2024." - [Ministry of Education / Te Tāhuhu o te Mātauranga](https://www.education.govt.nz/news/teacher-supply-for-the-2022-school-year-update). Retrieved 09/02/2022.
 
 Okay, so what about inflation into the future? Reading [BNZ's Markets Outlook](https://www.bnz.co.nz/assets/markets/research/BNZMO_20220208.pdf) document published 08/02/2022 (retrieved 09/02/2022) there are a few little points to note.
 
@@ -84,7 +84,7 @@ As I have written about before, teaching is hard mental and emotional work. It m
 
 ### Write to the PPTA
 
-Find your representatives [here](https://www.ppta.org.nz/contact-us/).
+Find your representatives [here](https://www.ppta.org.nz/contact-us).
 
 ```
 
@@ -112,7 +112,7 @@ Here are some other considerations that would directly improve the quality of li
 
 References:
 - BNZ Market Outlook https://www.bnz.co.nz/assets/markets/research/BNZMO_20220208.pdf
-- Ministry of Education Teacher Supply Update (2022) https://www.education.govt.nz/news/teacher-supply-for-the-2022-school-year-update/
+- Ministry of Education Teacher Supply Update (2022) https://www.education.govt.nz/news/teacher-supply-for-the-2022-school-year-update
 - Royal Bank of New Zealand Inflation Calculator https://www.rbnz.govt.nz/monetary-policy/inflation-calculator
 
 Thank you for the work you do in representing us!
@@ -154,7 +154,7 @@ Here are some other considerations that would directly improve the quality of li
 
 References:
 - BNZ Market Outlook https://www.bnz.co.nz/assets/markets/research/BNZMO_20220208.pdf
-- Ministry of Education Teacher Supply Update (2022) https://www.education.govt.nz/news/teacher-supply-for-the-2022-school-year-update/
+- Ministry of Education Teacher Supply Update (2022) https://www.education.govt.nz/news/teacher-supply-for-the-2022-school-year-update
 - Royal Bank of New Zealand Inflation Calculator https://www.rbnz.govt.nz/monetary-policy/inflation-calculator
 
 Thank you for your time today,

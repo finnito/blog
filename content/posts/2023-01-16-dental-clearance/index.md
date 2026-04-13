@@ -88,4 +88,4 @@ Mā te wā 👋
 [^5]: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4985400/
 [^6]: https://jada.ada.org/article/S0002-8177(19)30333-2/fulltext
 [^7]: https://www.annalsthoracicsurgery.org/article/S0003-4975(14)01521-5/pdf
-[^8]: https://www.frontiersin.org/articles/10.3389/fsoc.2020.00007/full
+[^8]: https://www.frontiersin.org/journals/sociology/articles/10.3389/fsoc.2020.00007/full

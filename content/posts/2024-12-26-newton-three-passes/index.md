@@ -138,7 +138,7 @@ The rain blew through (mostly) overnight, so we headed off with grey skies above
 
 The track is super good basically all day except for the same washed-out creeks etc. as mentioned above in Day 1. We powered on, making good time and trying to beat some of the forecast rain. Alas, it was not to be and the rain hit us around 1 pm. We pulled on our jackets (for the first time all trip!) and our backpack rain covers and continued on. The only pitfall of the rain was that the track was definitely more slippery than when we first walked it. This made for slower going in some places and Jen had a good slip on a tree branch, and I was grumpy at a couple of rocks.
 
-By the time we got to the car we were __wet__ and both wished we had invested in a [hydrophobia Earth Sea Sky jacket](https://earthseasky.co.nz/product/hydrophobia-men-s/). The colours are not to our liking: they just _look_ old. But, the mid-thigh length would have been a blessing. I, for one, had wet jockeys. Awesome.
+By the time we got to the car we were __wet__ and both wished we had invested in a [hydrophobia Earth Sea Sky jacket](https://earthseasky.co.nz/product/hydrophobia-waterproof-jacket-mens/). The colours are not to our liking: they just _look_ old. But, the mid-thigh length would have been a blessing. I, for one, had wet jockeys. Awesome.
 
 We pulled off our wet clothes, struggled into some dry ones and headed home footsore, tired and smelly, but feeling reinvigorated for having had an adventure.
 

@@ -108,11 +108,11 @@ _It is important to note that the 'task-id' string should be URL encoded as demo
 - __Drafts__: <https://getdrafts.com/>
 - __OmniForum Post__: <https://discourse.omnigroup.com/t/implementation-details-for-omnifocus-2-14-automation/24179>
 - __Ken Case__: <https://twitter.com/kcase>
-- __OmniFocus Quick View Shortcut__: <https://workflow.is/workflows/f78d4e2303454a7fbbd8346dd41925c5>
-- __OmniFocus Perspective Shortcut__: <https://workflow.is/workflows/329d62f5c5ce41669fecd8e86a3bf0a2>
-- __OmniFocus Search Shortcut__: <https://workflow.is/workflows/90e65b30ddcb43af864c06e312e0a6be>
-- __OmniFocus Folder Shortcut__: <https://workflow.is/workflows/c65cdd98379d49e5bf9261087d4267b4>
-- __OmniFocus Project Shortcut__: <https://workflow.is/workflows/d41a3ec96ec349a68cc6307fd265373f>
+- __OmniFocus Quick View Shortcut__: <https://www.icloud.com/shortcuts/f78d4e2303454a7fbbd8346dd41925c5>
+- __OmniFocus Perspective Shortcut__: <https://www.icloud.com/shortcuts/329d62f5c5ce41669fecd8e86a3bf0a2>
+- __OmniFocus Search Shortcut__: <https://www.icloud.com/shortcuts/90e65b30ddcb43af864c06e312e0a6be>
+- __OmniFocus Folder Shortcut__: <https://www.icloud.com/shortcuts/c65cdd98379d49e5bf9261087d4267b4>
+- __OmniFocus Project Shortcut__: <https://www.icloud.com/shortcuts/d41a3ec96ec349a68cc6307fd265373f>
 
 [ss]: https://www.imore.com/siri-shortcuts-faq
 [og]: https://www.omnigroup.com/
@@ -121,8 +121,8 @@ _It is important to note that the 'task-id' string should be URL encoded as demo
 [dr]: https://getdrafts.com/
 [ofp]: https://discourse.omnigroup.com/t/implementation-details-for-omnifocus-2-14-automation/24179
 [kc]: https://twitter.com/kcase
-[ofquickview]: https://workflow.is/workflows/f78d4e2303454a7fbbd8346dd41925c5
-[ofsearch]: https://workflow.is/workflows/90e65b30ddcb43af864c06e312e0a6be
-[offolder]: https://workflow.is/workflows/c65cdd98379d49e5bf9261087d4267b4
-[ofproject]: https://workflow.is/workflows/d41a3ec96ec349a68cc6307fd265373f
-[ofperspective]: https://workflow.is/workflows/329d62f5c5ce41669fecd8e86a3bf0a2
+[ofquickview]: https://www.icloud.com/shortcuts/f78d4e2303454a7fbbd8346dd41925c5
+[ofsearch]: https://www.icloud.com/shortcuts/90e65b30ddcb43af864c06e312e0a6be
+[offolder]: https://www.icloud.com/shortcuts/c65cdd98379d49e5bf9261087d4267b4
+[ofproject]: https://www.icloud.com/shortcuts/d41a3ec96ec349a68cc6307fd265373f
+[ofperspective]: https://www.icloud.com/shortcuts/329d62f5c5ce41669fecd8e86a3bf0a2
