@@ -5,6 +5,7 @@ var HikeMap;
 var ElevationData = [];
 var ElevationChart;
 var Tracks;
+var Photos;
 var ColourIterator = 0;
 var BaseLayers;
 var GPXData = {};
@@ -46,6 +47,7 @@ function initHike() {
     HikeMap = L.map('hikeMap', {zoom: 12, center: L.latLng(-43.55947876166007, 172.63676687379547)});
     HikeMap.addControl(new L.Control.Fullscreen());
     Tracks = L.featureGroup().addTo(HikeMap);
+    Photos = L.featureGroup().addTo(HikeMap);
 
     // Create base layers
     var layer50 = L.tileLayer('https://tiles-a.data-cdn.linz.govt.nz/services;key=50b8923a67814d28b7a1067e28f03000/tiles/v4/layer=50767/EPSG:3857/{z}/{x}/{y}.png', {
@@ -134,8 +136,8 @@ function addImages() {
         fig = figures[i];
         photoIcon = L.icon({
             iconUrl: '/css/images/marker-image.png',
-            iconSize:     [38, 38],
-            iconAnchor:   [19, 38],
+            iconSize:     [30, 30],
+            iconAnchor:   [15, 30],
             popupAnchor:  [-3, -76],
             fig:          fig.getAttribute("data-fig")
         });
@@ -143,9 +145,10 @@ function addImages() {
             L.marker([fig.getAttribute("data-lat"), fig.getAttribute("data-lng")], {icon: photoIcon}, {test: "something"})
             .bindTooltip(fig.querySelector("figcaption").innerHTML)
             .on("click", function(e) {
-                document.querySelector("figure[data-fig='" + e.target.options.icon.options.fig + "']").scrollIntoView();
+                //document.querySelector("figure[data-fig='" + e.target.options.icon.options.fig + "']").scrollIntoView();
+                document.querySelector("figure[data-fig='" + e.target.options.icon.options.fig + "'] a").click();
             })
-            .addTo(HikeMap);
+            .addTo(Photos);
         }
     }
 }
@@ -256,7 +259,7 @@ function addTooltip(el, data) {
         + "Duration: " + msToHMS(data.stats.duration * 1000) + "<br/>"
         + "Pace: " + ((data.stats.distance / 1000)/(data.stats.duration/3600)).toFixed(2) + "km/hr<br/>"
         + "Elevation Gain: " + data.stats.uphill + "m<br/>"
-        + "Elevation Loss: " + data.stats.downhill + "m<br/>"
+        + "Elevation Loss: " + data.stats.downhill + "m<br/><br/>"
         + "<i>Double-click icon to zoom to track.</i>";
     el.bindTooltip(tooltipText, {sticky: true, keepInView: true});
 }

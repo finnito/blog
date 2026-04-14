@@ -22,6 +22,11 @@
   margin-bottom: 1rem;
 }
 
+figcaption span:not(:first-of-type),
+.gslide-desc span:not(:first-of-type) {
+    padding-left: 1rem;
+}
+
 .grid figure img {
   border-radius: 0;
 }
@@ -34,6 +39,7 @@
 .glightbox-container.glightbox-clean .gslide-description {
   background: transparent;
   color: white;
+  max-width: 350px;
 }
 
 a.glightbox {

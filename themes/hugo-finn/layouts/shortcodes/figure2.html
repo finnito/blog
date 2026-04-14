@@ -7,15 +7,166 @@
 {{ $lightboxURLSigned := urls.JoinPath "https://imagor.lesueur.nz" $lightboxSignature $lightboxURL }}
 {{ $fullSizeURLSigned := urls.JoinPath "https://imagor.lesueur.nz" $fullSizeSignature $fullSizeURL }}
 
-<figure>
-    <a class="glightbox" data-gallery='1' data-glightbox="description: {{ .Get "title" | markdownify }}<br/><br/>📷 {{ if .Get "author" }}{{ .Get "author" | markdownify }}{{ else }}Finn Le Sueur{{ end }}" href='{{ $fullSizeURLSigned }}' title='{{ .Get "title" }}'>
+{{ $metaURL := urls.JoinPath "meta/fit-in/1024x/blog/" .Page.Slug (.Get "name") }}
+{{ $metaURLSignature := hmac "sha1" (getenv "HUGO_IMAGOR_SHA_SECRET") $metaURL "binary" | base64Encode | replaceRE `\+` "-" | replaceRE `\/` "_" }}
+{{ $metaURLSigned := urls.JoinPath "https://imagor.lesueur.nz" $metaURLSignature $metaURL }}
+
+{{ $meta := dict }}
+{{ with try (resources.GetRemote $metaURLSigned) }}
+    {{ with .Value }}
+        {{ $meta = . | transform.Unmarshal }}
+    {{ end }}
+{{ end }}
+
+{{ $author := "" }}
+{{ with .Get "author" }}
+    {{ $author = . | markdownify }}
+{{ else }}
+    {{ $author = "Finn Le Sueur" }}
+{{ end }}
+
+{{ $make := "" }}
+{{ with $meta }}
+    {{ with .exif }}
+        {{ with .Make }}{{ $make = . }}{{ end }}
+    {{ end }}
+{{ end }}
+
+{{ $model := "" }}
+{{ with $meta }}
+    {{ with .exif }}
+        {{ with .Model }}{{ $model = . }}{{ end }}
+    {{ end }}
+{{ end }}
+
+{{ $lens := "" }}
+{{ with $meta }}
+    {{ with .exif }}
+        {{ with .LensModel }}{{ $lens = . }}{{ end }}
+    {{ end }}
+{{ end }}
+
+{{ $iso := "" }}
+{{ with $meta }}
+    {{ with .exif }}
+        {{ with .ISOSpeedRatings }}{{ $iso = . }}{{ end }}
+    {{ end }}
+{{ end }}
+
+{{ $exposure := "" }}
+{{ with $meta }}
+    {{ with .exif }}
+        {{ with .ExposureTime }}
+            {{ $array := strings.Split . "/" }}
+            {{ if eq (index $array 1) "1" }}
+                {{ $exposure = index $array 0 }}
+            {{ else }}
+                {{ $exposure = . }}
+            {{ end }}
+        {{ end }}
+    {{ end }}
+{{ end }}
+
+{{ $fstop := 0 | cast.ToFloat }}
+{{ with $meta }}
+    {{ with .exif }}
+        {{ with .FNumber }}
+            {{ if strings.Contains . "/" }}
+                {{ $array := strings.Split . "/" }}
+                {{ $fstop = div (index $array 0 | cast.ToFloat) (index $array 1| cast.ToFloat)  }}
+            {{ else }}
+                {{ $fstop = . | cast.ToFloat }}
+            {{ end }}
+        {{ end }}
+    {{ end }}
+{{ end }}
+
+{{ $focalLength := 0 }}
+{{ with $meta }}
+    {{ with .exif }}
+        {{ with .FocalLength}}
+            {{ if strings.Contains . "/" }}
+                {{ $array := strings.Split . "/" }}
+                {{ $focalLength = div (index $array 0 | cast.ToInt) (index $array 1| cast.ToInt) }}
+            {{ else }}
+                {{ $focalLength = . }}
+            {{ end }}
+        {{ end }}
+    {{ end }}
+{{ end }}
+
+{{ $alt := fmt.Printf "%s\n📷 %s\n\n%s %s\n%s\n%s\n<span>%s ISO<s/span> <span>f/%v</span> <span>%dmm</span> <span>%ss</span>" (.Get "title") $author $make $model $lens $iso $fstop $focalLength $exposure }}
+{{ $caption := fmt.Printf "%s<br/>📷 %s<br/><br/>%s %s<br/>%s<br/><span>%s ISO</span> <span>f/%v</span> <span>%dmm</span> <span>%ss</span>" (.Get "title") $author $make $model $lens $iso $fstop $focalLength $exposure }}
+
+{{ $lat := "" }}
+{{ with $meta }}
+    {{ with .exif }}
+        {{ with .GPSLatitude}}
+            {{ if strings.Contains . "/" }}
+                {{ $sections := strings.Split . " " }}
+                
+                {{ $beforeDecimalArray := strings.Split (index $sections 0) "/" }}
+                {{ $degrees := div (index $beforeDecimalArray 0 | cast.ToFloat) (index $beforeDecimalArray 1 | cast.ToFloat) }}
+                
+                {{ $afterDecimalArray := strings.Split (index $sections 1) "/" }}
+                {{ $decimal := div (index $afterDecimalArray 0 | cast.ToFloat) (index $afterDecimalArray 1 | cast.ToFloat) }}
+                {{ $minutes := math.Floor $decimal }}
+                {{ $seconds := math.Mul (math.Sub $decimal $minutes) 60}}
+                
+                {{ $lat = math.Add $degrees (math.Div $minutes 60) (math.Div $seconds 3600) }}
+            {{ else }}
+                {{ $lat = . }}
+            {{ end }}
+            
+        {{ end }}
+        {{ with .GPSLatitudeRef }}
+            {{ if eq . "S" }}
+                {{ $lat = fmt.Printf "-%f" $lat }}
+            {{ end }}
+        {{ end }}
+    {{ end }}
+{{ end }}
+
+{{ $lng := "" }}
+{{ with $meta }}
+    {{ with .exif }}
+        {{ with .GPSLongitude }}
+            {{ if strings.Contains . "/" }}
+                {{ $sections := strings.Split . " " }}
+                
+                {{ $beforeDecimalArray := strings.Split (index $sections 0) "/" }}
+                {{ $degrees := div (index $beforeDecimalArray 0 | cast.ToFloat) (index $beforeDecimalArray 1 | cast.ToFloat) }}
+                
+                {{ $afterDecimalArray := strings.Split (index $sections 1) "/" }}
+                {{ $decimal := div (index $afterDecimalArray 0 | cast.ToFloat) (index $afterDecimalArray 1 | cast.ToFloat) }}
+                {{ $minutes := math.Floor $decimal }}
+                {{ $seconds := math.Mul (math.Sub $decimal $minutes) 60 }}
+                
+                {{ $lng = math.Add $degrees (math.Div $minutes 60) (math.Div $seconds 3600) }}
+                
+                
+            {{ else }}
+                {{ $lng = . }}
+            {{ end }}
+        {{ end }}
+        {{ with .GPSLongitudeRef }}
+            {{ if eq . "W" }}
+                {{ $lng = fmt.Printf "-%f" $lng }}
+            {{ end }}
+        {{ end }}
+    {{ end }}
+{{ end }}
+                
+
+<figure data-lat="{{ $lat }}" data-lng="{{ $lng }}" data-fig='{{ .Get "name" }}'>
+    <a class="glightbox" data-gallery='1' data-glightbox="description:{{$caption}}" href='{{ $fullSizeURLSigned }}' title='{{ .Get "title" }}'>
         <img
             src='{{ $lightboxURLSigned }}'
-            alt='{{ .Get "title" }}'
+            alt='{{ $alt }}'
             loading='lazy'
             {{ with .Get "height" }}height='{{ . }}'{{ end }}
             {{ with .Get "width" }}width='{{ . }}'{{ end }}
             />
     </a>
-    <figcaption>{{ .Get "title" | markdownify }}<br/>📷: {{ if .Get "author" }}{{ .Get "author" | markdownify }}{{ else }}Finn Le Sueur{{ end }}</figcaption>
+    <figcaption>{{ $caption | safeHTML }}</figcaption>
 </figure>
