@@ -53,7 +53,7 @@ p a:hover, p a:active {
 }
 
 a.button {
-  background-color: var(--yellowLight);
+  background-color: rgba(255,234,167,.5);
   border: 1px solid var(--yellow);
   padding: 0.1rem 0.25rem;
   border-radius: 0.25rem;
@@ -80,3 +80,7 @@ input, select, textarea {
 }
 
 sup {line-height: 0;}
+
+@media (prefers-color-scheme: dark) {
+    a.button { color: white; }
+}
