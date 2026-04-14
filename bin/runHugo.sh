@@ -8,7 +8,7 @@ hugo server \
 	--forceSyncStatic \
 	--buildDrafts \
 	--renderStaticToDisk \
- 	--logLevel info \
+ 	--logLevel debug \
   	--navigateToChanged \
 	--noHTTPCache \
 	--port=8888 \
