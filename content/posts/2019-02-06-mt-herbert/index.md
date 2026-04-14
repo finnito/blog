@@ -43,4 +43,4 @@ All in all, it was a great walk, albiet a little chilly in the breezy southerly 
 
 Waitangi Day well spent!
 
-{{< figure2 name="2019-02-06.jpg" width="2048" height="1365" author="Finn Le Sueur" title="The very green southern face of Mt Bradley." >}}
+{{< figure2 name="2019-02-06-0246.jpg" width="2048" height="1365" author="Finn Le Sueur" title="The very green southern face of Mt Bradley." >}}
