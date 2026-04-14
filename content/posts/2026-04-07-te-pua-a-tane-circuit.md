@@ -130,9 +130,9 @@ In the end, we clocked almost 32km and were more than a little happy to drink a 
 
 Thanks, Whirinaki. It was a beaut.
 
-> ☕️ Porridge & coffee<br/>
-> 🥜 Nut bar<br/>
-> 🌮 Hummus & cheese wrap
+> ☕️ Porridge & coffeee <br/>
+> 🥜 Nut bar x3 and lollies<br/>
+> 🌮 Hummus & cheese wrap & coffee
 
 <div class="grid">
 {{< figure2 name="DSCF3284.jpg" width="6240" height="4160" title="Well manicured track on the way Moerangi Hut." >}}
