@@ -81,6 +81,15 @@ input, select, textarea {
 
 sup {line-height: 0;}
 
+time {
+    font-style: italic;
+    /*font-size: smaller;*/
+    /*color: var(--grey);*/
+}
+
 @media (prefers-color-scheme: dark) {
     a.button { color: white; }
-}
+    a {color: #00b0ff; }
+    p a { border-bottom: 2px dotted #00b0ff; }
+
+p a:hover, p a:active { background-color: rgba(0, 176, 255, 0.2); }

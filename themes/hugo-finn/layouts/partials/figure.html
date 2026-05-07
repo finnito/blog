@@ -1,13 +1,13 @@
 {{ $page := .Page }}
 
-{{ $lightboxURL := urls.JoinPath "fit-in/1024x/blog/" .Page.Slug (.Get "name") }}
-{{ $fullSizeURL := urls.JoinPath "fit-in/3096x/blog/" .Page.Slug (.Get "name") }}
+{{ $lightboxURL := urls.JoinPath "fit-in/512x/blog/photos" .Params.image }}
+{{ $fullSizeURL := urls.JoinPath "fit-in/3096x/blog/photos" .Params.image }}
 {{ $lightboxSignature := hmac "sha1" (getenv "HUGO_IMAGOR_SHA_SECRET") $lightboxURL "binary" | base64Encode | replaceRE `\+` "-" | replaceRE `\/` "_" }}
 {{ $fullSizeSignature := hmac "sha1" (getenv "HUGO_IMAGOR_SHA_SECRET") $fullSizeURL "binary" | base64Encode | replaceRE `\+` "-" | replaceRE `\/` "_" }}
 {{ $lightboxURLSigned := urls.JoinPath "https://imagor.lesueur.nz" $lightboxSignature $lightboxURL }}
 {{ $fullSizeURLSigned := urls.JoinPath "https://imagor.lesueur.nz" $fullSizeSignature $fullSizeURL }}
 
-{{ $metaURL := urls.JoinPath "meta/fit-in/1024x/blog/" .Page.Slug (.Get "name") }}
+{{ $metaURL := urls.JoinPath "meta/fit-in/1024x/blog/photos" .Params.image }}
 {{ $metaURLSignature := hmac "sha1" (getenv "HUGO_IMAGOR_SHA_SECRET") $metaURL "binary" | base64Encode | replaceRE `\+` "-" | replaceRE `\/` "_" }}
 {{ $metaURLSigned := urls.JoinPath "https://imagor.lesueur.nz" $metaURLSignature $metaURL }}
 
@@ -19,7 +19,7 @@
 {{ end }}
 
 {{ $author := "" }}
-{{ with .Get "author" }}
+{{ with .Params.photographer }}
     {{ $author = . | markdownify }}
 {{ else }}
     {{ $author = "Finn Le Sueur" }}
@@ -50,6 +50,15 @@
 {{ with $meta }}
     {{ with .exif }}
         {{ with .ISOSpeedRatings }}{{ $iso = . }}{{ end }}
+    {{ end }}
+{{ end }}
+
+{{ $date := "" }}
+{{ with $meta }}
+    {{ with .exif }}
+        {{ with .DateTimeOriginal }}
+            {{ $date = replace (replace . ":" "-" 2) " " "T" 1 | time.Format "1 January, 2006 at 3:04pm" }}
+        {{ end }}
     {{ end }}
 {{ end }}
 
@@ -95,17 +104,8 @@
     {{ end }}
 {{ end }}
 
-{{ $date := "" }}
-{{ with $meta }}
-    {{ with .exif }}
-        {{ with .DateTimeOriginal }}
-            {{ $date = replace (replace . ":" "-" 2) " " "T" 1 | time.Format "1 January, 2006 at 3:04pm" }}
-        {{ end }}
-    {{ end }}
-{{ end }}
-
-{{ $alt := fmt.Printf "%s\n\n%s\n📷 %s\n\n%s %s\n%s\n%s\n<span>%s ISO<s/span> <span>f/%v</span> <span>%dmm</span> <span>%ss</span>" $date (.Get "title") $author $make $model $lens $iso $fstop $focalLength $exposure }}
-{{ $caption := fmt.Printf "%s<br/><br/>%s<br/>📷 %s<br/><br/>%s %s<br/>%s<br/><span>%s ISO</span> <span>f/%v</span> <span>%dmm</span> <span>%ss</span>" $date (.Get "title") $author $make $model $lens $iso $fstop $focalLength $exposure }}
+{{ $alt := fmt.Printf "%s\n\n%s\n📷 %s\n\n%s %s\n%s\n%s\n<span>%s ISO<s/span> <span>f/%v</span> <span>%dmm</span> <span>%ss</span>" $date .Title $author $make $model $lens $iso $fstop $focalLength $exposure }}
+{{ $caption := fmt.Printf "%s<br/><br/>%s<br/>📷 %s<br/><br/>%s %s<br/>%s<br/><span>%s ISO</span> <span>f/%v</span> <span>%dmm</span> <span>%ss</span>" $date .Title $author $make $model $lens $iso $fstop $focalLength $exposure }}
 
 {{ $lat := "" }}
 {{ with $meta }}
@@ -165,20 +165,18 @@
         {{ end }}
     {{ end }}
 {{ end }}
-                
 
-<figure data-lat="{{ $lat }}" data-lng="{{ $lng }}" data-fig='{{ .Get "name" }}'>
-    <a class="glightbox" data-gallery='1' data-glightbox="description:{{$caption}}" href='{{ $fullSizeURLSigned }}' title='{{ .Get "title" }}'>
+<figure data-lat="{{ $lat }}" data-lng="{{ $lng }}">
+    <a class="glightbox" data-gallery='1' data-glightbox="description:{{$caption}}" href='{{ $fullSizeURLSigned }}' title='{{ .Title }}'>
         <img
             src='{{ $lightboxURLSigned }}'
             alt='{{ $alt }}'
             loading='lazy'
-            {{ with .Get "height" }}height='{{ . }}'{{ end }}
-            {{ with .Get "width" }}width='{{ . }}'{{ end }}
+            {{ with .Params.height }}height='{{ . }}'{{ end }}
+            {{ with .Params.width  }}width='{{ . }}'{{ end }}
             />
     </a>
     <figcaption>
-        {{ .Get "title" | markdownify }}<br/>
-        📷 {{ with .Get "author" }}{{ . }}{{ else }}Finn Le Sueur{{ end }}
+        {{ .Content }}
     </figcaption>
 </figure>

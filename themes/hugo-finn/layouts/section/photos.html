@@ -1,32 +1,53 @@
 {{ partial "header.html" . }}
 
-<div class="content">
-    {{ range first 1 (where .Site.RegularPages "Section" "photos") }}
-        <h1>
-            <a href="{{ .Permalink | relURL }}" title="{{ .Title }}">
-                {{ .Title }}
-            </a>
-        </h1>
-        <time>{{ time.Format "January 2, 2006 at 9:00am" .Params.photoDate }}</time>
-            {{ partial "photos-figure.html" . }}
-        {{ .Content }}
-    {{ end }}
+{{ $latestPostSlice := first 1 (where .Site.RegularPages "Section" "photos") }}
+{{ $latestPost := index $latestPostSlice 0 }}
 
-    <blockquote><p>Subscribe to my photography RSS feed by clicking here: <a href="/photos/index.xml">{{ .Permalink }}index.xml</a>.</p></blockquote>
-
-    <h2>Archive</h2>
-    <ul class="archive">
-        {{ range .Data.Pages.GroupByParamDate "date" "January 2006" }}
-            {{ .Key }}
-            {{ range .Pages }}
-            <ul>
-                <li class="photo">
-                    <a href="{{.Permalink}}">{{.Title}} <time>{{ dateFormat "02 Jan, 2006" .Params.photoDate }}</time></a>
-                </li>
-            </ul>
-            {{ end }}
+<div class="content photos">
+        {{ with index $latestPost }}
+        <h1>{{ .Title }}</h1>
+         <a href="{{ .Permalink }}" title="Permalink for {{ .Title }}"><time>{{ time.Format "2 January, 2006 at 3:04pm" .Params.photoDate }}</time></a>
+        {{ partial "figure.html" . }}
         {{ end }}
-    </ul>
+
+    <blockquote><p>Subscribe to my photography RSS feed by clicking <a href="/photos/index.xml">here</a>.</p></blockquote>
+    
+    <div class="grid">
+    {{ range where (where .Site.RegularPages "Section" "photos") "Params.date" "ne" $latestPost.Params.date }}
+        {{ partial "figure.html" . }}
+    {{ end }}
+    </div>
+    
+    <script src="/js/minimasonry.min.js" async></script>
+    <script src="/js/glightbox.min.js" async></script>
+    <script>
+    window.addEventListener("load", function() {
+        
+        // https://github.com/Spope/MiniMasonry.js/
+        var grids = document.querySelectorAll('.grid');
+        grids.forEach(function(grid) {
+            var masonry = new MiniMasonry({
+                container: grid,
+                baseWidth: 200,
+                gutter: 2,
+                ultimateGutter: 2,
+                minify: true
+            });
+        });
+
+        // https://github.com/biati-digital/glightbox
+        const lightbox = GLightbox({
+            touchNavigation: true,
+            openEffect: 'fade',
+            closeEffect: 'fade',
+            slideEffect: 'fade',
+            descPosition: 'right',
+            moreLength: 0,
+            loop: false
+        });
+        
+    });
+    </script>
 </div>
 
 {{ partial "footer.html" . }}

@@ -78,8 +78,9 @@
         {{ readFile "/themes/hugo-finn/static/css/mod-gps.css" | safeCSS }}
       {{ end  }}
 
-      {{ if in "photos" .Section }}
+      {{ if eq "photos" .Section }}
         {{ readFile "/themes/hugo-finn/static/css/mod-photos.css" | safeCSS }}
+        {{ readFile "/themes/hugo-finn/static/css/glightbox.min.css" | safeCSS }}
       {{ end  }}
     </style>
   </head>
