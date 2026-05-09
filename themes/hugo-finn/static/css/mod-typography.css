@@ -91,5 +91,5 @@ time {
     a.button { color: white; }
     a {color: #00b0ff; }
     p a { border-bottom: 2px dotted #00b0ff; }
-
-p a:hover, p a:active { background-color: rgba(0, 176, 255, 0.2); }
+    p a:hover, p a:active { background-color: rgba(0, 176, 255, 0.2); }
+}
