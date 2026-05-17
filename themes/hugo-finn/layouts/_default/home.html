@@ -3,101 +3,24 @@
 <div class="content">
     {{ .Content }}
 
-    <div class="filters">
-        <span>Filter by: </span><br/>
-        <input type="radio" name="filter" id="all" value=""/>
-        <label for="all">All</label>
-
-        <input type="radio" name="filter" id="sport" value="🥾,🎿,🏃,🏅,🏔,🚲,🛶" checked/>
-        <label for="sport">Sport</label>
-
-        <!-- <input type="radio" name="filter" id="reading" value="📚,🎧"/>
-        <label for="reading">Reading</label> -->
-
-        <input type="radio" name="filter" id="writing" value="✍️,🧑‍🏫"/>
-        <label for="writing">Writing</label>
-
-        <input type="radio" name="filter" id="tech" value="💻,📱"/>
-        <label for="tech">Tech</label>
-
-        <input type="radio" name="filter" id="photos" value="📸"/>
-        <label for="photos">Photos</label>
-    </div>
-
     <ul class="archive">
         <!-- Ranges through content/posts/*.md -->
-        {{ $pages := .Site.RegularPages }}
-        {{ range $pages.GroupByDate "January 2006" "desc" }}
+        {{ $pages := where .Site.RegularPages "Params.layout" "gps" }}
 
-            {{ $hasVisible := 0 }}
-            {{ range .Pages }}
-                {{ if in "🥾 🎿 🏃 🏅 🏔 🚲 🛶" .Params.emoji }}
-                    {{ $hasVisible = 1 }}
-                {{ end }}
-            {{ end }}
- 
-            <ul {{ if eq $hasVisible 0 }}class="hidden"{{ end }}>
-            <p>{{ .Key }}</p>    
-            {{ range .Pages }}
-                {{ $isSport := in "🥾 🎿 🏃 🏅 🏔 🚲 🛶" .Params.emoji }}
+        {{ range $pages.GroupByDate "2006" "desc" }}
+            <ul>
+            <p>{{ .Key }}</p>
 
-                <li {{ if eq $isSport false }}class="hidden"{{ end }}>
+            {{ range .Pages }}
+                <li>
                     {{ with .Params.emoji }}{{ . }}{{ end }}
                     {{ if (.Draft) }}<strong>DRAFT: </strong>{{ end }}<a href="{{.Permalink}}">{{.Title}} {{ with .Params.author }}by {{ . }}{{end }}</a> <time>{{ .PublishDate.Format "2 Jan" }}</time>
                 </li>
             {{ end }}
+
             </ul>
         {{ end }}
     </ul>
 </div>
-
-<script>
-    document.addEventListener("click", function(e) {
-        if (e.target.name == "filter") {
-            filterPosts();
-            updateURL();
-        }
-    });
-
-    function updateURL() {
-        const id = document.querySelector("input:checked").id
-        const url = new URL(location.href);
-        url.searchParams.set("f", id);
-        history.replaceState(null, "", url);
-    }
-
-    function filterPosts () {
-        let emojiArray = document.querySelector("input:checked").value.split(",")
-        document.querySelectorAll(".archive li").forEach(function(li) {
-            var visible = emojiArray.some(function(emoji) {
-                return li.innerText.includes(emoji);
-            });
-
-            if (visible) {
-                li.classList.remove("hidden");
-            } else {
-                li.classList.add("hidden");
-            }
-        });
-
-        document.querySelectorAll(".archive ul").forEach(function(ul) {
-            var numVis = ul.querySelectorAll("li:not(.hidden)");
-            if (numVis.length !== 0) {
-                ul.classList.remove("hidden");
-            } else {
-                ul.classList.add("hidden");
-            }
-        })
-    }
-
-    document.addEventListener("DOMContentLoaded", function() {
-        const url = new URL(location.href);
-        if (url.searchParams.has("f")) {
-            document.querySelector("input:checked").checked = false;
-            document.querySelector("input#" + url.searchParams.get("f")).checked = true;
-            filterPosts();
-        }
-    })
-</script>
 
 {{ partial "footer.html" . }}
