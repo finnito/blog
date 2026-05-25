@@ -44,7 +44,8 @@ var trackColours = [
  **/
 function initHike() {
     // Create Map
-    HikeMap = L.map('hikeMap', {zoom: 12, center: L.latLng(-43.55947876166007, 172.63676687379547)});
+    var mapEl = document.querySelector("div.hikeMap");
+    HikeMap = L.map(mapEl, {zoom: 12, center: L.latLng(-43.55947876166007, 172.63676687379547)});
     HikeMap.addControl(new L.Control.Fullscreen());
     Tracks = L.featureGroup().addTo(HikeMap);
     Photos = L.featureGroup().addTo(HikeMap);
