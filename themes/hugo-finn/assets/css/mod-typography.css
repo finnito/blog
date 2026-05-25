@@ -1,0 +1,53 @@
+a {
+  border-bottom: 0;
+  text-decoration: none;
+}
+
+h1 {
+  line-height: 1;
+}
+
+h1+p {
+  font-size: small;
+  margin-top: 0;
+}
+
+h1:has(+p) {
+  margin-bottom: 0;
+}
+
+h2 {
+  margin-top: 3rem;
+}
+
+nav>ul a {
+  margin: 0 0.5rem;
+  padding: 0.25rem 0.5rem;
+}
+
+p:first-child:last-child,
+p:only-of-type {
+  margin: 0.5rem;
+}
+
+p:has(+ ul) {
+  margin-bottom: 0;
+}
+
+ul {
+  margin-top: 0;
+  padding-left: 1.5rem;
+}
+
+nav h1 {
+  font-size: 1.3rem;
+  margin: 0.5rem 0;
+}
+
+nav ul {
+  margin: 0 auto;
+}
+
+time {
+  font-style: italic;
+}

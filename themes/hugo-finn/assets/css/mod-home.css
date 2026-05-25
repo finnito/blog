@@ -1,0 +1,24 @@
+.archive {
+  margin-bottom: 0;
+  margin-left: 0;
+  margin-top: 2rem;
+  padding-left: 0;
+}
+
+.archive li {
+  line-height: 1.25rem;
+  margin-bottom: 0.5rem;
+  margin-left: 0.5rem;
+}
+
+.archive ul {
+  list-style: none;
+  margin-bottom: 1rem;
+  padding-left: 0;
+}
+
+.archive>ul p {
+  font-weight: bolder;
+  margin: auto auto 0 0;
+  padding-bottom: 0;
+}

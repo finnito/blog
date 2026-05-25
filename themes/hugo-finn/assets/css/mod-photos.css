@@ -1,10 +1,6 @@
-#hikeMap {
-  height: 50vh;
-  position: relative;
-  left: calc((100vw - 100% - 1rem) / -2);
-  width: calc(100vw - 1rem);
-  background-color: #9BC9D7;
+.nav-buttons {
   display: flex;
+  justify-content: space-between;
 }
 
 .grid {
@@ -24,7 +20,7 @@
 
 figcaption span:not(:first-of-type),
 .gslide-desc span:not(:first-of-type) {
-    padding-left: 1rem;
+  padding-left: 1rem;
 }
 
 .grid figure img {
@@ -32,13 +28,26 @@ figcaption span:not(:first-of-type),
 }
 
 .glightbox-container .goverlay {
-  background: rgba(0, 0, 0, 0.85);
   backdrop-filter: blur(5px);
+}
+
+.photos figcaption {
+  font-size: medium;
+  font-style: normal;
+}
+
+.photos h1 {
+  margin-bottom: 0;
+  display: block;
+}
+
+.photos h1+a {
+  margin-bottom: 1rem;
+  display: block;
 }
 
 .glightbox-container.glightbox-clean .gslide-description {
   background: transparent;
-  color: white;
   max-width: 350px;
 }
 
@@ -50,18 +59,9 @@ body.gscrollbar-fixer {
   margin-right: auto;
   margin-left: auto;
 }
+
 body.glightbox-open {
   overflow: visible;
-}
-
-details {
-    margin: 1rem auto;
-    background-color: rgba(255,234,167,.5);
-    border-radius: .25rem;
-    padding: .25rem .5rem;
-    border-left: 5px solid var(--orange);
-    box-shadow: var(--shadow);
-    background-color: var(--orangeLight);
 }
 
 @media screen and (min-width: 750px) {
