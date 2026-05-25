@@ -28,8 +28,9 @@ We got to [Waihāhā Hut](https://www.doc.govt.nz/parks-and-recreation/places-to
 We pitched the tent and helped set up a bivvy situation for Em, who didn't have her own tent and was originally hoping to get a bed in the hut. Not one to have her spirits damped quite so easily, she got stuck into the adventure of using my emergency bivvy and sleeping under a tarp (our tent's groundsheet).
 
 It quickly cooled off and not long after sundown and a good deal of food, we were heading to bed.
-> 🍴 Baked beans on mash potato<br/>
+> 🍴 Baked beans on mash potato <br/>
 > 🍫 Hot drinks and chocolate
+{class="food"}
 
 ## D2: Out
 
@@ -41,7 +42,8 @@ Maa te waa! We'll be back, Pureora Forest Park! The [Hauhangaroa Track](https://
 
 > ☕️ Porridge & coffee x2<br/>
 > 🥜 Nut bar x2<br/>
-> 🌮 Hummus & cheese wrap<br/>
+> 🌮 Hummus & cheese wrap
+{class="food"}
 
 <div class="grid">
 {{< figure2 name="DSCF3726.jpg" width="4096" height="2731" title="Korra, Em and Jen trundling along." >}}
