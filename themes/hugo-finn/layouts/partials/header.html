@@ -1,80 +1,85 @@
 <!DOCTYPE html>
 <html lang="{{ .Site.Language.Locale }}">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="icon" href="/favicon.png" />
-    <link rel="alternate" type="application/rss+xml" href="/index.xml" title="Finn Le Sueur" />
-    <link rel="sitemap" type="application/xml" title="Sitemap" href="/sitemap.xml" />
-    <link rel="canonical" href="{{ .Permalink }}" />
-    <meta name="robots" content="all">
-    
-    {{ if in "gps multiGPS inreach" .Params.layout }}
-        <link rel="preconnect" href="https://imagor.lesueur.nz" />
-        <link rel="preconnect" href="https://isso.lesueur.nz" />
-        <link rel="preconnect" href="https://tiles-a.data-cdn.linz.govt.nz" />
-    {{ end }}
 
-    <title>{{ with .Title }}{{ . }} | {{ end }}{{ .Site.Title }}</title>
-    <meta property="og:title" content="{{ .Title }} | {{ .Site.Title }}">
-    <meta name="title" content="{{ .Title }} | {{ .Site.Title }}">
-    <meta property="twitter:title" content="{{ .Title }} | {{ .Site.Title }}">
-    
-    {{ $page := . }}
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" href="/favicon.png" />
+  <link rel="alternate" type="application/rss+xml" href="/index.xml" title="Finn Le Sueur" />
+  <link rel="sitemap" type="application/xml" title="Sitemap" href="/sitemap.xml" />
+  <link rel="canonical" href="{{ .Permalink }}" />
+  <meta name="robots" content="all">
 
-    {{ with .Params.metaDescription }}
-      {{ if in "gps multiGPS inreach" $page.Params.layout }}
-      <meta name="description" content="Trip Report: {{ . }}">
-      <meta property="og:description" content="Trip Report: {{ . }}">
-      <meta property="twitter:description" content="Trip Report: {{ . }}">
-      {{ else }}
-      <meta name="description" content="{{ . }}">
-      <meta property="og:description" content="{{ . }}">
-      <meta property="twitter:description" content="{{ . }}">
-      {{ end }}
-    {{ end }}
-
-    {{ if eq $page.Section "photos" }}
-    <meta name="description" content="{{ $page.Content }}">
-    <meta property="og:description" content="{{ $page.Content }}">
-    <meta property="twitter:description" content="{{ $page.Content }}">
-
-    {{ $ogImagePath := urls.JoinPath "fit-in/1024x/blog/" $page.File.Dir $page.Params.image }}
-    {{ $ogImageSignature := hmac "sha1" (getenv "HUGO_IMAGOR_SHA_SECRET") $ogImagePath "binary" | base64Encode | replaceRE `\+` "-" | replaceRE `\/` "_" }}
-    {{ $ogImageURL := urls.JoinPath "https://imagor.lesueur.nz" $ogImageSignature $ogImagePath }}
-    <meta property="og:image" content='{{ $ogImageURL }}'>
-    <meta property="twitter:image" content='{{ $ogImageURL }}'>
-    {{ end }}
-
-    {{ with .Params.metaImage }}
-      {{ $ogImagePath := urls.JoinPath "fit-in/1024x/blog/" $page.Slug . }}
-      {{ $ogImageSignature := hmac "sha1" (getenv "HUGO_IMAGOR_SHA_SECRET") $ogImagePath "binary" | base64Encode | replaceRE `\+` "-" | replaceRE `\/` "_" }}
-      {{ $ogImageURL := urls.JoinPath "https://imagor.lesueur.nz" $ogImageSignature $ogImagePath }}
-      <meta property="og:image" content='{{ $ogImageURL }}'>
-      <meta property="twitter:image" content='{{ $ogImageURL }}'>
-    {{ end }}
-    
-    <meta property="og:type" content="website">
-    <meta property="twitter:card" content="summary">
-    <meta property="og:url" content="{{ .Permalink }}">
-
-    {{ $opts := dict "minify" true }}
-    {{ with resources.Get "css/main.css" | css.Build $opts }}
-    {{ if hugo.IsDevelopment }}
-      <link rel="stylesheet" href="{{ .RelPermalink }}">
-    {{ else }}
-      {{ with . | fingerprint }}
-        <link rel="stylesheet" href="{{ .RelPermalink }}" integrity="{{ .Data.Integrity }}" crossorigin="anonymous">
-      {{ end }}
-    {{ end }}
+  {{ if in "gps multiGPS inreach" .Params.layout }}
+  <link rel="preconnect" href="https://imagor.lesueur.nz" />
+  <link rel="preconnect" href="https://isso.lesueur.nz" />
+  <link rel="preconnect" href="https://tiles-a.data-cdn.linz.govt.nz" />
   {{ end }}
-  </head>
+
+  <title>{{ with .Title }}{{ . }} | {{ end }}{{ .Site.Title }}</title>
+  <meta property="og:title" content="{{ .Title }} | {{ .Site.Title }}">
+  <meta name="title" content="{{ .Title }} | {{ .Site.Title }}">
+  <meta property="twitter:title" content="{{ .Title }} | {{ .Site.Title }}">
+
+  {{ $page := . }}
+
+  {{ with .Params.metaDescription }}
+  {{ if in "gps multiGPS inreach" $page.Params.layout }}
+  <meta name="description" content="Trip Report: {{ . }}">
+  <meta property="og:description" content="Trip Report: {{ . }}">
+  <meta property="twitter:description" content="Trip Report: {{ . }}">
+  {{ else }}
+  <meta name="description" content="{{ . }}">
+  <meta property="og:description" content="{{ . }}">
+  <meta property="twitter:description" content="{{ . }}">
+  {{ end }}
+  {{ end }}
+
+  {{ if eq $page.Section "photos" }}
+  <meta name="description" content="{{ $page.Content }}">
+  <meta property="og:description" content="{{ $page.Content }}">
+  <meta property="twitter:description" content="{{ $page.Content }}">
+
+  {{ $ogImagePath := urls.JoinPath "fit-in/1024x/blog/" $page.File.Dir $page.Params.image }}
+  {{ $ogImageSignature := hmac "sha1" (getenv "HUGO_IMAGOR_SHA_SECRET") $ogImagePath "binary" | base64Encode | replaceRE
+  `\+` "-" | replaceRE `\/` "_" }}
+  {{ $ogImageURL := urls.JoinPath "https://imagor.lesueur.nz" $ogImageSignature $ogImagePath }}
+  <meta property="og:image" content='{{ $ogImageURL }}'>
+  <meta property="twitter:image" content='{{ $ogImageURL }}'>
+  {{ end }}
+
+  {{ with .Params.metaImage }}
+  {{ $ogImagePath := urls.JoinPath "fit-in/1024x/blog/" $page.Slug . }}
+  {{ $ogImageSignature := hmac "sha1" (getenv "HUGO_IMAGOR_SHA_SECRET") $ogImagePath "binary" | base64Encode | replaceRE
+  `\+` "-" | replaceRE `\/` "_" }}
+  {{ $ogImageURL := urls.JoinPath "https://imagor.lesueur.nz" $ogImageSignature $ogImagePath }}
+  <meta property="og:image" content='{{ $ogImageURL }}'>
+  <meta property="twitter:image" content='{{ $ogImageURL }}'>
+  {{ end }}
+
+  <meta property="og:type" content="website">
+  <meta property="twitter:card" content="summary">
+  <meta property="og:url" content="{{ .Permalink }}">
+
+  {{ $opts := dict "minify" true }}
+  {{ with resources.Get "css/main.css" | css.Build $opts }}
+  {{ if hugo.IsDevelopment }}
+  <link rel="stylesheet" href="{{ .RelPermalink }}">
+  {{ else }}
+  {{ with . | fingerprint }}
+  <link rel="stylesheet" href="{{ .RelPermalink }}" integrity="{{ .Data.Integrity }}" crossorigin="anonymous">
+  {{ end }}
+  {{ end }}
+  {{ end }}
+</head>
 
 {{ if in "gps" .Params.layout }}
-  <body class="gps">
-{{ else }}
+
+<body class="gps">
+  {{ else }}
+
   <body>
-{{ end }}
+    {{ end }}
     <header>
       <nav class="fa">
         <h1><a href="/" class="home">{{ .Site.Params.Author.name }}</a></h1>
