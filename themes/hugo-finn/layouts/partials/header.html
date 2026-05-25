@@ -85,22 +85,18 @@
     </style>
   </head>
 
-{{ if in "gps multiGPS adventures inreach" .Params.layout }}
+{{ if in "gps" .Params.layout }}
   <body class="gps">
 {{ else }}
   <body>
 {{ end }}
     <header>
-      <nav>
-        <div class="fa">
-          <h2><a href="/" class="home">{{ .Site.Params.Author.name }}</a></h2>
-          <span class="emoji">🏔 🏃‍♂️ 🎿 🛶 🚴‍♂️ 🧗 🧘‍♂️</span>
-        </div>
+      <nav class="fa">
+        <h1><a href="/" class="home">{{ .Site.Params.Author.name }}</a></h1>
+        <span class="emoji">🏔 🏃‍♂️ 🎿 🛶 🚴‍♂️ 🧗 🧘‍♂️</span>
       </nav>
       {{ if in "gps inreach fullGPS adventures" .Params.layout }}
-      <div id="hikeMap">
-        <!-- <button class="load-map">Load Map</button> -->
-      </div>
+      <div class="hikeMap"></div>
       {{ end }}
     </header>
     <main>

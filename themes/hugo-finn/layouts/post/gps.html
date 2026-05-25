@@ -1,42 +1,49 @@
 {{ partial "header.html" . }}
 
-<div class="content">
-    <h1>{{ .Title | markdownify }}</h1>
-    <p><strong>Activity Date:</strong> {{ with .Params.date }}<time datetime='{{ time.Format "2006-01-02" . }}'>{{ time.Format "2 January 2006" . }}</time>{{ end }}
-    {{ with .GitInfo }}<br/><strong>Updated:</strong> <time datetime='{{ .AuthorDate.Format "2006-01-02" }}'>{{ .AuthorDate.Format "2 January 2006" }}</time>{{ end }}
+{{ $page := .Page }}
 
-    {{ with .Params.people }}
-    <br/><strong>People:</strong> {{ range $index, $person := . }}
+<h1>{{ .Title | markdownify }}</h1>
+
+<p>
+    {{ with .GitInfo }}<i>Last updated <time datetime='{{ .AuthorDate.Format "2006-01-02" }}'>{{
+            .AuthorDate.Format "2 January 2006" }}</time></i>
+    {{ end }}
+</p>
+
+{{ with .Params.people }}
+<p>
+    Adventurers:
+    {{ range $index, $person := . }}
     <a href="/people/#{{ anchorize $person }}" title="View trips with {{ $person }}.">
         {{ $person -}}
-    </a>{{- if lt $index (sub (len $.Params.people) 1)}}, {{ end -}}{{ end }}
+    </a>{{- if lt $index (sub (len $.Params.people) 1)}}, {{ end -}}
     {{ end }}
-    </p>
+</p>
+{{ end }}
 
-    {{ if ne .Params.statsTable false }}
-    {{ partial "statsTable.html" . }}
-    {{ end }}
+{{ if ne .Params.statsTable false }}
+{{ partial "statsTable.html" . }}
+{{ end }}
 
-    <details>
-        <summary>Comments Section</summary>
-        <section id="isso-thread" data-isso-id="{{ .Slug }}" data-title="{{ .Title }}">
-            <noscript>Javascript needs to be activated to view comments.</noscript>
-        </section>
-    </details>
+<details>
+    <summary>Comments Section</summary>
+    <section id="isso-thread" data-isso-id="{{ .Slug }}" data-title="{{ .Title }}">
+        <noscript>Javascript needs to be activated to view comments.</noscript>
+    </section>
+</details>
 
-    {{ .Content }}
-</div>
+{{ .Content }}
 
 <script>
     var GPXFiles = [
         {{ range .Params.gpxFiles }}
-            "https://assets.lesueur.nz/blog/{{$.Page.Slug}}/{{ . }}",
+    "https://assets.lesueur.nz/blog/{{$.Page.Slug}}/{{ . }}",
         {{ end }}
     ];
 
     var GPXDataFiles = [
         {{ range .Params.gpxFiles }}
-            "{{ $.Site.BaseURL }}tracks/{{ strings.Replace . "gpx" "json" }}",
+    "{{ $.Site.BaseURL }}tracks/{{ strings.Replace . "gpx" "json" }}",
         {{ end }}
     ];
 
@@ -53,7 +60,7 @@
                     resource.setAttribute("rel", "stylesheet");
                     resource.href = url;
                 } else {
-                    resource =document.createElement("script");
+                    resource = document.createElement("script");
                     resource.src = url;
                     resource.async = false;
                 }
@@ -85,40 +92,36 @@
             });
 
             Promise.all(scriptPromises)
-            .then(function() {
-                initHike();
-            })
-            .catch(function(script) {
-                console.log("Error loading: " + script);
-            })
+                .then(function() {
+                    initHike();
+                })
+                .catch(function(script) {
+                    console.log("Error loading: " + script);
+                })
         }
 
         Promise.all(stylePromises)
-        .then(function() {
-            loadScripts();            
-        })
-        .catch(function(style) {
-            console.log("Error loading: " + style);
-        })
+            .then(function() {
+                loadScripts();
+            })
+            .catch(function(style) {
+                console.log("Error loading: " + style);
+            })
     }
 </script>
 <script src="/js/minimasonry.min.js" async></script>
 <script src="/js/glightbox.min.js" async></script>
-<script src="https://isso.lesueur.nz/js/embed.min.js" 
-        data-isso-avatar="false"
-        data-isso-vote="false"
-        data-isso="https://isso.lesueur.nz"
-        data-isso-css-url="https://isso.lesueur.nz/css/isso.css"
-        async></script>
+<script src="https://isso.lesueur.nz/js/embed.min.js" data-isso-avatar="false" data-isso-vote="false"
+    data-isso="https://isso.lesueur.nz" data-isso-css-url="https://isso.lesueur.nz/css/isso.css" async></script>
 <script>
     window.addEventListener("load", function() {
-        
+
         // https://github.com/Spope/MiniMasonry.js/
         var grids = document.querySelectorAll('.grid');
         grids.forEach(function(grid) {
             var masonry = new MiniMasonry({
                 container: grid,
-                baseWidth: 375,
+                baseWidth: 350,
                 gutterX: 0,
                 gutterY: 0,
                 ultimateGutter: 0,
@@ -136,7 +139,7 @@
             moreLength: 0,
             loop: false
         });
-        
+
     });
 </script>
 

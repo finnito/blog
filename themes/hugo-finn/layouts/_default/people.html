@@ -1,26 +1,24 @@
 {{ partial "header.html" . }}
 
-<div class="content">
-    {{ .Content }}
+{{ .Content }}
 
-    <ul class="archive">
-        <!-- Ranges through content/posts/*.md -->
-        {{ $people := slice }}
-        {{ range .Site.Pages }}
-            {{ with .Params.people }}
-            {{ $people = union $people . }}
+<ul class="archive">
+    <!-- Ranges through content/posts/*.md -->
+    {{ $people := slice }}
+    {{ range .Site.Pages }}
+        {{ with .Params.people }}
+        {{ $people = union $people . }}
+        {{ end }}
+    {{ end }}
+    {{ range sort (uniq $people) }}
+        {{ $person := . }}
+        <li id="{{ anchorize $person }}">{{ $person }} <a href="#{{ anchorize $person }}" title="Anchor page to {{ $person }}.">#</a></li>
+        <ul>
+            {{ range where $.Site.Pages "Params.people" "intersect" (slice $person) }}
+            <li>{{ .Params.emoji }} <a href="{{ .Permalink }}" title="{{ .Title }}">{{ .Title }}</a></li>
             {{ end }}
-        {{ end }}
-        {{ range sort (uniq $people) }}
-            {{ $person := . }}
-            <li id="{{ anchorize $person }}">{{ $person }} <a href="#{{ anchorize $person }}" title="Anchor page to {{ $person }}.">#</a></li>
-            <ul>
-                {{ range where $.Site.Pages "Params.people" "intersect" (slice $person) }}
-                <li>{{ .Params.emoji }} <a href="{{ .Permalink }}" title="{{ .Title }}">{{ .Title }}</a></li>
-                {{ end }}
-            </ul>
-        {{ end }}
-    </ul>
-</div>
+        </ul>
+    {{ end }}
+</ul>
 
 {{ partial "footer.html" . }}

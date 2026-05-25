@@ -1,21 +1,19 @@
 {{ partial "header.html" . }}
 
-<div class="content">
-    {{ .Content }}
+{{ .Content }}
 
-    <ul class="archive">
-        <!-- Ranges through content/posts/*.md -->
-        {{ range .Data.Pages.GroupByDate "January 2006" "desc" }}
-            {{ .Key }}
-            <ul>
-            {{ range .Pages }}
-                <li>
-                    <a href="{{.Permalink}}">{{ with .Params.emoji }}{{ . }}{{ end }} {{.Title}} <time>{{ .PublishDate.Format "2 Jan 2006" }}</time></a>
-                </li>
-            {{ end }}
-            </ul>
+<ul class="archive">
+    <!-- Ranges through content/posts/*.md -->
+    {{ range .Data.Pages.GroupByDate "January 2006" "desc" }}
+    {{ .Key }}
+    <ul>
+        {{ range .Pages }}
+        <li>
+            <a href="{{ .Permalink }}">{{ with .Params.emoji }}{{ . }}{{ end }} {{.Title}} <time>{{ .PublishDate.Format "2 Jan 2006" }}</time></a>
+        </li>
         {{ end }}
     </ul>
-</div>
+    {{ end }}
+</ul>
 
 {{ partial "footer.html" . }}

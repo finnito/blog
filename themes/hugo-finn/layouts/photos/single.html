@@ -1,18 +1,17 @@
 {{ partial "header.html" . }}
 
-<div class="content photos">
-    <h1>{{ .Title }}</h1>
-   <a href="{{ .Permalink }}" title="Permalink for {{ .Title }}"><time>{{ time.Format "2 January, 2006 at 3:04pm" .Params.photoDate }}</time></a>
-    {{ partial "figure.html" . }}
+<h1>{{ .Title }}</h1>
+<a href="{{ .Permalink }}" title="Permalink for {{ .Title }}"><time>{{ time.Format "2 January, 2006 at 3:04pm"
+        .Params.photoDate }}</time></a>
+{{ partial "figure.html" . }}
 
-    <div class="nav-buttons">
-        {{ with .PrevInSection }}
-        <a href="{{ .Permalink }}" title="{{ .Title }}">⬅️ Previous Photo</a>
-        {{ end }}
-        {{ with .NextInSection }}
-        <a href="{{ .Permalink }}" title="{{ .Title }}">Next Photo ➡️</a>
-        {{ end }}
-    </div>
+<div class="nav-buttons">
+    {{ with .PrevInSection }}
+    <a href="{{ .Permalink }}" title="{{ .Title }}">⬅️ Previous Photo</a>
+    {{ end }}
+    {{ with .NextInSection }}
+    <a href="{{ .Permalink }}" title="{{ .Title }}">Next Photo ➡️</a>
+    {{ end }}
 </div>
 
 {{ partial "footer.html" . }}

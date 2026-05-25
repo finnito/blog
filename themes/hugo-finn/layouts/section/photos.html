@@ -3,26 +3,28 @@
 {{ $latestPostSlice := first 1 (where .Site.RegularPages "Section" "photos") }}
 {{ $latestPost := index $latestPostSlice 0 }}
 
-<div class="content photos">
-        {{ with index $latestPost }}
-        <h1>{{ .Title }}</h1>
-         <a href="{{ .Permalink }}" title="Permalink for {{ .Title }}"><time>{{ time.Format "2 January, 2006 at 3:04pm" .Params.photoDate }}</time></a>
-        {{ partial "figure.html" . }}
-        {{ end }}
+{{ with index $latestPost }}
+<h1>{{ .Title }}</h1>
+<a href="{{ .Permalink }}" title="Permalink for {{ .Title }}"><time>{{ time.Format "2 January, 2006 at 3:04pm"
+        .Params.photoDate }}</time></a>
+{{ partial "figure.html" . }}
+{{ end }}
 
-    <blockquote><p>Subscribe to my photography RSS feed by clicking <a href="/photos/index.xml">here</a>.</p></blockquote>
-    
-    <div class="grid">
+<blockquote>
+    <p>Subscribe to my photography RSS feed by clicking <a href="/photos/index.xml">here</a>.</p>
+</blockquote>
+
+<div class="grid">
     {{ range where (where .Site.RegularPages "Section" "photos") "Params.date" "ne" $latestPost.Params.date }}
-        {{ partial "figure.html" . }}
+    {{ partial "figure.html" . }}
     {{ end }}
-    </div>
-    
-    <script src="/js/minimasonry.min.js" async></script>
-    <script src="/js/glightbox.min.js" async></script>
-    <script>
+</div>
+
+<script src="/js/minimasonry.min.js" async></script>
+<script src="/js/glightbox.min.js" async></script>
+<script>
     window.addEventListener("load", function() {
-        
+
         // https://github.com/Spope/MiniMasonry.js/
         var grids = document.querySelectorAll('.grid');
         grids.forEach(function(grid) {
@@ -45,9 +47,8 @@
             moreLength: 0,
             loop: false
         });
-        
+
     });
-    </script>
-</div>
+</script>
 
 {{ partial "footer.html" . }}

@@ -1,26 +1,24 @@
 {{ partial "header.html" . }}
 
-<div class="content">
-    {{ .Content }}
+{{ .Content }}
 
-    <ul class="archive">
-        <!-- Ranges through content/posts/*.md -->
-        {{ $pages := where .Site.RegularPages "Params.layout" "gps" }}
+<ul class="archive">
+    <!-- Ranges through content/posts/*.md -->
+    {{ $pages := where .Site.RegularPages "Params.layout" "gps" }}
 
-        {{ range $pages.GroupByDate "2006" "desc" }}
-            <ul>
-            <p>{{ .Key }}</p>
+    {{ range $pages.GroupByDate "2006" "desc" }}
+        <ul>
+        <p>{{ .Key }}</p>
 
-            {{ range .Pages }}
-                <li>
-                    {{ with .Params.emoji }}{{ . }}{{ end }}
-                    {{ if (.Draft) }}<strong>DRAFT: </strong>{{ end }}<a href="{{.Permalink}}">{{.Title}} {{ with .Params.author }}by {{ . }}{{end }}</a> <time>{{ .PublishDate.Format "2 Jan" }}</time>
-                </li>
-            {{ end }}
-
-            </ul>
+        {{ range .Pages }}
+            <li>
+                {{ with .Params.emoji }}{{ . }}{{ end }}
+                {{ if (.Draft) }}<strong>DRAFT: </strong>{{ end }}<a href="{{.Permalink}}">{{.Title}} {{ with .Params.author }}by {{ . }}{{end }}</a> <time>{{ .PublishDate.Format "2 Jan" }}</time>
+            </li>
         {{ end }}
-    </ul>
-</div>
+
+        </ul>
+    {{ end }}
+</ul>
 
 {{ partial "footer.html" . }}
