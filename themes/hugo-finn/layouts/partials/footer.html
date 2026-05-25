@@ -16,6 +16,24 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.23.0/plugins/autoloader/prism-autoloader.min.js" integrity="sha512-zc7WDnCM3aom2EziyDIRAtQg1mVXLdILE09Bo+aE1xk0AM2c2cVLfSW9NrxE5tKTX44WBY0Z2HClZ05ur9vB6A==" crossorigin="anonymous" async></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.23.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" />
     {{ end }}
+
+    {{ $page := . }}
+    {{ $path := "" }}
+    {{ with $page.File }}
+      {{ $path = .Path }}
+    {{ end }}
+
+    <script>
+      window.addEventListener("load", function() {
+        window.document.addEventListener("keyup", function(e) {
+          if (e.keyCode == 190 & !e.target.matches('input,textarea,select,button,fieldset,output,option')) {
+            if ({{$path}} != "") {
+              window.open("https://github.com/finnito/blog/edit/master/content/{{ $path }}");
+            }
+          }
+        }, false)
+      })
+    </script>
     
   </body>
 </html>
