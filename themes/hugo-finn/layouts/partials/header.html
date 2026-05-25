@@ -58,31 +58,16 @@
     <meta property="twitter:card" content="summary">
     <meta property="og:url" content="{{ .Permalink }}">
 
-    <style>
-      {{ readFile "/themes/hugo-finn/static/css/style.css" | safeCSS }}
-      {{ readFile "/themes/hugo-finn/static/css/mod-typography.css" | safeCSS }}
-
-      {{ if in "home photo" .Title }}
-        {{ readFile "/themes/hugo-finn/static/css/mod-home.css" | safeCSS }}
+    {{ $opts := dict "minify" true }}
+    {{ with resources.Get "css/main.css" | css.Build $opts }}
+    {{ if hugo.IsDevelopment }}
+      <link rel="stylesheet" href="{{ .RelPermalink }}">
+    {{ else }}
+      {{ with . | fingerprint }}
+        <link rel="stylesheet" href="{{ .RelPermalink }}" integrity="{{ .Data.Integrity }}" crossorigin="anonymous">
       {{ end }}
-
-      {{ if .Params.series }}
-        {{ readFile "/themes/hugo-finn/static/css/mod-series.css" | safeCSS }}
-      {{ end }}
-
-      {{ if eq "reading" .Params.layout }}
-        {{ readFile "/themes/hugo-finn/static/css/mod-reading.css" | safeCSS }}
-      {{ end }}
-
-      {{ if in "gps multiGPS inreach" .Params.layout }}
-        {{ readFile "/themes/hugo-finn/static/css/mod-gps.css" | safeCSS }}
-      {{ end  }}
-
-      {{ if eq "photos" .Section }}
-        {{ readFile "/themes/hugo-finn/static/css/mod-photos.css" | safeCSS }}
-        {{ readFile "/themes/hugo-finn/static/css/glightbox.min.css" | safeCSS }}
-      {{ end  }}
-    </style>
+    {{ end }}
+  {{ end }}
   </head>
 
 {{ if in "gps" .Params.layout }}
