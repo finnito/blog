@@ -22,8 +22,16 @@ timeout                 = 600000
 [_build]
   publishResources      = false
 
-[markup.goldmark.renderer]
-  unsafe                = true
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.parser]
+      [markup.goldmark.parser.attribute]
+        block = true
+        title = true
+    [markup.goldmark.renderer]
+        unsafe = true
+
+
 
 [taxonomies]
   series                = 'series'
