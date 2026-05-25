@@ -17,5 +17,6 @@ python bin/parse_gpx.py /volume1/web/dam/blog/
 	--enableGitInfo \
 	--gc \
 	--forceSyncStatic \
+	--ignoreCache \
 	--minify \
 	--destination /volume1/web/finn.lesueur.nz/
