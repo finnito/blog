@@ -4,11 +4,11 @@
 
 <h1>{{ .Title | markdownify }}</h1>
 
-<p>
-    {{ with .GitInfo }}<i>Last updated <time datetime='{{ .AuthorDate.Format "2006-01-02" }}'>{{
-            .AuthorDate.Format "2 January 2006" }}</time></i>
-    {{ end }}
-</p>
+{{ with .GitInfo }}
+<p><i>Last updated <time datetime='{{ .AuthorDate.Format "2006-01-02" }}'>{{
+            .AuthorDate.Format "2 January 2006" }}</time>
+</i></p>
+{{ end }}
 
 {{ with .Params.people }}
 <p>
