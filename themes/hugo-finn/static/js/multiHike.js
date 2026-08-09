@@ -51,12 +51,12 @@ function initHike() {
     Photos = L.featureGroup().addTo(HikeMap);
 
     // Create base layers
-    var layer50 = L.tileLayer('https://tiles-a.data-cdn.linz.govt.nz/services;key=50b8923a67814d28b7a1067e28f03000/tiles/v4/layer=50767/EPSG:3857/{z}/{x}/{y}.png', {
-        attribution: 'NZ Topo Map by <a href="https://data.linz.govt.nz/layer/50767-nz-topo50-maps/">LINZ</a>'
+    var layer50 = L.tileLayer('https://basemaps.linz.govt.nz/v1/tiles/topo-raster-gridded/WebMercatorQuad/{z}/{x}/{y}.webp?api=d01KKYTQ3JYG9HSE63D62P809XQ', {
+        attribution: 'Basemap © <a href="https://www.linz.govt.nz/copyright">LINZ CC BY 4.0</a>'
     });
-    var layer250 = L.tileLayer('https://tiles-a.data-cdn.linz.govt.nz/services;key=50b8923a67814d28b7a1067e28f03000/tiles/v4/layer=50798/EPSG:3857/{z}/{x}/{y}.png', {
-        attribution: 'NZ Topo Map by <a href="https://data.linz.govt.nz/layer/50767-nz-topo250-maps/">LINZ</a>'
-    });
+    // var layer250 = L.tileLayer('https://tiles-a.data-cdn.linz.govt.nz/services;key=50b8923a67814d28b7a1067e28f03000/tiles/v4/layer=50798/EPSG:3857/{z}/{x}/{y}.png', {
+    //     attribution: 'NZ Topo Map by <a href="https://data.linz.govt.nz/layer/50767-nz-topo250-maps/">LINZ</a>'
+    // });
     
     var layerOSM = L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
         attribution: '©️ <a href="https://www.openstreetmap.org/copyright">OpenStreetMap Contributors</a>'
@@ -64,7 +64,7 @@ function initHike() {
 
     BaseLayers = {
         "NZ Topo50": layer50,
-        "NZ Topo250": layer250,
+        // "NZ Topo250": layer250,
         "OpenStreetMap": layerOSM
     }
 
@@ -100,15 +100,15 @@ function checkBaseLayers() {
     // show NZ Topo tiles
     if (nzBounds.contains(HikeMap.getCenter())) {
         // console.log("Map center is in NZ");
-        
-        HikeMap.eachLayer
-        if (HikeMap.getZoom() > 12) {
-            BaseLayers["NZ Topo250"].remove(HikeMap);
-            BaseLayers["NZ Topo50"].addTo(HikeMap);
-        } else {
-            BaseLayers["NZ Topo250"].addTo(HikeMap);
-            BaseLayers["NZ Topo50"].remove(HikeMap);
-        }
+        BaseLayers["NZ Topo50"].addTo(HikeMap);
+        // HikeMap.eachLayer
+        // if (HikeMap.getZoom() > 12) {
+        //     BaseLayers["NZ Topo250"].remove(HikeMap);
+        //     BaseLayers["NZ Topo50"].addTo(HikeMap);
+        // } else {
+        //     BaseLayers["NZ Topo250"].addTo(HikeMap);
+        //     BaseLayers["NZ Topo50"].remove(HikeMap);
+        // }
         BaseLayers["OpenStreetMap"].remove(HikeMap);
     }
 
@@ -116,7 +116,7 @@ function checkBaseLayers() {
     // show OSM tiles
     else {
         // console.log("Map center is outside NZ");
-        BaseLayers["NZ Topo250"].remove(HikeMap);
+        // BaseLayers["NZ Topo250"].remove(HikeMap);
         BaseLayers["NZ Topo50"].remove(HikeMap);
         BaseLayers["OpenStreetMap"].addTo(HikeMap);
     }
@@ -187,7 +187,15 @@ async function fetchGPXFiles() {
     }))
     .then(response => {
         // console.log("All loaded!");
-        HikeMap.fitBounds(Tracks.getBounds());
+        console.log(Tracks);
+        if (Tracks.getLayers().length > 0) {
+            HikeMap.fitBounds(Tracks.getBounds());
+        } else {
+            HikeMap.fitBounds(L.latLngBounds(
+                L.latLng(-32.9, 179.999),
+                L.latLng(-51.3, 162.2)
+            ));
+        }
     })
 }
 
