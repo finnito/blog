@@ -26,8 +26,8 @@ The falls were very pretty and on a nicer (less icier) day, we would have wander
 
 By the time we got back to the hut, the sun was going down and it was not long until the frost set in. It was a truly freezing night!
 
-> 🍴 ??<br/>
-> 🍫 Tea & ginger nuts, hot chocolate & chocolate
+> 🍴 Buldak spicy noodles<br/>
+> 🍫 Hot chocolate & chocolate, Fireball 🔥
 {class="food"}
 
 ## D2: Out via Pouakai Hut
